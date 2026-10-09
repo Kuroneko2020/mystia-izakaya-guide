@@ -1,0 +1,21 @@
+Hata no Kokoro | Unknown+BreezeWiki
+Try
+our affiliated browser extension
+- redirect to BreezeWiki automatically!
+Hata no Kokoro
+Search
+Page theme
+default
+light
+dark
+You have to enable JavaScript to load wiki pages. Sorry!
+BreezeWiki source code
+Documentation and more information
+Chat / Bug reports / Feature requests
+This unofficial instance is based off the BreezeWiki source code, but is not controlled by the code developer.
+This page displays proxied content from
+https://touhou-mystias-izakaya.fandom.com/wiki/Hata_no_Kokoro
+. Text content is available under the CC-BY-SA license,
+see license info.
+Media files may have different copying restrictions.
+Fandom is a trademark of Fandom, Inc. BreezeWiki is not affiliated with Fandom.

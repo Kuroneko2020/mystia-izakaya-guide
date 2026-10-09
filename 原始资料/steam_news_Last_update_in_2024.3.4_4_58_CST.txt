@@ -1,0 +1,18 @@
+Last update in 2024.3.4 4:58 CST
+https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5688680204377804919
+
+We're going to start listing and summarizing all our fixes in the upcoming days in here.
+This is due to the large amount of fixes from before. We'll be reading all bug reports in here, so everyone is welcome to report any bugs they find.
+
+Updated 2024.3.4  4:58  CST
+
+[list]
+[*] Fixed cloud saves with Steam's tech support. Please give it a try. If you haven't booted up the game for a long time and realize your save file is gone, try recovering it with the method detailed in this video: [url]https://www.bilibili.com/video/BV1nK421k7DZ[/url] 
+[*] Fixed a black screen bug with Koishi's lunatic boss battle. Other issues stemming from this should have also been fixed.
+[*] From now on, if the game's resource check fails, a more detailed message will be provided.
+[*] Fixed an issue where trying to harvest the Oni Killer in Makai without owning DLC2 would crash the game.
+[*] Fixed some issues with Mima's spell exponentially increasing the budget when activated.
+[*] Fixed an issue where Youmu's trial would not spawn rare guests when the Creator's Box is active.
+[*] Got rid of the "trial version" text at the lower right.
+[*] Silently added support for Traditional Chinese + beta text for English DLC5 and Japanese DLC4 and DLC5.
+[/list]

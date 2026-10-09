@@ -1,0 +1,5 @@
+# 上游参考仓库保留各自完整 Git，主项目不将其变成嵌套 gitlink。
+/原始资料/repos/
+__pycache__/
+*.py[cod]
+node_modules/

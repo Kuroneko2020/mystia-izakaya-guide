@@ -1,0 +1,119 @@
+特殊/稀客：69 名
+[0] 莉格露 | DLC0 | 钱:200-400 | 出没:BeastForest,DLC1_MagicForest,DLC4_GardenOfTheSun | 喜:肉/甜/生/猎奇 | 厌:素/清淡/凉爽 | 酒:低酒精/可加冰 | 拿手:{'生': '生肉总比熟肉好吃'}
+[1] 露米娅 | DLC0 | 钱:150-350 | 出没:BeastForest,DLC1_MagicForest | 喜:流行喜爱/肉/饱腹/生/招牌/猎奇 | 厌:流行厌恶/昂贵/下酒 | 酒:苦/气泡 | 拿手:{'招牌': '拿手好菜'}
+[2] 橙 | DLC0 | 钱:400-600 | 出没:BeastForest | 喜:流行喜爱/肉/水产/重油/甜/烧烤 | 厌:流行厌恶/素/灼热/猎奇 | 酒:水果/辛 | 拿手:{'烧烤': '把肉串起来'}
+[3] 稗田阿求 | DLC0 | 钱:500-800 | 出没:HumanVillage,DLC3_MyourenTemple | 喜:流行喜爱/高级/清淡/和风/甜/文化底蕴/汤羹 | 厌:流行厌恶/重油/咸/灼热 | 酒:可加热/清酒 | 拿手:{'高级': '作为稗田家主'}
+[4] 上白泽慧音 | DLC0 | 钱:400-800 | 出没:HumanVillage,DLC1_MagicForest,DLC3_MyourenTemple | 喜:流行喜爱/素/家常/清淡/和风/中华/文化底蕴 | 厌:流行厌恶/大份/重油/咸 | 酒:烧酒/清酒/利口酒 | 拿手:{'文化底蕴': '历史和文化相辅相成'}
+[5] 茨木华扇 | DLC0 | 钱:400-600 | 出没:HumanVillage,DLC2_FormerHell,DLC3_DivineSpiritMausoleum | 喜:家常/下酒/和风/文化底蕴 | 厌:实惠/生/辣 | 酒:中酒精/直饮/古典 | 拿手:{}
+[7] 博丽灵梦 | DLC0 | 钱:150-300 | 出没:HakureiShrine,BeastForest,HumanVillage,DLC1_MagicForest,DLC1_YoukaiMountain | 喜:流行喜爱/实惠/高级/饱腹/甜/不可思议 | 厌:流行厌恶/昂贵/下酒 | 酒:无酒精/低酒精/可加热 | 拿手:{'实惠': '贵的买不起', '不可思议': '配得上我的称号'}
+[8] 伊吹萃香 | DLC0 | 钱:600-800 | 出没:HakureiShrine,DLC1_YoukaiMountain,DLC4_ShiningNeedleCastle | 喜:流行喜爱/肉/下酒/和风/力量涌现/小巧 | 厌:流行厌恶/重油 | 酒:高酒精/直饮 | 拿手:{'肉': '大口吃肉', '下酒': '佐酒的小菜', '小巧': '分散很多个小的自己'}
+[9] 比那名居天子 | DLC0 | 钱:2000-3000 | 出没:HakureiShrine,DLC1_YoukaiMountain,DLC2_FormerHell,DLC3_DivineSpiritMausoleum,DLC4_GardenOfTheSun | 喜:流行厌恶/昂贵/素/传说/清淡/甜/适合拍照/果味 | 厌:流行喜爱/肉/家常/重油 | 酒:高酒精/鸡尾酒 | 拿手:{'昂贵': '我不缺钱', '素': '荤腥的东西', '清淡': '口味重的东西', '适合拍照': '卖相不好的低贱品'}
+[10] 雾雨魔理沙 | DLC1 | 钱:3000-5000 | 出没:DLC1_MagicForest,BeastForest,HumanVillage,HakureiShrine,ScarletMansion,BambooForest,DLC1_YoukaiMountain,DLC2_FormerHell,DLC2_EarthSpiritsPalace,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum,DLC4_GardenOfTheSun,DLC4_ShiningNeedleCastle,DLC5_LunarCapital,DLC5_Makai | 喜:流行喜爱/传说/重油/和风/灼热/菌类 | 厌:流行厌恶/猎奇 | 酒:低酒精/可加冰 | 拿手:{'传说': '古老的东西', '重油': '油炸食品'}
+[15] 红美铃 | DLC0 | 钱:200-400 | 出没:ScarletMansion | 喜:流行喜爱/肉/饱腹/中华/力量涌现 | 厌:流行厌恶/西式/猎奇/果味 | 酒:可加热/古典/提神 | 拿手:{'中华': '祖国的味道'}
+[28] 琪露诺 | DLC0 | 钱:100-200 | 出没:ScarletMansion,DLC1_YoukaiMountain | 喜:流行厌恶/甜/适合拍照/凉爽/猎奇 | 厌:流行喜爱/昂贵/下酒/文化底蕴 | 酒:可加冰/水果/甘 | 拿手:{'适合拍照': '丑拒', '凉爽': '要吃冰的'}
+[27] 帕秋莉 | DLC0 | 钱:600-1000 | 出没:ScarletMansion,DLC1_MagicForest,DLC2_EarthSpiritsPalace | 喜:高级/西式/甜/适合拍照/梦幻 | 厌:咸/生/灼热/猎奇 | 酒:鸡尾酒/利口酒/气泡 | 拿手:{'西式': '文化的差异', '适合拍照': '品相好看'}
+[24] 藤原妹红 | DLC0 | 钱:300-600 | 出没:BambooForest,BeastForest | 喜:灼热/果味/烧烤/辣/燃起来了 | 厌:昂贵/高级/不可思议 | 酒:烧酒/辛/苦 | 拿手:{'燃起来了': '复仇之火永扑不尽'}
+[25] 蓬莱山辉夜 | DLC0 | 钱:1000-1500 | 出没:BambooForest,DLC4_ShiningNeedleCastle | 喜:流行喜爱/传说/和风/文化底蕴/不可思议 | 厌:流行厌恶/大份/招牌/猎奇 | 酒:清酒/古典/现代 | 拿手:{'文化底蕴': '不可磨灭的过去'}
+[29] 因幡帝 | DLC0 | 钱:200-400 | 出没:BambooForest | 喜:流行喜爱/传说/甜/凉爽/小巧/梦幻 | 厌:流行厌恶/重油/山珍/猎奇 | 酒:无酒精/水果/甘 | 拿手:{'凉爽': '降温工作', '小巧': '三分饱'}
+[1000] 河城荷取 | DLC1 | 钱:400-500 | 出没:DLC1_YoukaiMountain | 喜:水产/高级/下酒/咸/招牌/猎奇 | 厌:素/山珍/文化底蕴 | 酒:中酒精/高酒精/清酒/直饮 | 拿手:{'高级': '最上品的菜', '招牌': '口碑最好的菜', '猎奇': '河童的口味'}
+[1001] 犬走椛 | DLC1 | 钱:300-400 | 出没:DLC1_YoukaiMountain | 喜:大份/肉/重油/下酒/山珍 | 厌:素/清淡/猎奇 | 酒:中酒精/高酒精/直饮 | 拿手:{'大份': '不多吃点', '重油': '不健康的饮食'}
+[1005] 东风谷早苗 | DLC1 | 钱:400-600 | 出没:DLC1_YoukaiMountain,DLC1_MagicForest,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum | 喜:流行喜爱/家常/和风/甜/适合拍照/梦幻 | 厌:重油/生/灼热/猎奇 | 酒:无酒精/低酒精/清酒/直饮/水果/甘/苦/气泡/现代 | 拿手:{'和风': '大和风情', '适合拍照': '手机'}
+[1002] 爱丽丝 | DLC1 | 钱:500-800 | 出没:DLC1_MagicForest,DLC4_GardenOfTheSun | 喜:家常/高级/西式/甜/文化底蕴 | 厌:肉/重油/饱腹/猎奇 | 酒:低酒精/西洋酒/现代 | 拿手:{'高级': '低级趣味'}
+[1004] 矢田寺成美 | DLC1 | 钱:300-600 | 出没:DLC1_MagicForest,DLC3_MyourenTemple | 喜:清淡/山珍/和风/文化底蕴/特产 | 厌:重油/饱腹 | 酒:低酒精/中酒精/可加冰/直饮/古典 | 拿手:{'特产': '不同地方的美食'}
+[2000] 黑谷山女 | DLC2 | 钱:250-400 | 出没:DLC2_FormerHell,BeastForest,ScarletMansion,DLC1_MagicForest,DLC1_YoukaiMountain | 喜:流行喜爱/鲜/甜/生/适合拍照/猎奇 | 厌:重油/咸/灼热 | 酒:低酒精/中酒精/啤酒/甘 | 拿手:{'生': '太熟吃不惯', '猎奇': '蜘蛛的口味'}
+[2001] 水桥帕露西 | DLC2 | 钱:300-400 | 出没:DLC2_FormerHell | 喜:流行厌恶/肉/咸/鲜/果味/辣/酸 | 厌:流行喜爱/甜 | 酒:无酒精/可加热/直饮/辛/苦 | 拿手:{}
+[2002] 星熊勇仪 | DLC2 | 钱:600-1000 | 出没:DLC2_FormerHell,HakureiShrine,DLC1_YoukaiMountain,DLC2_EarthSpiritsPalace | 喜:流行喜爱/大份/传说/下酒/和风/招牌/力量涌现/燃起来了 | 厌:素/猎奇/小巧 | 酒:高酒精/清酒/啤酒/古典 | 拿手:{'大份': '饱餐一顿', '燃起来了': '血液沸腾起来'}
+[2003] 古明地觉 | DLC2 | 钱:500-600 | 出没:DLC2_EarthSpiritsPalace,HumanVillage,HakureiShrine,ScarletMansion,BambooForest,DLC1_MagicForest | 喜:家常/甜/力量涌现/小巧/梦幻/特产 | 厌:大份/肉/山珍/灼热/猎奇 | 酒:无酒精/苦/气泡/提神 | 拿手:{'小巧': '吃太饱不利于思考', '特产': '缩短他乡与故乡的距离'}
+[2004] 火焰猫燐 | DLC2 | 钱:500-700 | 出没:DLC2_EarthSpiritsPalace,HumanVillage,HakureiShrine,DLC1_YoukaiMountain,DLC2_FormerHell,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum | 喜:流行喜爱/水产/海味/鲜/甜/猎奇/梦幻 | 厌:生/灼热 | 酒:低酒精/清酒/水果 | 拿手:{'海味': '地底海底相通'}
+[2005] 灵乌路空 | DLC2 | 钱:500-800 | 出没:DLC2_EarthSpiritsPalace,DLC1_YoukaiMountain | 喜:肉/重油/咸/灼热/力量涌现/辣 | 厌:清淡/菌类 | 酒:中酒精/可加热/鸡尾酒 | 拿手:{'重油': '火焰的燃烧', '灼热': '比火焰炽热', '辣': '火辣辣的感觉'}
+[3000] 多多良小伞 | DLC3 | 钱:150-300 | 出没:DLC3_MyourenTemple,DLC4_ShiningNeedleCastle | 喜:流行喜爱/家常/饱腹/甜/适合拍照/力量涌现/猎奇/不可思议 | 厌:灼热/汤羹/辣 | 酒:中酒精/可加冰/水果/古典 | 拿手:{'饱腹': '肚子总是空空', '适合拍照': '好看的食物', '猎奇': '让人吓一跳'}
+[3001] 村纱水蜜 | DLC3 | 钱:400-600 | 出没:DLC3_MyourenTemple | 喜:肉/高级/饱腹/咸/鲜/力量涌现/特产 | 厌:素/猎奇/小巧/酸 | 酒:高酒精/可加冰/西洋酒/辛 | 拿手:{'鲜': '食物的保质期', '特产': '食物的相逢'}
+[3002] 封兽鵺 | DLC3 | 钱:300-500 | 出没:DLC3_MyourenTemple,DLC4_ShiningNeedleCastle | 喜:流行厌恶/肉/鲜/生/招牌/适合拍照/猎奇/不可思议/特产 | 厌:流行喜爱/西式/酸 | 酒:可加热/烧酒/直饮/古典 | 拿手:{'鲜': '腐肉', '适合拍照': '拍个不停'}
+[3003] 物部布都 | DLC3 | 钱:600-900 | 出没:DLC3_DivineSpiritMausoleum | 喜:流行喜爱/高级/传说/清淡/山珍/和风/燃起来了 | 厌:流行厌恶/西式/生 | 酒:中酒精/可加热/直饮/气泡 | 拿手:{'和风': '吾之时代'}
+[3004] 霍青娥 | DLC3 | 钱:400-900 | 出没:DLC3_DivineSpiritMausoleum | 喜:流行喜爱/素/传说/中华/甜/不可思议/小巧/特产 | 厌:重油/饱腹 | 酒:低酒精/清酒/水果/现代 | 拿手:{'素': '满嘴荤腥', '中华': '我的家乡', '小巧': '宵夜的份量', '特产': '吃遍各地美食'}
+[3005] 苏我屠自古 | DLC3 | 钱:500-600 | 出没:DLC3_DivineSpiritMausoleum | 喜:家常/重油/饱腹/和风/招牌/力量涌现/烧烤 | 厌:甜/凉爽 | 酒:高酒精/烧酒/啤酒/苦 | 拿手:{'饱腹': '就用肚子来装', '和风': '过去吃过的', '烧烤': '被雷劈过一样'}
+[4000] 射命丸文 | DLC4 | 钱:500-600 | 出没:DLC4_GardenOfTheSun,BeastForest,HumanVillage,HakureiShrine,ScarletMansion,BambooForest,DLC1_MagicForest,DLC1_YoukaiMountain,DLC2_FormerHell,DLC2_EarthSpiritsPalace,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum,DLC4_ShiningNeedleCastle,DLC5_LunarCapital,DLC5_Makai | 喜:流行喜爱/肉/家常/下酒/和风/招牌/适合拍照 | 厌:流行厌恶/西式 | 酒:高酒精/可加冰/烧酒/提神 | 拿手:{'下酒': '有酒无菜', '适合拍照': '入我相机'}
+[4001] 梅蒂欣 | DLC4 | 钱:200-400 | 出没:DLC4_GardenOfTheSun | 喜:甜/招牌/适合拍照/凉爽/菌类/小巧/梦幻/毒 | 厌:文化底蕴 | 酒:无酒精/水果/甘/苦 | 拿手:{'甜': '毒最基础的味道', '凉爽': '不能受热', '菌类': '森林里疯长的', '梦幻': '追求奇妙的体验', '毒': '最上乘的调味品'}
+[4002] 风见幽香 | DLC4 | 钱:1200-1800 | 出没:DLC4_GardenOfTheSun | 喜:流行喜爱/高级/传说/清淡/西式/不可思议/梦幻/特产 | 厌:饱腹/和风/咸/灼热 | 酒:鸡尾酒/西洋酒/利口酒/现代 | 拿手:{'传说': '流传至今的过去', '清淡': '不要油手碰花', '西式': '绅士风度', '不可思议': '冬紫罗兰', '梦幻': '蓝色满天星'}
+[4003] 鬼人正邪 | DLC4 | 钱:300-600 | 出没:DLC4_ShiningNeedleCastle | 喜:流行厌恶/重油/下酒/灼热/力量涌现/猎奇/不可思议/燃起来了 | 厌:流行喜爱/高级 | 酒:中酒精/烧酒/直饮/辛 | 拿手:{'灼热': '滋滋冒气', '不可思议': '不可能实现', '燃起来了': '颠覆强者'}
+[4004] 少名针妙丸 | DLC4 | 钱:600-1200 | 出没:DLC4_ShiningNeedleCastle | 喜:流行喜爱/传说/和风/甜/适合拍照/文化底蕴/小巧/燃起来了 | 厌:大份/西式 | 酒:低酒精/可加热/气泡/古典 | 拿手:{'传说': '充满勇气的故事', '和风': '名神的后裔', '适合拍照': '跟别人分享', '小巧': '我的食量'}
+[4005] 今泉影狼 | DLC4 | 钱:300-600 | 出没:BambooForest,DLC4_ShiningNeedleCastle | 喜:流行喜爱/肉/家常/山珍/和风/适合拍照/凉爽 | 厌:灼热 | 酒:中酒精/可加冰/清酒/直饮 | 拿手:{'肉': '人家是狼', '和风': '本州风格', '凉爽': '从胃里降温'}
+[5000] 铃仙 | DLC5 | 钱:200-350 | 出没:DLC5_LunarCapital | 喜:家常/山珍/海味/中华/甜/小巧/特产 | 厌:昂贵/不可思议 | 酒:高酒精/可加热/烧酒/啤酒/苦 | 拿手:{'山珍': '月之都如果有山', '海味': '不那么死气沉沉', '中华': '月兔也是仙子', '小巧': '兔子的胃很小', '特产': '无法抵达的地方'}
+[5001] 绵月丰姬 | DLC5 | 钱:1200-1500 | 出没:DLC5_LunarCapital | 喜:流行喜爱/素/高级/和风/甜/凉爽/文化底蕴/果味 | 厌:山珍/咸/力量涌现 | 酒:高酒精/可加冰/清酒/水果/古典 | 拿手:{'素': '吃草帮助消化', '和风': '喜欢上和歌了', '凉爽': '好热', '文化底蕴': '料理里的故事'}
+[5002] 绵月依姬 | DLC5 | 钱:1000-1200 | 出没:DLC5_LunarCapital | 喜:高级/传说/清淡/中华/灼热/力量涌现/文化底蕴/小巧 | 厌:山珍/菌类 | 酒:可加热/烧酒/直饮/辛/提神 | 拿手:{'高级': '月之民不食糟糠', '传说': '令后人传诵的功绩', '灼热': '不要让血液冷下来', '小巧': '锻炼不宜吃太多'}
+[5003] 爱莲 | DLC5 | 钱:300-500 | 出没:DLC5_Makai | 喜:流行喜爱/家常/饱腹/西式/甜/凉爽/梦幻 | 厌:水产/重油/生 | 酒:低酒精/可加热/啤酒/甘/古典 | 拿手:{'凉爽': '毕竟是猫舌头'}
+[5004] 魅魔 | DLC5 | 钱:2000-3000 | 出没:DLC5_Makai | 喜:水产/山珍/鲜/生/力量涌现/猎奇/菌类 | 厌:高级/清淡 | 酒:高酒精/可加冰/烧酒/西洋酒/辛 | 拿手:{'鲜': '陈腐的东西不能入口', '生': '最原始的味道', '力量涌现': '激活身体和思维'}
+[5005] 露易兹 | DLC5 | 钱:800-1000 | 出没:DLC5_Makai,BeastForest,HumanVillage,HakureiShrine,ScarletMansion,BambooForest,DLC1_MagicForest,DLC1_YoukaiMountain,DLC2_FormerHell,DLC2_EarthSpiritsPalace,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum,DLC4_GardenOfTheSun,DLC4_ShiningNeedleCastle | 喜:流行喜爱/水产/西式/甜/适合拍照/小巧/特产 | 厌:重油/饱腹 | 酒:中酒精/可加冰/鸡尾酒/啤酒/现代 | 拿手:{'适合拍照': '适合发博客', '小巧': '晚上不宜太饱', '特产': '旅行的乐趣'}
+[6] 森近霖之助 | DLC0 | 钱:250-400 | 出没:HumanVillage,DLC1_MagicForest,DLC4_GardenOfTheSun | 喜:流行喜爱/家常/饱腹/鲜 | 厌:流行厌恶/重油/下酒/猎奇 | 酒:烧酒/啤酒 | 拿手:{'饱腹': '不能吃不饱'}
+[4008] 蕾米莉亚 | DLC4 | 钱:4950-5000 | 出没:HakureiShrine,ScarletMansion | 喜:流行喜爱/高级/传说/西式/甜/生 | 厌:实惠/咸/辣/酸 | 酒:高酒精/西洋酒/水果/甘/古典 | 拿手:{'西式': '异国风味'}
+[39] 魂魄妖梦 | DLC0 | 钱:300-400 | 出没:BeastForest,HumanVillage,HakureiShrine,BambooForest | 喜:家常/清淡/鲜/力量涌现 | 厌:重油/咸/猎奇 | 酒:无酒精/可加热/水果 | 拿手:{}
+[40] 西行寺幽幽子 | DLC0 | 钱:1500-2000 | 出没:HakureiShrine,ScarletMansion,BambooForest,DLC3_DivineSpiritMausoleum | 喜:大份/肉/水产/高级/传说/饱腹/和风/中华 | 厌:素/清淡/小巧 | 酒:高酒精/可加冰/鸡尾酒 | 拿手:{}
+[30] 萌澄果 | DLC0 | 联动:MC_Gensokyo | 钱:1200-1600 | 出没:BeastForest,HumanVillage,HakureiShrine,ScarletMansion,BambooForest,DLC1_MagicForest,DLC1_YoukaiMountain,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum,DLC4_GardenOfTheSun,DLC4_ShiningNeedleCastle,DLC5_LunarCapital,DLC5_Makai | 喜:流行喜爱/肉/水产/甜/梦幻 | 厌:流行厌恶/灼热/猎奇 | 酒:可加冰/水果/甘/辛 | 拿手:{}
+[31] 蹦蹦跳跳的三妖精 | DLC0 | 联动:3FARIES_Collab | 钱:300-400 | 出没:BeastForest,HumanVillage,HakureiShrine,ScarletMansion,BambooForest,DLC1_YoukaiMountain | 喜:流行喜爱/家常/甜/凉爽/菌类/小巧/梦幻 | 厌:流行厌恶/生/灼热/猎奇 | 酒:无酒精/水果/甘/苦 | 拿手:{}
+[36] 冴月麟 | DLC0 | 联动:TBC2_Collab | 钱:400-600 | 出没:BeastForest,HumanVillage,HakureiShrine,ScarletMansion,BambooForest | 喜:流行喜爱/水产/家常/中华/辣 | 厌:重油/下酒/生 | 酒:无酒精/甘/气泡 | 拿手:{}
+[37] 立空汐 | DLC0 | 联动:TBC2_Collab | 钱:500-800 | 出没:BeastForest,HakureiShrine,ScarletMansion,BambooForest,DLC1_YoukaiMountain | 喜:流行厌恶/昂贵/肉/下酒/山珍/和风/力量涌现 | 厌:流行喜爱/素/清淡 | 酒:高酒精/可加冰/可加热 | 拿手:{}
+[38] 时焉侑 | DLC0 | 联动:TBC2_Collab | 钱:1300-1800 | 出没:HumanVillage,HakureiShrine | 喜:传说/下酒/西式/中华/文化底蕴/特产 | 厌:水产/重油/饱腹 | 酒:中酒精/可加冰/鸡尾酒/西洋酒 | 拿手:{}
+[41] 秦心 | DLC0 | 联动:TBS_Kokoro | 钱:514-805 | 出没:HumanVillage,HakureiShrine,DLC1_YoukaiMountain,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum | 喜:流行喜爱/传说/和风/招牌/适合拍照/凉爽/梦幻 | 厌:流行厌恶/重油/咸/灼热 | 酒:中酒精/烧酒/甘/古典 | 拿手:{'和风': '古典歌舞剧', '招牌': '点一样的', '适合拍照': '我的舞姿', '凉爽': '凉风'}
+[1003] 饕餮尤魔 | DLC1 | 钱:9999-9999 | 出没:DLC1_YoukaiMountain,BeastForest,HakureiShrine,ScarletMansion,DLC1_MagicForest,BambooForest,DLC2_FormerHell,DLC2_EarthSpiritsPalace,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum,DLC4_GardenOfTheSun,DLC4_ShiningNeedleCastle,DLC5_LunarCapital,DLC5_Makai | 喜:大份/肉/高级/传说/饱腹/鲜/生/力量涌现/不可思议 | 厌:无 | 酒:高酒精/烧酒/直饮/辛 | 拿手:{'大份': '指头缝都塞不满', '饱腹': '无限的胃袋', '鲜': '馊掉的东西', '生': '血淋淋的食物'}
+[2006] 古明地恋 | DLC2 | 钱:800-1200 | 出没:DLC2_EarthSpiritsPalace,BeastForest,HumanVillage,HakureiShrine,ScarletMansion,BambooForest,DLC1_MagicForest,DLC1_YoukaiMountain,DLC2_FormerHell,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum,DLC4_GardenOfTheSun,DLC4_ShiningNeedleCastle,DLC5_LunarCapital,DLC5_Makai | 喜:流行厌恶/咸/甜/生/猎奇/不可思议/梦幻 | 厌:无 | 酒:高酒精/烧酒/苦/气泡 | 拿手:{'不可思议': '永远猜不到我想要的是什么'}
+[3009] 二岩猯藏 | DLC3 | 钱:1000-1200 | 出没:BeastForest,HumanVillage,HakureiShrine,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum | 喜:流行喜爱/肉/水产/家常/传说/下酒/和风/果味 | 厌:灼热/辣 | 酒:高酒精/可加热/烧酒/古典 | 拿手:{'和风': '佐渡老家'}
+[5012] 八云紫 | DLC5 | 钱:4000-6000 | 出没:BeastForest,HumanVillage,HakureiShrine,ScarletMansion,BambooForest,DLC1_MagicForest,DLC1_YoukaiMountain,DLC2_FormerHell,DLC2_EarthSpiritsPalace,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum,DLC4_GardenOfTheSun,DLC4_ShiningNeedleCastle,DLC5_LunarCapital,DLC5_Makai | 喜:家常/高级/传说/适合拍照/凉爽/猎奇/汤羹 | 厌:饱腹/菌类 | 酒:中酒精/高酒精/烧酒/古典 | 拿手:{'适合拍照': '食之品相'}
+[9000] 大妖精 | DLC9 | 钱:300-500 | 出没:ScarletMansion,DLC4_GardenOfTheSun | 喜:清淡/甜/凉爽/小巧/果味 | 厌:灼热/猎奇 | 酒:无酒精/低酒精/可加冰/直饮/甘/气泡 | 拿手:{'清淡': '没有味道', '凉爽': '清风', '小巧': '比雾之湖大一点'}
+[9001] 小恶魔 | DLC9 | 钱:300-500 | 出没:ScarletMansion,DLC1_MagicForest,DLC2_EarthSpiritsPalace | 喜:肉/传说/下酒/西式/甜/烧烤/辣 | 厌:清淡 | 酒:高酒精/可加热/辛/提神 | 拿手:{'传说': '最珍贵的料理', '西式': '外国风味'}
+[9002] 芙兰朵露 | DLC9 | 钱:2500-3200 | 出没:HakureiShrine | 喜:生/招牌/适合拍照/灼热/猎奇/不可思议/辣 | 厌:无 | 酒:中酒精/高酒精/可加热/水果/辛 | 拿手:{'生': '没有做熟的食物', '招牌': '有趣的东西', '适合拍照': '世界好美', '猎奇': '可爱的玩偶', '不可思议': '带着魔法的女仆长'}
+[9003] 八意永琳 | DLC9 | 钱:2000-2400 | 出没:BambooForest | 喜:流行喜爱/家常/传说/文化底蕴/梦幻/特产/毒 | 厌:重油/生 | 酒:低酒精/中酒精/可加冰/清酒/直饮/甘/古典 | 拿手:{'文化底蕴': '文明的尺度', '特产': '独特的惊喜'}
+[9004] 神绮 | DLC9 | 钱:3000-3500 | 出没:DLC1_MagicForest,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum,DLC5_Makai | 喜:家常/高级/传说/西式/甜/不可思议/梦幻 | 厌:流行厌恶/重油/生/猎奇/酸 | 酒:无酒精/直饮/水果/甘/古典 | 拿手:{'传说': '外界来的高僧', '梦幻': '魔界的童话'}
+[10000] 秋静叶 | DLC9 | 钱:100-400 | 出没:DLC1_YoukaiMountain | 喜:实惠/甜/凉爽/力量涌现/文化底蕴 | 厌:肉/重油/辣/酸 | 酒:可加热/清酒/辛/苦 | 拿手:{'实惠': '牧场的开销', '力量涌现': '踹不动树', '文化底蕴': '自古逢秋悲寂寥'}
+[10001] 秋穰子 | DLC9 | 钱:200-500 | 出没:DLC1_YoukaiMountain | 喜:实惠/家常/饱腹/甜/烧烤 | 厌:重油/山珍/海味/酸 | 酒:低酒精/水果/甘 | 拿手:{'实惠': '价格高昂'}
+[10002] 八云蓝 | DLC9 | 钱:600-1200 | 出没:HakureiShrine,HumanVillage,DLC2_FormerHell | 喜:大份/高级/传说/重油/山珍/和风/力量涌现/不可思议 | 厌:水产/清淡/灼热/小巧 | 酒:中酒精/高酒精/可加热/清酒/辛/气泡/提神 | 拿手:{'大份': '各打包一份', '重油': '换点别的炸货', '山珍': '怕水湿了尾巴', '力量涌现': '真是累人', '不可思议': '算得出三途川'}
+[11000] 雪 | DLC9 | 钱:100-900 | 出没:HumanVillage,DLC5_Makai | 喜:大份/肉/饱腹/鲜/甜/灼热/果味/辣 | 厌:素/清淡/凉爽/小巧 | 酒:可加热/直饮/水果/甘/气泡/现代 | 拿手:{'大份': '丰盛的大餐', '鲜': '鲜牛奶变聪明', '灼热': '趁热全吃完', '果味': '我爱吃的糕点'}
+[11001] 舞 | DLC9 | 钱:500-600 | 出没:HumanVillage,DLC5_Makai | 喜:素/清淡/西式/凉爽/小巧/汤羹 | 厌:大份/肉/重油/饱腹/灼热/辣 | 酒:无酒精/可加冰/直饮/水果/气泡/古典 | 拿手:{'素': '鸽子爱吃玉米', '凉爽': '刺骨的寒冷', '小巧': '三分饱'}
+
+普通客人：47 名
+[0] 妖怪兔 | DLC0 | 出没:BeastForest,ScarletMansion,BambooForest,DLC1_MagicForest,DLC1_YoukaiMountain,DLC2_EarthSpiritsPalace | 喜:流行喜爱/家常/咸/鲜/甜/招牌/凉爽/力量涌现/果味 | 酒:无酒精
+[1] 妖怪猫 | DLC0 | 出没:BeastForest,HakureiShrine,ScarletMansion,BambooForest,DLC1_MagicForest,DLC1_YoukaiMountain,DLC2_EarthSpiritsPalace | 喜:流行喜爱/肉/海味/中华/招牌/凉爽 | 酒:可加冰/啤酒/苦
+[2] 妖怪狸 | DLC0 | 出没:BeastForest,HakureiShrine,ScarletMansion,BambooForest,DLC1_MagicForest,DLC1_YoukaiMountain,DLC3_MyourenTemple | 喜:流行喜爱/肉/重油/饱腹/山珍/咸/招牌 | 酒:甘/辛
+[3] 妖怪狐 | DLC0 | 出没:BeastForest,ScarletMansion,BambooForest,DLC1_YoukaiMountain,DLC2_FormerHell | 喜:流行喜爱/肉/和风/中华/招牌/小巧 | 酒:直饮
+[4] 蟒蛇精 | DLC0 | 出没:BeastForest,DLC1_YoukaiMountain,DLC2_FormerHell | 喜:流行喜爱/肉/下酒/山珍/力量涌现 | 酒:烧酒/清酒
+[5] 人类小孩 | DLC0 | 出没:HumanVillage | 喜:流行喜爱/肉/家常/饱腹/中华/咸/甜/招牌/凉爽 | 酒:无酒精
+[6] 人类男性 | DLC0 | 出没:HumanVillage,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum | 喜:流行喜爱/肉/下酒/和风/咸/鲜/灼热/文化底蕴 | 酒:可加热/烧酒
+[7] 人类女性 | DLC0 | 出没:HumanVillage,HakureiShrine,DLC3_MyourenTemple,DLC3_DivineSpiritMausoleum | 喜:流行喜爱/水产/高级/咸/鲜/招牌/凉爽 | 酒:可加冰
+[8] 人类长者 | DLC0 | 出没:HumanVillage,HakureiShrine,DLC3_DivineSpiritMausoleum | 喜:流行喜爱/高级/招牌/适合拍照/灼热 | 酒:低酒精
+[9] 左卫门 | DLC0 | 出没:HumanVillage,HakureiShrine | 喜:流行喜爱/高级/生/力量涌现/猎奇 | 酒:高酒精
+[10] 座敷童子 | DLC0 | 出没:HakureiShrine | 喜:流行喜爱/山珍/和风/甜/生/招牌/凉爽 | 酒:无酒精/低酒精
+[11] 河童 | DLC0 | 出没:HakureiShrine,ScarletMansion,DLC1_MagicForest,DLC1_YoukaiMountain | 喜:流行喜爱/大份/高级/海味/招牌/灼热/猎奇/小巧 | 酒:甘
+[12] 地精 | DLC0 | 出没: | 喜:流行喜爱/高级/重油/山珍/凉爽/灼热/力量涌现 | 酒:清酒/西洋酒
+[13] 鸦天狗 | DLC0 | 出没:HakureiShrine,ScarletMansion,BambooForest,DLC1_YoukaiMountain | 喜:流行喜爱/高级/招牌/适合拍照/菌类 | 酒:烧酒/清酒
+[14] 妖精 | DLC0 | 出没:ScarletMansion,BambooForest,DLC1_MagicForest | 喜:流行喜爱/鲜/甜/适合拍照/菌类/梦幻/特产/果味 | 酒:直饮/水果/甘/气泡
+[1000] 白狼天狗 | DLC1 | 出没:DLC1_YoukaiMountain | 喜:流行喜爱/肉/重油/饱腹/山珍/咸/鲜/生/招牌/特产 | 酒:中酒精/高酒精/烧酒/清酒
+[1001] 山姥 | DLC1 | 出没:DLC1_YoukaiMountain | 喜:流行喜爱/肉/家常/高级/饱腹/鲜/力量涌现/猎奇 | 酒:高酒精/烧酒/直饮/古典
+[1002] 山童 | DLC1 | 出没:DLC1_YoukaiMountain | 喜:流行喜爱/大份/高级/山珍/招牌/灼热/猎奇/小巧 | 酒:中酒精/苦
+[1003] 魔法使 | DLC1 | 出没:DLC1_MagicForest | 喜:流行喜爱/素/家常/高级/传说/清淡/西式/鲜/适合拍照/凉爽 | 酒:可加热/鸡尾酒/西洋酒/提神
+[1004] 森之妖精 | DLC1 | 出没:DLC1_MagicForest | 喜:流行喜爱/家常/和风/中华/鲜/甜/招牌/凉爽/小巧/梦幻 | 酒:无酒精/低酒精/清酒/水果/甘
+[1005] 迷之人形 | DLC1 | 出没:DLC1_MagicForest | 喜:流行喜爱/家常/咸/生/适合拍照/猎奇/菌类/小巧/梦幻 | 酒:水果/苦/气泡/提神
+[2000] 土蜘蛛 | DLC2 | 出没:DLC2_FormerHell | 喜:流行喜爱/大份/肉/重油/饱腹/山珍/鲜/甜/生/猎奇 | 酒:中酒精/可加冰/利口酒/直饮/甘/苦/现代
+[2001] 鬼 | DLC2 | 出没:DLC2_FormerHell | 喜:流行喜爱/肉/高级/传说/下酒/鲜/力量涌现/特产/燃起来了 | 酒:中酒精/高酒精/烧酒/直饮
+[2002] 骨女 | DLC2 | 出没:DLC2_FormerHell | 喜:流行喜爱/素/清淡/鲜/生/凉爽/猎奇/菌类/酸 | 酒:低酒精/可加热/啤酒/水果/苦
+[2003] 地狱鸦 | DLC2 | 出没:DLC2_EarthSpiritsPalace | 喜:流行喜爱/肉/家常/山珍/海味/咸/小巧/燃起来了/酸 | 酒:中酒精/可加热/啤酒/辛/苦
+[2004] 姑获鸟 | DLC2 | 出没:DLC2_EarthSpiritsPalace | 喜:流行喜爱/水产/家常/清淡/鲜/猎奇/文化底蕴/酸 | 酒:低酒精/可加热/烧酒/苦
+[2005] 豹女 | DLC2 | 出没:DLC2_EarthSpiritsPalace | 喜:流行喜爱/肉/高级/重油/山珍/海味/生/灼热/特产 | 酒:中酒精/高酒精/直饮/辛
+[3000] 僧侣 | DLC3 | 出没:DLC3_MyourenTemple | 喜:流行喜爱/肉/家常/下酒/山珍/力量涌现 | 酒:中酒精/高酒精/可加热/烧酒/古典
+[3001] 妖怪鼠 | DLC3 | 出没:DLC3_MyourenTemple | 喜:流行喜爱/大份/家常/高级/梦幻/果味 | 酒:鸡尾酒/利口酒/水果/甘/现代
+[3002] 八尺大人 | DLC3 | 出没:DLC3_MyourenTemple | 喜:流行喜爱/和风/西式/鲜/适合拍照/凉爽 | 酒:低酒精/可加冰/鸡尾酒/西洋酒/利口酒
+[3003] 道士 | DLC3 | 出没:DLC3_DivineSpiritMausoleum | 喜:流行喜爱/家常/清淡/山珍/招牌/小巧/特产 | 酒:低酒精/苦/现代/提神
+[3004] 僵尸 | DLC3 | 出没:DLC3_DivineSpiritMausoleum | 喜:流行厌恶/流行喜爱/昂贵/实惠/大份/肉/水产/素/家常/高级/传说/重油/清淡/下酒/饱腹/山珍/海味/和风/西式/中华/咸/鲜/甜/生/招牌/适合拍照/凉爽/灼热/力量涌现/猎奇/文化底蕴/菌类/不可思议/小巧/梦幻/特产/果味/汤羹/烧烤/辣/燃起来了/酸/毒 | 酒:无酒精/低酒精/中酒精/高酒精/可加冰/可加热/烧酒/清酒/鸡尾酒/西洋酒/利口酒/啤酒/直饮/水果/甘/辛/苦/气泡/古典/现代/提神
+[3005] 仙人 | DLC3 | 出没:DLC3_DivineSpiritMausoleum | 喜:流行喜爱/素/高级/清淡/小巧/梦幻/果味 | 酒:低酒精/清酒/水果/甘/气泡/古典
+[4000] 小人族 | DLC4 | 出没:DLC4_ShiningNeedleCastle | 喜:流行喜爱/传说/和风/力量涌现/小巧/梦幻/燃起来了 | 酒:可加冰/可加热/啤酒/甘/古典
+[4001] 不良少年 | DLC4 | 出没:DLC4_ShiningNeedleCastle | 喜:流行喜爱/家常/下酒/饱腹/和风/力量涌现 | 酒:高酒精/可加热/烧酒/啤酒/苦/提神
+[4002] 不良少女 | DLC4 | 出没:DLC4_ShiningNeedleCastle | 喜:流行喜爱/家常/高级/和风/适合拍照/灼热 | 酒:中酒精/啤酒/水果/气泡/现代
+[4003] 玩具兵 | DLC4 | 出没:DLC4_ShiningNeedleCastle | 喜:流行喜爱/海味/西式/招牌/凉爽/不可思议 | 酒:西洋酒/利口酒/直饮/现代
+[4004] 铃兰花精 | DLC4 | 出没:DLC4_GardenOfTheSun | 喜:流行喜爱/下酒/生/小巧/梦幻/毒 | 酒:中酒精/直饮/辛/气泡
+[4005] 太阳花精 | DLC4 | 出没:DLC4_GardenOfTheSun | 喜:流行喜爱/鲜/甜/力量涌现/不可思议/特产 | 酒:利口酒/水果/甘/气泡
+[4006] 玫瑰花精 | DLC4 | 出没:DLC4_GardenOfTheSun | 喜:流行喜爱/高级/西式/招牌/适合拍照/小巧 | 酒:低酒精/鸡尾酒/甘/现代
+[4007] 影女 | DLC4 | 出没:DLC4_GardenOfTheSun | 喜:流行喜爱/家常/和风/生/凉爽/猎奇/不可思议 | 酒:高酒精/可加冰/苦/古典/提神
+[5000] 纸牌兵 | DLC5 | 出没:DLC5_Makai | 喜:流行喜爱/家常/重油/饱腹/咸/招牌/凉爽 | 酒:中酒精/可加热/苦/提神
+[5001] 小丑 | DLC5 | 出没:DLC5_Makai | 喜:流行喜爱/高级/下酒/生/适合拍照/猎奇/菌类 | 酒:可加冰/利口酒/直饮/辛
+[5002] 疯帽匠 | DLC5 | 出没:DLC5_Makai | 喜:流行喜爱/西式/适合拍照/猎奇/菌类/不可思议/梦幻 | 酒:高酒精/西洋酒/现代/提神
+[5003] 月人 | DLC5 | 出没:DLC5_LunarCapital | 喜:流行喜爱/传说/清淡/海味/中华/不可思议/梦幻 | 酒:清酒/鸡尾酒/水果/气泡/现代
+[5004] 捣药兔 | DLC5 | 出没:DLC5_LunarCapital | 喜:流行喜爱/饱腹/山珍/和风/中华/甜/凉爽 | 酒:中酒精/烧酒/啤酒/甘/提神
+[5005] 月之使者 | DLC5 | 出没:DLC5_LunarCapital | 喜:流行喜爱/传说/饱腹/西式/招牌/力量涌现/特产 | 酒:无酒精/可加热/苦/现代/提神

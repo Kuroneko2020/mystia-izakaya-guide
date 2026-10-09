@@ -1,0 +1,2209 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="东方夜雀食堂 - Touhou Mystia's Izakaya v4.4.0 客人、菜谱、食材、酒水离线攻略查询">
+<meta name="theme-color" content="#12100e">
+<title>夜雀食堂 · 料亭备菜手帖</title>
+<script>
+try { var savedTheme = localStorage.getItem('mystia-ryotei-theme'); if (savedTheme) document.documentElement.dataset.theme = savedTheme; } catch (e) {}
+</script>
+<link rel="icon" href="data:image/png;base64,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">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+:root{
+  --bg:#0d0a08;
+  --bg-soft:#141009;
+  --panel:#1a1410;
+  --panel-2:#231b15;
+  --panel-3:#2e241b;
+  --text:#f6ede1;
+  --text-soft:#e0d2c2;
+  --muted:#a8977f;
+  --border:#3d3125;
+  --border-soft:#52412f;
+  --accent:#e2aa6d;
+  --accent-2:#d07f4f;
+  --vermilion:#c9563f;
+  --vermilion-soft:rgba(201,86,63,.16);
+  --accent-soft:rgba(224,169,109,.14);
+  --good:#7fc8a4;
+  --good-soft:rgba(127,200,164,.13);
+  --bad:#e08b7a;
+  --bad-soft:rgba(224,139,122,.13);
+  --drink:#8fb8de;
+  --drink-soft:rgba(143,184,222,.13);
+  --dynamic:#d9b86a;
+  --dynamic-soft:rgba(217,184,106,.14);
+  --neutral:#cbbbab;
+  --neutral-soft:rgba(203,187,171,.11);
+  --shadow:0 18px 48px rgba(0,0,0,.5),0 4px 14px rgba(0,0,0,.32);
+  --shadow-soft:0 6px 20px rgba(0,0,0,.28);
+  --radius:15px;
+  --radius-sm:10px;
+  --header-h:66px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --spring:cubic-bezier(.34,1.45,.4,1);
+  --serif:Georgia,"Noto Serif SC","Songti SC","SimSun",serif;
+  --display-font:"WenKai Subset","LXGW WenKai","KaiTi","STKaiti","Kaiti SC","DFKai-SB","Noto Serif SC",serif;
+  color-scheme:dark;
+}
+html[data-theme="light"]{
+  --bg:#f2ebdd;
+  --bg-soft:#ece3d2;
+  --panel:#faf5ea;
+  --panel-2:#f2ead9;
+  --panel-3:#e9dfc9;
+  --text:#33291f;
+  --text-soft:#57483a;
+  --muted:#877663;
+  --border:#ddd0b8;
+  --border-soft:#c9b899;
+  --accent:#a4582a;
+  --accent-2:#8f4a22;
+  --vermilion:#b23a2b;
+  --vermilion-soft:rgba(178,58,43,.12);
+  --accent-soft:rgba(164,88,42,.11);
+  --good:#2f7d5c;
+  --good-soft:rgba(47,125,92,.1);
+  --bad:#b4513f;
+  --bad-soft:rgba(180,81,63,.1);
+  --drink:#3f6d9e;
+  --drink-soft:rgba(63,109,158,.1);
+  --dynamic:#9a761f;
+  --dynamic-soft:rgba(154,118,31,.12);
+  --neutral:#6e6053;
+  --neutral-soft:rgba(110,96,83,.09);
+  --shadow:0 18px 44px rgba(80,55,35,.16),0 4px 12px rgba(80,55,35,.1);
+  --shadow-soft:0 6px 20px rgba(80,55,35,.09);
+  color-scheme:light;
+}
+html,body{margin:0;padding:0}
+html{scroll-behavior:smooth}
+html{
+  background:
+    radial-gradient(1100px 520px at 12% -8%, rgba(217,139,95,.16), transparent 62%),
+    radial-gradient(760px 420px at 88% 4%, rgba(201,86,63,.1), transparent 60%),
+    radial-gradient(900px 480px at 92% 0%, rgba(127,200,164,.06), transparent 58%),
+    var(--bg);
+}
+body{
+  min-height:100vh;
+  color:var(--text);
+  font:14px/1.65 system-ui,-apple-system,"Segoe UI","Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+/* ---- 环境氛围：灯笼光晕 + 萤火粒子 + 和纸纹理 ---- */
+.ambient{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.ambient .glow{position:absolute;border-radius:50%;will-change:transform}
+.ambient .g1{
+  width:560px;height:560px;left:-150px;top:-180px;
+  background:radial-gradient(circle at 38% 38%, rgba(224,140,80,.32), rgba(224,140,80,.08) 52%, transparent 68%);
+  animation:drift1 26s ease-in-out infinite alternate;
+}
+.ambient .g2{
+  width:660px;height:660px;right:-220px;top:-140px;
+  background:radial-gradient(circle at 58% 42%, rgba(127,170,220,.16), rgba(127,170,220,.05) 55%, transparent 70%);
+  animation:drift2 34s ease-in-out infinite alternate;
+}
+.ambient .g3{
+  width:600px;height:600px;left:36%;bottom:-280px;
+  background:radial-gradient(circle at 50% 46%, rgba(201,86,63,.14), rgba(201,86,63,.04) 55%, transparent 70%);
+  animation:drift3 40s ease-in-out infinite alternate;
+}
+html[data-theme="light"] .ambient .g1{background:radial-gradient(circle at 38% 38%, rgba(224,140,80,.22), rgba(224,140,80,.05) 52%, transparent 68%)}
+html[data-theme="light"] .ambient .g2{background:radial-gradient(circle at 58% 42%, rgba(127,170,220,.13), rgba(127,170,220,.04) 55%, transparent 70%)}
+html[data-theme="light"] .ambient .g3{background:radial-gradient(circle at 50% 46%, rgba(201,86,63,.1), rgba(201,86,63,.03) 55%, transparent 70%)}
+@keyframes drift1{to{transform:translate(72px,48px) scale(1.1)}}
+@keyframes drift2{to{transform:translate(-64px,64px) scale(1.07)}}
+@keyframes drift3{to{transform:translate(48px,-56px) scale(1.12)}}
+#fx-canvas{position:fixed;inset:0;z-index:-1;pointer-events:none}
+body::after{
+  content:"";position:fixed;inset:0;z-index:99;pointer-events:none;opacity:.045;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.42' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+  background-size:220px 220px;
+}
+html[data-theme="light"] body::after{opacity:.03}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+::selection{background:color-mix(in srgb,var(--accent) 30%,transparent)}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:99px;border:2px solid transparent;background-clip:padding-box}
+::-webkit-scrollbar-thumb:hover{background:var(--border-soft);background-clip:padding-box}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+html.theme-anim *,html.theme-anim *::before,html.theme-anim *::after{
+  transition:background-color .35s ease,color .35s ease,border-color .35s ease,box-shadow .35s ease,fill .35s ease,stroke .35s ease !important;
+}
+/*__WAFU_FONT__*/
+.site-header{
+  position:sticky;top:0;z-index:50;
+  display:flex;align-items:center;gap:16px;
+  min-height:var(--header-h);padding:10px clamp(12px,3vw,28px);
+  background:color-mix(in srgb, var(--bg) 80%, transparent);
+  backdrop-filter:blur(18px) saturate(150%);
+  -webkit-backdrop-filter:blur(18px) saturate(150%);
+  border-bottom:1px solid var(--border);
+  animation:header-in .55s var(--ease) backwards;
+}
+/* 主题切换：View Transitions 圆形扩散（从切换按钮位置展开） */
+::view-transition-old(root){animation:none}
+::view-transition-new(root){animation:theme-reveal .5s var(--ease) forwards}
+@keyframes theme-reveal{from{clip-path:circle(0px at var(--tv-x,92%) var(--tv-y,4%))}to{clip-path:circle(150vmax at var(--tv-x,92%) var(--tv-y,4%))}}
+.site-header::after{
+  content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;pointer-events:none;
+  background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--accent) 42%,transparent) 18%,color-mix(in srgb,var(--accent) 42%,transparent) 82%,transparent);
+}
+@keyframes header-in{from{opacity:0;transform:translateY(-10px)}}
+.brand{display:flex;align-items:center;gap:11px;min-width:max-content}
+.brand-mark{
+  width:38px;height:38px;border-radius:9px;display:grid;place-items:center;
+  font-family:var(--display-font);font-weight:700;font-size:20px;
+  background:linear-gradient(160deg,var(--vermilion),color-mix(in srgb,var(--vermilion) 52%,#26090a));
+  color:#fff7ef;
+  border:1px solid rgba(255,255,255,.26);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.3),inset 0 0 0 2.5px rgba(255,255,255,.13),0 6px 18px rgba(201,86,63,.35);
+  transform:rotate(-3deg);
+  transition:transform .35s var(--spring),box-shadow .35s ease;
+}
+.brand-mark{width:40px;height:40px;border-radius:12px;overflow:hidden;border:2px solid color-mix(in srgb,var(--accent) 62%,#fff 12%);box-shadow:0 4px 12px rgba(0,0,0,.3)}
+.brand-mark img{width:100%;height:100%;object-fit:cover;display:block}
+.brand-mark:hover{transform:rotate(0deg) scale(1.07);box-shadow:inset 0 1px 0 rgba(255,255,255,.3),inset 0 0 0 2.5px rgba(255,255,255,.13),0 8px 24px rgba(201,86,63,.5)}
+.brand h1{
+  margin:0;font-family:var(--display-font);font-size:20px;letter-spacing:.04em;white-space:nowrap;
+  background:linear-gradient(100deg,var(--text) 30%,var(--accent) 75%,var(--accent-2));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;
+}
+.brand p{margin:1px 0 0;color:var(--muted);font-size:11px;white-space:nowrap}
+.global-search{position:relative;flex:1;max-width:600px;margin-left:auto}
+.search-box{position:relative;display:flex;align-items:center}
+.search-box .search-icon{position:absolute;left:12px;color:var(--muted);pointer-events:none;display:flex;transition:color .2s,transform .25s var(--spring)}
+.search-box:focus-within .search-icon{color:var(--accent);transform:scale(1.12)}
+.search-box input{
+  width:100%;padding:10px 76px 10px 38px;border-radius:999px;
+  border:1px solid var(--border);background:var(--panel);color:var(--text);
+  transition:border-color .2s,box-shadow .25s ease,background .2s;
+}
+.search-box input::placeholder{color:var(--muted)}
+.search-box input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft),0 0 22px color-mix(in srgb,var(--accent) 16%,transparent)}
+.search-hint{
+  position:absolute;right:10px;padding:3px 8px;border:1px solid var(--border);border-radius:7px;
+  color:var(--muted);background:var(--panel-2);font-size:11px;pointer-events:none;
+  box-shadow:inset 0 -1px 0 var(--border);
+}
+.search-results{
+  position:absolute;top:calc(100% + 8px);left:0;right:0;z-index:60;
+  max-height:min(64vh,520px);overflow:auto;padding:6px;
+  background:color-mix(in srgb,var(--panel) 94%,transparent);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border:1px solid var(--border-soft);border-radius:14px;box-shadow:var(--shadow);
+  transition:opacity .18s ease,transform .18s var(--ease);
+  transform-origin:top center;
+}
+@starting-style{.search-results:not([hidden]){opacity:0;transform:translateY(-7px) scale(.985)}}
+.search-group-title{padding:7px 10px 3px;color:var(--muted);font-size:11px;letter-spacing:.1em}
+.search-result{
+  display:flex;align-items:center;gap:10px;width:100%;padding:8px 10px;border:0;border-radius:9px;
+  background:transparent;text-align:left;color:var(--text);position:relative;
+  transition:background .15s;
+}
+.search-result:hover,.search-result.active{background:var(--panel-2)}
+.search-result.active::before{
+  content:"";position:absolute;left:0;top:22%;bottom:22%;width:2.5px;border-radius:99px;
+  background:var(--accent);box-shadow:0 0 8px var(--accent);
+}
+.search-result .sr-name{font-weight:650}
+.search-result .sr-desc{color:var(--muted);font-size:12px;margin-left:auto;max-width:55%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.search-empty{padding:18px 12px;color:var(--muted);text-align:center}
+.tabbar{
+  position:sticky;top:var(--header-h);z-index:44;
+  display:flex;gap:4px;overflow-x:auto;padding:8px clamp(12px,3vw,28px);
+  background:color-mix(in srgb, var(--bg) 86%, transparent);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--border);
+  scrollbar-width:none;
+  animation:header-in .55s var(--ease) .06s backwards;
+}
+.tabbar::-webkit-scrollbar{display:none}
+/* auto margin 实现整体居中；窄屏溢出时自动退回左对齐并保持可滚动 */
+.tab-row{display:flex;gap:4px;margin:0 auto}
+.tab-btn{
+  position:relative;overflow:hidden;
+  flex:0 0 auto;padding:7px 13px;border:1px solid transparent;border-radius:999px;
+  background:transparent;color:var(--text-soft);font-weight:600;font-size:13.5px;white-space:nowrap;
+  font-family:var(--display-font);letter-spacing:.05em;
+  transition:background .18s,color .18s,border-color .18s,transform .18s var(--spring);
+}
+.tab-btn:hover{background:var(--panel-2);color:var(--text)}
+.tab-btn:active{transform:scale(.94)}
+.tab-btn.active{
+  background:var(--accent-soft);border-color:color-mix(in srgb, var(--accent) 40%, transparent);color:var(--accent);
+}
+.tab-indicator{
+  position:absolute;bottom:0;left:0;height:2.5px;width:0;border-radius:99px 99px 0 0;
+  background:linear-gradient(90deg,var(--accent),var(--accent-2));
+  box-shadow:0 -1px 12px color-mix(in srgb,var(--accent) 60%,transparent);
+  transition:transform .32s var(--spring),width .32s var(--spring);
+  pointer-events:none;
+}
+main{max-width:1520px;margin:0 auto;padding:18px clamp(12px,3vw,28px) 70px;animation:panel-in .4s var(--ease) backwards}
+.tab-panel{animation:panel-in .32s var(--ease) backwards}
+@keyframes panel-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes rise-in{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}
+@keyframes pop-in{from{opacity:0;transform:scale(.5)}to{opacity:1;transform:none}}
+/* 图鉴刻字 */
+.ledger{
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:4px 14px;
+  margin:0 0 14px;padding:8px 12px;
+  font-family:var(--display-font);font-size:13.5px;letter-spacing:.16em;color:var(--muted);
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+  animation:panel-in .4s var(--ease) backwards;
+}
+.ledger .ld-sep{font-style:normal;font-size:7px;color:color-mix(in srgb,var(--accent) 55%,transparent)}
+.toolbar{
+  display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin:2px 0 15px;
+  padding:11px;border:1px solid var(--border);border-radius:var(--radius);
+  background:color-mix(in srgb, var(--panel) 72%, transparent);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  transition:border-color .25s,box-shadow .3s ease;
+}
+.toolbar:focus-within{border-color:color-mix(in srgb,var(--accent) 45%,transparent);box-shadow:0 0 0 3px var(--accent-soft)}
+.toolbar .search-box{min-width:220px;flex:1}
+.toolbar .search-box input{padding-right:16px}
+.toolbar select{
+  padding:9px 30px 9px 11px;border-radius:10px;border:1px solid var(--border);
+  background:var(--panel-2);color:var(--text);appearance:none;
+  transition:border-color .2s,box-shadow .2s;
+  background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);
+  background-position:calc(100% - 15px) 50%,calc(100% - 10px) 50%;
+  background-size:5px 5px,5px 5px;background-repeat:no-repeat;
+}
+.toolbar select:hover{border-color:var(--border-soft)}
+.toolbar select:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 3px var(--accent-soft)}
+.count{
+  color:var(--muted);font-size:12px;white-space:nowrap;margin-left:auto;
+  padding:3px 10px;border-radius:999px;background:var(--panel-2);border:1px solid var(--border);
+  font-variant-numeric:tabular-nums;
+}
+.grid{display:grid;gap:14px;min-width:0}
+.cards{grid-template-columns:repeat(auto-fill,minmax(295px,1fr))}
+.guest-card{
+  position:relative;overflow:hidden;
+  display:flex;flex-direction:column;gap:10px;width:100%;min-width:0;padding:15px;
+  border:1px solid var(--border);border-radius:var(--radius);
+  background:linear-gradient(165deg,var(--panel),var(--panel-2));
+  color:var(--text);text-align:left;box-shadow:var(--shadow-soft);
+  transition:transform .22s var(--ease),border-color .22s,box-shadow .3s ease;
+  animation:rise-in .5s var(--ease) backwards;
+  animation-delay:calc(var(--i,0) * 28ms);
+}
+.guest-card::after{
+  content:"";position:absolute;inset:0;border-radius:inherit;opacity:0;pointer-events:none;
+  background:radial-gradient(320px circle at var(--mx,50%) var(--my,50%), color-mix(in srgb,var(--accent) 14%,transparent), transparent 64%);
+  transition:opacity .3s ease;
+}
+.guest-card:hover{transform:translateY(-3px);border-color:color-mix(in srgb, var(--accent) 46%, var(--border));box-shadow:var(--shadow),0 0 0 1px color-mix(in srgb,var(--accent) 18%,transparent)}
+.guest-card:hover::after{opacity:1}
+.guest-card:active{transform:translateY(-1px) scale(.995)}
+.guest-card-top{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:8px}
+.guest-id{display:flex;align-items:center;gap:10px;min-width:0;flex:1}
+.guest-card h3{margin:0;font-size:17.5px;font-family:var(--display-font);font-weight:700;letter-spacing:.03em;overflow-wrap:anywhere}
+/* 印章 */
+.seal{
+  --pc:var(--vermilion);
+  flex:0 0 auto;width:38px;height:38px;border-radius:9px;
+  display:grid;place-items:center;
+  font-family:var(--display-font);font-size:20px;font-weight:700;
+  color:#fff7ef;
+  background:linear-gradient(160deg,var(--pc),color-mix(in srgb,var(--pc) 58%,#1a0d08));
+  border:1px solid rgba(255,255,255,.28);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.32),inset 0 0 0 2.5px rgba(255,255,255,.14),0 3px 10px color-mix(in srgb,var(--pc) 38%,transparent);
+  transform:rotate(-3deg);
+  text-shadow:0 1px 2px rgba(0,0,0,.35);
+  transition:transform .3s var(--spring),box-shadow .3s;
+}
+.guest-card:hover .seal{transform:rotate(0deg) scale(1.06)}
+.ava{
+  --pc:var(--vermilion);
+  flex:0 0 auto;width:42px;height:42px;border-radius:11px;overflow:hidden;
+  border:2px solid color-mix(in srgb,var(--pc) 78%,#fff 10%);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.16),0 3px 10px color-mix(in srgb,var(--pc) 30%,transparent);
+  transform:rotate(-3deg);background:var(--panel-3);
+  transition:transform .3s var(--spring),box-shadow .3s;
+}
+.guest-card:hover .ava{transform:rotate(0deg) scale(1.06)}
+.ava img,.seal.is-ava img{width:100%;height:100%;object-fit:cover;display:block}
+.seal.is-ava{overflow:hidden}
+.td-icon{
+  width:20px;height:20px;border-radius:6px;vertical-align:-5px;margin-right:5px;
+  background:var(--panel-3);border:1px solid var(--border);object-fit:cover;
+}
+.seal-lg{width:46px;height:46px;border-radius:11px;font-size:24px;animation:stamp-in .5s var(--spring) .12s backwards}
+@keyframes stamp-in{0%{opacity:0;transform:scale(1.9) rotate(10deg)}62%{opacity:1;transform:scale(.94) rotate(-5deg)}100%{opacity:1;transform:rotate(-3deg)}}
+.badges{display:flex;flex-wrap:wrap;gap:5px;justify-content:flex-end;max-width:100%}
+.badge{
+  display:inline-flex;align-items:center;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:650;
+  border:1px solid var(--border);background:var(--panel-3);color:var(--text-soft);white-space:nowrap;
+  box-shadow:inset 0 1px 0 color-mix(in srgb,#fff 4%,transparent);
+}
+.badge.accent{border-color:color-mix(in srgb,var(--accent) 45%,transparent);background:var(--accent-soft);color:var(--accent)}
+.badge.good{border-color:color-mix(in srgb,var(--good) 45%,transparent);background:var(--good-soft);color:var(--good)}
+.badge.bad{border-color:color-mix(in srgb,var(--bad) 45%,transparent);background:var(--bad-soft);color:var(--bad)}
+.meta-grid{display:grid;grid-template-columns:1fr;gap:3px;color:var(--text-soft);font-size:12.5px}
+.meta-grid .row{display:flex;gap:7px;min-width:0}
+.meta-grid .k{color:var(--muted);flex:0 0 auto}
+.meta-grid .v{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tag-row{display:flex;align-items:flex-start;gap:7px;min-width:0}
+.tag-label{flex:0 0 auto;margin-top:1px;font-size:11px;font-weight:700;color:var(--muted)}
+.tag-label.good{color:var(--good)}.tag-label.bad{color:var(--bad)}.tag-label.drink{color:var(--drink)}
+.tag-wrap{display:flex;flex-wrap:wrap;gap:4px;min-width:0}
+.tag{
+  display:inline-flex;align-items:center;padding:2px 7px;border-radius:999px;font-size:11px;line-height:1.5;
+  border:1px solid var(--border);background:var(--neutral-soft);color:var(--neutral);white-space:nowrap;
+  transition:transform .18s var(--spring),filter .18s;
+}
+.tag.good{border-color:color-mix(in srgb,var(--good) 40%,transparent);background:var(--good-soft);color:var(--good)}
+.tag.bad{border-color:color-mix(in srgb,var(--bad) 40%,transparent);background:var(--bad-soft);color:var(--bad)}
+.tag.drink{border-color:color-mix(in srgb,var(--drink) 40%,transparent);background:var(--drink-soft);color:var(--drink)}
+.tag.dynamic{border-color:color-mix(in srgb,var(--dynamic) 42%,transparent);background:var(--dynamic-soft);color:var(--dynamic)}
+.tag.more{background:var(--panel-3);color:var(--muted)}
+.tag.chip{cursor:pointer;border-color:color-mix(in srgb,var(--accent) 48%,transparent);background:var(--accent-soft);color:var(--accent);font-weight:650}
+.tag.chip .x{opacity:.72;margin-left:5px;font-weight:400}
+.tag.chip:hover{filter:brightness(1.14);transform:translateY(-1px)}
+.tag.chip:active{transform:scale(.93)}
+.tag.suggest{cursor:pointer;background:var(--panel-2);color:var(--text-soft)}
+.tag.suggest:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px)}
+.tag.suggest:active{transform:scale(.93)}
+.tag-filter-bar{
+  display:flex;flex-wrap:wrap;align-items:center;gap:6px;flex-basis:100%;
+  padding-top:9px;margin-top:4px;border-top:1px dashed var(--border);
+}
+.tag-filter-bar > .tf-label{color:var(--muted);font-size:11px;font-weight:700;letter-spacing:.04em}
+.tag-filter-bar .tf-hint{color:var(--muted);font-size:11px}
+.tag-filter-bar .tf-msg{color:var(--dynamic);font-size:11px;animation:pop-in .25s var(--spring)}
+.tag-filter-bar .tf-suggest{display:flex;flex-wrap:wrap;gap:5px;width:100%}
+.muted{color:var(--muted)}
+.guest-card-foot{
+  display:flex;flex-wrap:wrap;gap:6px;align-items:center;justify-content:space-between;
+  border-top:1px dashed var(--border);padding-top:9px;color:var(--muted);font-size:11.5px;
+}
+.guest-card-foot .hint{color:var(--accent);display:inline-block;transition:transform .25s var(--ease)}
+.guest-card:hover .guest-card-foot .hint{transform:translateX(4px)}
+.dish-line{
+  padding:8px 11px;border-left:3px solid var(--accent);border-radius:0 9px 9px 0;
+  background:var(--panel-2);color:var(--text-soft);font-size:12.5px;word-break:break-word;
+  transition:transform .2s var(--ease),background .2s;
+}
+.dish-line:hover{transform:translateX(3px);background:var(--panel-3)}
+.dish-line + .dish-line{margin-top:6px}
+.detail-backdrop{
+  position:fixed;inset:0;z-index:70;background:rgba(6,4,3,.62);
+  backdrop-filter:blur(5px) saturate(120%);-webkit-backdrop-filter:blur(5px) saturate(120%);
+  opacity:0;transition:opacity .28s ease;
+}
+html[data-theme="light"] .detail-backdrop{background:rgba(60,40,25,.3)}
+.detail-backdrop.open{opacity:1}
+.detail-panel{
+  position:fixed;top:0;right:0;bottom:0;z-index:71;width:min(780px,100%);
+  background:var(--bg-soft);border-left:1px solid var(--border);box-shadow:var(--shadow);
+  transform:translateX(103%);transition:transform .38s var(--spring);
+  display:flex;flex-direction:column;
+  overflow:hidden;
+}
+.detail-panel.open{transform:none}
+/* 角色名竖排大字水印 */
+.detail-watermark{
+  position:absolute;top:86px;right:6px;z-index:0;
+  writing-mode:vertical-rl;text-orientation:upright;
+  font-family:var(--display-font);font-size:clamp(88px,13vh,140px);line-height:1;
+  color:var(--text);opacity:.05;letter-spacing:.05em;
+  pointer-events:none;user-select:none;white-space:nowrap;
+}
+.detail-head{
+  display:flex;align-items:flex-start;gap:12px;padding:16px 18px;
+  border-bottom:1px solid var(--border);background:color-mix(in srgb,var(--panel) 85%,transparent);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+}
+.detail-head h2{
+  margin:0;font-family:var(--display-font);font-size:24px;font-weight:700;letter-spacing:.04em;
+  background:linear-gradient(100deg,var(--text) 40%,var(--accent) 90%);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;
+}
+.detail-head .sub{color:var(--muted);font-size:12px;margin-top:2px}
+.detail-body{overflow:auto;padding:16px 18px 46px;position:relative;z-index:1}
+.detail-section{margin-top:18px;animation:rise-in .45s var(--ease) backwards}
+.detail-section:nth-child(1){animation-delay:.05s}
+.detail-section:nth-child(2){animation-delay:.1s}
+.detail-section:nth-child(3){animation-delay:.15s}
+.detail-section:nth-child(4){animation-delay:.2s}
+.detail-section:nth-child(5){animation-delay:.25s}
+.detail-section:nth-child(6){animation-delay:.3s}
+.detail-section:nth-child(7){animation-delay:.34s}
+.detail-section:nth-child(n+8){animation-delay:.38s}
+.detail-section h3{
+  display:flex;align-items:center;gap:8px;margin:0 0 8px;font-size:14.5px;color:var(--accent);
+  letter-spacing:.03em;font-family:var(--display-font);font-weight:700;
+}
+.detail-section h3::before{
+  content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);
+  box-shadow:0 0 8px var(--accent);animation:dot-pulse 2.6s ease-in-out infinite;
+}
+@keyframes dot-pulse{0%,100%{box-shadow:0 0 4px var(--accent)}50%{box-shadow:0 0 11px var(--accent),0 0 3px var(--accent)}}
+.kv{display:grid;grid-template-columns:92px 1fr;gap:5px 10px;font-size:13px}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0;word-break:break-word}
+.icon-btn{
+  position:relative;overflow:hidden;
+  flex:0 0 auto;width:36px;height:36px;border-radius:10px;border:1px solid var(--border);
+  background:var(--panel-2);color:var(--text);display:grid;place-items:center;
+  transition:border-color .2s,color .2s,transform .25s var(--spring),box-shadow .25s;
+}
+.icon-btn:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px);box-shadow:0 0 0 3px var(--accent-soft)}
+.icon-btn:active{transform:scale(.92)}
+.table-wrap{
+  overflow:auto;border:1px solid var(--border);border-radius:var(--radius);
+  background:color-mix(in srgb,var(--panel) 76%,transparent);box-shadow:var(--shadow-soft);
+  max-height:calc(100vh - 245px);
+}
+table.data-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:760px}
+.data-table th,.data-table td{padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top;text-align:left}
+.data-table th{
+  position:sticky;top:0;z-index:1;background:var(--panel-3);color:var(--text);font-size:12px;white-space:nowrap;
+  box-shadow:0 1px 0 var(--border);
+}
+.data-table th.sortable{cursor:pointer;user-select:none;transition:color .18s}
+.data-table th.sortable:hover{color:var(--accent)}
+.data-table th.sorted{color:var(--accent)}
+.sort-mark{display:inline-block;margin-left:4px;color:var(--accent);animation:pop-in .22s var(--spring)}
+.data-table tbody tr{transition:background .16s}
+.data-table tbody tr:hover{background:color-mix(in srgb,var(--accent-soft) 55%,transparent);box-shadow:inset 2.5px 0 0 var(--accent)}
+.data-table tbody tr:nth-child(even){background:color-mix(in srgb,var(--panel-2) 42%,transparent)}
+.data-table tbody tr:nth-child(even):hover{background:color-mix(in srgb,var(--accent-soft) 55%,transparent)}
+.data-table td.num{font-variant-numeric:tabular-nums;text-align:right}
+.data-table td.nw{white-space:nowrap}
+/* 类型/厨具色点 */
+.td-dot{
+  display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;
+  background:hsl(var(--h,30) 45% 55%);
+  box-shadow:0 0 0 2.5px color-mix(in srgb,hsl(var(--h,30) 45% 55%) 20%,transparent);
+  vertical-align:1.5px;
+}
+/* 价格迷你条 */
+.pbar-cell{position:relative;display:inline-block;min-width:60px;padding-top:3px}
+.pbar{
+  position:absolute;left:0;top:0;height:3px;width:0;border-radius:99px;
+  background:linear-gradient(90deg,color-mix(in srgb,var(--accent) 50%,transparent),var(--accent));
+}
+.pbar-cell > span{position:relative}
+/* 等级徽章 */
+.lv-badge{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-width:34px;padding:1px 7px;border-radius:7px;
+  font-size:11.5px;font-weight:700;font-variant-numeric:tabular-nums;
+  color:var(--accent);background:var(--accent-soft);
+  border:1px solid color-mix(in srgb,var(--accent) 40%,transparent);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06);
+}
+.link-btn{
+  padding:0;border:0;background:none;color:var(--accent);font-weight:650;text-align:left;
+  transition:filter .18s;
+}
+.link-btn:hover{text-decoration:underline;text-underline-offset:3px;filter:brightness(1.12)}
+.guide-list{display:grid;gap:11px}
+.guide-card{
+  border:1px solid var(--border);border-radius:var(--radius);background:var(--panel);overflow:hidden;
+  transition:border-color .2s,box-shadow .25s ease;
+  animation:rise-in .45s var(--ease) backwards;
+  animation-delay:calc(var(--i,0) * 30ms);
+}
+.guide-card:hover{border-color:var(--border-soft);box-shadow:var(--shadow-soft)}
+.guide-card > summary{
+  display:flex;align-items:center;gap:10px;padding:12px 14px;cursor:pointer;list-style:none;
+  transition:background .18s;
+}
+.guide-card > summary:hover{background:var(--panel-2)}
+.guide-card > summary::-webkit-details-marker{display:none}
+.guide-card > summary::after{content:"＋";margin-left:auto;color:var(--muted);font-weight:700;transition:transform .25s var(--spring),color .2s}
+.guide-card[open] > summary::after{content:"－";color:var(--accent)}
+.guide-card[open] > summary{border-bottom:1px solid var(--border);background:var(--panel-2)}
+.guide-card .guide-name{font-weight:700;font-family:var(--display-font);font-size:14.5px;letter-spacing:.03em}
+.guide-card .guide-money{color:var(--muted);font-size:12px}
+.guide-card-body{padding:13px 14px;animation:panel-in .3s var(--ease)}
+.field-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+.field{background:var(--panel-2);border:1px solid var(--border);border-radius:11px;padding:9px 10px;transition:border-color .2s}
+.field:hover{border-color:var(--border-soft)}
+.field .label{color:var(--muted);font-size:11px;margin-bottom:3px}
+.field .value{font-size:12.5px;white-space:pre-wrap;word-break:break-word}
+.callout{
+  padding:11px 14px;border:1px solid color-mix(in srgb,var(--accent) 35%,transparent);
+  border-radius:12px;background:var(--accent-soft);color:var(--text-soft);font-size:12.5px;
+  box-shadow:inset 3px 0 0 var(--accent);
+}
+.source-list{display:grid;gap:9px}
+.source-item{
+  border:1px solid var(--border);border-radius:12px;background:var(--panel);padding:11px 13px;
+  transition:border-color .2s,box-shadow .25s ease,transform .2s var(--ease);
+  animation:rise-in .4s var(--ease) backwards;
+  animation-delay:calc(var(--i,0) * 26ms);
+}
+.source-item:hover{border-color:var(--border-soft);box-shadow:var(--shadow-soft);transform:translateY(-1px)}
+.source-item .k{font-weight:700;color:var(--accent);margin-bottom:3px}
+.source-item .v{color:var(--text-soft);font-size:12.5px;white-space:pre-wrap;word-break:break-word}
+.site-footer{
+  border-top:1px solid var(--border);padding:24px clamp(12px,3vw,28px) 20px;color:var(--muted);
+  font-size:12px;text-align:center;position:relative;
+}
+.site-footer::before{
+  content:"";position:absolute;left:50%;top:-1px;transform:translateX(-50%);
+  width:176px;height:22px;opacity:.35;pointer-events:none;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 22' fill='none' stroke='%23e0a96d' stroke-width='1.1'%3E%3Cpath d='M2 22 a10 10 0 0 1 20 0 M4.5 22 a7.5 7.5 0 0 1 15 0 M7 22 a5 5 0 0 1 10 0'/%3E%3Cpath d='M24 22 a10 10 0 0 1 20 0 M26.5 22 a7.5 7.5 0 0 1 15 0 M29 22 a5 5 0 0 1 10 0'/%3E%3Cpath d='M13 11 a10 10 0 0 1 20 0 M15.5 11 a7.5 7.5 0 0 1 15 0 M18 11 a5 5 0 0 1 10 0'/%3E%3C/svg%3E") repeat-x;
+  background-size:44px 22px;
+}
+.empty-state{padding:44px 20px 48px;text-align:center;color:var(--muted);border:1px dashed var(--border);border-radius:var(--radius)}
+.empty-state::before{
+  content:"";display:block;width:74px;height:55px;margin:0 auto 10px;opacity:.55;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 72 54' fill='none' stroke='%23a08f7d' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='20' cy='17' r='8.5'/%3E%3Ccircle cx='17.5' cy='15' r='1.3' fill='%23a08f7d' stroke='none'/%3E%3Cpath d='M12 17.5 L4 20 L12.5 22'/%3E%3Cpath d='M20 25.5 C31 20 46 21 53 28 C58 33 56 40 49 43 C39 47 26 46 20 41 C15 37 15 30 20 25.5 Z'/%3E%3Cpath d='M30 27.5 C37 25.5 44 27 48 32.5 C41 34.5 34 33.5 30 30'/%3E%3Cpath d='M53 30 L67 24 L61 35'/%3E%3Cpath d='M31 44 L29 51 M38 44.5 L39 51'/%3E%3C/svg%3E") center/contain no-repeat;
+}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.subtabs{display:flex;gap:6px;margin-bottom:13px}
+.subtab{
+  position:relative;overflow:hidden;
+  padding:6px 13px;border:1px solid var(--border);border-radius:999px;background:var(--panel-2);
+  color:var(--text-soft);font-weight:650;font-size:12.5px;
+  transition:background .2s,color .2s,border-color .2s,transform .18s var(--spring);
+}
+.subtab:hover{color:var(--text);border-color:var(--border-soft)}
+.subtab:active{transform:scale(.94)}
+.subtab.active{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 45%,transparent);color:var(--accent)}
+.ripple{
+  position:absolute;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle, color-mix(in srgb,var(--accent) 38%,transparent) 0%, transparent 66%);
+  transform:scale(0);animation:ripple .55s ease-out forwards;
+}
+@keyframes ripple{to{transform:scale(1);opacity:0}}
+@media (max-width:900px){
+  body{overflow-x:hidden}
+  .site-header{flex-wrap:wrap;gap:9px;padding-top:9px;padding-bottom:9px}
+  .brand p{display:none}
+  .global-search{flex-basis:100%;max-width:none;margin-left:0;order:3}
+  .tabbar{position:relative;top:auto}
+  .toolbar{padding:9px}
+  .toolbar .search-box{flex-basis:100%}
+  .count{margin-left:0}
+  .table-wrap{max-height:none}
+  .detail-panel{width:100%;border-left:0}
+  .kv{grid-template-columns:80px 1fr}
+  .cards{grid-template-columns:1fr}
+  .badges{justify-content:flex-start}
+  .meta-grid .v{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
+  .tag-wrap{max-width:100%}
+  .ambient .g1,.ambient .g2,.ambient .g3{filter:none}
+  .detail-watermark{display:none}
+}
+@media (max-width:520px){
+  .brand h1{font-size:16px}
+  .guest-card{padding:12px}
+  .field-grid{grid-template-columns:1fr}
+  .data-table{font-size:12px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}
+  html{scroll-behavior:auto}
+  #fx-canvas,.ambient .glow{display:none}
+}
+/*__RYOTEI_CSS__*/
+</style>
+</head>
+<body>
+<div class="ambient" aria-hidden="true"><i class="glow g1"></i><i class="glow g2"></i><i class="glow g3"></i></div>
+<canvas id="fx-canvas" aria-hidden="true"></canvas>
+<header class="site-header">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true" title="米斯蒂娅·萝蕾拉"><img src="__BRAND_SEAL__" alt="米斯蒂娅·萝蕾拉"></div>
+    <div>
+      <h1>东方夜雀食堂 · 备菜手帖</h1>
+      <p>MYSTIA’S IZAKAYA · <a class="entity-link version-link" data-section-tab="new440" href="#new440">__VERSION__</a></p>
+    </div>
+  </div>
+  <div class="global-search">
+    <div class="search-box">
+      <span class="search-icon" aria-hidden="true">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+      </span>
+      <input id="global-search" type="search" placeholder="搜索客人、菜谱、食材、酒水…" autocomplete="off" aria-label="全局搜索">
+      <span class="search-hint">/</span>
+    </div>
+    <div id="global-results" class="search-results" hidden></div>
+  </div>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="切换明暗主题" title="切换明暗主题">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg>
+  </button>
+</header>
+
+<main id="main">
+  <section class="ryotei-hero" aria-labelledby="hero-title">
+    <div class="hero-scene" aria-hidden="true"></div><div class="hero-lantern" aria-hidden="true"></div>
+    <div class="hero-copy"><p class="hero-eyebrow">幻想乡 · 夜间营业指南</p>
+      <h2 id="hero-title">夜雀食堂<br><em>备菜手帖</em></h2>
+      <div class="hero-actions"><button class="hero-action" type="button" data-jump="guests">客人名簿 <span aria-hidden="true">↗</span></button><button class="hero-action secondary" type="button" data-jump="catalog">料理目录 <span aria-hidden="true">→</span></button></div>
+    </div><span class="hero-seal" aria-hidden="true">夜雀食堂</span>
+  </section>
+  <div class="ledger" id="ledger" hidden></div>
+<nav class="tabbar" id="tabbar" aria-label="页面导航">
+  <div class="tab-row">
+    <button class="tab-btn primary-tab active" data-group="guests" type="button">客人图鉴</button>
+    <button class="tab-btn primary-tab" data-group="meals" type="button">配餐参考</button>
+    <button class="tab-btn primary-tab" data-group="items" type="button">物品图鉴</button>
+    <details class="reference-menu" id="reference-menu"><summary class="reference-toggle" data-group="reference">资料 <span aria-hidden="true">⌄</span></summary><div class="reference-options"><button type="button" data-section-tab="new440">版本更新</button><button type="button" data-section-tab="guides">旧版攻略</button><button type="button" data-section-tab="sources">数据来源</button></div></details>
+  </div>
+</nav>
+<div class="ryotei-workbench" id="ryotei-workbench">
+  <div class="ryotei-page-heading"><div class="page-heading-copy"><span class="chapter-stamp" id="ryotei-chapter-stamp" aria-hidden="true">客录</span><div><h2 id="ryotei-page-title">客人名簿</h2></div></div><span class="page-code" id="ryotei-page-code" aria-hidden="true">CHAPTER 01</span></div>
+  <nav class="section-nav" id="section-nav" aria-label="分类"></nav>
+  <div class="jump-return" id="jump-return" hidden><button id="jump-back" type="button">← 返回</button></div>
+  <section class="service-context" id="service-context" aria-label="今晚开店">
+    <div class="service-choice"><label for="service-place">今晚开店</label><select id="service-place"></select><span class="service-note" title="按已收录的自然来访地区筛选；不是每晚必来，尚未细分店面等级。邀请和剧情可能改变来客。">可能来访 ⓘ</span><span id="service-count"></span></div>
+    <details id="service-visitors" class="visitor-overview" hidden><summary>来客名簿</summary><div class="visitor-group"><h3>稀客与特殊客人</h3><div id="visitor-rare" class="visitor-list"></div></div><div class="visitor-group"><h3>普通客人</h3><div id="visitor-normal" class="visitor-list"></div></div></details>
+  </section>
+
+  <section class="tab-panel" id="panel-guests">
+    <div class="toolbar">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
+        <input id="guest-search" type="search" placeholder="搜索客人名、出没地点、喜好/厌恶标签…" autocomplete="off">
+      </div>
+      <select id="guest-type-filter" aria-label="按客人类型筛选"></select>
+      <select id="guest-dlc-filter" aria-label="按版本筛选"></select>
+      <span id="guest-count" class="count"></span>
+    </div>
+    <div id="guest-grid" class="grid cards"></div>
+  </section>
+
+  <section class="tab-panel" id="panel-details" hidden>
+    <div class="toolbar">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
+        <input id="detail-search" type="search" placeholder="搜索菜品、主料、标签、加料建议…" autocomplete="off">
+      </div>
+      <select id="detail-guest-filter" aria-label="按客人筛选"></select>
+      <select id="detail-stage-filter" aria-label="按阶段筛选">
+        <option value="all">全部阶段</option>
+        <option value="前期">前期</option>
+        <option value="后期">后期</option>
+      </select>
+      <select id="detail-dlc-filter" aria-label="按版本筛选"></select>
+      <span id="detail-count" class="count"></span>
+    </div>
+    <div id="detail-table-wrap" class="table-wrap"></div>
+  </section>
+
+  <section class="tab-panel" id="panel-catalog" hidden>
+    <div class="toolbar">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
+        <input id="catalog-search" type="search" placeholder="搜索菜品、主料、标签、解锁来源…" autocomplete="off">
+      </div>
+      <select id="catalog-dlc-filter" aria-label="按版本筛选"></select>
+      <span id="catalog-count" class="count"></span>
+    </div>
+    <div id="catalog-table-wrap" class="table-wrap"></div>
+  </section>
+
+  <section class="tab-panel" id="panel-ingredients" hidden>
+    <div class="toolbar">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
+        <input id="ingredient-search" type="search" placeholder="搜索食材、标签、获取方式…" autocomplete="off">
+      </div>
+      <select id="ingredient-type-filter" aria-label="按食材类型筛选"></select>
+      <select id="ingredient-dlc-filter" aria-label="按版本筛选"></select>
+      <span id="ingredient-count" class="count"></span>
+    </div>
+    <div id="ingredient-table-wrap" class="table-wrap"></div>
+  </section>
+
+  <section class="tab-panel" id="panel-beverages" hidden>
+    <div class="toolbar">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
+        <input id="beverage-search" type="search" placeholder="搜索酒水、标签、获取方式…" autocomplete="off">
+      </div>
+      <select id="beverage-dlc-filter" aria-label="按版本筛选"></select>
+      <span id="beverage-count" class="count"></span>
+    </div>
+    <div id="beverage-table-wrap" class="table-wrap"></div>
+  </section>
+
+  <section class="tab-panel" id="panel-addons" hidden>
+    <div class="callout" style="margin-bottom:12px">
+      默认按食材价格升序。
+    </div>
+    <div class="toolbar">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
+        <input id="addon-search" type="search" placeholder="搜索客人、食材、补足标签…" autocomplete="off">
+      </div>
+      <select id="addon-guest-filter" aria-label="按客人筛选"></select>
+      <select id="addon-scene-filter" aria-label="按场景筛选">
+        <option value="all">全部场景</option>
+        <option value="通用加料">通用加料</option>
+        <option value="前期示例">前期示例</option>
+        <option value="后期示例">后期示例</option>
+      </select>
+      <select id="addon-sort-filter" aria-label="排序方式">
+        <option value="price-asc">价格从低到高</option>
+        <option value="price-desc">价格从高到低</option>
+        <option value="level-asc">等级从低到高</option>
+        <option value="level-desc">等级从高到低</option>
+      </select>
+      <span id="addon-count" class="count"></span>
+    </div>
+    <div id="addon-table-wrap" class="table-wrap"></div>
+  </section>
+
+  <section class="tab-panel" id="panel-drinkrecs" hidden>
+    <div class="callout" style="margin-bottom:12px">
+      默认按酒水价格降序。
+    </div>
+    <div class="toolbar">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
+        <input id="drinkrec-search" type="search" placeholder="搜索客人、酒水、标签…" autocomplete="off">
+      </div>
+      <select id="drinkrec-guest-filter" aria-label="按客人筛选"></select>
+      <select id="drinkrec-sort-filter" aria-label="排序方式">
+        <option value="price-desc">价格从高到低</option>
+        <option value="price-asc">价格从低到高</option>
+        <option value="level-desc">等级从高到低</option>
+        <option value="level-asc">等级从低到高</option>
+        <option value="match-desc">匹配喜好优先</option>
+        <option value="match-asc">匹配喜好从少到多</option>
+      </select>
+      <span id="drinkrec-count" class="count"></span>
+    </div>
+    <div id="drinkrec-table-wrap" class="table-wrap"></div>
+  </section>
+
+  <section class="tab-panel" id="panel-normal" hidden>
+    <div class="toolbar">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
+        <input id="normal-search" type="search" placeholder="搜索普通客人、出没地点、喜好标签…" autocomplete="off">
+      </div>
+      <span id="normal-count" class="count"></span>
+    </div>
+    <div id="normal-grid" class="grid cards"></div>
+  </section>
+
+  <section class="tab-panel" id="panel-new440" hidden>
+    <div class="callout" style="margin-bottom:14px">
+      v4.4.0（2026-04-17）新增内容：秦心、喜/怒/哀/乐四情绪面具、妖精服、菜单预设与剧情优化。
+      官方最新内容公告见「数据来源」页。
+    </div>
+    <div id="new440-list" class="grid cards"></div>
+  </section>
+
+  <section class="tab-panel" id="panel-guides" hidden>
+    <div class="subtabs" id="guide-subtabs">
+      <button class="subtab active" data-guide="2024" type="button">B站 2024 稀客图鉴</button>
+      <button class="subtab" data-guide="2021" type="button">B站 2021 早期攻略</button>
+    </div>
+    <div class="toolbar">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
+        <input id="guide-search" type="search" placeholder="搜索客人或攻略内容…" autocomplete="off">
+      </div>
+      <span id="guide-count" class="count"></span>
+    </div>
+    <div id="guide-list" class="guide-list"></div>
+  </section>
+
+  <section class="tab-panel" id="panel-sources" hidden>
+    <div id="source-list" class="source-list"></div>
+  </section>
+</div>
+</main>
+<footer class="site-footer">
+  数据生成：__GENERATED_AT__ · 主数据：<a href="https://github.com/AnYiEE/touhou-mystia-izakaya-assistant" target="_blank" rel="noreferrer">夜雀助手 v2.10.11</a>
+  · 游戏内容：v4.4.0 · 来源文件：__EXCEL_NAME__<br>
+  本页面为玩家整理的非官方攻略资料；流行趋势、随机点单标签与版本平衡可能影响实际结果，最终以游戏内为准。
+  <br>料亭优化版 · 美术：游戏像素贴图（夜雀助手整理）、官方 Steam 宣传夜景 · <a href="https://store.steampowered.com/app/1584090/" target="_blank" rel="noopener noreferrer">游戏官方页面</a> · <a href="https://github.com/AnYiEE/touhou-mystia-izakaya-assistant" target="_blank" rel="noopener noreferrer">贴图整理出处</a>
+</footer>
+
+<div class="detail-backdrop" id="detail-backdrop" hidden></div>
+<aside class="detail-panel" id="detail-panel" role="dialog" aria-modal="true" aria-label="客人详情" hidden>
+  <div class="detail-watermark" id="detail-watermark" aria-hidden="true"></div>
+  <div class="detail-head">
+    <button id="detail-close" class="icon-btn" type="button" aria-label="关闭详情">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+    </button>
+    <span class="seal seal-lg" id="detail-seal" aria-hidden="true">雀</span>
+    <div>
+      <h2 id="detail-title">客人详情</h2>
+      <div class="sub" id="detail-sub"></div>
+    </div>
+  </div>
+  <nav class="detail-index" aria-label="客帖章节"><button type="button" data-detail-jump="guest-tastes">口味</button><button type="button" data-detail-jump="guest-drinks">酒水</button><button type="button" data-detail-jump="guest-meals">料理</button><button type="button" data-detail-jump="guest-addons">加料</button><button type="button" data-detail-jump="guest-bonds">羁绊</button><button type="button" data-detail-jump="guest-notes">来源</button></nav>
+  <div class="detail-body" id="detail-body"></div>
+</aside>
+
+<script id="app-data" type="application/json">__APP_DATA__</script>
+<script>window.WAFU_ASSETS = __WAFU_ASSETS__;</script>
+<script>
+(() => {
+'use strict';
+const root = document.documentElement;
+const DATA = JSON.parse(document.getElementById('app-data').textContent || '{}');
+const SHEETS = (DATA && DATA.sheets) || {};
+const META = (DATA && DATA.meta) || {};
+const CACHE = {};
+const $ = (sel) => document.querySelector(sel);
+const $$ = (sel) => Array.from(document.querySelectorAll(sel));
+const REDUCED_MOTION = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function rowsOf(key){ return (SHEETS[key] && SHEETS[key].rows) || []; }
+function headersOf(key){ return (SHEETS[key] && SHEETS[key].headers) || []; }
+function dataOf(key){
+  if (!CACHE[key]) {
+    CACHE[key] = rowsOf(key).map((row) => {
+      const obj = {};
+      headersOf(key).forEach((h, i) => { obj[h] = row[i] == null ? '' : String(row[i]); });
+      return obj;
+    });
+  }
+  return CACHE[key];
+}
+function esc(value){
+  return String(value == null ? '' : value)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+function escAttr(value){ return esc(value).replace(/\n/g, ' '); }
+function lines(value){
+  return String(value == null ? '' : value).split('\n').map((s) => s.trim()).filter(Boolean);
+}
+function splitTags(value){
+  const text = String(value == null ? '' : value).trim();
+  if (!text || text === '无') return [];
+  return text.split(/[、,，]/).map((s) => s.trim()).filter(Boolean);
+}
+function splitDrinks(value){
+  const text = String(value == null ? '' : value).trim();
+  if (!text || text === '无') return [];
+  return text.split(/[；;]/).map((s) => s.trim()).filter(Boolean);
+}
+/* ---------------- 拼音搜索 ---------------- */
+const CHAR_PINYIN = DATA.charPinyin || {};
+const PINYIN_CACHE = new Map();
+function isCjk(ch){ return /[\u3400-\u9fff]/.test(ch); }
+function normalizeAscii(text){ return String(text == null ? '' : text).toLowerCase().replace(/[\s,，、；;·.。]+/g, ''); }
+function fuzzyPinyin(text){ return String(text == null ? '' : text).replace(/zh/g, 'z').replace(/ch/g, 'c').replace(/sh/g, 's'); }
+function charReadings(ch){
+  const value = CHAR_PINYIN[ch];
+  if (Array.isArray(value) && value.length) return value;
+  if (typeof value === 'string' && value) return [value];
+  return [ch.toLowerCase()];
+}
+function variantCombinations(options, maxCombos){
+  let combos = [''];
+  for (const readings of options) {
+    const next = [];
+    for (const prefix of combos) {
+      for (const reading of readings) {
+        next.push(prefix + reading);
+        if (next.length >= maxCombos) break;
+      }
+      if (next.length >= maxCombos) break;
+    }
+    combos = next;
+    if (combos.length >= maxCombos) break;
+  }
+  return combos;
+}
+function textPinyinInfo(text){
+  const source = String(text == null ? '' : text);
+  if (PINYIN_CACHE.has(source)) return PINYIN_CACHE.get(source);
+  const options = [];
+  Array.from(source).forEach((ch) => {
+    if (isCjk(ch)) options.push(charReadings(ch));
+    else if (/[a-z0-9]/i.test(ch)) options.push([ch.toLowerCase()]);
+  });
+  const exact = new Set();
+  const initials = new Set();
+  const defaultReadings = options.map((readings) => readings[0] || '');
+  exact.add(defaultReadings.join(''));
+  initials.add(defaultReadings.map((reading) => reading[0] || '').join(''));
+  // 多音字：先为每个字单独生成替换读音，长文本也能覆盖常见多音情况。
+  options.forEach((readings, index) => {
+    if (readings.length < 2) return;
+    for (let i = 1; i < readings.length; i += 1) {
+      const replaced = defaultReadings.slice();
+      replaced[index] = readings[i];
+      exact.add(replaced.join(''));
+      initials.add(replaced.map((reading) => reading[0] || '').join(''));
+    }
+  });
+  // 短文本（标签、名字）再做完整的多音组合，控制组合数量。
+  const total = options.reduce((count, readings) => count * readings.length, 1);
+  if (options.length <= 6 && total <= 64) {
+    variantCombinations(options, 64).forEach((item) => exact.add(item));
+    const initialOptions = options.map((readings) => readings.map((reading) => reading[0] || ''));
+    variantCombinations(initialOptions, 64).forEach((item) => initials.add(item));
+  }
+  const fuzzy = new Set(Array.from(exact).map(fuzzyPinyin));
+  const fuzzyInitials = new Set(Array.from(initials).map(fuzzyPinyin));
+  // 分隔符切开的多个标签分别生成，确保按其中一个标签的首字母也能搜到。
+  const segments = source.split(/[、,，；;｜/＋\s]+/).filter(Boolean);
+  if (segments.length > 1) {
+    segments.forEach((segment) => {
+      const info = textPinyinInfo(segment);
+      info.exact.forEach((item) => exact.add(item));
+      info.fuzzy.forEach((item) => fuzzy.add(item));
+      info.initials.forEach((item) => initials.add(item));
+      info.fuzzyInitials.forEach((item) => fuzzyInitials.add(item));
+    });
+  }
+  const info = {
+    exact: Array.from(exact),
+    fuzzy: Array.from(fuzzy),
+    initials: Array.from(initials),
+    fuzzyInitials: Array.from(fuzzyInitials),
+    hay: [Array.from(exact), Array.from(fuzzy), Array.from(initials), Array.from(fuzzyInitials)].map((list) => list.join('\u0001')).join('\u0001')
+  };
+  PINYIN_CACHE.set(source, info);
+  return info;
+}
+function pinyinHay(text){ return textPinyinInfo(text).hay; }
+function matchesAsciiQuery(hay, query){
+  const raw = String(query == null ? '' : query).trim().toLowerCase();
+  if (!raw) return true;
+  const compact = normalizeAscii(raw);
+  if (compact && String(hay).includes(compact)) return true;
+  const terms = raw.split(/[\s,，、；;·.。]+/).map((item) => item.trim()).filter(Boolean);
+  if (terms.length > 1) {
+    const variants = String(hay).split('\u0001');
+    if (terms.every((term) => variants.some((variant) => variant.startsWith(term)))) return true;
+  }
+  return false;
+}
+function matchesTextQuery(hay, query){
+  const text = String(query == null ? '' : query).trim();
+  if (!text) return true;
+  if (/[\u3400-\u9fff]/.test(text)) return String(hay).toLowerCase().includes(text.toLowerCase());
+  return matchesAsciiQuery(hay, text);
+}
+function matchesRowQuery(row, query, fields){
+  const text = String(query == null ? '' : query).trim();
+  if (!text) return true;
+  if (/[\u3400-\u9fff]/.test(text)) {
+    return fields.some((field) => String(row[field] == null ? '' : row[field]).toLowerCase().includes(text.toLowerCase()));
+  }
+  const pyHay = fields.map((field) => pinyinHay(row[field])).join('\u0001');
+  return matchesAsciiQuery(pyHay, text);
+}
+function searchTextFor(fields){
+  const original = fields.map((field) => String(field == null ? '' : field)).join(' ').toLowerCase();
+  const py = fields.map((field) => pinyinHay(field)).join('\u0001');
+  return original + '\u0001' + py;
+}
+
+function tagHtml(value, kind = 'neutral', max = 99){
+  const tags = splitTags(value);
+  if (!tags.length) return '<span class="muted">无</span>';
+  const shown = tags.slice(0, max);
+  let html = shown.map((tag) => {
+    let cls = 'tag ' + kind;
+    if (/动态/.test(tag)) cls = 'tag dynamic';
+    return '<span class="' + cls + '">' + esc(tag) + '</span>';
+  }).join('');
+  if (tags.length > max) html += '<span class="tag more">+' + (tags.length - max) + '</span>';
+  return html;
+}
+function chipHtml(value, kind = 'neutral', max = 99){
+  return tagHtml(value, kind, max);
+}
+function firstLine(value, max = 72){
+  const list = lines(value);
+  if (!list.length) return '无';
+  const s = list[0];
+  return s.length > max ? s.slice(0, max) + '…' : s;
+}
+function safeHash(value){ return String(value == null ? '' : value).replace(/[\\/#?%&]/g, (c) => encodeURIComponent(c)); }
+function byLocale(a, b){ return String(a).localeCompare(String(b), 'zh-Hans-CN'); }
+function versionRank(v){
+  const order = ['本篇', 'DLC1', 'DLC2', 'DLC2.5', 'DLC3', 'DLC4', 'DLC5', '联动', '4.4.0 联动'];
+  const i = order.indexOf(v);
+  return i >= 0 ? i : 99;
+}
+function typeRank(v){
+  const order = ['本篇稀客', 'DLC1稀客', 'DLC2稀客', 'DLC3稀客', 'DLC4稀客', 'DLC5稀客', '特殊顾客', '联动角色'];
+  const i = order.indexOf(v);
+  return i >= 0 ? i : 99;
+}
+let dishLevelMap = null;
+function buildDishLevelMap(){
+  if (dishLevelMap) return dishLevelMap;
+  dishLevelMap = {};
+  dataOf('recipes').forEach((r) => {
+    const value = parseFloat(r['等级']);
+    if (!Number.isNaN(value)) dishLevelMap[r['菜品']] = value;
+  });
+  return dishLevelMap;
+}
+function dishLevelValue(name){
+  const map = buildDishLevelMap();
+  return map[name] == null ? null : map[name];
+}
+function enrichDishLine(line){
+  const text = String(line || '').trim();
+  const m = text.match(/^(.+?)（(.+)）$/);
+  if (!m) return text;
+  const name = m[1].trim();
+  const inner = m[2];
+  if (/Lv\s*\d/i.test(inner)) return text;
+  const lv = dishLevelValue(name);
+  if (lv == null) return text;
+  return name + '（Lv ' + lv + '｜' + inner + '）';
+}
+function unique(values, sorter){
+  const out = Array.from(new Set(values.filter((v) => v !== '' && v != null)));
+  out.sort(sorter || byLocale);
+  return out;
+}
+function fillSelect(el, values, allLabel = '全部'){
+  if (!el) return;
+  el.innerHTML = '<option value="all">' + esc(allLabel) + '</option>' +
+    values.map((v) => '<option value="' + escAttr(v) + '">' + esc(v) + '</option>').join('');
+}
+function sortObjects(list, key, dir){
+  return list.slice().sort((a, b) => {
+    const av = a[key] == null ? '' : a[key];
+    const bv = b[key] == null ? '' : b[key];
+    const an = parseFloat(String(av).replace(/[^\d.-]/g, ''));
+    const bn = parseFloat(String(bv).replace(/[^\d.-]/g, ''));
+    const numPattern = /^\s*(?:Lv\s*)?[\d.,\s-]+\s*$/i;
+    if (!Number.isNaN(an) && !Number.isNaN(bn) && numPattern.test(String(av)) && numPattern.test(String(bv))) {
+      return (an - bn) * dir;
+    }
+    return String(av).localeCompare(String(bv), 'zh-Hans-CN') * dir;
+  });
+}
+
+const state = {
+  tab: 'guests',
+  openGuest: '',
+  servicePlace:'all',serviceGuest:'all',focusTab:'',focusItem:'',
+  guestQuery: '', guestType: 'all', guestDlc: 'all',
+  detailQuery: '', detailGuest: 'all', detailStage: 'all', detailDlc: 'all',
+  detailSort: { key: '价格', dir: 1 },
+  catalogQuery: '', catalogDlc: 'all', catalogSort: { key: '价格', dir: 1 },
+  ingredientQuery: '', ingredientType: 'all', ingredientDlc: 'all', ingredientSort: { key: '等级', dir: 1 },
+  beverageQuery: '', beverageDlc: 'all', beverageSort: { key: '价格', dir: 1 },
+  addonQuery: '', addonGuest: 'all', addonScene: 'all', addonSort: { key: '价格', dir: 1 },
+  drinkrecQuery: '', drinkrecGuest: 'all', drinkrecSort: { key: '价格', dir: -1 },
+  detailDrinkSort: 'price-desc',
+  beverageChips: [], drinkrecChips: [], catalogChips: [], ingredientChips: [], detailChips: [], addonChips: [],
+  normalQuery: '',
+  guideTab: '2024', guideQuery: '',
+  globalQuery: '', globalActive: -1, globalResults: []
+};
+
+/* ---------------- 主题 ---------------- */
+function storedTheme(){
+  try { return localStorage.getItem('mystia-ryotei-theme') || ''; } catch (e) { return ''; }
+}
+function storeTheme(theme){
+  try { localStorage.setItem('mystia-ryotei-theme', theme); } catch (e) {}
+}
+function setThemeDom(theme){
+  root.dataset.theme = theme;
+  const btn = $('#theme-toggle');
+  if (btn) {
+    btn.innerHTML = theme === 'dark'
+      ? '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg>'
+      : '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>';
+    const icon = btn.firstElementChild;
+    if (icon && !REDUCED_MOTION && typeof icon.animate === 'function') {
+      icon.animate(
+        [{ transform: 'rotate(-140deg) scale(.4)', opacity: '0' }, { transform: 'none', opacity: '1' }],
+        { duration: 380, easing: 'cubic-bezier(.34,1.45,.4,1)' }
+      );
+    }
+  }
+}
+function applyTheme(theme, ev){
+  const smooth = applyTheme._init && !REDUCED_MOTION && typeof document.startViewTransition === 'function';
+  if (smooth) {
+    // 从点击位置圆形扩散；整页快照交叉淡化，无逐元素过渡、无渐变跳变
+    if (ev && typeof ev.clientX === 'number') {
+      root.style.setProperty('--tv-x', ev.clientX + 'px');
+      root.style.setProperty('--tv-y', ev.clientY + 'px');
+    }
+    document.startViewTransition(() => setThemeDom(theme));
+  } else {
+    setThemeDom(theme);
+    if (!applyTheme._init) { applyTheme._init = true; return; }
+    root.classList.add('theme-anim');
+    clearTimeout(applyTheme._t);
+    applyTheme._t = setTimeout(() => root.classList.remove('theme-anim'), 420);
+  }
+}
+
+/* ---------------- 路由 ---------------- */
+const TAB_IDS = ['guests', 'details', 'catalog', 'ingredients', 'beverages', 'addons', 'drinkrecs', 'normal', 'new440', 'guides', 'sources'];
+let lastRenderedTab = '';
+function currentHash(){ try { return decodeURIComponent(location.hash.replace(/^#/, '')); } catch (_) { return location.hash.replace(/^#/,''); } }
+function switchTab(tab, updateHash = true){
+  if (!TAB_IDS.includes(tab)) tab = 'guests';
+  if (state.openGuest && tab !== 'guests') closeGuest(false);
+  const previousTab = state.tab;
+  state.tab = tab;
+  updateRyoteiHeading(tab);
+  $$('.tab-panel').forEach((panel) => { panel.hidden = panel.id !== 'panel-' + tab; });
+  moveTabIndicator();
+  if (updateHash && currentHash().split(/[/?]/)[0] !== tab) location.hash = ryoteiHash(tab);
+  if (lastRenderedTab !== tab) { renderTab(tab); lastRenderedTab = tab; }
+  if (updateHash && previousTab !== tab) $('#ryotei-workbench').scrollIntoView({top:0,behavior:REDUCED_MOTION ? 'auto' : 'smooth',block:'start'});
+}
+function renderTab(tab){
+  if (tab === 'guests') renderGuests();
+  else if (tab === 'details') renderDetails();
+  else if (tab === 'catalog') renderCatalog();
+  else if (tab === 'ingredients') renderIngredients();
+  else if (tab === 'beverages') renderBeverages();
+  else if (tab === 'addons') renderAddons();
+  else if (tab === 'drinkrecs') renderDrinkRecs();
+  else if (tab === 'normal') renderNormal();
+  else if (tab === 'new440') renderNew440();
+  else if (tab === 'guides') renderGuides();
+  else if (tab === 'sources') renderSources();
+}
+function route(){
+  const target = ryoteiParseRoute();
+  const tab = target.tab;
+  const previousTab = state.tab;
+  const wasRendered = lastRenderedTab === tab;
+  const changed = ryoteiApplyRoute(target);
+  switchTab(tab, false);
+  if (changed && previousTab === tab && wasRendered) renderTab(tab);
+  if (tab === 'guests' && target.guest) {
+    const name = target.guest;
+    if (state.openGuest !== name) openGuest(name, false);
+  } else if (state.openGuest) closeGuest(false);
+  ryoteiRevealItem();
+  updateRyoteiReturn();
+}
+
+/* ---------------- 客人详情面板 ---------------- */
+function setPanelOpen(open){
+  const panel = $('#detail-panel');
+  const backdrop = $('#detail-backdrop');
+  if (!panel || !backdrop) return;
+  window.clearTimeout(setPanelOpen.hideTimer);
+  panel.inert = !open;
+  if (open) {
+    panel.hidden = false; backdrop.hidden = false;
+    void panel.offsetWidth;
+    panel.classList.add('open'); backdrop.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    $$('.site-header, main, .site-footer').forEach((el) => { el.inert = true; });
+  } else {
+    panel.classList.remove('open'); backdrop.classList.remove('open');
+    document.body.style.overflow = '';
+    $$('.site-header, main, .site-footer').forEach((el) => { el.inert = false; });
+    setPanelOpen.hideTimer = window.setTimeout(() => {
+      if (!panel.classList.contains('open')) { panel.hidden = true; backdrop.hidden = true; }
+    }, 400);
+  }
+}
+function openGuest(name, updateHash = true){
+  const guest = dataOf('guests').find((r) => r['客人名字'] === name);
+  if (!guest) return;
+  state.openGuest = name;
+  renderGuestDetail(guest);
+  setPanelOpen(true);
+  if (updateHash) location.hash = ryoteiHash('guests',{guest:name});
+  const closeBtn = $('#detail-close');
+  if (closeBtn) closeBtn.focus();
+}
+function closeGuest(updateHash = true){
+  if (updateHash && state.openGuest) ryoteiSaveView();
+  state.openGuest = '';
+  setPanelOpen(false);
+  if (updateHash && currentHash().startsWith('guests/')) location.hash = ryoteiHash('guests');
+}
+function detailTableForGuest(name){
+  const list = dataOf('details').filter((r) => r['客人名字'] === name).map((r) => ({ ...r, '等级': dishLevelValue(r['菜品']) }));
+  if (!list.length) return '<div class="empty-state">暂无推荐菜谱明细。</div>';
+  const columns = [
+    { key: '阶段', label: '阶段' }, { key: '菜品', label: '菜品' }, { key: '等级', label: '等级', num: true, level: true }, { key: '价格', label: '价格', num: true },
+    { key: '所属版本', label: '版本' }, { key: '厨具', label: '厨具' }, { key: '主料', label: '主料' },
+    { key: '菜品标签', label: '菜品标签', tags: true }, { key: '命中喜好', label: '命中喜好', tags: true },
+    { key: '游戏积分', label: '积分', num: true }, { key: '加料建议', label: '加料建议', wide: true }
+  ];
+  const stageRank = { '前期': 0, '后期': 1 };
+  const sorted = list.slice().sort((a, b) => ((stageRank[a['阶段']] == null ? 9 : stageRank[a['阶段']]) - (stageRank[b['阶段']] == null ? 9 : stageRank[b['阶段']])) || ((parseFloat(a['价格']) || 0) - (parseFloat(b['价格']) || 0)));
+  return '<div class="table-wrap" style="max-height:420px">' + makeTable(columns, sorted) + '</div>';
+}
+function renderGuestDetail(guest){ renderRyoteiGuestDetail(guest); }
+
+/* ---------------- 通用表格 ---------------- */
+function makeTable(columns, list){ return makeRyoteiTable(columns,list); }
+function bindSortable(wrap, renderFn, stateKey){
+  if (!wrap || wrap.dataset.sortBound) return;
+  wrap.dataset.sortBound = '1';
+  wrap.addEventListener('click', (event) => {
+    const th = event.target.closest('th[data-sort]');
+    if (!th) return;
+    const sortStateKey = th.dataset.sortKey || stateKey;
+    const key = th.dataset.sort;
+    const cur = state[sortStateKey] || { key: '', dir: 1 };
+    state[sortStateKey] = { key, dir: cur.key === key ? -cur.dir : 1 };
+    renderFn();
+  });
+}
+
+/* ---------------- 标签 chip 筛选 ---------------- */
+function matchesTagChips(row, chips, fields){
+  if (!chips || !chips.length) return true;
+  const rowTags = new Set();
+  fields.forEach((field) => {
+    splitTags(row[field]).forEach((tag) => rowTags.add(tag));
+  });
+  return chips.every((tag) => rowTags.has(tag));
+}
+const TAG_FILTER_CONFIG = [
+  { stateKey: 'beverageChips', queryState: 'beverageQuery', input: '#beverage-search', render: () => renderBeverages(), rows: () => dataOf('beverages'), fields: ['标签'] },
+  { stateKey: 'drinkrecChips', queryState: 'drinkrecQuery', input: '#drinkrec-search', render: () => renderDrinkRecs(), rows: () => buildDrinkRecIndex(), fields: ['标签'] },
+  { stateKey: 'catalogChips', queryState: 'catalogQuery', input: '#catalog-search', render: () => renderCatalog(), rows: () => dataOf('recipes'), fields: ['菜品标签'] },
+  { stateKey: 'ingredientChips', queryState: 'ingredientQuery', input: '#ingredient-search', render: () => renderIngredients(), rows: () => dataOf('ingredients'), fields: ['标签'] },
+  { stateKey: 'detailChips', queryState: 'detailQuery', input: '#detail-search', render: () => renderDetails(), rows: () => dataOf('details'), fields: ['菜品标签'] },
+  { stateKey: 'addonChips', queryState: 'addonQuery', input: '#addon-search', render: () => renderAddons(), rows: () => buildAddonIndex(), fields: ['食材标签'] }
+];
+function tagSuggestions(cfg){
+  const set = new Set();
+  cfg.rows().forEach((row) => {
+    cfg.fields.forEach((field) => {
+      splitTags(row[field]).forEach((tag) => set.add(tag));
+    });
+  });
+  return Array.from(set).sort(byLocale);
+}
+function resolveTags(cfg, value){
+  const tags = tagSuggestions(cfg);
+  const raw = String(value == null ? '' : value).trim();
+  if (!raw) return [];
+  if (/[\u3400-\u9fff]/.test(raw)) {
+    const lower = raw.toLowerCase();
+    let hit = tags.find((t) => t.toLowerCase() === lower);
+    if (!hit) {
+      const prefix = tags.filter((t) => t.toLowerCase().startsWith(lower));
+      if (prefix.length === 1) hit = prefix[0];
+    }
+    return hit ? [hit] : [];
+  }
+  const norm = normalizeAscii(raw);
+  if (!norm) return [];
+  const exact = tags.filter((tag) => {
+    const info = textPinyinInfo(tag);
+    return info.exact.includes(norm) || info.fuzzy.includes(norm) || info.initials.includes(norm) || info.fuzzyInitials.includes(norm);
+  });
+  if (exact.length) return [exact[0]];
+  const partial = tags.filter((tag) => matchesAsciiQuery(pinyinHay(tag), raw));
+  if (partial.length === 1) return [partial[0]];
+  const terms = raw.split(/[\s,，、；;]+/).map((item) => item.trim()).filter(Boolean);
+  if (terms.length > 1) {
+    const resolved = [];
+    let ok = true;
+    terms.forEach((term) => {
+      const found = resolveTags(cfg, term);
+      if (found.length === 1 && !resolved.includes(found[0])) resolved.push(found[0]);
+      else ok = false;
+    });
+    if (ok && resolved.length) return resolved;
+  }
+  return [];
+}
+function toggleTag(cfg, tag){
+  const arr = state[cfg.stateKey] || (state[cfg.stateKey] = []);
+  const index = arr.indexOf(tag);
+  if (index >= 0) arr.splice(index, 1);
+  else arr.push(tag);
+  renderTagBar(cfg);
+  cfg.render();
+}
+function flashTagMessage(cfg, text){
+  cfg.message = text;
+  renderTagBar(cfg);
+  clearTimeout(cfg.messageTimer);
+  cfg.messageTimer = setTimeout(() => { cfg.message = ''; renderTagBar(cfg); }, 1800);
+}
+function renderTagBar(cfg){
+  const bar = cfg.barEl;
+  if (!bar) return;
+  const chips = state[cfg.stateKey] || [];
+  const selected = chips.length
+    ? chips.map((tag) => '<button class="tag chip" type="button" data-tag="' + escAttr(tag) + '">' + esc(tag) + '<span class="x">×</span></button>').join('')
+    : '<span class="tf-hint">未选择</span>';
+  const suggestions = tagSuggestions(cfg).filter((tag) => !chips.includes(tag)).slice(0, 20);
+  const suggestHtml = suggestions.map((tag) => '<button class="tag suggest" type="button" data-tag="' + escAttr(tag) + '">' + esc(tag) + '</button>').join('');
+  bar.innerHTML = '<span class="tf-label">标签筛选</span>' + selected +
+    (chips.length ? '<button class="link-btn" type="button" data-action="clear">清空</button>' : '') +
+    '<span class="tf-hint">回车固定标签 · 多标签同时满足</span>' +
+    (cfg.message ? '<span class="tf-msg">' + esc(cfg.message) + '</span>' : '') +
+    (suggestHtml ? '<div class="tf-suggest">' + suggestHtml + '</div>' : '');
+}
+function initTagFilters(){
+  TAG_FILTER_CONFIG.forEach((cfg) => {
+    const input = $(cfg.input);
+    if (!input) return;
+    const toolbar = input.closest('.toolbar');
+    if (!toolbar) return;
+    const bar = document.createElement('div');
+    bar.className = 'tag-filter-bar';
+    toolbar.appendChild(bar);
+    cfg.barEl = bar;
+    bar.addEventListener('click', (event) => {
+      if (event.target.closest('[data-action="clear"]')) {
+        state[cfg.stateKey] = [];
+        renderTagBar(cfg);
+        cfg.render();
+        return;
+      }
+      const tagBtn = event.target.closest('[data-tag]');
+      if (tagBtn) toggleTag(cfg, tagBtn.dataset.tag);
+    });
+    input.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        const value = input.value.trim();
+        if (!value) return;
+        const tags = resolveTags(cfg, value);
+        if (tags.length) {
+          const arr = state[cfg.stateKey] || (state[cfg.stateKey] = []);
+          tags.forEach((tag) => { if (!arr.includes(tag)) arr.push(tag); });
+          input.value = '';
+          state[cfg.queryState] = '';
+          renderTagBar(cfg);
+          cfg.render();
+        } else {
+          flashTagMessage(cfg, '未找到唯一标签「' + value + '」（可试拼音/首字母）');
+        }
+      } else if (event.key === 'Backspace' && !input.value && (state[cfg.stateKey] || []).length) {
+        event.preventDefault();
+        state[cfg.stateKey].pop();
+        renderTagBar(cfg);
+        cfg.render();
+      }
+    });
+    renderTagBar(cfg);
+  });
+}
+
+/* ---------------- 客人图鉴 ---------------- */
+function guestCard(guest, index){ return renderRyoteiGuestCard(guest,index); }
+function renderGuests(){
+  const q = state.guestQuery.trim().toLowerCase();
+  const list = dataOf('guests').filter((guest) => {
+    if (!ryoteiVisitsPlace(guest)) return false;
+    if (state.guestType !== 'all' && guest['类型'] !== state.guestType) return false;
+    if (state.guestDlc !== 'all' && guest['所属版本'] !== state.guestDlc) return false;
+    return matchesRowQuery(guest, q, ['客人名字', '类型', '所属版本', '出没地点', '持有金', '喜好料理标签', '厌恶料理标签', '喜好酒水标签']);
+  });
+  list.sort((a, b) => (versionRank(a['所属版本']) - versionRank(b['所属版本'])) || (typeRank(a['类型']) - typeRank(b['类型'])) || byLocale(a['客人名字'], b['客人名字']));
+  $('#guest-count').textContent = list.length + ' / ' + dataOf('guests').length + ' 位';
+  const grid = $('#guest-grid');
+  grid.innerHTML = list.length ? list.map((guest, index) => guestCard(guest, index)).join('') : '<div class="empty-state">没有匹配的客人。</div>';
+}
+
+/* ---------------- 推荐菜谱明细 ---------------- */
+const DETAIL_COLUMNS = [
+  { key: '客人名字', label: '客人', linkGuest: true, sortable: true, sortKey: 'detailSort' },
+  { secondary: true, key: '类型', label: '类型' },
+  { key: '阶段', label: '阶段', sortable: true, sortKey: 'detailSort' },
+  { key: '菜品', label: '菜品', sortable: true, sortKey: 'detailSort' },
+  { key: '等级', label: '等级', num: true, sortable: true, sortKey: 'detailSort', level: true },
+  { key: '价格', label: '价格', num: true, sortable: true, sortKey: 'detailSort' },
+  { secondary: true, key: '所属版本', label: '版本' },
+  { key: '厨具', label: '厨具' },
+  { secondary: true, key: '主料', label: '主料' },
+  { key: '菜品标签', label: '菜品标签', tags: true },
+  { key: '命中喜好', label: '命中喜好', tags: true, tagKind: 'good' },
+  { key: '游戏积分', label: '积分', num: true, sortable: true, sortKey: 'detailSort' },
+  { key: '加料建议', label: '加料建议', wide: true }
+];
+function renderDetails(){
+  const q = state.detailQuery.trim().toLowerCase();
+  let list = ryoteiPlanRows(dataOf('details')).map((row) => {
+    const level = dishLevelValue(row['菜品']);
+    return { ...row, '等级': level, '__等级文本': level == null ? '' : 'Lv ' + level };
+  }).filter((row) => {
+    if (state.detailGuest !== 'all' && row['客人名字'] !== state.detailGuest) return false;
+    if (state.detailStage !== 'all' && row['阶段'] !== state.detailStage) return false;
+    if (state.detailDlc !== 'all' && row['所属版本'] !== state.detailDlc) return false;
+    if (!matchesTagChips(row, state.detailChips, ['菜品标签'])) return false;
+    return matchesRowQuery(row, q, ['客人名字', '菜品', '等级', '__等级文本', '主料', '菜品标签', '命中喜好', '解锁来源', '加料建议', '备注']);
+  });
+  list = sortObjects(list, state.detailSort.key, state.detailSort.dir);
+  $('#detail-count').textContent = list.length + ' / ' + dataOf('details').length + ' 条';
+  const wrap = $('#detail-table-wrap');
+  wrap.innerHTML = list.length ? makeTable(DETAIL_COLUMNS, list) : '<div class="empty-state">没有匹配的推荐菜谱。</div>';
+}
+
+/* ---------------- 菜谱 / 食材 / 酒水 ---------------- */
+const CATALOG_COLUMNS = [
+  { key: '菜品', label: '菜品', sortable: true, sortKey: 'catalogSort' },
+  { key: '所属版本', label: '版本', sortable: true, sortKey: 'catalogSort' },
+  { key: '等级', label: '等级', num: true, sortable: true, sortKey: 'catalogSort', level: true },
+  { key: '价格', label: '价格', num: true, sortable: true, sortKey: 'catalogSort' },
+  { key: '厨具', label: '厨具' },
+  { key: '主料', label: '主料' },
+  { key: '菜品标签', label: '菜品标签', tags: true },
+  { key: '冲突标签（加料会变黑暗物质）', label: '冲突标签', tags: true, tagKind: 'bad' },
+  { secondary: true, key: '解锁来源', label: '解锁来源' },
+  { key: '描述', label: '描述', wide: true }
+];
+function renderCatalog(){
+  const q = state.catalogQuery.trim().toLowerCase();
+  let list = dataOf('recipes').map((row) => ({ ...row, '__等级文本': row['等级'] ? 'Lv ' + row['等级'] : '' })).filter((row) => {
+    if (!ryoteiFocusMatches('catalog',row,'菜品')) return false;
+    if (state.catalogDlc !== 'all' && row['所属版本'] !== state.catalogDlc) return false;
+    if (!matchesTagChips(row, state.catalogChips, ['菜品标签'])) return false;
+    return matchesRowQuery(row, q, ['菜品', '等级', '__等级文本', '主料', '菜品标签', '冲突标签（加料会变黑暗物质）', '解锁来源', '描述']);
+  });
+  list = sortObjects(list, state.catalogSort.key, state.catalogSort.dir);
+  $('#catalog-count').textContent = list.length + ' / ' + dataOf('recipes').length + ' 道';
+  const wrap = $('#catalog-table-wrap');
+  wrap.innerHTML = list.length ? makeTable(CATALOG_COLUMNS, list) : '<div class="empty-state">没有匹配的菜谱。</div>';
+}
+const INGREDIENT_COLUMNS = [
+  { key: '食材', label: '食材', sortable: true, sortKey: 'ingredientSort' },
+  { key: '类型', label: '类型', sortable: true, sortKey: 'ingredientSort' },
+  { key: '标签', label: '标签', tags: true },
+  { key: '所属版本', label: '版本', sortable: true, sortKey: 'ingredientSort' },
+  { key: '等级', label: '等级', num: true, sortable: true, sortKey: 'ingredientSort' },
+  { key: '价格', label: '价格', num: true, sortable: true, sortKey: 'ingredientSort' },
+  { key: '获取方式', label: '获取方式', wide: true },
+  { key: '描述', label: '描述', wide: true }
+];
+function renderIngredients(){
+  const q = state.ingredientQuery.trim().toLowerCase();
+  let list = dataOf('ingredients').filter((row) => {
+    if (!ryoteiFocusMatches('ingredients',row,'食材')) return false;
+    if (state.ingredientType !== 'all' && row['类型'] !== state.ingredientType) return false;
+    if (state.ingredientDlc !== 'all' && row['所属版本'] !== state.ingredientDlc) return false;
+    if (!matchesTagChips(row, state.ingredientChips, ['标签'])) return false;
+    return matchesRowQuery(row, q, ['食材', '类型', '标签', '获取方式', '描述']);
+  });
+  list = sortObjects(list, state.ingredientSort.key, state.ingredientSort.dir);
+  $('#ingredient-count').textContent = list.length + ' / ' + dataOf('ingredients').length + ' 种';
+  const wrap = $('#ingredient-table-wrap');
+  wrap.innerHTML = list.length ? makeTable(INGREDIENT_COLUMNS, list) : '<div class="empty-state">没有匹配的食材。</div>';
+}
+const BEVERAGE_COLUMNS = [
+  { key: '酒水', label: '酒水', sortable: true, sortKey: 'beverageSort' },
+  { key: '所属版本', label: '版本', sortable: true, sortKey: 'beverageSort' },
+  { key: '等级', label: '等级', num: true, sortable: true, sortKey: 'beverageSort' },
+  { key: '价格', label: '价格', num: true, sortable: true, sortKey: 'beverageSort' },
+  { key: '标签', label: '标签', tags: true },
+  { key: '获取方式', label: '获取方式', wide: true },
+  { key: '描述', label: '描述', wide: true }
+];
+function renderBeverages(){
+  const q = state.beverageQuery.trim().toLowerCase();
+  let list = dataOf('beverages').filter((row) => {
+    if (!ryoteiFocusMatches('beverages',row,'酒水')) return false;
+    if (state.beverageDlc !== 'all' && row['所属版本'] !== state.beverageDlc) return false;
+    if (!matchesTagChips(row, state.beverageChips, ['标签'])) return false;
+    return matchesRowQuery(row, q, ['酒水', '等级', '标签', '获取方式', '描述']);
+  });
+  list = sortObjects(list, state.beverageSort.key, state.beverageSort.dir);
+  $('#beverage-count').textContent = list.length + ' / ' + dataOf('beverages').length + ' 款';
+  const wrap = $('#beverage-table-wrap');
+  wrap.innerHTML = list.length ? makeTable(BEVERAGE_COLUMNS, list) : '<div class="empty-state">没有匹配的酒水。</div>';
+}
+
+/* ---------------- 加料候选（按食材价格排序） ---------------- */
+let addonIndex = null;
+function addonSceneOrder(scene){
+  return ['通用加料', '前期示例', '后期示例'].indexOf(scene);
+}
+function firstDishName(value){
+  const list = lines(value);
+  if (!list.length) return '—';
+  const line = list[0];
+  const cut = line.indexOf('（');
+  return (cut > 0 ? line.slice(0, cut) : line).trim() || '—';
+}
+function guestLikeSet(guest){
+  const set = new Set();
+  splitTags(guest['喜好料理标签']).forEach((tag) => {
+    const clean = tag.replace(/（动态）$/, '').trim();
+    if (clean && clean !== '流行喜爱') set.add(clean);
+  });
+  return set;
+}
+function parseAddonRows(){
+  const ingredients = dataOf('ingredients');
+  const ingredientByName = {};
+  const names = ingredients.map((r) => r['食材']).filter(Boolean).sort((a, b) => b.length - a.length);
+  ingredients.forEach((r) => { ingredientByName[r['食材']] = r; });
+  const out = [];
+  const seen = new Set();
+  dataOf('guests').forEach((guest) => {
+    const guestName = guest['客人名字'];
+    const likeSet = guestLikeSet(guest);
+    const earlyDish = firstDishName(guest['前期推荐菜谱']);
+    const lateDish = firstDishName(guest['后期推荐菜谱']);
+    lines(guest['加料推荐']).forEach((line) => {
+      let scene = '通用加料';
+      let dish = '—';
+      if (/^前期示例/.test(line)) { scene = '前期示例'; dish = earlyDish; }
+      else if (/^后期示例/.test(line)) { scene = '后期示例'; dish = lateDish; }
+      names.forEach((name) => {
+        const marker = name + '（';
+        let from = 0;
+        while (true) {
+          const pos = line.indexOf(marker, from);
+          if (pos < 0) break;
+          const prev = pos > 0 ? line[pos - 1] : '';
+          if (pos === 0 || /[+、；;：:\s]/.test(prev)) {
+            const ing = ingredientByName[name];
+            const key = [guestName, scene, dish, name].join('||');
+            if (ing && !seen.has(key)) {
+              seen.add(key);
+              const seg = line.slice(pos + name.length);
+              const supp = seg.match(/^（补([^）]*)）/);
+              let supplement = supp ? supp[1] : '';
+              if (!supplement) {
+                const ingTags = splitTags(ing['标签']);
+                supplement = ingTags.filter((tag) => likeSet.has(tag)).join('、');
+              }
+              out.push({
+                '客人名字': guestName,
+                '类型': guest['类型'],
+                '场景': scene,
+                '推荐菜': dish,
+                '食材': name,
+                '价格': parseFloat(ing['价格']) || 0,
+                '等级': parseFloat(ing['等级']) || 0,
+                '所属版本': ing['所属版本'],
+                '食材标签': ing['标签'],
+                '补足标签': supplement || '—',
+                '获取方式': ing['获取方式'],
+                '说明': line
+              });
+            }
+          }
+          from = pos + marker.length;
+        }
+      });
+    });
+  });
+  out.sort((a, b) => (addonSceneOrder(a['场景']) - addonSceneOrder(b['场景'])) || (a['价格'] - b['价格']) || byLocale(a['食材'], b['食材']));
+  return out;
+}
+function buildAddonIndex(){
+  if (!addonIndex) addonIndex = parseAddonRows();
+  return addonIndex;
+}
+const ADDON_COLUMNS = [
+  { key: '客人名字', label: '客人', linkGuest: true, sortable: true, sortKey: 'addonSort' },
+  { key: '场景', label: '场景', sortable: true, sortKey: 'addonSort' },
+  { key: '推荐菜', label: '适用推荐菜' },
+  { key: '食材', label: '食材', sortable: true, sortKey: 'addonSort' },
+  { key: '价格', label: '价格', num: true, sortable: true, sortKey: 'addonSort' },
+  { key: '等级', label: '等级', num: true, sortable: true, sortKey: 'addonSort' },
+  { key: '所属版本', label: '版本', sortable: true, sortKey: 'addonSort' },
+  { key: '食材标签', label: '食材标签', tags: true },
+  { key: '补足标签', label: '补足标签', tags: true, tagKind: 'good' },
+  { key: '获取方式', label: '获取方式', wide: true }
+];
+function renderAddons(){
+  const q = state.addonQuery.trim().toLowerCase();
+  let list = ryoteiPlanRows(buildAddonIndex()).filter((row) => {
+    if (state.addonGuest !== 'all' && row['客人名字'] !== state.addonGuest) return false;
+    if (state.addonScene !== 'all' && row['场景'] !== state.addonScene) return false;
+    if (!matchesTagChips(row, state.addonChips, ['食材标签'])) return false;
+    return matchesRowQuery(row, q, ['客人名字', '场景', '推荐菜', '食材', '食材标签', '补足标签', '获取方式']);
+  });
+  list = sortObjects(list, state.addonSort.key, state.addonSort.dir);
+  $('#addon-count').textContent = list.length + ' / ' + buildAddonIndex().length + ' 条';
+  const wrap = $('#addon-table-wrap');
+  wrap.innerHTML = list.length ? makeTable(ADDON_COLUMNS, list) : '<div class="empty-state">没有匹配的加料候选。</div>';
+  const sortSelect = $('#addon-sort-filter');
+  if (sortSelect) {
+    if (state.addonSort.key === '价格') sortSelect.value = state.addonSort.dir > 0 ? 'price-asc' : 'price-desc';
+    else if (state.addonSort.key === '等级') sortSelect.value = state.addonSort.dir > 0 ? 'level-asc' : 'level-desc';
+    else sortSelect.selectedIndex = -1;
+  }
+}
+function addonTableForGuest(name){
+  const list = buildAddonIndex().filter((row) => row['客人名字'] === name);
+  if (!list.length) return '<span class="muted">暂无加料候选。</span>';
+  const columns = [
+    { key: '场景', label: '场景' },
+    { key: '推荐菜', label: '适用推荐菜' },
+    { key: '食材', label: '食材' },
+    { key: '价格', label: '价格', num: true },
+    { key: '等级', label: '等级', num: true },
+    { key: '所属版本', label: '版本' },
+    { key: '食材标签', label: '食材标签', tags: true },
+    { key: '补足标签', label: '补足标签', tags: true, tagKind: 'good' }
+  ];
+  const sorted = list.slice().sort((a, b) => (addonSceneOrder(a['场景']) - addonSceneOrder(b['场景'])) || (a['价格'] - b['价格']));
+  return '<div class="table-wrap" style="max-height:420px">' + makeTable(columns, sorted) + '</div>' +
+    '<div class="muted" style="margin-top:6px;font-size:12px">价格升序</div>';
+}
+
+/* ---------------- 酒水推荐（按价格排序） ---------------- */
+let drinkRecIndex = null;
+function parseDrinkItem(item, guest){
+  const text = String(item || '').trim();
+  let name = text;
+  let price = 0;
+  let tags = '';
+  const m = text.match(/^(.+?)（(\d+)｜([^）]*)）$/);
+  if (m) { name = m[1]; price = parseFloat(m[2]) || 0; tags = m[3]; }
+  else {
+    const m2 = text.match(/^(.+?)（(\d+)）$/);
+    if (m2) { name = m2[1]; price = parseFloat(m2[2]) || 0; }
+  }
+  const bev = dataOf('beverages').find((r) => r['酒水'] === name);
+  if (bev) {
+    if (!price) price = parseFloat(bev['价格']) || 0;
+    if (!tags) tags = bev['标签'];
+    const guestTags = splitTags(guest['喜好酒水标签']);
+    const hit = splitTags(tags).filter((t) => guestTags.includes(t));
+    return {
+      '客人名字': guest['客人名字'], '类型': guest['类型'], '酒水': name, '价格': price,
+      '等级': parseFloat(bev['等级']) || 0, '所属版本': bev['所属版本'], '标签': tags,
+      '命中喜好': hit.join('、'), '命中数': hit.length, '原始推荐': text
+    };
+  }
+  return {
+    '客人名字': guest['客人名字'], '类型': guest['类型'], '酒水': name, '价格': price,
+    '等级': 0, '所属版本': '', '标签': tags, '命中喜好': '', '命中数': 0, '原始推荐': text
+  };
+}
+function parseDrinkRows(){
+  const out = [];
+  const seen = new Set();
+  dataOf('guests').forEach((guest) => {
+    splitDrinks(guest['推荐酒水']).forEach((item) => {
+      const row = parseDrinkItem(item, guest);
+      const key = [row['客人名字'], row['酒水']].join('||');
+      if (!seen.has(key)) { seen.add(key); out.push(row); }
+    });
+  });
+  out.sort((a, b) => (b['价格'] - a['价格']) || (b['命中数'] - a['命中数']) || byLocale(a['酒水'], b['酒水']));
+  return out;
+}
+function buildDrinkRecIndex(){
+  if (!drinkRecIndex) drinkRecIndex = parseDrinkRows();
+  return drinkRecIndex;
+}
+function drinkSortValue(rows, mode){
+  const arr = rows.slice();
+  if (mode === 'price-asc') arr.sort((a, b) => (a['价格'] - b['价格']) || (b['命中数'] - a['命中数']));
+  else if (mode === 'price-desc') arr.sort((a, b) => (b['价格'] - a['价格']) || (b['命中数'] - a['命中数']));
+  else if (mode === 'level-desc') arr.sort((a, b) => (b['等级'] - a['等级']) || (b['价格'] - a['价格']));
+  else if (mode === 'level-asc') arr.sort((a, b) => (a['等级'] - b['等级']) || (b['价格'] - a['价格']));
+  else if (mode === 'match-asc') arr.sort((a, b) => (a['命中数'] - b['命中数']) || (b['价格'] - a['价格']));
+  else arr.sort((a, b) => (b['命中数'] - a['命中数']) || (b['价格'] - a['价格']));
+  return arr;
+}
+const DRINKREC_COLUMNS = [
+  { key: '客人名字', label: '客人', linkGuest: true, sortable: true, sortKey: 'drinkrecSort' },
+  { key: '类型', label: '类型' },
+  { key: '酒水', label: '酒水', sortable: true, sortKey: 'drinkrecSort' },
+  { key: '价格', label: '价格', num: true, sortable: true, sortKey: 'drinkrecSort' },
+  { key: '等级', label: '等级', num: true, sortable: true, sortKey: 'drinkrecSort' },
+  { key: '所属版本', label: '版本', sortable: true, sortKey: 'drinkrecSort' },
+  { key: '标签', label: '标签', tags: true },
+  { key: '命中喜好', label: '命中喜好', tags: true, tagKind: 'good' }
+];
+function renderDrinkRecs(){
+  const q = state.drinkrecQuery.trim().toLowerCase();
+  let list = ryoteiPlanRows(buildDrinkRecIndex()).filter((row) => {
+    if (state.drinkrecGuest !== 'all' && row['客人名字'] !== state.drinkrecGuest) return false;
+    if (!matchesTagChips(row, state.drinkrecChips, ['标签'])) return false;
+    return matchesRowQuery(row, q, ['客人名字', '类型', '酒水', '标签', '命中喜好']);
+  });
+  if (state.drinkrecSort.key === '命中喜好') {
+    list.sort((a, b) => (b['命中数'] - a['命中数']) || (b['价格'] - a['价格']) || byLocale(a['酒水'], b['酒水']));
+    if (state.drinkrecSort.dir > 0) list.reverse();
+  } else {
+    list = sortObjects(list, state.drinkrecSort.key, state.drinkrecSort.dir);
+  }
+  $('#drinkrec-count').textContent = list.length + ' / ' + buildDrinkRecIndex().length + ' 条';
+  const wrap = $('#drinkrec-table-wrap');
+  wrap.innerHTML = list.length ? makeTable(DRINKREC_COLUMNS, list) : '<div class="empty-state">没有匹配的酒水推荐。</div>';
+  const sel = $('#drinkrec-sort-filter');
+  if (sel) {
+    if (state.drinkrecSort.key === '价格') sel.value = state.drinkrecSort.dir > 0 ? 'price-asc' : 'price-desc';
+    else if (state.drinkrecSort.key === '等级') sel.value = state.drinkrecSort.dir > 0 ? 'level-asc' : 'level-desc';
+    else if (state.drinkrecSort.key === '命中喜好') sel.value = state.drinkrecSort.dir > 0 ? 'match-asc' : 'match-desc';
+    else sel.selectedIndex = -1;
+  }
+}
+function drinkTableForGuest(name, tableOnly = false){
+  const rows = buildDrinkRecIndex().filter((r) => r['客人名字'] === name);
+  if (!rows.length) return '<span class="muted">暂无推荐酒水。</span>';
+  const sorted = drinkSortValue(rows, state.detailDrinkSort);
+  const columns = [
+    { key: '酒水', label: '酒水' }, { key: '价格', label: '价格', num: true }, { key: '等级', label: '等级', num: true },
+    { key: '所属版本', label: '版本' }, { key: '标签', label: '标签', tags: true },
+    { key: '命中喜好', label: '命中喜好', tags: true, tagKind: 'good' }
+  ];
+  if (tableOnly) return makeTable(columns, sorted);
+  const opts = [['price-desc', '价格从高到低'], ['price-asc', '价格从低到高'], ['level-desc', '等级从高到低'], ['level-asc', '等级从低到高'], ['match-desc', '匹配喜好优先'], ['match-asc', '匹配喜好从少到多']]
+    .map(([v, l]) => '<option value="' + v + '"' + (state.detailDrinkSort === v ? ' selected' : '') + '>' + l + '</option>').join('');
+  return '<div class="toolbar" style="margin:0 0 8px;padding:7px"><span class="muted" style="font-size:12px">排序</span><select id="detail-drink-sort" aria-label="推荐酒水排序">' + opts + '</select></div>' +
+    '<div class="table-wrap" style="max-height:320px">' + makeTable(columns, sorted) + '</div>';
+}
+
+/* ---------------- 普通客人 / 4.4.0 ---------------- */
+function renderNormal(){
+  const q = state.normalQuery.trim().toLowerCase();
+  const list = dataOf('normal').filter((row) => {
+    if (!ryoteiVisitsPlace(row) || !ryoteiFocusMatches('normal',row,'普通客人')) return false;
+    return matchesRowQuery(row, q, ['普通客人', '出没地点', '喜好料理标签', '喜好酒水标签', '前期推荐菜（≤80元）', '后期推荐菜（≤200元）']);
+  }).sort((a, b) => byLocale(a['普通客人'], b['普通客人']));
+  $('#normal-count').textContent = list.length + ' / ' + dataOf('normal').length + ' 种';
+  const grid = $('#normal-grid');
+  grid.innerHTML = list.length ? list.map((row, index) => {
+    const early = lines(row['前期推荐菜（≤80元）']);
+    const late = lines(row['后期推荐菜（≤200元）']);
+    const name = row['普通客人'];
+    return '<article class="guest-card" style="--i:' + Math.min(index, 12) + '">' +
+      '<div class="guest-card-top"><div class="guest-id">' + ryoteiFace(name,'normal') + '<h3>' + ryoteiEntityLink('normal',name) + '</h3></div><div class="badges"><span class="badge">' + esc(row['所属版本']) + '</span></div></div>' +
+      '<div class="meta-grid"><div class="row"><span class="k">出没</span><span class="v">' + ryoteiLocationLinks(row['出没地点']) + '</span></div></div>' +
+      '<div class="tag-row"><span class="tag-label good">喜</span><div class="tag-wrap">' + tagHtml(row['喜好料理标签'], 'good', 7) + '</div></div>' +
+      '<div class="tag-row"><span class="tag-label drink">酒</span><div class="tag-wrap">' + tagHtml(row['喜好酒水标签'], 'drink', 5) + '</div></div>' +
+      '<div class="guest-card-foot"><span>前期：' + ryoteiLinkedText(firstLine(row['前期推荐菜（≤80元）'],48)) + '</span><span>后期：' + ryoteiLinkedText(firstLine(row['后期推荐菜（≤200元）'],48)) + '</span></div>' +
+      '<details class="normal-meals"><summary>完整配餐</summary><div><h4>前期</h4>' + early.map(line=>'<p>' + ryoteiLinkedText(line) + '</p>').join('') + '<h4>后期</h4>' + late.map(line=>'<p>' + ryoteiLinkedText(line) + '</p>').join('') + '</div></details>' +
+      '</article>';
+  }).join('') : '<div class="empty-state">没有匹配的普通客人。</div>';
+}
+function renderNew440(){
+  const rows = dataOf('new440');
+  const grid = $('#new440-list');
+  grid.innerHTML = rows.map((row, index) => '<article class="guest-card" style="--i:' + Math.min(index, 12) + '">' +
+    '<div class="guest-card-top"><h3>' + ryoteiLinkedText(row['名称']) + '</h3><div class="badges"><span class="badge accent">' + esc(row['类别']) + '</span></div></div>' +
+    '<div class="field"><div class="label">效果 / 说明</div><div class="value">' + ryoteiLinkedText(row['效果/说明']) + '</div></div>' +
+    '<div class="field"><div class="label">获取 / 备注</div><div class="value">' + ryoteiLinkedText(row['获取/备注']) + '</div></div>' +
+    '</article>').join('');
+}
+
+/* ---------------- 攻略对照 ---------------- */
+function renderGuides(){
+  const is2024 = state.guideTab === '2024';
+  const key = is2024 ? 'guide2024' : 'guide2021';
+  const fieldConfig = is2024
+    ? [['地区', '地区'], ['持有金(攻略)', '持有金'], ['常出没(攻略)', '常出没'], ['喜好(攻略)', '喜好'], ['厌恶(攻略)', '厌恶'], ['酒水(攻略)', '酒水'], ['菜品推荐(攻略原文)', '菜品推荐'], ['酒水推荐(攻略原文)', '酒水推荐'], ['羁绊解锁(攻略原文)', '羁绊解锁'], ['备注/版本变化', '备注/版本变化']]
+    : [['持有金(攻略)', '持有金'], ['符卡(攻略)', '符卡'], ['喜好(攻略)', '喜好'], ['厌恶(攻略)', '厌恶'], ['酒水偏好(攻略)', '酒水偏好'], ['菜品推荐(攻略原文)', '菜品推荐'], ['加料推荐(攻略原文)', '加料推荐'], ['酒水推荐(攻略原文)', '酒水推荐'], ['羁绊解锁(攻略原文)', '羁绊解锁']];
+  const q = state.guideQuery.trim().toLowerCase();
+  const list = dataOf(key).filter((row) => {
+    return matchesRowQuery(row, q, Object.keys(row));
+  });
+  $('#guide-count').textContent = list.length + ' / ' + dataOf(key).length + ' 位';
+  const wrap = $('#guide-list');
+  wrap.innerHTML = list.length ? list.map((row, index) => {
+    const title = row['客人'];
+    const money = row['持有金(攻略)'] || '';
+    return '<details class="guide-card" style="--i:' + Math.min(index, 12) + '"><summary><span class="guide-name">' + esc(title) + '</span><span class="guide-money">' + esc(money) + '</span></summary><div class="guide-card-body"><div class="field-grid">' +
+      '<p class="guide-current-link">' + (dataOf('guests').some(guest=>guest['客人名字'] === title) ? ryoteiEntityLink('guest',title,'查看当前图鉴 ↗') : '') + '</p>' +
+      fieldConfig.map(([keyName, label]) => '<div class="field"><div class="label">' + esc(label) + '</div><div class="value">' + ryoteiLinkedText(row[keyName] || '无') + '</div></div>').join('') +
+      '</div></div></details>';
+  }).join('') : '<div class="empty-state">没有匹配的攻略记录。</div>';
+}
+
+/* ---------------- 数据来源 ---------------- */
+function linkify(value){
+  return esc(value).replace(/(https?:\/\/[^\s，。；)）]+)/g, '<a href="$1" target="_blank" rel="noreferrer">$1</a>');
+}
+function renderSources(){
+  const rows = dataOf('sources');
+  const wrap = $('#source-list');
+  wrap.innerHTML = '<div class="callout" style="margin-bottom:12px">攻略数据来自同目录 Excel；可离线使用。</div>' +
+    rows.map((row, index) => '<div class="source-item" style="--i:' + Math.min(index, 12) + '"><div class="k">' + esc(row['项目']) + '</div><div class="v">' + linkify(row['内容']) + '</div></div>').join('');
+}
+
+/* ---------------- 全局搜索 ---------------- */
+let globalIndex = null;
+function buildGlobalIndex(){
+  globalIndex = [];
+  dataOf('guests').forEach((r) => globalIndex.push({
+    group: '客人', name: r['客人名字'],
+    text: searchTextFor([r['客人名字'], r['类型'], r['所属版本'], r['出没地点'], r['喜好料理标签'], r['厌恶料理标签'], r['持有金']]),
+    desc: r['类型'] + ' · ' + r['持有金'],
+    action: () => ryoteiNavigate(ryoteiHash('guests',{guest:r['客人名字']}))
+  }));
+  dataOf('recipes').forEach((r) => globalIndex.push({
+    group: '菜谱', name: r['菜品'],
+    text: searchTextFor([r['菜品'], 'Lv ' + (r['等级'] || ''), r['主料'], r['菜品标签'], r['冲突标签（加料会变黑暗物质）'], r['解锁来源']]),
+    desc: r['所属版本'] + ' · Lv ' + (r['等级'] || '-') + ' · ' + r['价格'] + ' 元',
+    action: () => ryoteiNavigate(ryoteiHash('catalog',{item:r['菜品']}))
+  }));
+  dataOf('ingredients').forEach((r) => globalIndex.push({
+    group: '食材', name: r['食材'],
+    text: searchTextFor([r['食材'], r['类型'], r['标签'], r['获取方式']]),
+    desc: r['所属版本'] + ' · ' + r['价格'] + ' 元',
+    action: () => ryoteiNavigate(ryoteiHash('ingredients',{item:r['食材']}))
+  }));
+  dataOf('beverages').forEach((r) => globalIndex.push({
+    group: '酒水', name: r['酒水'],
+    text: searchTextFor([r['酒水'], r['等级'], r['标签'], r['获取方式']]),
+    desc: r['所属版本'] + ' · ' + r['价格'] + ' 元',
+    action: () => ryoteiNavigate(ryoteiHash('beverages',{item:r['酒水']}))
+  }));
+  dataOf('normal').forEach((r) => globalIndex.push({
+    group: '普通客人', name: r['普通客人'],
+    text: searchTextFor([r['普通客人'], r['出没地点'], r['喜好料理标签'], r['喜好酒水标签'], r['前期推荐菜（≤80元）'], r['后期推荐菜（≤200元）']]),
+    desc: r['所属版本'],
+    action: () => ryoteiNavigate(ryoteiHash('normal',{item:r['普通客人'],place:'all'}))
+  }));
+}
+function jumpToSearch(tab, selector, value, key, render){
+  const sameTab = state.tab === tab;
+  const changed = state[key] !== value;
+  const el = $(selector);
+  if (el) el.value = value;
+  state[key] = value;
+  switchTab(tab);
+  if (sameTab && changed) render();
+}
+function moveGlobalActive(direction){
+  state.globalActive = Math.max(0,Math.min(state.globalResults.length - 1,state.globalActive + direction));
+  $$('#global-results .search-result').forEach((button,index) => button.classList.toggle('active',index === state.globalActive));
+}
+function renderGlobalResults(){
+  const box = $('#global-results');
+  const q = state.globalQuery.trim();
+  if (!q) { box.hidden = true; state.globalResults = []; state.globalActive = -1; return; }
+  const results = globalIndex.filter((item) => matchesTextQuery(item.text, q)).slice(0, 16);
+  state.globalResults = results;
+  state.globalActive = results.length ? 0 : -1;
+  if (!results.length) {
+    box.innerHTML = '<div class="search-empty">未找到匹配内容</div>';
+    box.hidden = false;
+    return;
+  }
+  const groups = {};
+  results.forEach((item, index) => { (groups[item.group] = groups[item.group] || []).push({ item, index }); });
+  box.innerHTML = Object.keys(groups).map((group) => '<div class="search-group-title">' + esc(group) + '</div>' +
+    groups[group].map(({ item, index }) => '<button class="search-result' + (index === state.globalActive ? ' active' : '') + '" type="button" data-index="' + index + '"><span class="sr-name">' + esc(item.name) + '</span><span class="sr-desc">' + esc(item.desc) + '</span></button>').join('')).join('');
+  box.hidden = false;
+}
+function chooseGlobalResult(index){
+  const item = state.globalResults[index];
+  if (!item) return;
+  const input = $('#global-search');
+  if (input) input.value = '';
+  state.globalQuery = '';
+  $('#global-results').hidden = true;
+  item.action();
+}
+
+/* ---------------- 初始化 ---------------- */
+function initFilters(){
+  const guests = dataOf('guests');
+  const types = unique(guests.map((r) => r['类型']), (a, b) => typeRank(a) - typeRank(b) || byLocale(a, b));
+  const versions = unique(guests.map((r) => r['所属版本']), (a, b) => versionRank(a) - versionRank(b) || byLocale(a, b));
+  fillSelect($('#guest-type-filter'), types, '全部类型');
+  fillSelect($('#guest-dlc-filter'), versions, '全部版本');
+  fillSelect($('#detail-guest-filter'), guests.map((r) => r['客人名字']).sort(byLocale), '全部客人');
+  fillSelect($('#detail-dlc-filter'), versions, '全部版本');
+  fillSelect($('#addon-guest-filter'), guests.map((r) => r['客人名字']).sort(byLocale), '全部客人');
+  fillSelect($('#drinkrec-guest-filter'), guests.map((r) => r['客人名字']).sort(byLocale), '全部客人');
+  fillSelect($('#catalog-dlc-filter'), unique(dataOf('recipes').map((r) => r['所属版本']), (a, b) => versionRank(a) - versionRank(b)), '全部版本');
+  fillSelect($('#ingredient-type-filter'), unique(dataOf('ingredients').map((r) => r['类型']), (a, b) => (['肉类', '海鲜', '蔬菜', '其他'].indexOf(a) - ['肉类', '海鲜', '蔬菜', '其他'].indexOf(b)) || byLocale(a, b)), '全部类型');
+  fillSelect($('#ingredient-dlc-filter'), unique(dataOf('ingredients').map((r) => r['所属版本']), (a, b) => versionRank(a) - versionRank(b)), '全部版本');
+  fillSelect($('#beverage-dlc-filter'), unique(dataOf('beverages').map((r) => r['所属版本']), (a, b) => versionRank(a) - versionRank(b)), '全部版本');
+}
+function bindEvents(){
+  $('#theme-toggle').addEventListener('click', (e) => {
+    const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    storeTheme(next);
+    applyTheme(next, e);
+  });
+  $('#guest-search').addEventListener('input', (e) => { state.guestQuery = e.target.value; renderGuests(); });
+  $('#guest-type-filter').addEventListener('change', (e) => { state.guestType = e.target.value; renderGuests(); });
+  $('#guest-dlc-filter').addEventListener('change', (e) => { state.guestDlc = e.target.value; renderGuests(); });
+  $('#detail-search').addEventListener('input', (e) => { state.detailQuery = e.target.value; renderDetails(); });
+  $('#detail-stage-filter').addEventListener('change', (e) => { state.detailStage = e.target.value; renderDetails(); });
+  $('#detail-dlc-filter').addEventListener('change', (e) => { state.detailDlc = e.target.value; renderDetails(); });
+  bindSortable($('#detail-table-wrap'), renderDetails, 'detailSort');
+  bindSortable($('#catalog-table-wrap'), renderCatalog, 'catalogSort');
+  bindSortable($('#ingredient-table-wrap'), renderIngredients, 'ingredientSort');
+  bindSortable($('#beverage-table-wrap'), renderBeverages, 'beverageSort');
+  bindSortable($('#addon-table-wrap'), renderAddons, 'addonSort');
+  bindSortable($('#drinkrec-table-wrap'), renderDrinkRecs, 'drinkrecSort');
+  $('#catalog-search').addEventListener('input', (e) => { state.catalogQuery = e.target.value; renderCatalog(); });
+  $('#catalog-dlc-filter').addEventListener('change', (e) => { state.catalogDlc = e.target.value; renderCatalog(); });
+  $('#ingredient-search').addEventListener('input', (e) => { state.ingredientQuery = e.target.value; renderIngredients(); });
+  $('#ingredient-type-filter').addEventListener('change', (e) => { state.ingredientType = e.target.value; renderIngredients(); });
+  $('#ingredient-dlc-filter').addEventListener('change', (e) => { state.ingredientDlc = e.target.value; renderIngredients(); });
+  $('#beverage-search').addEventListener('input', (e) => { state.beverageQuery = e.target.value; renderBeverages(); });
+  $('#beverage-dlc-filter').addEventListener('change', (e) => { state.beverageDlc = e.target.value; renderBeverages(); });
+  $('#addon-search').addEventListener('input', (e) => { state.addonQuery = e.target.value; renderAddons(); });
+  $('#addon-scene-filter').addEventListener('change', (e) => { state.addonScene = e.target.value; renderAddons(); });
+  $('#addon-sort-filter').addEventListener('change', (e) => {
+    const value = e.target.value;
+    if (value === 'price-asc') state.addonSort = { key: '价格', dir: 1 };
+    else if (value === 'price-desc') state.addonSort = { key: '价格', dir: -1 };
+    else if (value === 'level-asc') state.addonSort = { key: '等级', dir: 1 };
+    else if (value === 'level-desc') state.addonSort = { key: '等级', dir: -1 };
+    renderAddons();
+  });
+  $('#drinkrec-search').addEventListener('input', (e) => { state.drinkrecQuery = e.target.value; renderDrinkRecs(); });
+  $('#drinkrec-sort-filter').addEventListener('change', (e) => {
+    const value = e.target.value;
+    if (value === 'price-desc') state.drinkrecSort = { key: '价格', dir: -1 };
+    else if (value === 'price-asc') state.drinkrecSort = { key: '价格', dir: 1 };
+    else if (value === 'level-desc') state.drinkrecSort = { key: '等级', dir: -1 };
+    else if (value === 'level-asc') state.drinkrecSort = { key: '等级', dir: 1 };
+    else if (value === 'match-desc') state.drinkrecSort = { key: '命中喜好', dir: -1 };
+    else if (value === 'match-asc') state.drinkrecSort = { key: '命中喜好', dir: 1 };
+    renderDrinkRecs();
+  });
+  $('#detail-body').addEventListener('change', (e) => {
+    if (e.target.id === 'detail-drink-sort') {
+      state.detailDrinkSort = e.target.value;
+      const wineSection = $('#guest-drinks');
+      if (wineSection) wineSection.querySelector('.table-wrap').innerHTML = drinkTableForGuest(state.openGuest,true);
+    }
+  });
+  $('#normal-search').addEventListener('input', (e) => { state.normalQuery = e.target.value; renderNormal(); });
+  $$('.subtab').forEach((btn) => btn.addEventListener('click', () => {
+    if (state.guideTab === btn.dataset.guide) return;
+    state.guideTab = btn.dataset.guide;
+    $$('.subtab').forEach((b) => b.classList.toggle('active', b === btn));
+    renderGuides();
+  }));
+  $('#guide-search').addEventListener('input', (e) => { state.guideQuery = e.target.value; renderGuides(); });
+  $('#detail-close').addEventListener('click', () => closeGuest());
+  $('#detail-backdrop').addEventListener('click', () => closeGuest());
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      if (!$('#global-results').hidden) { $('#global-results').hidden = true; state.globalQuery = ''; }
+      else if (state.openGuest) closeGuest();
+    }
+    if (e.key === '/' && !['INPUT', 'SELECT', 'TEXTAREA'].includes((document.activeElement || {}).tagName)) {
+      e.preventDefault();
+      $('#global-search').focus();
+    }
+  });
+  const globalInput = $('#global-search');
+  globalInput.addEventListener('input', (e) => { state.globalQuery = e.target.value; renderGlobalResults(); });
+  globalInput.addEventListener('keydown', (e) => {
+    const results = state.globalResults;
+    if (e.key === 'ArrowDown' && results.length) { e.preventDefault(); moveGlobalActive(1); }
+    else if (e.key === 'ArrowUp' && results.length) { e.preventDefault(); moveGlobalActive(-1); }
+    else if (e.key === 'Enter') { e.preventDefault(); chooseGlobalResult(state.globalActive >= 0 ? state.globalActive : 0); }
+    else if (e.key === 'Escape') { globalInput.value = ''; state.globalQuery = ''; $('#global-results').hidden = true; }
+  });
+  $('#global-results').addEventListener('click', (e) => {
+    const btn = e.target.closest('.search-result');
+    if (btn) chooseGlobalResult(parseInt(btn.dataset.index, 10));
+  });
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.global-search')) $('#global-results').hidden = true;
+  });
+  window.addEventListener('hashchange', route);
+}
+/* ---------------- 和风版：印章主题色与图鉴刻字 ---------------- */
+const GUEST_COLORS = {
+  '博丽灵梦':'#cf5060','雾雨魔理沙':'#d9a53f','十六夜咲夜':'#8fa7c9','蕾米莉亚':'#b23a52',
+  '芙兰朵露':'#d95a6a','帕秋莉':'#a678c8','八云紫':'#8f6bc4','八云蓝':'#5f7fc9','橙':'#dd8f4a',
+  '伊吹萃香':'#d0684f','茨木华扇':'#c48f7a','星熊勇仪':'#c9553f','魂魄妖梦':'#93c7a8',
+  '西行寺幽幽子':'#e3a7bc','八意永琳':'#7a6ac0','铃仙':'#9a86c9','因幡帝':'#c9a06a',
+  '上白泽慧音':'#5f9a8a','藤原妹红':'#d05a3a','射命丸文':'#a8b4c0','河城荷取':'#6ab0c9',
+  '犬走椛':'#b9b0a3','泄矢诹访子':'#8fa85f','东风谷早苗':'#7ac9a8','八坂神奈子':'#c94f4f',
+  '丰聪耳神子':'#d8b04a','圣白莲':'#6a5fa8','多多良小伞':'#a05fc9','村纱水蜜':'#5fa8c9',
+  '物部布都':'#c9604f','苏我屠自古':'#8fb8d0','霍青娥':'#6aa89a','秦心':'#d07a9a',
+  '少名针妙丸':'#cfa54f','鬼人正邪':'#9a8f85','今泉影狼':'#a3856a',
+  '莉格露':'#7aa85f','露米娅':'#7d6a75','稗田阿求':'#c48fb8','比那名居天子':'#7aa0c9',
+  '红美铃':'#c94f4f','琪露诺':'#6fb8e0','蓬莱山辉夜':'#d48fb0','爱丽丝':'#8ba0d0',
+  '矢田寺成美':'#b3a476','黑谷山女':'#a0885f','水桥帕露西':'#7f9a6a','古明地觉':'#b06a9a',
+  '火焰猫燐':'#d0743f','灵乌路空':'#cf5a3f','封兽鵺':'#7f6fa8','梅蒂欣':'#9ab88a',
+  '风见幽香':'#c94f6a','绵月丰姬':'#8fa8c9','绵月依姬':'#c98fa0','爱莲':'#cf9fb8',
+  '魅魔':'#7fbf9a','露易兹':'#9aa8c9','森近霖之助':'#8f9aa8','萌澄果':'#b3985f',
+  '蹦蹦跳跳的三妖精':'#7fc9c0','冴月麟':'#c98fa8','立空汐':'#6fa8bf','时焉侑':'#9a8fa8',
+  '饕餮尤魔':'#8f4a5f','古明地恋':'#a8bf5f','二岩猯藏':'#b3885f'
+};
+function guestColor(name){
+  const key = String(name);
+  if (GUEST_COLORS[key]) return GUEST_COLORS[key];
+  let h = 0;
+  for (const ch of key) h = (h * 31 + ch.codePointAt(0)) % 360;
+  return 'hsl(' + h + ' 42% 56%)';
+}
+function textHue(s){
+  let h = 0;
+  for (const ch of String(s)) h = (h * 31 + ch.codePointAt(0)) % 360;
+  return h;
+}
+function numToCn(n){
+  const digits = '零一二三四五六七八九';
+  if (n <= 0) return '零';
+  if (n < 10) return digits[n];
+  if (n < 20) return '十' + (n % 10 ? digits[n % 10] : '');
+  if (n < 100) return digits[Math.floor(n / 10)] + '十' + (n % 10 ? digits[n % 10] : '');
+  const hundreds = Math.floor(n / 100);
+  const rest = n % 100;
+  return digits[hundreds] + '百' + (rest === 0 ? '' : (rest < 10 ? '零' + digits[rest] : numToCn(rest)));
+}
+function fillLedger(){ fillRyoteiLedger(); }
+
+/* ---------------- 视觉动效（均可安全禁用） ---------------- */
+function initFireflies(){
+  if (REDUCED_MOTION) return;
+  const canvas = document.getElementById('fx-canvas');
+  if (!canvas || canvas.dataset.bound) return;
+  canvas.dataset.bound = '1';
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return;
+  const COUNT = 24;
+  let w = 0, h = 0, dots = [], running = true, rafId = 0;
+  // 预渲染一个柔光贴图，逐帧只做 drawImage，避免每帧创建径向渐变。
+  const sprite = document.createElement('canvas');
+  const SPR = 64;
+  sprite.width = sprite.height = SPR;
+  const sctx = sprite.getContext('2d');
+  const grad = sctx.createRadialGradient(SPR / 2, SPR / 2, 0, SPR / 2, SPR / 2, SPR / 2);
+  grad.addColorStop(0, 'rgba(236,186,120,1)');
+  grad.addColorStop(0.35, 'rgba(232,176,110,.45)');
+  grad.addColorStop(1, 'rgba(232,176,110,0)');
+  sctx.fillStyle = grad;
+  sctx.fillRect(0, 0, SPR, SPR);
+  function resize(){
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+  }
+  function spawn(){
+    return {
+      x: Math.random() * w, y: Math.random() * h,
+      s: 0.35 + Math.random() * 0.75,
+      vx: (Math.random() - 0.5) * 0.18, vy: -0.06 - Math.random() * 0.16,
+      tw: Math.random() * Math.PI * 2, tws: 0.008 + Math.random() * 0.02,
+      a: 0.3 + Math.random() * 0.5
+    };
+  }
+  function tick(){
+    if (!running) return;
+    ctx.clearRect(0, 0, w, h);
+    const light = root.dataset.theme === 'light';
+    for (const d of dots) {
+      d.x += d.vx; d.y += d.vy; d.tw += d.tws;
+      if (d.y < -20) { d.y = h + 20; d.x = Math.random() * w; }
+      if (d.x < -20) d.x = w + 20; else if (d.x > w + 20) d.x = -20;
+      const size = d.s * 26;
+      const alpha = d.a * (0.45 + 0.55 * Math.sin(d.tw)) * (light ? 0.4 : 1);
+      if (alpha <= 0.01) continue;
+      ctx.globalAlpha = alpha;
+      ctx.drawImage(sprite, d.x - size / 2, d.y - size / 2, size, size);
+    }
+    ctx.globalAlpha = 1;
+    rafId = requestAnimationFrame(tick);
+  }
+  resize();
+  dots = Array.from({ length: COUNT }, spawn);
+  window.addEventListener('resize', resize);
+  document.addEventListener('visibilitychange', () => {
+    running = !document.hidden;
+    if (running) { cancelAnimationFrame(rafId); rafId = requestAnimationFrame(tick); }
+  });
+  rafId = requestAnimationFrame(tick);
+}
+let moveTabIndicator = function(){};
+function initTabIndicator(){
+  const bar = document.getElementById('tabbar');
+  if (!bar || bar.dataset.indBound) return;
+  bar.dataset.indBound = '1';
+  const ind = document.createElement('span');
+  ind.className = 'tab-indicator';
+  ind.setAttribute('aria-hidden', 'true');
+  bar.appendChild(ind);
+  function move(){
+    const btn = bar.querySelector('.primary-tab.active, .reference-toggle.active');
+    if (!btn) return;
+    ind.style.width = btn.offsetWidth + 'px';
+    ind.style.transform = 'translateX(' + (btn.getBoundingClientRect().left - bar.getBoundingClientRect().left) + 'px)';
+  }
+  moveTabIndicator = move;
+  window.addEventListener('resize', move);
+  document.addEventListener('visibilitychange', move);
+  if (window.ResizeObserver) new ResizeObserver(move).observe(bar);
+  window.addEventListener('load', move);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(move);
+  requestAnimationFrame(move);
+}
+function initSpotlight(){
+  if (REDUCED_MOTION) return;
+  document.addEventListener('pointermove', (e) => {
+    const card = e.target && e.target.closest ? e.target.closest('.guest-card') : null;
+    if (!card) return;
+    const rect = card.getBoundingClientRect();
+    card.style.setProperty('--mx', Math.round(e.clientX - rect.left) + 'px');
+    card.style.setProperty('--my', Math.round(e.clientY - rect.top) + 'px');
+  }, { passive: true });
+}
+function initRipple(){
+  if (REDUCED_MOTION) return;
+  document.addEventListener('pointerdown', (e) => {
+    const btn = e.target.closest('.tab-btn, .subtab, .icon-btn');
+    if (!btn) return;
+    const rect = btn.getBoundingClientRect();
+    const span = document.createElement('span');
+    const size = Math.max(rect.width, rect.height) * 2.2;
+    span.className = 'ripple';
+    span.style.width = span.style.height = size + 'px';
+    span.style.left = (e.clientX - rect.left - size / 2) + 'px';
+    span.style.top = (e.clientY - rect.top - size / 2) + 'px';
+    btn.appendChild(span);
+    span.addEventListener('animationend', () => span.remove());
+  });
+}
+function init(){
+  applyTheme(storedTheme() || 'dark');
+  if (!rowsOf('guests').length) {
+    $('#main').innerHTML = '<div class="empty-state">数据加载失败：未找到客人数据。</div>';
+    return;
+  }
+  initFilters();
+  bindEvents();
+  initTagFilters();
+  ryoteiUiInit();
+  initFireflies();
+  initTabIndicator();
+  initSpotlight();
+  initRipple();
+  fillLedger();
+  buildAddonIndex();
+  buildDrinkRecIndex();
+  renderDetails();
+  renderCatalog();
+  renderIngredients();
+  renderBeverages();
+  renderNormal();
+  renderNew440();
+  renderGuides();
+  renderSources();
+  buildGlobalIndex();
+  route();
+}
+/*__RYOTEI_UI__*/
+/*__RYOTEI_NAVIGATION__*/
+init();
+})();
+
+</script>
+</body>
+</html>

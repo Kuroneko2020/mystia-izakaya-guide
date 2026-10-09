@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="zh-Hans" data-bs-theme="light">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<style id="jetpack-boost-critical-css">@media all{:root,[data-bs-theme=light]{--ri-primary:#2163e8;--ri-white-rgb:255,255,255;--ri-info-text:#2f5f95;--ri-info-bg-subtle:#dcecfe;--ri-info-border-subtle:#b9d8fc;--ri-white-rgb:255,255,255;--ri-body-color-rgb:89,93,105;--ri-font-sans-serif:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--ri-body-font-family:var(--ri-font-sans-serif);--ri-body-font-size:0.9375rem;--ri-body-font-weight:500;--ri-body-line-height:1.5;--ri-body-color:#595d69;--ri-secondary-color:rgba(89,93,105,0.75);--ri-body-bg:#ededed;--ri-link-color-rgb:89,93,105;--ri-border-width:1px;--ri-border-style:solid;--ri-border-color:rgba(0,0,0,0.1);--ri-border-radius:0.25rem;--ri-border-radius-pill:50rem;--ri-form-control-bg:var(--ri-body-bg)}*{-webkit-box-sizing:border-box;box-sizing:border-box}body{margin:0;font-family:var(--ri-body-font-family);font-size:var(--ri-body-font-size);font-weight:var(--ri-body-font-weight);line-height:var(--ri-body-line-height);color:var(--ri-body-color);text-align:var(--ri-body-text-align);background-color:var(--ri-body-bg);-webkit-text-size-adjust:100%}h1,h2,h3,h4{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2;color:var(--ri-heading-color,inherit)}h1{font-size:calc(1.359375rem + 1.3125vw)}h2{font-size:calc(1.3125rem + .75vw)}h3{font-size:calc(1.2890625rem + .46875vw)}h4{font-size:calc(1.265625rem + .1875vw)}p{margin-top:0;margin-bottom:1rem}ol,ul{padding-left:2rem}ol,ul{margin-top:0;margin-bottom:1rem}strong{font-weight:bolder}.small,small{font-size:.875em}a{color:rgba(var(--ri-link-color-rgb),var(--ri-link-opacity,1));text-decoration:none}figure{margin:0 0 1rem}img{vertical-align:middle}button{border-radius:0}button,input,select,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,select{text-transform:none}select{word-wrap:normal}[type=submit],button{-webkit-appearance:button}textarea{resize:vertical}.list-unstyled{padding-left:0;list-style:none}.container{--ri-gutter-x:1.5rem;--ri-gutter-y:0;width:100%;padding-right:calc(var(--ri-gutter-x)*.5);padding-left:calc(var(--ri-gutter-x)*.5);margin-right:auto;margin-left:auto}.row{--ri-gutter-x:1.5rem;--ri-gutter-y:0;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-top:calc(-1*var(--ri-gutter-y));margin-right:calc(-.5*var(--ri-gutter-x));margin-left:calc(-.5*var(--ri-gutter-x))}.row>*{-ms-flex-negative:0;flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--ri-gutter-x)*.5);padding-left:calc(var(--ri-gutter-x)*.5);margin-top:var(--ri-gutter-y)}.col{-webkit-box-flex:1;-ms-flex:1 0 0%;flex:1 0 0%}.row-cols-2>*{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:50%}.col-auto{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto}.col-12{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:100%}.g-2{--ri-gutter-x:0.5rem}.g-2{--ri-gutter-y:0.5rem}.g-3{--ri-gutter-x:1rem}.g-3{--ri-gutter-y:1rem}.form-select{--ri-form-select-bg-img:url(data:image/svg+xml,%3csvg\ xmlns=\'http://www.w3.org/2000/svg\'\ viewBox=\'0\ 0\ 16\ 16\'%3e%3cpath\ fill=\'none\'\ stroke=\'%23191a1f\'\ stroke-linecap=\'round\'\ stroke-linejoin=\'round\'\ stroke-width=\'2\'\ d=\'m2\ 5\ 6\ 6\ 6-6\'/%3e%3c/svg%3e);display:block;width:100%;padding:.375rem 2.25rem .375rem .75rem;-moz-padding-start:calc(.75rem - 3px);font-family:none;font-size:.9375rem;font-weight:500;line-height:1.5;color:var(--ri-body-color);background-color:var(--ri-form-control-bg);background-image:var(--ri-form-select-bg-img),var(--ri-form-select-bg-icon,none);background-repeat:no-repeat;background-position:right .75rem center;background-size:16px 12px;border:var(--ri-border-width) solid var(--ri-border-color);border-radius:.25rem;-webkit-appearance:none;-moz-appearance:none;appearance:none}.btn{--ri-btn-padding-x:0.75rem;--ri-btn-padding-y:0.375rem;--ri-btn-font-family:none;--ri-btn-font-size:0.9375rem;--ri-btn-font-weight:500;--ri-btn-line-height:1.5;--ri-btn-color:#595d69;--ri-btn-bg:transparent;--ri-btn-border-width:var(--ri-border-width);--ri-btn-border-color:transparent;--ri-btn-border-radius:0.25rem;display:inline-block;padding:var(--ri-btn-padding-y) var(--ri-btn-padding-x);font-family:var(--ri-btn-font-family);font-size:var(--ri-btn-font-size);font-weight:var(--ri-btn-font-weight);line-height:var(--ri-btn-line-height);color:var(--ri-btn-color);text-align:center;vertical-align:middle;border:var(--ri-btn-border-width) solid var(--ri-btn-border-color);border-radius:var(--ri-btn-border-radius);background-color:var(--ri-btn-bg)}.btn-info{--ri-btn-color:#fff;--ri-btn-bg:#4f9ef8;--ri-btn-border-color:#4f9ef8}.btn-sm{--ri-btn-padding-y:0.25rem;--ri-btn-padding-x:0.5rem;--ri-btn-font-size:0.8203125rem;--ri-btn-border-radius:0.2rem}.fade:not(.show){opacity:0}.list-group{--ri-list-group-color:var(--ri-body-color);--ri-list-group-bg:var(--ri-body-bg);--ri-list-group-border-color:var(--ri-border-color);--ri-list-group-border-width:var(--ri-border-width);--ri-list-group-border-radius:var(--ri-border-radius);--ri-list-group-item-padding-x:1rem;--ri-list-group-item-padding-y:0.5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding-left:0;margin-bottom:0;border-radius:var(--ri-list-group-border-radius)}.list-group-numbered{list-style-type:none;counter-reset:section}.list-group-numbered>.list-group-item::before{content:counters(section,".") ". ";counter-increment:section}.list-group-item{position:relative;display:block;padding:var(--ri-list-group-item-padding-y) var(--ri-list-group-item-padding-x);color:var(--ri-list-group-color);background-color:var(--ri-list-group-bg);border:var(--ri-list-group-border-width) solid var(--ri-list-group-border-color)}.list-group-item:first-child{border-top-left-radius:inherit;border-top-right-radius:inherit}.list-group-item:last-child{border-bottom-right-radius:inherit;border-bottom-left-radius:inherit}.list-group-item+.list-group-item{border-top-width:0}.list-group-flush{border-radius:0}.list-group-flush>.list-group-item{border-width:0 0 var(--ri-list-group-border-width)}.list-group-flush>.list-group-item:last-child{border-bottom-width:0}.list-group-item-info{--ri-list-group-color:var(--ri-info-text);--ri-list-group-bg:var(--ri-info-bg-subtle);--ri-list-group-border-color:var(--ri-info-border-subtle)}.ratio{position:relative;width:100%}.ratio::before{display:block;padding-top:var(--ri-aspect-ratio);content:""}.ratio>*{position:absolute;top:0;left:0;width:100%;height:100%}.ratio-21x9{--ri-aspect-ratio:42.8571428571%}.d-block{display:block!important}.d-flex{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important}.d-none{display:none!important}.shadow{-webkit-box-shadow:0 .125rem 1rem rgba(var(--ri-body-color-rgb),.075)!important;box-shadow:0 .125rem 1rem rgba(var(--ri-body-color-rgb),.075)!important}.position-absolute{position:absolute!important}.top-0{top:0!important}.start-0{left:0!important}.border{border:var(--ri-border-width) var(--ri-border-style) var(--ri-border-color)!important}.border-white{--ri-border-opacity:1;border-color:rgba(var(--ri-white-rgb),var(--ri-border-opacity))!important}.border-3{--ri-border-width:3px}.w-100{width:100%!important}.h-100{height:100%!important}.justify-content-between{-webkit-box-pack:justify!important;-ms-flex-pack:justify!important;justify-content:space-between!important}.align-items-start{-webkit-box-align:start!important;-ms-flex-align:start!important;align-items:flex-start!important}.m-2{margin:.5rem!important}.mt-2{margin-top:.5rem!important}.mt-3{margin-top:1rem!important}.me-1{margin-right:.25rem!important}.me-auto{margin-right:auto!important}.mb-0{margin-bottom:0!important}.mb-2{margin-bottom:.5rem!important}.mb-3{margin-bottom:1rem!important}.ms-2{margin-left:.5rem!important}.py-2{padding-top:.5rem!important;padding-bottom:.5rem!important}.py-3{padding-top:1rem!important;padding-bottom:1rem!important}.fw-bold{font-weight:700!important}.text-center{text-align:center!important}.text-muted{color:var(--ri-secondary-color)!important}.bg-white{--ri-bg-opacity:1;background-color:rgba(var(--ri-white-rgb),var(--ri-bg-opacity))!important}.rounded-circle{border-radius:50%!important}.rounded-pill{border-radius:var(--ri-border-radius-pill)!important}.z-1{z-index:1!important}.btn-success-soft{color:#0cbc87;background-color:rgba(12,188,135,.1)}.btn-info-soft{color:#4f9ef8;background-color:rgba(79,158,248,.1)}.btn-danger-soft{color:#d6293e;background-color:rgba(214,41,62,.1)}.site-header{-webkit-backface-visibility:hidden;background-color:#fff;color:#4d4d4d;-webkit-box-shadow:0 0 30px rgba(0,0,0,.07);box-shadow:0 0 30px rgba(0,0,0,.07);left:0;position:absolute;right:0;top:0;z-index:80}.header-gap{height:60px}.navbar{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;height:60px;position:relative}.navbar .logo{margin-right:12px}.navbar .sep{display:none;height:100%;margin:0 20px;width:1px}.navbar .sep:after{background-color:rgba(25,26,31,.1);content:"";height:50%;margin:auto;width:100%}.navbar .nav-list{margin:0;padding:0;white-space:nowrap}.navbar .nav-list a{color:#4d4d4d}.navbar .nav-list .menu-item{display:inline-block;position:relative}.navbar .nav-list .menu-item>a{display:block}.navbar .nav-list>.menu-item>a{font-size:1rem;line-height:61px;margin:0 10px}.navbar .navbar-search{position:absolute;left:0;top:0;right:0;bottom:0;width:100%;height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;z-index:1;visibility:hidden;opacity:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.navbar .navbar-search .search-form{color:#595d69}.navbar .actions{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:center;-ms-flex-align:center;align-items:center;white-space:nowrap}.navbar .actions>*+*{margin-left:.5rem}.navbar .actions .action-btn{display:inline-block;padding:.25rem;font-family:none;font-size:1rem;line-height:1.5;text-align:center;vertical-align:middle;color:#4d4d4d}.navbar .actions .action-btn.login-btn{background-color:rgba(3,121,255,.65);color:#fff;padding:.2rem .75rem;font-size:.875rem;border-radius:20px}.navbar .actions .action-btn.toggle-color{position:relative}.navbar .actions .action-btn.toggle-color>span{display:none}.navbar .actions .action-btn.toggle-color>span.show{display:inline-block}.burger{z-index:1;position:relative;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:30px;height:30px;border-radius:.2rem}.off-canvas .canvas-close{z-index:1;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border-radius:.2rem;color:#595d69;display:-webkit-box;display:-ms-flexbox;display:flex;font-size:1rem;height:30px;width:30px}.logo-wrapper{position:relative}.logo.regular{min-width:100px;max-height:60px;width:auto}.off-canvas{background-color:#fff;height:100vh;overflow-y:scroll;padding:20px 0;position:fixed;right:0;top:0;-webkit-transform:translateX(320px);transform:translateX(320px);width:320px;z-index:90;-webkit-overflow-scrolling:touch}.off-canvas .logo-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-bottom:1rem}.off-canvas .canvas-close{position:absolute;right:15px;top:15px}body:not(.canvas-visible) .off-canvas{visibility:hidden}.dimmer{bottom:0;display:none;left:0;position:fixed;right:0;top:0;background:rgba(0,0,0,.7);-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);z-index:90}.post-buy-widget{position:relative}.ri-down-warp{position:static}.ri-down-warp .down-msg{position:absolute;right:1rem;top:1rem;height:1.5rem;line-height:1.5rem;width:5.656rem;-webkit-transform:translate(38px,-8px) rotate(45deg);transform:translate(38px,-8px) rotate(45deg);text-align:center;font-size:.75rem;background-color:rgba(58,63,65,.47);color:#fff;z-index:2}.ri-down-warp .down-buy-warp{position:relative;width:100%;text-align:center;-webkit-transform:scale(1);transform:scale(1);margin:0 auto;z-index:1}.ri-down-warp .down-buy-warp .buy-btns{margin-bottom:1rem}.sidebar{position:relative}.sidebar .widget{position:relative;border-radius:.25rem;background-color:#fff;overflow:hidden;padding:1.25rem;margin-bottom:1.5rem}.sidebar .widget ul{list-style:none;margin:0;padding-left:0}.sidebar .widget ul>li{padding:5px 0}.post-item{position:relative;overflow:hidden;background-color:#fff;border-radius:.3rem}.post-item .tips-badge{position:relative}.post-item .entry-media{display:block;position:relative;overflow:hidden}.post-item .entry-media .media-img{border-radius:inherit;background-color:#e7e7e7;background-size:cover;background-repeat:no-repeat;background-position:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.post-item .entry-meta>span{margin-right:10px}.post-item.item-grid .entry-meta>span{margin-right:10px}.ri-video-shortcode{position:relative;margin-bottom:1rem}.video-js-logo{position:absolute;left:0;top:0;z-index:1}.video-js-logo>img{width:100px;height:auto;opacity:.7;padding:10px}.article-header{margin-bottom:1rem}.article-header .post-title{font-size:1.5rem;font-weight:600}.article-header .article-meta{font-size:.875rem}.article-header .article-meta a,.article-header .article-meta span{color:#a1a1a8}.article-header .article-meta>span+span{margin-left:8px}.post-content{position:relative;margin-bottom:20px;font-size:16px;line-height:1.8}.post-content a:not(.btn){color:#03a9f4}.post-content p{margin-bottom:20px;line-height:1.8;word-wrap:break-word}.post-content figure{margin-bottom:20px}.post-content img,.post-content video{max-width:100%;vertical-align:top;height:auto}.post-content h2{padding-bottom:8px;font-size:20px;border-bottom:1px solid #efefef;margin:32px 0 16px;line-height:1.4;font-weight:600}.post-content .gallery{margin:0-5px;font-size:0;margin-bottom:20px}.post-content .gallery .gallery-item{display:inline-block;padding:5px;text-align:center;vertical-align:top;margin-bottom:0}.post-content .gallery .gallery-item .gallery-icon{position:relative}.post-content .gallery .gallery-item img{border-radius:.25rem;max-width:100%;height:auto;vertical-align:top;border:0}.post-content .gallery-columns-3 .gallery-item{width:33.33333%}.post-content .gallery-columns-4 .gallery-item{width:25%}.post-content .alignnone{margin:0}.entry-copyright{padding:.5rem;border-radius:.25rem;background-color:rgba(79,158,248,.1);font-size:.875rem;color:#a1a1a8}.entry-tags{display:block;position:relative}.entry-tags>a{display:inline-block;padding:.35em .65em;margin:2px 2px 2px 0;font-size:.85em;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25rem;background-color:#f0f1f3;color:#a1a1a8}.entry-navigation{position:relative;margin-top:1.5rem}.entry-navigation .entry-page-next,.entry-navigation .entry-page-prev{overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:60px;border-radius:.25rem;background:#fff}.entry-navigation .entry-page-icon{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;margin:0;display:block;padding:1rem;font-size:1rem}.entry-navigation .entry-page-info{-webkit-box-flex:1;-ms-flex:1;flex:1;margin:0;display:block;padding:1rem;z-index:1}.entry-navigation .entry-page-info .rnav{font-size:.875rem;color:#ccc}.entry-navigation .entry-page-info .title{font-size:1rem;display:-webkit-box;-webkit-box-orient:vertical;text-overflow:ellipsis;overflow:hidden;word-break:break-all;-webkit-line-clamp:1}.entry-navigation .entry-page-prev .entry-page-icon{padding-right:0}.entry-navigation .entry-page-prev .entry-page-info{text-align:right}.entry-navigation .entry-page-next .entry-page-icon{padding-left:0}.entry-navigation .entry-page-next .entry-page-info{text-align:left}.related-posts{position:relative;margin-top:1.5rem}.related-posts .related-posts-title{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:1.25rem;font-weight:700;margin-bottom:1rem}.share-author{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.share-author .avatar{height:2rem;width:2rem}#comments{position:relative;padding:1.5rem;border-radius:.25rem;background-color:#fff;margin-top:1.5rem}#comments .comments-title{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:1.25rem;font-weight:700;margin-bottom:1rem}#comments .comment-respond{position:relative}#comments .comment-reply-title{display:inline-block;margin:0;font-size:.875rem;position:absolute;bottom:0;left:0;z-index:1;padding:.5rem;background-color:rgba(214,41,62,.1);border-radius:.3rem;line-height:1}#comments .comment-reply-title #cancel-comment-reply-link{margin-left:.5rem;font-size:.875rem;text-decoration:underline}#comments .comment-form{display:block;position:relative;margin-top:1rem;clear:both;content:""}#comments .comment-form input[type=text],#comments .comment-form textarea{display:block;width:100%;padding:.375rem .75rem;margin-bottom:.5rem;font-family:none;font-size:.9375rem;color:var(--ri-body-color);background-color:var(--ri-form-control-bg);background-clip:padding-box;border:var(--ri-border-width) solid var(--ri-border-color);-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:.25rem}#comments .comment-form .comment-notes{font-size:.875rem;color:#595d69;margin-bottom:.5rem}#comments .comment-form .comment-form-author,#comments .comment-form .comment-form-email,#comments .comment-form .comment-form-url{width:calc(33.3333% - 10px);float:left;margin:0 5px}#comments .comment-form .comment-form-author{margin-right:10px;margin-left:0}#comments .comment-form .comment-form-url{margin-right:0;margin-left:10px}#comments .form-submit{padding:0;text-align:right;margin:0}#comments .form-submit input[type=submit]{background-color:#191a1f;border:none;border-radius:4px;color:#fff;font-size:.9375rem;padding:.25rem 1rem;text-transform:uppercase}.single-content-nav{margin-bottom:1.5rem}.single-content-nav .nav-pills{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none;margin:0}.single-content-nav .nav-item:not(:last-child){margin-right:.5rem}.single-content-nav .nav-item .nav-link{display:inline-block;line-height:1.2;font-weight:600;border-radius:.35rem;padding:.5rem 1rem;background-color:transparent;border:solid 2px rgba(33,99,232,.31);color:var(--ri-primary)}.single-content-nav .nav-item .nav-link.active{color:#fff;background-color:var(--ri-primary);border-color:transparent}.tab-content>.tab-pane{display:none}.tab-content>.active{display:block}.tab-content #comments{padding:0}.avatar-img{-o-object-fit:cover;object-fit:cover;width:100%;height:100%}.avatar{height:3rem;width:3rem;position:relative;display:inline-block!important}.search-select ::-webkit-scrollbar{background-color:rgba(25,25,25,.1);width:4px;height:4px}img{vertical-align:middle;max-width:100%}.card{position:relative;overflow:hidden;padding:1.5rem;border-radius:.25rem;background-color:#fff}.bg-cover{background-size:cover!important;background-repeat:no-repeat!important}.bg-center-top{background-position:center top!important}.search-form{width:100%;margin:0 auto;margin:1rem auto;border-radius:.3rem;background-color:#fff;-webkit-box-shadow:0 0 0 5px rgba(0,0,0,.1);box-shadow:0 0 0 5px rgba(0,0,0,.1)}.search-form>form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%}.search-form .search-select{max-width:160px}.search-form .search-select .form-select{border:0;border-radius:0;font-size:1rem;color:inherit;background-color:transparent;padding:.5rem 2.25rem .5rem 1rem}.search-form .search-select .form-select>.level-0,.search-form .search-select .form-select>option{font-size:1rem}.search-form .search-fields{position:relative;overflow:hidden;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;font-size:1rem}.search-form .search-fields input{position:relative;display:block;line-height:1.5;padding:.5rem 2.25rem .5rem 1rem;width:100%;border:0;margin:0;outline:0;color:inherit;background-color:transparent;-webkit-appearance:none}.search-form .search-fields input::-webkit-input-placeholder{color:#a1a1a8}.search-form .search-fields button{position:absolute;right:0;top:0;border:none!important;background:0 0!important;line-height:1.5;height:100%;padding:0 1rem;opacity:.65}.archive-hero{position:relative;z-index:1}.archive-hero .archive-hero-bg{position:absolute;left:0;top:0;right:0;height:100%;width:100%;background-repeat:no-repeat;background-position:50%;background-size:120%;overflow:hidden;z-index:-1}.archive-hero .archive-hero-bg::before{content:"";display:block;width:100%;height:100%;position:absolute;left:0;top:0;background:rgba(0,0,0,.65);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}.archive-hero.post-hero .archive-hero-bg::before{background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.55)),to(rgba(255,255,255,.25)));background-image:linear-gradient(180deg,rgba(0,0,0,.55),rgba(255,255,255,.25))}.archive-hero.post-hero .post-title{color:#fff}.archive-hero.post-hero .article-meta a,.archive-hero.post-hero .article-meta span{color:rgba(255,255,255,.7)}.breadcrumb{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;padding:0}.breadcrumb>li{margin-right:.8rem;position:relative;list-style:none}.breadcrumb>li:not(:last-child)::after{position:absolute;right:0;top:0;-webkit-transform:translate(.6rem,0);transform:translate(.6rem,0);content:"/"}.rollbar{position:fixed;right:30px;bottom:90px;z-index:80;visibility:visible;opacity:1}.rollbar .actions{position:relative;width:100%;-webkit-box-shadow:0 0 10px rgba(0,0,0,.1);box-shadow:0 0 10px rgba(0,0,0,.1);border-radius:5px;list-style-type:none;margin:0;padding:0;overflow:hidden}.rollbar .actions li{position:relative;background:#fff}.rollbar .actions li>a{display:block;padding:8px 0;position:relative;border:0;opacity:1;width:45px;text-align:center;height:auto;color:#595d69;border-bottom:1px solid #eee}.rollbar .actions li>a>i{font-size:1.25rem;display:block;margin-bottom:10px}.rollbar .actions li>a>span{font-size:.75rem;padding:0 5px;letter-spacing:3px;display:block;margin-top:2px;text-align:center;line-height:1.2;position:relative;color:#595d69}.back-top{position:fixed!important;bottom:30px;right:30px;display:block;z-index:80;visibility:hidden;opacity:0;-webkit-transform:translateY(50%);transform:translateY(50%);background:#fff;color:#595d69;border-radius:5px;width:45px;height:45px;line-height:40px;text-align:center;-webkit-box-shadow:0 0 10px rgba(0,0,0,.1);box-shadow:0 0 10px rgba(0,0,0,.1)}.back-top i{font-size:1.5rem;vertical-align:middle}.site-footer a{color:#595d69}.site-footer .widget-title{font-size:.875rem;font-weight:600}.site-footer .widget-links{margin-bottom:0}.m-navbar{display:none;z-index:1040;position:fixed;bottom:0;left:0;right:0;background-color:#fff;padding:5px 0}.m-navbar:before{content:"1";color:transparent;position:absolute;left:0;top:0;width:100%;height:1px;background-color:rgba(0,0,0,.1);display:block;overflow:hidden;-webkit-transform-origin:50%0;transform-origin:50%0;-webkit-transform:scaleY(.5);transform:scaleY(.5)}.m-navbar ul{display:-webkit-box;display:-ms-flexbox;display:flex;text-align:center;padding:0;margin:0;list-style:none;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.m-navbar li{-webkit-box-flex:1;-ms-flex:1;flex:1;text-align:center;font-size:12px}.m-navbar li a{display:block;margin-top:5px}.m-navbar li a>i{margin-bottom:0;display:block;font-size:20px}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}@media (min-width:576px){.container{max-width:540px}.mt-sm-4{margin-top:1.5rem!important}}@media (min-width:768px){.container{max-width:720px}.row-cols-md-3>*{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:33.3333333333%}.col-md-2{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:16.66666667%}.col-md-4{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:33.33333333%}.col-md-12{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:100%}.g-md-3{--ri-gutter-x:1rem}.g-md-3{--ri-gutter-y:1rem}.d-md-inline-block{display:inline-block!important}.d-md-flex{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important}.py-md-4{padding-top:1.5rem!important;padding-bottom:1.5rem!important}.navbar .sep{display:-webkit-box;display:-ms-flexbox;display:flex}}@media (min-width:992px){.container{max-width:960px}.row-cols-lg-4>*{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:25%}.col-lg-3{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:25%}.col-lg-6{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:50%}.col-lg-9{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:75%}.g-lg-4{--ri-gutter-x:1.5rem}.g-lg-4{--ri-gutter-y:1.5rem}.d-lg-block{display:block!important}.d-lg-flex{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important}.d-lg-none{display:none!important}.mt-lg-3{margin-top:1rem!important}.mb-lg-3{margin-bottom:1rem!important}.search-form .search-fields,.search-form .search-select .form-select{font-size:1rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}@media (min-width:1200px){h1{font-size:2.34375rem}h2{font-size:1.875rem}h3{font-size:1.640625rem}h4{font-size:1.40625rem}.container{max-width:1140px}}@media (min-width:1400px){.container{max-width:1280px}}@media (max-width:767.98px){.sidebar .widget{padding:1rem;margin-bottom:1rem}.rollbar{display:none}.back-top{display:none;bottom:10px;right:20px}.m-navbar{display:block}}@media (max-width:575.98px){.post-content{position:relative}.article-header .post-title{font-size:1.25rem}.article-header .article-meta{font-size:.75rem}#comments .comment-form-author,#comments .comment-form-email,#comments .comment-form-url{width:100%!important;margin:0!important}.single-content-nav .nav-item:not(:last-child){margin-right:.3rem}.single-content-nav .nav-item .nav-link{font-size:.875rem;padding:.4rem .5rem}.card{padding:1rem}}}</style><title>《东方夜雀食堂/Touhou Mystia&#8217;s Izakaya》 v4.3.0c简体中文版-ranran游戏</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="keywords" content="休闲,模拟,游戏相关,电脑游戏,">
+<meta name="description" content="游戏介绍 年轻的夜雀妖怪米斯蒂娅·萝蕾拉有一个梦想，成为最受欢迎的烧烤屋老板娘。她日复一日的努力研究料理，一点一点存钱…突然有一天，某个可怕的客人上门，摧毁了她的梦想，还让她背上巨大的债务…这是一部饱含人情味的幻想乡烧烤屋经营物语。 游戏视">
+<link href="https://ran-ran.net/wp-content/uploads/2025/09/5394cff7f52e4eb.png" rel="icon">
+<noscript><link rel='stylesheet' id='all-css-3c0631cf343363ac0192e3b40df89893' href='https://ran-ran.net/_jb_static/??3317772203' type='text/css' media='all' /></noscript><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="2d06815b4a9a1715a4b8af69-|49"></script><link rel='stylesheet' id='all-css-3c0631cf343363ac0192e3b40df89893' href='https://ran-ran.net/_jb_static/??3317772203' type='text/css' media="not all" data-media="all" onload="this.media=this.dataset.media; delete this.dataset.media; this.removeAttribute( 'onload' );" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+<noscript><link rel='stylesheet' id='csf-fa5-css' href='//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css?ver=5.15.4' media='all' />
+</noscript><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="2d06815b4a9a1715a4b8af69-|49"></script><link rel='stylesheet' id='csf-fa5-css' href='//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css?ver=5.15.4' media="not all" data-media="all" onload="this.media=this.dataset.media; delete this.dataset.media; this.removeAttribute( 'onload' );" />
+<noscript><link rel='stylesheet' id='csf-fa5-v4-shims-css' href='//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/v4-shims.min.css?ver=5.15.4' media='all' />
+</noscript><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="2d06815b4a9a1715a4b8af69-|49"></script><link rel='stylesheet' id='csf-fa5-v4-shims-css' href='//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/v4-shims.min.css?ver=5.15.4' media="not all" data-media="all" onload="this.media=this.dataset.media; delete this.dataset.media; this.removeAttribute( 'onload' );" />
+<noscript><link rel='stylesheet' id='video-css-css' href='//cdn.jsdelivr.net/npm/video.js@8.0.4/dist/video-js.min.css?ver=8.0.4' media='all' />
+</noscript><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="2d06815b4a9a1715a4b8af69-|49"></script><link rel='stylesheet' id='video-css-css' href='//cdn.jsdelivr.net/npm/video.js@8.0.4/dist/video-js.min.css?ver=8.0.4' media="not all" data-media="all" onload="this.media=this.dataset.media; delete this.dataset.media; this.removeAttribute( 'onload' );" />
+
+<link rel="canonical" href="https://ran-ran.net/archives/55336.html" />
+<link rel='shortlink' href='https://ran-ran.net/?p=55336' />
+<style type="text/css">
+.post-content h2 {
+    font-size: 20px!important;
+    line-height: 190%;
+    margin: 10px -20px 10px -24px;
+    padding: 0 20px;
+    border-left: 5px solid #e40000;
+}
+
+.post-content p {
+    text-align: justify;
+    margin: 15px 0;
+text-indent: 2em;
+}
+
+.post-content ul {
+    margin: 0 0 5px 0;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+}
+
+.post-content ul li{
+list-style: disc;
+    line-height: 220%;
+    margin: 0 35px 0 3em;
+
+}
+
+.badge-light {
+    color: #631c00;
+    background-color: #dde8f5;
+}
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s 
+ease-in-out, background-color .15s 
+ease-in-out, border-color .15s 
+ease-in-out, box-shadow .15s 
+ease-in-out;
+}
+</style><style type="text/css">.heading{width:0金币;}.heading{width:0.N折;}.heading{width:0个;}</style><link rel="icon" href="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/09/50960a7f7320e82.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/09/50960a7f7320e82.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/09/50960a7f7320e82.png?fit=180%2C180&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/09/50960a7f7320e82.png?fit=270%2C270&#038;ssl=1" />
+</head>
+
+<body class="wp-singular post-template-default single single-post postid-55336 single-format-standard wp-theme-ripro-v5">
+
+
+<header class="site-header">
+
+    <div class="container"> <!-- container-fluid px-lg-5 -->
+	    <div class="navbar">
+	      <!-- logo -->
+	      <div class="logo-wrapper">
+<a rel="nofollow noopener noreferrer" href="https://ran-ran.net/"><img class="logo regular" data-light="http://ran-ran.net/wp-content/uploads/2025/09/5394cff7f52e4eb-1.png" data-dark="http://ran-ran.net/wp-content/uploads/2025/09/5394cff7f52e4eb-2.png" src="https://ran-ran.net/wp-content/uploads/2025/09/5394cff7f52e4eb-1.png" alt="ranran游戏"></a></div>
+
+	      <div class="sep"></div>
+	      
+	      <nav class="main-menu d-none d-lg-block">
+	        <ul id="header-navbar" class="nav-list"><li class="menu-item"><a href="/"><i class="fas fa-location-arrow me-1"></i>首页</a></li>
+<li class="menu-item"><a href="https://ran-ran.net/archives/category/%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3/pc"><i class="fab fa-steam me-1"></i>电脑游戏</a></li>
+<li class="menu-item"><a href="https://ran-ran.net/archives/category/%e6%bc%ab%e7%94%bb%e5%88%86%e4%ba%ab"><i class="fas fa-paint-brush me-1"></i>漫画分享</a></li>
+<li class="menu-item"><a href="https://ran-ran.net/archives/51703.html"><i class="fas fa-envelope me-1"></i>求资源专栏</a></li>
+</ul>	      </nav>
+	      
+	      <div class="actions">
+	        
+
+	<span class="action-btn toggle-color" rel="nofollow noopener noreferrer">
+		<span title="亮色模式" data-mod="light" class=" show"><i class="fas fa-sun"></i></span>
+		<span title="深色模式" data-mod="dark" class=""><i class="fas fa-moon"></i></span>
+	</span>
+
+	<span class="action-btn toggle-search" rel="nofollow noopener noreferrer" title="站内搜索"><i class="fas fa-search"></i></span>
+
+	<span class="action-btn toggle-notify" rel="nofollow noopener noreferrer" title="网站公告"><i class="fa fa-bell-o"></i></span>
+
+
+
+	<a class="action-btn login-btn btn-sm btn" rel="nofollow noopener noreferrer" href="https://ran-ran.net/login?redirect_to=https%3A%2F%2Fran-ran.net%2Farchives%2F55336.html"><i class="far fa-user me-1"></i>登录</a>
+
+
+	        <div class="burger d-flex d-lg-none"><i class="fas fa-bars"></i></div>
+	      </div>
+
+	      	      <div class="navbar-search">
+<div class="search-form">
+    <form method="get" action="https://ran-ran.net/">
+                    <div class="search-select">
+                <select  name='cat' id='cat-search-select-9' class='form-select'>
+	<option value=''>全站</option>
+	<option class="level-0" value="33">漫画分享</option>
+	<option class="level-0" value="26">求资源专栏</option>
+	<option class="level-0" value="9">安卓应用</option>
+	<option class="level-0" value="2">游戏相关</option>
+	<option class="level-0" value="1">未分类</option>
+</select>
+            </div>
+        
+        <div class="search-fields">
+          <input type="text" class="" placeholder="输入关键词 回车..." autocomplete="off" value="" name="s" required="required">
+          <button title="点击搜索" type="submit"><i class="fas fa-search"></i></button>
+      </div>
+  </form>
+</div>
+</div>
+		  	      
+	    </div>
+    </div>
+
+</header>
+
+<div class="header-gap"></div>
+
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+	
+<div class="container-full bg-white">
+	<nav class="container d-none d-md-flex py-2" aria-label="breadcrumb">
+		<ol class="breadcrumb mb-0"><li class=""><a href="https://ran-ran.net">首页</a></li><li><a href="https://ran-ran.net/archives/category/%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3">游戏相关</a></li><li class="active">正文</li></ol>	</nav>
+</div>
+
+
+<div class="archive-hero post-hero text-center">
+    <div class="archive-hero-bg lazy" data-bg="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/11/099fb995346f31c-91.jpg?fit=460%2C215&ssl=1"></div>
+    <div class="container py-3 py-md-4">
+    	<div class="article-header mb-0">
+			<h1 class="post-title mb-2 mb-lg-3">《东方夜雀食堂/Touhou Mystia&#8217;s Izakaya》 v4.3.0c简体中文版</h1>			<div class="article-meta">
+					<span class="meta-date"><i class="far fa-clock me-1"></i>2025-11-30</span>
+
+	<span class="meta-cat-dot"><i class="far fa-folder me-1"></i><a href="https://ran-ran.net/archives/category/%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3">游戏相关</a> <a href="https://ran-ran.net/archives/category/%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3/pc">电脑游戏</a></span>
+
+	<span class="meta-fav d-none d-md-inline-block"><i class="far fa-star me-1"></i>0</span>
+
+	<span class="meta-likes d-none d-md-inline-block"><i class="far fa-heart me-1"></i>0</span>
+
+	<span class="meta-views"><i class="far fa-eye me-1"></i>38</span>
+
+	<span class="meta-comment"><a href="https://ran-ran.net/archives/55336.html#comments"><i class="far fa-comments me-1"></i>0</a></span>
+
+
+	<span class="meta-edit"></span></span>
+			</div>
+		</div>
+    </div>
+</div>
+
+<div class="container mt-2 mt-sm-4">
+	<div class="row g-2 g-md-3 g-lg-4">
+
+		<div class="content-wrapper col-md-12 col-lg-9" data-sticky-content>
+			<div class="card">
+
+				
+				
+				
+				
+
+<div class="single-content-nav">
+  <ul class="nav nav-pills" id="pills-tab" role="tablist">
+
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active" id="pills-details-tab" data-toggle="pill" href="#pills-details" role="tab" aria-controls="pills-details" aria-selected="true"><i class="far fa-file-alt me-1"></i>详情介绍</a>
+    </li>
+
+        <li class="nav-item" role="presentation">
+      <a class="nav-link" id="pills-faq-tab" data-toggle="pill" href="#pills-faq" role="tab" aria-controls="pills-faq" aria-selected="false"><i class="far fa-question-circle me-1"></i>常见问题</a>
+    </li>
+    
+        <li class="nav-item" role="presentation">
+      <a class="nav-link" id="pills-comments-tab" data-toggle="pill" href="#pills-comments" role="tab" aria-controls="pills-comments" aria-selected="false"><i class="fa fa-comments-o me-1"></i>评论建议</a>
+    </li>
+        
+  </ul>
+</div>
+
+
+<div class="tab-content" id="pills-tabContent">
+	<div class="tab-pane fade show active" id="pills-details" role="tabpanel" aria-labelledby="pills-details-tab">
+		
+		<article class="post-content post-55336 post type-post status-publish format-standard has-post-thumbnail hentry category-2 category-pc tag-7 tag-8" >
+			<h2>游戏介绍</h2>
+<p>年轻的夜雀妖怪米斯蒂娅·萝蕾拉有一个梦想，成为最受欢迎的烧烤屋老板娘。她日复一日的努力研究料理，一点一点存钱…突然有一天，某个可怕的客人上门，摧毁了她的梦想，还让她背上巨大的债务…这是一部饱含人情味的幻想乡烧烤屋经营物语。</p>
+<h2>游戏视频</h2>
+
+<div class="ri-video-shortcode">
+	<video class="video-js vjs-16-9" controls data-setup="{}" oncontextmenu="if (!window.__cfRLUnblockHandlers) return false; return false;" data-cf-modified-2d06815b4a9a1715a4b8af69-="">
+		<source src="https://cdn.cloudflare.steamstatic.com/steam/apps/256839184/movie480_vp9.webm" type="">
+	</video>
+	<div class="video-js-logo"><img data-recalc-dims="1" decoding="async" src="https://i0.wp.com/ran-ran.net/wp-content/themes/ripro-v5/assets/img/logo.png"></div>
+</div>
+
+
+<h2>游戏截图</h2>
+<div id='gallery-1' class='gallery galleryid-55336 gallery-columns-4 gallery-size-thumbnail'><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/11/b8632e9921aa083.jpg?ssl=1"><img fetchpriority="high" decoding="async" width="500" height="281" src="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/11/b8632e9921aa083.jpg?fit=500%2C281&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/11/b36ff3de764a0cc.jpg?ssl=1"><img decoding="async" width="500" height="281" src="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/11/b36ff3de764a0cc.jpg?fit=500%2C281&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/11/0ac7e52c5b2ca5a.jpg?ssl=1"><img decoding="async" width="500" height="281" src="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/11/0ac7e52c5b2ca5a.jpg?fit=500%2C281&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/11/0765057fe52daa1.jpg?ssl=1"><img decoding="async" width="500" height="281" src="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/11/0765057fe52daa1.jpg?fit=500%2C281&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</div></figure>
+		</div>
+
+<h2>包含DLC</h2>
+<ul>
+<li>Touhou Mystia&#8217;s Izakaya DLC1 Pack &#8211; Forest of Magic &amp; Youkai Mountain</li>
+<li>Touhou Mystia&#8217;s Izakaya DLC2 Pack &#8211; Former Hell &amp; Chireiden</li>
+<li>Touhou Mystia&#8217;s Izakaya DLC2.5 Pack</li>
+<li>Touhou Mystia&#8217;s Izakaya DLC3 Pack &#8211; Myouren Temple &amp; Divine Spirit Mausoleum</li>
+<li>Touhou Mystia&#8217;s Izakaya DLC4 Pack &#8211; Garden of the Sun &amp; Shining Needle Castle</li>
+<li>Touhou Mystia&#8217;s Izakaya DLC5 Pack</li>
+<li>Touhou Mystia&#8217;s Izakaya &#8211; Soundtrack 1</li>
+<li>Touhou Mystia&#8217;s Izakaya &#8211; Soundtrack 2</li>
+<li>Touhou Mystia&#8217;s Izakaya &#8211; Soundtrack 3</li>
+<li>Touhou Mystia&#8217;s Izakaya &#8211; Soundtrack 4</li>
+<li>Touhou Mystia&#8217;s Izakaya &#8211; Soundtrack 5</li>
+</ul>
+<h2>版本介绍</h2>
+<ul>
+<li>v4.3.0c</li>
+<li>容量5.83GB</li>
+<li>官方简体中文</li>
+<li>支持键盘.鼠标.手柄</li>
+</ul>
+
+			<div class="entry-copyright">
+	<i class="fas fa-info-circle me-1"></i>本站为非营利性网站。所发布的一切软件仅限用于学习和研究目的，不得用于商业或非法用途，否则，一切后果请自负。版权争议与本站无关。您必须在下载后的24小时内，从您的设备中彻底删除上述内容。若您需要非免费软件或服务，请购买正版授权合法使用。若侵犯您权益，请提供版权资料联系我们。</div>
+		</article>
+
+		
+		
+<div class="entry-tags">
+	<i class="fas fa-tags me-1"></i>
+			<a href="https://ran-ran.net/archives/tag/%e4%bc%91%e9%97%b2" rel="tag">休闲</a>
+			<a href="https://ran-ran.net/archives/tag/%e6%a8%a1%e6%8b%9f" rel="tag">模拟</a>
+	</div>
+		
+<div class="entry-social">
+
+	<div class="row mt-2 mt-lg-3">
+		
+		<div class="col">
+						<a class="share-author" href="https://ran-ran.net/archives/author/3d0f0e71a61fc4e4">
+				<div class="avatar me-1"><img class="avatar-img rounded-circle border border-white border-3 shadow" src="//ran-ran.net/wp-content/themes/ripro-v5/assets/img/avatar.png" alt="">
+				</div>用户            </a>
+            		</div>
+
+		<div class="col-auto">
+			
+						<a class="btn btn-sm btn-info-soft post-share-btn" href="javascript:void(0);"><i class="fas fa-share-alt me-1"></i>分享</a>
+			
+						<a class="btn btn-sm btn-success-soft post-fav-btn" href="javascript:void(0);" data-is="1"><i class="far fa-star me-1"></i></i>收藏</a>
+			
+						<a class="btn btn-sm btn-danger-soft post-like-btn" href="javascript:void(0);" data-text="已点赞"><i class="far fa-heart me-1"></i>点赞(<span class="count">0</span>)</a>
+			
+		</div>
+	</div>
+
+</div>	</div>
+
+
+		<div class="tab-pane fade" id="pills-faq" role="tabpanel" aria-labelledby="pills-faq-tab">
+	
+	    <ol class="list-group list-group-numbered">
+		  		  	<li class="list-group-item list-group-item-info d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">免费下载或者VIP会员资源能否直接商用？</div>
+			      <div class="text-muted">本站所有资源版权均属于原作者所有，这里所提供资源均只能用于参考学习用，请勿直接商用。若由于商用引起版权纠纷，一切责任均由使用者承担。更多说明请参考 VIP介绍。</div>
+			    </div>
+			</li>
+	    		  	<li class="list-group-item list-group-item-info d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">提示下载完但解压或打开不了？</div>
+			      <div class="text-muted">最常见的情况是下载不完整: 可对比下载完压缩包的与网盘上的容量，若小于网盘提示的容量则是这个原因。这是浏览器下载的bug，建议用百度网盘软件或迅雷下载。 若排除这种情况，可在对应资源底部留言，或联络我们。</div>
+			    </div>
+			</li>
+	    		  	<li class="list-group-item list-group-item-info d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">找不到素材资源介绍文章里的示例图片？</div>
+			      <div class="text-muted">对于会员专享、整站源码、程序插件、网站模板、网页模版等类型的素材，文章内用于介绍的图片通常并不包含在对应可供下载素材包内。这些相关商业图片需另外购买，且本站不负责(也没有办法)找到出处。 同样地一些字体文件也是这种情况，但部分素材会在素材包内有一份字体下载链接清单。</div>
+			    </div>
+			</li>
+	    		  	<li class="list-group-item list-group-item-info d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">付款后无法显示下载地址或者无法查看内容？</div>
+			      <div class="text-muted">如果您已经成功付款但是网站没有弹出成功提示，请联系站长提供付款信息为您处理</div>
+			    </div>
+			</li>
+	    		  	<li class="list-group-item list-group-item-info d-flex justify-content-between align-items-start">
+			    <div class="ms-2 me-auto">
+			      <div class="fw-bold">购买该资源后，可以退款吗？</div>
+			      <div class="text-muted">源码素材属于虚拟商品，具有可复制性，可传播性，一旦授予，不接受任何形式的退款、换货要求。请您在购买获取之前确认好 是您所需要的资源</div>
+			    </div>
+			</li>
+	    		</ol>
+
+	</div>
+	
+		<div class="tab-pane fade" id="pills-comments" role="tabpanel" aria-labelledby="pills-comments-tab">
+	
+<div id="comments" class="entry-comments">
+	
+
+	<h2 class="comments-title"><i class="fas fa-comment-dots me-1"></i>评论(0)</h2>
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">提示：请文明发言 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/archives/55336.html#respond" style="display:none;">取消回复</a></small></h3><form action="https://ran-ran.net/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">您的邮箱地址不会被公开。</span> <span class="required-field-message">必填项已用 <span class="required">*</span> 标注</span></p><div class="comment-form-comment"><textarea id="comment" name="comment" rows="3" placeholder="请输入评论内容..."></textarea></div><div class="comment-form-author"><input id="author" name="author" type="text" placeholder="*昵称:" value="" size="30" class="required"></div>
+<div class="comment-form-email"><input id="email" name="email" type="text" placeholder="*邮箱:" value="" class="required"></div>
+<div class="comment-form-url"><input id="url" name="url" type="text" placeholder="网址:" value="" size="30"></div>
+<input type="hidden" name="wp-comment-cookies-consent" value="yes">
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="提交评论" /> <input type='hidden' name='comment_post_ID' value='55336' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+	
+
+
+	
+
+</div>
+	</div>
+	
+</div>
+
+
+			</div>
+			
+			
+
+<div class="entry-navigation">
+    <div class="row g-3">
+                <div class="col-lg-6 col-12">
+            <a class="entry-page-prev" href="https://ran-ran.net/archives/55337.html" title="《泰坦陨落2/Titanfall 2》 v2.0.11.0繁体中文版">
+                <div class="entry-page-icon"><i class="fas fa-arrow-left"></i></div>
+                <div class="entry-page-info">
+                    <span class="d-block rnav">上一篇</span>
+                    <div class="title">《泰坦陨落2/Titanfall 2》 v2.0.11.0繁体中文版</div>
+                </div>
+            </a>
+        </div>
+                        <div class="col-lg-6 col-12">
+            <a class="entry-page-next" href="https://ran-ran.net/archives/55335.html" title="《万象群侠传》 v0.6.3简体中文版">
+                <div class="entry-page-info">
+                    <span class="d-block rnav">下一篇</span>
+                    <div class="title">《万象群侠传》 v0.6.3简体中文版</div>
+                </div>
+                <div class="entry-page-icon"><i class="fas fa-arrow-right"></i></div>
+            </a>
+        </div>
+            </div>
+</div>			
+			
+<div class="related-posts">
+   <h2 class="related-posts-title"><i class="fab fa-hive me-1"></i>相关文章</h2>
+   <div class="row g-2 g-md-3 row-cols-2 row-cols-md-3 row-cols-lg-4">
+    
+
+	<div class="col">
+		<article class="post-item item-grid">
+
+			<div class="tips-badge position-absolute top-0 start-0 z-1 m-2">
+				
+				
+			</div>
+			
+
+<div class="entry-media ratio ratio-21x9">
+	<a target="" class="media-img lazy bg-cover bg-center-top" href="https://ran-ran.net/archives/55039.html" title="《战地6/战地风云6/Battlefield 6》 v1.1.2.0简体中文版" data-bg="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/11/32a9c14aa522df7.jpg?fit=460%2C215&ssl=1">
+
+		
+		<!-- 音视频缩略图 -->
+		
+	</a>
+</div>			<div class="entry-wrapper">
+									<div class="entry-cat-dot"><a href="https://ran-ran.net/archives/category/%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3">游戏相关</a> <a href="https://ran-ran.net/archives/category/%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3/pc">电脑游戏</a></div>
+				
+				<h2 class="entry-title">
+					<a target="" href="https://ran-ran.net/archives/55039.html" title="《战地6/战地风云6/Battlefield 6》 v1.1.2.0简体中文版">《战地6/战地风云6/Battlefield 6》 v1.1.2.0简体中文版</a>
+				</h2>
+
+									<div class="entry-desc">游戏介绍 子弹上膛，尽享终极全面战争体验。投入高强度步兵作战。在近距离空战中划破...</div>
+				
+				
+<div class="entry-meta">
+
+		<span class="meta-date"><i class="far fa-clock me-1"></i><time class="pub-date" datetime="2025-11-24T03:25:42+08:00">10 月前</time></span>
+	
+		<span class="meta-likes d-none d-md-inline-block"><i class="far fa-heart me-1"></i>0</span>
+	
+		<span class="meta-fav d-none d-md-inline-block"><i class="far fa-star me-1"></i>0</span>
+	
+		<span class="meta-views"><i class="far fa-eye me-1"></i>40</span>
+	
+		<span class="meta-price"><i class="fas fa-coins me-1"></i>0</span>
+	
+</div>			</div>
+		</article>
+	</div>
+
+
+
+	<div class="col">
+		<article class="post-item item-grid">
+
+			<div class="tips-badge position-absolute top-0 start-0 z-1 m-2">
+				
+				
+			</div>
+			
+
+<div class="entry-media ratio ratio-21x9">
+	<a target="" class="media-img lazy bg-cover bg-center-top" href="https://ran-ran.net/archives/56176.html" title="《黑暗之魂3/DARK SOULS III》 v1.15.2简体中文版" data-bg="http://ran-ran.net/wp-content/themes/ripro-v5/assets/img/thumb.jpg">
+
+		
+		<!-- 音视频缩略图 -->
+		
+	</a>
+</div>			<div class="entry-wrapper">
+									<div class="entry-cat-dot"><a href="https://ran-ran.net/archives/category/%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3">游戏相关</a> <a href="https://ran-ran.net/archives/category/%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3/pc">电脑游戏</a></div>
+				
+				<h2 class="entry-title">
+					<a target="" href="https://ran-ran.net/archives/56176.html" title="《黑暗之魂3/DARK SOULS III》 v1.15.2简体中文版">《黑暗之魂3/DARK SOULS III》 v1.15.2简体中文版</a>
+				</h2>
+
+									<div class="entry-desc">游戏介绍 《黑暗之魂3》是硬核动作角色扮演游戏系列《黑暗之魂》的正统作品，由宫崎...</div>
+				
+				
+<div class="entry-meta">
+
+		<span class="meta-date"><i class="far fa-clock me-1"></i><time class="pub-date" datetime="2026-01-12T21:25:35+08:00">9 月前</time></span>
+	
+		<span class="meta-likes d-none d-md-inline-block"><i class="far fa-heart me-1"></i>0</span>
+	
+		<span class="meta-fav d-none d-md-inline-block"><i class="far fa-star me-1"></i>0</span>
+	
+		<span class="meta-views"><i class="far fa-eye me-1"></i>49</span>
+	
+		<span class="meta-price"><i class="fas fa-coins me-1"></i>0</span>
+	
+</div>			</div>
+		</article>
+	</div>
+
+
+
+	<div class="col">
+		<article class="post-item item-grid">
+
+			<div class="tips-badge position-absolute top-0 start-0 z-1 m-2">
+				
+				
+			</div>
+			
+
+<div class="entry-media ratio ratio-21x9">
+	<a target="" class="media-img lazy bg-cover bg-center-top" href="https://ran-ran.net/archives/57965.html" title="《三角战略/TRIANGLE STRATEGY》 v1.1.0简体中文版" data-bg="https://i0.wp.com/ran-ran.net/wp-content/uploads/2026/05/099fb995346f31c-10.jpg?fit=460%2C215&ssl=1">
+
+		
+		<!-- 音视频缩略图 -->
+		
+	</a>
+</div>			<div class="entry-wrapper">
+									<div class="entry-cat-dot"><a href="https://ran-ran.net/archives/category/%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3">游戏相关</a> <a href="https://ran-ran.net/archives/category/%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3/pc">电脑游戏</a></div>
+				
+				<h2 class="entry-title">
+					<a target="" href="https://ran-ran.net/archives/57965.html" title="《三角战略/TRIANGLE STRATEGY》 v1.1.0简体中文版">《三角战略/TRIANGLE STRATEGY》 v1.1.0简体中文版</a>
+				</h2>
+
+									<div class="entry-desc">游戏介绍 本作为由“BRAVELY”系列、《OCTOPATH TRAVELER ...</div>
+				
+				
+<div class="entry-meta">
+
+		<span class="meta-date"><i class="far fa-clock me-1"></i><time class="pub-date" datetime="2026-05-31T18:37:21+08:00">4 月前</time></span>
+	
+		<span class="meta-likes d-none d-md-inline-block"><i class="far fa-heart me-1"></i>0</span>
+	
+		<span class="meta-fav d-none d-md-inline-block"><i class="far fa-star me-1"></i>0</span>
+	
+		<span class="meta-views"><i class="far fa-eye me-1"></i>81</span>
+	
+		<span class="meta-price"><i class="fas fa-coins me-1"></i>0</span>
+	
+</div>			</div>
+		</article>
+	</div>
+
+
+
+	<div class="col">
+		<article class="post-item item-grid">
+
+			<div class="tips-badge position-absolute top-0 start-0 z-1 m-2">
+				
+				
+			</div>
+			
+
+<div class="entry-media ratio ratio-21x9">
+	<a target="" class="media-img lazy bg-cover bg-center-top" href="https://ran-ran.net/archives/51967.html" title="《超级弹丸论破2：再见了绝望学园/Danganronpa 2: Goodbye Despair》Build.1312489繁体中文版" data-bg="https://i0.wp.com/ran-ran.net/wp-content/uploads/2025/10/32a9c14aa522df7.jpg?fit=460%2C215&ssl=1">
+
+		
+		<!-- 音视频缩略图 -->
+		
+	</a>
+</div>			<div class="entry-wrapper">
+									<div class="entry-cat-dot"><a href="https://ran-ran.net/archives/category/%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3">游戏相关</a> <a href="https://ran-ran.net/archives/category/%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3/pc">电脑游戏</a></div>
+				
+				<h2 class="entry-title">
+					<a target="" href="https://ran-ran.net/archives/51967.html" title="《超级弹丸论破2：再见了绝望学园/Danganronpa 2: Goodbye Despair》Build.1312489繁体中文版">《超级弹丸论破2：再见了绝望学园/Danganronpa 2: Goodbye Despair》Build.1312489繁体中文版</a>
+				</h2>
+
+									<div class="entry-desc">游戏介绍 在以避暑胜地而负有盛名的贾巴沃克岛上，原本打算享受修学旅行的16名高中...</div>
+				
+				
+<div class="entry-meta">
+
+		<span class="meta-date"><i class="far fa-clock me-1"></i><time class="pub-date" datetime="2025-10-03T00:49:27+08:00">1 年前</time></span>
+	
+		<span class="meta-likes d-none d-md-inline-block"><i class="far fa-heart me-1"></i>0</span>
+	
+		<span class="meta-fav d-none d-md-inline-block"><i class="far fa-star me-1"></i>0</span>
+	
+		<span class="meta-views"><i class="far fa-eye me-1"></i>61</span>
+	
+		<span class="meta-price"><i class="fas fa-coins me-1"></i>0</span>
+	
+</div>			</div>
+		</article>
+	</div>
+
+    </div>
+</div>
+
+			
+		</div>
+
+		<div class="sidebar-wrapper col-md-12 col-lg-3 h-100" data-sticky>
+			<div class="sidebar">
+				<div id="ri_post_pay_widget-2" class="widget post-buy-widget">
+
+<div class="ri-down-warp" data-resize="top">
+    <span class="down-msg">下载</span>
+            <div class="down-buy-warp">
+                    <!-- <div class="buy-title"><i class="fas fa-lock me-1"></i></div> -->
+            <div class="buy-btns">
+              <a rel="nofollow noopener noreferrer" href="https://ran-ran.net/login?redirect_to=https%3A%2F%2Fran-ran.net%2Farchives%2F55336.html" class="login-btn btn btn-info w-100 rounded-pill"><i class="far fa-user me-1"></i>登录后下载</a>
+            </div> 
+
+        
+        </div>
+
+    
+
+    <div class="down-buy-info">
+
+        
+        
+                    <ul class="list-group list-group-flush mt-3">
+                            <li class="small text-muted list-group-item bg-white"><span>包含资源: </span> <span>(5个)</span></li>
+                            <li class="small text-muted list-group-item bg-white"><span>最近更新: </span> <span>2025-11-30</span></li>
+                            <li class="small text-muted list-group-item bg-white"><span>解压密码: </span> <span>XDGAME或者WWW.XDGAME.COM</span></li>
+                        </ul>
+        
+                <p class="text-muted mb-0 mt-3 small">下载遇到问题？可联系客服或反馈</p>
+            </div> 
+
+</div>
+
+
+
+</div>			</div>
+		</div>
+
+	</div>
+</div>
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- =======================
+Footer START -->
+<footer class="site-footer py-md-4 py-2 mt-2 mt-md-4">
+	<div class="container">
+
+		
+
+<div class="row d-none d-lg-flex mb-3">
+  <div class="col-md-4">
+    <div class="logo-wrapper">
+          </div>
+    <div class="logo-wrapper">
+<a rel="nofollow noopener noreferrer" href="https://ran-ran.net/"><img class="logo regular" data-light="http://ran-ran.net/wp-content/uploads/2025/09/5394cff7f52e4eb-1.png" data-dark="http://ran-ran.net/wp-content/uploads/2025/09/5394cff7f52e4eb-2.png" src="https://ran-ran.net/wp-content/uploads/2025/09/5394cff7f52e4eb-1.png" alt="ranran游戏"></a></div>
+    <p class="small mb-0"></p>
+  </div>
+
+  <div class="col-md-2">
+    <h4 class="widget-title">快速导航</h4>
+    <ul class="list-unstyled widget-links">
+      <li><a href="https://ran-ran.net/user">个人中心</a></li><li><a href="https://ran-ran.net/tags">标签云</a></li>    </ul>
+  </div>
+
+  <div class="col-md-2">
+    <h4 class="widget-title">关于本站</h4>
+    <ul class="list-unstyled widget-links">
+          </ul>
+  </div>
+
+  <div class="col-md-4">
+    <h4 class="widget-title">联系我们</h4>
+    <div class=""></div>
+  </div>
+</div>
+
+
+		<div class="text-center small w-100">
+			<div>Copyright © 2023 <a target="_blank" href="https://ran-ran.net/">ranran Game</a> - All rights reserved</div>
+			<div class=""></div>
+		</div>
+
+		
+		
+	</div>
+</footer>
+<!-- =======================
+Footer END -->
+
+
+<!-- Back to top rollbar-->
+	<div class="rollbar">
+		<ul class="actions">
+			<li><a target="" href="https://ran-ran.net/" rel="nofollow noopener noreferrer"><i class="fas fa-home"></i><span>首页</span></a></li><li><a target="" href="https://ran-ran.net/user" rel="nofollow noopener noreferrer"><i class="far fa-user"></i><span>用户中心</span></a></li>		</ul>
+	</div>
+<div class="back-top"><i class="fas fa-caret-up"></i></div>
+
+<!-- m-navbar -->
+	<div class="m-navbar">
+		<ul>
+			<li><a target="" href="https://ran-ran.net" rel="nofollow noopener noreferrer"><i class="fas fa-home"></i><span>首页</span></a></li><li><a target="" href="https://ran-ran.net/tags" rel="nofollow noopener noreferrer"><i class="fas fa-layer-group"></i><span>分类</span></a></li><li><a target="" href="https://ran-ran.net/vip-prices" rel="nofollow noopener noreferrer"><i class="far fa-gem"></i><span>会员</span></a></li><li><a target="" href="https://ran-ran.net/user" rel="nofollow noopener noreferrer"><i class="fas fa-user"></i><span>我的</span></a></li>		</ul>
+	</div>
+
+<!-- dimmer-->
+<div class="dimmer"></div>
+
+<div class="off-canvas">
+  <div class="canvas-close"><i class="fas fa-times"></i></div>
+  
+  <!-- logo -->
+  <div class="logo-wrapper">
+<a rel="nofollow noopener noreferrer" href="https://ran-ran.net/"><img class="logo regular" data-light="http://ran-ran.net/wp-content/uploads/2025/09/5394cff7f52e4eb-1.png" data-dark="http://ran-ran.net/wp-content/uploads/2025/09/5394cff7f52e4eb-2.png" src="https://ran-ran.net/wp-content/uploads/2025/09/5394cff7f52e4eb-1.png" alt="ranran游戏"></a></div>
+
+  
+  <div class="mobile-menu d-block d-lg-none"></div>
+
+</div>
+
+
+
+
+		
+		
+
+
+
+
+<!-- 自定义js代码 统计代码 -->
+<!-- 自定义js代码 统计代码 END -->
+
+<script id="jquery-js" src="//cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js?ver=3.6.0" type="2d06815b4a9a1715a4b8af69-text/javascript"></script><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/ripro-v5/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script><script type="2d06815b4a9a1715a4b8af69-text/javascript">window.addEventListener( 'load', function() {
+				document.querySelectorAll( 'link' ).forEach( function( e ) {'not all' === e.media && e.dataset.media && ( e.media = e.dataset.media, delete e.dataset.media );} );
+				var e = document.getElementById( 'jetpack-boost-critical-css' );
+				e && ( e.media = 'not all' );
+			} );</script><script id="highlight-js" src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/highlight.min.js?ver=11.7.0" type="2d06815b4a9a1715a4b8af69-text/javascript"></script><script id="video-js-js" src="//cdn.jsdelivr.net/npm/video.js@8.0.4/dist/video.min.js?ver=8.0.4" type="2d06815b4a9a1715a4b8af69-text/javascript"></script><script id="main-js-extra" type="2d06815b4a9a1715a4b8af69-text/javascript">
+var zb = {"home_url":"https://ran-ran.net","ajax_url":"https://ran-ran.net/wp-admin/admin-ajax.php","theme_url":"https://ran-ran.net/wp-content/themes/ripro-v5","singular_id":"55336","post_content_nav":"0","site_popup_login":"1","site_notify_auto":"1","current_user_id":"0","ajax_nonce":"f64bb908cc","gettext":{"__copypwd":"\u5bc6\u7801\u5df2\u590d\u5236\u526a\u8d34\u677f","__copybtn":"\u590d\u5236","__copy_succes":"\u590d\u5236\u6210\u529f","__comment_be":"\u63d0\u4ea4\u4e2d...","__comment_succes":"\u8bc4\u8bba\u6210\u529f","__comment_succes_n":"\u8bc4\u8bba\u6210\u529f\uff0c\u5373\u5c06\u5237\u65b0\u9875\u9762","__buy_be_n":"\u8bf7\u6c42\u652f\u4ed8\u4e2d\u00b7\u00b7\u00b7","__buy_no_n":"\u652f\u4ed8\u5df2\u53d6\u6d88","__is_delete_n":"\u786e\u5b9a\u5220\u9664\u6b64\u8bb0\u5f55\uff1f"}};
+//# sourceURL=main-js-extra
+</script><script type="2d06815b4a9a1715a4b8af69-text/javascript" src='https://ran-ran.net/_jb_static/??cfd01c6c7d'></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8769473938302391" crossorigin="anonymous" type="2d06815b4a9a1715a4b8af69-text/javascript"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="2d06815b4a9a1715a4b8af69-|49" defer></script></body>
+</html>
+<!--
+Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
+
+使用 PhpRedis (v5.3.7) 从 Redis 检索了 1994 个对象 (285 KB)。
+-->
+
+<!-- Dynamic page generated in 0.328 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2026-10-05 00:51:14 -->
+
+<!-- Compression = gzip -->

@@ -1,0 +1,7 @@
+==== DECORATION_LIST
+{"id": 62, "name": "喜之面", "description": "《东方华心传》的联动礼物，代表“喜”情绪的面具。", "dlc": 0, "effect": "摆放在店铺中时，客人的预算提高20%。受到【秦心】的符卡效果强化后，效果提升至200%。情绪面具摆件只能选择一个进行摆放。", "from": {"collaboration": {"collaborationLabel": "TBS_Kokoro"}}}
+{"id": 63, "name": "怒之面", "description": "《东方华心传》的联动礼物，代表“怒”情绪的面具。", "dlc": 0, "effect": "摆放在店铺中时，减少10%料理时间。受到【秦心】的符卡效果强化后，效果提升至75%。情绪面具摆件只能选择一个进行摆放。", "from": {"collaboration": {"collaborationLabel": "TBS_Kokoro"}}}
+{"id": 64, "name": "哀之面", "description": "《东方华心传》的联动礼物，代表“哀”情绪的面具。", "dlc": 0, "effect": "摆放在店铺中时，客人的续单概率提高5%。受到【秦心】的符卡效果强化后，效果提升至50%。情绪面具摆件只能选择一个进行摆放。", "from": {"collaboration": {"collaborationLabel": "TBS_Kokoro"}}}
+{"id": 65, "name": "乐之面", "description": "《东方华心传》的联动礼物，代表“乐”情绪的面具。", "dlc": 0, "effect": "摆放在店铺中时，稀有客人首次给出评价时，评价等级至少为普通。受到【秦心】的符卡效果强化后，效果改为至少为完美。情绪面具摆件只能选择一个进行摆放。", "from": {"collaboration": {"collaborationLabel": "TBS_Kokoro"}}}
+==== CLOTHES_LIST
+{"id": 61, "name": "妖精服", "description": "《东方妖精武踏会》的联动礼物。洋溢着妖精风格的可爱小裙子，是充满了活力的设计。穿上后能让人一扫烦恼，仿佛自己也变成了自由自在、无忧无虑的小妖精！更换该服装时，店铺的夜间装潢也会变成妖精风格。", "dlc": 0, "gif": false, "izakaya": true, "from": [{"collaborationUnlock": {"collaborationLabel": "THYG"}}]}

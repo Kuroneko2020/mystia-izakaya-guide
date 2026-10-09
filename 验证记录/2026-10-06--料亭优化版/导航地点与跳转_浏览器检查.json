@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-06",
+  "navigation": [
+    {
+      "group": "配餐参考",
+      "hash": "#details",
+      "panel": "panel-details"
+    },
+    {
+      "group": "配餐参考",
+      "hash": "#drinkrecs",
+      "panel": "panel-drinkrecs"
+    },
+    {
+      "group": "配餐参考",
+      "hash": "#addons",
+      "panel": "panel-addons"
+    },
+    {
+      "group": "物品图鉴",
+      "hash": "#catalog",
+      "panel": "panel-catalog"
+    },
+    {
+      "group": "物品图鉴",
+      "hash": "#ingredients",
+      "panel": "panel-ingredients"
+    },
+    {
+      "group": "物品图鉴",
+      "hash": "#beverages",
+      "panel": "panel-beverages"
+    },
+    {
+      "group": "客人图鉴",
+      "hash": "#guests",
+      "panel": "panel-guests"
+    },
+    {
+      "group": "客人图鉴",
+      "hash": "#normal",
+      "panel": "panel-normal"
+    },
+    {
+      "hash": "#new440",
+      "panel": "panel-new440",
+      "reference": true
+    },
+    {
+      "hash": "#guides",
+      "panel": "panel-guides",
+      "reference": true
+    },
+    {
+      "hash": "#sources",
+      "panel": "panel-sources",
+      "reference": true
+    }
+  ],
+  "regions": [
+    {
+      "expected": 22,
+      "place": "博丽神社",
+      "shown": 22
+    },
+    {
+      "expected": 11,
+      "place": "地灵殿",
+      "shown": 11
+    },
+    {
+      "expected": 17,
+      "place": "红魔馆",
+      "shown": 17
+    },
+    {
+      "expected": 14,
+      "place": "辉针城",
+      "shown": 14
+    },
+    {
+      "expected": 12,
+      "place": "旧地狱",
+      "shown": 12
+    },
+    {
+      "expected": 17,
+      "place": "迷途竹林",
+      "shown": 17
+    },
+    {
+      "expected": 17,
+      "place": "命莲寺",
+      "shown": 17
+    },
+    {
+      "expected": 18,
+      "place": "魔法森林",
+      "shown": 18
+    },
+    {
+      "expected": 9,
+      "place": "魔界",
+      "shown": 9
+    },
+    {
+      "expected": 19,
+      "place": "人间之里",
+      "shown": 19
+    },
+    {
+      "expected": 17,
+      "place": "神灵庙",
+      "shown": 17
+    },
+    {
+      "expected": 13,
+      "place": "太阳花田",
+      "shown": 13
+    },
+    {
+      "expected": 18,
+      "place": "妖怪兽道",
+      "shown": 18
+    },
+    {
+      "expected": 21,
+      "place": "妖怪之山",
+      "shown": 21
+    },
+    {
+      "expected": 9,
+      "place": "月之都",
+      "shown": 9
+    }
+  ],
+  "observed": {
+    "allGuests": 59,
+    "allNormal": 47,
+    "redMansionGuests": 17,
+    "redMansionNormal": 7,
+    "forestNormal": 8,
+    "sharedGuestAcrossPlans": "红美铃",
+    "crossLinkChain": "配餐→菜谱→食材→返回菜谱→返回配餐",
+    "tableReturn": {
+      "page": 2,
+      "scrollTop": 350
+    },
+    "samePagePaginationReturn": {
+      "from": "101–150 / 163",
+      "intermediate": "1–50 / 163",
+      "restored": "101–150 / 163"
+    },
+    "guideReturn": {
+      "year": 2021,
+      "count": 25,
+      "openedRecordRestored": true
+    },
+    "exactItem": {
+      "name": "饭团",
+      "clearedDlc": true,
+      "clearedChips": true,
+      "expanded": true
+    },
+    "wineTarget": {
+      "name": "冬酿",
+      "rows": 1,
+      "expanded": true
+    },
+    "guestBackgroundNodeUnchanged": true,
+    "viewportOverflow": {
+      "phone390": false,
+      "tablet768": false,
+      "desktop1056": false
+    },
+    "consoleErrors": 0
+  },
+  "screenshots": [
+    "导航与店面_桌面.png",
+    "导航与店面_手机.png",
+    "导航与店面_平板.png"
+  ]
+}

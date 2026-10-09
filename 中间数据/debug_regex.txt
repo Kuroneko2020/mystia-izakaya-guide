@@ -1,0 +1,30 @@
+60: '【羁绊稀客】'
+  hold match: None
+  like match: None
+61: '（可提升好感，拥有符卡技能）'
+  hold match: None
+  like match: None
+62: '莉格露'
+  hold match: None
+  like match: None
+63: '（持有金：200-400）'
+  hold match: ('200-400',)
+  like match: None
+64: '（符卡效果：客人刷新间隔-30%）'
+  hold match: None
+  like match: None
+65: '喜：甜/猎奇/生/肉'
+  hold match: None
+  like match: ('喜', '甜/猎奇/生/肉')
+66: '厌：素-清淡-凉爽'
+  hold match: None
+  like match: ('厌', '素-清淡-凉爽')
+67: '酒水偏好：低酒精/可加冰'
+  hold match: None
+  like match: None
+68: '【菜品】'
+  hold match: None
+  like match: None
+69: '甜+肉：蜜汁叉烧（70）（烤架：蜂蜜+猪肉）'
+  hold match: None
+  like match: None

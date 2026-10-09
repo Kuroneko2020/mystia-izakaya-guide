@@ -1,0 +1,2462 @@
+[
+  {
+    "sha": "a4382c32e914bdc9597c72344ed077d6949aaec9",
+    "node_id": "C_kwDOMDkeEtoAKGE0MzgyYzMyZTkxNGJkYzk1OTdjNzIzNDRlZDA3N2Q2OTQ5YWFlYzk",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T15:41:52Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T15:41:52Z"
+      },
+      "message": "chore(build): bump version to 2.10.11",
+      "tree": {
+        "sha": "6826bfe12b2107e67e8266bbf1eac9cf2c7f7e64",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/6826bfe12b2107e67e8266bbf1eac9cf2c7f7e64"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/a4382c32e914bdc9597c72344ed077d6949aaec9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCasJzwRsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LwgKAEAkN14TZfc9+O7Wn9vppKA\nfAHdHHPUm6tyhVw8HXbmDowA/inUDgVEpMw93toFX75XltqJ6AzvlfTzaSLjh+dU\nrNEC\n=3tkE\n-----END PGP SIGNATURE-----",
+        "payload": "tree 6826bfe12b2107e67e8266bbf1eac9cf2c7f7e64\nparent 76644e0afc41d73e987ba864789384a4e0e527ea\nauthor 安忆 <i@anyi.in> 1791128512 +0800\ncommitter 安忆 <i@anyi.in> 1791128512 +0800\n\nchore(build): bump version to 2.10.11\n",
+        "verified_at": "2026-10-04T15:44:04Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/a4382c32e914bdc9597c72344ed077d6949aaec9",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/a4382c32e914bdc9597c72344ed077d6949aaec9",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/a4382c32e914bdc9597c72344ed077d6949aaec9/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "76644e0afc41d73e987ba864789384a4e0e527ea",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/76644e0afc41d73e987ba864789384a4e0e527ea",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/76644e0afc41d73e987ba864789384a4e0e527ea"
+      }
+    ]
+  },
+  {
+    "sha": "76644e0afc41d73e987ba864789384a4e0e527ea",
+    "node_id": "C_kwDOMDkeEtoAKDc2NjQ0ZTBhZmM0MWQ3M2U5ODdiYTg2NDc4OTM4NGE0ZTBlNTI3ZWE",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T15:41:22Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T15:41:22Z"
+      },
+      "message": "feat(pages): add MetaMystia landing page (#42)",
+      "tree": {
+        "sha": "20279023262008d9bc9d9f8b195bcd88c8758726",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/20279023262008d9bc9d9f8b195bcd88c8758726"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/76644e0afc41d73e987ba864789384a4e0e527ea",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCasJzphsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5Lyd1AEA/Yh+rz+kS8njy4eF+Aef\nfobIvHpqJJK4cDey4NVaI5oBANWzOYo3GVFUsshayzyoGO9xG3qYc++ficI4aH2R\nZUcB\n=PEAq\n-----END PGP SIGNATURE-----",
+        "payload": "tree 20279023262008d9bc9d9f8b195bcd88c8758726\nparent e2a64f3b1e5569d6facd498e5f20f69ea41d7595\nauthor 安忆 <i@anyi.in> 1791128482 +0800\ncommitter 安忆 <i@anyi.in> 1791128482 +0800\n\nfeat(pages): add MetaMystia landing page (#42)\n",
+        "verified_at": "2026-10-04T15:44:04Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/76644e0afc41d73e987ba864789384a4e0e527ea",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/76644e0afc41d73e987ba864789384a4e0e527ea",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/76644e0afc41d73e987ba864789384a4e0e527ea/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e2a64f3b1e5569d6facd498e5f20f69ea41d7595",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/e2a64f3b1e5569d6facd498e5f20f69ea41d7595",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/e2a64f3b1e5569d6facd498e5f20f69ea41d7595"
+      }
+    ]
+  },
+  {
+    "sha": "e2a64f3b1e5569d6facd498e5f20f69ea41d7595",
+    "node_id": "C_kwDOMDkeEtoAKGUyYTY0ZjNiMWU1NTY5ZDZmYWNkNDk4ZTVmMjBmNjllYTQxZDc1OTU",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T09:29:59Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T09:29:59Z"
+      },
+      "message": "chore(build): bump version to 2.10.10",
+      "tree": {
+        "sha": "532dbd160b4d9ee9dccd4cec7b45528a25572c5c",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/532dbd160b4d9ee9dccd4cec7b45528a25572c5c"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/e2a64f3b1e5569d6facd498e5f20f69ea41d7595",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCasIcmBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5Lz4WAEAisUjxCFhjRCKkFkpcaJL\nFTfBDCCvBQR/AEXnAfsnlJMBAP2yngo4IF77T0+65locvK5YFI29OYgUU+CzNgcc\nF1ID\n=VzXd\n-----END PGP SIGNATURE-----",
+        "payload": "tree 532dbd160b4d9ee9dccd4cec7b45528a25572c5c\nparent de46b49fda2db09beaaded9dbd69d2419594623a\nauthor 安忆 <i@anyi.in> 1791106199 +0800\ncommitter 安忆 <i@anyi.in> 1791106199 +0800\n\nchore(build): bump version to 2.10.10\n",
+        "verified_at": "2026-10-04T09:34:15Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/e2a64f3b1e5569d6facd498e5f20f69ea41d7595",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/e2a64f3b1e5569d6facd498e5f20f69ea41d7595",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/e2a64f3b1e5569d6facd498e5f20f69ea41d7595/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "de46b49fda2db09beaaded9dbd69d2419594623a",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/de46b49fda2db09beaaded9dbd69d2419594623a",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/de46b49fda2db09beaaded9dbd69d2419594623a"
+      }
+    ]
+  },
+  {
+    "sha": "de46b49fda2db09beaaded9dbd69d2419594623a",
+    "node_id": "C_kwDOMDkeEtoAKGRlNDZiNDlmZGEyZGIwOWJlYWFkZWQ5ZGJkNjlkMjQxOTU5NDYyM2E",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T09:29:52Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T09:29:52Z"
+      },
+      "message": "build: update dependencies",
+      "tree": {
+        "sha": "84b0f5e69cd8c2a86132669890bb0c0619684641",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/84b0f5e69cd8c2a86132669890bb0c0619684641"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/de46b49fda2db09beaaded9dbd69d2419594623a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCasIckRsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LyrCQEArA/20loIyWJgJX5p3l49\nRSJ4DJZ/KEVuZdMGUrK66yMBAKKpn7SCpelqnvjf5UQ+8fUWQDnc76QQZN5uRn/3\nAF0G\n=z0yS\n-----END PGP SIGNATURE-----",
+        "payload": "tree 84b0f5e69cd8c2a86132669890bb0c0619684641\nparent e3be42488760a79256038d48e789424292aa43ba\nauthor 安忆 <i@anyi.in> 1791106192 +0800\ncommitter 安忆 <i@anyi.in> 1791106192 +0800\n\nbuild: update dependencies\n",
+        "verified_at": "2026-10-04T09:34:15Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/de46b49fda2db09beaaded9dbd69d2419594623a",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/de46b49fda2db09beaaded9dbd69d2419594623a",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/de46b49fda2db09beaaded9dbd69d2419594623a/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e3be42488760a79256038d48e789424292aa43ba",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/e3be42488760a79256038d48e789424292aa43ba",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/e3be42488760a79256038d48e789424292aa43ba"
+      }
+    ]
+  },
+  {
+    "sha": "e3be42488760a79256038d48e789424292aa43ba",
+    "node_id": "C_kwDOMDkeEtoAKGUzYmU0MjQ4ODc2MGE3OTI1NjAzOGQ0OGU3ODk0MjQyOTJhYTQzYmE",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T08:45:24Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T08:45:24Z"
+      },
+      "message": "fix(tooltip): align exit transform origin with flipped placement\n\n@heroui/tooltip returned the requested placement from useTooltip\ninstead of the actual placement chosen by useOverlayPosition, so the\nexit animation originated from the wrong edge whenever the tooltip\nflipped, for example on the guest filter button at xl width.\n\nApply the same axis check the popover implementation uses, so the\nreturned placement follows flips on both axes while alignment\nplacements such as top-start stay unchanged.",
+      "tree": {
+        "sha": "2b77a4667e28e647e9818c81b7a770d242f064cc",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/2b77a4667e28e647e9818c81b7a770d242f064cc"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/e3be42488760a79256038d48e789424292aa43ba",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCasISJRsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LzuiAD7BqRB4uYmwQhdFHLUj9j4\ni21WSAz9FuanzTpY6UoXRSoBAOxJQHVEualCTIMkYLcSbWSgMeqlw/w7J0lBtuSa\nj3gF\n=36uY\n-----END PGP SIGNATURE-----",
+        "payload": "tree 2b77a4667e28e647e9818c81b7a770d242f064cc\nparent ce20d264359355b1f0c436b52fe212c6c18d80fe\nauthor 安忆 <i@anyi.in> 1791103524 +0800\ncommitter 安忆 <i@anyi.in> 1791103524 +0800\n\nfix(tooltip): align exit transform origin with flipped placement\n\n@heroui/tooltip returned the requested placement from useTooltip\ninstead of the actual placement chosen by useOverlayPosition, so the\nexit animation originated from the wrong edge whenever the tooltip\nflipped, for example on the guest filter button at xl width.\n\nApply the same axis check the popover implementation uses, so the\nreturned placement follows flips on both axes while alignment\nplacements such as top-start stay unchanged.\n",
+        "verified_at": "2026-10-04T09:34:15Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/e3be42488760a79256038d48e789424292aa43ba",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/e3be42488760a79256038d48e789424292aa43ba",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/e3be42488760a79256038d48e789424292aa43ba/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ce20d264359355b1f0c436b52fe212c6c18d80fe",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/ce20d264359355b1f0c436b52fe212c6c18d80fe",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/ce20d264359355b1f0c436b52fe212c6c18d80fe"
+      }
+    ]
+  },
+  {
+    "sha": "ce20d264359355b1f0c436b52fe212c6c18d80fe",
+    "node_id": "C_kwDOMDkeEtoAKGNlMjBkMjY0MzU5MzU1YjFmMGM0MzZiNTJmZTIxMmM2YzE4ZDgwZmU",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T08:06:13Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T08:06:13Z"
+      },
+      "message": "feat(account): add case-insensitive nickname search\n\nStore a lowercase nickname copy on user writes and backfill existing rows during migration.\n\nSearch by username, nickname, or user ID in admin user lists and announcement targeting.\n\nExtend the same nickname matching to SSO grants, tickets, grant events, and callback lists.",
+      "tree": {
+        "sha": "ba92d0f4f5674c296c2a32b7762d3f7ecc93e527",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/ba92d0f4f5674c296c2a32b7762d3f7ecc93e527"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/ce20d264359355b1f0c436b52fe212c6c18d80fe",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCasII+xsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LwE3QD/RZ2wrIkoIU/HcvVSkCg7\nEkUCOTlnYFgnQCA1av+HPGMA+QF7lDFzyWh/xTKuZaCSwHZQiv/wE2iHIS4vvNqt\nO20L\n=e09O\n-----END PGP SIGNATURE-----",
+        "payload": "tree ba92d0f4f5674c296c2a32b7762d3f7ecc93e527\nparent 475f03eece24a2df096b1f597ce04cf2a9098af3\nauthor 安忆 <i@anyi.in> 1791101173 +0800\ncommitter 安忆 <i@anyi.in> 1791101173 +0800\n\nfeat(account): add case-insensitive nickname search\n\nStore a lowercase nickname copy on user writes and backfill existing rows during migration.\n\nSearch by username, nickname, or user ID in admin user lists and announcement targeting.\n\nExtend the same nickname matching to SSO grants, tickets, grant events, and callback lists.\n",
+        "verified_at": "2026-10-04T09:34:15Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/ce20d264359355b1f0c436b52fe212c6c18d80fe",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/ce20d264359355b1f0c436b52fe212c6c18d80fe",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/ce20d264359355b1f0c436b52fe212c6c18d80fe/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "475f03eece24a2df096b1f597ce04cf2a9098af3",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/475f03eece24a2df096b1f597ce04cf2a9098af3",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/475f03eece24a2df096b1f597ce04cf2a9098af3"
+      }
+    ]
+  },
+  {
+    "sha": "475f03eece24a2df096b1f597ce04cf2a9098af3",
+    "node_id": "C_kwDOMDkeEtoAKDQ3NWYwM2VlY2UyNGEyZGYwOTZiMWY1OTdjZTA0Y2YyYTkwOThhZjM",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T06:55:22Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T06:55:22Z"
+      },
+      "message": "refactor(announcements): replace manual cleanup with audit log entry\n\nDrop the manual cleanup button, client API, route, and audit plumbing.\n\nCleanup now runs automatically at most hourly after admin mutations.",
+      "tree": {
+        "sha": "2a3eacba608bc339861df796a917a81afe084217",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/2a3eacba608bc339861df796a917a81afe084217"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/475f03eece24a2df096b1f597ce04cf2a9098af3",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCasH4XRsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LztYwEA+B0R3K7S++joPMfuxvNw\nrBh80nyUlvUJ3OEw/8jxiC8A/iLC01AxSEswLOOP80rOcCwqgkO0fNhz5ZUaCOhr\nmzEC\n=K5/X\n-----END PGP SIGNATURE-----",
+        "payload": "tree 2a3eacba608bc339861df796a917a81afe084217\nparent c262ccdef80e27eafe4a122966b90b878738e72e\nauthor 安忆 <i@anyi.in> 1791096922 +0800\ncommitter 安忆 <i@anyi.in> 1791096922 +0800\n\nrefactor(announcements): replace manual cleanup with audit log entry\n\nDrop the manual cleanup button, client API, route, and audit plumbing.\n\nCleanup now runs automatically at most hourly after admin mutations.\n",
+        "verified_at": "2026-10-04T09:34:15Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/475f03eece24a2df096b1f597ce04cf2a9098af3",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/475f03eece24a2df096b1f597ce04cf2a9098af3",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/475f03eece24a2df096b1f597ce04cf2a9098af3/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c262ccdef80e27eafe4a122966b90b878738e72e",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/c262ccdef80e27eafe4a122966b90b878738e72e",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/c262ccdef80e27eafe4a122966b90b878738e72e"
+      }
+    ]
+  },
+  {
+    "sha": "c262ccdef80e27eafe4a122966b90b878738e72e",
+    "node_id": "C_kwDOMDkeEtoAKGMyNjJjY2RlZjgwZTI3ZWFmZTRhMTIyOTY2YjkwYjg3ODczOGU3MmU",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T06:47:13Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-10-04T06:47:13Z"
+      },
+      "message": "feat(announcements): record admin operations in audit log",
+      "tree": {
+        "sha": "30127a38c218f393bcf665a13cd776ff618f2b9f",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/30127a38c218f393bcf665a13cd776ff618f2b9f"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/c262ccdef80e27eafe4a122966b90b878738e72e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCasH2dRsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LxdJQD+LhHUJHNHk4Zudj2/legz\n34zNhBTYsVB6ClJfsfubdB8BAKDSk3p38XltIfpoZeJ2fv3aAnx6QFD0l3oHZZjL\nZwsN\n=dEgd\n-----END PGP SIGNATURE-----",
+        "payload": "tree 30127a38c218f393bcf665a13cd776ff618f2b9f\nparent b8e795dc122ee6b90101433be64b4306237216a4\nauthor 安忆 <i@anyi.in> 1791096433 +0800\ncommitter 安忆 <i@anyi.in> 1791096433 +0800\n\nfeat(announcements): record admin operations in audit log\n",
+        "verified_at": "2026-10-04T09:34:15Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/c262ccdef80e27eafe4a122966b90b878738e72e",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/c262ccdef80e27eafe4a122966b90b878738e72e",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/c262ccdef80e27eafe4a122966b90b878738e72e/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b8e795dc122ee6b90101433be64b4306237216a4",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/b8e795dc122ee6b90101433be64b4306237216a4",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/b8e795dc122ee6b90101433be64b4306237216a4"
+      }
+    ]
+  },
+  {
+    "sha": "b8e795dc122ee6b90101433be64b4306237216a4",
+    "node_id": "C_kwDOMDkeEtoAKGI4ZTc5NWRjMTIyZWU2YjkwMTAxNDMzYmU2NGI0MzA2MjM3MjE2YTQ",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-30T10:07:11Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-30T10:07:11Z"
+      },
+      "message": "chore(build): bump version to 2.10.9",
+      "tree": {
+        "sha": "8d337b5b7a47c6c87b10aa6bcdd001f0a31063d5",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/8d337b5b7a47c6c87b10aa6bcdd001f0a31063d5"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/b8e795dc122ee6b90101433be64b4306237216a4",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCarzfVAAKCRAZDfN9Af/k\nvMuBAQD8V6QRPEHUnkSlboXz2eVixk1UTUOPhO5deDtpmnT3KwEAwoL1Fjc5lj6F\n7F8o5YS2t4UUL0okWwuu5q4I+SBd4wk=\n=hhyx\n-----END PGP SIGNATURE-----",
+        "payload": "tree 8d337b5b7a47c6c87b10aa6bcdd001f0a31063d5\nparent 31082318f61658ae2e1f404ab168571f6e7e9a5e\nauthor 安忆 <i@anyi.in> 1790762831 +0800\ncommitter 安忆 <i@anyi.in> 1790762831 +0800\n\nchore(build): bump version to 2.10.9\n",
+        "verified_at": "2026-09-30T10:11:53Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/b8e795dc122ee6b90101433be64b4306237216a4",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/b8e795dc122ee6b90101433be64b4306237216a4",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/b8e795dc122ee6b90101433be64b4306237216a4/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "31082318f61658ae2e1f404ab168571f6e7e9a5e",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/31082318f61658ae2e1f404ab168571f6e7e9a5e",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/31082318f61658ae2e1f404ab168571f6e7e9a5e"
+      }
+    ]
+  },
+  {
+    "sha": "31082318f61658ae2e1f404ab168571f6e7e9a5e",
+    "node_id": "C_kwDOMDkeEtoAKDMxMDgyMzE4ZjYxNjU4YWUyZTFmNDA0YWIxNjg1NzFmNmU3ZTlhNWU",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-30T10:06:29Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-30T10:06:29Z"
+      },
+      "message": "fix(catalog): align filter selections with dropdown order\n\n- Order multi-select filter values by their dropdown items\n- Use canonical map ordering for place filters\n- Order cooker type search suggestions by ID",
+      "tree": {
+        "sha": "be95dceb1f9dfb27a963ecb76b0cc68bd884aac2",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/be95dceb1f9dfb27a963ecb76b0cc68bd884aac2"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/31082318f61658ae2e1f404ab168571f6e7e9a5e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCarzfNgAKCRAZDfN9Af/k\nvPgHAQDV5Y4K/CIkBAXIF9bf3/BQNNorOXKSmchqn6U2hfVzygD9HdnZ9ebxumSy\nZBvFCTRhILDUiJEdJ7zHHfHa4m27jw8=\n=ONuq\n-----END PGP SIGNATURE-----",
+        "payload": "tree be95dceb1f9dfb27a963ecb76b0cc68bd884aac2\nparent 3da763a0e19e0fc12c1a70cfd2b97655e0949839\nauthor 安忆 <i@anyi.in> 1790762789 +0800\ncommitter 安忆 <i@anyi.in> 1790762789 +0800\n\nfix(catalog): align filter selections with dropdown order\n\n- Order multi-select filter values by their dropdown items\n- Use canonical map ordering for place filters\n- Order cooker type search suggestions by ID\n",
+        "verified_at": "2026-09-30T10:11:53Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/31082318f61658ae2e1f404ab168571f6e7e9a5e",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/31082318f61658ae2e1f404ab168571f6e7e9a5e",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/31082318f61658ae2e1f404ab168571f6e7e9a5e/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3da763a0e19e0fc12c1a70cfd2b97655e0949839",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/3da763a0e19e0fc12c1a70cfd2b97655e0949839",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/3da763a0e19e0fc12c1a70cfd2b97655e0949839"
+      }
+    ]
+  },
+  {
+    "sha": "3da763a0e19e0fc12c1a70cfd2b97655e0949839",
+    "node_id": "C_kwDOMDkeEtoAKDNkYTc2M2EwZTE5ZTBmYzEyYzFhNzBjZmQyYjk3NjU1ZTA5NDk4Mzk",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T08:26:59Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T08:26:59Z"
+      },
+      "message": "chore(build): bump version to 2.10.8",
+      "tree": {
+        "sha": "71015589bf98d2698adad01efe363f8fa0049b70",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/71015589bf98d2698adad01efe363f8fa0049b70"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/3da763a0e19e0fc12c1a70cfd2b97655e0949839",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCarok1BsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LyUBgEA5SssnnbYPHrDIhF9LJfJ\nm8+HQnKqCxrnyOxOHbh+MY0BAINIVSyeSd79llWCPhxyU7eblatZ1DtMaU0NsRe8\nd9gH\n=8O8s\n-----END PGP SIGNATURE-----",
+        "payload": "tree 71015589bf98d2698adad01efe363f8fa0049b70\nparent cdefd03f23055177ebbba5862c0c6443bfe65923\nauthor 安忆 <i@anyi.in> 1790584019 +0800\ncommitter 安忆 <i@anyi.in> 1790584019 +0800\n\nchore(build): bump version to 2.10.8\n",
+        "verified_at": "2026-09-28T08:35:29Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/3da763a0e19e0fc12c1a70cfd2b97655e0949839",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/3da763a0e19e0fc12c1a70cfd2b97655e0949839",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/3da763a0e19e0fc12c1a70cfd2b97655e0949839/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cdefd03f23055177ebbba5862c0c6443bfe65923",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/cdefd03f23055177ebbba5862c0c6443bfe65923",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/cdefd03f23055177ebbba5862c0c6443bfe65923"
+      }
+    ]
+  },
+  {
+    "sha": "cdefd03f23055177ebbba5862c0c6443bfe65923",
+    "node_id": "C_kwDOMDkeEtoAKGNkZWZkMDNmMjMwNTUxNzdlYmJiYTU4NjJjMGM2NDQzYmZlNjU5MjM",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T08:25:53Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T08:25:53Z"
+      },
+      "message": "refactor(motion): unify animation tokens and align timings\n\n- add centralized duration tokens (100/200/300ms) and easing aliases\n- resolve reduced motion on the first client render; expose disableAnimation\n- use the select popover motion for every Select and Autocomplete popup\n- align overlay exit delays with their animations (modal 300ms, navbar 250ms,\n  drawer 300ms)\n- unify Tailwind duration utilities and import order",
+      "tree": {
+        "sha": "1edced72042abcf5887d024a0b950bdb1e56667b",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/1edced72042abcf5887d024a0b950bdb1e56667b"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/cdefd03f23055177ebbba5862c0c6443bfe65923",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCarokmBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LyjrAEApvFVG+l+hb85fYAsY0Mu\n9UKgiRe6T8GM9LiZoJkxBrYA/iae/EMmx7sevqrYP+ZK5IzlrhuTvpogx4DBNE1X\nu64A\n=q7G0\n-----END PGP SIGNATURE-----",
+        "payload": "tree 1edced72042abcf5887d024a0b950bdb1e56667b\nparent bf0143848642c52054bf7bbd3b997f6c8efdc76e\nauthor 安忆 <i@anyi.in> 1790583953 +0800\ncommitter 安忆 <i@anyi.in> 1790583953 +0800\n\nrefactor(motion): unify animation tokens and align timings\n\n- add centralized duration tokens (100/200/300ms) and easing aliases\n- resolve reduced motion on the first client render; expose disableAnimation\n- use the select popover motion for every Select and Autocomplete popup\n- align overlay exit delays with their animations (modal 300ms, navbar 250ms,\n  drawer 300ms)\n- unify Tailwind duration utilities and import order\n",
+        "verified_at": "2026-09-28T08:35:29Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/cdefd03f23055177ebbba5862c0c6443bfe65923",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/cdefd03f23055177ebbba5862c0c6443bfe65923",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/cdefd03f23055177ebbba5862c0c6443bfe65923/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bf0143848642c52054bf7bbd3b997f6c8efdc76e",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/bf0143848642c52054bf7bbd3b997f6c8efdc76e",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/bf0143848642c52054bf7bbd3b997f6c8efdc76e"
+      }
+    ]
+  },
+  {
+    "sha": "bf0143848642c52054bf7bbd3b997f6c8efdc76e",
+    "node_id": "C_kwDOMDkeEtoAKGJmMDE0Mzg0ODY0MmM1MjA1NGJmN2JiZDNiOTk3ZjZjOGVmZGM3NmU",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T07:19:55Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T07:19:55Z"
+      },
+      "message": "build: reduce self-hosted build time and memory\n\n- prerender record entries only in self-hosted builds; render record details\n  and legacy routes on demand, keep full prerender for offline exports\n- move .next/standalone into the release instead of copying it, restoring\n  on failure\n- dedupe duplicated @react-aria/@react-types packages with pnpm overrides\n- modularize FontAwesome imports, externalize kysely, optimize framer-motion\n  imports\n- enable the webpack build worker and parallel server build traces",
+      "tree": {
+        "sha": "7af7df59678d863cda8fed84adc47f2b88f3b033",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/7af7df59678d863cda8fed84adc47f2b88f3b033"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/bf0143848642c52054bf7bbd3b997f6c8efdc76e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaroVHhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LznZgD9HPPGX0zSmOSfWf/avp8N\nP3p5D204Kcitt8kaYpYZijIBANrGyYUqUcfipQmymQ3vVLzPeR+tYQPy16m7YHxT\nS5sO\n=3UpV\n-----END PGP SIGNATURE-----",
+        "payload": "tree 7af7df59678d863cda8fed84adc47f2b88f3b033\nparent ff9c25abd417a2a6f0540121014c7b305f77175c\nauthor 安忆 <i@anyi.in> 1790579995 +0800\ncommitter 安忆 <i@anyi.in> 1790579995 +0800\n\nbuild: reduce self-hosted build time and memory\n\n- prerender record entries only in self-hosted builds; render record details\n  and legacy routes on demand, keep full prerender for offline exports\n- move .next/standalone into the release instead of copying it, restoring\n  on failure\n- dedupe duplicated @react-aria/@react-types packages with pnpm overrides\n- modularize FontAwesome imports, externalize kysely, optimize framer-motion\n  imports\n- enable the webpack build worker and parallel server build traces\n",
+        "verified_at": "2026-09-28T08:35:29Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/bf0143848642c52054bf7bbd3b997f6c8efdc76e",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/bf0143848642c52054bf7bbd3b997f6c8efdc76e",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/bf0143848642c52054bf7bbd3b997f6c8efdc76e/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ff9c25abd417a2a6f0540121014c7b305f77175c",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/ff9c25abd417a2a6f0540121014c7b305f77175c",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/ff9c25abd417a2a6f0540121014c7b305f77175c"
+      }
+    ]
+  },
+  {
+    "sha": "ff9c25abd417a2a6f0540121014c7b305f77175c",
+    "node_id": "C_kwDOMDkeEtoAKGZmOWMyNWFiZDQxN2EyYTZmMDU0MDEyMTAxNGM3YjMwNWY3NzE3NWM",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T05:39:16Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T05:39:16Z"
+      },
+      "message": "chore: update basic data",
+      "tree": {
+        "sha": "0eef55f458027e5557948f869eee981d53baaf5d",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/0eef55f458027e5557948f869eee981d53baaf5d"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/ff9c25abd417a2a6f0540121014c7b305f77175c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCarn9hxsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LxGZAEAjzbLR3Q8JjOa8HD2mQ5f\nPgBT6oNdYUi/q+lTVioppeEBAOJgYp3oyn9YevgZuJojAZkv6EAwLYRqQxvJDcxJ\n1T4J\n=GsVS\n-----END PGP SIGNATURE-----",
+        "payload": "tree 0eef55f458027e5557948f869eee981d53baaf5d\nparent 12ca3c04758b7ff075bd6637d48baf5a0fe42fcd\nauthor 安忆 <i@anyi.in> 1790573956 +0800\ncommitter 安忆 <i@anyi.in> 1790573956 +0800\n\nchore: update basic data\n",
+        "verified_at": "2026-09-28T08:35:29Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/ff9c25abd417a2a6f0540121014c7b305f77175c",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/ff9c25abd417a2a6f0540121014c7b305f77175c",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/ff9c25abd417a2a6f0540121014c7b305f77175c/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "12ca3c04758b7ff075bd6637d48baf5a0fe42fcd",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/12ca3c04758b7ff075bd6637d48baf5a0fe42fcd",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/12ca3c04758b7ff075bd6637d48baf5a0fe42fcd"
+      }
+    ]
+  },
+  {
+    "sha": "12ca3c04758b7ff075bd6637d48baf5a0fe42fcd",
+    "node_id": "C_kwDOMDkeEtoAKDEyY2EzYzA0NzU4YjdmZjA3NWJkNjYzN2Q0OGJhZjVhMGZlNDJmY2Q",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T05:30:03Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T05:30:03Z"
+      },
+      "message": "build: update dependencies",
+      "tree": {
+        "sha": "d8f67e7dc3d29c2f60db66ca254b3c6fd776154c",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/d8f67e7dc3d29c2f60db66ca254b3c6fd776154c"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/12ca3c04758b7ff075bd6637d48baf5a0fe42fcd",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCarn7XhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LxeCAEArxtERaJs7A0cEOq4s54c\nzjWmTgWbzudzv1alngNRTHkBAMtTfFN3IKceJcxDjJcjAEyyru99dmWQsTOkVqWj\npuAE\n=d0xf\n-----END PGP SIGNATURE-----",
+        "payload": "tree d8f67e7dc3d29c2f60db66ca254b3c6fd776154c\nparent 4aee683f8e9ff3b92d7ae98fd33037c5755ece23\nauthor 安忆 <i@anyi.in> 1790573403 +0800\ncommitter 安忆 <i@anyi.in> 1790573403 +0800\n\nbuild: update dependencies\n",
+        "verified_at": "2026-09-28T08:35:29Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/12ca3c04758b7ff075bd6637d48baf5a0fe42fcd",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/12ca3c04758b7ff075bd6637d48baf5a0fe42fcd",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/12ca3c04758b7ff075bd6637d48baf5a0fe42fcd/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4aee683f8e9ff3b92d7ae98fd33037c5755ece23",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/4aee683f8e9ff3b92d7ae98fd33037c5755ece23",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/4aee683f8e9ff3b92d7ae98fd33037c5755ece23"
+      }
+    ]
+  },
+  {
+    "sha": "4aee683f8e9ff3b92d7ae98fd33037c5755ece23",
+    "node_id": "C_kwDOMDkeEtoAKDRhZWU2ODNmOGU5ZmYzYjkyZDdhZTk4ZmQzMzAzN2M1NzU1ZWNlMjM",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T05:06:05Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T05:06:05Z"
+      },
+      "message": "refactor(design): replace deprecated use-breakpoint package\n\nuse-breakpoint v4 is deprecated and no longer maintained. Add a local,\nAPI-compatible hook that reuses the existing safe media-query listener,\nmigrate the eight call sites, and drop the dependency.",
+      "tree": {
+        "sha": "7df2248180f9cab7557270f0936a2510097e8a7f",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/7df2248180f9cab7557270f0936a2510097e8a7f"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/4aee683f8e9ff3b92d7ae98fd33037c5755ece23",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCarn1whsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LwTGQEAzJlksOH05DLWPaGfRKrj\nKYZXQ3vOs8iUNr39i0HTXroA/iO5+6tLeM4msXsM1cTF91L6SJY0wbpCgZ2GXLgP\nqsMH\n=W1pZ\n-----END PGP SIGNATURE-----",
+        "payload": "tree 7df2248180f9cab7557270f0936a2510097e8a7f\nparent 84e97ce25455f97d25a8233a36d3b659c514e419\nauthor 安忆 <i@anyi.in> 1790571965 +0800\ncommitter 安忆 <i@anyi.in> 1790571965 +0800\n\nrefactor(design): replace deprecated use-breakpoint package\n\nuse-breakpoint v4 is deprecated and no longer maintained. Add a local,\nAPI-compatible hook that reuses the existing safe media-query listener,\nmigrate the eight call sites, and drop the dependency.\n",
+        "verified_at": "2026-09-28T08:35:29Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/4aee683f8e9ff3b92d7ae98fd33037c5755ece23",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/4aee683f8e9ff3b92d7ae98fd33037c5755ece23",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/4aee683f8e9ff3b92d7ae98fd33037c5755ece23/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "84e97ce25455f97d25a8233a36d3b659c514e419",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/84e97ce25455f97d25a8233a36d3b659c514e419",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/84e97ce25455f97d25a8233a36d3b659c514e419"
+      }
+    ]
+  },
+  {
+    "sha": "84e97ce25455f97d25a8233a36d3b659c514e419",
+    "node_id": "C_kwDOMDkeEtoAKDg0ZTk3Y2UyNTQ1NWY5N2QyNWE4MjMzYTM2ZDNiNjU5YzUxNGU0MTk",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T04:38:13Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T04:38:13Z"
+      },
+      "message": "fix(design): upgrade framer-motion to fix chrome overlay flicker\n\nRecent Chrome builds flicker once when HeroUI dropdown, tooltip, and\npopover animations finish expanding. The app pinned framer-motion\n12.17.2, which predates the Chrome change.\n\nUpgrade framer-motion to 13.4.4, adapt the four eased transitions to the\nv13 ease syntax, and return the dependency to the regular update path.\nReact 19.3.0, backdrop-filter, GPU compositing, and will-change layer\npromotion were each ruled out during the investigation.",
+      "tree": {
+        "sha": "097267a19050b17a825138bdd25c444901b0367f",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/097267a19050b17a825138bdd25c444901b0367f"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/84e97ce25455f97d25a8233a36d3b659c514e419",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCarnvORsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LzHxwD9FwuZp7UcYCb5soJdpLto\nuVMmBfaFQLzb+rrZ/PQ2u5EBAOhP+JdLqCR4dJZDTwLuQyfX3nZD6usssZ8+Smza\n12sC\n=U884\n-----END PGP SIGNATURE-----",
+        "payload": "tree 097267a19050b17a825138bdd25c444901b0367f\nparent a9c7ed7c7864f5b6c2419b385893758140e98086\nauthor 安忆 <i@anyi.in> 1790570293 +0800\ncommitter 安忆 <i@anyi.in> 1790570293 +0800\n\nfix(design): upgrade framer-motion to fix chrome overlay flicker\n\nRecent Chrome builds flicker once when HeroUI dropdown, tooltip, and\npopover animations finish expanding. The app pinned framer-motion\n12.17.2, which predates the Chrome change.\n\nUpgrade framer-motion to 13.4.4, adapt the four eased transitions to the\nv13 ease syntax, and return the dependency to the regular update path.\nReact 19.3.0, backdrop-filter, GPU compositing, and will-change layer\npromotion were each ruled out during the investigation.\n",
+        "verified_at": "2026-09-28T08:35:29Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/84e97ce25455f97d25a8233a36d3b659c514e419",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/84e97ce25455f97d25a8233a36d3b659c514e419",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/84e97ce25455f97d25a8233a36d3b659c514e419/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a9c7ed7c7864f5b6c2419b385893758140e98086",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/a9c7ed7c7864f5b6c2419b385893758140e98086",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/a9c7ed7c7864f5b6c2419b385893758140e98086"
+      }
+    ]
+  },
+  {
+    "sha": "a9c7ed7c7864f5b6c2419b385893758140e98086",
+    "node_id": "C_kwDOMDkeEtoAKGE5YzdlZDdjNzg2NGY1YjZjMjQxOWIzODU4OTM3NTgxNDBlOTgwODY",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T03:06:45Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-28T03:06:45Z"
+      },
+      "message": "fix(announcements): sync viewer context after account changes\n\nThe announcement carousel kept the server-rendered list after client-side\nlogin, logout, account switching, or profile changes, so notices could\nshow the wrong audience until a full page reload.\n\nRe-fetch the visible announcements from the public API whenever the\naccount viewer signature changes, coalesce rapid changes, and compare\nannouncement content signatures so same-token HTML updates (for example\nnickname templates) are applied. The stable first screen still makes no\nextra HTTP request.\n\nRefresh the SSO authorize page on account context changes and drop the\nprofile-wide router.refresh() now that each server-rendered surface has\nan owner for targeted updates.",
+      "tree": {
+        "sha": "614c541ec410c47c0c32c397f983d66906177ccc",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/614c541ec410c47c0c32c397f983d66906177ccc"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/a9c7ed7c7864f5b6c2419b385893758140e98086",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCarnZyRsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LyFWgD+M6hljVuuW7hdGIvmutbH\n7R5lWN17HLhLSjfQhSNweokBAMjnS/9I48dQGscg2EHbpFZSDmGHeCkPGvfrtJFh\nA60N\n=jm1o\n-----END PGP SIGNATURE-----",
+        "payload": "tree 614c541ec410c47c0c32c397f983d66906177ccc\nparent 75ba25bed0f2055aa8f6ff36f79d9dbc30aa8589\nauthor 安忆 <i@anyi.in> 1790564805 +0800\ncommitter 安忆 <i@anyi.in> 1790564805 +0800\n\nfix(announcements): sync viewer context after account changes\n\nThe announcement carousel kept the server-rendered list after client-side\nlogin, logout, account switching, or profile changes, so notices could\nshow the wrong audience until a full page reload.\n\nRe-fetch the visible announcements from the public API whenever the\naccount viewer signature changes, coalesce rapid changes, and compare\nannouncement content signatures so same-token HTML updates (for example\nnickname templates) are applied. The stable first screen still makes no\nextra HTTP request.\n\nRefresh the SSO authorize page on account context changes and drop the\nprofile-wide router.refresh() now that each server-rendered surface has\nan owner for targeted updates.\n",
+        "verified_at": "2026-09-28T08:35:29Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/a9c7ed7c7864f5b6c2419b385893758140e98086",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/a9c7ed7c7864f5b6c2419b385893758140e98086",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/a9c7ed7c7864f5b6c2419b385893758140e98086/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "75ba25bed0f2055aa8f6ff36f79d9dbc30aa8589",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/75ba25bed0f2055aa8f6ff36f79d9dbc30aa8589",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/75ba25bed0f2055aa8f6ff36f79d9dbc30aa8589"
+      }
+    ]
+  },
+  {
+    "sha": "75ba25bed0f2055aa8f6ff36f79d9dbc30aa8589",
+    "node_id": "C_kwDOMDkeEtoAKDc1YmEyNWJlZDBmMjA1NWFhOGY2ZmYzNmY3OWQ5ZGJjMzBhYTg1ODk",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-20T12:51:44Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-20T12:51:44Z"
+      },
+      "message": "chore(build): bump version to 2.10.7",
+      "tree": {
+        "sha": "ad079bfbe0e437160a61afbde62887eff8ea4474",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/ad079bfbe0e437160a61afbde62887eff8ea4474"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/75ba25bed0f2055aa8f6ff36f79d9dbc30aa8589",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaq/W5QAKCRAZDfN9Af/k\nvHGCAPoCwHHMqxburlgqHw5trCL64wgegZ90nd2PfNegc+g6LQEA3xzKpDnfj398\noMsLhBhSQ1zWr0gujpCnNm5hybZEqQc=\n=6csZ\n-----END PGP SIGNATURE-----",
+        "payload": "tree ad079bfbe0e437160a61afbde62887eff8ea4474\nparent de626af1a22fb2af0c5738de3fb1c8c20348a047\nauthor 安忆 <i@anyi.in> 1789908704 +0800\ncommitter 安忆 <i@anyi.in> 1789908704 +0800\n\nchore(build): bump version to 2.10.7\n",
+        "verified_at": "2026-09-20T12:57:04Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/75ba25bed0f2055aa8f6ff36f79d9dbc30aa8589",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/75ba25bed0f2055aa8f6ff36f79d9dbc30aa8589",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/75ba25bed0f2055aa8f6ff36f79d9dbc30aa8589/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "de626af1a22fb2af0c5738de3fb1c8c20348a047",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/de626af1a22fb2af0c5738de3fb1c8c20348a047",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/de626af1a22fb2af0c5738de3fb1c8c20348a047"
+      }
+    ]
+  },
+  {
+    "sha": "de626af1a22fb2af0c5738de3fb1c8c20348a047",
+    "node_id": "C_kwDOMDkeEtoAKGRlNjI2YWYxYTIyZmIyYWYwYzU3MzhkZTNmYjFjOGMyMDM0OGEwNDc",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-20T12:45:14Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-20T12:45:14Z"
+      },
+      "message": "fix(sso): include 'localhost' in loopback host check",
+      "tree": {
+        "sha": "0f36673b816e101124f2fda2797158e64d3047ee",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/0f36673b816e101124f2fda2797158e64d3047ee"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/de626af1a22fb2af0c5738de3fb1c8c20348a047",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaq/VawAKCRAZDfN9Af/k\nvIEbAP0UIFSISla8DO2y3UHH23BiunmWdPy6uS8yRfrD0OjzKQD7BmAHqoQxOwty\nRDcel3l/YXn0e42jtIjBcdtZ/VosWQo=\n=FknD\n-----END PGP SIGNATURE-----",
+        "payload": "tree 0f36673b816e101124f2fda2797158e64d3047ee\nparent a6e787c5e368b2176f5114f719f1a6892c26c84e\nauthor 安忆 <i@anyi.in> 1789908314 +0800\ncommitter 安忆 <i@anyi.in> 1789908314 +0800\n\nfix(sso): include 'localhost' in loopback host check\n",
+        "verified_at": "2026-09-20T12:57:04Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/de626af1a22fb2af0c5738de3fb1c8c20348a047",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/de626af1a22fb2af0c5738de3fb1c8c20348a047",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/de626af1a22fb2af0c5738de3fb1c8c20348a047/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a6e787c5e368b2176f5114f719f1a6892c26c84e",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/a6e787c5e368b2176f5114f719f1a6892c26c84e",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/a6e787c5e368b2176f5114f719f1a6892c26c84e"
+      }
+    ]
+  },
+  {
+    "sha": "a6e787c5e368b2176f5114f719f1a6892c26c84e",
+    "node_id": "C_kwDOMDkeEtoAKGE2ZTc4N2M1ZTM2OGIyMTc2ZjUxMTRmNzE5ZjFhNjg5MmMyNmM4NGU",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-20T10:34:11Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-20T10:34:11Z"
+      },
+      "message": "chore(build): bump version to 2.10.6",
+      "tree": {
+        "sha": "96d41b2fc72b945f1767c0cd4511883f307be131",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/96d41b2fc72b945f1767c0cd4511883f307be131"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/a6e787c5e368b2176f5114f719f1a6892c26c84e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaq+2qgAKCRAZDfN9Af/k\nvAwaAQCpFbf8N7813Nr9+/tf6C66GZO0l0xVRByT/yKJ+nu85gD+NwTkjWha4bhG\n6z35STZW3ZBWYRg/EVraTEK7DOFKTAY=\n=HS+a\n-----END PGP SIGNATURE-----",
+        "payload": "tree 96d41b2fc72b945f1767c0cd4511883f307be131\nparent 08d511a2f06ce466ba0a769dd745acb98d6672c6\nauthor 安忆 <i@anyi.in> 1789900451 +0800\ncommitter 安忆 <i@anyi.in> 1789900451 +0800\n\nchore(build): bump version to 2.10.6\n",
+        "verified_at": "2026-09-20T10:44:34Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/a6e787c5e368b2176f5114f719f1a6892c26c84e",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/a6e787c5e368b2176f5114f719f1a6892c26c84e",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/a6e787c5e368b2176f5114f719f1a6892c26c84e/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "08d511a2f06ce466ba0a769dd745acb98d6672c6",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/08d511a2f06ce466ba0a769dd745acb98d6672c6",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/08d511a2f06ce466ba0a769dd745acb98d6672c6"
+      }
+    ]
+  },
+  {
+    "sha": "08d511a2f06ce466ba0a769dd745acb98d6672c6",
+    "node_id": "C_kwDOMDkeEtoAKDA4ZDUxMWEyZjA2Y2U0NjZiYTBhNzY5ZGQ3NDVhY2I5OGQ2NjcyYzY",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-20T10:31:48Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-20T10:31:48Z"
+      },
+      "message": "fix(next): keep query values out of localhost normalization\n\nNextURL normalized the first localhost-like literal of the whole URL string,\nso percent-encoded query values containing 127.0.0.1 were rewritten too.\nWith the production base host (0.0.0.0) the rewrite landed on redirect_uri,\nand loopback SSO callbacks were rejected with invalid-object-structure.\n\nLimit the replacement to the part before the first ?/# so host normalization\nis unchanged. Covers the CJS/ESM dist sources and the webpack production\nruntime bundle that app routes load, plus a plan doc with the cause, the\nevidence and the maintenance constraints.",
+      "tree": {
+        "sha": "69b6c107116584d33854c7634488c2397bd119f5",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/69b6c107116584d33854c7634488c2397bd119f5"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/08d511a2f06ce466ba0a769dd745acb98d6672c6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaq+2HQAKCRAZDfN9Af/k\nvE8tAQCylLBlTdYSPR+/Amyvt2R09H6PKaZ+/zDW62gV06FhqQD9Hui2tyGAybGK\nipF8gEjcN1alwNh3KkIsfXUzYjQRxwI=\n=Iq9u\n-----END PGP SIGNATURE-----",
+        "payload": "tree 69b6c107116584d33854c7634488c2397bd119f5\nparent 96a381fb8f84bab7781e5443ba118a2b83f6bd44\nauthor 安忆 <i@anyi.in> 1789900308 +0800\ncommitter 安忆 <i@anyi.in> 1789900308 +0800\n\nfix(next): keep query values out of localhost normalization\n\nNextURL normalized the first localhost-like literal of the whole URL string,\nso percent-encoded query values containing 127.0.0.1 were rewritten too.\nWith the production base host (0.0.0.0) the rewrite landed on redirect_uri,\nand loopback SSO callbacks were rejected with invalid-object-structure.\n\nLimit the replacement to the part before the first ?/# so host normalization\nis unchanged. Covers the CJS/ESM dist sources and the webpack production\nruntime bundle that app routes load, plus a plan doc with the cause, the\nevidence and the maintenance constraints.\n",
+        "verified_at": "2026-09-20T10:44:34Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/08d511a2f06ce466ba0a769dd745acb98d6672c6",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/08d511a2f06ce466ba0a769dd745acb98d6672c6",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/08d511a2f06ce466ba0a769dd745acb98d6672c6/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "96a381fb8f84bab7781e5443ba118a2b83f6bd44",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/96a381fb8f84bab7781e5443ba118a2b83f6bd44",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/96a381fb8f84bab7781e5443ba118a2b83f6bd44"
+      }
+    ]
+  },
+  {
+    "sha": "96a381fb8f84bab7781e5443ba118a2b83f6bd44",
+    "node_id": "C_kwDOMDkeEtoAKDk2YTM4MWZiOGY4NGJhYjc3ODFlNTQ0M2JhMTE4YTJiODNmNmJkNDQ",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-20T06:25:45Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-20T06:25:45Z"
+      },
+      "message": "chore(build): bump version to 2.10.5",
+      "tree": {
+        "sha": "0e3d390b11bea9a130ac4581d9eabd0c9036ff6b",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/0e3d390b11bea9a130ac4581d9eabd0c9036ff6b"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/96a381fb8f84bab7781e5443ba118a2b83f6bd44",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaq98bwAKCRAZDfN9Af/k\nvC7hAQCY983MU7kqCkHci0p8CzD9i9VQLC5Ddnk91L5aBfRtXgEA3Mman1PJpYXC\nJd/+DlEh1UQKvy+3QwgecWa13OWVbQQ=\n=gqtP\n-----END PGP SIGNATURE-----",
+        "payload": "tree 0e3d390b11bea9a130ac4581d9eabd0c9036ff6b\nparent 1193e2d19d15d349a46d67c33267b2e351343d42\nauthor 安忆 <i@anyi.in> 1789885545 +0800\ncommitter 安忆 <i@anyi.in> 1789885545 +0800\n\nchore(build): bump version to 2.10.5\n",
+        "verified_at": "2026-09-20T06:37:10Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/96a381fb8f84bab7781e5443ba118a2b83f6bd44",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/96a381fb8f84bab7781e5443ba118a2b83f6bd44",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/96a381fb8f84bab7781e5443ba118a2b83f6bd44/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1193e2d19d15d349a46d67c33267b2e351343d42",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/1193e2d19d15d349a46d67c33267b2e351343d42",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/1193e2d19d15d349a46d67c33267b2e351343d42"
+      }
+    ]
+  },
+  {
+    "sha": "1193e2d19d15d349a46d67c33267b2e351343d42",
+    "node_id": "C_kwDOMDkeEtoAKDExOTNlMmQxOWQxNWQzNDlhNDZkNjdjMzMyNjdiMmUzNTEzNDNkNDI",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-20T06:17:33Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-20T06:17:33Z"
+      },
+      "message": "refactor(sso): redirect cancel back to the request redirect_uri\n\n- return error=access_denied with the original state when no cancel URI is set\n- keep an explicit cancel_redirect_uri as the first choice\n- fall back to the cancel page when neither target is usable",
+      "tree": {
+        "sha": "8a2c54889a5d939646cfa4b82158917ff65c375b",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/8a2c54889a5d939646cfa4b82158917ff65c375b"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/1193e2d19d15d349a46d67c33267b2e351343d42",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaq96kQAKCRAZDfN9Af/k\nvP5FAP9Y/fmFlWLJWXy+EUQSOKZHJfXuLtHV1kExJoF6lh8tQQEA7CWN8V1Q6y3D\nMfCJHzbu0qYgdnt5iHoMJOgy11q5hgM=\n=hY52\n-----END PGP SIGNATURE-----",
+        "payload": "tree 8a2c54889a5d939646cfa4b82158917ff65c375b\nparent 1ed1caae3e1a4d1324c3940d805e1c27030c6331\nauthor 安忆 <i@anyi.in> 1789885053 +0800\ncommitter 安忆 <i@anyi.in> 1789885053 +0800\n\nrefactor(sso): redirect cancel back to the request redirect_uri\n\n- return error=access_denied with the original state when no cancel URI is set\n- keep an explicit cancel_redirect_uri as the first choice\n- fall back to the cancel page when neither target is usable\n",
+        "verified_at": "2026-09-20T06:37:10Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/1193e2d19d15d349a46d67c33267b2e351343d42",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/1193e2d19d15d349a46d67c33267b2e351343d42",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/1193e2d19d15d349a46d67c33267b2e351343d42/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1ed1caae3e1a4d1324c3940d805e1c27030c6331",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/1ed1caae3e1a4d1324c3940d805e1c27030c6331",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/1ed1caae3e1a4d1324c3940d805e1c27030c6331"
+      }
+    ]
+  },
+  {
+    "sha": "1ed1caae3e1a4d1324c3940d805e1c27030c6331",
+    "node_id": "C_kwDOMDkeEtoAKDFlZDFjYWFlM2UxYTRkMTMyNGMzOTQwZDgwNWUxYzI3MDMwYzYzMzE",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-18T15:31:07Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-18T15:31:07Z"
+      },
+      "message": "chore(build): bump version to 2.10.4",
+      "tree": {
+        "sha": "3b71a5bf61af61a8631766f88bc7587268c02224",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/3b71a5bf61af61a8631766f88bc7587268c02224"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/1ed1caae3e1a4d1324c3940d805e1c27030c6331",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaq1ZPBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LytPwD/dpLtDwHScO4g5F9Hr8sZ\n8Qj3YOYM+Qu0AyiAcusEIUwBAKb+CYC5vYN1TbQq/QvX0xG6ZE5gdi2fGafXMVZ9\nqP8P\n=CHMN\n-----END PGP SIGNATURE-----",
+        "payload": "tree 3b71a5bf61af61a8631766f88bc7587268c02224\nparent 3f8ef697344b9200461020b551b01089fd206384\nauthor 安忆 <i@anyi.in> 1789745467 +0800\ncommitter 安忆 <i@anyi.in> 1789745467 +0800\n\nchore(build): bump version to 2.10.4\n",
+        "verified_at": "2026-09-18T15:36:48Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/1ed1caae3e1a4d1324c3940d805e1c27030c6331",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/1ed1caae3e1a4d1324c3940d805e1c27030c6331",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/1ed1caae3e1a4d1324c3940d805e1c27030c6331/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3f8ef697344b9200461020b551b01089fd206384",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/3f8ef697344b9200461020b551b01089fd206384",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/3f8ef697344b9200461020b551b01089fd206384"
+      }
+    ]
+  },
+  {
+    "sha": "3f8ef697344b9200461020b551b01089fd206384",
+    "node_id": "C_kwDOMDkeEtoAKDNmOGVmNjk3MzQ0YjkyMDA0NjEwMjBiNTUxYjAxMDg5ZmQyMDYzODQ",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-18T15:30:17Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-18T15:30:17Z"
+      },
+      "message": "build: update dependencies",
+      "tree": {
+        "sha": "af06812ee0a979c6caf093e30d0816d8b9b15063",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/af06812ee0a979c6caf093e30d0816d8b9b15063"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/3f8ef697344b9200461020b551b01089fd206384",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaq1ZEBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LzpLgD/QiZuTIXiZEf8QFDDIdqH\njb3uJ9RLthvtak8000+YPTUBAOECjOT+DKwiiiN1JsnHq9vjubvEg+ndD2a9pGXT\n7/gH\n=9HzR\n-----END PGP SIGNATURE-----",
+        "payload": "tree af06812ee0a979c6caf093e30d0816d8b9b15063\nparent 36cda0e69376b9fb2297f9d58c554f4822f4378e\nauthor 安忆 <i@anyi.in> 1789745417 +0800\ncommitter 安忆 <i@anyi.in> 1789745417 +0800\n\nbuild: update dependencies\n",
+        "verified_at": "2026-09-18T15:36:48Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/3f8ef697344b9200461020b551b01089fd206384",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/3f8ef697344b9200461020b551b01089fd206384",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/3f8ef697344b9200461020b551b01089fd206384/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "36cda0e69376b9fb2297f9d58c554f4822f4378e",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/36cda0e69376b9fb2297f9d58c554f4822f4378e",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/36cda0e69376b9fb2297f9d58c554f4822f4378e"
+      }
+    ]
+  },
+  {
+    "sha": "36cda0e69376b9fb2297f9d58c554f4822f4378e",
+    "node_id": "C_kwDOMDkeEtoAKDM2Y2RhMGU2OTM3NmI5ZmIyMjk3ZjlkNThjNTU0ZjQ4MjJmNDM3OGU",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-18T15:30:06Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-18T15:30:06Z"
+      },
+      "message": "chore(agent): update SubRunner model and tools configuration",
+      "tree": {
+        "sha": "1ecf040cae20038147cb3b678477c6ad61d1cd5a",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/1ecf040cae20038147cb3b678477c6ad61d1cd5a"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/36cda0e69376b9fb2297f9d58c554f4822f4378e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaq1Y/xsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5Lz/FgD/d+irZ5Wj+NGRcUCo/a72\n2je0fA38jZM1F/pAyDkC69QA/0QHHkGOwnYer8pBnxy8X4A0gjkChQPxjXy7GOEa\n5WsI\n=TCMw\n-----END PGP SIGNATURE-----",
+        "payload": "tree 1ecf040cae20038147cb3b678477c6ad61d1cd5a\nparent 789973ff55d2b8228462e92ba272cb1f4ddbc91d\nauthor 安忆 <i@anyi.in> 1789745406 +0800\ncommitter 安忆 <i@anyi.in> 1789745406 +0800\n\nchore(agent): update SubRunner model and tools configuration\n",
+        "verified_at": "2026-09-18T15:36:48Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/36cda0e69376b9fb2297f9d58c554f4822f4378e",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/36cda0e69376b9fb2297f9d58c554f4822f4378e",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/36cda0e69376b9fb2297f9d58c554f4822f4378e/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "789973ff55d2b8228462e92ba272cb1f4ddbc91d",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/789973ff55d2b8228462e92ba272cb1f4ddbc91d",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/789973ff55d2b8228462e92ba272cb1f4ddbc91d"
+      }
+    ]
+  },
+  {
+    "sha": "789973ff55d2b8228462e92ba272cb1f4ddbc91d",
+    "node_id": "C_kwDOMDkeEtoAKDc4OTk3M2ZmNTVkMmI4MjI4NDYyZTkyYmEyNzJjYjFmNGRkYmM5MWQ",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-18T14:57:19Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-18T14:57:19Z"
+      },
+      "message": "chore: update basic data",
+      "tree": {
+        "sha": "103665d243f5b37012b80ca31e1c513986858cd4",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/103665d243f5b37012b80ca31e1c513986858cd4"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/789973ff55d2b8228462e92ba272cb1f4ddbc91d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaq1RVBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LyIqgEAyiQrHnhvkuQFGnpIFhj7\nzGG4cBZz5zlNVNF5KlFNs8UBAJOtJ/KHPFaINqX4D4knnVSL5WnvkWuuFwkpCpy4\nYVQG\n=CQxC\n-----END PGP SIGNATURE-----",
+        "payload": "tree 103665d243f5b37012b80ca31e1c513986858cd4\nparent 4648b4998f04826a1e1cd0879b6496ef21640738\nauthor 安忆 <i@anyi.in> 1789743439 +0800\ncommitter 安忆 <i@anyi.in> 1789743439 +0800\n\nchore: update basic data\n",
+        "verified_at": "2026-09-18T15:36:48Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/789973ff55d2b8228462e92ba272cb1f4ddbc91d",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/789973ff55d2b8228462e92ba272cb1f4ddbc91d",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/789973ff55d2b8228462e92ba272cb1f4ddbc91d/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4648b4998f04826a1e1cd0879b6496ef21640738",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/4648b4998f04826a1e1cd0879b6496ef21640738",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/4648b4998f04826a1e1cd0879b6496ef21640738"
+      }
+    ]
+  },
+  {
+    "sha": "4648b4998f04826a1e1cd0879b6496ef21640738",
+    "node_id": "C_kwDOMDkeEtoAKDQ2NDhiNDk5OGYwNDgyNmExZTFjZDA4NzliNjQ5NmVmMjE2NDA3Mzg",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-13T15:25:27Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-13T15:25:27Z"
+      },
+      "message": "chore(build): bump version to 2.10.3",
+      "tree": {
+        "sha": "9de2c82217fd487bbfa7f0e98d25b8826ae873a7",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/9de2c82217fd487bbfa7f0e98d25b8826ae873a7"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/4648b4998f04826a1e1cd0879b6496ef21640738",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaqbAaBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LyhOgD9EffgZhSysktUJgwpwRO6\ny9I/V0MLCjSS9gjJmtxzKEMBAKCKCk0HHVn0MRSQZjjRXbTmdo7P05dBhWYfeONu\ndfYF\n=IjD1\n-----END PGP SIGNATURE-----",
+        "payload": "tree 9de2c82217fd487bbfa7f0e98d25b8826ae873a7\nparent 3bec0199aa29378176ec512f02593e8650f6501f\nauthor 安忆 <i@anyi.in> 1789313127 +0800\ncommitter 安忆 <i@anyi.in> 1789313127 +0800\n\nchore(build): bump version to 2.10.3\n",
+        "verified_at": "2026-09-13T15:28:23Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/4648b4998f04826a1e1cd0879b6496ef21640738",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/4648b4998f04826a1e1cd0879b6496ef21640738",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/4648b4998f04826a1e1cd0879b6496ef21640738/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3bec0199aa29378176ec512f02593e8650f6501f",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/3bec0199aa29378176ec512f02593e8650f6501f",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/3bec0199aa29378176ec512f02593e8650f6501f"
+      }
+    ]
+  },
+  {
+    "sha": "3bec0199aa29378176ec512f02593e8650f6501f",
+    "node_id": "C_kwDOMDkeEtoAKDNiZWMwMTk5YWEyOTM3ODE3NmVjNTEyZjAyNTkzZTg2NTBmNjUwMWY",
+    "commit": {
+      "author": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-13T15:25:06Z"
+      },
+      "committer": {
+        "name": "安忆",
+        "email": "i@anyi.in",
+        "date": "2026-09-13T15:25:06Z"
+      },
+      "message": "chore: update basic data",
+      "tree": {
+        "sha": "5aee399f415d85cf0aedf9d8a2f3c29acc07fcfe",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/trees/5aee399f415d85cf0aedf9d8a2f3c29acc07fcfe"
+      },
+      "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/git/commits/3bec0199aa29378176ec512f02593e8650f6501f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQSG3O5fqfOJ7BAredoZDfN9Af/kvAUCaqbAWBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQGQ3zfQH/5LwD3wEA7x+QC66hg7wlet1rYbSL\n7PKnIPmcZxHjWaKkuBRLrrAA/jKRZYV37TroBehlnshaVoS0ceVF+UCdDNqEKFks\n9HAK\n=BsBu\n-----END PGP SIGNATURE-----",
+        "payload": "tree 5aee399f415d85cf0aedf9d8a2f3c29acc07fcfe\nparent e6d4f4cd74df6e0f1ad24762954d156a50e0a577\nauthor 安忆 <i@anyi.in> 1789313106 +0800\ncommitter 安忆 <i@anyi.in> 1789313106 +0800\n\nchore: update basic data\n",
+        "verified_at": "2026-09-13T15:28:23Z"
+      }
+    },
+    "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/3bec0199aa29378176ec512f02593e8650f6501f",
+    "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/3bec0199aa29378176ec512f02593e8650f6501f",
+    "comments_url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/3bec0199aa29378176ec512f02593e8650f6501f/comments",
+    "author": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AnYiEE",
+      "id": 29108109,
+      "node_id": "MDQ6VXNlcjI5MTA4MTA5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29108109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnYiEE",
+      "html_url": "https://github.com/AnYiEE",
+      "followers_url": "https://api.github.com/users/AnYiEE/followers",
+      "following_url": "https://api.github.com/users/AnYiEE/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnYiEE/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnYiEE/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnYiEE/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnYiEE/orgs",
+      "repos_url": "https://api.github.com/users/AnYiEE/repos",
+      "events_url": "https://api.github.com/users/AnYiEE/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnYiEE/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e6d4f4cd74df6e0f1ad24762954d156a50e0a577",
+        "url": "https://api.github.com/repos/AnYiEE/touhou-mystia-izakaya-assistant/commits/e6d4f4cd74df6e0f1ad24762954d156a50e0a577",
+        "html_url": "https://github.com/AnYiEE/touhou-mystia-izakaya-assistant/commit/e6d4f4cd74df6e0f1ad24762954d156a50e0a577"
+      }
+    ]
+  }
+]

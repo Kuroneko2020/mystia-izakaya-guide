@@ -1,0 +1,31 @@
+{
+  "builtAt": "2026-10-06T13:01:42.922371+00:00",
+  "sourceSha256": "01d36ce39add10e28982e16d793d1630c66e6adbc01d77d94d76d9c3c3edc65b",
+  "sourceSnapshot": "制作材料/3D拟物试验输入/料亭优化版_01d36ce39add.html",
+  "protectedFiles": {
+    "成品/东方夜雀食堂攻略查询_料亭优化版.html": "01d36ce39add10e28982e16d793d1630c66e6adbc01d77d94d76d9c3c3edc65b",
+    "脚本/build_html_ryotei.py": "1ff8e199d85c97f28d7067032de597134ead6e28dd9fc47b9f083550bb78476d",
+    "脚本/guide_template_ryotei.html": "5e745d5e3de1f4232744289d115de423124341e2fd183e274f0ded91ba7dae35",
+    "脚本/ryotei.css": "8a089a4612e0a5c7538b11e77e662e75534688756e46d7f4f8989360a20dce25",
+    "脚本/ryotei_ui.js": "8ce39f08d2894a2773c98dabe4b4f512897105f8c9467a9449367fcacd22cbc9",
+    "脚本/ryotei_navigation.js": "9390c1d32cd50376aa3d24d48e53e7780e473b45c4e30c5f3db61cc753da6c01",
+    "脚本/verify_ryotei.cjs": "12c33e2941b25014edb15fe3e786e8c01ae82d87ae64ee6c94d5d48328fa188e",
+    "脚本/guide_template_wafu.html": "273628b0cb5dd78c79e81d6d3a8ca78c6293bce030da8ebb28fbc3fbe52e1632",
+    "中间数据/料亭版攻略数据基线.json": "cd847712480d6b42928ba803d8c5283e607a03bdc066877e2f5ac74081f20037",
+    "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx": "d6d397db47dc7420ead80e1412f437d05984ffcb2eca6895e225dfe9c5ce134e"
+  },
+  "outputSha256": "837f7e85880e515dc4d2d413887523c89a24f77b3b9b506c29627ccbbcff8f56",
+  "outputBytes": 2707235,
+  "cssSource": "脚本/izakaya_night_market.css",
+  "cssSha256": "2f2e88c85bdc5991cb2acb9ed921b1d102014ca2b132ff5a552a549eb0d83778",
+  "newRuntimeScripts": 0,
+  "assetCounts": {
+    "avatars": 59,
+    "icons": 271,
+    "normal": 47
+  },
+  "scene": "脚本/ryotei_assets/night-stall.webp",
+  "sceneMime": "image/webp",
+  "sceneSha256": "9b1a4f9d452cc0d2f01cbb8a944ae7d646d0450224d5d4b778b6bfd5cc70400f",
+  "assetSource": "游戏头像与物品原贴图逐字保留；背景为原有官方 Steam 宣传画面；不使用生成图"
+}

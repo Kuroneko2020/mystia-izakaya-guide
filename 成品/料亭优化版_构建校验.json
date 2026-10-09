@@ -1,0 +1,25 @@
+{
+  "builtAt": "2026-10-06",
+  "originalSha256": null,
+  "appDataSha256": "cd847712480d6b42928ba803d8c5283e607a03bdc066877e2f5ac74081f20037",
+  "dataSource": "中间数据/料亭版攻略数据基线.json",
+  "outputSha256": "01d36ce39add10e28982e16d793d1630c66e6adbc01d77d94d76d9c3c3edc65b",
+  "outputBytes": 2518050,
+  "assetCounts": {
+    "avatars": 59,
+    "icons": 271,
+    "normal": 47
+  },
+  "sheetCounts": {
+    "guests": 59,
+    "details": 339,
+    "recipes": 163,
+    "ingredients": 62,
+    "beverages": 46,
+    "normal": 47,
+    "new440": 8,
+    "guide2024": 58,
+    "guide2021": 25,
+    "sources": 28
+  }
+}

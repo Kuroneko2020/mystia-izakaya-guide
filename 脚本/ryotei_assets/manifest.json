@@ -1,0 +1,2641 @@
+[
+  {
+    "name": "莉格露",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0000.png",
+    "sha256": "d11dd7424370fab127e9ca5cf3cb5a115ae6438a85c3324873858fa2a874f6d1",
+    "output": "脚本/ryotei_assets/avatars/莉格露.webp"
+  },
+  {
+    "name": "露米娅",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0001.png",
+    "sha256": "7e008b08b5648d0a9563ae6d3686ae2e747daca686eabbcef9f70d9a47367a2f",
+    "output": "脚本/ryotei_assets/avatars/露米娅.webp"
+  },
+  {
+    "name": "橙",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0002.png",
+    "sha256": "71d8e1987e289d1027d8ecd56ec78aadd7c4b6a360491bd2b01cb0404cb62067",
+    "output": "脚本/ryotei_assets/avatars/橙.webp"
+  },
+  {
+    "name": "稗田阿求",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0003.png",
+    "sha256": "eab36b69bb90cfe819ffbaeaa9f67201176b78d2eb618d10d9971417d3fd986c",
+    "output": "脚本/ryotei_assets/avatars/稗田阿求.webp"
+  },
+  {
+    "name": "上白泽慧音",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0004.png",
+    "sha256": "5ba246985e025643e45ea9a03f475b5e7ea97118a3c4c5ba48ff062ba678060e",
+    "output": "脚本/ryotei_assets/avatars/上白泽慧音.webp"
+  },
+  {
+    "name": "茨木华扇",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0005.png",
+    "sha256": "b4a1c8bbe9136389a1565fe6a28260e84c51371e40b0a0ce084a0cf4b396d381",
+    "output": "脚本/ryotei_assets/avatars/茨木华扇.webp"
+  },
+  {
+    "name": "博丽灵梦",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0007.png",
+    "sha256": "47f3b0589e155631d641233fe8a3161d222262738405eb1d528b41b41613edd4",
+    "output": "脚本/ryotei_assets/avatars/博丽灵梦.webp"
+  },
+  {
+    "name": "伊吹萃香",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0008.png",
+    "sha256": "351701090a502917598f389d6204bb386d5a805fb7da3d2f4e5acd81e9a21e47",
+    "output": "脚本/ryotei_assets/avatars/伊吹萃香.webp"
+  },
+  {
+    "name": "比那名居天子",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0009.png",
+    "sha256": "557d71abd4f836a0668e05120217991be103bf67fcd21951b2d87977d5bde503",
+    "output": "脚本/ryotei_assets/avatars/比那名居天子.webp"
+  },
+  {
+    "name": "雾雨魔理沙",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0010.png",
+    "sha256": "d5af0e7567dc76401af3cb9262eb97cf35dbc525438eadce3e47cedc37cce6cf",
+    "output": "脚本/ryotei_assets/avatars/雾雨魔理沙.webp"
+  },
+  {
+    "name": "红美铃",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0015.png",
+    "sha256": "fe411bda1d224b78d22c59e0aa7ab4ff48f494235db52a35cd33946cc65a81de",
+    "output": "脚本/ryotei_assets/avatars/红美铃.webp"
+  },
+  {
+    "name": "琪露诺",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0028.png",
+    "sha256": "cd0426be3990d0812c80378bb7d343d37d3a56efb547cf2e148af6fd4cc8b4d4",
+    "output": "脚本/ryotei_assets/avatars/琪露诺.webp"
+  },
+  {
+    "name": "帕秋莉",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0027.png",
+    "sha256": "aef106b2fc54189c2d8df58cf372f79e422651cd8485bdb9a0b437e438ce3293",
+    "output": "脚本/ryotei_assets/avatars/帕秋莉.webp"
+  },
+  {
+    "name": "藤原妹红",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0024.png",
+    "sha256": "cb4635e0946e3590eebe3b5cc8ffe6bd8f447a9d9866b57ab2f1bdda13989781",
+    "output": "脚本/ryotei_assets/avatars/藤原妹红.webp"
+  },
+  {
+    "name": "蓬莱山辉夜",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0025.png",
+    "sha256": "d1b27ce4f28b569cd7bb62fe58534dfcf8979e9ebeff2a01e5387281651d3d38",
+    "output": "脚本/ryotei_assets/avatars/蓬莱山辉夜.webp"
+  },
+  {
+    "name": "因幡帝",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0029.png",
+    "sha256": "a6484e5edfd3071771d2919e8b9e5d6547e2a27ea94a6dd0917cbfd7061cdf3f",
+    "output": "脚本/ryotei_assets/avatars/因幡帝.webp"
+  },
+  {
+    "name": "河城荷取",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/1000.png",
+    "sha256": "38d19b76c12e53a18fb7d54e7eabccdcd85dbb9f4a685392590ac61bcc41e499",
+    "output": "脚本/ryotei_assets/avatars/河城荷取.webp"
+  },
+  {
+    "name": "犬走椛",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/1001.png",
+    "sha256": "de42dd4e925588ea0dd6699f24bda2f4a63ed403c6b34a111d90d47a0fecb564",
+    "output": "脚本/ryotei_assets/avatars/犬走椛.webp"
+  },
+  {
+    "name": "东风谷早苗",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/1005.png",
+    "sha256": "4713236fccbefb025ea642b66c53f60fd3408c08105f0a8ee793e8d4295f1bf8",
+    "output": "脚本/ryotei_assets/avatars/东风谷早苗.webp"
+  },
+  {
+    "name": "爱丽丝",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/1002.png",
+    "sha256": "c565f749f2ce88d1215c52663603813ef806de0ee2b156f2aac5c1a950aff10d",
+    "output": "脚本/ryotei_assets/avatars/爱丽丝.webp"
+  },
+  {
+    "name": "矢田寺成美",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/1004.png",
+    "sha256": "75d335662cc1fa050d8ad1999cc9bdd7bb424febfa81bf9417b894865a0544b2",
+    "output": "脚本/ryotei_assets/avatars/矢田寺成美.webp"
+  },
+  {
+    "name": "黑谷山女",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/2000.png",
+    "sha256": "f9aa4b5babf182c42c506a5beaf1817d54dc86eea5477cd8cb15100b2d853bdf",
+    "output": "脚本/ryotei_assets/avatars/黑谷山女.webp"
+  },
+  {
+    "name": "水桥帕露西",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/2001.png",
+    "sha256": "1098c4b543cdfb0e240e2590fb77a767b97db98dee57d40980b077f0c9f79ef8",
+    "output": "脚本/ryotei_assets/avatars/水桥帕露西.webp"
+  },
+  {
+    "name": "星熊勇仪",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/2002.png",
+    "sha256": "3ecfcfbf62586f3b8ae0e98995be225cd73bc65ac6b970153cb87aebb146ec9e",
+    "output": "脚本/ryotei_assets/avatars/星熊勇仪.webp"
+  },
+  {
+    "name": "古明地觉",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/2003.png",
+    "sha256": "4dfcb110fdbf7e07d9f53ba8380678a073bdfa91d4c832b51f0f7dc70627e526",
+    "output": "脚本/ryotei_assets/avatars/古明地觉.webp"
+  },
+  {
+    "name": "火焰猫燐",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/2004.png",
+    "sha256": "77c5291ae6bdd50d43d13921dbfa3af56896251ed5813030e71d1069f15c675f",
+    "output": "脚本/ryotei_assets/avatars/火焰猫燐.webp"
+  },
+  {
+    "name": "灵乌路空",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/2005.png",
+    "sha256": "e561467afd3c6c70d0b587476e7a92105a2af1b8b4c6970ca6a19b861ebc05e5",
+    "output": "脚本/ryotei_assets/avatars/灵乌路空.webp"
+  },
+  {
+    "name": "多多良小伞",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/3000.png",
+    "sha256": "82c0259333cb2060f918bb301dd30e9cf65422d2283b8a7a88be0f77ecf4534a",
+    "output": "脚本/ryotei_assets/avatars/多多良小伞.webp"
+  },
+  {
+    "name": "村纱水蜜",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/3001.png",
+    "sha256": "d93d2ac2af558781135abd53ed1fcd9297be20ce8a466921a0b00e6c296bf16a",
+    "output": "脚本/ryotei_assets/avatars/村纱水蜜.webp"
+  },
+  {
+    "name": "封兽鵺",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/3002.png",
+    "sha256": "f013fbed8ef482e9aec00d949f506166d847d7d02b9398b82ccce7151cc8b6a7",
+    "output": "脚本/ryotei_assets/avatars/封兽鵺.webp"
+  },
+  {
+    "name": "物部布都",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/3003.png",
+    "sha256": "2b25bd4a1927f97a0c10a36748fa15f0ba34ba075b218e2792c95f0d0d972ba8",
+    "output": "脚本/ryotei_assets/avatars/物部布都.webp"
+  },
+  {
+    "name": "霍青娥",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/3004.png",
+    "sha256": "cb81f0edafcfa8476cdc055040da85c95b5e0fb3415fce2f001771ac1b0f61ea",
+    "output": "脚本/ryotei_assets/avatars/霍青娥.webp"
+  },
+  {
+    "name": "苏我屠自古",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/3005.png",
+    "sha256": "4c91d8992ab1e82e3b1c0ff99281e3d2a82cba3baf1e0a2ea38d2c65d5cf3377",
+    "output": "脚本/ryotei_assets/avatars/苏我屠自古.webp"
+  },
+  {
+    "name": "射命丸文",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/4000.png",
+    "sha256": "2744f170893a1dd04bad851b96759fc4743b9041fd02f50ff844c2566d8dc597",
+    "output": "脚本/ryotei_assets/avatars/射命丸文.webp"
+  },
+  {
+    "name": "梅蒂欣",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/4001.png",
+    "sha256": "23c460e7e96bef864ad1e832689ec3b0b91a922a55f7267267d70410fa7df7f4",
+    "output": "脚本/ryotei_assets/avatars/梅蒂欣.webp"
+  },
+  {
+    "name": "风见幽香",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/4002.png",
+    "sha256": "77c23a9a7fa132992f40be441462ff8d9125e0e2f1270cfac80ea3ce4a242109",
+    "output": "脚本/ryotei_assets/avatars/风见幽香.webp"
+  },
+  {
+    "name": "鬼人正邪",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/4003.png",
+    "sha256": "496b11f6aa9d89ed1602705d76b1abef71d41de42ac3deaa694b1a7ed5caaec4",
+    "output": "脚本/ryotei_assets/avatars/鬼人正邪.webp"
+  },
+  {
+    "name": "少名针妙丸",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/4004.png",
+    "sha256": "9c50c775ab7c70117797f2f4d45020d2914970f83afda6c2d0fe272bcd625ebc",
+    "output": "脚本/ryotei_assets/avatars/少名针妙丸.webp"
+  },
+  {
+    "name": "今泉影狼",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/4005.png",
+    "sha256": "ff87f8c18debb7cda0a248615e077df3bffba346789cbb1322726e50d6651416",
+    "output": "脚本/ryotei_assets/avatars/今泉影狼.webp"
+  },
+  {
+    "name": "铃仙",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/5000.png",
+    "sha256": "11fda6d0dd2dcd0c0f4f930457bfcf9a25d56fd220aa483895b4dd49d6b768d4",
+    "output": "脚本/ryotei_assets/avatars/铃仙.webp"
+  },
+  {
+    "name": "绵月丰姬",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/5001.png",
+    "sha256": "b03f53164ee667f71e54f2d01bd724c2f8cd971211e1489cd71d858cccb05fa5",
+    "output": "脚本/ryotei_assets/avatars/绵月丰姬.webp"
+  },
+  {
+    "name": "绵月依姬",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/5002.png",
+    "sha256": "1513a6dd63ec1a1e8e83fff7c826fff39623a801a308e9c654fb4641374b6dff",
+    "output": "脚本/ryotei_assets/avatars/绵月依姬.webp"
+  },
+  {
+    "name": "爱莲",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/5003.png",
+    "sha256": "26d6328377a4096063a4ed5ec29aaa987aeee34d7dc2a1a1c188db11f8c18a35",
+    "output": "脚本/ryotei_assets/avatars/爱莲.webp"
+  },
+  {
+    "name": "魅魔",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/5004.png",
+    "sha256": "6a308157e16627e3eb90c9294d872d1af012e8df1b9aa326553268492aa07ff6",
+    "output": "脚本/ryotei_assets/avatars/魅魔.webp"
+  },
+  {
+    "name": "露易兹",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/5005.png",
+    "sha256": "3eab4ede4dc4328171213f4b2a7ae85cf7615b325991f592fb1c2e9c82a3f2cc",
+    "output": "脚本/ryotei_assets/avatars/露易兹.webp"
+  },
+  {
+    "name": "森近霖之助",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0006.png",
+    "sha256": "7261734fe6295c69cc9c1b5a6328a29720ddfc062a7119cd8a61a305a44097ea",
+    "output": "脚本/ryotei_assets/avatars/森近霖之助.webp"
+  },
+  {
+    "name": "蕾米莉亚",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/4008.png",
+    "sha256": "54ca841f4861b4f1099a56777de44bf98ed54ddea49ff545a0eb5b9532f15df2",
+    "output": "脚本/ryotei_assets/avatars/蕾米莉亚.webp"
+  },
+  {
+    "name": "魂魄妖梦",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0039.png",
+    "sha256": "b7321f5439bb87b69f36b359e156ce424db2f20ca9fd7503e98c4d3ede9f2397",
+    "output": "脚本/ryotei_assets/avatars/魂魄妖梦.webp"
+  },
+  {
+    "name": "西行寺幽幽子",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0040.png",
+    "sha256": "b927ea5ebd7598d07ab46af836b79d5ad0ed609509de286f1676e40018ec2dc5",
+    "output": "脚本/ryotei_assets/avatars/西行寺幽幽子.webp"
+  },
+  {
+    "name": "萌澄果",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0030.png",
+    "sha256": "2894e59af394328217ebade8023059c1b5ca8867630eba065b4ed11be793c921",
+    "output": "脚本/ryotei_assets/avatars/萌澄果.webp"
+  },
+  {
+    "name": "蹦蹦跳跳的三妖精",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0031.png",
+    "sha256": "cd22c4a5ac1810fcd4228474772cacf3b6e0d3d5be594c441423a78e1e0077c1",
+    "output": "脚本/ryotei_assets/avatars/蹦蹦跳跳的三妖精.webp"
+  },
+  {
+    "name": "冴月麟",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0036.png",
+    "sha256": "b4d26ae73b123e10b0fa3240bb4e78258f86212d7e21af8e0a7253e23ab558fa",
+    "output": "脚本/ryotei_assets/avatars/冴月麟.webp"
+  },
+  {
+    "name": "立空汐",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0037.png",
+    "sha256": "f6b5ccde2b473696fcea70a8f2c03d8fd348e6e1fe4ca2e152bf78b3298142d2",
+    "output": "脚本/ryotei_assets/avatars/立空汐.webp"
+  },
+  {
+    "name": "时焉侑",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0038.png",
+    "sha256": "7a3f2ac99b643af19c5eaa2dbbe12be25132215e6d1bf470dc67cb2d07344917",
+    "output": "脚本/ryotei_assets/avatars/时焉侑.webp"
+  },
+  {
+    "name": "秦心",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/0041.png",
+    "sha256": "a846f5954ae2c12d59caa538e4540156562b5733cfab6ff79b3ca4972cd24f83",
+    "output": "脚本/ryotei_assets/avatars/秦心.webp"
+  },
+  {
+    "name": "饕餮尤魔",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/1003.png",
+    "sha256": "b0cd5120680f0ed6e55153b867527d6a5d0955f474f95c01f04f29404871680a",
+    "output": "脚本/ryotei_assets/avatars/饕餮尤魔.webp"
+  },
+  {
+    "name": "古明地恋",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/2006.png",
+    "sha256": "d78d99380e5e67610cb246e5de52a1c844c633d5e851aef64325bbe56f70c8c7",
+    "output": "脚本/ryotei_assets/avatars/古明地恋.webp"
+  },
+  {
+    "name": "二岩猯藏",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/3009.png",
+    "sha256": "6391fa4a4fb10d36225e49b127792cee6d90228cdfc34b54a64e88a85ffe0289",
+    "output": "脚本/ryotei_assets/avatars/二岩猯藏.webp"
+  },
+  {
+    "name": "八云紫",
+    "kind": "avatars",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/special_guests/5012.png",
+    "sha256": "7d520975f247bfc0220e20bbeba8028426ccb6153717716c28ebbe46f478b32a",
+    "output": "脚本/ryotei_assets/avatars/八云紫.webp"
+  },
+  {
+    "name": "海鲜味噌汤",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0000.png",
+    "sha256": "9542ec44cd20cd12884d5aeb305d13e4591801bd91c6519a9426c4f95d0cc826",
+    "output": "脚本/ryotei_assets/icons/海鲜味噌汤.webp"
+  },
+  {
+    "name": "豆腐味噌",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0001.png",
+    "sha256": "25bdbb8d83b86cdffdcf6ddb85dfa0011bb9b744c9008f527df8e1cadcd5fd16",
+    "output": "脚本/ryotei_assets/icons/豆腐味噌.webp"
+  },
+  {
+    "name": "力量汤",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0002.png",
+    "sha256": "1ea353fb15fc4e0f6d582eec98bb54d9adffbdb8a0474948c5c4695af3ab5703",
+    "output": "脚本/ryotei_assets/icons/力量汤.webp"
+  },
+  {
+    "name": "猪肉鳟鱼熏",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0003.png",
+    "sha256": "b1eb7582612bb2a7c62fa6370ad744485b4c9cc849def164443ea51f927e0616",
+    "output": "脚本/ryotei_assets/icons/猪肉鳟鱼熏.webp"
+  },
+  {
+    "name": "烤八目鳗",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0004.png",
+    "sha256": "6fb1c969b9c053b89fe63f2327fdeca62a0780b62b3f7e802bf46061b4932c12",
+    "output": "脚本/ryotei_assets/icons/烤八目鳗.webp"
+  },
+  {
+    "name": "能量串",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0005.png",
+    "sha256": "3daee50ec5958e6c8edea0cc2611259973a3eed6f06c0f39ca68ccc414c47f96",
+    "output": "脚本/ryotei_assets/icons/能量串.webp"
+  },
+  {
+    "name": "二天一流",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0006.png",
+    "sha256": "ff55fc7cbc2d5f01f8d81ab0e83794532ec0a2607154fa6190c2586777a6b4d5",
+    "output": "脚本/ryotei_assets/icons/二天一流.webp"
+  },
+  {
+    "name": "饭团",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0007.png",
+    "sha256": "eaeeb672a80f41ec688a26f2030837df76871dea74831a01f38960b2dcbca8fc",
+    "output": "脚本/ryotei_assets/icons/饭团.webp"
+  },
+  {
+    "name": "炙猪肉饭团",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0008.png",
+    "sha256": "6cd292ae983149224798c224f730b63bfb091cd627bdf38b60f28786b0e13167",
+    "output": "脚本/ryotei_assets/icons/炙猪肉饭团.webp"
+  },
+  {
+    "name": "温暖饭团",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0009.png",
+    "sha256": "4c512ad70000361c01845d2fbd5684fa0db77cfc1816b6e8578f60a5b0b43055",
+    "output": "脚本/ryotei_assets/icons/温暖饭团.webp"
+  },
+  {
+    "name": "樱落雪",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0010.png",
+    "sha256": "72f0a00222d3316aff4f5cf2c2c3725d1357308eec88df1f1080d8f719f719f9",
+    "output": "脚本/ryotei_assets/icons/樱落雪.webp"
+  },
+  {
+    "name": "炒肉丝",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0011.png",
+    "sha256": "0e8ec367d9bc3c9621e8eeed09ce5df0e6ccab301c97065375c28d48b1c23073",
+    "output": "脚本/ryotei_assets/icons/炒肉丝.webp"
+  },
+  {
+    "name": "冷豆腐",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0012.png",
+    "sha256": "318120a3865eea1827574ad5968b94b70d16dc76b8b23c98c7b25db877f5dd43",
+    "output": "脚本/ryotei_assets/icons/冷豆腐.webp"
+  },
+  {
+    "name": "红烧鳗鱼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0013.png",
+    "sha256": "a05268f389c3e94441166cf97eafaefbddab6b0172496e714aaeedbfa73e24d9",
+    "output": "脚本/ryotei_assets/icons/红烧鳗鱼.webp"
+  },
+  {
+    "name": "土豆可乐饼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0014.png",
+    "sha256": "99303a2e3c40977aa7ce780948660de16e134e55dd121c305b445a3556610a3b",
+    "output": "脚本/ryotei_assets/icons/土豆可乐饼.webp"
+  },
+  {
+    "name": "野味加农",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0015.png",
+    "sha256": "e995ee9252951667d32aba09361557bddb8ee05a87701600042f625d46819ac3",
+    "output": "脚本/ryotei_assets/icons/野味加农.webp"
+  },
+  {
+    "name": "猪肉盖浇饭",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0016.png",
+    "sha256": "ab57ce405343c4f896788e80b6d0f3c9c7c9f31b722ad2226fa419f49f3306ed",
+    "output": "脚本/ryotei_assets/icons/猪肉盖浇饭.webp"
+  },
+  {
+    "name": "牛肉盖浇饭",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0017.png",
+    "sha256": "37047af0d80181233f1300188fb7e404d4e0383c01786b823c004750715bff66",
+    "output": "脚本/ryotei_assets/icons/牛肉盖浇饭.webp"
+  },
+  {
+    "name": "炸八目鳗",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0018.png",
+    "sha256": "f78775ffecb7a97d08f3b98a8d1d8d44c199b3e40b831921c13b33d7fc327e21",
+    "output": "脚本/ryotei_assets/icons/炸八目鳗.webp"
+  },
+  {
+    "name": "蔬菜专辑",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0019.png",
+    "sha256": "8581b43854eda0b12df2e30c9fa2896a375b95a33494497b209e5bc46910f081",
+    "output": "脚本/ryotei_assets/icons/蔬菜专辑.webp"
+  },
+  {
+    "name": "白雪",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0020.png",
+    "sha256": "743b65019446c73e0cfd4406deaf187f1114ec5db4b44e304a6081af73d084cb",
+    "output": "脚本/ryotei_assets/icons/白雪.webp"
+  },
+  {
+    "name": "豆腐锅",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0021.png",
+    "sha256": "db680b3aa2f0db2faeddbd62e6f4bf39e82fcf102a0547339a66544a00153406",
+    "output": "脚本/ryotei_assets/icons/豆腐锅.webp"
+  },
+  {
+    "name": "杂炊",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0022.png",
+    "sha256": "0f6b15ab5b1649ef336adf5533de230f9f18eaf8380665b554e04146cf754951",
+    "output": "脚本/ryotei_assets/icons/杂炊.webp"
+  },
+  {
+    "name": "刺身拼盘",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0023.png",
+    "sha256": "007f76b9474980237d135d0c713304866b901c03a129cf2f297732bb39ec9623",
+    "output": "脚本/ryotei_assets/icons/刺身拼盘.webp"
+  },
+  {
+    "name": "大奢宴",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0024.png",
+    "sha256": "e883ce76d856f87d5a9d9e18aee0d2293107d25bc43fbe860632f11b83bd15bb",
+    "output": "脚本/ryotei_assets/icons/大奢宴.webp"
+  },
+  {
+    "name": "豚骨拉面",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0025.png",
+    "sha256": "87d217303170117f344b22b36fc798777026f9e4a4273e6d5f0609f9ab3b6353",
+    "output": "脚本/ryotei_assets/icons/豚骨拉面.webp"
+  },
+  {
+    "name": "岩浆",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0026.png",
+    "sha256": "41ec2568ee2ea5734bae3544ed9d45ab166be71356072c7bd9a9d5b377f2fc00",
+    "output": "脚本/ryotei_assets/icons/岩浆.webp"
+  },
+  {
+    "name": "香炸蝉蜕",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0027.png",
+    "sha256": "8881b8d7d99cb5c50531d196197c19b9ad21433a76b061e377304085e2eeaa96",
+    "output": "脚本/ryotei_assets/icons/香炸蝉蜕.webp"
+  },
+  {
+    "name": "露水煮蛋",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0028.png",
+    "sha256": "5c1114e1d54d2d25c79ab00c1580f40e721a9b51a154ce556e89561ff8b18c20",
+    "output": "脚本/ryotei_assets/icons/露水煮蛋.webp"
+  },
+  {
+    "name": "幻昙花糕",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0029.png",
+    "sha256": "9d35b70b4fb4b3b9131d4ce514092adec07b1198603b091e062b5009262377ba",
+    "output": "脚本/ryotei_assets/icons/幻昙花糕.webp"
+  },
+  {
+    "name": "赛熊掌",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0030.png",
+    "sha256": "9c0b02051ed366a6d72f57b9ef2a9f2ed5720a0cf03a751ebc84fce6e1ecdf83",
+    "output": "脚本/ryotei_assets/icons/赛熊掌.webp"
+  },
+  {
+    "name": "秘制小鱼干",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0031.png",
+    "sha256": "ff6d5bcd4e95fdbb15c11df1f5c9a67dc6e91ad08bff1723fe587fd261364526",
+    "output": "脚本/ryotei_assets/icons/秘制小鱼干.webp"
+  },
+  {
+    "name": "凉菜雕花",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0032.png",
+    "sha256": "92e88f8cab12074277cd3546012c238221e4a4cf6ab251658f25184da6db921c",
+    "output": "脚本/ryotei_assets/icons/凉菜雕花.webp"
+  },
+  {
+    "name": "桃花羹",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0033.png",
+    "sha256": "d765230cf60abb37950d57a4b6932ae516ebcb1baf7df7cee9a7bce99bcf8d03",
+    "output": "脚本/ryotei_assets/icons/桃花羹.webp"
+  },
+  {
+    "name": "北极甜虾蜜桃色拉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0034.png",
+    "sha256": "fbd17654f238eb6bc90e95489a2f792ba37b22033eeae95a0075cefec5c21f95",
+    "output": "脚本/ryotei_assets/icons/北极甜虾蜜桃色拉.webp"
+  },
+  {
+    "name": "油豆腐",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0035.png",
+    "sha256": "ec723b7726bfb7101bfbdff947e77a2a8d3abd50bdba1d4bcfe74da4fa05a435",
+    "output": "脚本/ryotei_assets/icons/油豆腐.webp"
+  },
+  {
+    "name": "诗礼银杏",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0036.png",
+    "sha256": "72cc31a7651c38be1659bf56ca211c74e2b5738331009e8bf88efd713e2cf63f",
+    "output": "脚本/ryotei_assets/icons/诗礼银杏.webp"
+  },
+  {
+    "name": "真·海鲜味噌汤",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0037.png",
+    "sha256": "065b7855e32a5cc11eb676909cbc3282f1e8b585c7ce97ff77ea0ebc1e9b986f",
+    "output": "脚本/ryotei_assets/icons/真·海鲜味噌汤.webp"
+  },
+  {
+    "name": "烤蘑菇",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0038.png",
+    "sha256": "e0466a3a5c96cba40ec483c024ed88d3516a9b558d8e2ea25573113d3d40b872",
+    "output": "脚本/ryotei_assets/icons/烤蘑菇.webp"
+  },
+  {
+    "name": "煮豆腐",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0039.png",
+    "sha256": "c275f80ce0de6aed97ec2644970dc83e58856dcf7f50969bc15f60353ba6bafc",
+    "output": "脚本/ryotei_assets/icons/煮豆腐.webp"
+  },
+  {
+    "name": "炸猪肉排",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0040.png",
+    "sha256": "7ac72c21b421be29a49de98c206b28d8d0a302805941323c09d385597b33598c",
+    "output": "脚本/ryotei_assets/icons/炸猪肉排.webp"
+  },
+  {
+    "name": "黄油牛排",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0041.png",
+    "sha256": "abe590e3f9e1a8bafd7512cce530fe77d6a9a8b3fafe5327cd67327ee09e9364",
+    "output": "脚本/ryotei_assets/icons/黄油牛排.webp"
+  },
+  {
+    "name": "意式烩饭",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0042.png",
+    "sha256": "b799d5d119dbaca38791a46d0cc65b65b0c1139d3ce550f7e9e7df24270d8a1f",
+    "output": "脚本/ryotei_assets/icons/意式烩饭.webp"
+  },
+  {
+    "name": "惠灵顿牛排",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0043.png",
+    "sha256": "3f133f21becb26583c64976d58069ad77154bc1ff84e36f1d6e09b6bd88630b8",
+    "output": "脚本/ryotei_assets/icons/惠灵顿牛排.webp"
+  },
+  {
+    "name": "班尼迪克蛋",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0044.png",
+    "sha256": "456833c96672c7ba85ae5bd6a2303bfa03d4846dea6deba54c0353520b912e80",
+    "output": "脚本/ryotei_assets/icons/班尼迪克蛋.webp"
+  },
+  {
+    "name": "热松饼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0045.png",
+    "sha256": "e1b7f3476f116f7295e129161dd4e89a5a29a95de7e39605eda914da296a47e9",
+    "output": "脚本/ryotei_assets/icons/热松饼.webp"
+  },
+  {
+    "name": "司康饼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0046.png",
+    "sha256": "4a2539aa9a6d65ecb243c0cb0b3d051f45d09b984dae5fe9ba1992eaacdd5024",
+    "output": "脚本/ryotei_assets/icons/司康饼.webp"
+  },
+  {
+    "name": "香煎三文鱼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0047.png",
+    "sha256": "6b96903ddb9ac7fecabb2c1d8a6fb574c937fa92fca9537b5e23522da99ea14c",
+    "output": "脚本/ryotei_assets/icons/香煎三文鱼.webp"
+  },
+  {
+    "name": "奶油炖菜",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0048.png",
+    "sha256": "66094437806726bb7a952f5b996787b6a1eaf1da46b576264ebb57b16f6365f8",
+    "output": "脚本/ryotei_assets/icons/奶油炖菜.webp"
+  },
+  {
+    "name": "蜜汁叉烧",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0049.png",
+    "sha256": "c6258a49f4e9c848eb54d304629a7690a14acd3b348ca63335d8009d11aed9db",
+    "output": "脚本/ryotei_assets/icons/蜜汁叉烧.webp"
+  },
+  {
+    "name": "白果萝卜排骨汤",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0050.png",
+    "sha256": "6646170c6ecb441906e13b044e090cf0c6f21f84ad7a8d018f316b8a1cf16495",
+    "output": "脚本/ryotei_assets/icons/白果萝卜排骨汤.webp"
+  },
+  {
+    "name": "竹取姬",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0051.png",
+    "sha256": "9eca3ef5294988ecf98b53677ec2c1c5ece5c32ffca669dbf3182e6889c01269",
+    "output": "脚本/ryotei_assets/icons/竹取姬.webp"
+  },
+  {
+    "name": "不死鸟",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0052.png",
+    "sha256": "5188780aac80670eafed4994a5170a2be8f9eaea429a2ad52ac33f00932665aa",
+    "output": "脚本/ryotei_assets/icons/不死鸟.webp"
+  },
+  {
+    "name": "月光团子",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0053.png",
+    "sha256": "cf1fafb7f5455ff49d1e4fd191f00de6332d306568871506cc51a07fc3ca234a",
+    "output": "脚本/ryotei_assets/icons/月光团子.webp"
+  },
+  {
+    "name": "麻薯",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0054.png",
+    "sha256": "4936d9f109061ad756bbe847f08e4938c38e0a5d7c376536347dfc7dae56d24d",
+    "output": "脚本/ryotei_assets/icons/麻薯.webp"
+  },
+  {
+    "name": "白桃生八桥",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0055.png",
+    "sha256": "a89fbb23b06dd7ebf0e0519b5c140c0632236baa18ef3fa847971a3449c2d75c",
+    "output": "脚本/ryotei_assets/icons/白桃生八桥.webp"
+  },
+  {
+    "name": "月之恋人",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0056.png",
+    "sha256": "96a367a7e0b842e652c971e079f28f8de5fd1eabbfb01a620de6f9b3c633735d",
+    "output": "脚本/ryotei_assets/icons/月之恋人.webp"
+  },
+  {
+    "name": "猪鹿蝶",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0057.png",
+    "sha256": "9bfff21570b660d593906841092d40b1ed57428a5ff1b6898734d546436f33ad",
+    "output": "脚本/ryotei_assets/icons/猪鹿蝶.webp"
+  },
+  {
+    "name": "流水素面",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0058.png",
+    "sha256": "ece891601b775ef0cfe9f591e89986b3e0d1808cc61697f72d270878594b920d",
+    "output": "脚本/ryotei_assets/icons/流水素面.webp"
+  },
+  {
+    "name": "竹笋炒肉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0059.png",
+    "sha256": "f226c782cb37c6ff14c8167d60087430ea614d64135af73a887c0690be6da73d",
+    "output": "脚本/ryotei_assets/icons/竹笋炒肉.webp"
+  },
+  {
+    "name": "竹筒蒸蛋",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0060.png",
+    "sha256": "44d4e2aa2b551e605018ff7173f785498a0376542eb1d4c89e87851843991d46",
+    "output": "脚本/ryotei_assets/icons/竹筒蒸蛋.webp"
+  },
+  {
+    "name": "蓬莱玉枝",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0061.png",
+    "sha256": "773f61ac388b98a0220ebc5d61f41706831152ca2dd541956065589b03a385c9",
+    "output": "脚本/ryotei_assets/icons/蓬莱玉枝.webp"
+  },
+  {
+    "name": "臭豆腐",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0062.png",
+    "sha256": "b0f2888f0658c37b34e79140cfe903fdc2ffaad0ab0cb4488b48e56351eec263",
+    "output": "脚本/ryotei_assets/icons/臭豆腐.webp"
+  },
+  {
+    "name": "华光玉煎包",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0063.png",
+    "sha256": "1b28ca25f67044ed09b56d68a483933c1b9944ddbf07f0197b2ef34da15535e6",
+    "output": "脚本/ryotei_assets/icons/华光玉煎包.webp"
+  },
+  {
+    "name": "麻婆豆腐",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0064.png",
+    "sha256": "a088cbc6dd912e945573eeb1386efec3c4d377ec6d2f73c4a93b2b51009f4c2a",
+    "output": "脚本/ryotei_assets/icons/麻婆豆腐.webp"
+  },
+  {
+    "name": "水煮鱼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0065.png",
+    "sha256": "d4324899750d2c26fcaff5c971ab0a028207c02d2022e3d3271dbe4dd21a5cd4",
+    "output": "脚本/ryotei_assets/icons/水煮鱼.webp"
+  },
+  {
+    "name": "月饼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0066.png",
+    "sha256": "b7d72bad86e3c33ec653d2cc4092cdecc9ce3b96027b3059ed609472b61e9b6f",
+    "output": "脚本/ryotei_assets/icons/月饼.webp"
+  },
+  {
+    "name": "毛玉三色冰激凌",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0067.png",
+    "sha256": "ac0074388a7dd1d1bdf13e173bcffcd07173c883181a25497173b0561639759f",
+    "output": "脚本/ryotei_assets/icons/毛玉三色冰激凌.webp"
+  },
+  {
+    "name": "毛玉熔岩豆腐",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0068.png",
+    "sha256": "be74793944ca6f57ea9960b08e6b6680227f4d40fa38592c594f7b22a37379f3",
+    "output": "脚本/ryotei_assets/icons/毛玉熔岩豆腐.webp"
+  },
+  {
+    "name": "猩红恶魔蛋糕",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0069.png",
+    "sha256": "c9cf2e12dfbd4a220cd43bf4bebdbd616da90278a609f6d2d250084a673031a1",
+    "output": "脚本/ryotei_assets/icons/猩红恶魔蛋糕.webp"
+  },
+  {
+    "name": "无意识妖怪慕斯",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0070.png",
+    "sha256": "05dae7bae8543c7949946e995040c37915180d4bd8f1eff38a979be6525cc8cf",
+    "output": "脚本/ryotei_assets/icons/无意识妖怪慕斯.webp"
+  },
+  {
+    "name": "水饺",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0071.png",
+    "sha256": "723d2643a41d158f7dd74b2b8fe483de6262c434a0a61439ab14b9d3c89fc836",
+    "output": "脚本/ryotei_assets/icons/水饺.webp"
+  },
+  {
+    "name": "汤圆",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/0072.png",
+    "sha256": "b4652d440081a3e5926558080303adf5dac2d82c0ac33c99335b5387c572c5fb",
+    "output": "脚本/ryotei_assets/icons/汤圆.webp"
+  },
+  {
+    "name": "炸虾天妇罗",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1000.png",
+    "sha256": "0862a8f1b089eefa5092022955b617329d5da625dc4f262b5f15114335bd90cb",
+    "output": "脚本/ryotei_assets/icons/炸虾天妇罗.webp"
+  },
+  {
+    "name": "黄金酥鱼饼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1001.png",
+    "sha256": "905bbab6f137bfccf1beaa199c539d82dcb24b9e421846f6960d56e155e82e76",
+    "output": "脚本/ryotei_assets/icons/黄金酥鱼饼.webp"
+  },
+  {
+    "name": "全肉盛宴",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1002.png",
+    "sha256": "202453ab4b0aa40d3ebab792b8fd7ef5d274907abc74b051740f470f6b60d8c2",
+    "output": "脚本/ryotei_assets/icons/全肉盛宴.webp"
+  },
+  {
+    "name": "腌黄瓜",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1003.png",
+    "sha256": "adea3ed33fbdc412d38fba0e302515809728c62704e063f1049ec0c0888644f2",
+    "output": "脚本/ryotei_assets/icons/腌黄瓜.webp"
+  },
+  {
+    "name": "奶油焗蟹",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1004.png",
+    "sha256": "b8480fc0a223fee3c8b7ad0f5aff4fa30069b3f78ead440480125dc12ca0a5c8",
+    "output": "脚本/ryotei_assets/icons/奶油焗蟹.webp"
+  },
+  {
+    "name": "拟尻子玉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1005.png",
+    "sha256": "4cccb6010d293473439a8f31ee65efd3a6361046123e7f1d2f867f1b8642d098",
+    "output": "脚本/ryotei_assets/icons/拟尻子玉.webp"
+  },
+  {
+    "name": "大阪烧",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1006.png",
+    "sha256": "503c1e4a2d04487f9bef90405e41b27d91c06751088e072c12da3a98d904fcea",
+    "output": "脚本/ryotei_assets/icons/大阪烧.webp"
+  },
+  {
+    "name": "章鱼烧",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1007.png",
+    "sha256": "efade08dd57aa7f03c6e05121b3424ab399fbd07ba1ad3ef4c0a7daf19100969",
+    "output": "脚本/ryotei_assets/icons/章鱼烧.webp"
+  },
+  {
+    "name": "海胆刺身",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1008.png",
+    "sha256": "1b946c47f655c28756a8a1467b57fe2958fdc203405f2d237279db7d771a488e",
+    "output": "脚本/ryotei_assets/icons/海胆刺身.webp"
+  },
+  {
+    "name": "蘑菇肉片",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1009.png",
+    "sha256": "b5e73cd8df37ba498d0704ecd74d523dc3c7cdda40bbb49dc1af7b644523c632",
+    "output": "脚本/ryotei_assets/icons/蘑菇肉片.webp"
+  },
+  {
+    "name": "秘制鲜菌煲",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1010.png",
+    "sha256": "07f5481a9de6fc778b64fa5edc9648e76f2043792acb478dd3728d3b363ef195",
+    "output": "脚本/ryotei_assets/icons/秘制鲜菌煲.webp"
+  },
+  {
+    "name": "蘑女的舞踏烩",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1011.png",
+    "sha256": "508cc685850b376f0355e7afdae703b3109bd420d8bddd387d0c29f10b24f5a4",
+    "output": "脚本/ryotei_assets/icons/蘑女的舞踏烩.webp"
+  },
+  {
+    "name": "奶香蘑菇汤",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1012.png",
+    "sha256": "9eec8f846289dedd41f03c6cc348180352b244ceb31042aeb00772e062fe1c44",
+    "output": "脚本/ryotei_assets/icons/奶香蘑菇汤.webp"
+  },
+  {
+    "name": "普通小蛋糕",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1013.png",
+    "sha256": "62b5ce87950fc6ca2c519abe1b8e1a78d1112273817ae6b1805fdb2e274ac5be",
+    "output": "脚本/ryotei_assets/icons/普通小蛋糕.webp"
+  },
+  {
+    "name": "七色羊羹",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1014.png",
+    "sha256": "084fa480fa9026f7b22f859c67084510568900c68e5e7a414ac33a6a2039e76e",
+    "output": "脚本/ryotei_assets/icons/七色羊羹.webp"
+  },
+  {
+    "name": "手握寿司",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1015.png",
+    "sha256": "bae88c69ccb166ced002fbb675b55c96780eec4a73b1b07a8618617aa2fd9617",
+    "output": "脚本/ryotei_assets/icons/手握寿司.webp"
+  },
+  {
+    "name": "南瓜虾盅",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1016.png",
+    "sha256": "c45c5d2dff524a37ccf4a54978fb4b3d43fac0ab80cd9540f66c852d4e41bb3e",
+    "output": "脚本/ryotei_assets/icons/南瓜虾盅.webp"
+  },
+  {
+    "name": "幻想佛跳墙",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/1017.png",
+    "sha256": "1fcafa1d1940faa4dce26bb8989196853b86d6c948f44242ce908244bd627b59",
+    "output": "脚本/ryotei_assets/icons/幻想佛跳墙.webp"
+  },
+  {
+    "name": "丧气芝士条",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2000.png",
+    "sha256": "6a3254c49f2cd04b28a069689fd6ecca0733679839d6076742258f7415be1144",
+    "output": "脚本/ryotei_assets/icons/丧气芝士条.webp"
+  },
+  {
+    "name": "阴郁水果派",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2001.png",
+    "sha256": "0e9730cfed0fe258a9068ab776f2c59cc916600c0119f2fec376880de5bd345b",
+    "output": "脚本/ryotei_assets/icons/阴郁水果派.webp"
+  },
+  {
+    "name": "绝叫关东煮",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2002.png",
+    "sha256": "41077c6f69584a69c364b83233b1485675fdfb43801b4580d64e49b7d64688e1",
+    "output": "脚本/ryotei_assets/icons/绝叫关东煮.webp"
+  },
+  {
+    "name": "脆旋风",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2003.png",
+    "sha256": "3d176ef8103e7b2f35e39a1f22a7ba197c43fb334b16c0eb86f1c80863e25b09",
+    "output": "脚本/ryotei_assets/icons/脆旋风.webp"
+  },
+  {
+    "name": "仰望天花板派",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2004.png",
+    "sha256": "30f7c58ab6083655ed6b2a9ca8ef6e0d55df9c4b534d0c475b1cec452db4ea4c",
+    "output": "脚本/ryotei_assets/icons/仰望天花板派.webp"
+  },
+  {
+    "name": "兜甲蒸糕",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2005.png",
+    "sha256": "c82ad6bf680271d614d1d9748aab3a49945d2b3939311dc475c3a5bb3a86b3ce",
+    "output": "脚本/ryotei_assets/icons/兜甲蒸糕.webp"
+  },
+  {
+    "name": "狮子头",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2006.png",
+    "sha256": "e36a602b95e138bd3d506fa6c98c23f11fedca8fd487072fbb1ca473d27578c2",
+    "output": "脚本/ryotei_assets/icons/狮子头.webp"
+  },
+  {
+    "name": "巨人玉子烧",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2007.png",
+    "sha256": "c178fafd4ded8ee9ca9aab86b2bed394cd05433a2e6e940ae58716f1bbdb3e9a",
+    "output": "脚本/ryotei_assets/icons/巨人玉子烧.webp"
+  },
+  {
+    "name": "大江户船祭",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2008.png",
+    "sha256": "6ebc6dc419998097211bb64572854d77de1ce7a7d2b3f40f7b026578bb5444e7",
+    "output": "脚本/ryotei_assets/icons/大江户船祭.webp"
+  },
+  {
+    "name": "樱花布丁",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2009.png",
+    "sha256": "7305bb28862223cc5474bc5943c475cfccb574188564a9e0ab7a611b14e23071",
+    "output": "脚本/ryotei_assets/icons/樱花布丁.webp"
+  },
+  {
+    "name": "提神布丁",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2010.png",
+    "sha256": "9aae26bd037137598b198edf2fdd9f91685c31a6542440fa2761c57a13534de6",
+    "output": "脚本/ryotei_assets/icons/提神布丁.webp"
+  },
+  {
+    "name": "燃尽布丁",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2011.png",
+    "sha256": "3fec82c03d4fc4914b1dc33d8418bb91d973894bccaa55fed4298397e9a6915b",
+    "output": "脚本/ryotei_assets/icons/燃尽布丁.webp"
+  },
+  {
+    "name": "猫饭",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2012.png",
+    "sha256": "1ed867d67c79a248eab049a1046ed3b6d98a1dc43604d260d4f891712ce21119",
+    "output": "脚本/ryotei_assets/icons/猫饭.webp"
+  },
+  {
+    "name": "三文鱼天妇罗",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2013.png",
+    "sha256": "0ba99df9dbb1760b54b005e2b1f7d3021a338eef8d11749f943be4950546ed25",
+    "output": "脚本/ryotei_assets/icons/三文鱼天妇罗.webp"
+  },
+  {
+    "name": "鱼跃龙门",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2014.png",
+    "sha256": "3b21936a808918cad9661d2e1b1a541bf7e6c3a49a0f04c2b45e30bbcf3afe27",
+    "output": "脚本/ryotei_assets/icons/鱼跃龙门.webp"
+  },
+  {
+    "name": "芝士蛋",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2015.png",
+    "sha256": "f63aba6448e0e3e827a29264e508498bea2ca9d1533242c971e58427f68170b7",
+    "output": "脚本/ryotei_assets/icons/芝士蛋.webp"
+  },
+  {
+    "name": "一击☆必杀",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2016.png",
+    "sha256": "3adff51fae32627eaa32ac32a0bb9a6a8b90d80994e0e9d32a3e0e4f3f899f7c",
+    "output": "脚本/ryotei_assets/icons/一击☆必杀.webp"
+  },
+  {
+    "name": "地狱激辛警告！",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/2017.png",
+    "sha256": "22bd2e06ee1e612c5237dbc7e2e45a1fbe0680ef909c324c5b792a7fc0508460",
+    "output": "脚本/ryotei_assets/icons/地狱激辛警告！.webp"
+  },
+  {
+    "name": "烤地瓜",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3000.png",
+    "sha256": "179ee44117f8762686219379424ef87ce196d13314b8426f9ccc710d4b12ad9f",
+    "output": "脚本/ryotei_assets/icons/烤地瓜.webp"
+  },
+  {
+    "name": "瘦马团子",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3001.png",
+    "sha256": "c70a8766e3b5cddac550685ae9ece75b9acd0db4f163af7dce9e96801f9850b6",
+    "output": "脚本/ryotei_assets/icons/瘦马团子.webp"
+  },
+  {
+    "name": "惊吓！大冒险",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3002.png",
+    "sha256": "7087d2768d4ffd12e85d3977ade813352620456d089733876c7ec2d0d54b7554",
+    "output": "脚本/ryotei_assets/icons/惊吓！大冒险.webp"
+  },
+  {
+    "name": "比斯开湾饼干",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3003.png",
+    "sha256": "eb7a69b898b6cb41f6a7d5868f73e1aacda9b6d7b5dd88fc8ca094ed6aab9764",
+    "output": "脚本/ryotei_assets/icons/比斯开湾饼干.webp"
+  },
+  {
+    "name": "海盗熏肉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3004.png",
+    "sha256": "9d8465280f94b0b936bd6c2acd9cdd9b8fefef68308bec77d5a840f6cd3cf4b2",
+    "output": "脚本/ryotei_assets/icons/海盗熏肉.webp"
+  },
+  {
+    "name": "罗汉上素",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3005.png",
+    "sha256": "28144760729db6a18efb0d7c86d4a699f07930b0cbfb89e7bf3dc3e870b86d2c",
+    "output": "脚本/ryotei_assets/icons/罗汉上素.webp"
+  },
+  {
+    "name": "云山棉花糖",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3006.png",
+    "sha256": "75b71ad929a150350ea90d0f41f6fa355beb0f367a7d3be9ed7a241326d8d2a8",
+    "output": "脚本/ryotei_assets/icons/云山棉花糖.webp"
+  },
+  {
+    "name": "圣白莲子糕",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3007.png",
+    "sha256": "e0ee5fa8dcc5cb4a182ec07f474b6f18e481d38d9aadb6a4b8a264d37fcc94f6",
+    "output": "脚本/ryotei_assets/icons/圣白莲子糕.webp"
+  },
+  {
+    "name": "幻想星莲船",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3008.png",
+    "sha256": "a9f8545253f4124159ff3dde76b907ad2903212f1411c602293ddaa1fd230a31",
+    "output": "脚本/ryotei_assets/icons/幻想星莲船.webp"
+  },
+  {
+    "name": "松子糕",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3009.png",
+    "sha256": "c20c65bf761dedf5f92b95f0ef62b607f8ec391d9b985f7a74ed74de05a9447d",
+    "output": "脚本/ryotei_assets/icons/松子糕.webp"
+  },
+  {
+    "name": "白鹿贞松",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3010.png",
+    "sha256": "948bdad23bc4ddda95da0b3d4bc807878f9d6d63f2159f405c7c5dbea79f4eb7",
+    "output": "脚本/ryotei_assets/icons/白鹿贞松.webp"
+  },
+  {
+    "name": "太极八卦鱼肚",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3011.png",
+    "sha256": "8471d028dfb4a7a37af65fcb5e0b7a027d52cd2ef01d26defaa443bad5ed3504",
+    "output": "脚本/ryotei_assets/icons/太极八卦鱼肚.webp"
+  },
+  {
+    "name": "蜜饯栗子",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3012.png",
+    "sha256": "35dfe38ae3b4f673a1100a8931d72d3152bed42f6e5723162a0c99cd965c99fc",
+    "output": "脚本/ryotei_assets/icons/蜜饯栗子.webp"
+  },
+  {
+    "name": "天师板栗焖菇",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3013.png",
+    "sha256": "5b726618c33f6d08275576a98d9675b04c1c5dcab6df63c8910dbd23534b8209",
+    "output": "脚本/ryotei_assets/icons/天师板栗焖菇.webp"
+  },
+  {
+    "name": "荷花鱼米盏",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3014.png",
+    "sha256": "c6c9d4792916090855b05bcb3862cc7d5dfd2ac2d96f43aa62ac7db6b65eee72",
+    "output": "脚本/ryotei_assets/icons/荷花鱼米盏.webp"
+  },
+  {
+    "name": "拔丝地瓜",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3015.png",
+    "sha256": "06eb32063d3a8f49e3ea2a0f2a6a8bc99f08d141a7b150eab260803eef630427",
+    "output": "脚本/ryotei_assets/icons/拔丝地瓜.webp"
+  },
+  {
+    "name": "香煎双菇肉卷",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3016.png",
+    "sha256": "fb6dedb8e1d69f7947cb3423d80f150bd1871967d466eaaab03e46c2e6dfdc4b",
+    "output": "脚本/ryotei_assets/icons/香煎双菇肉卷.webp"
+  },
+  {
+    "name": "什锦天妇罗",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/3017.png",
+    "sha256": "37004141578f3d1822a11cb42f05f2cc5c95115335d15f51802919fde2d73fe4",
+    "output": "脚本/ryotei_assets/icons/什锦天妇罗.webp"
+  },
+  {
+    "name": "炸番茄条",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4000.png",
+    "sha256": "48d7b0f0d9f3db584e9d49520873cd65b005fa56a78013f0e415a24b860d866d",
+    "output": "脚本/ryotei_assets/icons/炸番茄条.webp"
+  },
+  {
+    "name": "蜜桃红烧肉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4001.png",
+    "sha256": "6f1ae47ebea90e900ad80b442abc0e31d02a25f9e16a26e01cd839484128f6f2",
+    "output": "脚本/ryotei_assets/icons/蜜桃红烧肉.webp"
+  },
+  {
+    "name": "逆转天地！",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4002.png",
+    "sha256": "0123d72694b99333555761fb0da83c4fe909666eaf6f5982f3a6f4c3c16cf5c6",
+    "output": "脚本/ryotei_assets/icons/逆转天地！.webp"
+  },
+  {
+    "name": "红豆大福",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4003.png",
+    "sha256": "0e870027e743217e4c5a58ac32962d4e8a07a74c764168c95f86158f9b83ca3f",
+    "output": "脚本/ryotei_assets/icons/红豆大福.webp"
+  },
+  {
+    "name": "铜锣烧",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4004.png",
+    "sha256": "a73b75ee4f8d242b852c72aba6f7568a7d9e4c60f23983bba058437e444f6594",
+    "output": "脚本/ryotei_assets/icons/铜锣烧.webp"
+  },
+  {
+    "name": "汉宫藏娇",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4005.png",
+    "sha256": "d73eba7f03e36a244e98bcf03c6de5cfdf2972d7e0310d28fb34ff7022b5c4ae",
+    "output": "脚本/ryotei_assets/icons/汉宫藏娇.webp"
+  },
+  {
+    "name": "石锅竹笋炖肉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4006.png",
+    "sha256": "3c29920ff089ccb9c36ff561c1999c3b10b6610048f6360e6975e2824842fa16",
+    "output": "脚本/ryotei_assets/icons/石锅竹笋炖肉.webp"
+  },
+  {
+    "name": "竹筒粉蒸肉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4007.png",
+    "sha256": "5e13cca88b327ab871e9c1529979711f6621eea5924050553fc016d53d64f565",
+    "output": "脚本/ryotei_assets/icons/竹筒粉蒸肉.webp"
+  },
+  {
+    "name": "翠竹迎春",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4008.png",
+    "sha256": "7b33988ce6ef99bd12b33c9e05897aed8c8fa83cad80e6426534c7099c934398",
+    "output": "脚本/ryotei_assets/icons/翠竹迎春.webp"
+  },
+  {
+    "name": "梅子茶泡饭",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4009.png",
+    "sha256": "076ef3c29a5423b99f4a0a37686f1ef562344b248e8cdd98b18c83288bb34566",
+    "output": "脚本/ryotei_assets/icons/梅子茶泡饭.webp"
+  },
+  {
+    "name": "海胆蒸蛋",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4010.png",
+    "sha256": "0c9dffd79c098288b2c88120898a877872af80594f82a084e3fccc7ea7762650",
+    "output": "脚本/ryotei_assets/icons/海胆蒸蛋.webp"
+  },
+  {
+    "name": "幻想风靡",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4011.png",
+    "sha256": "35e7bd81663ed9dce8cdad030f85b4bc05d27c1733323dbd9b93b511aa8861ee",
+    "output": "脚本/ryotei_assets/icons/幻想风靡.webp"
+  },
+  {
+    "name": "绿野仙菇",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4012.png",
+    "sha256": "6987c53a6a426081e78db62d77bd871b37f55218be880e6a900d9bcef6375134",
+    "output": "脚本/ryotei_assets/icons/绿野仙菇.webp"
+  },
+  {
+    "name": "花鸟风月",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4013.png",
+    "sha256": "eea3c50df11542f71a691f36f0562e9d46c320954740ab0a033ef36d66132553",
+    "output": "脚本/ryotei_assets/icons/花鸟风月.webp"
+  },
+  {
+    "name": "幽梦",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4014.png",
+    "sha256": "5f2725b7c9d41ae0cf2b273dd9fa8562f2b493bd9f16189c03ef958bae2e4111",
+    "output": "脚本/ryotei_assets/icons/幽梦.webp"
+  },
+  {
+    "name": "香椿煎饼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4015.png",
+    "sha256": "4b2795002161454c2b3b33114446b6db5133618823f70eaf35e661980c85b7d7",
+    "output": "脚本/ryotei_assets/icons/香椿煎饼.webp"
+  },
+  {
+    "name": "毒瘴花园",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4016.png",
+    "sha256": "690b4ddb68f6e897998e6de5a33a3d2332201e1fa4787d168aea5972af284526",
+    "output": "脚本/ryotei_assets/icons/毒瘴花园.webp"
+  },
+  {
+    "name": "小小的甜蜜「毒药」",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/4017.png",
+    "sha256": "340a04f2be88d860117fa0395c7e65ee46b8a81ed0380d7ffa0353c552fe0842",
+    "output": "脚本/ryotei_assets/icons/小小的甜蜜「毒药」.webp"
+  },
+  {
+    "name": "鳗鱼嫩蛋丼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5000.png",
+    "sha256": "3f9aa0de78b53f94cf6ef15bfc3d02db5f1be2c839211593c6ad6d3b8ba39b92",
+    "output": "脚本/ryotei_assets/icons/鳗鱼嫩蛋丼.webp"
+  },
+  {
+    "name": "竹筒烧醉虾",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5001.png",
+    "sha256": "0435e56abfaf68fec24adad5559163f66298ebed890e42a143a12b157e7ac7f1",
+    "output": "脚本/ryotei_assets/icons/竹筒烧醉虾.webp"
+  },
+  {
+    "name": "牛肉鸳鸯火锅",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5002.png",
+    "sha256": "c83dc7a6fe4a5d535d3242392dc985a34aba43025e388d5852a0bc05bb26be37",
+    "output": "脚本/ryotei_assets/icons/牛肉鸳鸯火锅.webp"
+  },
+  {
+    "name": "猫咪可露丽",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5003.png",
+    "sha256": "fbd958b4312274c48c4b21a099c59b95c509024872d91654eabdcc7863f869c1",
+    "output": "脚本/ryotei_assets/icons/猫咪可露丽.webp"
+  },
+  {
+    "name": "猫咪披萨",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5004.png",
+    "sha256": "2596d423c9907d55be3e4c4163e04a2f0c3ae4f728c1f59d30fd9fcc74fe005d",
+    "output": "脚本/ryotei_assets/icons/猫咪披萨.webp"
+  },
+  {
+    "name": "猫咪戏水",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5005.png",
+    "sha256": "986f25cd05b6be75a18cf7b915cc2005a117699727496b3f6c65d52011aacd0d",
+    "output": "脚本/ryotei_assets/icons/猫咪戏水.webp"
+  },
+  {
+    "name": "长发公主",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5006.png",
+    "sha256": "422464becda13968c80f046edf1f95ae44aba8fb15f3eba47817ce4618568bcd",
+    "output": "脚本/ryotei_assets/icons/长发公主.webp"
+  },
+  {
+    "name": "海胆信玄饼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5007.png",
+    "sha256": "e37942b01778df66ca974e0a303610260939a4fff37227b5787e2d220ff70fe1",
+    "output": "脚本/ryotei_assets/icons/海胆信玄饼.webp"
+  },
+  {
+    "name": "疯帽子茶会",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5008.png",
+    "sha256": "5f01b42d4d8c05165660bc745f2227bbda7c76ba234b3507c12a45434498502c",
+    "output": "脚本/ryotei_assets/icons/疯帽子茶会.webp"
+  },
+  {
+    "name": "桃花琉璃卷",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5009.png",
+    "sha256": "3c436cb70c6feaacff16ecabb25cc116e04ce7531b0ef70e50133e7763fca5a9",
+    "output": "脚本/ryotei_assets/icons/桃花琉璃卷.webp"
+  },
+  {
+    "name": "荷塘月色",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5010.png",
+    "sha256": "4db70512bc409f4a22546e5f6ecc9a7c375286c7de13b08bca14806c2ccd0f6c",
+    "output": "脚本/ryotei_assets/icons/荷塘月色.webp"
+  },
+  {
+    "name": "龙吟桃子",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5011.png",
+    "sha256": "74df83c42cedd9e6ad916e810c948fdd1638c12080100bd75d661d4589ce1e8a",
+    "output": "脚本/ryotei_assets/icons/龙吟桃子.webp"
+  },
+  {
+    "name": "分子蛋",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5012.png",
+    "sha256": "3fbce2519e5a705d41aa42c242cb97a21c50e3df98f5e051ca8e8cd350eea12e",
+    "output": "脚本/ryotei_assets/icons/分子蛋.webp"
+  },
+  {
+    "name": "生命之源",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5013.png",
+    "sha256": "e0702eb8e046ee69e66ea49bebf5bd97d1f90342bd0fcf389d913c64f2d6afb9",
+    "output": "脚本/ryotei_assets/icons/生命之源.webp"
+  },
+  {
+    "name": "火星",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5014.png",
+    "sha256": "5ac557008c578d750c8e1ec76f32c61e9ccf9aba65b2daa08dffd94b4960f159",
+    "output": "脚本/ryotei_assets/icons/火星.webp"
+  },
+  {
+    "name": "养心粥",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5015.png",
+    "sha256": "7dd9071351bd692b32ad28b330c8a66f8af8d4375cb38d99d6b37b1faf1ce9be",
+    "output": "脚本/ryotei_assets/icons/养心粥.webp"
+  },
+  {
+    "name": "胡辣汤",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5016.png",
+    "sha256": "18fe3b38d28dfd50e057df4de5edfc542afd5ed1831e5c0144619a2561f3650d",
+    "output": "脚本/ryotei_assets/icons/胡辣汤.webp"
+  },
+  {
+    "name": "至尊海鲜面",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/foods/5017.png",
+    "sha256": "762bbf8ea523fd557bcd4139f4cf2d9eb5a80c9614049f3935f83220e518b996",
+    "output": "脚本/ryotei_assets/icons/至尊海鲜面.webp"
+  },
+  {
+    "name": "鸡蛋",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0000.png",
+    "sha256": "9cbf754c8971763fe120022058bef4566a7be52cfd87d8d1419f6c851a4d15f1",
+    "output": "脚本/ryotei_assets/icons/鸡蛋.webp"
+  },
+  {
+    "name": "猪肉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0001.png",
+    "sha256": "7628903235f6c05950a62e6ee944166e9e5986b29731b6148412c52b18eeea6c",
+    "output": "脚本/ryotei_assets/icons/猪肉.webp"
+  },
+  {
+    "name": "牛肉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0002.png",
+    "sha256": "1cb3180d316ae35157782f552b247133b4d72fa4533ef39e4fc4ef43d91a2b50",
+    "output": "脚本/ryotei_assets/icons/牛肉.webp"
+  },
+  {
+    "name": "鹿肉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0003.png",
+    "sha256": "89b108fb094654bb0e9fbdbaf1732fb9e0e4d73bed339dc2bf2b328bfe073967",
+    "output": "脚本/ryotei_assets/icons/鹿肉.webp"
+  },
+  {
+    "name": "野猪肉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0004.png",
+    "sha256": "f037740915e32c5c0fd93cfd463d9ca6518511a5c69ac2dd22be08cf83ee944f",
+    "output": "脚本/ryotei_assets/icons/野猪肉.webp"
+  },
+  {
+    "name": "豆腐",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0005.png",
+    "sha256": "ff449218d26e54b83d3cb656d4312e8fcce54663152f884c7e7b2a0915dcfcd8",
+    "output": "脚本/ryotei_assets/icons/豆腐.webp"
+  },
+  {
+    "name": "土豆",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0006.png",
+    "sha256": "a3c567590feaf60ed49a9a77d772c0269b7786e182d1a8eee0401c2a5802dff8",
+    "output": "脚本/ryotei_assets/icons/土豆.webp"
+  },
+  {
+    "name": "洋葱",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0007.png",
+    "sha256": "68e4907b9bbdf6425fac5f7bb0ff0e473f9c0c0394eac5e86666dc83dff80ddd",
+    "output": "脚本/ryotei_assets/icons/洋葱.webp"
+  },
+  {
+    "name": "南瓜",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0008.png",
+    "sha256": "7317a22c212c16c797853e7b58bba6650fd89aeb1d14e7ae487e9e8035edae85",
+    "output": "脚本/ryotei_assets/icons/南瓜.webp"
+  },
+  {
+    "name": "萝卜",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0009.png",
+    "sha256": "6900efa5b0bf1df2deef2eda523407c964e24d0838d2906a36e96e0c757a149c",
+    "output": "脚本/ryotei_assets/icons/萝卜.webp"
+  },
+  {
+    "name": "海苔",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0010.png",
+    "sha256": "d10d9b99c1a17767537a280fab2a930cda2bb1b5756ea2f701c8ea2ab9833ef9",
+    "output": "脚本/ryotei_assets/icons/海苔.webp"
+  },
+  {
+    "name": "鳟鱼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0011.png",
+    "sha256": "4c0552578f629ec3444f2bbeede140d34067f976deb0b8bf1af71af3a55ecea8",
+    "output": "脚本/ryotei_assets/icons/鳟鱼.webp"
+  },
+  {
+    "name": "八目鳗",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0012.png",
+    "sha256": "3b73a03afe0cb3c9c52a4a31f787538e99c2e5a0e9424740b11e2990770f68e1",
+    "output": "脚本/ryotei_assets/icons/八目鳗.webp"
+  },
+  {
+    "name": "三文鱼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0013.png",
+    "sha256": "2106aadfdd4222eb093d4d00c9bfed7a0e86c7c977659f42b613deaa79632641",
+    "output": "脚本/ryotei_assets/icons/三文鱼.webp"
+  },
+  {
+    "name": "金枪鱼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0014.png",
+    "sha256": "323234889fe492209621488091327030af677473e45201da09cff4ef0ac9959c",
+    "output": "脚本/ryotei_assets/icons/金枪鱼.webp"
+  },
+  {
+    "name": "黑毛猪肉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0015.png",
+    "sha256": "1b805bea317fb42ecce0cd901a6e98be7718ae92380a984c44daecd1a23088e0",
+    "output": "脚本/ryotei_assets/icons/黑毛猪肉.webp"
+  },
+  {
+    "name": "和牛",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0016.png",
+    "sha256": "33be42159fb80b6f46c1f50b4bc108f78577ca721537cade4cd9097ea4bf01f4",
+    "output": "脚本/ryotei_assets/icons/和牛.webp"
+  },
+  {
+    "name": "蘑菇",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0017.png",
+    "sha256": "da216d081adcca1000e148d897a53e145e2ebd05697cf91c59dccbe7fd7960e1",
+    "output": "脚本/ryotei_assets/icons/蘑菇.webp"
+  },
+  {
+    "name": "松露",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0018.png",
+    "sha256": "f6e9c7d47539ddf2201d82b85486c937914ceb76015a8349b97f4c34e0767083",
+    "output": "脚本/ryotei_assets/icons/松露.webp"
+  },
+  {
+    "name": "极上金枪鱼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0019.png",
+    "sha256": "5fe7c2284b16848547efaff102cfd9b8c60cb6b99a3cc6c7daaffffeddf5ea20",
+    "output": "脚本/ryotei_assets/icons/极上金枪鱼.webp"
+  },
+  {
+    "name": "河豚",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0020.png",
+    "sha256": "5eef43e471d8b117f57184201ffa0bf3f1812811b159ffe364e805ef99702170",
+    "output": "脚本/ryotei_assets/icons/河豚.webp"
+  },
+  {
+    "name": "桃子",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0021.png",
+    "sha256": "e96df40a2d3666678cab74299a0a33cf738c6650df1226d7e5bd8ef2abde7a5d",
+    "output": "脚本/ryotei_assets/icons/桃子.webp"
+  },
+  {
+    "name": "白果",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0022.png",
+    "sha256": "abd292b836f3ab9a8b841ee1ec4506dbd9636cca87367b3513dd5c21fe9eb8b1",
+    "output": "脚本/ryotei_assets/icons/白果.webp"
+  },
+  {
+    "name": "虾",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0023.png",
+    "sha256": "c41ae65dea51d92c88869ea6f5ff9eddd9aac1d4627e866662c9714909bb03dd",
+    "output": "脚本/ryotei_assets/icons/虾.webp"
+  },
+  {
+    "name": "蜂蜜",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0024.png",
+    "sha256": "8adf6db5b504aa56f5f93862c4c373fe47f2cce323ee96005a5de50887b18ead",
+    "output": "脚本/ryotei_assets/icons/蜂蜜.webp"
+  },
+  {
+    "name": "蝉蜕",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0025.png",
+    "sha256": "bac853229097544fb3e6d521fe8f0cf9b9ce806600ae69dbaac6baf74f4438b0",
+    "output": "脚本/ryotei_assets/icons/蝉蜕.webp"
+  },
+  {
+    "name": "幻昙华",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0026.png",
+    "sha256": "09d3eab334d3052eb10941861b4fe368ca8443231af4b9dcf83d67374a3e6cb6",
+    "output": "脚本/ryotei_assets/icons/幻昙华.webp"
+  },
+  {
+    "name": "露水",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0027.png",
+    "sha256": "1ec292b5e1835a9cea1dd21e2b33658d2e81f9530e5e24a1f50382d5b997991e",
+    "output": "脚本/ryotei_assets/icons/露水.webp"
+  },
+  {
+    "name": "竹笋",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0028.png",
+    "sha256": "59a68415ac0e908068ded3ef0685d605b5f78f262e6a08bc3dadb5edf0a0f218",
+    "output": "脚本/ryotei_assets/icons/竹笋.webp"
+  },
+  {
+    "name": "黄油",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0029.png",
+    "sha256": "166f65a6f8953999a1c01e58af65e750a01c2725e5964c0c68c0831787f95034",
+    "output": "脚本/ryotei_assets/icons/黄油.webp"
+  },
+  {
+    "name": "面粉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0030.png",
+    "sha256": "4a325413e0550031d7d5680ea56832d6e2fd838bb8faa43d95b9118918fd9166",
+    "output": "脚本/ryotei_assets/icons/面粉.webp"
+  },
+  {
+    "name": "竹子",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0031.png",
+    "sha256": "017a440a0e5b6a16cbd33f6508416c3d28f9eacc50242155e460e74d1cb8cb04",
+    "output": "脚本/ryotei_assets/icons/竹子.webp"
+  },
+  {
+    "name": "糯米",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0032.png",
+    "sha256": "90f5dd2442d09c5b5d217ea632aa1f7b4f51262783b4f32c88fd48dffc624db2",
+    "output": "脚本/ryotei_assets/icons/糯米.webp"
+  },
+  {
+    "name": "月光草",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0033.png",
+    "sha256": "0a7b84a1df92a98f575793a0d2855e34c1eda1ec36f7ef691700170f735d2955",
+    "output": "脚本/ryotei_assets/icons/月光草.webp"
+  },
+  {
+    "name": "冰块",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0034.png",
+    "sha256": "6df3747a303615ba73b4ef9ef1490cffa9bf9eab1d97ebba801308ff9abacccc",
+    "output": "脚本/ryotei_assets/icons/冰块.webp"
+  },
+  {
+    "name": "辣椒",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0035.png",
+    "sha256": "f9cd2108239478681d64fd2fefac9658731bbd3c5f5172d94a91423afbdb28a4",
+    "output": "脚本/ryotei_assets/icons/辣椒.webp"
+  },
+  {
+    "name": "葡萄",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/0036.png",
+    "sha256": "1f739af994c3d13fc1914ca7a6da4c1f71bc72ce9f6b66be007855879fba8846",
+    "output": "脚本/ryotei_assets/icons/葡萄.webp"
+  },
+  {
+    "name": "黄瓜",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/1000.png",
+    "sha256": "5805724dca6db962692566bea5cdc2fbe7ae226cdfad1113f53b54426e001f32",
+    "output": "脚本/ryotei_assets/icons/黄瓜.webp"
+  },
+  {
+    "name": "章鱼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/1001.png",
+    "sha256": "be3ca0158b2ff55192d07325f1e6521a322cb97ba96935c689576b629591d906",
+    "output": "脚本/ryotei_assets/icons/章鱼.webp"
+  },
+  {
+    "name": "海胆",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/1002.png",
+    "sha256": "58389167f4c6bb5ca2c4c2e36c0e23025e191519e262c877c34db35e861a67bf",
+    "output": "脚本/ryotei_assets/icons/海胆.webp"
+  },
+  {
+    "name": "黑盐",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/1003.png",
+    "sha256": "2a9ba069a80f1e5f6c4792d85f26fb814c9ad38260b379d1ac35a6cea332f9e3",
+    "output": "脚本/ryotei_assets/icons/黑盐.webp"
+  },
+  {
+    "name": "奶油",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/1004.png",
+    "sha256": "685b3944f1c2d49a838404512c7763201ea4999ea47358c5a4e877fd217de92b",
+    "output": "脚本/ryotei_assets/icons/奶油.webp"
+  },
+  {
+    "name": "螃蟹",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/1005.png",
+    "sha256": "a70847d6bbeadcc969c43c31e0951ebf455454af0c0455a0b3c827a69dbf195f",
+    "output": "脚本/ryotei_assets/icons/螃蟹.webp"
+  },
+  {
+    "name": "并蒂莲",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/2000.png",
+    "sha256": "a7df7cb46d10b80094e6a94910ff1ae27574d2f0a45b02c07a40b2a875417ca3",
+    "output": "脚本/ryotei_assets/icons/并蒂莲.webp"
+  },
+  {
+    "name": "柠檬",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/2001.png",
+    "sha256": "1b77079f7c787ce599ef3c8a090881009d0d6a58fa3778205e68ab01832760a1",
+    "output": "脚本/ryotei_assets/icons/柠檬.webp"
+  },
+  {
+    "name": "芝士",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/2002.png",
+    "sha256": "de8af01abd8a94b91655edb7194fab52229f66c54afd6244df87e0d14826a1e2",
+    "output": "脚本/ryotei_assets/icons/芝士.webp"
+  },
+  {
+    "name": "莲子",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/3000.png",
+    "sha256": "b2eb4d7880927cf4033bcf7c5912c8cf6c3386cc740e4ca84c91147e37891ed1",
+    "output": "脚本/ryotei_assets/icons/莲子.webp"
+  },
+  {
+    "name": "地瓜",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/3001.png",
+    "sha256": "58beb4563e0fd7d7318bf91baa76cb6702e8379ce259943008377dbcc0b5f110",
+    "output": "脚本/ryotei_assets/icons/地瓜.webp"
+  },
+  {
+    "name": "松子",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/3002.png",
+    "sha256": "5387604b4b6f581a0b07c66389c833cb67d1af8d781f6f2353e433ed69f6cec1",
+    "output": "脚本/ryotei_assets/icons/松子.webp"
+  },
+  {
+    "name": "板栗",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/3003.png",
+    "sha256": "890c01d27a06dcbab82f3374082e5d3ab039e40b99ddb7e2a6a8f3b2c0621825",
+    "output": "脚本/ryotei_assets/icons/板栗.webp"
+  },
+  {
+    "name": "梅子",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/4000.png",
+    "sha256": "8ca9b0acafac39a9854aa61e48d7efc04950201950f425a5a600e054786425f7",
+    "output": "脚本/ryotei_assets/icons/梅子.webp"
+  },
+  {
+    "name": "红豆",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/4001.png",
+    "sha256": "dd82effd9ccbbacae24c56b177e32860902c5264c66f0ddbeac614b0378f76f2",
+    "output": "脚本/ryotei_assets/icons/红豆.webp"
+  },
+  {
+    "name": "鲜花",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/4002.png",
+    "sha256": "64ee0dcd8ff988a20729bd82ebe51722993dbdd851d40a0e1a621e6ff2865d4f",
+    "output": "脚本/ryotei_assets/icons/鲜花.webp"
+  },
+  {
+    "name": "香椿",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/4003.png",
+    "sha256": "0b9c64893b52678e34b2480a1d4c1cb3e4458be5ad28ad224b8879eabd97803c",
+    "output": "脚本/ryotei_assets/icons/香椿.webp"
+  },
+  {
+    "name": "西红柿",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/4004.png",
+    "sha256": "597409c98d074f5b3d09c92b03ddfd095f6410dd88e3bcd4f73d29fd7c000a64",
+    "output": "脚本/ryotei_assets/icons/西红柿.webp"
+  },
+  {
+    "name": "可可豆",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/5000.png",
+    "sha256": "43bd3aec45e00f260d635c578d21299875a633f598726ea0fc3acaa42b914167",
+    "output": "脚本/ryotei_assets/icons/可可豆.webp"
+  },
+  {
+    "name": "西蓝花",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/5001.png",
+    "sha256": "f3038f861533ccfcd4d6d5cab2bb036445927769084067aae29ce3bae1fa85a4",
+    "output": "脚本/ryotei_assets/icons/西蓝花.webp"
+  },
+  {
+    "name": "噗噗呦果",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/5002.png",
+    "sha256": "7476f526248d16eeb858ab9319f2aa819bfcbdda3cf1e7c16cdb03fdbca6578c",
+    "output": "脚本/ryotei_assets/icons/噗噗呦果.webp"
+  },
+  {
+    "name": "薜荔",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/5003.png",
+    "sha256": "57a45c49f44f006257464cfd31b45693453262fd5f39632a27c52d5eb8701ca4",
+    "output": "脚本/ryotei_assets/icons/薜荔.webp"
+  },
+  {
+    "name": "银耳",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/5004.png",
+    "sha256": "1b33303b23189dbb8cc15f7fe773a6f212f4c8c500cc1b4075cee4749f531c53",
+    "output": "脚本/ryotei_assets/icons/银耳.webp"
+  },
+  {
+    "name": "强效辣椒素",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/5005.png",
+    "sha256": "826d438a26169d2b1da070703b17c154cd8f580c7321a6aefdb160a340709447",
+    "output": "脚本/ryotei_assets/icons/强效辣椒素.webp"
+  },
+  {
+    "name": "铃仙",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/ingredients/-1.png",
+    "sha256": "5e46664557f97af8e07ba7cffcedfb97ffb0388822f5e036a9b033ae336022f9",
+    "output": "脚本/ryotei_assets/icons/铃仙.webp"
+  },
+  {
+    "name": "绿茶",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0000.png",
+    "sha256": "a740331bda8ee88bed1f9b772609db4b00f9065b714d2f66c2060dacd0655513",
+    "output": "脚本/ryotei_assets/icons/绿茶.webp"
+  },
+  {
+    "name": "果味High Ball",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0001.png",
+    "sha256": "adda1df9b2b83528e8e6e4b6ef0113836e020f757a253de9f6a45860328e1989",
+    "output": "脚本/ryotei_assets/icons/果味High Ball.webp"
+  },
+  {
+    "name": "果味SOUR",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0002.png",
+    "sha256": "5fa9f87a17b20f93cdd6ffa8ec7fbdc321120161ce7009828c5097a4ba1e5a57",
+    "output": "脚本/ryotei_assets/icons/果味SOUR.webp"
+  },
+  {
+    "name": "淇",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0003.png",
+    "sha256": "bcfc98717d7f08581a1c203f2841a269bd73edff6d39bff4c3d3bcd157add3d0",
+    "output": "脚本/ryotei_assets/icons/淇.webp"
+  },
+  {
+    "name": "超ZUN啤酒",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0004.png",
+    "sha256": "d4950f0ca5b5033798bd96affd8b4f337182ea38e1fc2d558b4473a1cd525537",
+    "output": "脚本/ryotei_assets/icons/超ZUN啤酒.webp"
+  },
+  {
+    "name": "日月星",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0005.png",
+    "sha256": "fff54eb51eb7fe65e6360b398fa8ec7551738a90cd20aff4e39be20f4f8a13fd",
+    "output": "脚本/ryotei_assets/icons/日月星.webp"
+  },
+  {
+    "name": "梅酒",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0006.png",
+    "sha256": "ee76690cab19fe56161ecd70b9e7ecfd160f24a5bd3f300a147c33dd9585a9df",
+    "output": "脚本/ryotei_assets/icons/梅酒.webp"
+  },
+  {
+    "name": "天狗踊",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0007.png",
+    "sha256": "cb9323563b0331017287bb002ba5e8ab3b467ca6ae7a13740cd5600f1449521e",
+    "output": "脚本/ryotei_assets/icons/天狗踊.webp"
+  },
+  {
+    "name": "猩红恶魔",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0008.png",
+    "sha256": "d1acb24f7ae798c0045c987d1cb0a5d0f29c0ddaa051217091da75ceeb37f8b7",
+    "output": "脚本/ryotei_assets/icons/猩红恶魔.webp"
+  },
+  {
+    "name": "神之麦",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0009.png",
+    "sha256": "4e67b35578dbf213eddcb0ceb73b54bf21f46fa176275b29384337e675aaba23",
+    "output": "脚本/ryotei_assets/icons/神之麦.webp"
+  },
+  {
+    "name": "水獭祭",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0010.png",
+    "sha256": "1477b4a250b750b762cb2367b643fc1a6e4149655642bf21b3f3c2648186b377",
+    "output": "脚本/ryotei_assets/icons/水獭祭.webp"
+  },
+  {
+    "name": "晓",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0011.png",
+    "sha256": "dde5408836eef280038074d2e435d597c0d31611eec03cebcaa259a85171a32e",
+    "output": "脚本/ryotei_assets/icons/晓.webp"
+  },
+  {
+    "name": "雀酒",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0012.png",
+    "sha256": "94e9b08c2dd0a255e0590cb433231bbc573271d4885e2ac65c7a47d33bacad34",
+    "output": "脚本/ryotei_assets/icons/雀酒.webp"
+  },
+  {
+    "name": "红魔馆红茶",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0013.png",
+    "sha256": "cb8dd0ab8e606380a8aeb7e799442fbdfa33b6de0b68ab9588257d5734713843",
+    "output": "脚本/ryotei_assets/icons/红魔馆红茶.webp"
+  },
+  {
+    "name": "阿芙加朵",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0014.png",
+    "sha256": "80264e6036f246c18f4245de50f310cbc3ff9af27092114c20ee4df98ac4537f",
+    "output": "脚本/ryotei_assets/icons/阿芙加朵.webp"
+  },
+  {
+    "name": "红雾",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0015.png",
+    "sha256": "a126e113e8b2c1f6058f394f4a46a144bfb2ffb8e06b77af4cc907f99d26e1a1",
+    "output": "脚本/ryotei_assets/icons/红雾.webp"
+  },
+  {
+    "name": "尼格罗尼",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0016.png",
+    "sha256": "082954b91ebb6a590b9ffbc910811b72bec6e9df153bb4239cceaba965ed448c",
+    "output": "脚本/ryotei_assets/icons/尼格罗尼.webp"
+  },
+  {
+    "name": "教父",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0017.png",
+    "sha256": "69ba82611b1e85ae9d3011eeabe1b19043d89a99554922e027f75f47bc7af472",
+    "output": "脚本/ryotei_assets/icons/教父.webp"
+  },
+  {
+    "name": "风祝",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0018.png",
+    "sha256": "d1ee11c4194bd95f2db3d8de1b70ed44ef02ab6f7cbd610365a6bf4097da26bd",
+    "output": "脚本/ryotei_assets/icons/风祝.webp"
+  },
+  {
+    "name": "冬酿",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0019.png",
+    "sha256": "c31aceceff7bf78c8001304e958e1fe327333966ee59cbc6a6c1dd782d982b29",
+    "output": "脚本/ryotei_assets/icons/冬酿.webp"
+  },
+  {
+    "name": "十四夜",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0020.png",
+    "sha256": "13cd9b4cd20bda2cd5a51f4894322a6b4c6d8b803e55692299d1baea60226c2c",
+    "output": "脚本/ryotei_assets/icons/十四夜.webp"
+  },
+  {
+    "name": "火鼠裘",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0021.png",
+    "sha256": "1c95ae5054703b2bc16f8113bb8a59850bb81187e5a6d28b902d43417fb8ccb1",
+    "output": "脚本/ryotei_assets/icons/火鼠裘.webp"
+  },
+  {
+    "name": "玉露茶",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0022.png",
+    "sha256": "32e5eca6b35f42289f9c6e0e170110714b6f2d26fc8b642cb17a551b9df28d87",
+    "output": "脚本/ryotei_assets/icons/玉露茶.webp"
+  },
+  {
+    "name": "月面火箭",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0023.png",
+    "sha256": "bf6d07b468d49ce9e569860580ccb778c4ff2d581da50a99831f8b9922e409d4",
+    "output": "脚本/ryotei_assets/icons/月面火箭.webp"
+  },
+  {
+    "name": "牛奶",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0024.png",
+    "sha256": "4df525ee52322c69ba82b60a6486ab38cd9854583c878f38d6a27637d4083b8e",
+    "output": "脚本/ryotei_assets/icons/牛奶.webp"
+  },
+  {
+    "name": "红柚果汁",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0025.png",
+    "sha256": "750328a5a4f5c767e9dc98020bcce98a950473bbf6f711d6a20fb0a3ccc30468",
+    "output": "脚本/ryotei_assets/icons/红柚果汁.webp"
+  },
+  {
+    "name": "波子汽水",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0026.png",
+    "sha256": "69ee4ead1552c37e3a092b52d990b772ef99e8bd36dc47933b1109388b73fb80",
+    "output": "脚本/ryotei_assets/icons/波子汽水.webp"
+  },
+  {
+    "name": "冰山毛玉冻柠",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0027.png",
+    "sha256": "012b023b5f9bf670223ea04f0491630774f5a6587abb228bdb017151fe836ced",
+    "output": "脚本/ryotei_assets/icons/冰山毛玉冻柠.webp"
+  },
+  {
+    "name": "大冰棍儿!",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/0028.png",
+    "sha256": "29aff15d1ed757ae99db32cc65b3099d8938acc3df059f32f7e65a3429934ce3",
+    "output": "脚本/ryotei_assets/icons/大冰棍儿!.webp"
+  },
+  {
+    "name": "大吟酿",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/1000.png",
+    "sha256": "3e4a2f9f1b77e8d2094c94e75743b7f5cf39d335ee88f8c2c36d254ed0330671",
+    "output": "脚本/ryotei_assets/icons/大吟酿.webp"
+  },
+  {
+    "name": "咖啡",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/1001.png",
+    "sha256": "0ee953e085316355ae9707feb6db73a2924140c97599acc16bce8fa5924f2839",
+    "output": "脚本/ryotei_assets/icons/咖啡.webp"
+  },
+  {
+    "name": "妖精雨露",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/1002.png",
+    "sha256": "099ec5d4be2044a74c77ba796fc7aa37d381dafb97a5b2f3d27738e3716e4113",
+    "output": "脚本/ryotei_assets/icons/妖精雨露.webp"
+  },
+  {
+    "name": "古法奶油冰沙",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/1003.png",
+    "sha256": "74222ded85c325864cf9c4d577599c08f5dabcaed4603ef2ebcb3829053c0657",
+    "output": "脚本/ryotei_assets/icons/古法奶油冰沙.webp"
+  },
+  {
+    "name": "普通健身茶",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/1004.png",
+    "sha256": "ca9dcf2e18cf8b2310bf52abfbe3bd5e543785e030720fb60517aca393e3dad1",
+    "output": "脚本/ryotei_assets/icons/普通健身茶.webp"
+  },
+  {
+    "name": "鬼杀",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/2000.png",
+    "sha256": "b287f8685625d83757b918f7a8dfc7945bdc18417d54a1dc4d050621b272bd99",
+    "output": "脚本/ryotei_assets/icons/鬼杀.webp"
+  },
+  {
+    "name": "气保健",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/2001.png",
+    "sha256": "e206029d1b5625ff093c0182be8185c28b90729f9b945b1f596c9825850a7673",
+    "output": "脚本/ryotei_assets/icons/气保健.webp"
+  },
+  {
+    "name": "古明地冰激凌",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/2002.png",
+    "sha256": "5f6a9b77ba6c07f7acef5fd706f82470b7aad96347e18f27c8b9df96bfb38da0",
+    "output": "脚本/ryotei_assets/icons/古明地冰激凌.webp"
+  },
+  {
+    "name": "杨枝甘露",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/3000.png",
+    "sha256": "2da56533f10d0de5fce9267d4ed02fe276f5639ddfec1f449a9a9fdd043b8ca2",
+    "output": "脚本/ryotei_assets/icons/杨枝甘露.webp"
+  },
+  {
+    "name": "麒麟",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/3001.png",
+    "sha256": "fc318252c411481119ffb753670b1b2dd6984c4df1371ccc50e81148cf59e7ab",
+    "output": "脚本/ryotei_assets/icons/麒麟.webp"
+  },
+  {
+    "name": "天地无用",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/4000.png",
+    "sha256": "1e58b60972ea943b6549cccc26597850e80e5346bfb516d5cbabcd930617bd27",
+    "output": "脚本/ryotei_assets/icons/天地无用.webp"
+  },
+  {
+    "name": "伶人醉",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/4001.png",
+    "sha256": "d89665aafa9da56720e7b497b33eec28110ead3175520c5320d59c66d7633add",
+    "output": "脚本/ryotei_assets/icons/伶人醉.webp"
+  },
+  {
+    "name": "海的女儿",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/5000.png",
+    "sha256": "071659d9759d457d14efad9d7ee7a0c61c1e8d19e1fedb100186b003fed0a5cf",
+    "output": "脚本/ryotei_assets/icons/海的女儿.webp"
+  },
+  {
+    "name": "魔界咖啡",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/5001.png",
+    "sha256": "b3c590e91e57588cf6c52f6dfb6c490e32a05c6b80b5a601b15bac2d5841db83",
+    "output": "脚本/ryotei_assets/icons/魔界咖啡.webp"
+  },
+  {
+    "name": "莫吉托爆浆球",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/5002.png",
+    "sha256": "bd70933d622f775c4cbc81fad5041ac00a8d1413e4290476e0c14106602f2cbe",
+    "output": "脚本/ryotei_assets/icons/莫吉托爆浆球.webp"
+  },
+  {
+    "name": "太空啤酒",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/5003.png",
+    "sha256": "68fc5013c07913527040164dace95b69148a9d54b0cb6f4cf4d8ee5a0ceba8f8",
+    "output": "脚本/ryotei_assets/icons/太空啤酒.webp"
+  },
+  {
+    "name": "卫星冰咖啡",
+    "kind": "icons",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/beverages/5004.png",
+    "sha256": "453ab099fe4cc0aff4dd1571287255ebd7e436f8505ac158df77eba09c40cf65",
+    "output": "脚本/ryotei_assets/icons/卫星冰咖啡.webp"
+  },
+  {
+    "name": "妖怪兔",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0000.png",
+    "sha256": "7ea2515890abc2933e5cdc3b5fd5a4053856bbff47372e0aedbe663db2dcb28a",
+    "output": "脚本/ryotei_assets/normal/妖怪兔.webp"
+  },
+  {
+    "name": "妖怪猫",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0001.png",
+    "sha256": "d33bc19f8a7b7d791878ad44ce78522a2849561369f6794a2f4be304d526329f",
+    "output": "脚本/ryotei_assets/normal/妖怪猫.webp"
+  },
+  {
+    "name": "妖怪狸",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0002.png",
+    "sha256": "24ccae969e80cbba0276b191225dc7f238d26edcf6154ed35dbf8b6c595fea4e",
+    "output": "脚本/ryotei_assets/normal/妖怪狸.webp"
+  },
+  {
+    "name": "妖怪狐",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0003.png",
+    "sha256": "b687b2aaad204120e7e5a2a81d9d2e2481c77c80e93c37e83171f4e3a4c751bc",
+    "output": "脚本/ryotei_assets/normal/妖怪狐.webp"
+  },
+  {
+    "name": "蟒蛇精",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0004.png",
+    "sha256": "fbaffb3b854be07461aee0f694eeca157ce9d4e31fc955487bcc4f29aee49468",
+    "output": "脚本/ryotei_assets/normal/蟒蛇精.webp"
+  },
+  {
+    "name": "人类小孩",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0005.png",
+    "sha256": "d253b1eae201db223555197da45ccdf969aede30662181f4eca649ff4d8c173c",
+    "output": "脚本/ryotei_assets/normal/人类小孩.webp"
+  },
+  {
+    "name": "人类男性",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0006.png",
+    "sha256": "022cf9ff3d1c25ff74bbf97d3c63d224c48ee192462c6f9c0ad21ce61be4bc72",
+    "output": "脚本/ryotei_assets/normal/人类男性.webp"
+  },
+  {
+    "name": "人类女性",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0007.png",
+    "sha256": "ba87b41989345dcd600b25592d0e160fe4d3bc3a03c4bcd7ccd7f699e5c4583e",
+    "output": "脚本/ryotei_assets/normal/人类女性.webp"
+  },
+  {
+    "name": "人类长者",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0008.png",
+    "sha256": "3b7509a4544ccc86a86806b42ba6d01410f159ecff4cf3ea691212ee9f7a3576",
+    "output": "脚本/ryotei_assets/normal/人类长者.webp"
+  },
+  {
+    "name": "左卫门",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0009.png",
+    "sha256": "236eb8b0c674cc7d954534cf71c88065b1ce769020b08737a37c1957b0139622",
+    "output": "脚本/ryotei_assets/normal/左卫门.webp"
+  },
+  {
+    "name": "座敷童子",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0010.png",
+    "sha256": "34054a7026a41520ed98221a6a8be10ce7391ce3ce7d4baa91bc4af4e975f2d2",
+    "output": "脚本/ryotei_assets/normal/座敷童子.webp"
+  },
+  {
+    "name": "河童",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0011.png",
+    "sha256": "b72e7168361f3a9166e5575ed961ea45ae68485f42522a672a040f3be07e9bf9",
+    "output": "脚本/ryotei_assets/normal/河童.webp"
+  },
+  {
+    "name": "地精",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0012.png",
+    "sha256": "1c891e2fe2a51778138faa352cda3136f7f839b905b0ea55621dbe169972e5ee",
+    "output": "脚本/ryotei_assets/normal/地精.webp"
+  },
+  {
+    "name": "鸦天狗",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0013.png",
+    "sha256": "a1033360b5101364fbb2a4e295af9bf233ba3ff01d1b61919fa8d61a33a9823e",
+    "output": "脚本/ryotei_assets/normal/鸦天狗.webp"
+  },
+  {
+    "name": "妖精",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/0014.png",
+    "sha256": "d5e22f9f694a0b302d2d6d0e411da34657fa3b3fb0b6fb9ff6cc8d05e630e3f0",
+    "output": "脚本/ryotei_assets/normal/妖精.webp"
+  },
+  {
+    "name": "白狼天狗",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/1000.png",
+    "sha256": "1455ef211f113bbb9b953aa88728229905846a354d58a0bd70951d40d85c31e1",
+    "output": "脚本/ryotei_assets/normal/白狼天狗.webp"
+  },
+  {
+    "name": "山姥",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/1001.png",
+    "sha256": "9544941b9eac12ca658585ea0f74098c6beca114dfe08ec6e0061bed3df262dd",
+    "output": "脚本/ryotei_assets/normal/山姥.webp"
+  },
+  {
+    "name": "山童",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/1002.png",
+    "sha256": "6752dff0aa4a86c72074f02fb7f1a60f11b67a953682a0e3ff29ed8ad5bc0eb0",
+    "output": "脚本/ryotei_assets/normal/山童.webp"
+  },
+  {
+    "name": "魔法使",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/1003.png",
+    "sha256": "79fa175896c1bed3ff2eebd4548a61858351aeb38b3f271d16319ebd39387469",
+    "output": "脚本/ryotei_assets/normal/魔法使.webp"
+  },
+  {
+    "name": "森之妖精",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/1004.png",
+    "sha256": "737ecf72e56c86f839f90f51bcdc3c1fd34cc6ea87f0747ec64ba0f39a7f0db0",
+    "output": "脚本/ryotei_assets/normal/森之妖精.webp"
+  },
+  {
+    "name": "迷之人形",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/1005.png",
+    "sha256": "041bd0d93f13a23fe6e4e0b2de9cee390c1e2e02fa4f615c954d57e55ae31419",
+    "output": "脚本/ryotei_assets/normal/迷之人形.webp"
+  },
+  {
+    "name": "土蜘蛛",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/2000.png",
+    "sha256": "e75df91d3fddf81785d743b6530a020d70dbcd73e05df2418055444caac9e7f5",
+    "output": "脚本/ryotei_assets/normal/土蜘蛛.webp"
+  },
+  {
+    "name": "鬼",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/2001.png",
+    "sha256": "7fa6fed5bb38007006ce29b087cc698b6326ee634d69bcc2b69645e8b6fff352",
+    "output": "脚本/ryotei_assets/normal/鬼.webp"
+  },
+  {
+    "name": "骨女",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/2002.png",
+    "sha256": "3e19c84230f9bf51b80a3fdc6272cd3f8fce40c55d2331226ea31cab77bfca18",
+    "output": "脚本/ryotei_assets/normal/骨女.webp"
+  },
+  {
+    "name": "地狱鸦",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/2003.png",
+    "sha256": "fe164eefe6ee6312502573e7d023e2e45ec1bc75863f4eeee406c2df5cdab01b",
+    "output": "脚本/ryotei_assets/normal/地狱鸦.webp"
+  },
+  {
+    "name": "姑获鸟",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/2004.png",
+    "sha256": "c7b0bca31cbd6dbb8c09e0dfa78607ae78d721e7ba160b7b0c2e8b67ac983c9b",
+    "output": "脚本/ryotei_assets/normal/姑获鸟.webp"
+  },
+  {
+    "name": "豹女",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/2005.png",
+    "sha256": "edc500fb0b77bf28199ba72d3c7dc5469b8218c6893f426cd4a73f96c65acdca",
+    "output": "脚本/ryotei_assets/normal/豹女.webp"
+  },
+  {
+    "name": "僧侣",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/3000.png",
+    "sha256": "0c6582241fab7f923461b4c76a74d28ecb21cc4c3934eb7fe7427b8f72f2ad31",
+    "output": "脚本/ryotei_assets/normal/僧侣.webp"
+  },
+  {
+    "name": "妖怪鼠",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/3001.png",
+    "sha256": "376bd23e5d5195fb801e3cce7547338c012d0e23b18b618cba6535645f197034",
+    "output": "脚本/ryotei_assets/normal/妖怪鼠.webp"
+  },
+  {
+    "name": "八尺大人",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/3002.png",
+    "sha256": "14b4c2204ee86275b8f78e50e8bcb92430372a00b54b46fb70a03067137cea51",
+    "output": "脚本/ryotei_assets/normal/八尺大人.webp"
+  },
+  {
+    "name": "道士",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/3003.png",
+    "sha256": "d63af4f0549b075626864faf495caadcd8a496c80a916710c549df74866e09fe",
+    "output": "脚本/ryotei_assets/normal/道士.webp"
+  },
+  {
+    "name": "僵尸",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/3004.png",
+    "sha256": "d5a72d92ffd319311e41e8bb1ae97460614fd07227493239675823e63f059969",
+    "output": "脚本/ryotei_assets/normal/僵尸.webp"
+  },
+  {
+    "name": "仙人",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/3005.png",
+    "sha256": "a2a060bccc372582d7509491634464415500c0ddf66fd46a44179f91043abd16",
+    "output": "脚本/ryotei_assets/normal/仙人.webp"
+  },
+  {
+    "name": "小人族",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/4000.png",
+    "sha256": "f3d5dd75af79831c76c9b065de307bc0966adbc68c38e923887eaef94c4e70e9",
+    "output": "脚本/ryotei_assets/normal/小人族.webp"
+  },
+  {
+    "name": "不良少年",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/4001.png",
+    "sha256": "2f043a556beb4db19dabbdb4529afc791b2f37470d55e63a6c11fd16a7b01cd5",
+    "output": "脚本/ryotei_assets/normal/不良少年.webp"
+  },
+  {
+    "name": "不良少女",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/4002.png",
+    "sha256": "15064eeaf908912baf6074fe6050a12c87392242250b81d6684d22baf962ea2c",
+    "output": "脚本/ryotei_assets/normal/不良少女.webp"
+  },
+  {
+    "name": "玩具兵",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/4003.png",
+    "sha256": "a5e4462b50bb9f97137ee59466fb6e1e8d19820a395d79cd5e6eaad4626cb21f",
+    "output": "脚本/ryotei_assets/normal/玩具兵.webp"
+  },
+  {
+    "name": "铃兰花精",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/4004.png",
+    "sha256": "de646bec9aeab9a4f4c37b74e1f14898fbc971364ca9e5ff5809b759241eaa92",
+    "output": "脚本/ryotei_assets/normal/铃兰花精.webp"
+  },
+  {
+    "name": "太阳花精",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/4005.png",
+    "sha256": "d696781cee23ffb6ed6aa77e027e2f6e3e8e774fcebb62aeb6f09c6e54f038fa",
+    "output": "脚本/ryotei_assets/normal/太阳花精.webp"
+  },
+  {
+    "name": "玫瑰花精",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/4006.png",
+    "sha256": "cd88e1e15d9c9bb9d6216c72d124050fb50fdb14c9310e230dd8dad1c7c43bc7",
+    "output": "脚本/ryotei_assets/normal/玫瑰花精.webp"
+  },
+  {
+    "name": "影女",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/4007.png",
+    "sha256": "c8ced6d57cd23293cd5e1df8fa62fda4dda648c12f7b4e67ad9a6608c7925e6e",
+    "output": "脚本/ryotei_assets/normal/影女.webp"
+  },
+  {
+    "name": "纸牌兵",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/5000.png",
+    "sha256": "251895a9bc6917349e0a66ceb9259a6abda1d8cb25e2cf242b02268a816e7fdf",
+    "output": "脚本/ryotei_assets/normal/纸牌兵.webp"
+  },
+  {
+    "name": "小丑",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/5001.png",
+    "sha256": "dc545e618b2d9e7acd71528507fa6df879692b9a0eecc7f2c6a0202a2a95bec2",
+    "output": "脚本/ryotei_assets/normal/小丑.webp"
+  },
+  {
+    "name": "疯帽匠",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/5002.png",
+    "sha256": "acd4cbdb266a7b02005363b769aacd60e742411b355f8a0b42c5e5f804d10965",
+    "output": "脚本/ryotei_assets/normal/疯帽匠.webp"
+  },
+  {
+    "name": "月人",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/5003.png",
+    "sha256": "e062899ee675f63306c962a6677c2452096456be7e1f0a70defff7bb92bb9b40",
+    "output": "脚本/ryotei_assets/normal/月人.webp"
+  },
+  {
+    "name": "捣药兔",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/5004.png",
+    "sha256": "b5471b598a815bb0f747236bb67e368729f9f66e965b26f4266ed97cd900f8dc",
+    "output": "脚本/ryotei_assets/normal/捣药兔.webp"
+  },
+  {
+    "name": "月之使者",
+    "kind": "normal",
+    "source": "原始资料/repos/touhou-mystia-izakaya-assistant/scripts/assets/sprites/input/normal_guests/5005.png",
+    "sha256": "874309ffbc3f6461faab4be5057b4ba3cc36c51b575dab505bfa13b14fab514a",
+    "output": "脚本/ryotei_assets/normal/月之使者.webp"
+  }
+]

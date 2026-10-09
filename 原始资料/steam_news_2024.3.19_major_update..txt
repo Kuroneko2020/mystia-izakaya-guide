@@ -1,0 +1,28 @@
+2024.3.19 major update.
+https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/7309977427452850799
+
+Additions and Optimizations:
+[list]
+[*]Added new song selection for the concert. Players who own DLC1-5 will unlock a new song after maxing out the bonds of every character in a DLC respectively. The song that plays when not having max bond with all characters, Please Come Again to Mystia's Izakaya, has also been added into the selections, meaning you now have a selection of up to 7 songs for the concert!
+[*]Added Switch fanart. Please check your submission if you've made one. For any inquiries and errors, please let me know by emailing langqiaoemeng@qq.com. It was ultimately decided after discussion that some submissions would be controversial, so we did not add them in. We apologize deeply to anyone whose submission didn't make the cut. 
+[*]You can now revisit the rules for DLC2's boss fight at Satori.
+[*]Lunar Trial/Mizuchi battle max follow-up orders limited to 2-3.
+[/list]
+
+Fixes:
+[list]
+[*]Fixed an issue where the game would crash when business ends.
+[*]Fixed an issue the game would crash when exiting the Bizarre Cooking Competition.
+[*]Fixed an issue where collecting the "Oni Killer" from Makai while not having DLC2 would crash the game; added JP branch to Bunbunmaru newspaper.
+[*]Fixed an issue where budget would increase when not supposed to every time Mima's magic circle is activated.
+[*]Fixed an issue where Youmu wouldn't be a rare guest when heading to her trial while the Creator's Box is active.
+[*]Fixed an issue with the language buttons in the settings.
+[*]Fixed an issue where punishment spell cards wouldn't charge up Mima's spell.
+[*]Fixed an issue with the rotation of text on the menu in the Traditional Chinese version.
+[*]Fixed an issue where the game would crash by opening the notebook as the shop is closing.
+[*]Fixed an issue where the game would crash after max bonding everyone in DLC2 in the Traditional Chinese version.
+[*]Fixed an issue with the order of dishes when not having any dishes.
+[*]Fixed an issue where vibe songs 1 and 2 of DLC1 were swapped in the phonograph.
+[*]Fixed an issue where saving under certain circumstances would crash the game.
+[*]Fixed an issue where guests in line would bug out after Rin Kaenbyou's punishment spell card.
+[/list]

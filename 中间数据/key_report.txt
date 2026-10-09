@@ -1,0 +1,12 @@
+===== FOOD_LIST
+from keys: Counter({'bond': 165, 'levelup': 10, 'areaTask': 8, 'buy': 8, 'collaboration': 4, 'self': 3, 'failedCooking': 1})
+sub keys: Counter({'bond.level': 165, 'bond.specialGuest': 165, 'levelup.level': 10, 'levelup.map': 10, 'areaTask.map': 8, 'areaTask.task': 8, 'buy.merchant': 8, 'buy.price': 8, 'collaboration.collaborationLabel': 4, 'collaboration.merchants': 4, 'areaTask.specialGuest': 2, 'failedCooking.causeLabels': 1, 'failedCooking.punishmentSpellCardSpecialGuests': 1})
+===== INGREDIENT_LIST
+from keys: Counter({'buy': 62, 'collect': 53, 'fishingAdvanced': 21, 'fishing': 13, 'task': 8})
+sub keys: Counter({'buy[].map': 32, 'collect[].map': 30, 'buy[].label': 29, 'collect[].label': 25, 'task[].task': 8, 'collect[].labels': 5, 'buy[].specialGuest': 3})
+===== BEVERAGE_LIST
+from keys: Counter({'buy': 46, 'fishingAdvanced': 30, 'collect': 17, 'task': 6, 'self': 1, 'prayer': 1})
+sub keys: Counter({'buy[].map': 40, 'buy[].label': 36, 'collect[].map': 9, 'collect[].label': 8, 'task[].task': 6, 'buy[].specialGuest': 4, 'collect[].labels': 1, 'prayer[].label': 1, 'prayer[].map': 1})
+===== DECORATION_LIST
+from keys: Counter({'bond': 14, 'collaboration': 4, 'task': 1, 'completion': 1})
+sub keys: Counter({'bond.level': 14, 'bond.specialGuest': 14, 'collaboration.collaborationLabel': 4, 'task.map': 1, 'task.missionLabel': 1, 'task.startEventLabel': 1, 'completion.maps': 1, 'completion.specialGuest': 1, 'completion.story': 1})

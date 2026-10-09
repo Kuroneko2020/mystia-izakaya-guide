@@ -1,0 +1,43 @@
+{
+  "retrievedAt": "2026-10-06",
+  "storePage": "https://store.steampowered.com/app/1584090/",
+  "assets": [
+    {
+      "file": "store-background.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1584090/page_bg_raw.jpg?t=1788596587",
+      "bytes": 45661,
+      "sha256": "a7ba144ff3628731263d6f98e3694e801521b74801b2405ec7bc0c161a871ccf"
+    },
+    {
+      "file": "store-header.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1584090/header_schinese.jpg?t=1788596587",
+      "bytes": 65886,
+      "sha256": "0ec50240bb6a52f9c07def7c58a2f63ecd3c2bcd00d9944be4b68c1abbb357b7"
+    },
+    {
+      "file": "official-scene-0.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1584090/ss_6168286717eac24f81f0af7158ee26923bab7d2c.1920x1080.jpg?t=1788596587",
+      "bytes": 384066,
+      "sha256": "e544eb11e577db0d3603710d7cd8956cecf5691492bc6302b59fafd98019ddbf"
+    },
+    {
+      "file": "official-scene-1.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1584090/ss_d849fa78aca9d099fdb661c041b512953b5266e4.1920x1080.jpg?t=1788596587",
+      "bytes": 407746,
+      "sha256": "af5748b8f680c27b94f7cc43b60d204fb71dd55c41a7a7b08dd4366b7bcdc8f9"
+    },
+    {
+      "file": "official-scene-3.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1584090/ss_9a00ae73ba79645a5babfd838a617a1e8fb6b19d.1920x1080.jpg?t=1788596587",
+      "bytes": 222288,
+      "sha256": "9cb3932a1e878cc16f66ab733fcdb77fc0cf0467fef284bf6c867498214df6af"
+    },
+    {
+      "file": "official-scene-4.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1584090/ss_d02091aa97e667c89192be809022185b0263bab6.1920x1080.jpg?t=1788596587",
+      "bytes": 171785,
+      "sha256": "ff4227b0b9f917be7bc7f7332ed96773e9fa03feb3522fa1d3c60c6595670f38"
+    }
+  ],
+  "unusedDownloadFailure": "An optional store introduction AVIF failed with SSL EOF; not required or used."
+}

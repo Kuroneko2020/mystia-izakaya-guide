@@ -1,0 +1,44 @@
+<style id="guest-avatar-3d">
+/* 客人图鉴立体头像（效果取自 3D拟物试验版 的客人头像：只要立体与动态，不引入拟物皮肤）。
+   头像放大、perspective 透视错落，位置与原版对齐居中不上顶，悬停回正并轻微上浮带微光；
+   阴影沿用料亭版柔和暖色投影。仅作用于客人图鉴页签的 #guest-grid 与 #normal-grid 卡片。 */
+#guest-grid .guest-card,#normal-grid .guest-card{overflow:visible}
+#guest-grid .guest-id,#normal-grid .guest-id{gap:14px;min-width:0}
+#guest-grid .guest-card-top .ava,#guest-grid .guest-card-top .seal,
+#normal-grid .guest-card-top .ava,#normal-grid .guest-card-top .seal{
+  width:72px;height:72px;flex-shrink:0;border-radius:9px;
+  transform:perspective(500px) rotateY(-11deg) rotateZ(-4deg);
+  box-shadow:0 9px 18px #65502a2b,0 3px 7px #65502a24;
+  transition:transform .22s var(--spring),box-shadow .22s ease}
+#guest-grid .guest-card-top .ava img,#normal-grid .guest-card-top .ava img{width:100%;height:100%;object-fit:contain}
+#guest-grid .guest-card-top .seal,#normal-grid .guest-card-top .seal{font-size:33px}
+#guest-grid .guest-card:nth-child(3n+2) .guest-card-top .ava,
+#normal-grid .guest-card:nth-child(3n+2) .guest-card-top .ava{
+  transform:perspective(500px) rotateY(9deg) rotateZ(3deg)}
+#guest-grid .guest-card:hover .ava,#guest-grid .guest-card:hover .seal,
+#normal-grid .guest-card:hover .ava,#normal-grid .guest-card:hover .seal{
+  transform:perspective(500px) rotateY(-3deg) rotateZ(-1deg) translateY(-6px) scale(1.05);
+  box-shadow:0 13px 24px #65502a36,0 0 16px #dca04f40}
+#guest-grid .guest-card:nth-child(3n+2):hover .guest-card-top .ava,
+#normal-grid .guest-card:nth-child(3n+2):hover .guest-card-top .ava{
+  transform:perspective(500px) rotateY(3deg) rotateZ(1deg) translateY(-6px) scale(1.05)}
+@media(max-width:1200px){
+  #guest-grid .guest-card-top .ava,#guest-grid .guest-card-top .seal,
+  #normal-grid .guest-card-top .ava,#normal-grid .guest-card-top .seal{width:76px;height:76px}
+  #guest-grid .guest-card-top .seal,#normal-grid .guest-card-top .seal{font-size:35px}}
+@media(max-width:900px){
+  #guest-grid .guest-card-top .ava,#guest-grid .guest-card-top .seal,
+  #normal-grid .guest-card-top .ava,#normal-grid .guest-card-top .seal{width:84px;height:84px}
+  #guest-grid .guest-card-top .seal,#normal-grid .guest-card-top .seal{font-size:38px}}
+@media(max-width:620px){
+  #guest-grid .guest-card-top .ava,#guest-grid .guest-card-top .seal,
+  #normal-grid .guest-card-top .ava,#normal-grid .guest-card-top .seal{width:90px;height:90px}
+  #guest-grid .guest-card-top .seal,#normal-grid .guest-card-top .seal{font-size:41px}}
+@media(hover:none),(prefers-reduced-motion:reduce){
+  #guest-grid .guest-card:hover .ava,#guest-grid .guest-card:hover .seal,
+  #normal-grid .guest-card:hover .ava,#normal-grid .guest-card:hover .seal{
+    transform:perspective(500px) rotateY(-11deg) rotateZ(-4deg)}
+  #guest-grid .guest-card:nth-child(3n+2):hover .guest-card-top .ava,
+  #normal-grid .guest-card:nth-child(3n+2):hover .guest-card-top .ava{
+    transform:perspective(500px) rotateY(9deg) rotateZ(3deg)}}
+</style>

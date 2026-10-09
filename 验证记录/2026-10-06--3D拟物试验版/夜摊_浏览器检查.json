@@ -1,0 +1,164 @@
+{
+  "checkedAt": "2026-10-06T13:17:25.883Z",
+  "artifactSha256": "837f7e85880e515dc4d2d413887523c89a24f77b3b9b506c29627ccbbcff8f56",
+  "sourceSha256": "01d36ce39add10e28982e16d793d1630c66e6adbc01d77d94d76d9c3c3edc65b",
+  "cases": [
+    {
+      "test": "close-and-immediate-next",
+      "release": {
+        "backdropPointer": "none",
+        "hit": "帕秋莉",
+        "panelHidden": false,
+        "panelPointer": "none"
+      },
+      "next": {
+        "open": true,
+        "title": "帕秋莉"
+      },
+      "elapsedMs": 617,
+      "sameCardNode": true
+    },
+    {
+      "test": "compact-meals",
+      "count": "6 / 339 条",
+      "icon": "46px",
+      "panel": "panel-details",
+      "rows": [
+        68.54,
+        0,
+        68.54,
+        0,
+        68.54,
+        0,
+        68.54,
+        0,
+        68.54,
+        0,
+        68.54,
+        0
+      ],
+      "expand": {
+        "expanded": "展开红美铃 炒肉丝详情",
+        "width": 800
+      }
+    },
+    {
+      "test": "meal-recipe-ingredient-back",
+      "recipe": {
+        "count": "1 / 163 道",
+        "expanded": true,
+        "hash": "#catalog?place=%E7%BA%A2%E9%AD%94%E9%A6%86&item=%E7%82%92%E8%82%89%E4%B8%9D"
+      },
+      "ingredient": {
+        "count": "1 / 62 种",
+        "hash": "#ingredients?place=%E7%BA%A2%E9%AD%94%E9%A6%86&item=%E7%8C%AA%E8%82%89"
+      },
+      "returned": {
+        "count": "6 / 339 条",
+        "expanded": true,
+        "guest": "红美铃",
+        "hash": "#details?place=%E7%BA%A2%E9%AD%94%E9%A6%86&who=%E7%BA%A2%E7%BE%8E%E9%93%83"
+      }
+    },
+    {
+      "test": "390-guest",
+      "avatar": "91px",
+      "columns": "328px",
+      "documentWidth": 380,
+      "navScroll": 344,
+      "navWidth": 344,
+      "visibleBroken": 0,
+      "width": 390
+    },
+    {
+      "test": "390-detail",
+      "documentWidth": 390,
+      "icon": "58px",
+      "panelWidth": 390,
+      "width": 390
+    },
+    {
+      "test": "320-expanded-table",
+      "documentWidth": 310,
+      "expandedWidth": 260.65625,
+      "navScroll": 274,
+      "navWidth": 274,
+      "tableWidth": 261,
+      "width": 320
+    },
+    {
+      "test": "320-page-2",
+      "documentWidth": 310,
+      "paginationScroll": 261,
+      "paginationWidth": 261,
+      "range": "51–100 / 163 上一页 2 / 4 下一页",
+      "width": 320
+    },
+    {
+      "test": "650-nav-and-expanded",
+      "documentWidth": 640,
+      "expandedWidth": 558.65625,
+      "navScroll": 570,
+      "navWidth": 570,
+      "tableWidth": 559,
+      "width": 650
+    },
+    {
+      "test": "768-guest",
+      "columns": "326px 326px",
+      "documentWidth": 758,
+      "width": 768
+    },
+    {
+      "test": "reduced-motion",
+      "cardAnimation": "none",
+      "cardTransition": "1e-05s",
+      "fireflyAnimation": "none",
+      "matched": true
+    },
+    {
+      "test": "light-theme",
+      "bg": "rgb(239, 229, 206)",
+      "theme": "light",
+      "visibleBroken": 1
+    },
+    {
+      "test": "light-theme-settled",
+      "documentWidth": 758,
+      "theme": "light",
+      "visibleBroken": 0,
+      "width": 768
+    }
+  ],
+  "finalState": {
+    "height": 780,
+    "place": "红魔馆",
+    "reducedMotion": false,
+    "sceneWidth": 1438,
+    "theme": "dark",
+    "visibleBroken": 0,
+    "width": 1056
+  },
+  "consoleWarningsAndErrors": [
+    {
+      "level": "error",
+      "message": "InvalidStateError: Transition was aborted because of invalid state. Viewport size changed",
+      "timestamp": "2026-10-06T13:10:07.047Z",
+      "url": "http://127.0.0.1:8754/%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_3D%E6%8B%9F%E7%89%A9%E8%AF%95%E9%AA%8C%E7%89%88.html#guests?place=%E7%BA%A2%E9%AD%94%E9%A6%86"
+    }
+  ],
+  "screenshots": [
+    "夜摊_320_像素首页.png",
+    "夜摊_320_菜谱分页.png",
+    "夜摊_390_人物详情.png",
+    "夜摊_390_客人图鉴.png",
+    "夜摊_650_展开详情.png",
+    "夜摊_768_浅色客人.png",
+    "夜摊_桌面_人物详情.png",
+    "夜摊_桌面_客人图鉴.png",
+    "夜摊_桌面_游戏像素首页.png",
+    "夜摊_桌面_紧凑配餐与展开.png"
+  ],
+  "scope": "localhost 浏览器和 DOM/CSS；未测 FPS、未执行 file://、用户视觉接受待反馈",
+  "review": "当前夜摊文件与成品独立只读复核 PASS，未发现 Critical/Important/Minor；不代替浏览器证据"
+}

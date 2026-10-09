@@ -1,0 +1,74 @@
+5: START
+6: NEW 莉格露
+7: NEW 露米娅
+8: NEW 橙
+9: NEW 稗田阿求
+10: NEW 上白泽慧音
+11: NEW 茨木华扇
+12: NEW 博丽灵梦
+13: NEW 伊吹萃香
+14: NEW 比那名居天子
+15: NEW 红美铃
+16: NEW 琪露诺
+17: NEW 帕秋莉
+18: NEW 藤原妹红
+19: NEW 蓬莱山辉夜
+20: NEW 因幡帝
+21: START
+22: NEW 雾雨魔理沙
+23: NEW 森近霖之助
+24: NEW 魂魄妖梦
+25: NEW 西行寺幽幽子
+26: NEW 蕾米莉亚
+27: NEW 蹦蹦跳跳的三妖精
+28: NEW 冴月麟
+29: NEW 立空汐
+30: NEW 时焉侑
+31: NEW 萌澄果
+32: OTHER cur=萌澄果 field=None raw='《东方夜雀食堂》稀客图鉴及推荐菜品'
+33: OTHER cur=萌澄果 field=None raw='尘染琉璃'
+34: OTHER cur=萌澄果 field=None raw='编辑于 2021年12月11日 01:30'
+35: OTHER cur=萌澄果 field=None raw='收录于文集'
+36: OTHER cur=萌澄果 field=None raw='共7篇'
+37: OTHER cur=萌澄果 field=None raw='（12/6更新：稀客信息进一步完善，新菜单制作完成。）'
+38: OTHER cur=萌澄果 field=None raw='本图鉴开始升级至v1.5.6以上版本，后续信息将不断补全。'
+39: OTHER cur=萌澄果 field=None raw='菜单更新，删除了部分冗余菜单，添加了单tag贵菜，方便加料宰客。'
+40: OTHER cur=萌澄果 field=None raw='全材料获取方法：'
+41: OTHER cur=萌澄果 field=None raw='cv13518604（未适配v1.5.x）'
+42: OTHER cur=萌澄果 field=None raw='全菜谱/酒水获取方法：'
+43: OTHER cur=萌澄果 field=None raw='cv13574706【适配版本v1.5.x】'
+44: OTHER cur=萌澄果 field=None raw='本文章内容包含主要稀客的喜恶tag，以及在下方列出了推荐针对的菜单。'
+45: OTHER cur=萌澄果 field=None raw='部分稀客资料可能不全（指魔理沙、妖梦等非羁绊稀客）。'
+46: OTHER cur=萌澄果 field=None raw='制作出的菜品+酒水，每符合一个稀客的喜好tag，视作+1分；若包含厌恶tag，则-1分；'
+47: OTHER cur=萌澄果 field=None raw='当分数为2分时为基本满意（绿色），3分时为非常满意（黄色），4分时就会开符卡。'
+48: OTHER cur=萌澄果 field=None raw='若没有出现稀客点单的tag，缺1个不会开符卡（无论多少分），缺2个会直接判定为差评（无视积分）。'
+49: OTHER cur=萌澄果 field=None raw='[夜雀]'
+50: OTHER cur=萌澄果 field=None raw='系列厨具当完美完成小游戏时，菜品会附加“夜雀”tag，该tag能无视点单tag的判定，即使没有点单的tag也可以开符卡。'
+51: OTHER cur=萌澄果 field=None raw='[极]'
+52: OTHER cur=萌澄果 field=None raw='、'
+53: OTHER cur=萌澄果 field=None raw='[可疑]'
+54: OTHER cur=萌澄果 field=None raw='系列厨具制作的菜品可以提高稀客的续单率，让客人多吃几轮，直到预算不足或不再续单为止。'
+55: OTHER cur=萌澄果 field=None raw='注意稀客的持有金数量，不要让菜品价格超过稀客的金钱上限，否则稀客不会给足餐费；若餐品价格大量超出持有金上限，稀客会直接开惩罚符卡（但不会断combo）。'
+56: OTHER cur=萌澄果 field=None raw='推荐菜品及酒水原则是：易获得原材料＞标签≥利润。'
+57: OTHER cur=萌澄果 field=None raw='部分tag是相对冲突的，例如重油就不会清淡，肉就不会素，大份就不会小巧；带有红叉tag的菜若加上红叉tag100%变黑暗料理。'
+58: OTHER cur=萌澄果 field=None raw='如有错漏和补充，请在评论区留言，作者会更新补充。'
+59: OTHER cur=萌澄果 field=None raw='————————————————————'
+60: START
+61: OTHER cur=萌澄果 field=None raw='（可提升好感，拥有符卡技能）'
+62: NEW 莉格露
+63: HOLD 200-400 '（持有金：200-400）'
+64: OTHER cur=莉格露 field=None raw='（符卡效果：客人刷新间隔-30%）'
+65: FIELD 喜 甜/猎奇/生/肉
+66: FIELD 厌 素-清淡-凉爽
+67: OTHER cur=莉格露 field=厌 raw='酒水偏好：低酒精/可加冰'
+68: OTHER cur=莉格露 field=厌 raw='【菜品】'
+69: OTHER cur=莉格露 field=厌 raw='甜+肉：蜜汁叉烧（70）（烤架：蜂蜜+猪肉）'
+70: OTHER cur=莉格露 field=厌 raw='【加料】'
+71: OTHER cur=莉格露 field=厌 raw='鸡蛋（生）、蝉蜕（猎奇）、蜂蜜（甜）、猪肉（肉）'
+72: OTHER cur=莉格露 field=厌 raw='【酒水】'
+73: OTHER cur=莉格露 field=厌 raw='低酒精+可加冰：淇18、果味SOUR12、果味HighBall12、超ZUN啤酒18、猩红恶魔45、冬酿60'
+74: OTHER cur=莉格露 field=厌 raw='【羁绊等级解锁】'
+75: OTHER cur=莉格露 field=厌 raw='露水蒸蛋（1-2），香炸蝉蜕（2-3），幻昙花糕（3-4），兽道委托采集功能（4-5）'
+76: NEW 露米娅
+77: HOLD 150-350 '（持有金150-350）'
+78: OTHER cur=露米娅 field=None raw='（符卡效果：送随机肉类3种，每种1个）'

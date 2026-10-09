@@ -1,0 +1,52 @@
+Important Update: Version 4.4.0
+https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047259974
+
+[b]Since the translation takes time, please wait. It will be updated to the local language later.[/b]
+
+[img]{STEAM_CLAN_IMAGE}/40275129/b419e499dfc0f3cccf8d6da878afd465ec396696.png[/img]
+[img]{STEAM_CLAN_IMAGE}/40275129/72685f17dcc316613aacfdce01b6067cc9203eeb.png[/img]
+
+[h2]New Content[/h2]
+[*]Touhou Blooming Soul collaboration
+[*]New rare guest (Hata no Kokoro) and items related to the four emotions
+[*]Touhou Fairy Knockout collaboration
+[*]New outfit (Fairy Dress) and fairy-themed shop decor.
+[*]Added the ability to create "menu presets".
+
+[h2]Story Improvements[/h2]
+[*]Improved the main story of DLC1: reduced wait time between story events and added a mission which guides you on how to progress the story.
+[*]Improved the story when you fail the DLC1 boss fight.
+[*]Added new dialogue when meeting Rinnosuke for the first time.
+[*]Added a mission for DLC2 which guides you on how to open the shop in Former Hell.
+[*]Improved the "Dubious Shrine" storyline in the shrine.
+[*]Polished the "Please Get Back Our Stolen Natural Spring" storyline in the bamboo forest.
+
+[h2]Other Improvements[/h2]
+[*]Changed certain fonts.
+[*]Added an indicator for new collaboration events at the terminal.
+[*]Collection panel now supports the scroll wheel.
+[*]Challenges that force you to load a save now have a reminder for you to save.
+[*]There will now be a tooltip in the bottom left when shopping at Kourindou.
+[*]Choices for some events will now show an exclamation mark above the character and beside the choice itself.
+[*]Improved the position of the illustration for the "Gratitude of Flowers" outfit in the notebook.
+
+[h2]Bug Fixes[/h2]
+[*]Fixed an issue where Louise's spell card will still trigger despite the stack being 0.
+[*]Fixed an issue where Alice, Yuuma and Utsuho's punishment spell card being triggered while Sanae's "no buffs" punishment spell card is active would result in destroyed stations immediately being restored due to the aforementioned "no buffs" effect but still have the sprite for the destroyed version.
+[*]Fixed an issue where some scrolling texts would not display fully.
+[*]Fixed an issue regarding sprite layers for the cucumber collection point in the kappa's base in Youkai Mountain.
+[*]Fixed an issue where the hot springs buff and the donation box buff would disappear when opening the shop after entering a challenge.
+
+[h2]Below is the changelog for version 4.3.1[/h2]
+[*]Improved the Traditional Chinese translation.
+[*]Improved the display order of items, outfits and music discs.
+[*]Improved the exchange in Ellen's shop; it now supports exchanging 20 or 100 candies at once.
+[*]Due to how unstable random spell card effects are, Satori will no longer appear in the Bizarre Cooking Competition.
+[*]Fixed an issue where the Night Sparrow Pan, Suspicious Pan, Stardust Cauldron, Pure Hell and Sorcerer's Board would play the wrong SFX.
+[*]Fixed an issue with daytime cooking where the left of the menu would not display required ingredients when selecting dishes on the right.
+[*]Fixed an issue where the DLC5 Lunar Capital training mission could be accepted multiple times if you turn off and turn on the DLC.
+[*]Fixed an issue where guests who have disappeared due to Mizuchi would appear in certain challenges.
+[*]Fixed an issue where losing a challenge would play the victory dialogue right after the defeat dialogue and then softlock the game.
+
+[img]{STEAM_CLAN_IMAGE}/40275129/b8a5f6a5b21395166d68f212af326ef7726cc1cc.png[/img]
+[img]{STEAM_CLAN_IMAGE}/40275129/c8efee52ec25f5aebbb9204de725f44a4306483d.png[/img]

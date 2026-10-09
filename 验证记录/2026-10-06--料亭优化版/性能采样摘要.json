@@ -1,0 +1,31 @@
+{
+  "before": {
+    "ScriptDurationMs": 694,
+    "LayoutDurationMs": 342,
+    "RecalcStyleDurationMs": 252
+  },
+  "routeOnly": {
+    "ScriptDurationMs": 233,
+    "LayoutDurationMs": 174,
+    "RecalcStyleDurationMs": 195
+  },
+  "after": [
+    {
+      "name": "LayoutDuration",
+      "ms": 12
+    },
+    {
+      "name": "RecalcStyleDuration",
+      "ms": 42
+    },
+    {
+      "name": "ScriptDuration",
+      "ms": 28
+    },
+    {
+      "name": "TaskDuration",
+      "ms": 466
+    }
+  ],
+  "notes": "相同本地浏览器环境中的单次 CDP 采样；包含工具观察开销，不等于 FPS 或用户最终验收。"
+}
