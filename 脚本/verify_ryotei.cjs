@@ -7,7 +7,7 @@ const root = path.resolve(__dirname,'..');
 const read = (name) => fs.readFileSync(path.join(root,name),'utf8');
 const originalPath = path.join(root,'成品/东方夜雀食堂攻略查询_和风版.html');
 const original = fs.existsSync(originalPath) ? fs.readFileSync(originalPath,'utf8') : null;
-const output = read('成品/东方夜雀食堂攻略查询_料亭优化版.html');
+const output = read('成品/东方夜雀食堂攻略查询_料亭立体头像版.html');
 const template = read('脚本/guide_template_ryotei.html');
 const appData = (html) => html.match(/<script id="app-data" type="application\/json">([\s\S]*?)<\/script>/)[1];
 assert.equal(appData(output),original ? appData(original) : read('中间数据/料亭版攻略数据基线.json'),'攻略 JSON 必须逐字符一致');
@@ -37,6 +37,7 @@ for (const tab of ['guests','details','catalog','ingredients','beverages','addon
 assert.ok(navigation.includes('function ryoteiVisitsPlace('),'营业地点筛选必须有明确的来访匹配逻辑');
 vm.runInNewContext(`
   const state = {servicePlace:'魔法森林'};
+  const ryoteiNormalNames = new Set();
   const dataOf = key=>key === 'guests' ? [{客人名字:'莉格露',出没地点:'妖怪兽道、魔法森林、太阳花田'},{客人名字:'橙',出没地点:'妖怪兽道'}] : [];
   const splitTags = value=>String(value || '').split('、').filter(Boolean);
   ${getFunction('ryoteiVisitsPlace',navigation)}
@@ -94,11 +95,19 @@ vm.runInNewContext(`
 vm.runInNewContext(`
   const state={openGuest:''},location={hash:'',href:'preview.html'};
   const history={state:{},replaceState(value){this.state=value;}};
-  const $=()=>({open:true,scrollIntoView(){}});
-  const ryoteiSaveView=()=>{},ryoteiCaptureView=()=>({}),updateRyoteiReturn=()=>{},route=()=>{};
+  let scrolls=0,id=0;
+  const callbacks=new Map();
+  const requestAnimationFrame=fn=>{callbacks.set(++id,fn);return id;},cancelAnimationFrame=id=>callbacks.delete(id);
+  const getComputedStyle=()=>({scrollMarginTop:'100px'});
+  const $=()=>({open:true,getBoundingClientRect(){return {top:100};},scrollIntoView(){scrolls++;}});
+  const ryoteiSaveView=()=>{},ryoteiCaptureView=()=>({hash:location.hash}),route=()=>{};
   ${getFunction('ryoteiNavigate',navigation)}
   ryoteiNavigate('#catalog?item=饭团');
-  assert.equal(history.state.ryoteiFrom,'#guests','空hash首页也须有可辨认的返回来源');
+  ryoteiNavigate('#details?who=normal');
+  assert.equal(callbacks.size,1,'同帧连续导航仅保留最后一次阅读位置记录');
+  for (const callback of callbacks.values()) callback();
+  assert.equal(history.state.ryoteiView.hash,'#details?who=normal');
+  assert.equal(scrolls,0,'已停在工作区时切页不应重复滚动');
 `,{assert});
 vm.runInNewContext(`
   const state={servicePlace:'魔法森林',serviceGuest:'all'};
@@ -130,6 +139,7 @@ vm.runInNewContext(`
   const dataOf=key=>key === 'recipes' ? [{菜品:'饭团'}] : [{客人名字:'莉格露',出没地点:'魔法森林'}];
   const splitTags=value=>String(value || '').split('、');
   const syncRyoteiControls=()=>{};
+  ${getFunction('ryoteiGuestRecord',navigation)}
   ${getFunction('ryoteiVisitsPlace',navigation)}
   ${getFunction('ryoteiApplyRoute',navigation)}
   const target={tab:'catalog',place:'all',who:'all',item:'饭团'};
@@ -146,6 +156,7 @@ const context = vm.createContext({assert,URLSearchParams});
 vm.runInContext(`
   const TAB_IDS = ['guests','details','catalog'];
   const state = {tab:'guests',openGuest:'',servicePlace:'all',serviceGuest:'all'};
+  const ryoteiRenderedViews = new Map(), ryoteiPages = {};
   let lastRenderedTab = '';
   const location = {hash:'#guests'};
   const REDUCED_MOTION = true;
@@ -156,7 +167,7 @@ vm.runInContext(`
   const $ = ()=>({scrollIntoView(){counts.scroll++;}});
   const updateRyoteiHeading = ()=>{};
   const moveTabIndicator = ()=>{};
-  const renderTab = ()=>{counts.list++;};
+  const renderTab = tab=>{counts.list++;ryoteiRememberRender(tab);};
   const openGuest = name=>{state.openGuest=name;counts.detail++;};
   const closeGuest = ()=>{state.openGuest='';};
   const ryoteiApplyRoute=()=>false;
@@ -165,6 +176,8 @@ vm.runInContext(`
   ${getFunction('ryoteiHash',navigation)}
   ${getFunction('ryoteiParseRoute',navigation)}
   ${getFunction('currentHash')}
+  ${getFunction('ryoteiRenderSignature')}
+  ${getFunction('ryoteiRememberRender')}
   ${getFunction('switchTab')}
   ${getFunction('route')}
   route();
@@ -183,7 +196,7 @@ vm.runInContext(`
   route();
   assert.equal(counts.list,2,'切页及紧随的 hashchange 只渲染一次');
   switchTab('guests');
-  assert.equal(counts.list,3,'真实切回客人页应正常渲染');
+  assert.equal(counts.list,2,'切回未变的客人页应复用原内容，保留阅读状态');
   state.openGuest='';
   location.hash='#guests/' + encodeURIComponent('东风谷早苗');
   route();

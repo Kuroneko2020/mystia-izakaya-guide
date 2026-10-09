@@ -1,29 +1,34 @@
 {
-  "builtAt": "2026-10-06T21:55:00+08:00",
+  "builtAt": "2026-10-10",
   "variant": "料亭立体头像版",
-  "method": "对固定成功成品做二进制精确插入（仅新增一段 <style id=\"guest-avatar-3d\">，逐字节回插校验通过，不重写构建管线，不覆盖任何源文件）",
-  "sourceSha256": "01d36ce39add10e28982e16d793d1630c66e6adbc01d77d94d76d9c3c3edc65b",
-  "sourceFile": "成品/东方夜雀食堂攻略查询_料亭优化版.html",
-  "effectSource": "成品/东方夜雀食堂攻略查询_3D拟物试验版.html 的客人头像立体与悬停效果（837f7e85880e515dc4d2d413887523c89a24f77b3b9b506c29627ccbbcff8f56）；仅取立体透视与动态，不引入拟物皮肤",
-  "outputSha256": "162bdc9089224d0c482861e52537f1c11f13cdca2b99e2a656bce3b2a8baac04",
-  "outputBytes": 2521232,
-  "deltaBytes": 3182,
-  "deltaEqualsInjectedBlock": true,
-  "lineEndings": "源文件 CRLF 全程保留；注入块亦为 CRLF",
-  "protectedFiles": {
-    "成品/东方夜雀食堂攻略查询_料亭优化版.html": "01d36ce39add10e28982e16d793d1630c66e6adbc01d77d94d76d9c3c3edc65b",
-    "成品/东方夜雀食堂攻略查询_3D拟物试验版.html": "837f7e85880e515dc4d2d413887523c89a24f77b3b9b506c29627ccbbcff8f56",
-    "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx": "d6d397db47dc7420ead80e1412f437d05984ffcb2eca6895e225dfe9c5ce134e"
+  "method": "独立构建入口 build_html_ryotei_avatar.py：模板+CSS+UI+导航+数据基线整体重建，客人图鉴立体头像效果块由 脚本/guest_avatar_3d.css 原样注入 </head> 前；不调用 build_html_ryotei.main()，不重写 成品/旧版 中的料亭优化版与 3D 试验版",
+  "dataSource": "中间数据/料亭版攻略数据基线.json",
+  "appDataSha256": "cd847712480d6b42928ba803d8c5283e607a03bdc066877e2f5ac74081f20037",
+  "avatarBlockSha256": "1a9574920518f421784602b6447e97130260e85f26c8d56bf8d25225e87ef3b5",
+  "avatarBlockBytes": 3180,
+  "outputSha256": "52cea6d624bd60cb53451453cf77c7e711d52325d9a780e1626ae3b642fa5860",
+  "outputBytes": 2527876,
+  "assetCounts": {
+    "avatars": 59,
+    "icons": 271,
+    "normal": 47
   },
-  "scope": "仅 #guest-grid（稀客与特殊客人）与 #normal-grid（普通客人）两个客人图鉴页签的卡片头像；详情页 seal-lg、来客速览 visitor-link .ava、物品/配餐页签均不受影响",
-  "effect": {
-    "base": "头像 54px→72px（≤1200px 76px、≤900px 84px、≤620px 90px），perspective(500px) rotateY(-11deg) rotateZ(-4deg)，每第 3n+2 张镜像 rotateY(9deg) rotateZ(3deg)；位置与原版对齐居中，不上顶卡边（用户反馈后取消上浮位移）",
-    "hover": "回正至 rotateY(∓3deg) rotateZ(∓1deg)、translateY(-6px)、scale(1.05)，加深暖色投影并叠加 0 0 16px #dca04f40 微光；交错卡按镜像方向响应（修正试验版中 3n+2 卡悬停冻结的问题）",
-    "shadow": "沿用料亭版柔和暖色投影体系（0 9px 18px #65502a2b 等），不使用试验版硬 offset 贴纸阴影，无拟物风"
+  "sheetCounts": {
+    "guests": 59,
+    "details": 339,
+    "recipes": 163,
+    "ingredients": 62,
+    "beverages": 46,
+    "normal": 47,
+    "new440": 8,
+    "guide2024": 58,
+    "guide2021": 25,
+    "sources": 28
   },
-  "verification": {
-    "computedStyles": "59 张稀客卡与 47 张普通客人卡头像 matrix3d 交错方向正确、宽度 72px；悬停 matrix3d 含 1.05 缩放与微光阴影；详情页 seal-lg 保持 70px/-2°原样",
-    "browser": "三个主页面签切换正常，配餐参考 423 行明细正常，页面无脚本错误；截图见 验证记录/2026-10-06--料亭立体头像版/",
-    "userFeedback": "用户实时反馈两点已落实：仅要立体不要拟物风；头像位置下移、不顶卡片顶部。最终使用验收待用户确认"
-  }
+  "changes": [
+    "全部地点：全部/普通/特殊置顶，保留106位具体客人；特定地点：展开头像名单并就地筛选配餐",
+    "料理页直接拆出原表普通客人的282条推荐，不新增评分或推荐算法；酒水/加料未收录时显示原表边界和喜好",
+    "压缩页头与筛选区，移除站内返回条；放大标签并显示当前数据全部标签",
+    "按页面与查询状态复用已渲染内容，隐藏页按需渲染；指示条同帧合并并先读后写，避免强制重复布局"
+  ]
 }

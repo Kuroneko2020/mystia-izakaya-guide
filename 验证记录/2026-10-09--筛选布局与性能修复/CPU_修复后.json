@@ -1,0 +1,127 @@
+[
+  {
+    "name": "(idle)",
+    "line": 0,
+    "samples": 580
+  },
+  {
+    "name": "(program)",
+    "line": 0,
+    "samples": 576
+  },
+  {
+    "name": "ryoteiNavigate",
+    "line": 3046,
+    "samples": 17
+  },
+  {
+    "name": "",
+    "line": 2504,
+    "samples": 13
+  },
+  {
+    "name": "(garbage collector)",
+    "line": 0,
+    "samples": 7
+  },
+  {
+    "name": "",
+    "line": 3058,
+    "samples": 6
+  },
+  {
+    "name": "renderDetails",
+    "line": 1804,
+    "samples": 5
+  },
+  {
+    "name": "querySelectorAll",
+    "line": 0,
+    "samples": 5
+  },
+  {
+    "name": "ryoteiSaveView",
+    "line": 3043,
+    "samples": 4
+  },
+  {
+    "name": "",
+    "line": 3015,
+    "samples": 4
+  },
+  {
+    "name": "",
+    "line": 1430,
+    "samples": 4
+  },
+  {
+    "name": "renderCatalog",
+    "line": 1832,
+    "samples": 4
+  },
+  {
+    "name": "querySelectorAll",
+    "line": 0,
+    "samples": 4
+  },
+  {
+    "name": "click",
+    "line": 0,
+    "samples": 3
+  },
+  {
+    "name": "ryoteiCaptureView",
+    "line": 3038,
+    "samples": 3
+  },
+  {
+    "name": "querySelectorAll",
+    "line": 0,
+    "samples": 3
+  },
+  {
+    "name": "",
+    "line": 1,
+    "samples": 2
+  },
+  {
+    "name": "cellContent",
+    "line": 2743,
+    "samples": 2
+  },
+  {
+    "name": "updateRyoteiNavigation",
+    "line": 2915,
+    "samples": 2
+  },
+  {
+    "name": "",
+    "line": 3015,
+    "samples": 2
+  },
+  {
+    "name": "querySelector",
+    "line": 0,
+    "samples": 1
+  },
+  {
+    "name": "route",
+    "line": 1548,
+    "samples": 1
+  },
+  {
+    "name": "ryoteiParseRoute",
+    "line": 2860,
+    "samples": 1
+  },
+  {
+    "name": "get",
+    "line": 0,
+    "samples": 1
+  },
+  {
+    "name": "switchTab",
+    "line": 1519,
+    "samples": 1
+  }
+]

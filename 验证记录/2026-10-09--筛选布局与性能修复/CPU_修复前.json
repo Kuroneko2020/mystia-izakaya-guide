@@ -1,0 +1,127 @@
+[
+  {
+    "name": "(idle)",
+    "line": 0,
+    "samples": 320
+  },
+  {
+    "name": "move",
+    "line": 2454,
+    "samples": 163
+  },
+  {
+    "name": "(program)",
+    "line": 0,
+    "samples": 146
+  },
+  {
+    "name": "move",
+    "line": 2454,
+    "samples": 109
+  },
+  {
+    "name": "renderDetails",
+    "line": 1760,
+    "samples": 14
+  },
+  {
+    "name": "renderGuests",
+    "line": 1730,
+    "samples": 13
+  },
+  {
+    "name": "ryoteiNavigate",
+    "line": 2943,
+    "samples": 12
+  },
+  {
+    "name": "querySelectorAll",
+    "line": 0,
+    "samples": 11
+  },
+  {
+    "name": "querySelectorAll",
+    "line": 0,
+    "samples": 10
+  },
+  {
+    "name": "renderCatalog",
+    "line": 1791,
+    "samples": 9
+  },
+  {
+    "name": "(garbage collector)",
+    "line": 0,
+    "samples": 8
+  },
+  {
+    "name": "ryoteiCaptureView",
+    "line": 2935,
+    "samples": 7
+  },
+  {
+    "name": "querySelectorAll",
+    "line": 0,
+    "samples": 5
+  },
+  {
+    "name": "replaceState",
+    "line": 0,
+    "samples": 4
+  },
+  {
+    "name": "move",
+    "line": 2454,
+    "samples": 3
+  },
+  {
+    "name": "querySelectorAll",
+    "line": 0,
+    "samples": 2
+  },
+  {
+    "name": "sortObjects",
+    "line": 1403,
+    "samples": 2
+  },
+  {
+    "name": "esc",
+    "line": 1201,
+    "samples": 2
+  },
+  {
+    "name": "replaceState",
+    "line": 0,
+    "samples": 2
+  },
+  {
+    "name": "",
+    "line": 2997,
+    "samples": 1
+  },
+  {
+    "name": "ryoteiCaptureReading",
+    "line": 2908,
+    "samples": 1
+  },
+  {
+    "name": "",
+    "line": 2912,
+    "samples": 1
+  },
+  {
+    "name": "toggle",
+    "line": 0,
+    "samples": 1
+  },
+  {
+    "name": "",
+    "line": 1404,
+    "samples": 1
+  },
+  {
+    "name": "makeRyoteiTable",
+    "line": 2689,
+    "samples": 1
+  }
+]

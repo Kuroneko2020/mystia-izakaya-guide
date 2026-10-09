@@ -893,6 +893,33 @@ html[data-theme=light] .site-footer{color:#8c7150;border-color:#b4966d55}html[da
 }
 @media(prefers-reduced-motion:reduce){.hero-lantern,.hero-scene::after{animation:none}.ambient .glow,#fx-canvas{display:none}.detail-body{scroll-behavior:auto}.guest-card:hover{transform:none}.hero-action:hover{transform:none}}
 
+/* 工作区标题和页签合为一行，优先给内容与完整标签留空间。 */
+.ryotei-workbench{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:16px;row-gap:8px;padding-top:14px}
+.ryotei-workbench>.tab-panel,.ryotei-workbench>.service-context{grid-column:1/-1;min-width:0}
+.ryotei-page-heading{margin:0;gap:8px;align-self:center}
+.page-heading-copy{gap:9px}.chapter-stamp{writing-mode:horizontal-tb;font-size:13px;padding:6px}
+.ryotei-page-heading h2{font-size:21px;line-height:1.3;letter-spacing:.06em}.page-code{display:none}
+.section-nav{margin:0;gap:4px;justify-content:flex-end;align-items:center}.section-tab{padding:6px 12px}
+.service-context{padding:7px 11px;margin:0}.service-choice{gap:8px}.service-choice label{font-size:15px}
+.service-choice select{padding-top:6px;padding-bottom:6px}
+.toolbar{padding:0 0 9px;margin:0 0 10px;gap:7px}.toolbar select[hidden]{display:none}
+.tag-filter-bar{padding-top:2px;gap:6px}.tf-suggest{gap:6px}
+.tag{font-size:13px;padding:3px 7px}.tag-filter-bar .tag{font-size:14px;min-height:30px;padding:4px 9px}
+.tag-filter-bar .tf-hint{font-size:11px}
+.visitor-overview{margin-top:7px;padding-top:7px}.visitor-overview summary{font-size:13px}
+.visitor-filter{margin-top:7px}.visitor-group h3{margin:7px 0 5px;font-size:12px}
+.visitor-link{color:var(--text);font-family:inherit;font-size:12px;cursor:pointer;line-height:1.4}
+.visitor-link.active{border-color:var(--accent);background:var(--accent-soft);box-shadow:inset 0 0 0 1px var(--accent)}
+.visitor-link .ava{width:28px;height:28px}.visitor-list{gap:5px}
+.empty-state p{margin:7px 0;text-align:left}
+@media(max-width:600px){
+  .ryotei-workbench{column-gap:8px;padding-top:10px;row-gap:7px}
+  .ryotei-page-heading h2{font-size:18px}.chapter-stamp{display:none}.page-heading-copy{gap:0}
+  .section-nav{gap:2px}.section-tab{padding:6px 7px;font-size:12px}
+  .service-choice #service-count{flex-basis:auto;font-size:10px}
+  .tag-filter-bar .tag{font-size:13px;padding:4px 8px}
+}
+
 </style>
 <style id="guest-avatar-3d">
 /* 客人图鉴立体头像（效果取自 3D拟物试验版 的客人头像：只要立体与动态，不引入拟物皮肤）。
@@ -985,10 +1012,9 @@ html[data-theme=light] .site-footer{color:#8c7150;border-color:#b4966d55}html[da
 <div class="ryotei-workbench" id="ryotei-workbench">
   <div class="ryotei-page-heading"><div class="page-heading-copy"><span class="chapter-stamp" id="ryotei-chapter-stamp" aria-hidden="true">客录</span><div><h2 id="ryotei-page-title">客人名簿</h2></div></div><span class="page-code" id="ryotei-page-code" aria-hidden="true">CHAPTER 01</span></div>
   <nav class="section-nav" id="section-nav" aria-label="分类"></nav>
-  <div class="jump-return" id="jump-return" hidden><button id="jump-back" type="button">← 返回</button></div>
   <section class="service-context" id="service-context" aria-label="今晚开店">
     <div class="service-choice"><label for="service-place">今晚开店</label><select id="service-place"></select><span class="service-note" title="按已收录的自然来访地区筛选；不是每晚必来，尚未细分店面等级。邀请和剧情可能改变来客。">可能来访 ⓘ</span><span id="service-count"></span></div>
-    <details id="service-visitors" class="visitor-overview" hidden><summary>来客名簿</summary><div class="visitor-group"><h3>稀客与特殊客人</h3><div id="visitor-rare" class="visitor-list"></div></div><div class="visitor-group"><h3>普通客人</h3><div id="visitor-normal" class="visitor-list"></div></div></details>
+    <details id="service-visitors" class="visitor-overview" open hidden><summary>来客名簿 · 点击头像筛选配餐</summary><div id="visitor-filter" class="visitor-list visitor-filter" aria-label="客人分类"></div><div class="visitor-group"><h3>稀客与特殊客人</h3><div id="visitor-rare" class="visitor-list"></div></div><div class="visitor-group"><h3>普通客人</h3><div id="visitor-normal" class="visitor-list"></div></div></details>
   </section>
 
   <section class="tab-panel" id="panel-guests">
@@ -1477,6 +1503,18 @@ function applyTheme(theme, ev){
 /* ---------------- 路由 ---------------- */
 const TAB_IDS = ['guests', 'details', 'catalog', 'ingredients', 'beverages', 'addons', 'drinkrecs', 'normal', 'new440', 'guides', 'sources'];
 let lastRenderedTab = '';
+const ryoteiRenderedViews = new Map();
+function ryoteiRenderSignature(tab){
+  const prefix = {guests:'guest',normal:'normal',details:'detail',catalog:'catalog',ingredients:'ingredient',beverages:'beverage',addons:'addon',drinkrecs:'drinkrec',guides:'guide'}[tab];
+  const local = prefix ? Object.entries(state).filter(([key])=>key.startsWith(prefix)) : [];
+  // 所有条目链接都携带营业地点；地点改变时也要更新物品/资料页的链接。
+  const place = state.servicePlace;
+  const focus = state.focusTab === tab ? state.focusItem : '';
+  return JSON.stringify([local,place,focus,ryoteiPages[prefix + 'Sort']?.page || 0]);
+}
+function ryoteiRememberRender(tab){
+  ryoteiRenderedViews.set(tab,ryoteiRenderSignature(tab));
+}
 function currentHash(){ try { return decodeURIComponent(location.hash.replace(/^#/, '')); } catch (_) { return location.hash.replace(/^#/,''); } }
 function switchTab(tab, updateHash = true){
   if (!TAB_IDS.includes(tab)) tab = 'guests';
@@ -1485,9 +1523,12 @@ function switchTab(tab, updateHash = true){
   state.tab = tab;
   updateRyoteiHeading(tab);
   $$('.tab-panel').forEach((panel) => { panel.hidden = panel.id !== 'panel-' + tab; });
-  moveTabIndicator();
   if (updateHash && currentHash().split(/[/?]/)[0] !== tab) location.hash = ryoteiHash(tab);
-  if (lastRenderedTab !== tab) { renderTab(tab); lastRenderedTab = tab; }
+  if (lastRenderedTab !== tab) {
+    if (ryoteiRenderedViews.get(tab) !== ryoteiRenderSignature(tab)) renderTab(tab);
+    lastRenderedTab = tab;
+  }
+  moveTabIndicator();
   if (updateHash && previousTab !== tab) $('#ryotei-workbench').scrollIntoView({top:0,behavior:REDUCED_MOTION ? 'auto' : 'smooth',block:'start'});
 }
 function renderTab(tab){
@@ -1502,6 +1543,7 @@ function renderTab(tab){
   else if (tab === 'new440') renderNew440();
   else if (tab === 'guides') renderGuides();
   else if (tab === 'sources') renderSources();
+  ryoteiRememberRender(tab);
 }
 function route(){
   const target = ryoteiParseRoute();
@@ -1509,14 +1551,13 @@ function route(){
   const previousTab = state.tab;
   const wasRendered = lastRenderedTab === tab;
   const changed = ryoteiApplyRoute(target);
-  switchTab(tab, false);
+  if (previousTab !== tab || !wasRendered || changed) switchTab(tab, false);
   if (changed && previousTab === tab && wasRendered) renderTab(tab);
   if (tab === 'guests' && target.guest) {
     const name = target.guest;
     if (state.openGuest !== name) openGuest(name, false);
   } else if (state.openGuest) closeGuest(false);
   ryoteiRevealItem();
-  updateRyoteiReturn();
 }
 
 /* ---------------- 客人详情面板 ---------------- */
@@ -1602,17 +1643,19 @@ const TAG_FILTER_CONFIG = [
   { stateKey: 'drinkrecChips', queryState: 'drinkrecQuery', input: '#drinkrec-search', render: () => renderDrinkRecs(), rows: () => buildDrinkRecIndex(), fields: ['标签'] },
   { stateKey: 'catalogChips', queryState: 'catalogQuery', input: '#catalog-search', render: () => renderCatalog(), rows: () => dataOf('recipes'), fields: ['菜品标签'] },
   { stateKey: 'ingredientChips', queryState: 'ingredientQuery', input: '#ingredient-search', render: () => renderIngredients(), rows: () => dataOf('ingredients'), fields: ['标签'] },
-  { stateKey: 'detailChips', queryState: 'detailQuery', input: '#detail-search', render: () => renderDetails(), rows: () => dataOf('details'), fields: ['菜品标签'] },
+  { stateKey: 'detailChips', queryState: 'detailQuery', input: '#detail-search', render: () => renderDetails(), rows: () => dataOf('recipes'), fields: ['菜品标签'] },
   { stateKey: 'addonChips', queryState: 'addonQuery', input: '#addon-search', render: () => renderAddons(), rows: () => buildAddonIndex(), fields: ['食材标签'] }
 ];
 function tagSuggestions(cfg){
+  if (cfg.suggestions) return cfg.suggestions;
   const set = new Set();
   cfg.rows().forEach((row) => {
     cfg.fields.forEach((field) => {
       splitTags(row[field]).forEach((tag) => set.add(tag));
     });
   });
-  return Array.from(set).sort(byLocale);
+  cfg.suggestions = Array.from(set).sort(byLocale);
+  return cfg.suggestions;
 }
 function resolveTags(cfg, value){
   const tags = tagSuggestions(cfg);
@@ -1670,7 +1713,7 @@ function renderTagBar(cfg){
   const selected = chips.length
     ? chips.map((tag) => '<button class="tag chip" type="button" data-tag="' + escAttr(tag) + '">' + esc(tag) + '<span class="x">×</span></button>').join('')
     : '<span class="tf-hint">未选择</span>';
-  const suggestions = tagSuggestions(cfg).filter((tag) => !chips.includes(tag)).slice(0, 20);
+  const suggestions = tagSuggestions(cfg).filter((tag) => !chips.includes(tag));
   const suggestHtml = suggestions.map((tag) => '<button class="tag suggest" type="button" data-tag="' + escAttr(tag) + '">' + esc(tag) + '</button>').join('');
   bar.innerHTML = '<span class="tf-label">标签筛选</span>' + selected +
     (chips.length ? '<button class="link-btn" type="button" data-action="clear">清空</button>' : '') +
@@ -1739,6 +1782,7 @@ function renderGuests(){
   $('#guest-count').textContent = list.length + ' / ' + dataOf('guests').length + ' 位';
   const grid = $('#guest-grid');
   grid.innerHTML = list.length ? list.map((guest, index) => guestCard(guest, index)).join('') : '<div class="empty-state">没有匹配的客人。</div>';
+  ryoteiRememberRender('guests');
 }
 
 /* ---------------- 推荐菜谱明细 ---------------- */
@@ -1759,20 +1803,17 @@ const DETAIL_COLUMNS = [
 ];
 function renderDetails(){
   const q = state.detailQuery.trim().toLowerCase();
-  let list = ryoteiPlanRows(dataOf('details')).map((row) => {
-    const level = dishLevelValue(row['菜品']);
-    return { ...row, '等级': level, '__等级文本': level == null ? '' : 'Lv ' + level };
-  }).filter((row) => {
-    if (state.detailGuest !== 'all' && row['客人名字'] !== state.detailGuest) return false;
+  let list = ryoteiPlanRows(buildMealIndex()).filter((row) => {
     if (state.detailStage !== 'all' && row['阶段'] !== state.detailStage) return false;
     if (state.detailDlc !== 'all' && row['所属版本'] !== state.detailDlc) return false;
     if (!matchesTagChips(row, state.detailChips, ['菜品标签'])) return false;
     return matchesRowQuery(row, q, ['客人名字', '菜品', '等级', '__等级文本', '主料', '菜品标签', '命中喜好', '解锁来源', '加料建议', '备注']);
   });
   list = sortObjects(list, state.detailSort.key, state.detailSort.dir);
-  $('#detail-count').textContent = list.length + ' / ' + dataOf('details').length + ' 条';
+  $('#detail-count').textContent = list.length + ' / ' + buildMealIndex().length + ' 条';
   const wrap = $('#detail-table-wrap');
   wrap.innerHTML = list.length ? makeTable(DETAIL_COLUMNS, list) : '<div class="empty-state">没有匹配的推荐菜谱。</div>';
+  ryoteiRememberRender('details');
 }
 
 /* ---------------- 菜谱 / 食材 / 酒水 ---------------- */
@@ -1800,6 +1841,7 @@ function renderCatalog(){
   $('#catalog-count').textContent = list.length + ' / ' + dataOf('recipes').length + ' 道';
   const wrap = $('#catalog-table-wrap');
   wrap.innerHTML = list.length ? makeTable(CATALOG_COLUMNS, list) : '<div class="empty-state">没有匹配的菜谱。</div>';
+  ryoteiRememberRender('catalog');
 }
 const INGREDIENT_COLUMNS = [
   { key: '食材', label: '食材', sortable: true, sortKey: 'ingredientSort' },
@@ -1824,6 +1866,7 @@ function renderIngredients(){
   $('#ingredient-count').textContent = list.length + ' / ' + dataOf('ingredients').length + ' 种';
   const wrap = $('#ingredient-table-wrap');
   wrap.innerHTML = list.length ? makeTable(INGREDIENT_COLUMNS, list) : '<div class="empty-state">没有匹配的食材。</div>';
+  ryoteiRememberRender('ingredients');
 }
 const BEVERAGE_COLUMNS = [
   { key: '酒水', label: '酒水', sortable: true, sortKey: 'beverageSort' },
@@ -1846,6 +1889,7 @@ function renderBeverages(){
   $('#beverage-count').textContent = list.length + ' / ' + dataOf('beverages').length + ' 款';
   const wrap = $('#beverage-table-wrap');
   wrap.innerHTML = list.length ? makeTable(BEVERAGE_COLUMNS, list) : '<div class="empty-state">没有匹配的酒水。</div>';
+  ryoteiRememberRender('beverages');
 }
 
 /* ---------------- 加料候选（按食材价格排序） ---------------- */
@@ -1947,7 +1991,6 @@ const ADDON_COLUMNS = [
 function renderAddons(){
   const q = state.addonQuery.trim().toLowerCase();
   let list = ryoteiPlanRows(buildAddonIndex()).filter((row) => {
-    if (state.addonGuest !== 'all' && row['客人名字'] !== state.addonGuest) return false;
     if (state.addonScene !== 'all' && row['场景'] !== state.addonScene) return false;
     if (!matchesTagChips(row, state.addonChips, ['食材标签'])) return false;
     return matchesRowQuery(row, q, ['客人名字', '场景', '推荐菜', '食材', '食材标签', '补足标签', '获取方式']);
@@ -1955,13 +1998,14 @@ function renderAddons(){
   list = sortObjects(list, state.addonSort.key, state.addonSort.dir);
   $('#addon-count').textContent = list.length + ' / ' + buildAddonIndex().length + ' 条';
   const wrap = $('#addon-table-wrap');
-  wrap.innerHTML = list.length ? makeTable(ADDON_COLUMNS, list) : '<div class="empty-state">没有匹配的加料候选。</div>';
+  wrap.innerHTML = list.length ? makeTable(ADDON_COLUMNS, list) : ryoteiNormalPlanNotice('加料') || '<div class="empty-state">没有匹配的加料候选。</div>';
   const sortSelect = $('#addon-sort-filter');
   if (sortSelect) {
     if (state.addonSort.key === '价格') sortSelect.value = state.addonSort.dir > 0 ? 'price-asc' : 'price-desc';
     else if (state.addonSort.key === '等级') sortSelect.value = state.addonSort.dir > 0 ? 'level-asc' : 'level-desc';
     else sortSelect.selectedIndex = -1;
   }
+  ryoteiRememberRender('addons');
 }
 function addonTableForGuest(name){
   const list = buildAddonIndex().filter((row) => row['客人名字'] === name);
@@ -2051,7 +2095,6 @@ const DRINKREC_COLUMNS = [
 function renderDrinkRecs(){
   const q = state.drinkrecQuery.trim().toLowerCase();
   let list = ryoteiPlanRows(buildDrinkRecIndex()).filter((row) => {
-    if (state.drinkrecGuest !== 'all' && row['客人名字'] !== state.drinkrecGuest) return false;
     if (!matchesTagChips(row, state.drinkrecChips, ['标签'])) return false;
     return matchesRowQuery(row, q, ['客人名字', '类型', '酒水', '标签', '命中喜好']);
   });
@@ -2063,7 +2106,7 @@ function renderDrinkRecs(){
   }
   $('#drinkrec-count').textContent = list.length + ' / ' + buildDrinkRecIndex().length + ' 条';
   const wrap = $('#drinkrec-table-wrap');
-  wrap.innerHTML = list.length ? makeTable(DRINKREC_COLUMNS, list) : '<div class="empty-state">没有匹配的酒水推荐。</div>';
+  wrap.innerHTML = list.length ? makeTable(DRINKREC_COLUMNS, list) : ryoteiNormalPlanNotice('酒水') || '<div class="empty-state">没有匹配的酒水推荐。</div>';
   const sel = $('#drinkrec-sort-filter');
   if (sel) {
     if (state.drinkrecSort.key === '价格') sel.value = state.drinkrecSort.dir > 0 ? 'price-asc' : 'price-desc';
@@ -2071,6 +2114,7 @@ function renderDrinkRecs(){
     else if (state.drinkrecSort.key === '命中喜好') sel.value = state.drinkrecSort.dir > 0 ? 'match-asc' : 'match-desc';
     else sel.selectedIndex = -1;
   }
+  ryoteiRememberRender('drinkrecs');
 }
 function drinkTableForGuest(name, tableOnly = false){
   const rows = buildDrinkRecIndex().filter((r) => r['客人名字'] === name);
@@ -2110,6 +2154,7 @@ function renderNormal(){
       '<details class="normal-meals"><summary>完整配餐</summary><div><h4>前期</h4>' + early.map(line=>'<p>' + ryoteiLinkedText(line) + '</p>').join('') + '<h4>后期</h4>' + late.map(line=>'<p>' + ryoteiLinkedText(line) + '</p>').join('') + '</div></details>' +
       '</article>';
   }).join('') : '<div class="empty-state">没有匹配的普通客人。</div>';
+  ryoteiRememberRender('normal');
 }
 function renderNew440(){
   const rows = dataOf('new440');
@@ -2119,6 +2164,7 @@ function renderNew440(){
     '<div class="field"><div class="label">效果 / 说明</div><div class="value">' + ryoteiLinkedText(row['效果/说明']) + '</div></div>' +
     '<div class="field"><div class="label">获取 / 备注</div><div class="value">' + ryoteiLinkedText(row['获取/备注']) + '</div></div>' +
     '</article>').join('');
+  ryoteiRememberRender('new440');
 }
 
 /* ---------------- 攻略对照 ---------------- */
@@ -2142,6 +2188,7 @@ function renderGuides(){
       fieldConfig.map(([keyName, label]) => '<div class="field"><div class="label">' + esc(label) + '</div><div class="value">' + ryoteiLinkedText(row[keyName] || '无') + '</div></div>').join('') +
       '</div></div></details>';
   }).join('') : '<div class="empty-state">没有匹配的攻略记录。</div>';
+  ryoteiRememberRender('guides');
 }
 
 /* ---------------- 数据来源 ---------------- */
@@ -2153,6 +2200,7 @@ function renderSources(){
   const wrap = $('#source-list');
   wrap.innerHTML = '<div class="callout" style="margin-bottom:12px">攻略数据来自同目录 Excel；可离线使用。</div>' +
     rows.map((row, index) => '<div class="source-item" style="--i:' + Math.min(index, 12) + '"><div class="k">' + esc(row['项目']) + '</div><div class="v">' + linkify(row['内容']) + '</div></div>').join('');
+  ryoteiRememberRender('sources');
 }
 
 /* ---------------- 全局搜索 ---------------- */
@@ -2452,10 +2500,17 @@ function initTabIndicator(){
   ind.setAttribute('aria-hidden', 'true');
   bar.appendChild(ind);
   function move(){
-    const btn = bar.querySelector('.primary-tab.active, .reference-toggle.active');
-    if (!btn) return;
-    ind.style.width = btn.offsetWidth + 'px';
-    ind.style.transform = 'translateX(' + (btn.getBoundingClientRect().left - bar.getBoundingClientRect().left) + 'px)';
+    if (move.pending) return;
+    move.pending = requestAnimationFrame(()=>{
+      move.pending = 0;
+      const btn = bar.querySelector('.primary-tab.active, .reference-toggle.active');
+      if (!btn) return;
+      // 全部读取先于写入；合并同帧路由/尺寸事件，避免强制重复布局。
+      const width = btn.offsetWidth;
+      const left = btn.getBoundingClientRect().left - bar.getBoundingClientRect().left;
+      ind.style.width = width + 'px';
+      ind.style.transform = 'translateX(' + left + 'px)';
+    });
   }
   moveTabIndicator = move;
   window.addEventListener('resize', move);
@@ -2506,16 +2561,6 @@ function init(){
   initSpotlight();
   initRipple();
   fillLedger();
-  buildAddonIndex();
-  buildDrinkRecIndex();
-  renderDetails();
-  renderCatalog();
-  renderIngredients();
-  renderBeverages();
-  renderNormal();
-  renderNew440();
-  renderGuides();
-  renderSources();
   buildGlobalIndex();
   route();
 }
@@ -2752,6 +2797,41 @@ const RYOTEI_ITEM_PAGES = {
   normal:{tab:'normal',sheet:'normal',key:'普通客人',query:'normalQuery'}
 };
 const ryoteiTextMatchers = new Map();
+const ryoteiNormalNames = new Set(dataOf('normal').map(row=>row['普通客人']));
+let ryoteiMealIndex = null;
+
+function ryoteiGuestRecord(name){
+  return dataOf('guests').find(row=>row['客人名字'] === name) || dataOf('normal').find(row=>row['普通客人'] === name);
+}
+function buildMealIndex(){
+  if (ryoteiMealIndex) return ryoteiMealIndex;
+  const recipes = new Map(dataOf('recipes').map(row=>[row['菜品'],row]));
+  const normal = [];
+  for (const guest of dataOf('normal')) {
+    for (const [field,stage] of [['前期推荐菜（≤80元）','前期'],['后期推荐菜（≤200元）','后期']]) {
+      for (const line of lines(guest[field])) {
+        const match = line.match(/^(.+?)（(\d+(?:\.\d+)?)）$/);
+        const recipe = match && recipes.get(match[1]);
+        if (!recipe) continue;
+        // 只拆出原表已经给出的推荐，不生成新的评分、加料或推荐规则。
+        normal.push({...recipe,'客人名字':guest['普通客人'],'类型':'普通客人','阶段':stage,
+          '价格':match[2],'命中喜好':'','游戏积分':'—','加料建议':'原表普通客人推荐：' + line + '；未收录加料建议与评分。'});
+      }
+    }
+  }
+  ryoteiMealIndex = dataOf('details').map(row=>({...row,'等级':dishLevelValue(row['菜品'])})).concat(normal)
+    .map(row=>({...row,'__等级文本':row['等级'] == null ? '' : 'Lv ' + row['等级']}));
+  return ryoteiMealIndex;
+}
+function ryoteiNormalPlanNotice(kind){
+  const who = state.serviceGuest;
+  const selected = who === 'normal' ? dataOf('normal').filter(row=>ryoteiVisitsPlace(row))
+    : dataOf('normal').filter(row=>row['普通客人'] === who && ryoteiVisitsPlace(row));
+  if (!selected.length) return '';
+  return '<div class="empty-state">原表未收录普通客人的' + kind + '推荐。' +
+    selected.map(row=>'<p>' + esc(row['普通客人']) + ' · 喜好' + (kind === '酒水' ? '酒水' : '料理') + '：' +
+      tagHtml(row[kind === '酒水' ? '喜好酒水标签' : '喜好料理标签'],kind === '酒水' ? 'drink' : 'good') + '</p>').join('') + '</div>';
+}
 
 function ryoteiGroup(tab){
   return Object.keys(RYOTEI_GROUPS).find(key=>RYOTEI_GROUPS[key].tabs.some(([id])=>id === tab)) || 'guests';
@@ -2760,9 +2840,12 @@ function ryoteiVisitsPlace(row,place=state.servicePlace){
   return !place || place === 'all' || splitTags(row['出没地点']).includes(place);
 }
 function ryoteiPlanRows(rows){
-  if (!state.servicePlace || state.servicePlace === 'all') return rows;
-  const guests = new Set(dataOf('guests').filter(row=>ryoteiVisitsPlace(row)).map(row=>row['客人名字']));
-  return rows.filter(row=>guests.has(row['客人名字']));
+  const who = state.serviceGuest || 'all';
+  const guests = new Set(dataOf('guests').filter(row=>ryoteiVisitsPlace(row)).map(row=>row['客人名字'])
+    .concat(dataOf('normal').filter(row=>ryoteiVisitsPlace(row)).map(row=>row['普通客人'])));
+  return rows.filter(row=>guests.has(row['客人名字']) &&
+    (who === 'all' || (who === 'normal' ? ryoteiNormalNames.has(row['客人名字'])
+      : who === 'special' ? !ryoteiNormalNames.has(row['客人名字']) : row['客人名字'] === who)));
 }
 function ryoteiHash(tab,options={}){
   const params = new URLSearchParams();
@@ -2791,8 +2874,8 @@ function ryoteiApplyRoute(route){
   assign('servicePlace',place);
   const isPlan = ['details','drinkrecs','addons'].includes(route.tab);
   const requestedGuest = isPlan ? route.who : state.serviceGuest;
-  const guest = dataOf('guests').find(row=>row['客人名字'] === requestedGuest && ryoteiVisitsPlace(row,place));
-  const who = guest ? requestedGuest : 'all';
+  const guest = ryoteiGuestRecord(requestedGuest);
+  const who = ['all','normal','special'].includes(requestedGuest) || (guest && ryoteiVisitsPlace(guest,place)) ? requestedGuest : 'all';
   assign('serviceGuest',who);
   for (const key of ['detailGuest','addonGuest','drinkrecGuest']) assign(key,who);
   const itemPage = Object.values(RYOTEI_ITEM_PAGES).find(page=>page.tab === route.tab);
@@ -2858,19 +2941,39 @@ function updateRyoteiVisitors(group=ryoteiGroup(state.tab)){
   $('#service-count').textContent = guests.length + ' 位稀客 · ' + normal.length + ' 种普通客人';
   for (const selector of ['#detail-guest-filter','#addon-guest-filter','#drinkrec-guest-filter']) {
     const select = $(selector);
-    if (select.dataset.place !== state.servicePlace) { fillSelect(select,guests.map(row=>row['客人名字']).sort(byLocale),'全部客人');select.dataset.place=state.servicePlace; }
+    select.hidden = state.servicePlace !== 'all';
+    if (select.dataset.place !== state.servicePlace) {
+      const options = [['all','全部'],['normal','普通'],['special','特殊']]
+        .concat(guests.map(row=>[row['客人名字'],row['客人名字']]).sort((a,b)=>byLocale(a[1],b[1])))
+        .concat(normal.map(row=>[row['普通客人'],row['普通客人']]).sort((a,b)=>byLocale(a[1],b[1])));
+      select.innerHTML = options.map(([value,label])=>'<option value="' + escAttr(value) + '">' + esc(label) + '</option>').join('');
+      select.dataset.place=state.servicePlace;
+    }
     select.value=state.serviceGuest;
   }
   const overview = $('#service-visitors');
+  const wasHidden = overview.hidden;
   overview.hidden = group !== 'meals' || state.servicePlace === 'all';
-  if (overview.hidden || overview.dataset.place === state.servicePlace) return;
-  overview.dataset.place = state.servicePlace;
-  $('#visitor-rare').innerHTML = guests.map(row=>'<a class="visitor-link entity-link" href="' + escAttr(ryoteiHash('guests',{guest:row['客人名字']})) + '">' + ryoteiFace(row['客人名字']) + '<span>' + esc(row['客人名字']) + '</span></a>').join('');
-  $('#visitor-normal').innerHTML = normal.map(row=>'<a class="visitor-link entity-link" href="' + escAttr(ryoteiHash('normal',{item:row['普通客人']})) + '">' + ryoteiFace(row['普通客人'],'normal') + '<span>' + esc(row['普通客人']) + '</span></a>').join('');
+  if (overview.hidden) return;
+  if (wasHidden) overview.open = true;
+  if (overview.dataset.place !== state.servicePlace) {
+    overview.dataset.place = state.servicePlace;
+    overview.open = true;
+    const choice = (value,label,face='')=>'<button type="button" class="visitor-link" data-plan-guest="' + escAttr(value) + '">' + face + '<span>' + esc(label) + '</span></button>';
+    $('#visitor-filter').innerHTML = [['all','全部'],['normal','普通'],['special','特殊']].map(([value,label])=>choice(value,label)).join('');
+    $('#visitor-rare').innerHTML = guests.map(row=>choice(row['客人名字'],row['客人名字'],ryoteiFace(row['客人名字']))).join('');
+    $('#visitor-normal').innerHTML = normal.map(row=>choice(row['普通客人'],row['普通客人'],ryoteiFace(row['普通客人'],'normal'))).join('');
+  }
+  $$('[data-plan-guest]').forEach(button=>{
+    const selected = button.dataset.planGuest === state.serviceGuest;
+    button.classList.toggle('active',selected);
+    button.setAttribute('aria-pressed',String(selected));
+  });
 }
 function ryoteiEntityLink(kind,name,label=name){
   let href = '';
-  if (kind === 'guest' && dataOf('guests').some(row=>row['客人名字'] === name)) href = ryoteiHash('guests',{guest:name});
+  if (kind === 'guest' && ryoteiNormalNames.has(name)) href = ryoteiHash('normal',{item:name});
+  else if (kind === 'guest' && dataOf('guests').some(row=>row['客人名字'] === name)) href = ryoteiHash('guests',{guest:name});
   else if (kind === 'place' && RYOTEI_PLACES.includes(name)) href = ryoteiHash('guests',{place:name});
   else if (RYOTEI_ITEM_PAGES[kind]) {
     const page=RYOTEI_ITEM_PAGES[kind];
@@ -2943,26 +3046,24 @@ function ryoteiSaveView(){
 function ryoteiNavigate(hash,prepare){
   const previous = location.hash;
   ryoteiSaveView();
+  const workbench = $('#ryotei-workbench');
+  const anchored = Math.abs(workbench.getBoundingClientRect().top - parseFloat(getComputedStyle(workbench).scrollMarginTop)) < 2;
   if (prepare) prepare();
   if (previous !== hash) location.hash = hash;
   route();
   $('#reference-menu').open = false;
-  if (!state.openGuest) $('#ryotei-workbench').scrollIntoView({behavior:'instant',block:'start'});
-  history.replaceState({...history.state,ryoteiFrom:previous !== hash ? previous || '#guests' : history.state?.ryoteiFrom,ryoteiView:ryoteiCaptureView()},'',location.href);
-  updateRyoteiReturn();
-}
-function updateRyoteiReturn(){
-  const from = history.state?.ryoteiFrom;
-  const wrap = $('#jump-return');
-  wrap.hidden = !from || from === location.hash;
-  if (!wrap.hidden) {
-    const origin = ryoteiParseRoute(from);
-    $('#jump-back').textContent = '← 返回' + (origin.guest || RYOTEI_GROUPS[ryoteiGroup(origin.tab)].label);
-  }
+  // 状态即时生效，阅读位置在同帧布局完成后记录；已停在工作区时无需重复滚动。
+  history.replaceState({...history.state,ryoteiView:null},'',location.href);
+  cancelAnimationFrame(ryoteiNavigate.captureFrame);
+  ryoteiNavigate.captureFrame = requestAnimationFrame(()=>{
+    if (location.hash !== hash) return;
+    if (!state.openGuest && !anchored) workbench.scrollIntoView({behavior:'instant',block:'start'});
+    history.replaceState({...history.state,ryoteiView:ryoteiCaptureView()},'',location.href);
+  });
 }
 function ryoteiRestoreView(){
   const view = history.state?.ryoteiView;
-  if (!view) { route();updateRyoteiReturn();return; }
+  if (!view) { route();return; }
   const before = JSON.stringify(Object.fromEntries(Object.entries(state).filter(([key])=>key !== 'openGuest' && !key.startsWith('global'))));
   const oldGuest = state.openGuest;
   Object.assign(state,view.state);
@@ -2975,7 +3076,6 @@ function ryoteiRestoreView(){
   Object.assign(ryoteiPages,view.pages);
   syncRyoteiControls();
   route();
-  updateRyoteiReturn();
   requestAnimationFrame(()=>{ ryoteiRestoreReading(view.reading);window.scrollTo({top:view.scroll,behavior:'instant'});if (state.openGuest) $('#detail-body').scrollTop=view.detailScroll; });
 }
 function ryoteiRevealItem(){
@@ -2990,7 +3090,6 @@ function ryoteiRevealItem(){
 function initRyoteiNavigation(){
   $('#service-place').innerHTML = '<option value="all">全部地点</option>' + RYOTEI_PLACES.map(name=>'<option value="' + escAttr(name) + '">' + esc(name) + '</option>').join('');
   $('#service-place').addEventListener('change',event=>ryoteiNavigate(ryoteiHash(state.tab,{place:event.target.value})));
-  $('#jump-back').addEventListener('click',()=>history.back());
   for (const selector of ['#detail-guest-filter','#addon-guest-filter','#drinkrec-guest-filter']) {
     $(selector).addEventListener('change',event=>ryoteiNavigate(ryoteiHash(state.tab,{who:event.target.value})));
   }
@@ -3000,6 +3099,12 @@ function initRyoteiNavigation(){
     const section = event.target.closest('[data-section-tab]');
     const guest = event.target.closest('button[data-guest]');
     const link = event.target.closest('a.entity-link');
+    const planGuest = event.target.closest('[data-plan-guest]');
+    if (planGuest) {
+      event.preventDefault();
+      ryoteiNavigate(ryoteiHash(state.tab,{who:planGuest.dataset.planGuest}));
+      return;
+    }
     if (primary || section || guest || link) {
       event.preventDefault();
       const hash = primary ? ryoteiHash(ryoteiGroupLast[primary.dataset.group]) : section ? ryoteiHash(section.dataset.sectionTab) : guest ? ryoteiHash('guests',{guest:guest.dataset.guest}) : link.getAttribute('href');

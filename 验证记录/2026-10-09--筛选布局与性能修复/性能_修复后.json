@@ -1,0 +1,568 @@
+{
+  "mode": "fixed",
+  "browser": "148.0.3967.42",
+  "loadMs": 741,
+  "metrics": [
+    {
+      "group": "meals",
+      "round": 0,
+      "handlerMs": 21.6,
+      "nextPaintMs": 128.5
+    },
+    {
+      "group": "items",
+      "round": 0,
+      "handlerMs": 11.9,
+      "nextPaintMs": 102.9
+    },
+    {
+      "group": "guests",
+      "round": 0,
+      "handlerMs": 9,
+      "nextPaintMs": 66.1
+    },
+    {
+      "group": "meals",
+      "round": 1,
+      "handlerMs": 5.4,
+      "nextPaintMs": 58.6
+    },
+    {
+      "group": "items",
+      "round": 1,
+      "handlerMs": 5.7,
+      "nextPaintMs": 50.3
+    },
+    {
+      "group": "guests",
+      "round": 1,
+      "handlerMs": 3.1,
+      "nextPaintMs": 71.8
+    },
+    {
+      "group": "meals",
+      "round": 2,
+      "handlerMs": 5.8,
+      "nextPaintMs": 58.9
+    },
+    {
+      "group": "items",
+      "round": 2,
+      "handlerMs": 3.5,
+      "nextPaintMs": 42.9
+    },
+    {
+      "group": "guests",
+      "round": 2,
+      "handlerMs": 4.6,
+      "nextPaintMs": 54.7
+    },
+    {
+      "group": "meals",
+      "round": 3,
+      "handlerMs": 3.8,
+      "nextPaintMs": 52.6
+    },
+    {
+      "group": "items",
+      "round": 3,
+      "handlerMs": 3.9,
+      "nextPaintMs": 41.8
+    },
+    {
+      "group": "guests",
+      "round": 3,
+      "handlerMs": 2.8,
+      "nextPaintMs": 55.8
+    }
+  ],
+  "summary": {
+    "guestOptions": [
+      {
+        "value": "all",
+        "label": "全部"
+      },
+      {
+        "value": "normal",
+        "label": "普通"
+      },
+      {
+        "value": "special",
+        "label": "特殊"
+      },
+      {
+        "value": "爱丽丝",
+        "label": "爱丽丝"
+      },
+      {
+        "value": "爱莲",
+        "label": "爱莲"
+      },
+      {
+        "value": "八云紫",
+        "label": "八云紫"
+      },
+      {
+        "value": "稗田阿求",
+        "label": "稗田阿求"
+      },
+      {
+        "value": "蹦蹦跳跳的三妖精",
+        "label": "蹦蹦跳跳的三妖精"
+      },
+      {
+        "value": "比那名居天子",
+        "label": "比那名居天子"
+      },
+      {
+        "value": "博丽灵梦",
+        "label": "博丽灵梦"
+      },
+      {
+        "value": "橙",
+        "label": "橙"
+      },
+      {
+        "value": "茨木华扇",
+        "label": "茨木华扇"
+      },
+      {
+        "value": "村纱水蜜",
+        "label": "村纱水蜜"
+      },
+      {
+        "value": "东风谷早苗",
+        "label": "东风谷早苗"
+      },
+      {
+        "value": "多多良小伞",
+        "label": "多多良小伞"
+      },
+      {
+        "value": "二岩猯藏",
+        "label": "二岩猯藏"
+      },
+      {
+        "value": "风见幽香",
+        "label": "风见幽香"
+      },
+      {
+        "value": "封兽鵺",
+        "label": "封兽鵺"
+      },
+      {
+        "value": "古明地觉",
+        "label": "古明地觉"
+      },
+      {
+        "value": "古明地恋",
+        "label": "古明地恋"
+      },
+      {
+        "value": "鬼人正邪",
+        "label": "鬼人正邪"
+      },
+      {
+        "value": "河城荷取",
+        "label": "河城荷取"
+      },
+      {
+        "value": "黑谷山女",
+        "label": "黑谷山女"
+      },
+      {
+        "value": "红美铃",
+        "label": "红美铃"
+      },
+      {
+        "value": "冴月麟",
+        "label": "冴月麟"
+      },
+      {
+        "value": "魂魄妖梦",
+        "label": "魂魄妖梦"
+      },
+      {
+        "value": "火焰猫燐",
+        "label": "火焰猫燐"
+      },
+      {
+        "value": "霍青娥",
+        "label": "霍青娥"
+      },
+      {
+        "value": "今泉影狼",
+        "label": "今泉影狼"
+      },
+      {
+        "value": "蕾米莉亚",
+        "label": "蕾米莉亚"
+      },
+      {
+        "value": "立空汐",
+        "label": "立空汐"
+      },
+      {
+        "value": "莉格露",
+        "label": "莉格露"
+      },
+      {
+        "value": "灵乌路空",
+        "label": "灵乌路空"
+      },
+      {
+        "value": "铃仙",
+        "label": "铃仙"
+      },
+      {
+        "value": "露米娅",
+        "label": "露米娅"
+      },
+      {
+        "value": "露易兹",
+        "label": "露易兹"
+      },
+      {
+        "value": "梅蒂欣",
+        "label": "梅蒂欣"
+      },
+      {
+        "value": "魅魔",
+        "label": "魅魔"
+      },
+      {
+        "value": "萌澄果",
+        "label": "萌澄果"
+      },
+      {
+        "value": "绵月丰姬",
+        "label": "绵月丰姬"
+      },
+      {
+        "value": "绵月依姬",
+        "label": "绵月依姬"
+      },
+      {
+        "value": "帕秋莉",
+        "label": "帕秋莉"
+      },
+      {
+        "value": "蓬莱山辉夜",
+        "label": "蓬莱山辉夜"
+      },
+      {
+        "value": "琪露诺",
+        "label": "琪露诺"
+      },
+      {
+        "value": "秦心",
+        "label": "秦心"
+      },
+      {
+        "value": "犬走椛",
+        "label": "犬走椛"
+      },
+      {
+        "value": "森近霖之助",
+        "label": "森近霖之助"
+      },
+      {
+        "value": "上白泽慧音",
+        "label": "上白泽慧音"
+      },
+      {
+        "value": "少名针妙丸",
+        "label": "少名针妙丸"
+      },
+      {
+        "value": "射命丸文",
+        "label": "射命丸文"
+      },
+      {
+        "value": "时焉侑",
+        "label": "时焉侑"
+      },
+      {
+        "value": "矢田寺成美",
+        "label": "矢田寺成美"
+      },
+      {
+        "value": "水桥帕露西",
+        "label": "水桥帕露西"
+      },
+      {
+        "value": "苏我屠自古",
+        "label": "苏我屠自古"
+      },
+      {
+        "value": "饕餮尤魔",
+        "label": "饕餮尤魔"
+      },
+      {
+        "value": "藤原妹红",
+        "label": "藤原妹红"
+      },
+      {
+        "value": "物部布都",
+        "label": "物部布都"
+      },
+      {
+        "value": "雾雨魔理沙",
+        "label": "雾雨魔理沙"
+      },
+      {
+        "value": "西行寺幽幽子",
+        "label": "西行寺幽幽子"
+      },
+      {
+        "value": "星熊勇仪",
+        "label": "星熊勇仪"
+      },
+      {
+        "value": "伊吹萃香",
+        "label": "伊吹萃香"
+      },
+      {
+        "value": "因幡帝",
+        "label": "因幡帝"
+      },
+      {
+        "value": "八尺大人",
+        "label": "八尺大人"
+      },
+      {
+        "value": "白狼天狗",
+        "label": "白狼天狗"
+      },
+      {
+        "value": "豹女",
+        "label": "豹女"
+      },
+      {
+        "value": "不良少年",
+        "label": "不良少年"
+      },
+      {
+        "value": "不良少女",
+        "label": "不良少女"
+      },
+      {
+        "value": "捣药兔",
+        "label": "捣药兔"
+      },
+      {
+        "value": "道士",
+        "label": "道士"
+      },
+      {
+        "value": "地精",
+        "label": "地精"
+      },
+      {
+        "value": "地狱鸦",
+        "label": "地狱鸦"
+      },
+      {
+        "value": "疯帽匠",
+        "label": "疯帽匠"
+      },
+      {
+        "value": "姑获鸟",
+        "label": "姑获鸟"
+      },
+      {
+        "value": "骨女",
+        "label": "骨女"
+      },
+      {
+        "value": "鬼",
+        "label": "鬼"
+      },
+      {
+        "value": "河童",
+        "label": "河童"
+      },
+      {
+        "value": "僵尸",
+        "label": "僵尸"
+      },
+      {
+        "value": "铃兰花精",
+        "label": "铃兰花精"
+      },
+      {
+        "value": "蟒蛇精",
+        "label": "蟒蛇精"
+      },
+      {
+        "value": "玫瑰花精",
+        "label": "玫瑰花精"
+      },
+      {
+        "value": "迷之人形",
+        "label": "迷之人形"
+      },
+      {
+        "value": "魔法使",
+        "label": "魔法使"
+      },
+      {
+        "value": "人类男性",
+        "label": "人类男性"
+      },
+      {
+        "value": "人类女性",
+        "label": "人类女性"
+      },
+      {
+        "value": "人类小孩",
+        "label": "人类小孩"
+      },
+      {
+        "value": "人类长者",
+        "label": "人类长者"
+      },
+      {
+        "value": "森之妖精",
+        "label": "森之妖精"
+      },
+      {
+        "value": "僧侣",
+        "label": "僧侣"
+      },
+      {
+        "value": "山姥",
+        "label": "山姥"
+      },
+      {
+        "value": "山童",
+        "label": "山童"
+      },
+      {
+        "value": "太阳花精",
+        "label": "太阳花精"
+      },
+      {
+        "value": "土蜘蛛",
+        "label": "土蜘蛛"
+      },
+      {
+        "value": "玩具兵",
+        "label": "玩具兵"
+      },
+      {
+        "value": "仙人",
+        "label": "仙人"
+      },
+      {
+        "value": "小丑",
+        "label": "小丑"
+      },
+      {
+        "value": "小人族",
+        "label": "小人族"
+      },
+      {
+        "value": "鸦天狗",
+        "label": "鸦天狗"
+      },
+      {
+        "value": "妖怪狐",
+        "label": "妖怪狐"
+      },
+      {
+        "value": "妖怪狸",
+        "label": "妖怪狸"
+      },
+      {
+        "value": "妖怪猫",
+        "label": "妖怪猫"
+      },
+      {
+        "value": "妖怪鼠",
+        "label": "妖怪鼠"
+      },
+      {
+        "value": "妖怪兔",
+        "label": "妖怪兔"
+      },
+      {
+        "value": "妖精",
+        "label": "妖精"
+      },
+      {
+        "value": "影女",
+        "label": "影女"
+      },
+      {
+        "value": "月人",
+        "label": "月人"
+      },
+      {
+        "value": "月之使者",
+        "label": "月之使者"
+      },
+      {
+        "value": "纸牌兵",
+        "label": "纸牌兵"
+      },
+      {
+        "value": "左卫门",
+        "label": "左卫门"
+      },
+      {
+        "value": "座敷童子",
+        "label": "座敷童子"
+      }
+    ],
+    "tags": [
+      "昂贵",
+      "饱腹",
+      "不可思议",
+      "传说",
+      "大份",
+      "毒",
+      "高级",
+      "果味",
+      "海味",
+      "和风",
+      "家常",
+      "菌类",
+      "辣",
+      "力量涌现",
+      "凉爽",
+      "猎奇",
+      "梦幻",
+      "清淡",
+      "燃起来了",
+      "肉",
+      "山珍",
+      "烧烤",
+      "生",
+      "实惠",
+      "适合拍照",
+      "水产",
+      "素",
+      "酸",
+      "汤羹",
+      "特产",
+      "甜",
+      "文化底蕴",
+      "西式",
+      "下酒",
+      "鲜",
+      "咸",
+      "小巧",
+      "招牌",
+      "中华",
+      "重油",
+      "灼热"
+    ],
+    "contentOffset": 286.5420227050781,
+    "tagFont": "14px",
+    "hiddenTables": 1
+  },
+  "errors": [],
+  "functionalChecks": "PASS",
+  "regionCount": 15
+}

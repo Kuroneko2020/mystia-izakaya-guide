@@ -1,0 +1,11 @@
+{
+  "baselineCommit": "b08af4bc10b536e5739cf5da3ccff6011a551981",
+  "baselineHtmlSha256": "162bdc9089224d0c482861e52537f1c11f13cdca2b99e2a656bce3b2a8baac04",
+  "outputHtmlSha256": "52cea6d624bd60cb53451453cf77c7e711d52325d9a780e1626ae3b642fa5860",
+  "outputBytes": 2527876,
+  "appDataSha256": "cd847712480d6b42928ba803d8c5283e607a03bdc066877e2f5ac74081f20037",
+  "exactDataUnchanged": true,
+  "exactAssetsUnchanged": true,
+  "exactAvatarStyleUnchanged": true,
+  "twoBuildsByteIdentical": true
+}
