@@ -6,9 +6,9 @@ const {pathToFileURL} = require('node:url');
 const {chromium} = require('playwright');
 const root = path.resolve(__dirname, '..');
 const baseline = process.argv.includes('--baseline');
-const outputDir = path.join(root, '验证记录/2026-10-09--筛选布局与性能修复');
+const outputDir = path.join(root, '验证记录/2026-10-10--侧栏布局与全量推荐');
 const file = path.join(root, baseline
-  ? '制作材料/备菜选单与渐变改造前-20261009-001715/东方夜雀食堂攻略查询_料亭立体头像版.html'
+  ? '验证记录/2026-10-10--侧栏布局与全量推荐/修复前.html'
   : '成品/东方夜雀食堂攻略查询_料亭立体头像版.html');
 async function measure(page, selector) {
   return page.evaluate(async selector => {
@@ -17,7 +17,13 @@ async function measure(page, selector) {
     document.querySelector(selector).click();
     const handler = performance.now() - start;
     await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
-    return {handlerMs: +handler.toFixed(2), nextPaintMs: +(performance.now() - start).toFixed(2)};
+    const nextPaint = performance.now() - start;
+    const panel = document.querySelector('.tab-panel:not([hidden])');
+    const animations = panel.getAnimations({subtree:true}).filter(a=>a.effect.getComputedTiming().endTime<Infinity);
+    const animationWait = Math.max(0,...animations.map(a=>a.effect.getComputedTiming().endTime - (a.currentTime || 0)));
+    await Promise.all(animations.map(a=>a.finished.catch(()=>{})));
+    await new Promise(requestAnimationFrame);
+    return {handlerMs:+handler.toFixed(2), nextPaintMs:+nextPaint.toFixed(2), remainingAnimationMs:+animationWait.toFixed(2), settledMs:+(performance.now()-start).toFixed(2)};
   }, selector);
 }
 async function main() {
@@ -31,7 +37,6 @@ async function main() {
     await page.goto(pathToFileURL(file).href);
     await page.waitForSelector('#guest-grid .guest-card');
     const loadMs = Date.now()-start;
-    await page.addStyleTag({content:'.guest-card{animation:none!important}'});
     const profiler = process.argv.includes('--profile') ? await page.context().newCDPSession(page) : null;
     if (profiler) {await profiler.send('Profiler.enable');await profiler.send('Profiler.start');}
     const metrics = [];
@@ -51,27 +56,45 @@ async function main() {
     await page.locator('button.primary-tab[data-group="meals"]').click();
     const summary = await page.evaluate(() => ({
       guestOptions:Array.from(document.querySelector('#detail-guest-filter').options).map(x=>({value:x.value,label:x.textContent})),
-      tags:Array.from(document.querySelectorAll('#panel-details .tag.suggest')).map(x=>x.dataset.tag),
+      tags:Array.from(document.querySelectorAll('[data-filter-tab="details"] .tag.suggest,#panel-details .tag.suggest')).map(x=>x.dataset.tag),
       contentOffset:document.querySelector('#detail-table-wrap').getBoundingClientRect().top - document.querySelector('#ryotei-workbench').getBoundingClientRect().top,
-      tagFont:getComputedStyle(document.querySelector('#panel-details .tag.suggest')).fontSize,
+      tagFont:getComputedStyle(document.querySelector('[data-filter-tab="details"] .tag.suggest,#panel-details .tag.suggest')).fontSize,
       hiddenTables:Array.from(document.querySelectorAll('.tab-panel[hidden] .data-table')).length
     }));
     const report = {mode:baseline?'baseline':'fixed',browser:await browser.version(),loadMs,metrics,summary,errors};
     fs.writeFileSync(path.join(outputDir, baseline?'性能_修复前.json':'性能_修复后.json'),JSON.stringify(report,null,2));
     console.log(JSON.stringify({mode:report.mode,loadMs,metrics,summary:{contentOffset:summary.contentOffset,tagFont:summary.tagFont,tags:summary.tags.length,hiddenTables:summary.hiddenTables},errors},null,2));
     if (baseline) return;
+    const sheets=JSON.parse(await page.locator('#app-data').textContent()).sheets;
+    const records=key=>sheets[key].rows.map(row=>Object.fromEntries(sheets[key].headers.map((key,i)=>[key,row[i]])));
+    const guests=records('guests').concat(records('normal'));
+    const staticTags=value=>(value || '').split(/[、,，]/).filter(tag=>tag && tag!=='无' && !/动态|^流行/.test(tag));
+    const expectedFood=guests.flatMap(guest=>records('recipes').filter(item=>{
+      const tags=staticTags(item['菜品标签']);
+      return staticTags(guest['喜好料理标签']).some(t=>tags.includes(t)) && !staticTags(guest['厌恶料理标签']).some(t=>tags.includes(t));
+    }).map(item=>({...item,name:guest['客人名字'] || guest['普通客人'],normal:!!guest['普通客人']})));
+    const countFor=(names,ordinary)=>expectedFood.filter(r=>(!names || names.has(r.name)) && (ordinary===undefined || r.normal===ordinary)).length;
+    const rabbitCount=countFor(new Set(['妖怪兔']));
+    assert.equal(await page.locator('.ryotei-hero,#ledger,#detail-stage-filter').count(),0);
+    assert.equal(await page.locator('select option').filter({hasText:/前期|后期/}).count(),0);
+    assert.ok(summary.contentOffset<85,'结果紧跟页签，筛选不占据上方高度');
+    assert.equal(await page.locator('#workbench-filters #detail-search').count(),1);
+    const prices=await page.locator('#detail-table-wrap .price-value').allTextContents();
+    assert.ok(prices.every((p,i)=>i===0 || parseFloat(p)<=parseFloat(prices[i-1])),'料理默认价格降序');
+    assert.ok(await page.locator('#detail-table-wrap .price-value').first().evaluate(el=>parseFloat(getComputedStyle(el).fontSize))<=14);
+    assert.equal(await page.locator('.pbar,.pbar-cell').count(),0,'价格无底色框和比重条');
     assert.deepEqual(summary.guestOptions.slice(0,3).map(x=>x.label),['全部','普通','特殊']);
     assert.equal(summary.guestOptions.length,109);
     assert.ok(summary.tags.includes('西式'));
     assert.ok(parseFloat(summary.tagFont)>=13);
     assert.equal(await page.locator('#jump-return').count(),0);
     await page.locator('#detail-guest-filter').selectOption('normal');
-    assert.match(await page.locator('#detail-count').innerText(),/282/);
+    assert.match(await page.locator('#detail-count').innerText(),new RegExp('^'+countFor(null,true)+' /'));
     assert.equal(await page.locator('#detail-table-wrap .data-row').count(),50);
     await page.locator('#detail-guest-filter').selectOption('special');
-    assert.match(await page.locator('#detail-count').innerText(),/339/);
+    assert.match(await page.locator('#detail-count').innerText(),new RegExp('^'+countFor(null,false)+' /'));
     await page.locator('#detail-guest-filter').selectOption('妖怪兔');
-    assert.equal(await page.locator('#detail-table-wrap .data-row').count(),6);
+    assert.equal(await page.locator('#detail-table-wrap .data-row').count(),Math.min(50,rabbitCount));
     await page.locator('#detail-guest-filter').selectOption('all');
     await page.screenshot({path:path.join(outputDir,'配餐_全部地点.png')});
     await page.locator('#service-place').selectOption('妖怪兽道');
@@ -83,26 +106,29 @@ async function main() {
     assert.equal(await page.locator('#detail-panel').isVisible(),false);
     assert.match(page.url(),/#details/);
     await page.locator('#visitor-normal [data-plan-guest="妖怪兔"]').click();
-    assert.equal(await page.locator('#detail-table-wrap .data-row').count(),6);
+    assert.equal(await page.locator('#detail-table-wrap .data-row').count(),Math.min(50,rabbitCount));
     await page.screenshot({path:path.join(outputDir,'配餐_地点与头像选客.png')});
     await page.locator('[data-section-tab="drinkrecs"]').click();
     assert.match(await page.locator('#drinkrec-table-wrap').innerText(),/喜好|原表/);
+    const drinkPrices=await page.locator('#drinkrec-table-wrap .price-value').allTextContents();
+    assert.ok(drinkPrices.length>3,'普通客人酒水推荐未截为三条');
+    assert.ok(drinkPrices.every((p,i)=>i===0 || parseFloat(p)<=parseFloat(drinkPrices[i-1])),'酒水默认价格降序');
     assert.match(page.url(),/who=/);
     await page.locator('[data-section-tab="addons"]').click();
     assert.match(await page.locator('#addon-table-wrap').innerText(),/原表/);
     await page.locator('#visitor-rare [data-plan-guest]').first().click();
     assert.ok(await page.locator('#addon-table-wrap .data-row').count()>0);
     await page.locator('button.primary-tab[data-group="items"]').click();
-    await page.locator('#panel-catalog [data-tag="西式"]').click();
+    await page.locator('[data-filter-tab="catalog"] [data-tag="西式"]').click();
     const rows = await page.locator('#catalog-table-wrap .data-row').allTextContents();
     assert.ok(rows.length>0);
     assert.ok(rows.every(x=>x.includes('西式')));
-    await page.locator('#panel-catalog [data-action="clear"]').click();
+    await page.locator('[data-filter-tab="catalog"] [data-action="clear"]').click();
     await page.locator('#catalog-search').fill('xishi');
     await page.locator('#catalog-search').press('Enter');
-    assert.equal(await page.locator('#panel-catalog .tag.chip[data-tag="西式"]').count(),1);
+    assert.equal(await page.locator('[data-filter-tab="catalog"] .tag.chip[data-tag="西式"]').count(),1);
     await page.screenshot({path:path.join(outputDir,'图鉴_完整标签筛选.png')});
-    await page.locator('#panel-catalog [data-action="clear"]').click();
+    await page.locator('[data-filter-tab="catalog"] [data-action="clear"]').click();
     await page.locator('[data-table-page="catalogSort"][data-direction="1"]').click();
     await page.locator('#catalog-table-wrap [data-row-expand]').first().click();
     const firstDish=await page.locator('#catalog-table-wrap .data-row .col-item').first().innerText();
@@ -146,8 +172,8 @@ async function main() {
       return [['catalog','recipes','菜品标签'],['details','recipes','菜品标签'],['ingredient','ingredients','标签'],['beverage','beverages','标签']].map(([prefix,sheet,field])=>{
         const index=data[sheet].headers.indexOf(field);
         const expected=[...new Set(data[sheet].rows.flatMap(row=>row[index].split(/[、,，]/).filter(x=>x && x!=='无')))].sort();
-        const input=document.getElementById(prefix==='details'?'detail-search':prefix+'-search');
-        const actual=[...input.closest('.toolbar').querySelectorAll('[data-tag]')].map(x=>x.dataset.tag).sort();
+        const tab=prefix==='details'?'details':{ingredient:'ingredients',beverage:'beverages'}[prefix] || prefix;
+        const actual=[...document.querySelectorAll('.tag-filter-bar[data-filter-tab="'+tab+'"] [data-tag]')].map(x=>x.dataset.tag).sort();
         return {sheet,expected,actual};
       });
     });
@@ -160,19 +186,9 @@ async function main() {
     for (const place of places) {
       await page.locator('#service-place').selectOption(place);
       await page.locator('#visitor-filter [data-plan-guest="all"]').click();
-      const expected=await page.evaluate(place=>{
-        const sheets=JSON.parse(document.querySelector('#app-data').textContent).sheets;
-        const names=new Set();
-        for(const key of ['guests','normal']) {
-          const sheet=sheets[key],location=sheet.headers.indexOf('出没地点'),name=sheet.headers.indexOf(key==='guests'?'客人名字':'普通客人');
-          for(const row of sheet.rows) if(row[location].split('、').includes(place)) names.add(row[name]);
-        }
-        const guest=sheets.details.headers.indexOf('客人名字');
-        const special=sheets.details.rows.filter(row=>names.has(row[guest])).length;
-        const normal=sheets.normal,normalName=normal.headers.indexOf('普通客人'),early=normal.headers.indexOf('前期推荐菜（≤80元）'),late=normal.headers.indexOf('后期推荐菜（≤200元）');
-        const ordinary=normal.rows.filter(row=>names.has(row[normalName])).reduce((sum,row)=>sum+row[early].split('\n').length+row[late].split('\n').length,0);
-        return {special,ordinary};
-      },place);
+      assert.equal(await page.locator('#visitor-rare [data-plan-guest="因幡帝"]').count(),1,'每个地区都可选因幡帝');
+      const names=new Set(guests.filter(guest=>guest['客人名字']==='因幡帝' || guest['出没地点'].split('、').includes(place)).map(guest=>guest['客人名字'] || guest['普通客人']));
+      const expected={special:countFor(names,false),ordinary:countFor(names,true)};
       assert.match(await page.locator('#detail-count').innerText(),new RegExp(`^${expected.special+expected.ordinary} /`));
       await page.locator('#visitor-filter [data-plan-guest="normal"]').click();
       assert.match(await page.locator('#detail-count').innerText(),new RegExp(`^${expected.ordinary} /`));
@@ -181,13 +197,93 @@ async function main() {
       regions.push({place,...expected});
     }
     fs.writeFileSync(path.join(outputDir,'浏览器_15地区分类.json'),JSON.stringify(regions,null,2));
+    await page.locator('#service-place').selectOption('博丽神社');
+    await page.locator('#visitor-rare [data-plan-guest="因幡帝"]').click();
+    await page.locator('[data-filter-section="tags"]').click();
+    await page.setViewportSize({width:1440,height:720});
+    assert.equal(await page.locator('#service-visitors').isVisible(),false);
+    assert.equal(await page.locator('[data-filter-tab="details"] .tag.suggest').first().isVisible(),true);
+    const layout=await page.evaluate(()=>{
+      const aside=document.querySelector('#workbench-filters'),scroll=document.querySelector('.filter-content');
+      scroll.scrollTop=scroll.scrollHeight;
+      const last=document.querySelector('[data-filter-tab="details"] .tf-suggest').lastElementChild;
+      const lastRect=last.getBoundingClientRect(),rect=scroll.getBoundingClientRect();
+      const input=document.querySelector('#detail-search'),ctx=document.createElement('canvas').getContext('2d');ctx.font=getComputedStyle(input).font;
+      return {sidebarBottom:aside.getBoundingClientRect().bottom,height:innerHeight,lastTagBottom:lastRect.bottom,scrollBottom:rect.bottom,overflow:getComputedStyle(document.querySelector('#service-visitors')).overflow,
+        scrollbar:getComputedStyle(scroll).scrollbarColor,placeholderWidth:ctx.measureText(input.placeholder).width,inputWidth:input.clientWidth};
+    });
+    assert.ok(layout.sidebarBottom<=layout.height,'筛选面板不能超出视口');
+    assert.ok(layout.lastTagBottom<=layout.scrollBottom,'最后一行标签完整可读');
+    assert.equal(layout.overflow,'visible','来客名单不产生嵌套滚动和粘贴遮挡');
+    assert.ok(layout.placeholderWidth<=layout.inputWidth-45,'搜索提示完整显示');
+    assert.notEqual(layout.scrollbar,'auto');
+    fs.writeFileSync(path.join(outputDir,'侧栏_可达与遮挡检查.json'),JSON.stringify(layout,null,2));
+    await page.screenshot({path:path.join(outputDir,'侧栏_最后一行标签.png')});
+    assert.ok(await page.locator('.filter-content').evaluate(el=>el.scrollTop)>0);
+    await page.locator('#detail-table-wrap .data-row .col-item a').first().click();
+    await page.goBack();
+    await page.waitForFunction(()=>!document.querySelector('#panel-details').hidden);
+    assert.equal(await page.locator('[data-filter-section="tags"]').getAttribute('aria-pressed'),'true','后退恢复侧栏标签面板');
+    assert.ok(await page.locator('.filter-content').evaluate(el=>el.scrollTop)>0,'后退恢复侧栏阅读位置');
+    await page.setViewportSize({width:1440,height:1000});
+    await page.locator('button.primary-tab[data-group="guests"]').click();
+    assert.equal(await page.locator('#workbench-filters').isVisible(),false);
+    assert.equal(await page.locator('#guest-grid .guest-card').count(),59,'主页不被配餐地点悄悄裁剪');
+    const bounds=await page.locator('#guest-grid').boundingBox();
+    assert.ok(bounds.width>1300,'图鉴卡片使用全部内容宽度');
+    await page.screenshot({path:path.join(outputDir,'客人图鉴_无侧栏.png')});
+    await page.locator('#global-search').fill('妖怪兔');
+    await page.locator('#global-search').press('Enter');
+    await page.waitForFunction(()=>!document.querySelector('#panel-normal').hidden);
+    assert.equal(await page.locator('#normal-grid .guest-card').count(),1);
+    await page.locator('[data-section-tab="normal"]').click();
+    assert.equal(await page.locator('#normal-grid .guest-card').count(),47,'退出顶部普通客人精确检索可恢复完整名簿');
+    await page.locator('[data-section-tab="guests"]').click();
+    await page.locator('#guest-grid [data-guest="博丽灵梦"]').click();
+    await page.waitForFunction(()=>document.querySelector('#detail-panel').classList.contains('open'));
+    const detailBounds=await page.locator('#detail-panel').boundingBox();
+    assert.ok(detailBounds.width>=1100,'详情扩展到左侧');
+    assert.equal(await page.locator('#detail-body .pbar,#detail-body .pbar-cell').count(),0);
+    assert.equal(await page.locator('#guest-meals .data-row').count(),countFor(new Set(['博丽灵梦'])),'详情包含全部推荐料理');
+    assert.ok(!/前期|后期/.test(await page.locator('#detail-body').innerText()));
+    await page.screenshot({path:path.join(outputDir,'人物详情_全量推荐.png')});
+    await page.locator('#detail-close').click();
+    await page.locator('button.primary-tab[data-group="meals"]').click();
+    await page.locator('#service-place').selectOption('神灵庙');
+    await page.locator('button.primary-tab[data-group="guests"]').click();
+    await page.locator('[data-section-tab="normal"]').click();
+    const rabbit=page.locator('#normal-grid .guest-card').filter({has:page.locator('h3 a[data-entity-name="妖怪兔"]')});
+    // 身份链接的标准属性名是 data-entity-name；由内容后备定位，避免给测试添加生产专用属性。
+    const card=await rabbit.count() ? rabbit : page.locator('#normal-grid .guest-card').filter({has:page.locator('h3',{hasText:'妖怪兔'})});
+    await card.locator('.normal-meals summary').click();
+    await card.locator('a').filter({hasText:'全部推荐料理'}).click();
+    const params=new URLSearchParams(page.url().split('?')[1]);
+    assert.equal(params.get('place'),null,'普通客人全量配餐链接退出旧地点条件');
+    assert.equal(params.get('who'),'妖怪兔');
+    assert.match(await page.locator('#detail-count').innerText(),new RegExp('^'+rabbitCount+' /'));
     await page.locator('#service-place').selectOption('all');
     await page.locator('button.primary-tab[data-group="items"]').click();
     await page.locator('[data-section-tab="catalog"]').click();
-    await page.locator('#panel-catalog [data-tag="西式"]').click();
+    await page.locator('[data-filter-tab="catalog"] [data-tag="西式"]').click();
     await page.locator('#theme-toggle').click();
     await page.setViewportSize({width:390,height:844});
+    await page.screenshot({path:path.join(outputDir,'手机_结果.png')});
+    assert.equal(await page.locator('#catalog-search').isVisible(),false);
+    await page.locator('#filter-toggle').click();
+    assert.equal(await page.locator('#catalog-search').isVisible(),true);
     await page.screenshot({path:path.join(outputDir,'手机_图鉴标签.png')});
+    await page.locator('#filter-close').click();
+    assert.equal(await page.locator('#catalog-search').isVisible(),false);
+    await page.locator('button.primary-tab[data-group="guests"]').click();
+    await page.locator('button.primary-tab[data-group="meals"]').click();
+    await page.locator('#filter-toggle').click();
+    await page.goBack();
+    await page.waitForFunction(()=>!document.querySelector('#panel-normal').hidden);
+    assert.equal(await page.locator('#filter-backdrop').isVisible(),false,'退回图鉴无遗留抽屉遮罩');
+    await page.locator('button.primary-tab[data-group="items"]').click();
+    await page.locator('#filter-toggle').click();
+    await page.setViewportSize({width:1440,height:1000});
+    assert.equal(await page.locator('#filter-backdrop').isVisible(),false,'扩大到桌面关闭抽屉遮罩');
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
     assert.deepEqual(errors,[]);
     report.functionalChecks='PASS';

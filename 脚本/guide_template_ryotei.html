@@ -646,14 +646,6 @@ table.data-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:
 </header>
 
 <main id="main">
-  <section class="ryotei-hero" aria-labelledby="hero-title">
-    <div class="hero-scene" aria-hidden="true"></div><div class="hero-lantern" aria-hidden="true"></div>
-    <div class="hero-copy"><p class="hero-eyebrow">幻想乡 · 夜间营业指南</p>
-      <h2 id="hero-title">夜雀食堂<br><em>备菜手帖</em></h2>
-      <div class="hero-actions"><button class="hero-action" type="button" data-jump="guests">客人名簿 <span aria-hidden="true">↗</span></button><button class="hero-action secondary" type="button" data-jump="catalog">料理目录 <span aria-hidden="true">→</span></button></div>
-    </div><span class="hero-seal" aria-hidden="true">夜雀食堂</span>
-  </section>
-  <div class="ledger" id="ledger" hidden></div>
 <nav class="tabbar" id="tabbar" aria-label="页面导航">
   <div class="tab-row">
     <button class="tab-btn primary-tab active" data-group="guests" type="button">客人图鉴</button>
@@ -665,8 +657,16 @@ table.data-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:
 <div class="ryotei-workbench" id="ryotei-workbench">
   <div class="ryotei-page-heading"><div class="page-heading-copy"><span class="chapter-stamp" id="ryotei-chapter-stamp" aria-hidden="true">客录</span><div><h2 id="ryotei-page-title">客人名簿</h2></div></div><span class="page-code" id="ryotei-page-code" aria-hidden="true">CHAPTER 01</span></div>
   <nav class="section-nav" id="section-nav" aria-label="分类"></nav>
+  <button id="filter-toggle" class="filter-toggle" type="button" aria-controls="workbench-filters" aria-expanded="false">筛选与选客</button>
+  <aside id="workbench-filters" class="workbench-filters" aria-label="查询筛选">
+    <button id="filter-close" class="filter-close" type="button" aria-label="关闭筛选">完成筛选 ×</button>
+    <div id="page-filters"></div>
+    <div id="filter-sections" class="filter-sections" hidden><button type="button" data-filter-section="visitors">选客</button><button type="button" data-filter-section="tags">标签</button></div>
+    <div class="filter-content"><div id="filter-visitors"></div><div id="filter-tags"></div></div>
+  </aside>
+  <button id="filter-backdrop" class="filter-backdrop" type="button" aria-label="关闭筛选" hidden></button>
   <section class="service-context" id="service-context" aria-label="今晚开店">
-    <div class="service-choice"><label for="service-place">今晚开店</label><select id="service-place"></select><span class="service-note" title="按已收录的自然来访地区筛选；不是每晚必来，尚未细分店面等级。邀请和剧情可能改变来客。">可能来访 ⓘ</span><span id="service-count"></span></div>
+    <div class="service-choice"><label for="service-place">今晚开店</label><select id="service-place"></select><span class="service-note" title="自然来访不保证每晚出现；因幡帝随机出没于全部地区。邀请和剧情可能改变来客。">可能来访 ⓘ</span><span id="service-count"></span></div>
     <details id="service-visitors" class="visitor-overview" open hidden><summary>来客名簿 · 点击头像筛选配餐</summary><div id="visitor-filter" class="visitor-list visitor-filter" aria-label="客人分类"></div><div class="visitor-group"><h3>稀客与特殊客人</h3><div id="visitor-rare" class="visitor-list"></div></div><div class="visitor-group"><h3>普通客人</h3><div id="visitor-normal" class="visitor-list"></div></div></details>
   </section>
 
@@ -687,14 +687,9 @@ table.data-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:
     <div class="toolbar">
       <div class="search-box">
         <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
-        <input id="detail-search" type="search" placeholder="搜索菜品、主料、标签、加料建议…" autocomplete="off">
+        <input id="detail-search" type="search" placeholder="搜索料理、主料或标签" aria-label="搜索料理、主料、标签和加料建议" autocomplete="off">
       </div>
       <select id="detail-guest-filter" aria-label="按客人筛选"></select>
-      <select id="detail-stage-filter" aria-label="按阶段筛选">
-        <option value="all">全部阶段</option>
-        <option value="前期">前期</option>
-        <option value="后期">后期</option>
-      </select>
       <select id="detail-dlc-filter" aria-label="按版本筛选"></select>
       <span id="detail-count" class="count"></span>
     </div>
@@ -705,7 +700,7 @@ table.data-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:
     <div class="toolbar">
       <div class="search-box">
         <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
-        <input id="catalog-search" type="search" placeholder="搜索菜品、主料、标签、解锁来源…" autocomplete="off">
+        <input id="catalog-search" type="search" placeholder="搜索菜品、主料或标签" aria-label="搜索菜品、主料、标签和解锁来源" autocomplete="off">
       </div>
       <select id="catalog-dlc-filter" aria-label="按版本筛选"></select>
       <span id="catalog-count" class="count"></span>
@@ -717,7 +712,7 @@ table.data-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:
     <div class="toolbar">
       <div class="search-box">
         <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
-        <input id="ingredient-search" type="search" placeholder="搜索食材、标签、获取方式…" autocomplete="off">
+        <input id="ingredient-search" type="search" placeholder="搜索食材或标签" aria-label="搜索食材、标签和获取方式" autocomplete="off">
       </div>
       <select id="ingredient-type-filter" aria-label="按食材类型筛选"></select>
       <select id="ingredient-dlc-filter" aria-label="按版本筛选"></select>
@@ -730,7 +725,7 @@ table.data-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:
     <div class="toolbar">
       <div class="search-box">
         <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
-        <input id="beverage-search" type="search" placeholder="搜索酒水、标签、获取方式…" autocomplete="off">
+        <input id="beverage-search" type="search" placeholder="搜索酒水或标签" aria-label="搜索酒水、标签和获取方式" autocomplete="off">
       </div>
       <select id="beverage-dlc-filter" aria-label="按版本筛选"></select>
       <span id="beverage-count" class="count"></span>
@@ -745,14 +740,13 @@ table.data-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:
     <div class="toolbar">
       <div class="search-box">
         <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
-        <input id="addon-search" type="search" placeholder="搜索客人、食材、补足标签…" autocomplete="off">
+        <input id="addon-search" type="search" placeholder="搜索客人、食材或标签" aria-label="搜索客人、食材和补足标签" autocomplete="off">
       </div>
       <select id="addon-guest-filter" aria-label="按客人筛选"></select>
       <select id="addon-scene-filter" aria-label="按场景筛选">
         <option value="all">全部场景</option>
         <option value="通用加料">通用加料</option>
-        <option value="前期示例">前期示例</option>
-        <option value="后期示例">后期示例</option>
+        <option value="配菜示例">配菜示例</option>
       </select>
       <select id="addon-sort-filter" aria-label="排序方式">
         <option value="price-asc">价格从低到高</option>
@@ -772,7 +766,7 @@ table.data-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:
     <div class="toolbar">
       <div class="search-box">
         <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></span>
-        <input id="drinkrec-search" type="search" placeholder="搜索客人、酒水、标签…" autocomplete="off">
+        <input id="drinkrec-search" type="search" placeholder="搜索客人、酒水或标签" aria-label="搜索客人、酒水和标签" autocomplete="off">
       </div>
       <select id="drinkrec-guest-filter" aria-label="按客人筛选"></select>
       <select id="drinkrec-sort-filter" aria-label="排序方式">
@@ -1098,8 +1092,8 @@ const state = {
   openGuest: '',
   servicePlace:'all',serviceGuest:'all',focusTab:'',focusItem:'',
   guestQuery: '', guestType: 'all', guestDlc: 'all',
-  detailQuery: '', detailGuest: 'all', detailStage: 'all', detailDlc: 'all',
-  detailSort: { key: '价格', dir: 1 },
+  detailQuery: '', detailGuest: 'all', detailDlc: 'all',
+  detailSort: { key: '价格', dir: -1 },
   catalogQuery: '', catalogDlc: 'all', catalogSort: { key: '价格', dir: 1 },
   ingredientQuery: '', ingredientType: 'all', ingredientDlc: 'all', ingredientSort: { key: '等级', dir: 1 },
   beverageQuery: '', beverageDlc: 'all', beverageSort: { key: '价格', dir: 1 },
@@ -1135,22 +1129,9 @@ function setThemeDom(theme){
     }
   }
 }
-function applyTheme(theme, ev){
-  const smooth = applyTheme._init && !REDUCED_MOTION && typeof document.startViewTransition === 'function';
-  if (smooth) {
-    // 从点击位置圆形扩散；整页快照交叉淡化，无逐元素过渡、无渐变跳变
-    if (ev && typeof ev.clientX === 'number') {
-      root.style.setProperty('--tv-x', ev.clientX + 'px');
-      root.style.setProperty('--tv-y', ev.clientY + 'px');
-    }
-    document.startViewTransition(() => setThemeDom(theme));
-  } else {
-    setThemeDom(theme);
-    if (!applyTheme._init) { applyTheme._init = true; return; }
-    root.classList.add('theme-anim');
-    clearTimeout(applyTheme._t);
-    applyTheme._t = setTimeout(() => root.classList.remove('theme-anim'), 420);
-  }
+function applyTheme(theme){
+  // 直接切换配色，避免全页快照在大表格和快速调整窗口时超时。
+  setThemeDom(theme);
 }
 
 /* ---------------- 路由 ---------------- */
@@ -1232,7 +1213,7 @@ function setPanelOpen(open){
     $$('.site-header, main, .site-footer').forEach((el) => { el.inert = false; });
     setPanelOpen.hideTimer = window.setTimeout(() => {
       if (!panel.classList.contains('open')) { panel.hidden = true; backdrop.hidden = true; }
-    }, 400);
+    }, 150);
   }
 }
 function openGuest(name, updateHash = true){
@@ -1252,16 +1233,15 @@ function closeGuest(updateHash = true){
   if (updateHash && currentHash().startsWith('guests/')) location.hash = ryoteiHash('guests');
 }
 function detailTableForGuest(name){
-  const list = dataOf('details').filter((r) => r['客人名字'] === name).map((r) => ({ ...r, '等级': dishLevelValue(r['菜品']) }));
+  const list = buildMealIndex().filter((r) => r['客人名字'] === name);
   if (!list.length) return '<div class="empty-state">暂无推荐菜谱明细。</div>';
   const columns = [
-    { key: '阶段', label: '阶段' }, { key: '菜品', label: '菜品' }, { key: '等级', label: '等级', num: true, level: true }, { key: '价格', label: '价格', num: true },
+    { key: '菜品', label: '菜品' }, { key: '等级', label: '等级', num: true, level: true }, { key: '价格', label: '价格', num: true },
     { key: '所属版本', label: '版本' }, { key: '厨具', label: '厨具' }, { key: '主料', label: '主料' },
     { key: '菜品标签', label: '菜品标签', tags: true }, { key: '命中喜好', label: '命中喜好', tags: true },
-    { key: '游戏积分', label: '积分', num: true }, { key: '加料建议', label: '加料建议', wide: true }
+    { key: '命中数', label: '命中数', num: true }, { key: '加料建议', label: '加料建议', wide: true }
   ];
-  const stageRank = { '前期': 0, '后期': 1 };
-  const sorted = list.slice().sort((a, b) => ((stageRank[a['阶段']] == null ? 9 : stageRank[a['阶段']]) - (stageRank[b['阶段']] == null ? 9 : stageRank[b['阶段']])) || ((parseFloat(a['价格']) || 0) - (parseFloat(b['价格']) || 0)));
+  const sorted = sortObjects(list,'价格',-1);
   return '<div class="table-wrap" style="max-height:420px">' + makeTable(columns, sorted) + '</div>';
 }
 function renderGuestDetail(guest){ renderRyoteiGuestDetail(guest); }
@@ -1426,7 +1406,6 @@ function guestCard(guest, index){ return renderRyoteiGuestCard(guest,index); }
 function renderGuests(){
   const q = state.guestQuery.trim().toLowerCase();
   const list = dataOf('guests').filter((guest) => {
-    if (!ryoteiVisitsPlace(guest)) return false;
     if (state.guestType !== 'all' && guest['类型'] !== state.guestType) return false;
     if (state.guestDlc !== 'all' && guest['所属版本'] !== state.guestDlc) return false;
     return matchesRowQuery(guest, q, ['客人名字', '类型', '所属版本', '出没地点', '持有金', '喜好料理标签', '厌恶料理标签', '喜好酒水标签']);
@@ -1442,7 +1421,6 @@ function renderGuests(){
 const DETAIL_COLUMNS = [
   { key: '客人名字', label: '客人', linkGuest: true, sortable: true, sortKey: 'detailSort' },
   { secondary: true, key: '类型', label: '类型' },
-  { key: '阶段', label: '阶段', sortable: true, sortKey: 'detailSort' },
   { key: '菜品', label: '菜品', sortable: true, sortKey: 'detailSort' },
   { key: '等级', label: '等级', num: true, sortable: true, sortKey: 'detailSort', level: true },
   { key: '价格', label: '价格', num: true, sortable: true, sortKey: 'detailSort' },
@@ -1451,13 +1429,12 @@ const DETAIL_COLUMNS = [
   { secondary: true, key: '主料', label: '主料' },
   { key: '菜品标签', label: '菜品标签', tags: true },
   { key: '命中喜好', label: '命中喜好', tags: true, tagKind: 'good' },
-  { key: '游戏积分', label: '积分', num: true, sortable: true, sortKey: 'detailSort' },
+  { key: '命中数', label: '命中数', num: true, sortable: true, sortKey: 'detailSort' },
   { key: '加料建议', label: '加料建议', wide: true }
 ];
 function renderDetails(){
   const q = state.detailQuery.trim().toLowerCase();
   let list = ryoteiPlanRows(buildMealIndex()).filter((row) => {
-    if (state.detailStage !== 'all' && row['阶段'] !== state.detailStage) return false;
     if (state.detailDlc !== 'all' && row['所属版本'] !== state.detailDlc) return false;
     if (!matchesTagChips(row, state.detailChips, ['菜品标签'])) return false;
     return matchesRowQuery(row, q, ['客人名字', '菜品', '等级', '__等级文本', '主料', '菜品标签', '命中喜好', '解锁来源', '加料建议', '备注']);
@@ -1548,7 +1525,7 @@ function renderBeverages(){
 /* ---------------- 加料候选（按食材价格排序） ---------------- */
 let addonIndex = null;
 function addonSceneOrder(scene){
-  return ['通用加料', '前期示例', '后期示例'].indexOf(scene);
+  return ['通用加料', '配菜示例'].indexOf(scene);
 }
 function firstDishName(value){
   const list = lines(value);
@@ -1580,8 +1557,8 @@ function parseAddonRows(){
     lines(guest['加料推荐']).forEach((line) => {
       let scene = '通用加料';
       let dish = '—';
-      if (/^前期示例/.test(line)) { scene = '前期示例'; dish = earlyDish; }
-      else if (/^后期示例/.test(line)) { scene = '后期示例'; dish = lateDish; }
+      if (/^前期示例/.test(line)) { scene = '配菜示例'; dish = earlyDish; }
+      else if (/^后期示例/.test(line)) { scene = '配菜示例'; dish = lateDish; }
       names.forEach((name) => {
         const marker = name + '（';
         let from = 0;
@@ -1722,8 +1699,7 @@ function parseDrinkRows(){
   return out;
 }
 function buildDrinkRecIndex(){
-  if (!drinkRecIndex) drinkRecIndex = parseDrinkRows();
-  return drinkRecIndex;
+  return ryoteiRecommendationRows('drink');
 }
 function drinkSortValue(rows, mode){
   const arr = rows.slice();
@@ -1759,7 +1735,7 @@ function renderDrinkRecs(){
   }
   $('#drinkrec-count').textContent = list.length + ' / ' + buildDrinkRecIndex().length + ' 条';
   const wrap = $('#drinkrec-table-wrap');
-  wrap.innerHTML = list.length ? makeTable(DRINKREC_COLUMNS, list) : ryoteiNormalPlanNotice('酒水') || '<div class="empty-state">没有匹配的酒水推荐。</div>';
+  wrap.innerHTML = list.length ? makeTable(DRINKREC_COLUMNS, list) : '<div class="empty-state">没有匹配的酒水推荐。</div>';
   const sel = $('#drinkrec-sort-filter');
   if (sel) {
     if (state.drinkrecSort.key === '价格') sel.value = state.drinkrecSort.dir > 0 ? 'price-asc' : 'price-desc';
@@ -1789,22 +1765,19 @@ function drinkTableForGuest(name, tableOnly = false){
 function renderNormal(){
   const q = state.normalQuery.trim().toLowerCase();
   const list = dataOf('normal').filter((row) => {
-    if (!ryoteiVisitsPlace(row) || !ryoteiFocusMatches('normal',row,'普通客人')) return false;
+    if (!ryoteiFocusMatches('normal',row,'普通客人')) return false;
     return matchesRowQuery(row, q, ['普通客人', '出没地点', '喜好料理标签', '喜好酒水标签', '前期推荐菜（≤80元）', '后期推荐菜（≤200元）']);
   }).sort((a, b) => byLocale(a['普通客人'], b['普通客人']));
   $('#normal-count').textContent = list.length + ' / ' + dataOf('normal').length + ' 种';
   const grid = $('#normal-grid');
   grid.innerHTML = list.length ? list.map((row, index) => {
-    const early = lines(row['前期推荐菜（≤80元）']);
-    const late = lines(row['后期推荐菜（≤200元）']);
     const name = row['普通客人'];
     return '<article class="guest-card" style="--i:' + Math.min(index, 12) + '">' +
       '<div class="guest-card-top"><div class="guest-id">' + ryoteiFace(name,'normal') + '<h3>' + ryoteiEntityLink('normal',name) + '</h3></div><div class="badges"><span class="badge">' + esc(row['所属版本']) + '</span></div></div>' +
       '<div class="meta-grid"><div class="row"><span class="k">出没</span><span class="v">' + ryoteiLocationLinks(row['出没地点']) + '</span></div></div>' +
       '<div class="tag-row"><span class="tag-label good">喜</span><div class="tag-wrap">' + tagHtml(row['喜好料理标签'], 'good', 7) + '</div></div>' +
       '<div class="tag-row"><span class="tag-label drink">酒</span><div class="tag-wrap">' + tagHtml(row['喜好酒水标签'], 'drink', 5) + '</div></div>' +
-      '<div class="guest-card-foot"><span>前期：' + ryoteiLinkedText(firstLine(row['前期推荐菜（≤80元）'],48)) + '</span><span>后期：' + ryoteiLinkedText(firstLine(row['后期推荐菜（≤200元）'],48)) + '</span></div>' +
-      '<details class="normal-meals"><summary>完整配餐</summary><div><h4>前期</h4>' + early.map(line=>'<p>' + ryoteiLinkedText(line) + '</p>').join('') + '<h4>后期</h4>' + late.map(line=>'<p>' + ryoteiLinkedText(line) + '</p>').join('') + '</div></details>' +
+      '<details class="normal-meals"><summary>查看口味匹配配餐</summary><div><a class="entity-link" href="' + escAttr(ryoteiHash('details',{who:name,place:'all'})) + '">全部推荐料理 ↗</a> · <a class="entity-link" href="' + escAttr(ryoteiHash('drinkrecs',{who:name,place:'all'})) + '">全部推荐酒水 ↗</a></div></details>' +
       '</article>';
   }).join('') : '<div class="empty-state">没有匹配的普通客人。</div>';
   ryoteiRememberRender('normal');
@@ -1908,7 +1881,10 @@ function renderGlobalResults(){
   const box = $('#global-results');
   const q = state.globalQuery.trim();
   if (!q) { box.hidden = true; state.globalResults = []; state.globalActive = -1; return; }
-  const results = globalIndex.filter((item) => matchesTextQuery(item.text, q)).slice(0, 16);
+  // 图鉴主页直接使用顶栏检索；名字完全匹配优先，避免菜谱解锁说明抢在同名客人前。
+  const exactName=item=>item.name.toLowerCase() === q.toLowerCase();
+  const results = globalIndex.filter((item) => matchesTextQuery(item.text, q))
+    .sort((a,b)=>Number(exactName(b))-Number(exactName(a))).slice(0,16);
   state.globalResults = results;
   state.globalActive = results.length ? 0 : -1;
   if (!results.length) {
@@ -1958,7 +1934,6 @@ function bindEvents(){
   $('#guest-type-filter').addEventListener('change', (e) => { state.guestType = e.target.value; renderGuests(); });
   $('#guest-dlc-filter').addEventListener('change', (e) => { state.guestDlc = e.target.value; renderGuests(); });
   $('#detail-search').addEventListener('input', (e) => { state.detailQuery = e.target.value; renderDetails(); });
-  $('#detail-stage-filter').addEventListener('change', (e) => { state.detailStage = e.target.value; renderDetails(); });
   $('#detail-dlc-filter').addEventListener('change', (e) => { state.detailDlc = e.target.value; renderDetails(); });
   bindSortable($('#detail-table-wrap'), renderDetails, 'detailSort');
   bindSortable($('#catalog-table-wrap'), renderCatalog, 'catalogSort');
@@ -2081,7 +2056,6 @@ function numToCn(n){
   const rest = n % 100;
   return digits[hundreds] + '百' + (rest === 0 ? '' : (rest < 10 ? '零' + digits[rest] : numToCn(rest)));
 }
-function fillLedger(){ fillRyoteiLedger(); }
 
 /* ---------------- 视觉动效（均可安全禁用） ---------------- */
 function initFireflies(){
@@ -2209,11 +2183,9 @@ function init(){
   bindEvents();
   initTagFilters();
   ryoteiUiInit();
-  initFireflies();
   initTabIndicator();
   initSpotlight();
   initRipple();
-  fillLedger();
   buildGlobalIndex();
   route();
 }

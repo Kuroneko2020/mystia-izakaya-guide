@@ -1,7 +1,7 @@
-/* 料亭版呈现层；查询、排序和推荐规则沿用原版。 */
+/* 料亭版呈现层：筛选侧栏、全量口味名单和可比较的价格。 */
 const RYOTEI_CHAPTERS = {
   guests:['客人名簿','先记住口味与预算，再为今夜备菜。','客'],
-  details:['备菜手帖','按客人和阶段，查找已经整理好的推荐料理。','菜'],
+  details:['备菜手帖','至少命中一项固定喜好且无已知厌恶标签，不限价格和数量。','菜'],
   catalog:['料理目录','翻看菜品等级、材料与标签，选好今晚的菜单。','菜'],
   ingredients:['食材篮','查价格、口味标签和获取方式，为料理补上一味。','料'],
   beverages:['酒水单','从口味、等级和价格，挑选合适的一杯。','酒'],
@@ -22,10 +22,69 @@ function updateRyoteiHeading(tab){
   updateRyoteiNavigation(tab);
 }
 
-function fillRyoteiLedger(){
-  const stats = [['guests','特殊与稀客','GUESTS'],['recipes','料理收录','RECIPES'],['beverages','酒水收录','DRINKS'],['ingredients','食材收录','INGREDIENTS']];
-  $('#ledger').innerHTML = stats.map(([key,label,en]) => '<div class="ledger-stat"><strong>' + dataOf(key).length + '</strong><span>' + label + '<small>' + en + '</small></span></div>').join('');
-  $('#ledger').hidden = false;
+function ryoteiFiltersInit(){
+  const aside = $('#workbench-filters');
+  aside.insertBefore($('#service-context'),$('#page-filters'));
+  for (const panel of $$('.tab-panel')) {
+    const toolbar = panel.querySelector(':scope > .toolbar');
+    if (!toolbar) continue;
+    toolbar.dataset.filterTab = panel.id.replace('panel-','');
+    $('#page-filters').appendChild(toolbar);
+  }
+  $('#filter-visitors').appendChild($('#service-visitors'));
+  for (const toolbar of $$('#page-filters > .toolbar')) {
+    const bar=toolbar.querySelector('.tag-filter-bar');
+    if (!bar) continue;
+    bar.dataset.filterTab=toolbar.dataset.filterTab;
+    $('#filter-tags').appendChild(bar);
+  }
+  $('#filter-sections').addEventListener('click',event=>{
+    const button=event.target.closest('[data-filter-section]');
+    if (button) { aside.dataset.section=button.dataset.filterSection;ryoteiUpdateFilters(state.tab); }
+  });
+  const setOpen = open=>{
+    aside.classList.toggle('filters-open',open);
+    $('#filter-toggle').setAttribute('aria-expanded',String(open));
+    $('#filter-backdrop').hidden=!open;
+    if (open) ($('#page-filters .toolbar:not([hidden]) input') || $('#service-place')).focus({preventScroll:true});
+    else $('#filter-toggle').focus({preventScroll:true});
+  };
+  $('#filter-toggle').addEventListener('click',()=>setOpen(!aside.classList.contains('filters-open')));
+  $('#filter-close').addEventListener('click',()=>setOpen(false));
+  $('#filter-backdrop').addEventListener('click',()=>setOpen(false));
+  document.addEventListener('keydown',event=>{if (event.key==='Escape' && aside.classList.contains('filters-open')) setOpen(false);});
+  window.matchMedia('(max-width:1000px)').addEventListener('change',event=>{if (!event.matches) ryoteiCloseFilters();});
+}
+function ryoteiCloseFilters(){
+  $('#workbench-filters').classList.remove('filters-open');
+  $('#filter-backdrop').hidden=true;
+  $('#filter-toggle').setAttribute('aria-expanded','false');
+}
+function ryoteiUpdateFilters(tab){
+  for (const toolbar of $$('#page-filters > .toolbar')) toolbar.hidden=toolbar.dataset.filterTab !== tab;
+  const hasFilters=ryoteiGroup(tab) !== 'guests' && !!$('#page-filters > .toolbar:not([hidden])');
+  $('#workbench-filters').hidden=!hasFilters;
+  $('#filter-toggle').hidden=!hasFilters;
+  $('#ryotei-workbench').classList.toggle('has-filters',hasFilters);
+  if (!hasFilters) ryoteiCloseFilters();
+  const aside=$('#workbench-filters');
+  const visitors=ryoteiGroup(tab)==='meals' && state.servicePlace !== 'all';
+  if (aside.dataset.place !== state.servicePlace || (visitors && aside.dataset.group !== ryoteiGroup(tab))) {
+    aside.dataset.place=state.servicePlace;
+    aside.dataset.section=visitors ? 'visitors' : 'tags';
+    $('.filter-content').scrollTop=0;
+  }
+  if (!visitors) aside.dataset.section='tags';
+  aside.dataset.group=ryoteiGroup(tab);
+  const showVisitors=visitors && aside.dataset.section !== 'tags';
+  $('#filter-sections').hidden=!visitors;
+  $('#filter-visitors').hidden=!showVisitors;
+  $('#filter-tags').hidden=showVisitors;
+  for (const button of $$('[data-filter-section]')) {
+    const active=(button.dataset.filterSection==='visitors')===showVisitors;
+    button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));
+  }
+  for (const bar of $$('#filter-tags > .tag-filter-bar')) bar.hidden=bar.dataset.filterTab !== tab;
 }
 
 function ryoteiFace(name, kind='avatars'){
@@ -43,7 +102,7 @@ function renderRyoteiGuestCard(guest,index){
     '<div class="guest-facts"><div class="guest-location"><span class="fact-label">出没地点</span><span class="location" title="' + escAttr(guest['出没地点']) + '">' + esc(guest['出没地点']) + '</span></div><div class="guest-budget"><span class="fact-label">持有金</span><strong>' + esc(guest['持有金']) + '</strong></div></div>' +
     '<div class="tag-row"><span class="tag-label good">喜好</span><div class="tag-wrap">' + tagHtml(staticFirst(guest['喜好料理标签']),'good',5) + '</div></div>' +
     '<div class="tag-row"><span class="tag-label bad">厌恶</span><div class="tag-wrap">' + tagHtml(staticFirst(guest['厌恶料理标签']),'bad',4) + '</div></div>' +
-    '<div class="guest-card-foot"><span>前期 ' + lines(guest['前期推荐菜谱']).length + ' 道 · 后期 ' + lines(guest['后期推荐菜谱']).length + ' 道</span><span class="hint">详情 ↗</span></div></button>';
+    '<div class="guest-card-foot"><span>口味 · 料理 · 酒水 · 羁绊</span><span class="hint">详情 ↗</span></div></button>';
 }
 
 function ryoteiMenuDish(raw){
@@ -68,16 +127,13 @@ function renderRyoteiGuestDetail(guest){
   seal.classList.toggle('is-ava',!!avatar);
   seal.innerHTML = avatar ? '<img src="' + avatar + '" alt="">' : esc(name.charAt(0));
   seal.style.setProperty('--pc',guestColor(name));
-  seal.style.animation = 'none'; void seal.offsetWidth; seal.style.animation = '';
   $('#detail-watermark').textContent = name;
-  const early = lines(guest['前期推荐菜谱']);
-  const late = lines(guest['后期推荐菜谱']);
   const addons = lines(guest['加料推荐']);
   const section = (id,title,content) => '<section class="detail-section" id="' + id + '" tabindex="-1"><h3>' + title + '</h3>' + content + '</section>';
   const fold = (title,text) => '<details class="guide-card"><summary><span class="guide-name">' + title + '</span></summary><div class="guide-card-body"><div class="field"><div class="value">' + ryoteiLinkedText(text || '无') + '</div></div></div></details>';
   const sections = [];
   sections.push(section('guest-tastes','口味与基本信息','<dl class="kv">' +
-    '<dt>来访地区</dt><dd>' + ryoteiLocationLinks(guest['出没地点']) + '</dd>' +
+    '<dt>来访地区</dt><dd>' + (name === '因幡帝' ? '全部地区（随机出现）' : ryoteiLocationLinks(guest['出没地点'])) + '</dd>' +
     '<dt>持有金</dt><dd><strong>' + esc(guest['持有金']) + '</strong></dd>' +
     '<dt>类型 / 版本</dt><dd>' + esc(guest['类型']) + ' · ' + esc(guest['所属版本']) + '</dd>' +
     '<dt>喜好料理</dt><dd><div class="chips">' + tagHtml(guest['喜好料理标签'],'good') + '</div></dd>' +
@@ -85,13 +141,10 @@ function renderRyoteiGuestDetail(guest){
     '<dt>喜好酒水</dt><dd><div class="chips">' + tagHtml(guest['喜好酒水标签'],'drink') + '</div></dd>' +
     '<dt>拿手标签</dt><dd>' + esc(guest['拿手菜/额外喜好标签'] || '无') + '</dd></dl>'));
   sections.push(section('guest-drinks','推荐酒水',drinkTableForGuest(name)));
-  sections.push('<div class="meal-pair" id="guest-meals" tabindex="-1">' +
-    section('guest-early','前期料理','<div class="menu-list">' + (early.length ? early.map(ryoteiMenuDish).join('') : '<p class="muted">无</p>') + '</div>') +
-    section('guest-late','后期料理','<div class="menu-list">' + (late.length ? late.map(ryoteiMenuDish).join('') : '<p class="muted">无</p>') + '</div>') + '</div>');
+  sections.push(section('guest-meals','推荐料理','<p class="recommend-rule">全部静态口味匹配 · 无数量与价格上限 · 价格从高到低。动态流行标签未参与匹配。</p>' + detailTableForGuest(name)));
   sections.push(section('guest-addons','加料参考',addonTableForGuest(name) +
     '<details class="guide-card" style="margin-top:10px"><summary><span class="guide-name">原始加料建议</span></summary><div class="guide-card-body">' +
-    addons.map((s) => '<div class="dish-line">' + ryoteiLinkedText(s) + '</div>').join('') + '</div></details>'));
-  sections.push(section('guest-records','完整推荐明细','<details class="guide-card"><summary><span class="guide-name">展开材料、标签命中与加料明细</span></summary><div class="guide-card-body">' + detailTableForGuest(name) + '</div></details>'));
+    addons.map((s) => '<div class="dish-line">' + ryoteiLinkedText(s.replace(/(?:前期|后期)示例/g,'配菜示例')) + '</div>').join('') + '</div></details>'));
   sections.push(section('guest-bonds','符卡与羁绊',fold('奖励符卡',guest['奖励符卡']) + fold('惩罚符卡',guest['惩罚符卡']) + fold('羁绊等级解锁',guest['羁绊等级解锁'])));
   if (guest['B站2024攻略菜品（对照，原文）'] && guest['B站2024攻略菜品（对照，原文）'] !== '无（该攻略早于4.4.0）') {
     sections.push(section('guest-comparison','攻略对照',fold('B 站 2024 原文推荐',guest['B站2024攻略菜品（对照，原文）'])));
@@ -106,10 +159,8 @@ function renderRyoteiGuestDetail(guest){
 }
 
 function ryoteiUiInit(){
+  ryoteiFiltersInit();
   initRyoteiNavigation();
-  $$('.hero-action').forEach((btn) => btn.addEventListener('click',() => {
-    ryoteiNavigate(ryoteiHash(btn.dataset.jump));
-  }));
   $('.detail-index').addEventListener('click',(e) => {
     const button = e.target.closest('[data-detail-jump]');
     const target = button && document.getElementById(button.dataset.detailJump);
@@ -170,7 +221,6 @@ function makeRyoteiTable(columns,list){
   const secondary = columns.filter((c) => c.wide || c.secondary);
   const primary = columns.filter((c) => !c.wide && !c.secondary);
   const tableId = 'ryotei-table-' + (++ryoteiTableSerial);
-  const priceMax = list.reduce((m,r) => Math.max(m,parseFloat(r['价格']) || 0),0);
   const page = ryoteiTablePage(columns,list);
   const itemKeys = ['菜品','食材','酒水'];
   const columnClass = (c) => c.tags ? 'col-tags' : c.linkGuest ? 'col-guest' : itemKeys.includes(c.key) ? 'col-item' : c.key === '推荐菜' || c.key === '主料' ? 'col-text' : 'col-short';
@@ -185,8 +235,7 @@ function makeRyoteiTable(columns,list){
     }
     if (c.level) return value === '' ? '—' : '<span class="lv-badge">' + (/^Lv\s/i.test(String(value)) ? esc(value) : 'Lv ' + esc(value)) + '</span>';
     if (c.num && c.key === '价格') {
-      const pct = priceMax ? Math.max(3,Math.round((parseFloat(value) || 0) / priceMax * 100)) : 0;
-      return '<span class="pbar-cell"><i class="pbar" style="width:' + pct + '%"></i><span>' + esc(value) + '</span></span>';
+      return '<span class="price-value">' + esc(value) + '<small> 元</small></span>';
     }
     if (itemKeys.includes(c.key)) {
       const icon = (window.WAFU_ASSETS.icons || {})[String(value)];

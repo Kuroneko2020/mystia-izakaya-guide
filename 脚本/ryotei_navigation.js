@@ -1,4 +1,4 @@
-/* 导航分组、营业地区与关联条目；数据和推荐评分仍来自原攻略表。 */
+/* 导航、营业地区与静态口味推荐；原始攻略数据保留供来源对照。 */
 const RYOTEI_GROUPS = {
   guests:{label:'客人图鉴',tabs:[['guests','稀客与特殊客人'],['normal','普通客人']]},
   meals:{label:'配餐参考',tabs:[['details','料理'],['drinkrecs','酒水'],['addons','加料']]},
@@ -15,30 +15,36 @@ const RYOTEI_ITEM_PAGES = {
 };
 const ryoteiTextMatchers = new Map();
 const ryoteiNormalNames = new Set(dataOf('normal').map(row=>row['普通客人']));
-let ryoteiMealIndex = null;
+const ryoteiRecommendations = new Map();
 
 function ryoteiGuestRecord(name){
   return dataOf('guests').find(row=>row['客人名字'] === name) || dataOf('normal').find(row=>row['普通客人'] === name);
 }
-function buildMealIndex(){
-  if (ryoteiMealIndex) return ryoteiMealIndex;
-  const recipes = new Map(dataOf('recipes').map(row=>[row['菜品'],row]));
-  const normal = [];
-  for (const guest of dataOf('normal')) {
-    for (const [field,stage] of [['前期推荐菜（≤80元）','前期'],['后期推荐菜（≤200元）','后期']]) {
-      for (const line of lines(guest[field])) {
-        const match = line.match(/^(.+?)（(\d+(?:\.\d+)?)）$/);
-        const recipe = match && recipes.get(match[1]);
-        if (!recipe) continue;
-        // 只拆出原表已经给出的推荐，不生成新的评分、加料或推荐规则。
-        normal.push({...recipe,'客人名字':guest['普通客人'],'类型':'普通客人','阶段':stage,
-          '价格':match[2],'命中喜好':'','游戏积分':'—','加料建议':'原表普通客人推荐：' + line + '；未收录加料建议与评分。'});
-      }
+function ryoteiStaticTags(value){
+  return splitTags(value).filter(tag=>! /动态|^流行/.test(tag));
+}
+function ryoteiRecommendationRows(kind){
+  if (ryoteiRecommendations.has(kind)) return ryoteiRecommendations.get(kind);
+  const food = kind === 'food';
+  const items = dataOf(food ? 'recipes' : 'beverages').map(row=>({row,tags:new Set(splitTags(row[food ? '菜品标签' : '标签']))}));
+  const rows = [];
+  for (const guest of dataOf('guests').concat(dataOf('normal'))) {
+    const likes = ryoteiStaticTags(guest[food ? '喜好料理标签' : '喜好酒水标签']);
+    const dislikes = ryoteiStaticTags(guest[food ? '厌恶料理标签' : '厌恶酒水标签']);
+    for (const {row,tags} of items) {
+      const hits = likes.filter(tag=>tags.has(tag));
+      if (!hits.length || dislikes.some(tag=>tags.has(tag))) continue;
+      rows.push({...row,'客人名字':guest['客人名字'] || guest['普通客人'],'类型':guest['类型'] || '普通客人',
+        '命中喜好':hits.join('、'),'命中数':hits.length,'__等级文本':'Lv ' + row['等级'],
+        '加料建议':food ? '按客人喜好补足标签，避开客人厌恶与菜谱冲突标签。' : ''});
     }
   }
-  ryoteiMealIndex = dataOf('details').map(row=>({...row,'等级':dishLevelValue(row['菜品'])})).concat(normal)
-    .map(row=>({...row,'__等级文本':row['等级'] == null ? '' : 'Lv ' + row['等级']}));
-  return ryoteiMealIndex;
+  rows.sort((a,b)=>Number(b['价格'])-Number(a['价格']));
+  ryoteiRecommendations.set(kind,rows);
+  return rows;
+}
+function buildMealIndex(){
+  return ryoteiRecommendationRows('food');
 }
 function ryoteiNormalPlanNotice(kind){
   const who = state.serviceGuest;
@@ -54,7 +60,7 @@ function ryoteiGroup(tab){
   return Object.keys(RYOTEI_GROUPS).find(key=>RYOTEI_GROUPS[key].tabs.some(([id])=>id === tab)) || 'guests';
 }
 function ryoteiVisitsPlace(row,place=state.servicePlace){
-  return !place || place === 'all' || splitTags(row['出没地点']).includes(place);
+  return !place || place === 'all' || row['客人名字'] === '因幡帝' || splitTags(row['出没地点']).includes(place);
 }
 function ryoteiPlanRows(rows){
   const who = state.serviceGuest || 'all';
@@ -101,7 +107,8 @@ function ryoteiApplyRoute(route){
     if (itemPage.chips && state[itemPage.chips].length) { state[itemPage.chips] = [];changed=true; }
     if (itemPage.dlc) assign(itemPage.dlc,'all');
     if (route.tab === 'ingredients') assign('ingredientType','all');
-    assign(itemPage.query,route.item);
+    // 普通图鉴已移除局部搜索栏；精确定位只用 focus，离开条目即可回到完整名簿。
+    assign(itemPage.query,itemPage.tab === 'normal' ? '' : route.item);
     assign('focusTab',route.tab);
     assign('focusItem',route.item);
   } else if (!item && state.focusItem) {
@@ -117,7 +124,7 @@ function ryoteiFocusMatches(tab,row,key){
 function syncRyoteiControls(){
   const bindings = {
     '#guest-search':'guestQuery','#guest-type-filter':'guestType','#guest-dlc-filter':'guestDlc',
-    '#detail-search':'detailQuery','#detail-stage-filter':'detailStage','#detail-dlc-filter':'detailDlc',
+    '#detail-search':'detailQuery','#detail-dlc-filter':'detailDlc',
     '#detail-guest-filter':'detailGuest','#addon-guest-filter':'addonGuest','#drinkrec-guest-filter':'drinkrecGuest',
     '#catalog-search':'catalogQuery','#catalog-dlc-filter':'catalogDlc',
     '#ingredient-search':'ingredientQuery','#ingredient-type-filter':'ingredientType','#ingredient-dlc-filter':'ingredientDlc',
@@ -151,6 +158,7 @@ function updateRyoteiNavigation(tab){
   $('#service-context').hidden = !['guests','meals'].includes(group);
   $('#service-place').value = state.servicePlace;
   updateRyoteiVisitors(group);
+  ryoteiUpdateFilters(tab);
 }
 function updateRyoteiVisitors(group=ryoteiGroup(state.tab)){
   const guests = dataOf('guests').filter(row=>ryoteiVisitsPlace(row));
@@ -229,7 +237,7 @@ function ryoteiCaptureReading(selector){
   const scope = $(selector);
   if (!scope) return null;
   return {selector,
-    scrolls:Array.from(scope.querySelectorAll('.table-wrap,.paged-table-scroll')).map(el=>({top:el.scrollTop,left:el.scrollLeft})),
+    scrolls:Array.from(scope.querySelectorAll('.table-wrap,.paged-table-scroll,.filter-content')).map(el=>({top:el.scrollTop,left:el.scrollLeft})),
     details:Array.from(scope.querySelectorAll('details')).map(el=>el.open),
     rows:Array.from(scope.querySelectorAll('[data-row-expand]')).map(el=>el.getAttribute('aria-expanded') === 'true')
   };
@@ -246,7 +254,7 @@ function ryoteiRestoreReading(entries){
       const row=document.getElementById(el.getAttribute('aria-controls'));
       if (row) row.hidden=!open;
     });
-    Array.from(scope.querySelectorAll('.table-wrap,.paged-table-scroll')).forEach((el,index)=>{
+    Array.from(scope.querySelectorAll('.table-wrap,.paged-table-scroll,.filter-content')).forEach((el,index)=>{
       const scroll=saved.scrolls[index];
       if (scroll) {el.scrollTop=scroll.top;el.scrollLeft=scroll.left;}
     });
@@ -254,8 +262,9 @@ function ryoteiRestoreReading(entries){
 }
 function ryoteiCaptureView(){
   const saved = Object.fromEntries(Object.entries(state).filter(([key])=>key !== 'openGuest' && !key.startsWith('global')));
-  const reading=[ryoteiCaptureReading('#panel-' + state.tab),ryoteiCaptureReading('#service-context'),state.openGuest ? ryoteiCaptureReading('#detail-body') : null].filter(Boolean);
-  return {state:JSON.parse(JSON.stringify(saved)),pages:JSON.parse(JSON.stringify(ryoteiPages)),reading,scroll:window.scrollY,detailScroll:$('#detail-body').scrollTop};
+  const reading=[ryoteiCaptureReading('#panel-' + state.tab),ryoteiCaptureReading('#workbench-filters'),state.openGuest ? ryoteiCaptureReading('#detail-body') : null].filter(Boolean);
+  return {state:JSON.parse(JSON.stringify(saved)),pages:JSON.parse(JSON.stringify(ryoteiPages)),reading,
+    filterSection:$('#workbench-filters').dataset.section,scroll:window.scrollY,detailScroll:$('#detail-body').scrollTop};
 }
 function ryoteiSaveView(){
   history.replaceState({...history.state,ryoteiView:ryoteiCaptureView()},'',location.href);
@@ -293,6 +302,11 @@ function ryoteiRestoreView(){
   Object.assign(ryoteiPages,view.pages);
   syncRyoteiControls();
   route();
+  if (view.filterSection && ['tags','visitors'].includes(view.filterSection)) {
+    const aside=$('#workbench-filters');
+    aside.dataset.section=view.filterSection;
+    ryoteiUpdateFilters(state.tab);
+  }
   requestAnimationFrame(()=>{ ryoteiRestoreReading(view.reading);window.scrollTo({top:view.scroll,behavior:'instant'});if (state.openGuest) $('#detail-body').scrollTop=view.detailScroll; });
 }
 function ryoteiRevealItem(){
@@ -332,7 +346,7 @@ function initRyoteiNavigation(){
   });
   // 用户主动搜索或改筛选时退出精确定位，恢复通常的全文搜索。
   const clearFocus = event=>{
-    if (!event.target.closest('.toolbar') || !state.focusItem) return;
+    if (!event.target.closest('.toolbar,.tag-filter-bar') || !state.focusItem) return;
     if (event.type === 'click' && !event.target.closest('[data-tag],[data-action="clear"]')) return;
     if (event.type === 'keydown' && !['Enter','Backspace'].includes(event.key)) return;
     state.focusTab='';state.focusItem='';
