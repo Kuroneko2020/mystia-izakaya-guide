@@ -1,5 +1,9 @@
 /* 导航、营业地区与静态口味推荐；原始攻略数据保留供来源对照。 */
 // 营业图鉴合并原客人图鉴与配餐参考：人物页签看人，备菜表页按今晚开店看全部配菜。
+// 类型名去掉“本篇/DLC”版本前缀再显示（数据原样保留）。
+function ryoteiTypeLabel(value){
+  return String(value || '').replace(/^(本篇|DLC[0-9.]+)/, '');
+}
 const RYOTEI_GROUPS = {
   guests:{label:'营业图鉴',tabs:[['guests','稀有/特殊客人'],['normal','普通客人'],['details','备菜料理'],['drinkrecs','推荐酒水'],['addons','加料参考']]},
   items:{label:'物品图鉴',tabs:[['catalog','菜谱'],['ingredients','食材'],['beverages','酒水']]},
@@ -8,9 +12,9 @@ const RYOTEI_GROUPS = {
 const ryoteiGroupLast = {guests:'guests',items:'catalog'};
 const RYOTEI_PLACES = unique(dataOf('guests').concat(dataOf('normal')).flatMap(row=>splitTags(row['出没地点']))).filter(name=>name !== '白玉楼');
 const RYOTEI_ITEM_PAGES = {
-  recipe:{tab:'catalog',sheet:'recipes',key:'菜品',query:'catalogQuery',chips:'catalogChips',dlc:'catalogDlc'},
-  ingredient:{tab:'ingredients',sheet:'ingredients',key:'食材',query:'ingredientQuery',chips:'ingredientChips',dlc:'ingredientDlc'},
-  beverage:{tab:'beverages',sheet:'beverages',key:'酒水',query:'beverageQuery',chips:'beverageChips',dlc:'beverageDlc'},
+  recipe:{tab:'catalog',sheet:'recipes',key:'菜品',query:'catalogQuery',chips:'catalogChips'},
+  ingredient:{tab:'ingredients',sheet:'ingredients',key:'食材',query:'ingredientQuery',chips:'ingredientChips'},
+  beverage:{tab:'beverages',sheet:'beverages',key:'酒水',query:'beverageQuery',chips:'beverageChips'},
   normal:{tab:'normal',sheet:'normal',key:'普通客人',query:'normalQuery'}
 };
 const ryoteiTextMatchers = new Map();
@@ -105,7 +109,6 @@ function ryoteiApplyRoute(route){
   const item = itemPage && dataOf(itemPage.sheet).find(row=>row[itemPage.key] === route.item);
   if (item) {
     if (itemPage.chips && state[itemPage.chips].length) { state[itemPage.chips] = [];changed=true; }
-    if (itemPage.dlc) assign(itemPage.dlc,'all');
     if (route.tab === 'ingredients') assign('ingredientType','all');
     // 普通图鉴已移除局部搜索栏；精确定位只用 focus，离开条目即可回到完整名簿。
     assign(itemPage.query,itemPage.tab === 'normal' ? '' : route.item);
@@ -123,12 +126,12 @@ function ryoteiFocusMatches(tab,row,key){
 }
 function syncRyoteiControls(){
   const bindings = {
-    '#guest-search':'guestQuery','#guest-type-filter':'guestType','#guest-dlc-filter':'guestDlc',
-    '#detail-search':'detailQuery','#detail-dlc-filter':'detailDlc',
+    '#guest-search':'guestQuery','#guest-type-filter':'guestType',
+    '#detail-search':'detailQuery',
     '#detail-guest-filter':'detailGuest','#addon-guest-filter':'addonGuest','#drinkrec-guest-filter':'drinkrecGuest',
-    '#catalog-search':'catalogQuery','#catalog-dlc-filter':'catalogDlc',
-    '#ingredient-search':'ingredientQuery','#ingredient-type-filter':'ingredientType','#ingredient-dlc-filter':'ingredientDlc',
-    '#beverage-search':'beverageQuery','#beverage-dlc-filter':'beverageDlc',
+    '#catalog-search':'catalogQuery',
+    '#ingredient-search':'ingredientQuery','#ingredient-type-filter':'ingredientType',
+    '#beverage-search':'beverageQuery',
     '#addon-search':'addonQuery','#addon-scene-filter':'addonScene','#drinkrec-search':'drinkrecQuery',
     '#normal-search':'normalQuery','#guide-search':'guideQuery','#service-place':'servicePlace'
   };
@@ -265,7 +268,7 @@ function ryoteiCaptureView(){
   const saved = Object.fromEntries(Object.entries(state).filter(([key])=>key !== 'openGuest' && !key.startsWith('global')));
   const reading=[ryoteiCaptureReading('#panel-' + state.tab),ryoteiCaptureReading('#workbench-filters'),state.openGuest ? ryoteiCaptureReading('#detail-body') : null].filter(Boolean);
   return {state:JSON.parse(JSON.stringify(saved)),pages:JSON.parse(JSON.stringify(ryoteiPages)),reading,
-    filterSection:$('#workbench-filters').dataset.section,scroll:window.scrollY,detailScroll:$('#detail-body').scrollTop};
+    filterSection:$('#workbench-filters').dataset.section,scroll:window.scrollY,detailScroll:($('#detail-body .detail-scroll')||{}).scrollTop || 0};
 }
 function ryoteiSaveView(){
   history.replaceState({...history.state,ryoteiView:ryoteiCaptureView()},'',location.href);
@@ -308,7 +311,7 @@ function ryoteiRestoreView(){
     aside.dataset.section=view.filterSection;
     ryoteiUpdateFilters(state.tab);
   }
-  requestAnimationFrame(()=>{ ryoteiRestoreReading(view.reading);window.scrollTo({top:view.scroll,behavior:'instant'});if (state.openGuest) $('#detail-body').scrollTop=view.detailScroll; });
+  requestAnimationFrame(()=>{ ryoteiRestoreReading(view.reading);window.scrollTo({top:view.scroll,behavior:'instant'});const detailScroll=state.openGuest && $('#detail-body .detail-scroll');if (detailScroll) detailScroll.scrollTop=view.detailScroll; });
 }
 function ryoteiRevealItem(){
   if (state.focusTab !== state.tab || !state.focusItem) return;
@@ -340,7 +343,7 @@ function initRyoteiNavigation(){
     if (primary || section || guest || link) {
       event.preventDefault();
       const hash = primary ? ryoteiHash(ryoteiGroupLast[primary.dataset.group]) : section ? ryoteiHash(section.dataset.sectionTab) : guest ? ryoteiHash('guests',{guest:guest.dataset.guest}) : link.getAttribute('href');
-      ryoteiNavigate(hash,link?.dataset.entityKind === 'place' ? ()=>{ state.guestQuery='';state.guestType='all';state.guestDlc='all';syncRyoteiControls(); } : null);
+      ryoteiNavigate(hash,link?.dataset.entityKind === 'place' ? ()=>{ state.guestQuery='';state.guestType='all';syncRyoteiControls(); } : null);
       return;
     }
     if (!event.target.closest('#reference-menu')) $('#reference-menu').open=false;

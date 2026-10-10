@@ -41,6 +41,10 @@ assert.equal((template.match(/class="tab-btn primary-tab/g) || []).length,2,'顶
 assert.ok(!template.includes('data-group="meals"'),'配餐参考已并入营业图鉴，顶栏不再单列');
 assert.ok(navigation.includes("guests:{label:'营业图鉴'"),'营业图鉴同时承载人物页签与备菜表页');
 assert.ok(navigation.includes("['details','备菜料理'],['drinkrecs','推荐酒水'],['addons','加料参考']"),'备菜三表留在营业图鉴组内');
+assert.ok(!template.includes('dlc-filter'),'版本筛选已全站移除');
+assert.ok(!template.includes("{ key: '所属版本'") && !template.includes("{ secondary: true, key: '所属版本'"),'版本列已从全部表格移除（数据行构造保留字段）');
+assert.ok(template.includes('id="detail-tabs"') && template.includes('data-detail-tab="meals"'),'客人详情为页签式，默认推荐料理');
+assert.ok(template.includes('id="detail-tastes"'),'口味信息常驻详情头部');
 for (const tab of ['guests','details','catalog','ingredients','beverages','addons','drinkrecs','normal','new440','guides','sources']) {
   assert.ok(template.includes('id="panel-' + tab + '"'),'原页面必须仍可达: ' + tab);
 }
@@ -143,9 +147,9 @@ vm.runInNewContext(`
   assert.equal(ryoteiEntityLink('recipe','旧攻略别名'),'旧攻略别名','无法对应现有条目的旧名称保留原文，不生成空目标链接');
 `,{assert,URLSearchParams});
 vm.runInNewContext(`
-  const state={servicePlace:'all',serviceGuest:'all',detailGuest:'all',addonGuest:'all',drinkrecGuest:'all',focusTab:'catalog',focusItem:'饭团',catalogQuery:'饭团',catalogChips:['肉'],catalogDlc:'DLC5'};
+  const state={servicePlace:'all',serviceGuest:'all',detailGuest:'all',addonGuest:'all',drinkrecGuest:'all',focusTab:'catalog',focusItem:'饭团',catalogQuery:'饭团',catalogChips:['肉']};
   const RYOTEI_PLACES=['魔法森林'];
-  const RYOTEI_ITEM_PAGES={recipe:{tab:'catalog',sheet:'recipes',key:'菜品',query:'catalogQuery',chips:'catalogChips',dlc:'catalogDlc'}};
+  const RYOTEI_ITEM_PAGES={recipe:{tab:'catalog',sheet:'recipes',key:'菜品',query:'catalogQuery',chips:'catalogChips'}};
   const dataOf=key=>key === 'recipes' ? [{菜品:'饭团'}] : [{客人名字:'莉格露',出没地点:'魔法森林'}];
   const splitTags=value=>String(value || '').split('、');
   const syncRyoteiControls=()=>{};
@@ -153,9 +157,8 @@ vm.runInNewContext(`
   ${getFunction('ryoteiVisitsPlace',navigation)}
   ${getFunction('ryoteiApplyRoute',navigation)}
   const target={tab:'catalog',place:'all',who:'all',item:'饭团'};
-  assert.equal(ryoteiApplyRoute(target),true,'同一条目重新打开也须清除挡住结果的标签和版本');
+  assert.equal(ryoteiApplyRoute(target),true,'同一条目重新打开也须清除挡住结果的标签');
   assert.equal(state.catalogChips.length,0);
-  assert.equal(state.catalogDlc,'all');
   assert.equal(ryoteiApplyRoute(target),false,'后续 hashchange 必须幂等，不能重复重绘');
   ryoteiApplyRoute({tab:'details',place:'魔法森林',who:'莉格露',item:''});
   assert.equal(state.detailGuest,'莉格露');assert.equal(state.addonGuest,'莉格露');assert.equal(state.drinkrecGuest,'莉格露');

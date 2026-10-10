@@ -287,6 +287,31 @@ async function main() {
     assert.equal(await page.locator('#detail-body .pbar,#detail-body .pbar-cell').count(),0);
     assert.equal(await page.locator('#guest-meals .data-row').count(),countFor(new Set(['博丽灵梦'])),'详情包含全部推荐料理');
     assert.ok(!/前期|后期/.test(await page.locator('#detail-body').innerText()));
+    // 详情页签化：默认推荐料理；版本字样不再出现；头部口味常驻。
+    assert.ok(await page.locator('#detail-tabs [data-detail-tab="meals"]').evaluate(el=>el.classList.contains('active')),'详情默认打开推荐料理页签');
+    assert.ok(!/本篇|DLC/.test(await page.locator('#guest-meals').innerText()),'详情列表不再显示版本字样');
+    assert.ok(await page.locator('#detail-tastes .tag-label.good').count()>=1,'口味标签常驻详情头部');
+    // 列表筛选：搜索词命中后行数变化，切酒水页签再按标签筛选并清空恢复。
+    const mealTotal=countFor(new Set(['博丽灵梦']));
+    await page.locator('#detail-meal-search').fill('zzzz不存在的菜');
+    assert.equal(await page.locator('#guest-meals .data-row').count(),0,'搜索无结果时列表为空');
+    assert.match(await page.locator('#detail-meal-count').innerText(),/^0 /);
+    await page.locator('#detail-meal-search').fill('');
+    assert.equal(await page.locator('#guest-meals .data-row').count(),mealTotal,'清空搜索恢复全量');
+    await page.locator('#detail-tabs [data-detail-tab="drinks"]').click();
+    const drinkRows=await page.locator('#guest-drinks .data-row').count();
+    assert.ok(drinkRows>0,'酒水页签有推荐且可独立渲染');
+    const drinkChip=page.locator('#guest-drinks .detail-chips .tag').first();
+    if (await drinkChip.count()) {
+      await drinkChip.click();
+      const filtered=await page.locator('#guest-drinks .data-row').count();
+      assert.ok(filtered<=drinkRows,'标签筛选不过多保留条目');
+      assert.ok(await page.locator('#guest-drinks .detail-chips .tag.active').count()>=1,'选中的筛选标签高亮');
+      await page.locator('#guest-drinks [data-detail-chip-clear]').click();
+      assert.equal(await page.locator('#guest-drinks .data-row').count(),drinkRows,'清空标签恢复全量');
+    }
+    await page.locator('#detail-tabs [data-detail-tab="meals"]').click();
+    assert.equal(await page.locator('#guest-meals .data-row').count(),mealTotal,'切回料理页签保持列表');
     await page.screenshot({path:path.join(outputDir,'人物详情_全量推荐.png')});
     await page.locator('#detail-close').click();
     await page.locator('#service-place').selectOption('魔法森林');

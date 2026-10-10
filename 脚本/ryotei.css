@@ -213,10 +213,7 @@ table.data-table{font-size:12px;min-width:760px}
 .seal-lg{width:70px;height:70px;border-radius:7px;flex-shrink:0;border:1px solid #bca17e;box-shadow:0 4px 8px #694d2e25;animation-duration:.3s;animation-delay:.04s}
 .seal-lg img{image-rendering:pixelated}.detail-head h2{font-size:30px;font-weight:400;background:none;color:#613e2b;-webkit-text-fill-color:currentColor;letter-spacing:.06em}
 .detail-head .sub{font-size:10px;margin-top:5px;color:#8d7050}.detail-watermark{opacity:.035;color:#7f5436;font-size:130px}
-.detail-index{display:flex;gap:4px;background:#efe0c3;padding:8px 24px;border-bottom:1px solid #d9c2a0;position:relative;z-index:2;flex-shrink:0;overflow-x:auto}
-.detail-index button{background:none;border:0;border-radius:4px;font-size:11px;padding:6px 12px;color:#856847;white-space:nowrap}
-.detail-index button:hover{background:#dac29c55;color:#923e33}.detail-index button:focus-visible{outline-offset:0}
-.detail-body{padding:22px 28px 40px;scroll-behavior:smooth;scrollbar-color:#c3a575 transparent}
+.detail-scroll{padding:22px 28px 40px;scroll-behavior:smooth;scrollbar-color:#c3a575 transparent}
 .detail-section{margin:0 0 28px;animation:none;scroll-margin-top:16px}
 .detail-section h3{font-size:18px;font-weight:400;color:#955042;letter-spacing:.06em;margin:0 0 14px}
 .detail-section h3::before{width:3px;height:15px;border-radius:0;background:#ad5845;box-shadow:none;animation:none}
@@ -267,7 +264,7 @@ html[data-theme=light] .site-footer{color:#8c7150;border-color:#b4966d55}html[da
   .guest-budget strong{font-size:21px}.tag{font-size:11px;padding:3px 6px}.tag.dynamic{font-size:10px}.tag-label{font-size:12px;margin-top:4px}
   .toolbar{padding-top:0;gap:7px}.toolbar select{font-size:11px;padding-left:9px}.count{font-size:10px}
   .detail-head{padding:18px 18px;gap:13px}.seal-lg{width:58px;height:58px}.detail-head h2{font-size:25px}.detail-head .sub{font-size:9.5px;max-width:230px}
-  .detail-index{padding:7px 12px;gap:0}.detail-index button{padding:6px 10px;font-size:11px}.detail-body{padding:21px 18px 34px}
+  .detail-tabs{padding:7px 12px;gap:0}.detail-tabs button{padding:6px 10px;font-size:11.5px}.detail-scroll{padding:16px 16px 30px}.detail-toolbar{padding:9px 16px}
   .detail-section h3{font-size:19px}.kv{grid-template-columns:72px 1fr;gap:11px 10px;font-size:12px}.meal-pair{grid-template-columns:1fr;gap:0}
   .menu-dish{padding:13px}.menu-dish-name{font-size:20px}.menu-price{font-size:18px}.menu-dish .tag{font-size:11px}
   .menu-material{font-size:11px}.dish-note{font-size:11px}.detail-watermark{display:none}
@@ -391,3 +388,35 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
   .detail-panel{width:100%;border-left:0}
 }
 [hidden]{display:none!important}
+
+/* ---------------- 详情抽屉重做：口味常驻头部 + 页签 + 列表筛选，单滚动容器 ---------------- */
+.detail-panel{width:min(1120px,86vw)}
+.detail-head{align-items:flex-start;gap:14px;padding:14px 20px 10px}
+.detail-head-copy{flex:1;min-width:0}
+.detail-head h2{font-size:26px}
+.detail-head .sub{margin-top:1px}
+.detail-tastes{display:flex;flex-direction:column;gap:4px;margin-top:8px}
+.detail-tastes .taste-row{display:flex;align-items:flex-start;gap:8px}
+.detail-tastes .tag-label{flex:0 0 auto;margin-top:2px}
+.detail-tastes .tag-wrap{min-width:0}
+.detail-tabs{display:flex;gap:4px;padding:7px 20px;background:#efe0c3;border-top:1px solid #d9c2a0;border-bottom:1px solid #d9c2a0;position:relative;z-index:2;flex-shrink:0;overflow-x:auto}
+.detail-tabs button{background:none;border:0;border-radius:5px;font-size:12.5px;padding:7px 14px;color:#856847;white-space:nowrap;cursor:pointer;font-family:inherit}
+.detail-tabs button:hover{background:#dac29c55;color:#923e33}
+.detail-tabs button.active{background:#923e33;color:#f7ecd7;font-weight:600}
+.detail-body{display:flex;flex-direction:column;overflow:hidden;padding:0;scroll-behavior:auto}
+.detail-pane{display:flex;flex-direction:column;flex:1;min-height:0}
+.detail-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:7px;padding:10px 20px;border-bottom:1px dashed var(--border);flex-shrink:0;background:color-mix(in srgb,var(--panel) 55%,transparent)}
+.detail-toolbar input[type="search"],.detail-toolbar select{padding:7px 10px;border:1px solid var(--border);border-radius:6px;background:var(--panel-2);color:var(--text);font-family:inherit;font-size:13px}
+.detail-toolbar input[type="search"]{flex:1 1 200px;min-width:150px}
+.detail-toolbar select{cursor:pointer}
+.detail-count{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
+.detail-chips{display:flex;flex-wrap:wrap;gap:5px;flex-basis:100%;padding-top:2px}
+.detail-chips .tag{cursor:pointer;user-select:none;opacity:.82}
+.detail-chips .tag.active{opacity:1;background:var(--accent);border-color:var(--accent);color:#fff}
+.detail-chips .tag.chip{background:var(--panel-3)}
+.detail-scroll{flex:1;min-height:0;overflow:auto;padding:14px 20px 40px;position:relative;z-index:1;scrollbar-color:#c3a575 transparent}
+.detail-pane-title{display:flex;align-items:center;gap:8px;margin:20px 0 10px;font-size:16px;font-weight:400;color:#955042;letter-spacing:.06em}
+.detail-pane-title::before{content:"";width:3px;height:15px;border-radius:0;background:#ad5845}
+.detail-handnote{margin-bottom:12px}
+.detail-scroll .table-wrap{max-height:none}
+@media(prefers-reduced-motion:reduce){.detail-scroll{scroll-behavior:auto}}
