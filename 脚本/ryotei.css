@@ -213,7 +213,7 @@ table.data-table{font-size:12px;min-width:760px}
 .seal-lg{width:70px;height:70px;border-radius:7px;flex-shrink:0;border:1px solid #bca17e;box-shadow:0 4px 8px #694d2e25;animation-duration:.3s;animation-delay:.04s}
 .seal-lg img{image-rendering:pixelated}.detail-head h2{font-size:30px;font-weight:400;background:none;color:#613e2b;-webkit-text-fill-color:currentColor;letter-spacing:.06em}
 .detail-head .sub{font-size:10px;margin-top:5px;color:#8d7050}.detail-watermark{opacity:.035;color:#7f5436;font-size:130px}
-.detail-scroll{padding:0 28px 40px;scroll-behavior:smooth;scrollbar-color:#c3a575 transparent}
+.detail-scroll{padding:0 0 40px;scroll-behavior:smooth;scrollbar-color:#c3a575 transparent}
 .detail-section{margin:0 0 28px;animation:none;scroll-margin-top:16px}
 .detail-section h3{font-size:18px;font-weight:400;color:#955042;letter-spacing:.06em;margin:0 0 14px}
 .detail-section h3::before{width:3px;height:15px;border-radius:0;background:#ad5845;box-shadow:none;animation:none}
@@ -264,7 +264,7 @@ html[data-theme=light] .site-footer{color:#8c7150;border-color:#b4966d55}html[da
   .guest-budget strong{font-size:21px}.tag{font-size:11px;padding:3px 6px}.tag.dynamic{font-size:10px}.tag-label{font-size:12px;margin-top:4px}
   .toolbar{padding-top:0;gap:7px}.toolbar select{font-size:11px;padding-left:9px}.count{font-size:10px}
   .detail-head{padding:18px 18px;gap:13px}.seal-lg{width:58px;height:58px}.detail-head h2{font-size:25px}.detail-head .sub{font-size:9.5px;max-width:230px}
-  .detail-tabs{padding:7px 12px;gap:0}.detail-tabs button{padding:6px 10px;font-size:11.5px}.detail-scroll{padding:0 16px 30px}.detail-toolbar{padding:9px 16px}
+  .detail-tabs{padding:7px 12px;gap:0}.detail-tabs button{padding:6px 10px;font-size:11.5px}.detail-scroll{padding:0 0 30px}.detail-toolbar{padding:9px 16px}
   .detail-section h3{font-size:19px}.kv{grid-template-columns:72px 1fr;gap:11px 10px;font-size:12px}.meal-pair{grid-template-columns:1fr;gap:0}
   .menu-dish{padding:13px}.menu-dish-name{font-size:20px}.menu-price{font-size:18px}.menu-dish .tag{font-size:11px}
   .menu-material{font-size:11px}.dish-note{font-size:11px}.detail-watermark{display:none}
@@ -415,7 +415,7 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 .detail-chips .tag{cursor:pointer;user-select:none;opacity:.82}
 .detail-chips .tag.active{opacity:1;background:var(--accent);border-color:var(--accent);color:#fff}
 .detail-chips .tag.chip{background:var(--panel-3)}
-.detail-scroll{flex:1;min-height:0;overflow:auto;padding:0 20px 40px;position:relative;z-index:1;scrollbar-color:#c3a575 transparent}
+.detail-scroll{flex:1;min-height:0;overflow:auto;padding:0 0 40px;position:relative;z-index:1;scrollbar-color:#c3a575 transparent}
 .detail-pane-title{display:flex;align-items:center;gap:8px;margin:20px 0 10px;font-size:16px;font-weight:400;color:#955042;letter-spacing:.06em}
 .detail-pane-title::before{content:"";width:3px;height:15px;border-radius:0;background:#ad5845}
 .detail-handnote{margin-bottom:12px}
@@ -443,6 +443,7 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 #guest-drinks .data-table th:nth-child(4),#guest-drinks .data-table td:nth-child(4){width:54px}
 #guest-drinks .data-table th:nth-child(6),#guest-drinks .data-table td:nth-child(6){width:178px}
 .detail-scroll .data-table td{word-break:break-word}
+.detail-scroll .data-table th:last-child,.detail-scroll .data-table td:last-child{padding-right:16px}
 /* 竖排名字水印：头部加高后重新定位到其下方，保持淡淡的装饰。 */
 /* 弹出缓入缓出：入场缓出更灵动，退场稍快缓入；减少动态时直切。 */
 .detail-panel{transition:transform .22s cubic-bezier(.55,.06,.68,.19)}
