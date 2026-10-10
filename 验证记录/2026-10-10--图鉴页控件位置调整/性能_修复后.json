@@ -1,103 +1,103 @@
 {
   "mode": "fixed",
   "browser": "148.0.3967.42",
-  "loadMs": 376,
+  "loadMs": 535,
   "metrics": [
     {
       "group": "meals",
       "round": 0,
-      "handlerMs": 51.2,
-      "nextPaintMs": 348.5,
+      "handlerMs": 50.3,
+      "nextPaintMs": 416,
       "remainingAnimationMs": 0,
-      "settledMs": 355.8
+      "settledMs": 437.5
     },
     {
       "group": "items",
       "round": 0,
-      "handlerMs": 8.3,
-      "nextPaintMs": 57.8,
+      "handlerMs": 19,
+      "nextPaintMs": 79.4,
       "remainingAnimationMs": 0,
-      "settledMs": 62.5
+      "settledMs": 91.4
     },
     {
       "group": "guests",
       "round": 0,
-      "handlerMs": 2.8,
-      "nextPaintMs": 33,
+      "handlerMs": 5.4,
+      "nextPaintMs": 45.5,
       "remainingAnimationMs": 0,
-      "settledMs": 38.8
+      "settledMs": 53.4
     },
     {
       "group": "meals",
+      "round": 1,
+      "handlerMs": 3.6,
+      "nextPaintMs": 44.4,
+      "remainingAnimationMs": 0,
+      "settledMs": 54.7
+    },
+    {
+      "group": "items",
       "round": 1,
       "handlerMs": 3.4,
-      "nextPaintMs": 32.2,
+      "nextPaintMs": 36.4,
       "remainingAnimationMs": 0,
-      "settledMs": 36.3
-    },
-    {
-      "group": "items",
-      "round": 1,
-      "handlerMs": 2.9,
-      "nextPaintMs": 30.3,
-      "remainingAnimationMs": 0,
-      "settledMs": 36.5
+      "settledMs": 42.3
     },
     {
       "group": "guests",
       "round": 1,
-      "handlerMs": 3.2,
-      "nextPaintMs": 30.1,
+      "handlerMs": 5,
+      "nextPaintMs": 36.8,
       "remainingAnimationMs": 0,
-      "settledMs": 36.2
+      "settledMs": 39.9
     },
     {
       "group": "meals",
+      "round": 2,
+      "handlerMs": 6.1,
+      "nextPaintMs": 46.5,
+      "remainingAnimationMs": 0,
+      "settledMs": 58.5
+    },
+    {
+      "group": "items",
+      "round": 2,
+      "handlerMs": 3.7,
+      "nextPaintMs": 39.3,
+      "remainingAnimationMs": 0,
+      "settledMs": 45.3
+    },
+    {
+      "group": "guests",
       "round": 2,
       "handlerMs": 3.8,
-      "nextPaintMs": 37.7,
+      "nextPaintMs": 36.5,
       "remainingAnimationMs": 0,
-      "settledMs": 42.2
-    },
-    {
-      "group": "items",
-      "round": 2,
-      "handlerMs": 3.2,
-      "nextPaintMs": 30.3,
-      "remainingAnimationMs": 0,
-      "settledMs": 36.4
-    },
-    {
-      "group": "guests",
-      "round": 2,
-      "handlerMs": 3,
-      "nextPaintMs": 30.2,
-      "remainingAnimationMs": 0,
-      "settledMs": 36.3
+      "settledMs": 48.5
     },
     {
       "group": "meals",
       "round": 3,
-      "handlerMs": 3.4,
-      "nextPaintMs": 32,
+      "handlerMs": 4.1,
+      "nextPaintMs": 36.2,
       "remainingAnimationMs": 0,
-      "settledMs": 36.5
+      "settledMs": 42.1
     },
     {
       "group": "items",
       "round": 3,
-      "handlerMs": 3.5,
-      "nextPaintMs": 35.4,
+      "handlerMs": 3.4,
+      "nextPaintMs": 36.5,
       "remainingAnimationMs": 0,
-      "settledMs": 40.1
+      "settledMs": 49.2
     },
     {
       "group": "guests",
       "round": 3,
-      "handlerMs": 3.2,
-      "nextPaintMs": 30.3,
+      "handlerMs": 2.7,
+      "nextPaintMs": 30,
       "remainingAnimationMs": 0,
-      "settledMs": 36.3
+      "settledMs": 40.2
     }
   ],
   "summary": {

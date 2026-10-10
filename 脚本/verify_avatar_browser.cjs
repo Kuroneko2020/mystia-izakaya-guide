@@ -252,7 +252,6 @@ async function main() {
     assert.equal(await page.locator('#guest-grid .guest-card').count(),59,'图鉴名簿不被营业地点裁剪');
     assert.match(page.url(),/place=/);
     await page.locator('#service-place').selectOption('all');
-    await page.locator('#guest-grid [data-guest="博丽灵梦"]').count();
     await page.screenshot({path:path.join(outputDir,'图鉴_今晚开店与分类页签.png')});
     fs.writeFileSync(path.join(outputDir,'图鉴_标题行工具区.json'),JSON.stringify(headTools,null,2));
     await page.locator('#global-search').fill('妖怪兔');
