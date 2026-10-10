@@ -431,19 +431,18 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 .detail-scroll .table-pagination{padding:8px 2px 0}
 .detail-scroll .data-table{table-layout:fixed;width:100%;border-collapse:separate;border-spacing:0}
 #guest-meals .data-table th:nth-child(1),#guest-meals .data-table td:nth-child(1){width:132px}
-#guest-meals .data-table th:nth-child(2),#guest-meals .data-table td:nth-child(2){width:56px}
+#guest-meals .data-table th:nth-child(2),#guest-meals .data-table td:nth-child(2){width:62px}
 #guest-meals .data-table th:nth-child(3),#guest-meals .data-table td:nth-child(3){width:74px}
 #guest-meals .data-table th:nth-child(4),#guest-meals .data-table td:nth-child(4){width:64px}
 #guest-meals .data-table th:nth-child(6),#guest-meals .data-table td:nth-child(6){width:170px}
 #guest-meals .data-table th:nth-child(7),#guest-meals .data-table td:nth-child(7){width:140px}
-#guest-meals .data-table th:nth-child(8),#guest-meals .data-table td:nth-child(8){width:54px}
+#guest-meals .data-table th:nth-child(8),#guest-meals .data-table td:nth-child(8){width:78px}
 #guest-drinks .data-table th:nth-child(1),#guest-drinks .data-table td:nth-child(1){width:146px}
 #guest-drinks .data-table th:nth-child(2),#guest-drinks .data-table td:nth-child(2){width:76px}
-#guest-drinks .data-table th:nth-child(3),#guest-drinks .data-table td:nth-child(3){width:56px}
-#guest-drinks .data-table th:nth-child(4),#guest-drinks .data-table td:nth-child(4){width:54px}
+#guest-drinks .data-table th:nth-child(3),#guest-drinks .data-table td:nth-child(3){width:62px}
+#guest-drinks .data-table th:nth-child(4),#guest-drinks .data-table td:nth-child(4){width:78px}
 #guest-drinks .data-table th:nth-child(6),#guest-drinks .data-table td:nth-child(6){width:178px}
 .detail-scroll .data-table td{word-break:break-word}
-.detail-scroll .data-table th:last-child,.detail-scroll .data-table td:last-child{padding-right:16px}
 /* 竖排名字水印：头部加高后重新定位到其下方，保持淡淡的装饰。 */
 /* 弹出缓入缓出：入场缓出更灵动，退场稍快缓入；减少动态时直切。 */
 .detail-panel{transition:transform .22s cubic-bezier(.55,.06,.68,.19)}
@@ -467,6 +466,3 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 }
 @media(max-width:620px){.detail-scroll::before{display:none}}
 
-/* 排序箭头改为列头右侧角标：窄列(命中数/等级等)文字+箭头挤不下会溢出面板被裁，角标不占文字流。 */
-.detail-scroll .data-table th{position:sticky}
-.detail-scroll .data-table .sort-mark{position:absolute;right:4px;top:50%;transform:translateY(-50%);margin:0;animation:none}
