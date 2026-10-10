@@ -1,0 +1,28 @@
+{
+  "ctxParent": "ryotei-head-tools",
+  "ctxVisible": true,
+  "navParent": "ryotei-head-tools",
+  "tabs": [
+    "稀有/特殊客人",
+    "普通客人"
+  ],
+  "ctxBox": {
+    "left": 789.546875,
+    "right": 1192.84375,
+    "top": 142.484375,
+    "bottom": 185.484375
+  },
+  "navBox": {
+    "left": 1204.84375,
+    "right": 1397,
+    "top": 145.9375,
+    "bottom": 182.03125
+  },
+  "toolsBox": {
+    "left": 351,
+    "right": 1397,
+    "top": 142.484375,
+    "bottom": 185.484375
+  },
+  "label": "今晚开店"
+}

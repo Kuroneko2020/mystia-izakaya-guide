@@ -24,7 +24,6 @@ function updateRyoteiHeading(tab){
 
 function ryoteiFiltersInit(){
   const aside = $('#workbench-filters');
-  aside.insertBefore($('#service-context'),$('#page-filters'));
   for (const panel of $$('.tab-panel')) {
     const toolbar = panel.querySelector(':scope > .toolbar');
     if (!toolbar) continue;
@@ -62,20 +61,28 @@ function ryoteiCloseFilters(){
 }
 function ryoteiUpdateFilters(tab){
   for (const toolbar of $$('#page-filters > .toolbar')) toolbar.hidden=toolbar.dataset.filterTab !== tab;
-  const hasFilters=ryoteiGroup(tab) !== 'guests' && !!$('#page-filters > .toolbar:not([hidden])');
+  // 客人图鉴页没有筛选侧栏，“今晚开店”跟随标题行显示；配餐组放回侧栏顶部。
+  const group = ryoteiGroup(tab);
+  const context = $('#service-context');
+  const inHead = group === 'guests';
+  const filterHost = $('#workbench-filters');
+  if (context.parentElement !== (inHead ? $('#ryotei-head-tools') : filterHost)) {
+    (inHead ? $('#ryotei-head-tools') : filterHost).insertBefore(context,inHead ? $('#section-nav') : $('#page-filters'));
+  }
+  const hasFilters=group !== 'guests' && !!$('#page-filters > .toolbar:not([hidden])');
   $('#workbench-filters').hidden=!hasFilters;
   $('#filter-toggle').hidden=!hasFilters;
   $('#ryotei-workbench').classList.toggle('has-filters',hasFilters);
   if (!hasFilters) ryoteiCloseFilters();
-  const aside=$('#workbench-filters');
-  const visitors=ryoteiGroup(tab)==='meals' && state.servicePlace !== 'all';
-  if (aside.dataset.place !== state.servicePlace || (visitors && aside.dataset.group !== ryoteiGroup(tab))) {
+  const aside=filterHost;
+  const visitors=group==='meals' && state.servicePlace !== 'all';
+  if (aside.dataset.place !== state.servicePlace || (visitors && aside.dataset.group !== group)) {
     aside.dataset.place=state.servicePlace;
     aside.dataset.section=visitors ? 'visitors' : 'tags';
     $('.filter-content').scrollTop=0;
   }
   if (!visitors) aside.dataset.section='tags';
-  aside.dataset.group=ryoteiGroup(tab);
+  aside.dataset.group=group;
   const showVisitors=visitors && aside.dataset.section !== 'tags';
   $('#filter-sections').hidden=!visitors;
   $('#filter-visitors').hidden=!showVisitors;

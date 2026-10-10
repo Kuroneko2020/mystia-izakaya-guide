@@ -6,7 +6,9 @@ const {pathToFileURL} = require('node:url');
 const {chromium} = require('playwright');
 const root = path.resolve(__dirname, '..');
 const baseline = process.argv.includes('--baseline');
-const outputDir = path.join(root, '验证记录/2026-10-10--侧栏布局与全量推荐');
+const outputDir = path.join(root, baseline
+  ? '验证记录/2026-10-10--侧栏布局与全量推荐'
+  : '验证记录/2026-10-10--图鉴页控件位置调整');
 const file = path.join(root, baseline
   ? '验证记录/2026-10-10--侧栏布局与全量推荐/修复前.html'
   : '成品/东方夜雀食堂攻略查询_料亭立体头像版.html');
@@ -231,7 +233,28 @@ async function main() {
     assert.equal(await page.locator('#guest-grid .guest-card').count(),59,'主页不被配餐地点悄悄裁剪');
     const bounds=await page.locator('#guest-grid').boundingBox();
     assert.ok(bounds.width>1300,'图鉴卡片使用全部内容宽度');
-    await page.screenshot({path:path.join(outputDir,'客人图鉴_无侧栏.png')});
+    // 图鉴页没有筛选侧栏，今晚开店选框必须跟随标题行，分类页签整体靠右。
+    const headTools=await page.evaluate(()=>{
+      const head=document.querySelector('#ryotei-head-tools'),ctx=document.querySelector('#service-context'),nav=document.querySelector('#section-nav');
+      const box=el=>{const b=el.getBoundingClientRect();return {left:b.left,right:b.right,top:b.top,bottom:b.bottom};};
+      return {ctxParent:ctx.parentElement.id,ctxVisible:ctx.offsetParent!==null,navParent:nav.parentElement.id,
+        tabs:Array.from(nav.querySelectorAll('.section-tab')).map(x=>x.textContent),
+        ctxBox:box(ctx),navBox:box(nav),toolsBox:box(head),label:ctx.querySelector('label').textContent};
+    });
+    assert.equal(headTools.ctxVisible,true,'图鉴页必须能直接看到今晚开店选框');
+    assert.equal(headTools.ctxParent,'ryotei-head-tools','图鉴页的今晚开店位于标题行工具区');
+    assert.equal(headTools.label,'今晚开店');
+    assert.deepEqual(headTools.tabs,['稀有/特殊客人','普通客人'],'图鉴页签使用稀有/特殊客人');
+    assert.ok(headTools.ctxBox.right<=headTools.navBox.left+1,'今晚开店选框在分类页签左侧');
+    assert.ok(headTools.navBox.right>=headTools.toolsBox.right-1,'分类页签整体靠右对齐');
+    assert.ok(headTools.ctxBox.top<headTools.toolsBox.bottom,'选框与页签同排');
+    await page.locator('#service-place').selectOption('妖怪兽道');
+    assert.equal(await page.locator('#guest-grid .guest-card').count(),59,'图鉴名簿不被营业地点裁剪');
+    assert.match(page.url(),/place=/);
+    await page.locator('#service-place').selectOption('all');
+    await page.locator('#guest-grid [data-guest="博丽灵梦"]').count();
+    await page.screenshot({path:path.join(outputDir,'图鉴_今晚开店与分类页签.png')});
+    fs.writeFileSync(path.join(outputDir,'图鉴_标题行工具区.json'),JSON.stringify(headTools,null,2));
     await page.locator('#global-search').fill('妖怪兔');
     await page.locator('#global-search').press('Enter');
     await page.waitForFunction(()=>!document.querySelector('#panel-normal').hidden);

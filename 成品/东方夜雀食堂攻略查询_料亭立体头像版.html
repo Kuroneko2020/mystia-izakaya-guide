@@ -895,7 +895,7 @@ html[data-theme=light] .site-footer{color:#8c7150;border-color:#b4966d55}html[da
 
 /* 工作区标题和页签合为一行，优先给内容与完整标签留空间。 */
 .ryotei-workbench{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:16px;row-gap:8px;padding-top:14px}
-.ryotei-workbench>.tab-panel,.ryotei-workbench>.service-context{grid-column:1/-1;min-width:0}
+.ryotei-workbench>.tab-panel{grid-column:1/-1;min-width:0}
 .ryotei-page-heading{margin:0;gap:8px;align-self:center}
 .page-heading-copy{gap:9px}.chapter-stamp{writing-mode:horizontal-tb;font-size:13px;padding:6px}
 .ryotei-page-heading h2{font-size:21px;line-height:1.3;letter-spacing:.06em}.page-code{display:none}
@@ -930,16 +930,23 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 .ambient,#fx-canvas{display:none}
 .ryotei-workbench{grid-template-columns:292px minmax(0,1fr);gap:12px 16px;padding:12px 18px 22px}
 .ryotei-page-heading{grid-column:1;grid-row:1}
-.section-nav{grid-column:2;grid-row:1;justify-content:flex-start}
+/* 标题行右侧：今晚开店选框与分类页签同排，整体靠右对齐。 */
+.ryotei-head-tools{grid-column:2;grid-row:1;display:flex;align-items:center;justify-content:flex-end;gap:12px;min-width:0}
+.ryotei-head-tools .section-nav{margin:0;gap:4px;justify-content:flex-end;flex-wrap:wrap}
+.ryotei-head-tools .service-context{margin:0;padding:5px 11px;min-width:0}
+.ryotei-head-tools .service-choice{display:flex;align-items:center;gap:8px;flex-wrap:nowrap}
+.ryotei-head-tools .service-choice label{font-size:14px}
+.ryotei-head-tools .service-choice select{min-width:118px;width:auto;padding:6px 26px 6px 9px}
+.ryotei-head-tools .service-choice #service-count{margin:0;font-size:11px;text-align:left;white-space:nowrap}
 .ryotei-workbench>.tab-panel{grid-column:1/-1;grid-row:2;min-width:0;animation:none}
 .ryotei-workbench.has-filters>.tab-panel{grid-column:2}
 .workbench-filters{grid-column:1;grid-row:2;align-self:start;position:sticky;top:calc(var(--header-h) + 64px);
   height:calc(100dvh - var(--header-h) - 134px);display:flex;flex-direction:column;min-height:0;overflow:hidden;
   padding:10px;background:var(--panel-2);border:1px solid var(--border);border-radius:6px;scrollbar-width:thin}
-.service-context{border:0;padding:0 0 10px;margin:0 0 10px;border-bottom:1px solid var(--border);background:none}
-.service-choice{display:grid;grid-template-columns:auto 1fr;gap:6px}
-.service-choice label{font-size:13px}.service-choice select{min-width:0;width:100%;font-size:12px}
-.service-note{font-size:10px}.service-choice #service-count{margin:0;font-size:10px;text-align:right}
+.workbench-filters .service-context{border:0;padding:0 0 10px;margin:0 0 10px;border-bottom:1px solid var(--border);background:none}
+.workbench-filters .service-choice{display:grid;grid-template-columns:auto 1fr;gap:6px}
+.workbench-filters .service-choice label{font-size:13px}.workbench-filters .service-choice select{min-width:0;width:100%;font-size:12px}
+.workbench-filters .service-note{font-size:10px}.workbench-filters .service-choice #service-count{margin:0;font-size:10px;text-align:right}
 .visitor-overview{max-height:none;overflow:visible}
 .visitor-overview summary{font-size:12px;position:static;padding-bottom:4px}
 .visitor-group .visitor-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px}
@@ -982,7 +989,9 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 @media(min-width:1600px){.cards{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(max-width:1000px){
   main{padding:8px 10px 30px}.ryotei-workbench{grid-template-columns:1fr auto;padding:10px;gap:10px}
-  .section-nav{grid-column:1/-1;grid-row:2;justify-content:flex-start}
+  .ryotei-head-tools{grid-column:1/-1;grid-row:2;justify-content:flex-start;flex-wrap:wrap;gap:8px}
+  .ryotei-head-tools .section-nav{justify-content:flex-start}
+  .ryotei-head-tools .service-note{display:none}
   .filter-toggle{display:block;grid-column:2;grid-row:1}.filter-close{display:block;margin:0 0 10px auto}
   .workbench-filters{display:none;position:fixed;top:var(--header-h);bottom:0;left:0;width:min(340px,92vw);height:auto;max-height:none;z-index:50;box-shadow:8px 0 25px #21192744;padding:14px}
   .workbench-filters.filters-open{display:flex}
@@ -992,6 +1001,11 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 @media(max-width:600px){
   .site-header{padding:10px 12px}.ryotei-workbench{padding:9px}.cards{grid-template-columns:1fr}
   .ryotei-workbench:not(.has-filters) .cards{grid-template-columns:1fr}
+  .ryotei-head-tools{gap:6px}
+  .ryotei-head-tools .service-context{padding:4px 9px}
+  .ryotei-head-tools .service-choice label{font-size:13px}
+  .ryotei-head-tools .service-choice select{min-width:104px;font-size:11px}
+  .ryotei-head-tools .service-choice #service-count{display:none}
   .detail-panel{width:100%;border-left:0}
 }
 [hidden]{display:none!important}
@@ -1079,7 +1093,13 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 </nav>
 <div class="ryotei-workbench" id="ryotei-workbench">
   <div class="ryotei-page-heading"><div class="page-heading-copy"><span class="chapter-stamp" id="ryotei-chapter-stamp" aria-hidden="true">客录</span><div><h2 id="ryotei-page-title">客人名簿</h2></div></div><span class="page-code" id="ryotei-page-code" aria-hidden="true">CHAPTER 01</span></div>
-  <nav class="section-nav" id="section-nav" aria-label="分类"></nav>
+  <div class="ryotei-head-tools" id="ryotei-head-tools">
+    <section class="service-context" id="service-context" aria-label="今晚开店">
+      <div class="service-choice"><label for="service-place">今晚开店</label><select id="service-place"></select><span class="service-note" title="自然来访不保证每晚出现；因幡帝随机出没于全部地区。邀请和剧情可能改变来客。">可能来访 ⓘ</span><span id="service-count"></span></div>
+      <details id="service-visitors" class="visitor-overview" open hidden><summary>来客名簿 · 点击头像筛选配餐</summary><div id="visitor-filter" class="visitor-list visitor-filter" aria-label="客人分类"></div><div class="visitor-group"><h3>稀客与特殊客人</h3><div id="visitor-rare" class="visitor-list"></div></div><div class="visitor-group"><h3>普通客人</h3><div id="visitor-normal" class="visitor-list"></div></div></details>
+    </section>
+    <nav class="section-nav" id="section-nav" aria-label="分类"></nav>
+  </div>
   <button id="filter-toggle" class="filter-toggle" type="button" aria-controls="workbench-filters" aria-expanded="false">筛选与选客</button>
   <aside id="workbench-filters" class="workbench-filters" aria-label="查询筛选">
     <button id="filter-close" class="filter-close" type="button" aria-label="关闭筛选">完成筛选 ×</button>
@@ -1088,10 +1108,6 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
     <div class="filter-content"><div id="filter-visitors"></div><div id="filter-tags"></div></div>
   </aside>
   <button id="filter-backdrop" class="filter-backdrop" type="button" aria-label="关闭筛选" hidden></button>
-  <section class="service-context" id="service-context" aria-label="今晚开店">
-    <div class="service-choice"><label for="service-place">今晚开店</label><select id="service-place"></select><span class="service-note" title="自然来访不保证每晚出现；因幡帝随机出没于全部地区。邀请和剧情可能改变来客。">可能来访 ⓘ</span><span id="service-count"></span></div>
-    <details id="service-visitors" class="visitor-overview" open hidden><summary>来客名簿 · 点击头像筛选配餐</summary><div id="visitor-filter" class="visitor-list visitor-filter" aria-label="客人分类"></div><div class="visitor-group"><h3>稀客与特殊客人</h3><div id="visitor-rare" class="visitor-list"></div></div><div class="visitor-group"><h3>普通客人</h3><div id="visitor-normal" class="visitor-list"></div></div></details>
-  </section>
 
   <section class="tab-panel" id="panel-guests">
     <div class="toolbar">
@@ -2638,7 +2654,6 @@ function updateRyoteiHeading(tab){
 
 function ryoteiFiltersInit(){
   const aside = $('#workbench-filters');
-  aside.insertBefore($('#service-context'),$('#page-filters'));
   for (const panel of $$('.tab-panel')) {
     const toolbar = panel.querySelector(':scope > .toolbar');
     if (!toolbar) continue;
@@ -2676,20 +2691,28 @@ function ryoteiCloseFilters(){
 }
 function ryoteiUpdateFilters(tab){
   for (const toolbar of $$('#page-filters > .toolbar')) toolbar.hidden=toolbar.dataset.filterTab !== tab;
-  const hasFilters=ryoteiGroup(tab) !== 'guests' && !!$('#page-filters > .toolbar:not([hidden])');
+  // 客人图鉴页没有筛选侧栏，“今晚开店”跟随标题行显示；配餐组放回侧栏顶部。
+  const group = ryoteiGroup(tab);
+  const context = $('#service-context');
+  const inHead = group === 'guests';
+  const filterHost = $('#workbench-filters');
+  if (context.parentElement !== (inHead ? $('#ryotei-head-tools') : filterHost)) {
+    (inHead ? $('#ryotei-head-tools') : filterHost).insertBefore(context,inHead ? $('#section-nav') : $('#page-filters'));
+  }
+  const hasFilters=group !== 'guests' && !!$('#page-filters > .toolbar:not([hidden])');
   $('#workbench-filters').hidden=!hasFilters;
   $('#filter-toggle').hidden=!hasFilters;
   $('#ryotei-workbench').classList.toggle('has-filters',hasFilters);
   if (!hasFilters) ryoteiCloseFilters();
-  const aside=$('#workbench-filters');
-  const visitors=ryoteiGroup(tab)==='meals' && state.servicePlace !== 'all';
-  if (aside.dataset.place !== state.servicePlace || (visitors && aside.dataset.group !== ryoteiGroup(tab))) {
+  const aside=filterHost;
+  const visitors=group==='meals' && state.servicePlace !== 'all';
+  if (aside.dataset.place !== state.servicePlace || (visitors && aside.dataset.group !== group)) {
     aside.dataset.place=state.servicePlace;
     aside.dataset.section=visitors ? 'visitors' : 'tags';
     $('.filter-content').scrollTop=0;
   }
   if (!visitors) aside.dataset.section='tags';
-  aside.dataset.group=ryoteiGroup(tab);
+  aside.dataset.group=group;
   const showVisitors=visitors && aside.dataset.section !== 'tags';
   $('#filter-sections').hidden=!visitors;
   $('#filter-visitors').hidden=!showVisitors;
@@ -2880,7 +2903,7 @@ function makeRyoteiTable(columns,list){
 
 /* 导航、营业地区与静态口味推荐；原始攻略数据保留供来源对照。 */
 const RYOTEI_GROUPS = {
-  guests:{label:'客人图鉴',tabs:[['guests','稀客与特殊客人'],['normal','普通客人']]},
+  guests:{label:'客人图鉴',tabs:[['guests','稀有/特殊客人'],['normal','普通客人']]},
   meals:{label:'配餐参考',tabs:[['details','料理'],['drinkrecs','酒水'],['addons','加料']]},
   items:{label:'物品图鉴',tabs:[['catalog','菜谱'],['ingredients','食材'],['beverages','酒水']]},
   reference:{label:'资料',tabs:[['new440','版本更新'],['guides','旧版攻略'],['sources','数据来源']]}

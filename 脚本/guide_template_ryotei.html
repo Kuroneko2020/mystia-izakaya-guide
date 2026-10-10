@@ -656,7 +656,13 @@ table.data-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:
 </nav>
 <div class="ryotei-workbench" id="ryotei-workbench">
   <div class="ryotei-page-heading"><div class="page-heading-copy"><span class="chapter-stamp" id="ryotei-chapter-stamp" aria-hidden="true">客录</span><div><h2 id="ryotei-page-title">客人名簿</h2></div></div><span class="page-code" id="ryotei-page-code" aria-hidden="true">CHAPTER 01</span></div>
-  <nav class="section-nav" id="section-nav" aria-label="分类"></nav>
+  <div class="ryotei-head-tools" id="ryotei-head-tools">
+    <section class="service-context" id="service-context" aria-label="今晚开店">
+      <div class="service-choice"><label for="service-place">今晚开店</label><select id="service-place"></select><span class="service-note" title="自然来访不保证每晚出现；因幡帝随机出没于全部地区。邀请和剧情可能改变来客。">可能来访 ⓘ</span><span id="service-count"></span></div>
+      <details id="service-visitors" class="visitor-overview" open hidden><summary>来客名簿 · 点击头像筛选配餐</summary><div id="visitor-filter" class="visitor-list visitor-filter" aria-label="客人分类"></div><div class="visitor-group"><h3>稀客与特殊客人</h3><div id="visitor-rare" class="visitor-list"></div></div><div class="visitor-group"><h3>普通客人</h3><div id="visitor-normal" class="visitor-list"></div></div></details>
+    </section>
+    <nav class="section-nav" id="section-nav" aria-label="分类"></nav>
+  </div>
   <button id="filter-toggle" class="filter-toggle" type="button" aria-controls="workbench-filters" aria-expanded="false">筛选与选客</button>
   <aside id="workbench-filters" class="workbench-filters" aria-label="查询筛选">
     <button id="filter-close" class="filter-close" type="button" aria-label="关闭筛选">完成筛选 ×</button>
@@ -665,10 +671,6 @@ table.data-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:
     <div class="filter-content"><div id="filter-visitors"></div><div id="filter-tags"></div></div>
   </aside>
   <button id="filter-backdrop" class="filter-backdrop" type="button" aria-label="关闭筛选" hidden></button>
-  <section class="service-context" id="service-context" aria-label="今晚开店">
-    <div class="service-choice"><label for="service-place">今晚开店</label><select id="service-place"></select><span class="service-note" title="自然来访不保证每晚出现；因幡帝随机出没于全部地区。邀请和剧情可能改变来客。">可能来访 ⓘ</span><span id="service-count"></span></div>
-    <details id="service-visitors" class="visitor-overview" open hidden><summary>来客名簿 · 点击头像筛选配餐</summary><div id="visitor-filter" class="visitor-list visitor-filter" aria-label="客人分类"></div><div class="visitor-group"><h3>稀客与特殊客人</h3><div id="visitor-rare" class="visitor-list"></div></div><div class="visitor-group"><h3>普通客人</h3><div id="visitor-normal" class="visitor-list"></div></div></details>
-  </section>
 
   <section class="tab-panel" id="panel-guests">
     <div class="toolbar">

@@ -1,6 +1,6 @@
 /* 导航、营业地区与静态口味推荐；原始攻略数据保留供来源对照。 */
 const RYOTEI_GROUPS = {
-  guests:{label:'客人图鉴',tabs:[['guests','稀客与特殊客人'],['normal','普通客人']]},
+  guests:{label:'客人图鉴',tabs:[['guests','稀有/特殊客人'],['normal','普通客人']]},
   meals:{label:'配餐参考',tabs:[['details','料理'],['drinkrecs','酒水'],['addons','加料']]},
   items:{label:'物品图鉴',tabs:[['catalog','菜谱'],['ingredients','食材'],['beverages','酒水']]},
   reference:{label:'资料',tabs:[['new440','版本更新'],['guides','旧版攻略'],['sources','数据来源']]}
