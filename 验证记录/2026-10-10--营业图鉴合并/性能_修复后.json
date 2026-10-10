@@ -1,133 +1,133 @@
 {
   "mode": "fixed",
   "browser": "148.0.3967.42",
-  "loadMs": 311,
+  "loadMs": 586,
   "metrics": [
     {
       "tab": "details",
       "round": 0,
-      "handlerMs": 28.8,
-      "nextPaintMs": 312.6,
+      "handlerMs": 61.3,
+      "nextPaintMs": 234.7,
       "remainingAnimationMs": 0,
-      "settledMs": 375.4
+      "settledMs": 284.7
     },
     {
       "tab": "guests",
       "round": 0,
-      "handlerMs": 2.9,
-      "nextPaintMs": 62.4,
+      "handlerMs": 4.1,
+      "nextPaintMs": 64.9,
+      "remainingAnimationMs": 0,
+      "settledMs": 91.1
+    },
+    {
+      "tab": "items",
+      "round": 0,
+      "handlerMs": 13.9,
+      "nextPaintMs": 93.6,
+      "remainingAnimationMs": 0,
+      "settledMs": 124.6
+    },
+    {
+      "tab": "guests-primary",
+      "round": 0,
+      "handlerMs": 4.4,
+      "nextPaintMs": 62.7,
+      "remainingAnimationMs": 0,
+      "settledMs": 93.9
+    },
+    {
+      "tab": "details",
+      "round": 1,
+      "handlerMs": 4,
+      "nextPaintMs": 62.2,
+      "remainingAnimationMs": 0,
+      "settledMs": 93.6
+    },
+    {
+      "tab": "guests",
+      "round": 1,
+      "handlerMs": 5.2,
+      "nextPaintMs": 62.7,
       "remainingAnimationMs": 0,
       "settledMs": 94.1
     },
     {
       "tab": "items",
-      "round": 0,
-      "handlerMs": 9.3,
-      "nextPaintMs": 65.2,
+      "round": 1,
+      "handlerMs": 3.5,
+      "nextPaintMs": 61.4,
+      "remainingAnimationMs": 0,
+      "settledMs": 92.8
+    },
+    {
+      "tab": "guests-primary",
+      "round": 1,
+      "handlerMs": 3.9,
+      "nextPaintMs": 62.5,
+      "remainingAnimationMs": 0,
+      "settledMs": 94.1
+    },
+    {
+      "tab": "details",
+      "round": 2,
+      "handlerMs": 4.4,
+      "nextPaintMs": 62.5,
       "remainingAnimationMs": 0,
       "settledMs": 93.9
     },
     {
-      "tab": "guests-primary",
-      "round": 0,
-      "handlerMs": 2.9,
-      "nextPaintMs": 66.4,
-      "remainingAnimationMs": 0,
-      "settledMs": 92.9
-    },
-    {
-      "tab": "details",
-      "round": 1,
-      "handlerMs": 3.1,
-      "nextPaintMs": 67.7,
-      "remainingAnimationMs": 0,
-      "settledMs": 93.6
-    },
-    {
       "tab": "guests",
-      "round": 1,
-      "handlerMs": 3.3,
-      "nextPaintMs": 62.1,
-      "remainingAnimationMs": 0,
-      "settledMs": 94.7
-    },
-    {
-      "tab": "items",
-      "round": 1,
-      "handlerMs": 4.8,
-      "nextPaintMs": 62.6,
-      "remainingAnimationMs": 0,
-      "settledMs": 93.4
-    },
-    {
-      "tab": "guests-primary",
-      "round": 1,
-      "handlerMs": 5,
-      "nextPaintMs": 62.4,
-      "remainingAnimationMs": 0,
-      "settledMs": 93.8
-    },
-    {
-      "tab": "details",
       "round": 2,
-      "handlerMs": 2.5,
+      "handlerMs": 3.6,
       "nextPaintMs": 62.5,
       "remainingAnimationMs": 0,
       "settledMs": 94
     },
     {
-      "tab": "guests",
-      "round": 2,
-      "handlerMs": 2.5,
-      "nextPaintMs": 62.5,
-      "remainingAnimationMs": 0,
-      "settledMs": 94.2
-    },
-    {
       "tab": "items",
       "round": 2,
-      "handlerMs": 2.9,
-      "nextPaintMs": 62.8,
-      "remainingAnimationMs": 0,
-      "settledMs": 93.6
-    },
-    {
-      "tab": "guests-primary",
-      "round": 2,
-      "handlerMs": 3.4,
-      "nextPaintMs": 62.5,
-      "remainingAnimationMs": 0,
-      "settledMs": 94
-    },
-    {
-      "tab": "details",
-      "round": 3,
-      "handlerMs": 2.8,
-      "nextPaintMs": 62.6,
-      "remainingAnimationMs": 0,
-      "settledMs": 93.6
-    },
-    {
-      "tab": "guests",
-      "round": 3,
-      "handlerMs": 3.7,
-      "nextPaintMs": 62.7,
-      "remainingAnimationMs": 0,
-      "settledMs": 94.6
-    },
-    {
-      "tab": "items",
-      "round": 3,
-      "handlerMs": 2.5,
-      "nextPaintMs": 62.1,
+      "handlerMs": 3.6,
+      "nextPaintMs": 62.2,
       "remainingAnimationMs": 0,
       "settledMs": 93.5
     },
     {
       "tab": "guests-primary",
+      "round": 2,
+      "handlerMs": 5.1,
+      "nextPaintMs": 67.5,
+      "remainingAnimationMs": 0,
+      "settledMs": 93.9
+    },
+    {
+      "tab": "details",
       "round": 3,
-      "handlerMs": 2.4,
+      "handlerMs": 4.1,
+      "nextPaintMs": 62.5,
+      "remainingAnimationMs": 0,
+      "settledMs": 93.3
+    },
+    {
+      "tab": "guests",
+      "round": 3,
+      "handlerMs": 4.5,
       "nextPaintMs": 62.6,
+      "remainingAnimationMs": 0,
+      "settledMs": 94
+    },
+    {
+      "tab": "items",
+      "round": 3,
+      "handlerMs": 3.9,
+      "nextPaintMs": 62.5,
+      "remainingAnimationMs": 0,
+      "settledMs": 93.4
+    },
+    {
+      "tab": "guests-primary",
+      "round": 3,
+      "handlerMs": 4.8,
+      "nextPaintMs": 62.2,
       "remainingAnimationMs": 0,
       "settledMs": 93.8
     }

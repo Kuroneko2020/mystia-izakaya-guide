@@ -406,7 +406,7 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 .detail-tabs button.active{background:#923e33;color:#f7ecd7;font-weight:600}
 .detail-body{display:flex;flex-direction:column;overflow:hidden;padding:0;scroll-behavior:auto}
 .detail-pane{display:flex;flex-direction:column;flex:1;min-height:0}
-.detail-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:7px;padding:10px 20px;border-bottom:1px dashed var(--border);flex-shrink:0;background:color-mix(in srgb,var(--panel) 55%,transparent)}
+.detail-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:7px;padding:10px 20px 6px;flex-shrink:0;background:color-mix(in srgb,var(--panel) 55%,transparent)}
 .detail-toolbar input[type="search"],.detail-toolbar select{padding:7px 10px;border:1px solid var(--border);border-radius:6px;background:var(--panel-2);color:var(--text);font-family:inherit;font-size:13px}
 .detail-toolbar input[type="search"]{flex:1 1 200px;min-width:150px}
 .detail-toolbar select{cursor:pointer}
