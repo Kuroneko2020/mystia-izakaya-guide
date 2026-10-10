@@ -1,0 +1,19 @@
+{
+  "file": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\成品\\东方夜雀食堂攻略查询_2610101430.html",
+  "guestsTab": {
+    "place": "红魔馆",
+    "count": "18 位稀客 · 7 种普通客人",
+    "activeTab": "稀有/特殊客人",
+    "cards": 18,
+    "normalCards": 0,
+    "first": "红美铃"
+  },
+  "normalTab": {
+    "place": "红魔馆",
+    "count": "18 位稀客 · 7 种普通客人",
+    "activeTab": "普通客人",
+    "cards": 18,
+    "normalCards": 7,
+    "first": "红美铃"
+  }
+}

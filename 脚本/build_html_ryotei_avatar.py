@@ -3,6 +3,9 @@
 在项目目录运行：py 脚本/build_html_ryotei_avatar.py
 数据基线与素材管线沿用料亭版；客人图鉴立体头像效果块由 脚本/guest_avatar_3d.css 原样注入。
 本入口不调用 build_html_ryotei.main()，不重写成品/旧版 中的料亭优化版与 3D 试验版。
+
+成品输出不覆盖：新件统一命名为 东方夜雀食堂攻略查询_yymmddHHMM.html（HHMM 为构建时刻），
+上一份活成品移入 成品/旧版/ 保留原名。新名与旧版归档名任一已存在即中止，不覆盖任何成品。
 """
 import hashlib
 import json
@@ -15,9 +18,24 @@ from build_html_ryotei import ROOT, SCRIPT, ASSETS, uri
 
 BASELINE = ROOT / "中间数据" / "料亭版攻略数据基线.json"
 ORIGINAL = ROOT / "成品" / "东方夜雀食堂攻略查询_和风版.html"
-OUTPUT = ROOT / "成品" / "东方夜雀食堂攻略查询_料亭立体头像版.html"
+OUTPUT_DIR = ROOT / "成品"
+ARCHIVE_DIR = OUTPUT_DIR / "旧版"
+LEGACY_OUTPUT = OUTPUT_DIR / "东方夜雀食堂攻略查询_料亭立体头像版.html"
+STAMPED_NAME = re.compile(r"^东方夜雀食堂攻略查询_\d{10}\.html$")
 AVATAR = SCRIPT / "guest_avatar_3d.css"
-REPORT = ROOT / "成品" / "料亭立体头像版_构建校验.json"
+REPORT = OUTPUT_DIR / "料亭立体头像版_构建校验.json"
+
+
+def live_output():
+    """当前活成品：构建报告 outputFile 优先，其次 yymmddHHMM 命名最新件，再次旧固定名。"""
+    if REPORT.exists():
+        name = json.loads(REPORT.read_text(encoding="utf-8")).get("outputFile")
+        if name and (OUTPUT_DIR / name).exists():
+            return OUTPUT_DIR / name
+    stamped = sorted(p for p in OUTPUT_DIR.iterdir() if STAMPED_NAME.match(p.name))
+    if stamped:
+        return stamped[-1]
+    return LEGACY_OUTPUT if LEGACY_OUTPUT.exists() else None
 
 
 def main():
@@ -70,13 +88,31 @@ def main():
     if b'<style id="guest-avatar-3d">' in raw_out:
         raise ValueError("输出已含头像效果块，检查是否重复构建")
     final = raw_out[:at] + avatar + b"\r\n" + raw_out[at:]
-    OUTPUT.write_bytes(final)
+    # 版本化输出：新件按构建时刻命名，旧活成品移入 旧版/，任何同名冲突都不覆盖。
+    built = datetime.now(timezone(timedelta(hours=8)))
+    new_name = "东方夜雀食堂攻略查询_" + built.strftime("%y%m%d%H%M") + ".html"
+    new_path = OUTPUT_DIR / new_name
+    current = live_output()
+    if new_path.exists() or (ARCHIVE_DIR / new_name).exists():
+        raise ValueError(f"同一分钟内已产出 {new_name}，停止：不覆盖成品或旧版同名文件")
+    if current and (ARCHIVE_DIR / current.name).exists():
+        raise ValueError(f"旧版/ 中已有 {current.name}，停止：不覆盖旧版文件")
+    new_path.write_bytes(final)
+    archived = None
+    if current and current.resolve() != new_path.resolve():
+        ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+        current.replace(ARCHIVE_DIR / current.name)
+        archived = current.name
     report = {
-        "builtAt": datetime.now(timezone(timedelta(hours=8))).date().isoformat(),
+        "builtAt": built.date().isoformat(),
+        "builtAtFull": built.strftime("%Y-%m-%d %H:%M %z"),
         "variant": "料亭立体头像版",
         "method": "独立构建入口 build_html_ryotei_avatar.py：模板+CSS+UI+导航+数据基线整体重建，"
                   "客人图鉴立体头像效果块由 脚本/guest_avatar_3d.css 原样注入 </head> 前；"
                   "不调用 build_html_ryotei.main()，不重写 成品/旧版 中的料亭优化版与 3D 试验版",
+        "namingPolicy": "成品不覆盖：新件 东方夜雀食堂攻略查询_yymmddHHMM.html，上一份活成品移入 成品/旧版/ 保留原名",
+        "outputFile": new_name,
+        "archivedPrevious": archived,
         "dataSource": "中间数据/料亭版攻略数据基线.json",
         "appDataSha256": hashlib.sha256(raw.encode("utf-8")).hexdigest(),
         "avatarBlockSha256": hashlib.sha256(avatar).hexdigest(),
@@ -86,6 +122,7 @@ def main():
         "assetCounts": {k: len(v) for k, v in assets.items()},
         "sheetCounts": {k: len(v["rows"]) for k, v in data["sheets"].items()},
         "changes": [
+            "客人图鉴按“今晚开店”地点联动：两个页签只列该地点可能来访客人（含随机出没的因幡帝），普通页签精确定位条目始终可见",
             "全部地点：全部/普通/特殊置顶，保留106位具体客人；特定地点：展开头像名单并就地筛选配餐",
             "因幡帝纳入所有地区；料理和酒水按全部静态标签匹配：至少一项喜好且无已知厌恶，不设数量或价格上限",
             "删除横幅与统计栏，夜景融入背景；客人主页无侧栏，配餐/物品使用侧栏，选客/标签单内容区，小屏幕使用筛选抽屉",

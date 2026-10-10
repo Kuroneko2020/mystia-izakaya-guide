@@ -4,14 +4,15 @@ const path = require('node:path');
 const assert = require('node:assert/strict');
 const {pathToFileURL} = require('node:url');
 const {chromium} = require('playwright');
+const {liveOutput} = require('./live_output.cjs');
 const root = path.resolve(__dirname, '..');
 const baseline = process.argv.includes('--baseline');
 const outputDir = path.join(root, baseline
   ? '验证记录/2026-10-10--侧栏布局与全量推荐'
-  : '验证记录/2026-10-10--图鉴页控件位置调整');
-const file = path.join(root, baseline
-  ? '验证记录/2026-10-10--侧栏布局与全量推荐/修复前.html'
-  : '成品/东方夜雀食堂攻略查询_料亭立体头像版.html');
+  : '验证记录/2026-10-10--图鉴地点联动与成品版本化');
+const file = baseline
+  ? path.join(root, '验证记录/2026-10-10--侧栏布局与全量推荐/修复前.html')
+  : liveOutput();
 async function measure(page, selector) {
   return page.evaluate(async selector => {
     await new Promise(requestAnimationFrame);
@@ -230,7 +231,8 @@ async function main() {
     await page.setViewportSize({width:1440,height:1000});
     await page.locator('button.primary-tab[data-group="guests"]').click();
     assert.equal(await page.locator('#workbench-filters').isVisible(),false);
-    assert.equal(await page.locator('#guest-grid .guest-card').count(),59,'主页不被配餐地点悄悄裁剪');
+    await page.locator('#service-place').selectOption('all');
+    assert.equal(await page.locator('#guest-grid .guest-card').count(),59,'全部地点显示完整名簿');
     const bounds=await page.locator('#guest-grid').boundingBox();
     assert.ok(bounds.width>1300,'图鉴卡片使用全部内容宽度');
     // 图鉴页没有筛选侧栏，今晚开店选框必须跟随标题行，分类页签整体靠右。
@@ -248,10 +250,21 @@ async function main() {
     assert.ok(headTools.ctxBox.right<=headTools.navBox.left+1,'今晚开店选框在分类页签左侧');
     assert.ok(headTools.navBox.right>=headTools.toolsBox.right-1,'分类页签整体靠右对齐');
     assert.ok(headTools.ctxBox.top<headTools.toolsBox.bottom,'选框与页签同排');
-    await page.locator('#service-place').selectOption('妖怪兽道');
-    assert.equal(await page.locator('#guest-grid .guest-card').count(),59,'图鉴名簿不被营业地点裁剪');
+    // 今晚开店联动：两个页签都随地点变为该地点清单；全部地点恢复完整名单。
+    const rareRows=records('guests'), normalRows=records('normal');
+    const visitsPlace=(row,place)=>row['客人名字']==='因幡帝' || String(row['出没地点']).split('、').includes(place);
+    const place='妖怪兽道';
+    const rareExpected=rareRows.filter(row=>visitsPlace(row,place)).length;
+    const normalExpected=normalRows.filter(row=>visitsPlace(row,place)).length;
+    assert.ok(rareExpected>0 && rareExpected<59,'该地点应有部分稀客');
+    await page.locator('#service-place').selectOption(place);
+    assert.equal(await page.locator('#guest-grid .guest-card').count(),rareExpected,'稀有/特殊客人页签随今晚开店地点变动');
     assert.match(page.url(),/place=/);
+    await page.locator('[data-section-tab="normal"]').click();
+    assert.equal(await page.locator('#normal-grid .guest-card').count(),normalExpected,'普通客人页签随今晚开店地点变动');
+    await page.locator('[data-section-tab="guests"]').click();
     await page.locator('#service-place').selectOption('all');
+    assert.equal(await page.locator('#guest-grid .guest-card').count(),59,'退出地点恢复完整名簿');
     await page.screenshot({path:path.join(outputDir,'图鉴_今晚开店与分类页签.png')});
     fs.writeFileSync(path.join(outputDir,'图鉴_标题行工具区.json'),JSON.stringify(headTools,null,2));
     await page.locator('#global-search').fill('妖怪兔');
@@ -271,9 +284,12 @@ async function main() {
     await page.screenshot({path:path.join(outputDir,'人物详情_全量推荐.png')});
     await page.locator('#detail-close').click();
     await page.locator('button.primary-tab[data-group="meals"]').click();
-    await page.locator('#service-place').selectOption('神灵庙');
+    await page.locator('#service-place').selectOption('魔法森林');
     await page.locator('button.primary-tab[data-group="guests"]').click();
     await page.locator('[data-section-tab="normal"]').click();
+    // 妖怪兔出没于魔法森林；顺带确认普通客人页签随地点收缩后仍能找到它。
+    const forestNormal=normalRows.filter(row=>String(row['出没地点']).split('、').includes('魔法森林')).length;
+    assert.equal(await page.locator('#normal-grid .guest-card').count(),forestNormal,'普通客人页签随地点变动后进入链接验证');
     const rabbit=page.locator('#normal-grid .guest-card').filter({has:page.locator('h3 a[data-entity-name="妖怪兔"]')});
     // 身份链接的标准属性名是 data-entity-name；由内容后备定位，避免给测试添加生产专用属性。
     const card=await rabbit.count() ? rabbit : page.locator('#normal-grid .guest-card').filter({has:page.locator('h3',{hasText:'妖怪兔'})});

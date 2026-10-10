@@ -1408,6 +1408,8 @@ function guestCard(guest, index){ return renderRyoteiGuestCard(guest,index); }
 function renderGuests(){
   const q = state.guestQuery.trim().toLowerCase();
   const list = dataOf('guests').filter((guest) => {
+    // 与“今晚开店”联动：选定地点后图鉴只列该地点可能来访的客人（含随机出没的因幡帝）。
+    if (!ryoteiVisitsPlace(guest)) return false;
     if (state.guestType !== 'all' && guest['类型'] !== state.guestType) return false;
     if (state.guestDlc !== 'all' && guest['所属版本'] !== state.guestDlc) return false;
     return matchesRowQuery(guest, q, ['客人名字', '类型', '所属版本', '出没地点', '持有金', '喜好料理标签', '厌恶料理标签', '喜好酒水标签']);
@@ -1766,8 +1768,11 @@ function drinkTableForGuest(name, tableOnly = false){
 /* ---------------- 普通客人 / 4.4.0 ---------------- */
 function renderNormal(){
   const q = state.normalQuery.trim().toLowerCase();
+  const focused = state.focusTab === 'normal' ? state.focusItem : '';
   const list = dataOf('normal').filter((row) => {
     if (!ryoteiFocusMatches('normal',row,'普通客人')) return false;
+    // 与“今晚开店”联动；精确定位的条目始终可见，保证链接不会落在空名簿上。
+    if (row['普通客人'] !== focused && !ryoteiVisitsPlace(row)) return false;
     return matchesRowQuery(row, q, ['普通客人', '出没地点', '喜好料理标签', '喜好酒水标签', '前期推荐菜（≤80元）', '后期推荐菜（≤200元）']);
   }).sort((a, b) => byLocale(a['普通客人'], b['普通客人']));
   $('#normal-count').textContent = list.length + ' / ' + dataOf('normal').length + ' 种';
@@ -1839,7 +1844,7 @@ function buildGlobalIndex(){
     group: '客人', name: r['客人名字'],
     text: searchTextFor([r['客人名字'], r['类型'], r['所属版本'], r['出没地点'], r['喜好料理标签'], r['厌恶料理标签'], r['持有金']]),
     desc: r['类型'] + ' · ' + r['持有金'],
-    action: () => ryoteiNavigate(ryoteiHash('guests',{guest:r['客人名字']}))
+    action: () => ryoteiNavigate(ryoteiHash('guests',{guest:r['客人名字'],place:'all'}))
   }));
   dataOf('recipes').forEach((r) => globalIndex.push({
     group: '菜谱', name: r['菜品'],
