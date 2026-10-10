@@ -61,28 +61,30 @@ function ryoteiCloseFilters(){
 }
 function ryoteiUpdateFilters(tab){
   for (const toolbar of $$('#page-filters > .toolbar')) toolbar.hidden=toolbar.dataset.filterTab !== tab;
-  // 客人图鉴页没有筛选侧栏，“今晚开店”跟随标题行显示；配餐组放回侧栏顶部。
-  const group = ryoteiGroup(tab);
+  // 营业图鉴的人物页签没有筛选侧栏，“今晚开店”跟随标题行显示；备菜表页放回侧栏顶部。
+  const inHead = ['guests','normal'].includes(tab);
+  const planTab = ['details','drinkrecs','addons'].includes(tab);
   const context = $('#service-context');
-  const inHead = group === 'guests';
   const filterHost = $('#workbench-filters');
   if (context.parentElement !== (inHead ? $('#ryotei-head-tools') : filterHost)) {
     (inHead ? $('#ryotei-head-tools') : filterHost).insertBefore(context,inHead ? $('#section-nav') : $('#page-filters'));
   }
-  const hasFilters=group !== 'guests' && !!$('#page-filters > .toolbar:not([hidden])');
+  const hasFilters=!inHead && !!$('#page-filters > .toolbar:not([hidden])');
   $('#workbench-filters').hidden=!hasFilters;
   $('#filter-toggle').hidden=!hasFilters;
   $('#ryotei-workbench').classList.toggle('has-filters',hasFilters);
   if (!hasFilters) ryoteiCloseFilters();
   const aside=filterHost;
-  const visitors=group==='meals' && state.servicePlace !== 'all';
-  if (aside.dataset.place !== state.servicePlace || (visitors && aside.dataset.group !== group)) {
+  const visitors=planTab && state.servicePlace !== 'all';
+  // 人物页与备菜表页同组切换也要重置选客/标签分区，缓存键按页面形态区分。
+  const viewKey=(planTab ? 'plan' : 'cards') + ':' + (inHead ? 'head' : 'side');
+  if (aside.dataset.place !== state.servicePlace || (visitors && aside.dataset.viewKey !== viewKey)) {
     aside.dataset.place=state.servicePlace;
     aside.dataset.section=visitors ? 'visitors' : 'tags';
     $('.filter-content').scrollTop=0;
   }
   if (!visitors) aside.dataset.section='tags';
-  aside.dataset.group=group;
+  aside.dataset.viewKey=viewKey;
   const showVisitors=visitors && aside.dataset.section !== 'tags';
   $('#filter-sections').hidden=!visitors;
   $('#filter-visitors').hidden=!showVisitors;

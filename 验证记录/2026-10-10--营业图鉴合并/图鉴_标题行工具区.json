@@ -1,0 +1,31 @@
+{
+  "ctxParent": "ryotei-head-tools",
+  "ctxVisible": true,
+  "navParent": "ryotei-head-tools",
+  "tabs": [
+    "稀有/特殊客人",
+    "普通客人",
+    "备菜料理",
+    "推荐酒水",
+    "加料参考"
+  ],
+  "ctxBox": {
+    "left": 537.09375,
+    "right": 946.84375,
+    "top": 145.484375,
+    "bottom": 188.484375
+  },
+  "navBox": {
+    "left": 958.84375,
+    "right": 1397,
+    "top": 148.9375,
+    "bottom": 185.03125
+  },
+  "toolsBox": {
+    "left": 351,
+    "right": 1397,
+    "top": 145.484375,
+    "bottom": 188.484375
+  },
+  "label": "今晚开店"
+}

@@ -1,11 +1,11 @@
 /* 导航、营业地区与静态口味推荐；原始攻略数据保留供来源对照。 */
+// 营业图鉴合并原客人图鉴与配餐参考：人物页签看人，备菜表页按今晚开店看全部配菜。
 const RYOTEI_GROUPS = {
-  guests:{label:'客人图鉴',tabs:[['guests','稀有/特殊客人'],['normal','普通客人']]},
-  meals:{label:'配餐参考',tabs:[['details','料理'],['drinkrecs','酒水'],['addons','加料']]},
+  guests:{label:'营业图鉴',tabs:[['guests','稀有/特殊客人'],['normal','普通客人'],['details','备菜料理'],['drinkrecs','推荐酒水'],['addons','加料参考']]},
   items:{label:'物品图鉴',tabs:[['catalog','菜谱'],['ingredients','食材'],['beverages','酒水']]},
   reference:{label:'资料',tabs:[['new440','版本更新'],['guides','旧版攻略'],['sources','数据来源']]}
 };
-const ryoteiGroupLast = {guests:'guests',meals:'details',items:'catalog'};
+const ryoteiGroupLast = {guests:'guests',items:'catalog'};
 const RYOTEI_PLACES = unique(dataOf('guests').concat(dataOf('normal')).flatMap(row=>splitTags(row['出没地点']))).filter(name=>name !== '白玉楼');
 const RYOTEI_ITEM_PAGES = {
   recipe:{tab:'catalog',sheet:'recipes',key:'菜品',query:'catalogQuery',chips:'catalogChips',dlc:'catalogDlc'},
@@ -155,12 +155,12 @@ function updateRyoteiNavigation(tab){
     button.classList.toggle('active',active);
     if (active) button.setAttribute('aria-current','page');else button.removeAttribute('aria-current');
   });
-  $('#service-context').hidden = !['guests','meals'].includes(group);
+  $('#service-context').hidden = ['items','reference'].includes(group);
   $('#service-place').value = state.servicePlace;
-  updateRyoteiVisitors(group);
+  updateRyoteiVisitors();
   ryoteiUpdateFilters(tab);
 }
-function updateRyoteiVisitors(group=ryoteiGroup(state.tab)){
+function updateRyoteiVisitors(){
   const guests = dataOf('guests').filter(row=>ryoteiVisitsPlace(row));
   const normal = dataOf('normal').filter(row=>ryoteiVisitsPlace(row));
   $('#service-count').textContent = guests.length + ' 位稀客 · ' + normal.length + ' 种普通客人';
@@ -178,7 +178,8 @@ function updateRyoteiVisitors(group=ryoteiGroup(state.tab)){
   }
   const overview = $('#service-visitors');
   const wasHidden = overview.hidden;
-  overview.hidden = group !== 'meals' || state.servicePlace === 'all';
+  // 来客名簿只在备菜表页出现：人物页签的卡片网格本身就是该地点的来客名单。
+  overview.hidden = !['details','drinkrecs','addons'].includes(state.tab) || state.servicePlace === 'all';
   if (overview.hidden) return;
   if (wasHidden) overview.open = true;
   if (overview.dataset.place !== state.servicePlace) {

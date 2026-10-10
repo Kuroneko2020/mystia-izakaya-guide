@@ -37,7 +37,10 @@ const getFunction = (name,source = template) => {
 };
 const navigation = fs.existsSync(path.join(root,'脚本/ryotei_navigation.js')) ? read('脚本/ryotei_navigation.js') : '';
 assert.ok(navigation.includes('function ryoteiCaptureReading('),'返回必须保存表内滚动和已展开的阅读内容');
-assert.equal((template.match(/class="tab-btn primary-tab/g) || []).length,3,'顶栏仅保留三个主入口');
+assert.equal((template.match(/class="tab-btn primary-tab/g) || []).length,2,'顶栏收敛为营业图鉴与物品图鉴两个主入口');
+assert.ok(!template.includes('data-group="meals"'),'配餐参考已并入营业图鉴，顶栏不再单列');
+assert.ok(navigation.includes("guests:{label:'营业图鉴'"),'营业图鉴同时承载人物页签与备菜表页');
+assert.ok(navigation.includes("['details','备菜料理'],['drinkrecs','推荐酒水'],['addons','加料参考']"),'备菜三表留在营业图鉴组内');
 for (const tab of ['guests','details','catalog','ingredients','beverages','addons','drinkrecs','normal','new440','guides','sources']) {
   assert.ok(template.includes('id="panel-' + tab + '"'),'原页面必须仍可达: ' + tab);
 }
@@ -128,7 +131,7 @@ vm.runInNewContext(`
   assert.equal(parsed.place,'魔法森林','物品跳转保留当前营业地点');
   assert.equal(ryoteiParseRoute('#guests/' + encodeURIComponent('博丽灵梦')).guest,'博丽灵梦','旧人物链接兼容');
   assert.equal(ryoteiParseRoute('#ingredients?item=%E0%A4%A').tab,'ingredients','坏的参数编码不得使路由崩溃');
-  assert.equal(ryoteiParseRoute('#unknown').tab,'guests','非法页面回到客人图鉴');
+  assert.equal(ryoteiParseRoute('#unknown').tab,'guests','非法页面回到营业图鉴');
 `,{assert,URLSearchParams});
 vm.runInNewContext(`
   const state={servicePlace:'all',serviceGuest:'all'};

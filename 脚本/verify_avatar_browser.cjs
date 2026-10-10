@@ -9,7 +9,7 @@ const root = path.resolve(__dirname, '..');
 const baseline = process.argv.includes('--baseline');
 const outputDir = path.join(root, baseline
   ? '验证记录/2026-10-10--侧栏布局与全量推荐'
-  : '验证记录/2026-10-10--图鉴地点联动与成品版本化');
+  : '验证记录/2026-10-10--营业图鉴合并');
 const file = baseline
   ? path.join(root, '验证记录/2026-10-10--侧栏布局与全量推荐/修复前.html')
   : liveOutput();
@@ -35,6 +35,11 @@ async function main() {
   const errors = [];
   const page = await browser.newPage({viewport:{width:1440,height:1000}, reducedMotion:'no-preference'});
   page.on('pageerror', error => errors.push(error.message));
+  // 营业图鉴合并后，备菜表页是营业组的页签；从其他组进入需先回营业组再点页签。
+  const openBusiness = async tab => {
+    await page.locator('button.primary-tab[data-group="guests"]').click();
+    await page.locator(`[data-section-tab="${tab}"]`).click();
+  };
   try {
     const start = Date.now();
     await page.goto(pathToFileURL(file).href);
@@ -43,10 +48,12 @@ async function main() {
     const profiler = process.argv.includes('--profile') ? await page.context().newCDPSession(page) : null;
     if (profiler) {await profiler.send('Profiler.enable');await profiler.send('Profiler.start');}
     const metrics = [];
+    // 合并后 details 是营业组内页签：采样组内切重表、切回人物卡片、跨组到物品图鉴与返回。
     for (let round=0; round<4; round++) {
-      for (const group of ['meals','items','guests']) {
-        metrics.push({group, round, ...await measure(page, `button.primary-tab[data-group="${group}"]`)});
-      }
+      metrics.push({tab:'details', round, ...await measure(page, '[data-section-tab="details"]')});
+      metrics.push({tab:'guests', round, ...await measure(page, '[data-section-tab="guests"]')});
+      metrics.push({tab:'items', round, ...await measure(page, 'button.primary-tab[data-group="items"]')});
+      metrics.push({tab:'guests-primary', round, ...await measure(page, 'button.primary-tab[data-group="guests"]')});
     }
     if (profiler) {
       const {profile}=await profiler.send('Profiler.stop');
@@ -56,7 +63,7 @@ async function main() {
       fs.writeFileSync(path.join(outputDir,baseline?'CPU_修复前.json':'CPU_修复后.json'),JSON.stringify(top,null,2));
       console.log('CPU '+JSON.stringify(top));
     }
-    await page.locator('button.primary-tab[data-group="meals"]').click();
+    await openBusiness('details');
     const summary = await page.evaluate(() => ({
       guestOptions:Array.from(document.querySelector('#detail-guest-filter').options).map(x=>({value:x.value,label:x.textContent})),
       tags:Array.from(document.querySelectorAll('[data-filter-tab="details"] .tag.suggest,#panel-details .tag.suggest')).map(x=>x.dataset.tag),
@@ -99,7 +106,7 @@ async function main() {
     await page.locator('#detail-guest-filter').selectOption('妖怪兔');
     assert.equal(await page.locator('#detail-table-wrap .data-row').count(),Math.min(50,rabbitCount));
     await page.locator('#detail-guest-filter').selectOption('all');
-    await page.screenshot({path:path.join(outputDir,'配餐_全部地点.png')});
+    await page.screenshot({path:path.join(outputDir,'备菜_全部地点.png')});
     await page.locator('#service-place').selectOption('妖怪兽道');
     await page.waitForFunction(()=>document.querySelector('#service-visitors').open);
     assert.equal(await page.locator('#detail-guest-filter').isVisible(),false);
@@ -110,7 +117,7 @@ async function main() {
     assert.match(page.url(),/#details/);
     await page.locator('#visitor-normal [data-plan-guest="妖怪兔"]').click();
     assert.equal(await page.locator('#detail-table-wrap .data-row').count(),Math.min(50,rabbitCount));
-    await page.screenshot({path:path.join(outputDir,'配餐_地点与头像选客.png')});
+    await page.screenshot({path:path.join(outputDir,'备菜_地点与头像选客.png')});
     await page.locator('[data-section-tab="drinkrecs"]').click();
     assert.match(await page.locator('#drinkrec-table-wrap').innerText(),/喜好|原表/);
     const drinkPrices=await page.locator('#drinkrec-table-wrap .price-value').allTextContents();
@@ -159,13 +166,13 @@ async function main() {
     assert.equal(await page.locator('#catalog-search').inputValue(),'饭团');
     assert.equal(await page.locator('#catalog-table-wrap .data-row').count(),4,'缓存应与最近搜索一致');
     await page.locator('#catalog-search').fill('');
-    await page.locator('button.primary-tab[data-group="meals"]').click();
+    await openBusiness('details');
     await page.locator('#service-place').selectOption('魔法森林');
     await page.locator('button.primary-tab[data-group="items"]').click();
     const cachedPlace=await page.locator('#catalog-table-wrap .data-row .col-item a').first().getAttribute('href');
     assert.equal(new URLSearchParams(cachedPlace.split('?')[1]).get('place'),'魔法森林','缓存里的条目链接必须携带当前地点');
     await page.locator('#catalog-table-wrap .data-row .col-item a').first().click();
-    await page.locator('button.primary-tab[data-group="meals"]').click();
+    await page.locator('button.primary-tab[data-group="guests"]').click();
     assert.equal(await page.locator('#service-place').inputValue(),'魔法森林','条目跳转不能恢复过时地点');
     await page.locator('#service-place').selectOption('妖怪兽道');
     await page.locator('button.primary-tab[data-group="items"]').click();
@@ -182,8 +189,7 @@ async function main() {
     });
     for (const audit of tagAudit) assert.deepEqual(audit.actual,audit.expected,`${audit.sheet} 标签不得截断`);
     fs.writeFileSync(path.join(outputDir,'浏览器_标签覆盖.json'),JSON.stringify(tagAudit,null,2));
-    await page.locator('button.primary-tab[data-group="meals"]').click();
-    await page.locator('[data-section-tab="details"]').click();
+    await openBusiness('details');
     const places=await page.locator('#service-place option').evaluateAll(options=>options.map(x=>x.value).filter(x=>x!=='all'));
     const regions=[];
     for (const place of places) {
@@ -229,7 +235,7 @@ async function main() {
     assert.equal(await page.locator('[data-filter-section="tags"]').getAttribute('aria-pressed'),'true','后退恢复侧栏标签面板');
     assert.ok(await page.locator('.filter-content').evaluate(el=>el.scrollTop)>0,'后退恢复侧栏阅读位置');
     await page.setViewportSize({width:1440,height:1000});
-    await page.locator('button.primary-tab[data-group="guests"]').click();
+    await page.locator('[data-section-tab="guests"]').click();
     assert.equal(await page.locator('#workbench-filters').isVisible(),false);
     await page.locator('#service-place').selectOption('all');
     assert.equal(await page.locator('#guest-grid .guest-card').count(),59,'全部地点显示完整名簿');
@@ -246,7 +252,7 @@ async function main() {
     assert.equal(headTools.ctxVisible,true,'图鉴页必须能直接看到今晚开店选框');
     assert.equal(headTools.ctxParent,'ryotei-head-tools','图鉴页的今晚开店位于标题行工具区');
     assert.equal(headTools.label,'今晚开店');
-    assert.deepEqual(headTools.tabs,['稀有/特殊客人','普通客人'],'图鉴页签使用稀有/特殊客人');
+    assert.deepEqual(headTools.tabs,['稀有/特殊客人','普通客人','备菜料理','推荐酒水','加料参考'],'营业图鉴页签包含人物与备菜表');
     assert.ok(headTools.ctxBox.right<=headTools.navBox.left+1,'今晚开店选框在分类页签左侧');
     assert.ok(headTools.navBox.right>=headTools.toolsBox.right-1,'分类页签整体靠右对齐');
     assert.ok(headTools.ctxBox.top<headTools.toolsBox.bottom,'选框与页签同排');
@@ -283,9 +289,7 @@ async function main() {
     assert.ok(!/前期|后期/.test(await page.locator('#detail-body').innerText()));
     await page.screenshot({path:path.join(outputDir,'人物详情_全量推荐.png')});
     await page.locator('#detail-close').click();
-    await page.locator('button.primary-tab[data-group="meals"]').click();
     await page.locator('#service-place').selectOption('魔法森林');
-    await page.locator('button.primary-tab[data-group="guests"]').click();
     await page.locator('[data-section-tab="normal"]').click();
     // 妖怪兔出没于魔法森林；顺带确认普通客人页签随地点收缩后仍能找到它。
     const forestNormal=normalRows.filter(row=>String(row['出没地点']).split('、').includes('魔法森林')).length;
@@ -301,7 +305,6 @@ async function main() {
     assert.match(await page.locator('#detail-count').innerText(),new RegExp('^'+rabbitCount+' /'));
     await page.locator('#service-place').selectOption('all');
     await page.locator('button.primary-tab[data-group="items"]').click();
-    await page.locator('[data-section-tab="catalog"]').click();
     await page.locator('[data-filter-tab="catalog"] [data-tag="西式"]').click();
     await page.locator('#theme-toggle').click();
     await page.setViewportSize({width:390,height:844});
@@ -313,11 +316,12 @@ async function main() {
     await page.locator('#filter-close').click();
     assert.equal(await page.locator('#catalog-search').isVisible(),false);
     await page.locator('button.primary-tab[data-group="guests"]').click();
-    await page.locator('button.primary-tab[data-group="meals"]').click();
+    await page.locator('[data-section-tab="normal"]').click();
+    await page.locator('[data-section-tab="details"]').click();
     await page.locator('#filter-toggle').click();
     await page.goBack();
     await page.waitForFunction(()=>!document.querySelector('#panel-normal').hidden);
-    assert.equal(await page.locator('#filter-backdrop').isVisible(),false,'退回图鉴无遗留抽屉遮罩');
+    assert.equal(await page.locator('#filter-backdrop').isVisible(),false,'退回人物页签无遗留抽屉遮罩');
     await page.locator('button.primary-tab[data-group="items"]').click();
     await page.locator('#filter-toggle').click();
     await page.setViewportSize({width:1440,height:1000});
