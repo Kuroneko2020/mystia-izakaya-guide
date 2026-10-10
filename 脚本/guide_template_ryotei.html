@@ -151,10 +151,26 @@ html.theme-anim *,html.theme-anim *::before,html.theme-anim *::after{
   border-bottom:1px solid var(--border);
   animation:header-in .55s var(--ease) backwards;
 }
-/* 主题切换：View Transitions 圆形扩散（从切换按钮位置展开） */
-::view-transition-old(root){animation:none}
-::view-transition-new(root){animation:theme-reveal .5s var(--ease) forwards}
-@keyframes theme-reveal{from{clip-path:circle(0px at var(--tv-x,92%) var(--tv-y,4%))}to{clip-path:circle(150vmax at var(--tv-x,92%) var(--tv-y,4%))}}
+/* 主题切换：View Transitions 圆形扩散（从切换按钮位置展开，JS 驱动缓入缓出）。
+   新层 clip 由 applyTheme 用 Web Animations 播放；此处只关掉默认交叉淡入，保证硬底新色盖旧色。 */
+::view-transition-old(root),::view-transition-new(root){animation:none;mix-blend-mode:normal}
+/* 黑白交接边缘的金色羽化光环：与扩散同长同曲线，从点击处同步扩散。 */
+.theme-ripple{
+  position:fixed;z-index:99;pointer-events:none;
+  width:calc(var(--tv-r) * 2);height:calc(var(--tv-r) * 2);
+  margin:calc(var(--tv-r) * -1) 0 0 calc(var(--tv-r) * -1);
+  border-radius:50%;
+  border:2px solid #e7c794cc;
+  box-shadow:0 0 26px 8px #ffdf9e59,inset 0 0 34px 10px #ffdf9e40;
+  opacity:0;
+  animation:theme-ripple .64s cubic-bezier(.65,0,.35,1) forwards;
+}
+@keyframes theme-ripple{
+  0%{transform:scale(0);opacity:0}
+  14%{opacity:.85}
+  62%{opacity:.5}
+  100%{transform:scale(1);opacity:0}
+}
 .site-header::after{
   content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;pointer-events:none;
   background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--accent) 42%,transparent) 18%,color-mix(in srgb,var(--accent) 42%,transparent) 82%,transparent);
@@ -826,7 +842,6 @@ table.data-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:
 
 <div class="detail-backdrop" id="detail-backdrop" hidden></div>
 <aside class="detail-panel" id="detail-panel" role="dialog" aria-modal="true" aria-label="客人详情" hidden>
-  <div class="detail-watermark" id="detail-watermark" aria-hidden="true"></div>
   <div class="detail-head">
     <button id="detail-close" class="icon-btn" type="button" aria-label="关闭详情">
       <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"></path></svg>
@@ -1102,9 +1117,29 @@ function setThemeDom(theme){
     }
   }
 }
-function applyTheme(theme){
-  // 直接切换配色，避免全页快照在大表格和快速调整窗口时超时。
-  setThemeDom(theme);
+function applyTheme(theme, event){
+  // 只有用户点击切换时才走扩散动画；初次加载直切，减少动态效果时也直切。
+  const canReveal = !!event && !REDUCED_MOTION && typeof document.startViewTransition === 'function';
+  if (!canReveal) { setThemeDom(theme); return; }
+  const x = Number.isFinite(event.clientX) ? event.clientX : innerWidth - 56;
+  const y = Number.isFinite(event.clientY) ? event.clientY : 44;
+  const radius = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y)) + 48;
+  const transition = document.startViewTransition(() => setThemeDom(theme));
+  transition.ready.then(() => {
+    // 新配色从点击处圆形扩散，对称缓入缓出；旧层静止作为底色。
+    root.animate(
+      { clipPath: ['circle(0px at ' + x + 'px ' + y + 'px)', 'circle(' + radius + 'px at ' + x + 'px ' + y + 'px)'] },
+      { duration: 640, easing: 'cubic-bezier(.65,0,.35,1)', pseudoElement: '::view-transition-new(root)' }
+    );
+    // 黑白交接边缘：与扩散同曲线同步的金色羽化光环。
+    const ring = document.createElement('div');
+    ring.className = 'theme-ripple';
+    ring.style.left = x + 'px';
+    ring.style.top = y + 'px';
+    ring.style.setProperty('--tv-r', radius + 'px');
+    document.body.appendChild(ring);
+    ring.addEventListener('animationend', () => ring.remove());
+  }).catch(() => {});
 }
 
 /* ---------------- 路由 ---------------- */
@@ -1186,7 +1221,7 @@ function setPanelOpen(open){
     $$('.site-header, main, .site-footer').forEach((el) => { el.inert = false; });
     setPanelOpen.hideTimer = window.setTimeout(() => {
       if (!panel.classList.contains('open')) { panel.hidden = true; backdrop.hidden = true; }
-    }, 150);
+    }, 240);
   }
 }
 function openGuest(name, updateHash = true){

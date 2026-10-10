@@ -420,3 +420,44 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 .detail-handnote{margin-bottom:12px}
 .detail-scroll .table-wrap{max-height:none}
 @media(prefers-reduced-motion:reduce){.detail-scroll{scroll-behavior:auto}}
+
+/* ---------------- 详情表格与面板动效微调（用户反馈轮） ---------------- */
+/* 表头粘顶：滚动时表头常驻，行从其下穿过，不再有残行悬在表头上方。 */
+.detail-scroll .data-table th{position:sticky;top:0}
+.detail-scroll .data-table td:first-child{background:var(--bg-soft)}
+/* 列宽重分配：窄列收缩，空间让给主料与标签，消除大片空白。 */
+.detail-scroll .data-table{table-layout:fixed;width:100%}
+#guest-meals .data-table th:nth-child(1),#guest-meals .data-table td:nth-child(1){width:150px}
+#guest-meals .data-table th:nth-child(2),#guest-meals .data-table td:nth-child(2){width:62px}
+#guest-meals .data-table th:nth-child(3),#guest-meals .data-table td:nth-child(3){width:78px}
+#guest-meals .data-table th:nth-child(4),#guest-meals .data-table td:nth-child(4){width:70px}
+#guest-meals .data-table th:nth-child(6),#guest-meals .data-table td:nth-child(6){width:186px}
+#guest-meals .data-table th:nth-child(7),#guest-meals .data-table td:nth-child(7){width:168px}
+#guest-meals .data-table th:nth-child(8),#guest-meals .data-table td:nth-child(8){width:62px}
+#guest-drinks .data-table th:nth-child(1),#guest-drinks .data-table td:nth-child(1){width:168px}
+#guest-drinks .data-table th:nth-child(2),#guest-drinks .data-table td:nth-child(2){width:80px}
+#guest-drinks .data-table th:nth-child(3),#guest-drinks .data-table td:nth-child(3){width:64px}
+#guest-drinks .data-table th:nth-child(5),#guest-drinks .data-table td:nth-child(5){width:200px}
+.detail-scroll .data-table td{word-break:break-word}
+/* 竖排名字水印：头部加高后重新定位到其下方，保持淡淡的装饰。 */
+/* 弹出缓入缓出：入场缓出更灵动，退场稍快缓入；减少动态时直切。 */
+.detail-panel{transition:transform .22s cubic-bezier(.55,.06,.68,.19)}
+.detail-panel.open{transition:transform .36s cubic-bezier(.22,1,.36,1)}
+.detail-backdrop{transition:opacity .24s ease}
+@media(prefers-reduced-motion:reduce){.detail-panel,.detail-backdrop{transition:none}}
+/* 详情表格无横向滚动：首列不必独立粘滞背景，消除菜品列竖色带；斑马纹下首列跟随行色。 */
+.detail-scroll .data-table td:first-child{position:static;background:transparent}
+.detail-scroll .data-table tr.data-row.alternate td:first-child{background:transparent}
+.detail-scroll .data-table th:first-child{background:#e9d8b7}
+/* 水印落在列表滚动区内侧（工具栏之下、行背景之间透出）。 */
+
+/* 竖排名字水印：挂在滚动内容层，随列表滚动、叠在行背景之上形成纸纹水印（z0 定位层高于非定位行）。 */
+.detail-scroll{position:relative}
+.detail-scroll::before{
+  content:attr(data-name);position:absolute;top:10px;right:6px;z-index:0;
+  writing-mode:vertical-rl;text-orientation:upright;
+  font-family:var(--display-font);font-size:clamp(88px,13vh,140px);line-height:1;
+  color:var(--text);opacity:.055;letter-spacing:.05em;
+  pointer-events:none;user-select:none;white-space:nowrap;
+}
+@media(max-width:620px){.detail-scroll::before{display:none}}

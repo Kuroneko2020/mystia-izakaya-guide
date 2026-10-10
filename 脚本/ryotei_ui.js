@@ -124,7 +124,6 @@ function renderRyoteiGuestDetail(guest){
   seal.classList.toggle('is-ava',!!avatar);
   seal.innerHTML = avatar ? '<img src="' + avatar + '" alt="">' : esc(name.charAt(0));
   seal.style.setProperty('--pc',guestColor(name));
-  $('#detail-watermark').textContent = name;
   // 口味常驻头部：玩家打开详情第一眼要的就是来访地区与喜好/厌恶。
   const placeRow = '<div class="taste-row"><span class="tag-label">来访</span><div class="tag-wrap">' +
     (name === '因幡帝' ? '<span class="muted">全部地区（随机出现）</span>' : ryoteiLocationLinks(guest['出没地点'])) + '</div></div>';
@@ -144,7 +143,7 @@ function renderDetailPane(guest){
   const body = $('#detail-body');
   const pane = (id,toolbar,scroll) => '<div class="detail-pane" id="' + id + '">' +
     (toolbar ? '<div class="detail-toolbar">' + toolbar + '</div>' : '') +
-    '<div class="detail-scroll">' + scroll + '</div></div>';
+    '<div class="detail-scroll" data-name="' + escAttr(state.openGuest) + '">' + scroll + '</div></div>';
   let html = '';
   if (state.detailTab === 'meals') {
     const list = ryoteiDetailMealList(name);
@@ -152,8 +151,8 @@ function renderDetailPane(guest){
     const sortOpts = [['price-desc','价格从高到低'],['price-asc','价格从低到高'],['match-desc','命中喜好优先'],['match-asc','命中喜好从少到多'],['level-desc','等级从高到低'],['level-asc','等级从低到高']]
       .map(([v,l])=>'<option value="'+v+'"'+((state.detailMealSort&&state.detailMealSort.mode)===v?' selected':'')+'>'+l+'</option>').join('');
     const toolbar = '<input id="detail-meal-search" type="search" placeholder="搜索菜名、主料或标签" aria-label="搜索推荐料理" value="' + escAttr(state.detailMealQuery || '') + '">' +
-      '<select id="detail-meal-sort" aria-label="推荐料理排序">' + sortOpts + '</select>' + chips +
-      '<span id="detail-meal-count" class="detail-count">' + list.length + ' 道</span>';
+      '<select id="detail-meal-sort" aria-label="推荐料理排序">' + sortOpts + '</select>' +
+      '<span id="detail-meal-count" class="detail-count">' + list.length + ' 道</span>' + chips;
     html = pane('guest-meals',toolbar,ryoteiDetailMealTable(name,list));
   } else if (state.detailTab === 'drinks') {
     const list = ryoteiDetailDrinkList(name);
@@ -161,8 +160,8 @@ function renderDetailPane(guest){
     const sortOpts = [['price-desc','价格从高到低'],['price-asc','价格从低到高'],['match-desc','命中喜好优先'],['match-asc','命中喜好从少到多'],['level-desc','等级从高到低'],['level-asc','等级从低到高']]
       .map(([v,l])=>'<option value="'+v+'"'+(state.detailDrinkSort===v?' selected':'')+'>'+l+'</option>').join('');
     const toolbar = '<input id="detail-drink-search" type="search" placeholder="搜索酒水或标签" aria-label="搜索推荐酒水" value="' + escAttr(state.detailDrinkQuery || '') + '">' +
-      '<select id="detail-drink-sort" aria-label="推荐酒水排序">' + sortOpts + '</select>' + chips +
-      '<span id="detail-drink-count" class="detail-count">' + list.length + ' 款</span>';
+      '<select id="detail-drink-sort" aria-label="推荐酒水排序">' + sortOpts + '</select>' +
+      '<span id="detail-drink-count" class="detail-count">' + list.length + ' 款</span>' + chips;
     html = pane('guest-drinks',toolbar,ryoteiDetailDrinkTable(name,list));
   } else if (state.detailTab === 'addons') {
     html = pane('guest-addons','',
