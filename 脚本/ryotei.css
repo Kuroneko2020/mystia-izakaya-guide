@@ -466,3 +466,7 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
   pointer-events:none;user-select:none;white-space:nowrap;
 }
 @media(max-width:620px){.detail-scroll::before{display:none}}
+
+/* 排序箭头改为列头右侧角标：窄列(命中数/等级等)文字+箭头挤不下会溢出面板被裁，角标不占文字流。 */
+.detail-scroll .data-table th{position:sticky}
+.detail-scroll .data-table .sort-mark{position:absolute;right:4px;top:50%;transform:translateY(-50%);margin:0;animation:none}

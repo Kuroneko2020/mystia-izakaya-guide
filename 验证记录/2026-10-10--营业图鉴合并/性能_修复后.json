@@ -1,135 +1,135 @@
 {
   "mode": "fixed",
   "browser": "148.0.3967.42",
-  "loadMs": 323,
+  "loadMs": 336,
   "metrics": [
     {
       "tab": "details",
       "round": 0,
-      "handlerMs": 30.4,
-      "nextPaintMs": 83.1,
+      "handlerMs": 36.1,
+      "nextPaintMs": 101.3,
       "remainingAnimationMs": 0,
-      "settledMs": 130.6
+      "settledMs": 139.3
     },
     {
       "tab": "guests",
       "round": 0,
-      "handlerMs": 2.4,
-      "nextPaintMs": 65.8,
-      "remainingAnimationMs": 0,
-      "settledMs": 92.1
-    },
-    {
-      "tab": "items",
-      "round": 0,
-      "handlerMs": 9.4,
-      "nextPaintMs": 62.5,
-      "remainingAnimationMs": 0,
-      "settledMs": 93.5
-    },
-    {
-      "tab": "guests-primary",
-      "round": 0,
-      "handlerMs": 3.4,
-      "nextPaintMs": 62.6,
-      "remainingAnimationMs": 0,
-      "settledMs": 93.7
-    },
-    {
-      "tab": "details",
-      "round": 1,
-      "handlerMs": 2.7,
-      "nextPaintMs": 62.6,
-      "remainingAnimationMs": 0,
-      "settledMs": 93.9
-    },
-    {
-      "tab": "guests",
-      "round": 1,
-      "handlerMs": 2.7,
-      "nextPaintMs": 62.9,
-      "remainingAnimationMs": 0,
-      "settledMs": 94.5
-    },
-    {
-      "tab": "items",
-      "round": 1,
-      "handlerMs": 2.2,
-      "nextPaintMs": 62.2,
-      "remainingAnimationMs": 0,
-      "settledMs": 93.5
-    },
-    {
-      "tab": "guests-primary",
-      "round": 1,
-      "handlerMs": 3,
-      "nextPaintMs": 62.5,
-      "remainingAnimationMs": 0,
-      "settledMs": 93.9
-    },
-    {
-      "tab": "details",
-      "round": 2,
-      "handlerMs": 3.6,
-      "nextPaintMs": 62.5,
-      "remainingAnimationMs": 0,
-      "settledMs": 93.5
-    },
-    {
-      "tab": "guests",
-      "round": 2,
-      "handlerMs": 2.6,
-      "nextPaintMs": 62.7,
-      "remainingAnimationMs": 0,
-      "settledMs": 93.8
-    },
-    {
-      "tab": "items",
-      "round": 2,
-      "handlerMs": 2.4,
-      "nextPaintMs": 61.8,
+      "handlerMs": 3.2,
+      "nextPaintMs": 61.9,
       "remainingAnimationMs": 0,
       "settledMs": 93.3
     },
     {
+      "tab": "items",
+      "round": 0,
+      "handlerMs": 9.6,
+      "nextPaintMs": 62.5,
+      "remainingAnimationMs": 0,
+      "settledMs": 93.8
+    },
+    {
       "tab": "guests-primary",
+      "round": 0,
+      "handlerMs": 4.2,
+      "nextPaintMs": 62.7,
+      "remainingAnimationMs": 0,
+      "settledMs": 93.9
+    },
+    {
+      "tab": "details",
+      "round": 1,
+      "handlerMs": 4.6,
+      "nextPaintMs": 62.5,
+      "remainingAnimationMs": 0,
+      "settledMs": 124.6
+    },
+    {
+      "tab": "guests",
+      "round": 1,
+      "handlerMs": 2.6,
+      "nextPaintMs": 63,
+      "remainingAnimationMs": 0,
+      "settledMs": 94.2
+    },
+    {
+      "tab": "items",
+      "round": 1,
+      "handlerMs": 2.4,
+      "nextPaintMs": 61.7,
+      "remainingAnimationMs": 0,
+      "settledMs": 93.5
+    },
+    {
+      "tab": "guests-primary",
+      "round": 1,
+      "handlerMs": 2.7,
+      "nextPaintMs": 67.8,
+      "remainingAnimationMs": 0,
+      "settledMs": 93.5
+    },
+    {
+      "tab": "details",
+      "round": 2,
+      "handlerMs": 2.9,
+      "nextPaintMs": 68.4,
+      "remainingAnimationMs": 0,
+      "settledMs": 93.5
+    },
+    {
+      "tab": "guests",
       "round": 2,
       "handlerMs": 2.6,
+      "nextPaintMs": 63.3,
+      "remainingAnimationMs": 0,
+      "settledMs": 93.5
+    },
+    {
+      "tab": "items",
+      "round": 2,
+      "handlerMs": 2.5,
+      "nextPaintMs": 62.3,
+      "remainingAnimationMs": 0,
+      "settledMs": 93.9
+    },
+    {
+      "tab": "guests-primary",
+      "round": 2,
+      "handlerMs": 2.4,
       "nextPaintMs": 62.6,
       "remainingAnimationMs": 0,
-      "settledMs": 94.3
+      "settledMs": 93.9
     },
     {
       "tab": "details",
       "round": 3,
-      "handlerMs": 3.3,
-      "nextPaintMs": 65.8,
+      "handlerMs": 2.3,
+      "nextPaintMs": 62.7,
       "remainingAnimationMs": 0,
-      "settledMs": 93.6
+      "settledMs": 94
     },
     {
       "tab": "guests",
       "round": 3,
-      "handlerMs": 4,
-      "nextPaintMs": 61.3,
+      "handlerMs": 2.6,
+      "nextPaintMs": 62.3,
       "remainingAnimationMs": 0,
-      "settledMs": 92.6
+      "settledMs": 93.7
     },
     {
       "tab": "items",
       "round": 3,
-      "handlerMs": 4.1,
-      "nextPaintMs": 61.7,
+      "handlerMs": 2.4,
+      "nextPaintMs": 61.4,
       "remainingAnimationMs": 0,
-      "settledMs": 92.9
+      "settledMs": 92.5
     },
     {
       "tab": "guests-primary",
       "round": 3,
-      "handlerMs": 2.9,
+      "handlerMs": 2.7,
       "nextPaintMs": 62.8,
       "remainingAnimationMs": 0,
-      "settledMs": 93.9
+      "settledMs": 101.3
     }
   ],
   "summary": {
