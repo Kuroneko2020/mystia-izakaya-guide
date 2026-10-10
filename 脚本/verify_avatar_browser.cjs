@@ -283,7 +283,7 @@ async function main() {
     await page.locator('#guest-grid [data-guest="博丽灵梦"]').click();
     await page.waitForFunction(()=>document.querySelector('#detail-panel').classList.contains('open'));
     const detailBounds=await page.locator('#detail-panel').boundingBox();
-    assert.ok(detailBounds.width>=1100,'详情扩展到左侧');
+    assert.ok(detailBounds.width>=940,'详情面板缩窄到 960 档且占满内容');
     assert.equal(await page.locator('#detail-body .pbar,#detail-body .pbar-cell').count(),0);
     assert.equal(await page.locator('#guest-meals .data-row').count(),countFor(new Set(['博丽灵梦'])),'详情包含全部推荐料理');
     assert.ok(!/前期|后期/.test(await page.locator('#detail-body').innerText()));
@@ -312,6 +312,16 @@ async function main() {
     }
     await page.locator('#detail-tabs [data-detail-tab="meals"]').click();
     assert.equal(await page.locator('#guest-meals .data-row').count(),mealTotal,'切回料理页签保持列表');
+    // 列头排序：默认价格从高到低；点同列表头在升降间切换，箭头随状态显示。
+    const priceAt = async i => parseFloat(await page.locator('#guest-meals .data-row .price-value').nth(i).textContent());
+    assert.ok(await priceAt(0) >= await priceAt(1),'详情列表默认价格降序');
+    assert.equal(await page.locator('#detail-meal-sort,#detail-drink-sort').count(),0,'排序下拉已移除');
+    await page.locator('#guest-meals th[data-sort="价格"]').click();
+    assert.match(await page.locator('#guest-meals th[data-sort="价格"]').innerText(),/▲/,'同列再点切升序');
+    assert.ok(await priceAt(0) <= await priceAt(1),'升序后价格递增');
+    await page.locator('#guest-meals th[data-sort="价格"]').click();
+    assert.match(await page.locator('#guest-meals th[data-sort="价格"]').innerText(),/▼/,'再点回降序');
+    assert.ok(await priceAt(0) >= await priceAt(1),'降序恢复');
     await page.screenshot({path:path.join(outputDir,'人物详情_全量推荐.png')});
     await page.locator('#detail-close').click();
     await page.locator('#service-place').selectOption('魔法森林');

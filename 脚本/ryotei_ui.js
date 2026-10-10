@@ -148,19 +148,14 @@ function renderDetailPane(guest){
   if (state.detailTab === 'meals') {
     const list = ryoteiDetailMealList(name);
     const chips = ryoteiDetailChipBar('meal',name);
-    const sortOpts = [['price-desc','价格从高到低'],['price-asc','价格从低到高'],['match-desc','命中喜好优先'],['match-asc','命中喜好从少到多'],['level-desc','等级从高到低'],['level-asc','等级从低到高']]
-      .map(([v,l])=>'<option value="'+v+'"'+((state.detailMealSort&&state.detailMealSort.mode)===v?' selected':'')+'>'+l+'</option>').join('');
+    // 排序在表头点击切换（新列默认降序、同列再点切换），默认价格从高到低；不再使用下拉。
     const toolbar = '<input id="detail-meal-search" type="search" placeholder="搜索菜名、主料或标签" aria-label="搜索推荐料理" value="' + escAttr(state.detailMealQuery || '') + '">' +
-      '<select id="detail-meal-sort" aria-label="推荐料理排序">' + sortOpts + '</select>' +
       '<span id="detail-meal-count" class="detail-count">' + list.length + ' 道</span>' + chips;
     html = pane('guest-meals',toolbar,ryoteiDetailMealTable(name,list));
   } else if (state.detailTab === 'drinks') {
     const list = ryoteiDetailDrinkList(name);
     const chips = ryoteiDetailChipBar('drink',name);
-    const sortOpts = [['price-desc','价格从高到低'],['price-asc','价格从低到高'],['match-desc','命中喜好优先'],['match-asc','命中喜好从少到多'],['level-desc','等级从高到低'],['level-asc','等级从低到高']]
-      .map(([v,l])=>'<option value="'+v+'"'+(state.detailDrinkSort===v?' selected':'')+'>'+l+'</option>').join('');
     const toolbar = '<input id="detail-drink-search" type="search" placeholder="搜索酒水或标签" aria-label="搜索推荐酒水" value="' + escAttr(state.detailDrinkQuery || '') + '">' +
-      '<select id="detail-drink-sort" aria-label="推荐酒水排序">' + sortOpts + '</select>' +
       '<span id="detail-drink-count" class="detail-count">' + list.length + ' 款</span>' + chips;
     html = pane('guest-drinks',toolbar,ryoteiDetailDrinkTable(name,list));
   } else if (state.detailTab === 'addons') {
@@ -192,9 +187,8 @@ function ryoteiDetailMealList(name){
     if (!matchesTagChips(row, state.detailMealChips || [], ['菜品标签'])) return false;
     return matchesRowQuery(row, q, ['菜品','等级','主料','菜品标签','命中喜好','解锁来源']);
   });
-  const mode = (state.detailMealSort && state.detailMealSort.mode) || 'price-desc';
-  const key = mode.startsWith('price') ? '价格' : mode.startsWith('match') ? '命中数' : '等级';
-  return sortObjects(list, key, mode.endsWith('asc') ? 1 : -1);
+  const sort = state.detailMealSort || { key: '价格', dir: -1 };
+  return sortObjects(list, sort.key, sort.dir);
 }
 function ryoteiDetailDrinkList(name){
   const q = String(state.detailDrinkQuery || '').trim().toLowerCase();
@@ -203,7 +197,8 @@ function ryoteiDetailDrinkList(name){
     if (!matchesTagChips(row, state.detailDrinkChips || [], ['标签'])) return false;
     return matchesRowQuery(row, q, ['酒水','标签','命中喜好','原始推荐']);
   });
-  return drinkSortValue(list, state.detailDrinkSort || 'price-desc');
+  const sort = state.detailDrinkSort || { key: '价格', dir: -1 };
+  return sortObjects(list, sort.key, sort.dir);
 }
 function ryoteiDetailChipBar(kind,name){
   const chipsKey = kind === 'meal' ? 'detailMealChips' : 'detailDrinkChips';
@@ -225,12 +220,13 @@ function ryoteiDetailMealTable(name,list){
       ? '<div class="empty-state">没有匹配的推荐料理，试试清空搜索或标签。</div>'
       : '<div class="empty-state">暂无推荐菜谱明细。</div>';
   }
-  // 版本列与“加料建议”整列移除：每行展开都只有同一句生成文案，没有阅读价值。
+  // 版本列与“加料建议”整列移除；价格/命中数/等级列头可点击切换排序。
   const columns = [
-    { key: '菜品', label: '菜品' }, { key: '等级', label: '等级', num: true, level: true }, { key: '价格', label: '价格', num: true },
+    { key: '菜品', label: '菜品' }, { key: '等级', label: '等级', num: true, level: true, sortable: true, sortKey: 'detailMealSort' },
+    { key: '价格', label: '价格', num: true, sortable: true, sortKey: 'detailMealSort' },
     { key: '厨具', label: '厨具' }, { key: '主料', label: '主料' },
     { key: '菜品标签', label: '菜品标签', tags: true }, { key: '命中喜好', label: '命中喜好', tags: true, tagKind: 'good' },
-    { key: '命中数', label: '命中数', num: true }
+    { key: '命中数', label: '命中数', num: true, sortable: true, sortKey: 'detailMealSort' }
   ];
   return makeTable(columns, list);
 }
@@ -240,8 +236,11 @@ function ryoteiDetailDrinkTable(name,list){
       ? '<div class="empty-state">没有匹配的推荐酒水，试试清空搜索或标签。</div>'
       : '<span class="muted">暂无推荐酒水。</span>';
   }
+  // 补上命中数列，与料理表对称；价格/等级/命中数可排序。
   const columns = [
-    { key: '酒水', label: '酒水' }, { key: '价格', label: '价格', num: true }, { key: '等级', label: '等级', num: true },
+    { key: '酒水', label: '酒水' }, { key: '价格', label: '价格', num: true, sortable: true, sortKey: 'detailDrinkSort' },
+    { key: '等级', label: '等级', num: true, sortable: true, sortKey: 'detailDrinkSort' },
+    { key: '命中数', label: '命中数', num: true, sortable: true, sortKey: 'detailDrinkSort' },
     { key: '标签', label: '标签', tags: true }, { key: '命中喜好', label: '命中喜好', tags: true, tagKind: 'good' }
   ];
   return makeTable(columns, list);

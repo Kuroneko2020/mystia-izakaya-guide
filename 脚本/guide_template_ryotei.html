@@ -1081,8 +1081,8 @@ const state = {
   guestQuery: '', guestType: 'all',
   detailQuery: '', detailGuest: 'all',
   detailSort: { key: '价格', dir: -1 },
-  detailTab: 'meals', detailMealQuery: '', detailMealChips: [], detailMealSort: { mode: 'price-desc' },
-  detailDrinkQuery: '', detailDrinkChips: [], detailDrinkSort: 'price-desc',
+  detailTab: 'meals', detailMealQuery: '', detailMealChips: [], detailMealSort: { key: '价格', dir: -1 },
+  detailDrinkQuery: '', detailDrinkChips: [], detailDrinkSort: { key: '价格', dir: -1 },
   catalogQuery: '', catalogSort: { key: '价格', dir: 1 },
   ingredientQuery: '', ingredientType: 'all', ingredientSort: { key: '等级', dir: 1 },
   beverageQuery: '', beverageSort: { key: '价格', dir: 1 },
@@ -1715,16 +1715,6 @@ function parseDrinkRows(){
 function buildDrinkRecIndex(){
   return ryoteiRecommendationRows('drink');
 }
-function drinkSortValue(rows, mode){
-  const arr = rows.slice();
-  if (mode === 'price-asc') arr.sort((a, b) => (a['价格'] - b['价格']) || (b['命中数'] - a['命中数']));
-  else if (mode === 'price-desc') arr.sort((a, b) => (b['价格'] - a['价格']) || (b['命中数'] - a['命中数']));
-  else if (mode === 'level-desc') arr.sort((a, b) => (b['等级'] - a['等级']) || (b['价格'] - a['价格']));
-  else if (mode === 'level-asc') arr.sort((a, b) => (a['等级'] - b['等级']) || (b['价格'] - a['价格']));
-  else if (mode === 'match-asc') arr.sort((a, b) => (a['命中数'] - b['命中数']) || (b['价格'] - a['价格']));
-  else arr.sort((a, b) => (b['命中数'] - a['命中数']) || (b['价格'] - a['价格']));
-  return arr;
-}
 const DRINKREC_COLUMNS = [
   { key: '客人名字', label: '客人', linkGuest: true, sortable: true, sortKey: 'drinkrecSort' },
   { key: '类型', label: '类型' },
@@ -1969,6 +1959,16 @@ function bindEvents(){
     if (guest) renderDetailPane(guest);
   });
   $('#detail-body').addEventListener('click', (e) => {
+    const th = e.target.closest('th[data-sort]');
+    if (th) {
+      const key = th.dataset.sort;
+      const sortKey = th.dataset.sortKey;
+      const cur = state[sortKey] || { key: '', dir: -1 };
+      // 新列默认从高到低；同列再点在升降之间切换。
+      state[sortKey] = { key, dir: cur.key === key ? -cur.dir : -1 };
+      renderDetailPane(ryoteiGuestRecord(state.openGuest));
+      return;
+    }
     const chip = e.target.closest('[data-detail-chip]');
     if (chip) {
       const key = state.detailTab === 'meals' ? 'detailMealChips' : 'detailDrinkChips';
@@ -1988,10 +1988,7 @@ function bindEvents(){
     if (e.target.id === 'detail-meal-search') { state.detailMealQuery = e.target.value; ryoteiRefreshMealList(); }
     else if (e.target.id === 'detail-drink-search') { state.detailDrinkQuery = e.target.value; ryoteiRefreshDrinkList(); }
   });
-  $('#detail-body').addEventListener('change', (e) => {
-    if (e.target.id === 'detail-meal-sort') { state.detailMealSort = { mode: e.target.value }; ryoteiRefreshMealList(); }
-    else if (e.target.id === 'detail-drink-sort') { state.detailDrinkSort = e.target.value; ryoteiRefreshDrinkList(); }
-  });
+  $('#detail-body').addEventListener('change', () => {});
   $('#normal-search').addEventListener('input', (e) => { state.normalQuery = e.target.value; renderNormal(); });
   $$('.subtab').forEach((btn) => btn.addEventListener('click', () => {
     if (state.guideTab === btn.dataset.guide) return;

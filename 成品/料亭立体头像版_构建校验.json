@@ -1,17 +1,17 @@
 {
   "builtAt": "2026-10-10",
-  "builtAtFull": "2026-10-10 19:33 +0800",
+  "builtAtFull": "2026-10-10 19:42 +0800",
   "variant": "料亭立体头像版",
   "method": "独立构建入口 build_html_ryotei_avatar.py：模板+CSS+UI+导航+数据基线整体重建，客人图鉴立体头像效果块由 脚本/guest_avatar_3d.css 原样注入 </head> 前；不调用 build_html_ryotei.main()，不重写 成品/旧版 中的料亭优化版与 3D 试验版",
   "namingPolicy": "成品不覆盖：新件 东方夜雀食堂攻略查询_yymmddHHMM.html，上一份活成品移入 成品/旧版/ 保留原名",
-  "outputFile": "东方夜雀食堂攻略查询_2610101933.html",
-  "archivedPrevious": "东方夜雀食堂攻略查询_2610101932.html",
+  "outputFile": "东方夜雀食堂攻略查询_2610101942.html",
+  "archivedPrevious": "东方夜雀食堂攻略查询_2610101941.html",
   "dataSource": "中间数据/料亭版攻略数据基线.json",
   "appDataSha256": "cd847712480d6b42928ba803d8c5283e607a03bdc066877e2f5ac74081f20037",
   "avatarBlockSha256": "1a9574920518f421784602b6447e97130260e85f26c8d56bf8d25225e87ef3b5",
   "avatarBlockBytes": 3180,
-  "outputSha256": "0b8ec6b6f020f3567402abe6fb61cb68c8697547de1f8c0263b49a5e77f05c8a",
-  "outputBytes": 2546351,
+  "outputSha256": "4362dfd113dde1d49b1bc7d7100dbee4bc81f0e8b732ce49495d52543534a291",
+  "outputBytes": 2545412,
   "assetCounts": {
     "avatars": 59,
     "icons": 271,
@@ -37,6 +37,8 @@
     "顶栏两个主入口：营业图鉴（人物卡片+备菜表页）与物品图鉴；hash 页签名不变，旧地址天然兼容",
     "详情反馈轮：表头粘顶、列宽重分配去空白、竖排名字水印随列表滚动叠于行上、面板弹出与主题切换缓入缓出",
     "主题切换恢复圆形扩散（View Transitions，从按钮位置展开），黑白交接边缘带同步金色羽化光环",
+    "详情列表排序改列头点击（新列默认降序、同列切换升降，默认价格从高到低），排序下拉移除，酒水补命中数列",
+    "详情面板缩窄至 960 并重排列宽；表头改 separate 边框修复粘顶失效，滚动零泄露",
     "客人图鉴按今晚开店地点联动；因幡帝纳入所有地区；料理和酒水按全部静态标签匹配，不限数量价格"
   ]
 }
