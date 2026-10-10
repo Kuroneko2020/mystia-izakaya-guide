@@ -390,12 +390,13 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 [hidden]{display:none!important}
 
 /* ---------------- 详情抽屉重做：口味常驻头部 + 页签 + 列表筛选，单滚动容器 ---------------- */
-.detail-panel{width:min(960px,86vw)}
-.detail-head{align-items:flex-start;gap:14px;padding:14px 20px 10px}
-.detail-head-copy{flex:1;min-width:0}
-.detail-head h2{font-size:26px}
-.detail-head .sub{margin-top:1px}
-.detail-tastes{display:flex;flex-direction:column;gap:4px;margin-top:8px}
+.detail-panel{width:min(900px,86vw)}
+.detail-head{align-items:center;gap:14px;padding:12px 20px}
+.detail-head-copy{flex:1;min-width:0;display:flex;align-items:center;gap:22px}
+.detail-head-main{flex:0 0 auto;min-width:0}
+.detail-head h2{font-size:25px;white-space:nowrap}
+.detail-head .sub{margin-top:2px}
+.detail-tastes{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px;margin-top:0}
 .detail-tastes .taste-row{display:flex;align-items:flex-start;gap:8px}
 .detail-tastes .tag-label{flex:0 0 auto;margin-top:2px}
 .detail-tastes .tag-wrap{min-width:0}
@@ -426,19 +427,21 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 .detail-scroll .data-table th{position:sticky;top:0}
 .detail-scroll .data-table td:first-child{background:var(--bg-soft)}
 /* 列宽重分配：窄列收缩，空间让给主料与标签，消除大片空白。 */
+.detail-scroll .paged-table-scroll{max-height:none;overflow:visible}
+.detail-scroll .table-pagination{padding:8px 2px 0}
 .detail-scroll .data-table{table-layout:fixed;width:100%;border-collapse:separate;border-spacing:0}
-#guest-meals .data-table th:nth-child(1),#guest-meals .data-table td:nth-child(1){width:138px}
-#guest-meals .data-table th:nth-child(2),#guest-meals .data-table td:nth-child(2){width:58px}
-#guest-meals .data-table th:nth-child(3),#guest-meals .data-table td:nth-child(3){width:76px}
-#guest-meals .data-table th:nth-child(4),#guest-meals .data-table td:nth-child(4){width:66px}
-#guest-meals .data-table th:nth-child(6),#guest-meals .data-table td:nth-child(6){width:176px}
-#guest-meals .data-table th:nth-child(7),#guest-meals .data-table td:nth-child(7){width:148px}
-#guest-meals .data-table th:nth-child(8),#guest-meals .data-table td:nth-child(8){width:56px}
-#guest-drinks .data-table th:nth-child(1),#guest-drinks .data-table td:nth-child(1){width:150px}
-#guest-drinks .data-table th:nth-child(2),#guest-drinks .data-table td:nth-child(2){width:78px}
-#guest-drinks .data-table th:nth-child(3),#guest-drinks .data-table td:nth-child(3){width:58px}
-#guest-drinks .data-table th:nth-child(4),#guest-drinks .data-table td:nth-child(4){width:56px}
-#guest-drinks .data-table th:nth-child(6),#guest-drinks .data-table td:nth-child(6){width:182px}
+#guest-meals .data-table th:nth-child(1),#guest-meals .data-table td:nth-child(1){width:132px}
+#guest-meals .data-table th:nth-child(2),#guest-meals .data-table td:nth-child(2){width:56px}
+#guest-meals .data-table th:nth-child(3),#guest-meals .data-table td:nth-child(3){width:74px}
+#guest-meals .data-table th:nth-child(4),#guest-meals .data-table td:nth-child(4){width:64px}
+#guest-meals .data-table th:nth-child(6),#guest-meals .data-table td:nth-child(6){width:170px}
+#guest-meals .data-table th:nth-child(7),#guest-meals .data-table td:nth-child(7){width:140px}
+#guest-meals .data-table th:nth-child(8),#guest-meals .data-table td:nth-child(8){width:54px}
+#guest-drinks .data-table th:nth-child(1),#guest-drinks .data-table td:nth-child(1){width:146px}
+#guest-drinks .data-table th:nth-child(2),#guest-drinks .data-table td:nth-child(2){width:76px}
+#guest-drinks .data-table th:nth-child(3),#guest-drinks .data-table td:nth-child(3){width:56px}
+#guest-drinks .data-table th:nth-child(4),#guest-drinks .data-table td:nth-child(4){width:54px}
+#guest-drinks .data-table th:nth-child(6),#guest-drinks .data-table td:nth-child(6){width:178px}
 .detail-scroll .data-table td{word-break:break-word}
 /* 竖排名字水印：头部加高后重新定位到其下方，保持淡淡的装饰。 */
 /* 弹出缓入缓出：入场缓出更灵动，退场稍快缓入；减少动态时直切。 */

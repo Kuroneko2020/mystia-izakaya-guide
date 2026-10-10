@@ -283,7 +283,7 @@ async function main() {
     await page.locator('#guest-grid [data-guest="博丽灵梦"]').click();
     await page.waitForFunction(()=>document.querySelector('#detail-panel').classList.contains('open'));
     const detailBounds=await page.locator('#detail-panel').boundingBox();
-    assert.ok(detailBounds.width>=940,'详情面板缩窄到 960 档且占满内容');
+    assert.ok(detailBounds.width>=880 && detailBounds.width<=910,'详情面板缩窄到 900 档');
     assert.equal(await page.locator('#detail-body .pbar,#detail-body .pbar-cell').count(),0);
     assert.equal(await page.locator('#guest-meals .data-row').count(),countFor(new Set(['博丽灵梦'])),'详情包含全部推荐料理');
     assert.ok(!/前期|后期/.test(await page.locator('#detail-body').innerText()));
