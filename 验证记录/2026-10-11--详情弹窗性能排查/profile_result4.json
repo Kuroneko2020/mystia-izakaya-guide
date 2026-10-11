@@ -1,0 +1,32 @@
+{
+  "sets": [
+    {
+      "phase": "open1",
+      "target": "detail-body",
+      "chars": 134230,
+      "at": 862,
+      "stack": "html:2892 <- html:2853 <- html:1782 <- html:1747 <- html:1711 <- html:3360 <- html:3346 <- html:3410"
+    },
+    {
+      "phase": "popstate",
+      "target": "guest-grid",
+      "chars": 279903,
+      "at": 917,
+      "stack": "html:1952 <- html:1688 <- html:1708 <- html:3347 <- html:3410"
+    },
+    {
+      "phase": "open2",
+      "target": "detail-body",
+      "chars": 133133,
+      "at": 2441,
+      "stack": "html:2892 <- html:2853 <- html:1782 <- html:1747 <- html:1711 <- html:3360 <- html:3346 <- html:3410"
+    },
+    {
+      "phase": "popstate",
+      "target": "guest-grid",
+      "chars": 279903,
+      "at": 2469,
+      "stack": "html:1952 <- html:1688 <- html:1708 <- html:3347 <- html:3410"
+    }
+  ]
+}

@@ -453,6 +453,10 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 .detail-scroll .data-table td:first-child{position:static;background:transparent}
 .detail-scroll .data-table tr.data-row.alternate td:first-child{background:transparent}
 .detail-scroll .data-table th:first-child{background:#e9d8b7}
+/* 详情头部底色不透明，模板残留的 backdrop-filter 没有视觉效果，却让弹窗动画每帧多一次滤波，明确关闭。 */
+.detail-head{backdrop-filter:none;-webkit-backdrop-filter:none}
+/* 固定保留滚动条槽位：锁滚动（body overflow 切换）时视口宽度不变，弹窗开合不再引发整页回流。 */
+html{scrollbar-gutter:stable}
 /* 水印落在列表滚动区内侧（工具栏之下、行背景之间透出）。 */
 
 /* 竖排名字水印：挂在滚动内容层，随列表滚动、叠在行背景之上形成纸纹水印（z0 定位层高于非定位行）。 */

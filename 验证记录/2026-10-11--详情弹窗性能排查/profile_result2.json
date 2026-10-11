@@ -1,0 +1,219 @@
+{
+  "file": "东方夜雀食堂攻略查询_2610110954.html",
+  "steadyEventTiming": [
+    {
+      "name": "pointerdown",
+      "duration": 88,
+      "processingStart": 1640,
+      "startTime": 1637
+    },
+    {
+      "name": "pointerup",
+      "duration": 88,
+      "processingStart": 1641,
+      "startTime": 1638
+    },
+    {
+      "name": "click",
+      "duration": 88,
+      "processingStart": 1641,
+      "startTime": 1638
+    },
+    {
+      "name": "pointerdown",
+      "duration": 40,
+      "processingStart": 2437,
+      "startTime": 2436
+    },
+    {
+      "name": "pointerup",
+      "duration": 40,
+      "processingStart": 2438,
+      "startTime": 2437
+    },
+    {
+      "name": "click",
+      "duration": 40,
+      "processingStart": 2438,
+      "startTime": 2437
+    },
+    {
+      "name": "pointerdown",
+      "duration": 64,
+      "processingStart": 3188,
+      "startTime": 3186
+    },
+    {
+      "name": "pointerup",
+      "duration": 64,
+      "processingStart": 3189,
+      "startTime": 3186
+    },
+    {
+      "name": "click",
+      "duration": 64,
+      "processingStart": 3189,
+      "startTime": 3186
+    },
+    {
+      "name": "pointerdown",
+      "duration": 40,
+      "processingStart": 3968,
+      "startTime": 3968
+    },
+    {
+      "name": "pointerup",
+      "duration": 40,
+      "processingStart": 3969,
+      "startTime": 3968
+    },
+    {
+      "name": "click",
+      "duration": 40,
+      "processingStart": 3969,
+      "startTime": 3968
+    },
+    {
+      "name": "pointerdown",
+      "duration": 80,
+      "processingStart": 4721,
+      "startTime": 4718
+    },
+    {
+      "name": "pointerup",
+      "duration": 80,
+      "processingStart": 4722,
+      "startTime": 4718
+    },
+    {
+      "name": "click",
+      "duration": 80,
+      "processingStart": 4722,
+      "startTime": 4718
+    },
+    {
+      "name": "pointerdown",
+      "duration": 40,
+      "processingStart": 5505,
+      "startTime": 5503
+    },
+    {
+      "name": "pointerup",
+      "duration": 40,
+      "processingStart": 5505,
+      "startTime": 5503
+    },
+    {
+      "name": "click",
+      "duration": 40,
+      "processingStart": 5505,
+      "startTime": 5503
+    },
+    {
+      "name": "pointerdown",
+      "duration": 64,
+      "processingStart": 6249,
+      "startTime": 6247
+    },
+    {
+      "name": "pointerup",
+      "duration": 64,
+      "processingStart": 6250,
+      "startTime": 6247
+    },
+    {
+      "name": "click",
+      "duration": 64,
+      "processingStart": 6250,
+      "startTime": 6247
+    },
+    {
+      "name": "pointerdown",
+      "duration": 40,
+      "processingStart": 7030,
+      "startTime": 7029
+    },
+    {
+      "name": "pointerup",
+      "duration": 40,
+      "processingStart": 7032,
+      "startTime": 7030
+    },
+    {
+      "name": "click",
+      "duration": 40,
+      "processingStart": 7032,
+      "startTime": 7030
+    }
+  ],
+  "steadyLongtasks": [
+    {
+      "duration": 57,
+      "startTime": 1639
+    }
+  ],
+  "mutations": {
+    "grid": 0,
+    "detail": 4,
+    "normal": 0
+  },
+  "cpu": {
+    "first": [
+      {
+        "fn": "setPanelOpen @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:1721",
+        "selfMs": 33.7
+      },
+      {
+        "fn": "renderDetailPane @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:2860",
+        "selfMs": 3.3
+      },
+      {
+        "fn": "ryoteiNavigate @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:3350",
+        "selfMs": 1.7
+      },
+      {
+        "fn": "(anonymous) @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:2906",
+        "selfMs": 1.7
+      },
+      {
+        "fn": "ryoteiDetailMealTable @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:2938",
+        "selfMs": 1.6
+      },
+      {
+        "fn": "ryoteiLinkedText @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:3287",
+        "selfMs": 1.6
+      },
+      {
+        "fn": "(anonymous) @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:3318",
+        "selfMs": 1.6
+      },
+      {
+        "fn": "ryoteiSaveView @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:3347",
+        "selfMs": 1.6
+      }
+    ],
+    "second": [
+      {
+        "fn": "setPanelOpen @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:1721",
+        "selfMs": 12
+      },
+      {
+        "fn": "renderDetailPane @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:2860",
+        "selfMs": 3.3
+      },
+      {
+        "fn": "(anonymous) @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:3318",
+        "selfMs": 1.6
+      },
+      {
+        "fn": "(anonymous) @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:2906",
+        "selfMs": 1.6
+      },
+      {
+        "fn": "(anonymous) @%E4%B8%9C%E6%96%B9%E5%A4%9C%E9%9B%80%E9%A3%9F%E5%A0%82%E6%94%BB%E7%95%A5%E6%9F%A5%E8%AF%A2_2610110954.html:3362",
+        "selfMs": 1.3
+      }
+    ]
+  },
+  "mutations2": "n/a"
+}

@@ -1,0 +1,318 @@
+{
+  "file": "东方夜雀食堂攻略查询_2610110954.html",
+  "mode": "headless",
+  "errors": [],
+  "environment": {
+    "styles": {
+      "backdrop": {
+        "backdrop-filter": "none",
+        "background-color": "rgba(28, 20, 38, 0.55)",
+        "transition": "opacity 0.24s",
+        "z-index": "70"
+      },
+      "panel": {
+        "backdrop-filter": "none",
+        "box-shadow": "rgba(36, 19, 34, 0.27) 0px 16px 48px 0px",
+        "transition-property": "transform",
+        "transition-duration": "0.22s",
+        "width": "900px",
+        "will-change": "auto",
+        "position": "fixed"
+      },
+      "head": {
+        "backdrop-filter": "none",
+        "position": "static",
+        "z-index": "auto"
+      },
+      "html": {
+        "scrollbar-gutter": "stable",
+        "overflow": "visible",
+        "scrollbar-width": "thin"
+      },
+      "body": {
+        "overflow": "visible",
+        "scrollbar-width": "thin"
+      }
+    },
+    "domNodes": 2792,
+    "scrollHeight": 5931,
+    "scrollbarPx": 0
+  },
+  "open": {
+    "wallMs": 1049,
+    "frames": 151,
+    "medianGap": 6.1,
+    "p95Gap": 6.2,
+    "maxGap": 97.1,
+    "jankyOver32ms": 1,
+    "timeline": {
+      "FunctionCall": {
+        "count": 177,
+        "totalMs": 93,
+        "maxMs": 86.4
+      },
+      "EventDispatch": {
+        "count": 46,
+        "totalMs": 88.3,
+        "maxMs": 87
+      },
+      "UpdateLayoutTree": {
+        "count": 66,
+        "totalMs": 55.7,
+        "maxMs": 37.7
+      },
+      "Paint": {
+        "count": 32,
+        "totalMs": 18.7,
+        "maxMs": 4.4
+      },
+      "PrePaint": {
+        "count": 168,
+        "totalMs": 8.1,
+        "maxMs": 2.9
+      },
+      "FireAnimationFrame": {
+        "count": 156,
+        "totalMs": 6.6,
+        "maxMs": 1.7
+      },
+      "HitTest": {
+        "count": 15,
+        "totalMs": 0.9,
+        "maxMs": 0.2
+      }
+    },
+    "styleInvalidations": {
+      "Animation": {
+        "count": 144,
+        "samples": [
+          "DIV id='detail-backdrop' class='detail-backdrop open'",
+          "ASIDE id='detail-panel' class='detail-panel open'",
+          "DIV id='detail-backdrop' class='detail-backdrop open'"
+        ]
+      },
+      "Related style rule": {
+        "count": 14,
+        "samples": [
+          "BUTTON class='guest-card'",
+          "SPAN class='ava'",
+          "SPAN class='hint'"
+        ]
+      },
+      "PseudoClass": {
+        "count": 10,
+        "samples": [
+          "BUTTON class='guest-card'",
+          "BUTTON class='guest-card'",
+          "BUTTON class='guest-card'"
+        ]
+      },
+      "Attribute": {
+        "count": 6,
+        "samples": [
+          "DIV id='global-results' class='search-results'",
+          "ASIDE id='detail-panel' class='detail-panel'",
+          "DIV id='detail-backdrop' class='detail-backdrop'"
+        ]
+      },
+      "Inline CSS style declaration was mutated": {
+        "count": 4,
+        "samples": [
+          "BUTTON class='guest-card'",
+          "BUTTON class='guest-card'",
+          "SPAN id='detail-seal' class='seal seal-lg is-ava'"
+        ]
+      },
+      "Control": {
+        "count": 2,
+        "samples": [
+          "DIV",
+          "DIV"
+        ]
+      }
+    }
+  },
+  "close": {
+    "wallMs": 957,
+    "frames": 153,
+    "medianGap": 6.1,
+    "p95Gap": 6.2,
+    "maxGap": 18.2,
+    "jankyOver32ms": 0,
+    "timeline": {
+      "UpdateLayoutTree": {
+        "count": 47,
+        "totalMs": 19.7,
+        "maxMs": 9.5
+      },
+      "Paint": {
+        "count": 124,
+        "totalMs": 14.2,
+        "maxMs": 4
+      },
+      "PrePaint": {
+        "count": 171,
+        "totalMs": 6.6,
+        "maxMs": 2
+      },
+      "FunctionCall": {
+        "count": 180,
+        "totalMs": 5.7,
+        "maxMs": 1.7
+      },
+      "FireAnimationFrame": {
+        "count": 157,
+        "totalMs": 4.3,
+        "maxMs": 0.1
+      },
+      "EventDispatch": {
+        "count": 21,
+        "totalMs": 2.5,
+        "maxMs": 1.8
+      },
+      "HitTest": {
+        "count": 16,
+        "totalMs": 1.1,
+        "maxMs": 0.3
+      }
+    },
+    "styleInvalidations": {
+      "Animation": {
+        "count": 182,
+        "samples": [
+          "BUTTON id='theme-toggle' class='icon-btn'",
+          "DIV id='detail-backdrop' class='detail-backdrop'",
+          "ASIDE id='detail-panel' class='detail-panel'"
+        ]
+      },
+      "Related style rule": {
+        "count": 8,
+        "samples": [
+          "ASIDE id='detail-panel' class='detail-panel open'",
+          "ASIDE id='detail-panel' class='detail-panel'",
+          "DIV id='detail-backdrop' class='detail-backdrop'"
+        ]
+      },
+      "PseudoClass": {
+        "count": 7,
+        "samples": [
+          "BUTTON id='detail-close' class='icon-btn'",
+          "BUTTON id='detail-close' class='icon-btn'",
+          "BUTTON id='detail-close' class='icon-btn'"
+        ]
+      },
+      "Attribute": {
+        "count": 7,
+        "samples": [
+          "ASIDE id='detail-panel' class='detail-panel open'",
+          "HEADER class='site-header'",
+          "MAIN id='main'"
+        ]
+      },
+      "Control": {
+        "count": 2,
+        "samples": [
+          "DIV",
+          "DIV"
+        ]
+      },
+      "Node was inserted into tree": {
+        "count": 1,
+        "samples": [
+          "SPAN class='ripple'"
+        ]
+      },
+      "Inline CSS style declaration was mutated": {
+        "count": 1,
+        "samples": [
+          "BODY"
+        ]
+      }
+    }
+  },
+  "eventTiming": [
+    {
+      "longtask": true,
+      "duration": 91,
+      "startTime": 1179
+    },
+    {
+      "name": "pointerdown",
+      "duration": 120,
+      "processingStart": 1180,
+      "startTime": 1176
+    },
+    {
+      "name": "pointerup",
+      "duration": 120,
+      "processingStart": 1181,
+      "startTime": 1176
+    },
+    {
+      "name": "click",
+      "duration": 120,
+      "processingStart": 1181,
+      "startTime": 1176
+    },
+    {
+      "name": "pointerdown",
+      "duration": 40,
+      "processingStart": 2676,
+      "startTime": 2674
+    },
+    {
+      "name": "pointerup",
+      "duration": 40,
+      "processingStart": 2677,
+      "startTime": 2674
+    },
+    {
+      "name": "click",
+      "duration": 40,
+      "processingStart": 2677,
+      "startTime": 2674
+    },
+    {
+      "name": "pointerdown",
+      "duration": 56,
+      "processingStart": 3909,
+      "startTime": 3907
+    },
+    {
+      "name": "pointerup",
+      "duration": 56,
+      "processingStart": 3909,
+      "startTime": 3907
+    },
+    {
+      "name": "click",
+      "duration": 56,
+      "processingStart": 3909,
+      "startTime": 3907
+    }
+  ],
+  "micro": {
+    "inertOnMain": [
+      0,
+      0,
+      0
+    ],
+    "inertOffMain": [
+      0,
+      0,
+      0
+    ],
+    "bodyOverflowHidden": 0.1,
+    "clientWidthWhileHidden": 1440,
+    "clientWidthNormal": 1440
+  },
+  "detailBody": {
+    "nodeCount": 1888,
+    "htmlChars": 133136,
+    "rebuild": [
+      3.8,
+      4.9,
+      4.6
+    ]
+  }
+}

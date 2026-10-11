@@ -173,10 +173,12 @@ function renderDetailPane(guest){
     bonds += '<h3 class="detail-pane-title">备注与来源</h3><div class="callout">' + esc(guest['备注/来源'] || '') + '</div>';
     html = pane('guest-bonds','',bonds);
   }
-  const previousScroll = state.detailGuest === name ? (body.querySelector('.detail-scroll')||{}).scrollTop || 0 : 0;
+  // paneGuest 只记录详情面板当前渲染的客人（页签切换清空回顶）；
+  // 不能复用 detailGuest——那是备菜页筛选与路由键，写它会触发 applyRoute 修复并整页重渲染。
+  const previousScroll = state.paneGuest === name ? (body.querySelector('.detail-scroll')||{}).scrollTop || 0 : 0;
   body.innerHTML = html;
   body.querySelector('.detail-scroll').scrollTop = previousScroll;
-  state.detailGuest = name;
+  state.paneGuest = name;
 }
 
 /* 详情列表：筛选（搜索+标签）与排序在客人切换时保留排序、清空过滤词。 */
@@ -278,6 +280,10 @@ function ryoteiUiInit(){
     row.hidden = !row.hidden;
     button.setAttribute('aria-expanded',String(!row.hidden));
     button.closest('tr').classList.toggle('is-expanded',!row.hidden);
+  });
+  // 空闲预热全量静态推荐索引：首次打开客人详情/进备菜页不再付一次性构建开销。
+  (window.requestIdleCallback || ((fn) => window.setTimeout(fn, 300)))(() => {
+    try { buildMealIndex(); buildDrinkRecIndex(); } catch (_) {}
   });
 }
 

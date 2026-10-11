@@ -1076,6 +1076,7 @@ function sortObjects(list, key, dir){
 const state = {
   tab: 'guests',
   openGuest: '',
+  paneGuest: '',
   servicePlace:'all',serviceGuest:'all',focusTab:'',focusItem:'',
   guestQuery: '', guestType: 'all',
   detailQuery: '', detailGuest: 'all',
@@ -1952,7 +1953,7 @@ function bindEvents(){
     const button = e.target.closest('[data-detail-tab]');
     if (!button || state.detailTab === button.dataset.detailTab) return;
     state.detailTab = button.dataset.detailTab;
-    state.detailGuest = ''; // 页签内容整体更换，列表回到顶部。
+    state.paneGuest = ''; // 页签内容整体更换，列表回到顶部。
     $$('#detail-tabs [data-detail-tab]').forEach((b) => b.classList.toggle('active', b === button));
     const guest = ryoteiGuestRecord(state.openGuest);
     if (guest) renderDetailPane(guest);

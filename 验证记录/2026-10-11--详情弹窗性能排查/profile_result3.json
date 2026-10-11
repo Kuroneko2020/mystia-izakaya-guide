@@ -1,0 +1,138 @@
+{
+  "sets": [
+    {
+      "phase": "open1",
+      "target": "detail-body",
+      "chars": 134230,
+      "at": 854,
+      "stack": "html:2892 <- html:2853 <- html:1782 <- html:1747"
+    },
+    {
+      "phase": "open1",
+      "target": "guest-grid",
+      "chars": 279903,
+      "at": 903,
+      "stack": "html:1952 <- html:1688 <- html:1708 <- html:3347"
+    },
+    {
+      "phase": "open2",
+      "target": "detail-body",
+      "chars": 133133,
+      "at": 2224,
+      "stack": "html:2892 <- html:2853 <- html:1782 <- html:1747"
+    },
+    {
+      "phase": "open2",
+      "target": "guest-grid",
+      "chars": 279903,
+      "at": 2253,
+      "stack": "html:1952 <- html:1688 <- html:1708 <- html:3347"
+    },
+    {
+      "phase": "open3",
+      "target": "detail-body",
+      "chars": 107778,
+      "at": 3572,
+      "stack": "html:2892 <- html:2853 <- html:1782 <- html:1747"
+    },
+    {
+      "phase": "open3",
+      "target": "guest-grid",
+      "chars": 279903,
+      "at": 3607,
+      "stack": "html:1952 <- html:1688 <- html:1708 <- html:3347"
+    }
+  ],
+  "eventTiming": [
+    {
+      "name": "pointerdown",
+      "duration": 112,
+      "startTime": 831
+    },
+    {
+      "name": "pointerup",
+      "duration": 112,
+      "startTime": 831
+    },
+    {
+      "name": "click",
+      "duration": 112,
+      "startTime": 831
+    },
+    {
+      "name": "pointerdown",
+      "duration": 40,
+      "startTime": 1666
+    },
+    {
+      "name": "pointerup",
+      "duration": 40,
+      "startTime": 1666
+    },
+    {
+      "name": "click",
+      "duration": 40,
+      "startTime": 1666
+    },
+    {
+      "name": "pointerdown",
+      "duration": 72,
+      "startTime": 2218
+    },
+    {
+      "name": "pointerup",
+      "duration": 72,
+      "startTime": 2218
+    },
+    {
+      "name": "click",
+      "duration": 72,
+      "startTime": 2218
+    },
+    {
+      "name": "pointerdown",
+      "duration": 48,
+      "startTime": 2998
+    },
+    {
+      "name": "pointerup",
+      "duration": 48,
+      "startTime": 2998
+    },
+    {
+      "name": "click",
+      "duration": 48,
+      "startTime": 2998
+    },
+    {
+      "name": "pointerdown",
+      "duration": 88,
+      "startTime": 3564
+    },
+    {
+      "name": "pointerup",
+      "duration": 88,
+      "startTime": 3564
+    },
+    {
+      "name": "click",
+      "duration": 88,
+      "startTime": 3564
+    },
+    {
+      "name": "pointerdown",
+      "duration": 32,
+      "startTime": 4374
+    },
+    {
+      "name": "pointerup",
+      "duration": 32,
+      "startTime": 4374
+    },
+    {
+      "name": "click",
+      "duration": 32,
+      "startTime": 4374
+    }
+  ]
+}

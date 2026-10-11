@@ -1,0 +1,51 @@
+{
+  "hits": [
+    {
+      "snapshot": "{\"changed\":false,\"tab\":\"guests\",\"previousTab\":\"guests\",\"wasRendered\":false,\"servicePlace\":\"all\",\"serviceGuest\":\"all\",\"detailGuest\":\"all\",\"addonGuest\":\"all\",\"drinkrecGuest\":\"all\",\"focusTab\":\"\",\"focusItem\":\"\",\"openGuest\":\"\",\"lastRenderedTab\":\"guests\",\"hash\":\"\",\"guestQuery\":\"\",\"guestType\":\"all\"}",
+      "stack": [
+        "route@8:17071",
+        "init@8:27131",
+        "(anon)@8:34301",
+        "(anon)@8:34311"
+      ]
+    },
+    {
+      "snapshot": "{\"changed\":false,\"tab\":\"guests\",\"previousTab\":\"guests\",\"wasRendered\":true,\"servicePlace\":\"all\",\"serviceGuest\":\"all\",\"detailGuest\":\"all\",\"addonGuest\":\"all\",\"drinkrecGuest\":\"all\",\"focusTab\":\"\",\"focusItem\":\"\",\"openGuest\":\"\",\"lastRenderedTab\":\"guests\",\"hash\":\"#guests/%E7%A8%97%E7%94%B0%E9%98%BF%E6%B1%82\",\"guestQuery\":\"\",\"guestType\":\"all\"}",
+      "stack": [
+        "route@8:17071",
+        "ryoteiRestoreView@8:33591",
+        "ryoteiNavigate@8:33451",
+        "(anon)@8:34091"
+      ]
+    },
+    {
+      "snapshot": "{\"changed\":true,\"tab\":\"guests\",\"previousTab\":\"guests\",\"wasRendered\":true,\"servicePlace\":\"all\",\"serviceGuest\":\"all\",\"detailGuest\":\"all\",\"addonGuest\":\"all\",\"drinkrecGuest\":\"all\",\"focusTab\":\"\",\"focusItem\":\"\",\"openGuest\":\"稗田阿求\",\"lastRenderedTab\":\"guests\",\"hash\":\"#guests/%E7%A8%97%E7%94%B0%E9%98%BF%E6%B1%82\",\"guestQuery\":\"\",\"guestType\":\"all\"}",
+      "stack": [
+        "route@8:17071",
+        "ryoteiNavigate@8:33461",
+        "(anon)@8:34091"
+      ]
+    },
+    {
+      "snapshot": "{\"changed\":false,\"tab\":\"guests\",\"previousTab\":\"guests\",\"wasRendered\":true,\"servicePlace\":\"all\",\"serviceGuest\":\"all\",\"detailGuest\":\"all\",\"addonGuest\":\"all\",\"drinkrecGuest\":\"all\",\"focusTab\":\"\",\"focusItem\":\"\",\"openGuest\":\"稗田阿求\",\"lastRenderedTab\":\"guests\",\"hash\":\"#guests/%E7%A8%97%E7%94%B0%E9%98%BF%E6%B1%82\",\"guestQuery\":\"\",\"guestType\":\"all\"}",
+      "stack": [
+        "route@8:17071"
+      ]
+    },
+    {
+      "snapshot": "{\"changed\":false,\"tab\":\"guests\",\"previousTab\":\"guests\",\"wasRendered\":true,\"servicePlace\":\"all\",\"serviceGuest\":\"all\",\"detailGuest\":\"all\",\"addonGuest\":\"all\",\"drinkrecGuest\":\"all\",\"focusTab\":\"\",\"focusItem\":\"\",\"openGuest\":\"\",\"lastRenderedTab\":\"guests\",\"hash\":\"#guests\",\"guestQuery\":\"\",\"guestType\":\"all\"}",
+      "stack": [
+        "route@8:17071",
+        "ryoteiRestoreView@8:33591",
+        "closeGuest@8:17561",
+        "(anon)@8:25101"
+      ]
+    },
+    {
+      "snapshot": "{\"changed\":false,\"tab\":\"guests\",\"previousTab\":\"guests\",\"wasRendered\":true,\"servicePlace\":\"all\",\"serviceGuest\":\"all\",\"detailGuest\":\"all\",\"addonGuest\":\"all\",\"drinkrecGuest\":\"all\",\"focusTab\":\"\",\"focusItem\":\"\",\"openGuest\":\"\",\"lastRenderedTab\":\"guests\",\"hash\":\"#guests\",\"guestQuery\":\"\",\"guestType\":\"all\"}",
+      "stack": [
+        "route@8:17071"
+      ]
+    }
+  ]
+}
