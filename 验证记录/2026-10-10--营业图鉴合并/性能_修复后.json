@@ -1,135 +1,135 @@
 {
   "mode": "fixed",
   "browser": "148.0.3967.42",
-  "loadMs": 323,
+  "loadMs": 502,
   "metrics": [
     {
       "tab": "details",
       "round": 0,
-      "handlerMs": 39.2,
-      "nextPaintMs": 403,
+      "handlerMs": 31,
+      "nextPaintMs": 125.6,
       "remainingAnimationMs": 0,
-      "settledMs": 410.2
+      "settledMs": 219.2
     },
     {
       "tab": "guests",
       "round": 0,
-      "handlerMs": 3.7,
-      "nextPaintMs": 43.5,
+      "handlerMs": 4.2,
+      "nextPaintMs": 63.4,
       "remainingAnimationMs": 0,
-      "settledMs": 50.3
+      "settledMs": 95.3
     },
     {
       "tab": "items",
       "round": 0,
-      "handlerMs": 14.4,
-      "nextPaintMs": 66.8,
+      "handlerMs": 14.2,
+      "nextPaintMs": 68.5,
       "remainingAnimationMs": 0,
-      "settledMs": 73.2
+      "settledMs": 93.3
     },
     {
       "tab": "guests-primary",
       "round": 0,
-      "handlerMs": 5.6,
-      "nextPaintMs": 42.4,
+      "handlerMs": 4.7,
+      "nextPaintMs": 71.5,
       "remainingAnimationMs": 0,
-      "settledMs": 48.6
+      "settledMs": 94.4
     },
     {
       "tab": "details",
       "round": 1,
-      "handlerMs": 3.7,
-      "nextPaintMs": 36.4,
+      "handlerMs": 3.5,
+      "nextPaintMs": 63.4,
       "remainingAnimationMs": 0,
-      "settledMs": 42.3
+      "settledMs": 90.1
     },
     {
       "tab": "guests",
       "round": 1,
-      "handlerMs": 3.6,
-      "nextPaintMs": 26.9,
+      "handlerMs": 4.2,
+      "nextPaintMs": 62.2,
       "remainingAnimationMs": 0,
-      "settledMs": 30.2
+      "settledMs": 93.3
     },
     {
       "tab": "items",
       "round": 1,
-      "handlerMs": 3.2,
-      "nextPaintMs": 30.4,
+      "handlerMs": 4.8,
+      "nextPaintMs": 62.3,
       "remainingAnimationMs": 0,
-      "settledMs": 36.4
+      "settledMs": 93.9
     },
     {
       "tab": "guests-primary",
       "round": 1,
-      "handlerMs": 5.3,
-      "nextPaintMs": 42.3,
+      "handlerMs": 4.1,
+      "nextPaintMs": 61.9,
       "remainingAnimationMs": 0,
-      "settledMs": 48.2
+      "settledMs": 92
     },
     {
       "tab": "details",
       "round": 2,
-      "handlerMs": 3.4,
-      "nextPaintMs": 36.4,
+      "handlerMs": 4.4,
+      "nextPaintMs": 62.7,
       "remainingAnimationMs": 0,
-      "settledMs": 42.5
+      "settledMs": 93.8
     },
     {
       "tab": "guests",
       "round": 2,
-      "handlerMs": 2.4,
-      "nextPaintMs": 24.3,
+      "handlerMs": 4,
+      "nextPaintMs": 62.6,
       "remainingAnimationMs": 0,
-      "settledMs": 30.4
+      "settledMs": 94.7
     },
     {
       "tab": "items",
       "round": 2,
-      "handlerMs": 2.2,
-      "nextPaintMs": 24.3,
+      "handlerMs": 4.6,
+      "nextPaintMs": 67.6,
       "remainingAnimationMs": 0,
-      "settledMs": 30.4
+      "settledMs": 93.5
     },
     {
       "tab": "guests-primary",
       "round": 2,
-      "handlerMs": 2.4,
-      "nextPaintMs": 24.2,
+      "handlerMs": 5.8,
+      "nextPaintMs": 61.8,
       "remainingAnimationMs": 0,
-      "settledMs": 30.2
+      "settledMs": 93.3
     },
     {
       "tab": "details",
       "round": 3,
-      "handlerMs": 1.9,
-      "nextPaintMs": 25.1,
+      "handlerMs": 6.4,
+      "nextPaintMs": 63.8,
       "remainingAnimationMs": 0,
-      "settledMs": 30.4
+      "settledMs": 93.7
     },
     {
       "tab": "guests",
       "round": 3,
-      "handlerMs": 2.6,
-      "nextPaintMs": 25.9,
+      "handlerMs": 6.7,
+      "nextPaintMs": 73.3,
       "remainingAnimationMs": 0,
-      "settledMs": 31.6
+      "settledMs": 94.4
     },
     {
       "tab": "items",
       "round": 3,
-      "handlerMs": 2.3,
-      "nextPaintMs": 26.1,
+      "handlerMs": 7.1,
+      "nextPaintMs": 61.4,
       "remainingAnimationMs": 0,
-      "settledMs": 29.1
+      "settledMs": 93.2
     },
     {
       "tab": "guests-primary",
       "round": 3,
-      "handlerMs": 2.1,
-      "nextPaintMs": 24.3,
+      "handlerMs": 4.5,
+      "nextPaintMs": 62.6,
       "remainingAnimationMs": 0,
-      "settledMs": 30.4
+      "settledMs": 93.9
     }
   ],
   "summary": {

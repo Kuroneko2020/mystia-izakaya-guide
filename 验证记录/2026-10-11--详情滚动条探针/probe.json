@@ -1,0 +1,167 @@
+{
+  "file": "东方夜雀食堂攻略查询_2610112211.html",
+  "viewport": "1920x933",
+  "tabs": {
+    "meals": {
+      "overflow": [],
+      "detailScroll": {
+        "scrollWidth": 897,
+        "clientWidth": 897,
+        "offsetHeight": 575,
+        "clientHeight": 575
+      },
+      "documentHScroll": false,
+      "columns": [
+        {
+          "text": "菜品",
+          "left": 1013,
+          "width": 132
+        },
+        {
+          "text": "等级",
+          "left": 1145,
+          "width": 62
+        },
+        {
+          "text": "价格▼",
+          "left": 1207,
+          "width": 74
+        },
+        {
+          "text": "厨具",
+          "left": 1281,
+          "width": 64
+        },
+        {
+          "text": "主料",
+          "left": 1345,
+          "width": 205
+        },
+        {
+          "text": "菜品标签",
+          "left": 1550,
+          "width": 170
+        },
+        {
+          "text": "命中喜好",
+          "left": 1720,
+          "width": 112
+        },
+        {
+          "text": "命中数",
+          "left": 1832,
+          "width": 78
+        }
+      ],
+      "tableMinWidth": "760px",
+      "tableWidth": 897
+    },
+    "drinks": {
+      "overflow": [],
+      "detailScroll": {
+        "scrollWidth": 897,
+        "clientWidth": 897,
+        "offsetHeight": 609,
+        "clientHeight": 609
+      },
+      "documentHScroll": false,
+      "columns": [
+        {
+          "text": "酒水",
+          "left": 1013,
+          "width": 187
+        },
+        {
+          "text": "价格▼",
+          "left": 1200,
+          "width": 97
+        },
+        {
+          "text": "等级",
+          "left": 1297,
+          "width": 79
+        },
+        {
+          "text": "命中数",
+          "left": 1377,
+          "width": 100
+        },
+        {
+          "text": "标签",
+          "left": 1477,
+          "width": 205
+        },
+        {
+          "text": "命中喜好",
+          "left": 1682,
+          "width": 228
+        }
+      ],
+      "tableMinWidth": "760px",
+      "tableWidth": 897
+    },
+    "addons": {
+      "overflow": [],
+      "detailScroll": {
+        "scrollWidth": 897,
+        "clientWidth": 897,
+        "offsetHeight": 733,
+        "clientHeight": 733
+      },
+      "documentHScroll": false,
+      "columns": [
+        {
+          "text": "场景",
+          "left": 1013,
+          "width": 115
+        },
+        {
+          "text": "适用推荐菜",
+          "left": 1128,
+          "width": 115
+        },
+        {
+          "text": "食材",
+          "left": 1244,
+          "width": 115
+        },
+        {
+          "text": "价格",
+          "left": 1359,
+          "width": 115
+        },
+        {
+          "text": "等级",
+          "left": 1475,
+          "width": 115
+        },
+        {
+          "text": "食材标签",
+          "left": 1590,
+          "width": 160
+        },
+        {
+          "text": "补足标签",
+          "left": 1750,
+          "width": 160
+        }
+      ],
+      "tableMinWidth": "760px",
+      "tableWidth": 897
+    },
+    "bonds": {
+      "overflow": [],
+      "detailScroll": {
+        "scrollWidth": 897,
+        "clientWidth": 897,
+        "offsetHeight": 420,
+        "clientHeight": 420
+      },
+      "documentHScroll": false,
+      "columns": null,
+      "tableMinWidth": null,
+      "tableWidth": null
+    }
+  },
+  "errors": []
+}

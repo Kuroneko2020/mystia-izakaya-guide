@@ -435,7 +435,7 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 #guest-meals .data-table th:nth-child(3),#guest-meals .data-table td:nth-child(3){width:74px}
 #guest-meals .data-table th:nth-child(4),#guest-meals .data-table td:nth-child(4){width:64px}
 #guest-meals .data-table th:nth-child(6),#guest-meals .data-table td:nth-child(6){width:170px}
-#guest-meals .data-table th:nth-child(7),#guest-meals .data-table td:nth-child(7){width:140px}
+#guest-meals .data-table th:nth-child(7),#guest-meals .data-table td:nth-child(7){width:112px}
 #guest-meals .data-table th:nth-child(8),#guest-meals .data-table td:nth-child(8){width:78px}
 #guest-drinks .data-table th:nth-child(1),#guest-drinks .data-table td:nth-child(1){width:146px}
 #guest-drinks .data-table th:nth-child(2),#guest-drinks .data-table td:nth-child(2){width:76px}
@@ -467,6 +467,9 @@ html{scrollbar-gutter:stable}
   font-family:var(--display-font);font-size:clamp(88px,13vh,140px);line-height:1;
   color:var(--text);opacity:.055;letter-spacing:.05em;
   pointer-events:none;user-select:none;white-space:nowrap;
+  /* 手绘字体的竖排字形墨迹超出 1em 行框，滚动区会把这部分记为可滚动溢出：
+     不按滚动视口封顶裁剪，四个详情页签都会多出横向滚动条和内容尾部的空白滚动区。 */
+  max-height:calc(100% - 10px);overflow:hidden;
 }
 @media(max-width:620px){.detail-scroll::before{display:none}}
 
