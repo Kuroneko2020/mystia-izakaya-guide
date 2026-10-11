@@ -4,7 +4,7 @@
 来源（均为本机已有的合法素材）：
 1. 头像：游戏自带的官方粉丝素材包
    F:/Games/GamePlats/Steam/steamapps/common/Touhou Mystia Izakaya/东方夜雀食堂 头像&表情包 ~ Avatar Image
-   文件夹/编号 -> 客人 的映射由人工识图确认（见 2026-10-05--和风版界面记录.md），
+   文件夹/编号 -> 客人 的映射由人工识图确认（见 记录/2026-10-05--和风版界面记录.md），
    官方包未覆盖的客人不匹配，运行时回退为印章头像。
 2. 物品图标：Minecraft 还原 Mod HiedaCamellia/MystiasIzakaya 的物品贴图（32px PNG）
    + 该 Mod 自带的 zh_cn 语言文件（拼音 id -> 中文名，权威映射）。
