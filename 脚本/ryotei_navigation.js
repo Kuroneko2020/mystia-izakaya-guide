@@ -268,7 +268,7 @@ function ryoteiCaptureView(){
   const saved = Object.fromEntries(Object.entries(state).filter(([key])=>key !== 'openGuest' && !key.startsWith('global')));
   const reading=[ryoteiCaptureReading('#panel-' + state.tab),ryoteiCaptureReading('#workbench-filters'),state.openGuest ? ryoteiCaptureReading('#detail-body') : null].filter(Boolean);
   return {state:JSON.parse(JSON.stringify(saved)),pages:JSON.parse(JSON.stringify(ryoteiPages)),reading,
-    filterSection:$('#workbench-filters').dataset.section,scroll:window.scrollY,detailScroll:($('#detail-body .detail-scroll')||{}).scrollTop || 0};
+    filterSection:$('#workbench-filters').dataset.section,scroll:window.scrollY,detailScroll:($('#detail-body .detail-scroller')||{}).scrollTop || 0};
 }
 function ryoteiSaveView(){
   history.replaceState({...history.state,ryoteiView:ryoteiCaptureView()},'',location.href);
@@ -311,7 +311,7 @@ function ryoteiRestoreView(){
     aside.dataset.section=view.filterSection;
     ryoteiUpdateFilters(state.tab);
   }
-  requestAnimationFrame(()=>{ ryoteiRestoreReading(view.reading);window.scrollTo({top:view.scroll,behavior:'instant'});const detailScroll=state.openGuest && $('#detail-body .detail-scroll');if (detailScroll) detailScroll.scrollTop=view.detailScroll; });
+  requestAnimationFrame(()=>{ ryoteiRestoreReading(view.reading);window.scrollTo({top:view.scroll,behavior:'instant'});const detailScroll=state.openGuest && $('#detail-body .detail-scroller');if (detailScroll) detailScroll.scrollTop=view.detailScroll; });
 }
 function ryoteiRevealItem(){
   if (state.focusTab !== state.tab || !state.focusItem) return;

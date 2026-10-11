@@ -1,16 +1,28 @@
 {
-  "file": "东方夜雀食堂攻略查询_2610112211.html",
+  "file": "东方夜雀食堂攻略查询_2610112235.html",
   "viewport": "1920x933",
   "tabs": {
     "meals": {
-      "overflow": [],
-      "detailScroll": {
-        "scrollWidth": 897,
-        "clientWidth": 897,
-        "offsetHeight": 575,
-        "clientHeight": 575
-      },
-      "documentHScroll": false,
+      "overflow": [
+        {
+          "sel": ".detail-scroll",
+          "scrollWidth": 911,
+          "clientWidth": 897,
+          "scrollHeight": 774,
+          "clientHeight": 575,
+          "overflowX": "hidden",
+          "userScrollableX": false
+        },
+        {
+          "sel": ".detail-scroller",
+          "scrollWidth": 897,
+          "clientWidth": 897,
+          "scrollHeight": 4520,
+          "clientHeight": 575,
+          "overflowX": "auto",
+          "userScrollableX": false
+        }
+      ],
       "columns": [
         {
           "text": "菜品",
@@ -53,18 +65,29 @@
           "width": 78
         }
       ],
-      "tableMinWidth": "760px",
-      "tableWidth": 897
+      "stickyHeader": "sticky"
     },
     "drinks": {
-      "overflow": [],
-      "detailScroll": {
-        "scrollWidth": 897,
-        "clientWidth": 897,
-        "offsetHeight": 609,
-        "clientHeight": 609
-      },
-      "documentHScroll": false,
+      "overflow": [
+        {
+          "sel": ".detail-scroll",
+          "scrollWidth": 911,
+          "clientWidth": 897,
+          "scrollHeight": 774,
+          "clientHeight": 609,
+          "overflowX": "hidden",
+          "userScrollableX": false
+        },
+        {
+          "sel": ".detail-scroller",
+          "scrollWidth": 897,
+          "clientWidth": 897,
+          "scrollHeight": 1225,
+          "clientHeight": 609,
+          "overflowX": "auto",
+          "userScrollableX": false
+        }
+      ],
       "columns": [
         {
           "text": "酒水",
@@ -97,18 +120,29 @@
           "width": 228
         }
       ],
-      "tableMinWidth": "760px",
-      "tableWidth": 897
+      "stickyHeader": "sticky"
     },
     "addons": {
-      "overflow": [],
-      "detailScroll": {
-        "scrollWidth": 897,
-        "clientWidth": 897,
-        "offsetHeight": 733,
-        "clientHeight": 733
-      },
-      "documentHScroll": false,
+      "overflow": [
+        {
+          "sel": ".detail-scroll",
+          "scrollWidth": 911,
+          "clientWidth": 897,
+          "scrollHeight": 774,
+          "clientHeight": 733,
+          "overflowX": "hidden",
+          "userScrollableX": false
+        },
+        {
+          "sel": ".detail-scroller",
+          "scrollWidth": 897,
+          "clientWidth": 897,
+          "scrollHeight": 1102,
+          "clientHeight": 733,
+          "overflowX": "auto",
+          "userScrollableX": false
+        }
+      ],
       "columns": [
         {
           "text": "场景",
@@ -146,22 +180,37 @@
           "width": 160
         }
       ],
-      "tableMinWidth": "760px",
-      "tableWidth": 897
+      "stickyHeader": "sticky"
     },
     "bonds": {
-      "overflow": [],
-      "detailScroll": {
-        "scrollWidth": 897,
-        "clientWidth": 897,
-        "offsetHeight": 420,
-        "clientHeight": 420
-      },
-      "documentHScroll": false,
+      "overflow": [
+        {
+          "sel": ".detail-scroll",
+          "scrollWidth": 911,
+          "clientWidth": 897,
+          "scrollHeight": 774,
+          "clientHeight": 420,
+          "overflowX": "hidden",
+          "userScrollableX": false
+        },
+        {
+          "sel": ".detail-scroller",
+          "scrollWidth": 897,
+          "clientWidth": 897,
+          "scrollHeight": 420,
+          "clientHeight": 420,
+          "overflowX": "auto",
+          "userScrollableX": false
+        }
+      ],
       "columns": null,
-      "tableMinWidth": null,
-      "tableWidth": null
+      "stickyHeader": null
     }
   },
-  "errors": []
+  "errors": [],
+  "mealsScrolled": {
+    "scrollTop": 3945,
+    "clientHeight": 575,
+    "scrollHeight": 4520
+  }
 }

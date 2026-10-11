@@ -143,7 +143,7 @@ function renderDetailPane(guest){
   const body = $('#detail-body');
   const pane = (id,toolbar,scroll) => '<div class="detail-pane" id="' + id + '">' +
     (toolbar ? '<div class="detail-toolbar">' + toolbar + '</div>' : '') +
-    '<div class="detail-scroll" data-name="' + escAttr(state.openGuest) + '">' + scroll + '</div></div>';
+    '<div class="detail-scroll" data-name="' + escAttr(state.openGuest) + '"><div class="detail-scroller">' + scroll + '</div></div></div>';
   let html = '';
   if (state.detailTab === 'meals') {
     const list = ryoteiDetailMealList(name);
@@ -175,9 +175,9 @@ function renderDetailPane(guest){
   }
   // paneGuest 只记录详情面板当前渲染的客人（页签切换清空回顶）；
   // 不能复用 detailGuest——那是备菜页筛选与路由键，写它会触发 applyRoute 修复并整页重渲染。
-  const previousScroll = state.paneGuest === name ? (body.querySelector('.detail-scroll')||{}).scrollTop || 0 : 0;
+  const previousScroll = state.paneGuest === name ? (body.querySelector('.detail-scroller')||{}).scrollTop || 0 : 0;
   body.innerHTML = html;
-  body.querySelector('.detail-scroll').scrollTop = previousScroll;
+  body.querySelector('.detail-scroller').scrollTop = previousScroll;
   state.paneGuest = name;
 }
 

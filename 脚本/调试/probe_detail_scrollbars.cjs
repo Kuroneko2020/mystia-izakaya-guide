@@ -1,6 +1,7 @@
 // 只读探针：定位客人详情四个页签的横向滚动条来源与料理表列宽分布。
 // 运行：NODE_PATH=<pw_bridge>/node_modules node 脚本/调试/probe_detail_scrollbars.cjs
 // 产物：验证记录/2026-10-11--详情滚动条探针/probe.json 与截图；不修改任何成品。
+// 2026-10-11 起详情滚动由内层 .detail-scroller 承担，外层 .detail-scroll 仅承载固定水印图层。
 const fs = require('node:fs');
 const path = require('node:path');
 const {pathToFileURL} = require('node:url');
@@ -20,8 +21,7 @@ async function main() {
   await page.goto(pathToFileURL(file).href);
 
   // 打开客人详情（比那名居天子，与用户截图一致）。
-  await page.locator('[data-tab="guests"]').first().click().catch(() => {});
-  await page.locator('button.primary-tab[data-group="guests"]').click().catch(() => {});
+  await page.locator('button.primary-tab[data-group="guests"]').click();
   await page.waitForTimeout(300);
   await page.locator('.guest-card[data-guest="比那名居天子"]').first().click();
   await page.waitForSelector('#detail-panel.open', {timeout: 5000});
@@ -36,22 +36,20 @@ async function main() {
     }, tab);
     await page.waitForTimeout(350);
     const info = await page.evaluate(() => {
-      const panel = document.querySelector('#detail-panel');
+      const outer = document.querySelector('#detail-body .detail-scroll');
+      const scroller = document.querySelector('#detail-body .detail-scroller');
       const overflow = [];
-      for (const el of panel.querySelectorAll('*')) {
-        if (el.scrollWidth > el.clientWidth + 1 && el.clientWidth > 0) {
-          const cs = getComputedStyle(el);
-          if (cs.overflowX !== 'visible') {
-            overflow.push({
-              sel: el.id ? '#' + el.id : el.className ? '.' + String(el.className).split(' ').join('.') : el.tagName,
-              scrollWidth: el.scrollWidth, clientWidth: el.clientWidth,
-              overflowX: cs.overflowX, hasHScrollbar: el.offsetWidth - el.clientWidth > 2
-            });
-          }
-        }
+      for (const el of [outer, scroller]) {
+        const cs = getComputedStyle(el);
+        overflow.push({
+          sel: '.' + el.className.split(' ')[0],
+          scrollWidth: el.scrollWidth, clientWidth: el.clientWidth,
+          scrollHeight: el.scrollHeight, clientHeight: el.clientHeight,
+          overflowX: cs.overflowX,
+          userScrollableX: (cs.overflowX === 'auto' || cs.overflowX === 'scroll') && el.scrollWidth > el.clientWidth + 1
+        });
       }
-      const scroll = panel.querySelector('.detail-scroll');
-      const table = panel.querySelector('.data-table');
+      const table = scroller.querySelector('.data-table');
       let columns = null;
       if (table) {
         columns = [...table.querySelectorAll('thead th')].map(th => ({
@@ -59,19 +57,22 @@ async function main() {
           width: Math.round(th.getBoundingClientRect().width)
         }));
       }
-      return {
-        overflow,
-        detailScroll: scroll ? {scrollWidth: scroll.scrollWidth, clientWidth: scroll.clientWidth,
-          offsetHeight: scroll.offsetHeight, clientHeight: scroll.clientHeight} : null,
-        documentHScroll: document.documentElement.scrollWidth > document.documentElement.clientWidth,
-        columns,
-        tableMinWidth: table ? getComputedStyle(table).minWidth : null,
-        tableWidth: table ? Math.round(table.getBoundingClientRect().width) : null
-      };
+      return {overflow, columns,
+        stickyHeader: table ? getComputedStyle(table.querySelector('thead th')).position : null};
     });
     report.tabs[tab] = info;
     await page.screenshot({path: path.join(outputDir, 'tab-' + tab + '.png')});
   }
+  // 水印固定性：料理页签滚动到底再截一张，水印应仍停在原屏幕位置。
+  await page.evaluate(() => document.querySelector('#detail-tabs [data-detail-tab="meals"]').click());
+  await page.waitForTimeout(300);
+  await page.evaluate(() => { const s = document.querySelector('#detail-body .detail-scroller'); s.scrollTop = s.scrollHeight; });
+  await page.waitForTimeout(300);
+  report.mealsScrolled = await page.evaluate(() => {
+    const s = document.querySelector('#detail-body .detail-scroller');
+    return {scrollTop: s.scrollTop, clientHeight: s.clientHeight, scrollHeight: s.scrollHeight};
+  });
+  await page.screenshot({path: path.join(outputDir, 'tab-meals-scrolled.png')});
   await browser.close();
   fs.writeFileSync(path.join(outputDir, 'probe.json'), JSON.stringify(report, null, 2));
   console.log(JSON.stringify(report, null, 2));
