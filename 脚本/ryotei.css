@@ -461,16 +461,16 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 html{scrollbar-gutter:stable}
 /* 水印落在列表滚动区内侧（工具栏之下、行背景之间透出）。 */
 
-/* 竖排名字水印：独立半透明图层，钉在滚动视口右上、不随列表滚动；内容从其下穿过（z0 定位层高于非定位行）。 */
+/* 竖排名字水印：独立半透明图层（z0 定位层高于非定位行）。垂直位置由 ryoteiUpdateNameMark 动态计算：
+   视口装得下则居中固定；装不下先露上段、随滚动露出名字底部后钉在视口底缘（transform 定位）。
+   墨迹超出视口的部分由外层 .detail-scroll 的 overflow:hidden 裁剪，不参与滚动溢出。 */
 .detail-scroll{position:relative}
-.detail-scroll::before{
-  content:attr(data-name);position:absolute;top:10px;right:6px;z-index:0;
+.detail-name-mark{
+  position:absolute;top:0;right:6px;z-index:0;
   writing-mode:vertical-rl;text-orientation:upright;
   font-family:var(--display-font);font-size:clamp(88px,13vh,140px);line-height:1;
   color:var(--text);opacity:.055;letter-spacing:.05em;
-  pointer-events:none;user-select:none;white-space:nowrap;
-  /* 独立图层：外层 .detail-scroll 已不滚动（overflow:hidden），水印钉在滚动视口上不随列表移动，
-     超出视口的字形墨迹由外层裁剪，不再参与任何滚动区的可滚动溢出。 */
+  pointer-events:none;user-select:none;white-space:nowrap;will-change:transform;
 }
-@media(max-width:620px){.detail-scroll::before{display:none}}
+@media(max-width:620px){.detail-name-mark{display:none}}
 

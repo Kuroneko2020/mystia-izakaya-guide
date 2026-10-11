@@ -1,216 +1,95 @@
 {
-  "file": "东方夜雀食堂攻略查询_2610112235.html",
+  "file": "东方夜雀食堂攻略查询_2610112252.html",
   "viewport": "1920x933",
+  "errors": [],
+  "longNameTop": {
+    "name": "比那名居天子",
+    "markH": 764,
+    "viewportH": 575,
+    "scrollTop": 0,
+    "shiftY": 10,
+    "scrollH": 4520,
+    "clientH": 575
+  },
+  "longNameScrolled": {
+    "name": "比那名居天子",
+    "markH": 764,
+    "viewportH": 575,
+    "scrollTop": 3945,
+    "shiftY": -189,
+    "scrollH": 4520,
+    "clientH": 575
+  },
+  "shortNameTop": {
+    "name": "博丽灵梦",
+    "markH": 509,
+    "viewportH": 609,
+    "scrollTop": 0,
+    "shiftY": 50,
+    "scrollH": 3883,
+    "clientH": 609
+  },
+  "shortNameScrolled": {
+    "name": "博丽灵梦",
+    "markH": 509,
+    "viewportH": 609,
+    "scrollTop": 3274,
+    "shiftY": 50,
+    "scrollH": 3883,
+    "clientH": 609
+  },
   "tabs": {
     "meals": {
-      "overflow": [
-        {
-          "sel": ".detail-scroll",
-          "scrollWidth": 911,
-          "clientWidth": 897,
-          "scrollHeight": 774,
-          "clientHeight": 575,
-          "overflowX": "hidden",
-          "userScrollableX": false
-        },
-        {
-          "sel": ".detail-scroller",
-          "scrollWidth": 897,
-          "clientWidth": 897,
-          "scrollHeight": 4520,
-          "clientHeight": 575,
-          "overflowX": "auto",
-          "userScrollableX": false
-        }
-      ],
-      "columns": [
-        {
-          "text": "菜品",
-          "left": 1013,
-          "width": 132
-        },
-        {
-          "text": "等级",
-          "left": 1145,
-          "width": 62
-        },
-        {
-          "text": "价格▼",
-          "left": 1207,
-          "width": 74
-        },
-        {
-          "text": "厨具",
-          "left": 1281,
-          "width": 64
-        },
-        {
-          "text": "主料",
-          "left": 1345,
-          "width": 205
-        },
-        {
-          "text": "菜品标签",
-          "left": 1550,
-          "width": 170
-        },
-        {
-          "text": "命中喜好",
-          "left": 1720,
-          "width": 112
-        },
-        {
-          "text": "命中数",
-          "left": 1832,
-          "width": 78
-        }
-      ],
-      "stickyHeader": "sticky"
+      "outer": {
+        "overflowX": "hidden",
+        "scrollWidth": 911,
+        "clientWidth": 897
+      },
+      "scroller": {
+        "scrollWidth": 897,
+        "clientWidth": 897,
+        "scrollHeight": 4520,
+        "clientHeight": 575
+      }
     },
     "drinks": {
-      "overflow": [
-        {
-          "sel": ".detail-scroll",
-          "scrollWidth": 911,
-          "clientWidth": 897,
-          "scrollHeight": 774,
-          "clientHeight": 609,
-          "overflowX": "hidden",
-          "userScrollableX": false
-        },
-        {
-          "sel": ".detail-scroller",
-          "scrollWidth": 897,
-          "clientWidth": 897,
-          "scrollHeight": 1225,
-          "clientHeight": 609,
-          "overflowX": "auto",
-          "userScrollableX": false
-        }
-      ],
-      "columns": [
-        {
-          "text": "酒水",
-          "left": 1013,
-          "width": 187
-        },
-        {
-          "text": "价格▼",
-          "left": 1200,
-          "width": 97
-        },
-        {
-          "text": "等级",
-          "left": 1297,
-          "width": 79
-        },
-        {
-          "text": "命中数",
-          "left": 1377,
-          "width": 100
-        },
-        {
-          "text": "标签",
-          "left": 1477,
-          "width": 205
-        },
-        {
-          "text": "命中喜好",
-          "left": 1682,
-          "width": 228
-        }
-      ],
-      "stickyHeader": "sticky"
+      "outer": {
+        "overflowX": "hidden",
+        "scrollWidth": 911,
+        "clientWidth": 897
+      },
+      "scroller": {
+        "scrollWidth": 897,
+        "clientWidth": 897,
+        "scrollHeight": 1225,
+        "clientHeight": 609
+      }
     },
     "addons": {
-      "overflow": [
-        {
-          "sel": ".detail-scroll",
-          "scrollWidth": 911,
-          "clientWidth": 897,
-          "scrollHeight": 774,
-          "clientHeight": 733,
-          "overflowX": "hidden",
-          "userScrollableX": false
-        },
-        {
-          "sel": ".detail-scroller",
-          "scrollWidth": 897,
-          "clientWidth": 897,
-          "scrollHeight": 1102,
-          "clientHeight": 733,
-          "overflowX": "auto",
-          "userScrollableX": false
-        }
-      ],
-      "columns": [
-        {
-          "text": "场景",
-          "left": 1013,
-          "width": 115
-        },
-        {
-          "text": "适用推荐菜",
-          "left": 1128,
-          "width": 115
-        },
-        {
-          "text": "食材",
-          "left": 1244,
-          "width": 115
-        },
-        {
-          "text": "价格",
-          "left": 1359,
-          "width": 115
-        },
-        {
-          "text": "等级",
-          "left": 1475,
-          "width": 115
-        },
-        {
-          "text": "食材标签",
-          "left": 1590,
-          "width": 160
-        },
-        {
-          "text": "补足标签",
-          "left": 1750,
-          "width": 160
-        }
-      ],
-      "stickyHeader": "sticky"
+      "outer": {
+        "overflowX": "hidden",
+        "scrollWidth": 911,
+        "clientWidth": 897
+      },
+      "scroller": {
+        "scrollWidth": 897,
+        "clientWidth": 897,
+        "scrollHeight": 1102,
+        "clientHeight": 733
+      }
     },
     "bonds": {
-      "overflow": [
-        {
-          "sel": ".detail-scroll",
-          "scrollWidth": 911,
-          "clientWidth": 897,
-          "scrollHeight": 774,
-          "clientHeight": 420,
-          "overflowX": "hidden",
-          "userScrollableX": false
-        },
-        {
-          "sel": ".detail-scroller",
-          "scrollWidth": 897,
-          "clientWidth": 897,
-          "scrollHeight": 420,
-          "clientHeight": 420,
-          "overflowX": "auto",
-          "userScrollableX": false
-        }
-      ],
-      "columns": null,
-      "stickyHeader": null
+      "outer": {
+        "overflowX": "hidden",
+        "scrollWidth": 911,
+        "clientWidth": 897
+      },
+      "scroller": {
+        "scrollWidth": 897,
+        "clientWidth": 897,
+        "scrollHeight": 420,
+        "clientHeight": 420
+      }
     }
-  },
-  "errors": [],
-  "mealsScrolled": {
-    "scrollTop": 3945,
-    "clientHeight": 575,
-    "scrollHeight": 4520
   }
 }

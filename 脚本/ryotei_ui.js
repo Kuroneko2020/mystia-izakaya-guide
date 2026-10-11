@@ -143,7 +143,7 @@ function renderDetailPane(guest){
   const body = $('#detail-body');
   const pane = (id,toolbar,scroll) => '<div class="detail-pane" id="' + id + '">' +
     (toolbar ? '<div class="detail-toolbar">' + toolbar + '</div>' : '') +
-    '<div class="detail-scroll" data-name="' + escAttr(state.openGuest) + '"><div class="detail-scroller">' + scroll + '</div></div></div>';
+    '<div class="detail-scroll"><span class="detail-name-mark" aria-hidden="true">' + esc(name) + '</span><div class="detail-scroller">' + scroll + '</div></div></div>';
   let html = '';
   if (state.detailTab === 'meals') {
     const list = ryoteiDetailMealList(name);
@@ -178,7 +178,26 @@ function renderDetailPane(guest){
   const previousScroll = state.paneGuest === name ? (body.querySelector('.detail-scroller')||{}).scrollTop || 0 : 0;
   body.innerHTML = html;
   body.querySelector('.detail-scroller').scrollTop = previousScroll;
+  body.querySelector('.detail-scroller').addEventListener('scroll',ryoteiUpdateNameMark,{passive:true});
+  // 首次打开时渲染先于 setPanelOpen 解除 hidden，同步测量会因 display:none 被跳过；rAF 时面板已可测量。
+  ryoteiUpdateNameMark();
+  requestAnimationFrame(ryoteiUpdateNameMark);
   state.paneGuest = name;
+}
+
+/* 名字水印动态定位：视口装得下则垂直居中并固定；装不下先露上段（顶部 10px 起），
+   随滚动与内容同速上移露出名字底部，到底后钉在视口底缘，不再继续随内容走。
+   超出视口的字形墨迹由外层 .detail-scroll 的 overflow:hidden 裁剪。 */
+function ryoteiUpdateNameMark(){
+  const scroll = $('#detail-body .detail-scroll');
+  const scroller = scroll && scroll.querySelector('.detail-scroller');
+  const mark = scroll && scroll.querySelector('.detail-name-mark');
+  if (!scroller || !mark || !scroller.clientHeight || !mark.offsetHeight) return;
+  const h = scroller.clientHeight, n = mark.offsetHeight;
+  const shift = n <= h
+    ? Math.min(h - n, Math.max(10,(h - n) / 2))
+    : Math.max(h - n, 10 - scroller.scrollTop);
+  mark.style.transform = 'translateY(' + shift + 'px)';
 }
 
 /* 详情列表：筛选（搜索+标签）与排序在客人切换时保留排序、清空过滤词。 */
@@ -256,6 +275,8 @@ function ryoteiUiInit(){
   updateHeader();
   if (window.ResizeObserver) new ResizeObserver(updateHeader).observe(header);
   window.addEventListener('resize',updateHeader);
+  window.addEventListener('resize',ryoteiUpdateNameMark);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ryoteiUpdateNameMark);
   document.addEventListener('keydown',(e) => {
     const panel = $('#detail-panel');
     if (e.key !== 'Tab' || panel.hidden || !panel.classList.contains('open')) return;
