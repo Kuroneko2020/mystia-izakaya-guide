@@ -461,12 +461,13 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 html{scrollbar-gutter:stable}
 /* 水印落在列表滚动区内侧（工具栏之下、行背景之间透出）。 */
 
-/* 竖排名字水印：独立半透明图层（z0 定位层高于非定位行）。垂直位置由 ryoteiUpdateNameMark 动态计算：
-   视口装得下则居中固定；装不下先露上段、随滚动露出名字底部后钉在视口底缘（transform 定位）。
-   墨迹超出视口的部分由外层 .detail-scroll 的 overflow:hidden 裁剪，不参与滚动溢出。 */
-.detail-scroll{position:relative}
+/* 竖排名字水印：独立半透明图层挂在面板层级（#detail-panel 直接子元素），范围覆盖头部到列表底部，
+   z:2 压在粘顶表头/页签/工具栏等内容之上。垂直位置由 ryoteiUpdateNameMark 动态计算：
+   面板高度装得下则居中固定；装不下先露上段、随列表滚动露出名字底部后钉在面板底缘（transform 定位）。
+   超出面板的墨迹由面板 overflow:hidden 裁剪，不参与滚动溢出。 */
+.detail-panel{overflow:hidden}
 .detail-name-mark{
-  position:absolute;top:0;right:6px;z-index:0;
+  position:absolute;top:0;right:6px;z-index:2;
   writing-mode:vertical-rl;text-orientation:upright;
   font-family:var(--display-font);font-size:clamp(88px,13vh,140px);line-height:1;
   color:var(--text);opacity:.055;letter-spacing:.05em;

@@ -117,6 +117,9 @@ function renderRyoteiGuestCard(guest,index){
 function renderRyoteiGuestDetail(guest){
   const name = guest['客人名字'];
   $('#detail-title').textContent = name;
+  // 水印挂在面板层级（范围覆盖头部到底部），名字随客人更新。
+  const mark = $('#detail-panel > .detail-name-mark');
+  if (mark) mark.textContent = name;
   // 副标题只留类型与持有金；版本字样按用户要求全站移除，来访地区并入口味区。
   $('#detail-sub').innerHTML = esc(ryoteiTypeLabel(guest['类型'])) + ' · 持有金 <strong>' + esc(guest['持有金']) + '</strong>';
   const seal = $('#detail-seal');
@@ -143,7 +146,7 @@ function renderDetailPane(guest){
   const body = $('#detail-body');
   const pane = (id,toolbar,scroll) => '<div class="detail-pane" id="' + id + '">' +
     (toolbar ? '<div class="detail-toolbar">' + toolbar + '</div>' : '') +
-    '<div class="detail-scroll"><span class="detail-name-mark" aria-hidden="true">' + esc(name) + '</span><div class="detail-scroller">' + scroll + '</div></div></div>';
+    '<div class="detail-scroll"><div class="detail-scroller">' + scroll + '</div></div></div>';
   let html = '';
   if (state.detailTab === 'meals') {
     const list = ryoteiDetailMealList(name);
@@ -185,15 +188,16 @@ function renderDetailPane(guest){
   state.paneGuest = name;
 }
 
-/* 名字水印动态定位：视口装得下则垂直居中并固定；装不下先露上段（顶部 10px 起），
-   随滚动与内容同速上移露出名字底部，到底后钉在视口底缘，不再继续随内容走。
-   超出视口的字形墨迹由外层 .detail-scroll 的 overflow:hidden 裁剪。 */
+/* 名字水印动态定位（独立图层挂在面板上，范围覆盖头部到列表底部，z 序在表头等内容之上）：
+   面板高度装得下则垂直居中并固定；装不下先露上段（顶部 10px 起），随列表滚动与内容同速上移
+   露出名字底部，到底后钉在面板底缘，不再继续随内容走。超出面板的墨迹由面板 overflow:hidden 裁剪。 */
 function ryoteiUpdateNameMark(){
-  const scroll = $('#detail-body .detail-scroll');
-  const scroller = scroll && scroll.querySelector('.detail-scroller');
-  const mark = scroll && scroll.querySelector('.detail-name-mark');
-  if (!scroller || !mark || !scroller.clientHeight || !mark.offsetHeight) return;
-  const h = scroller.clientHeight, n = mark.offsetHeight;
+  const panel = $('#detail-panel');
+  const mark = panel && panel.querySelector(':scope > .detail-name-mark');
+  const scroller = $('#detail-body .detail-scroller');
+  // 面板隐藏时先于任何布局读取返回，保证 resize 派发路径零布局开销。
+  if (!panel || panel.hidden || !mark || !scroller || !panel.clientHeight || !mark.offsetHeight) return;
+  const h = panel.clientHeight, n = mark.offsetHeight;
   const shift = n <= h
     ? Math.min(h - n, Math.max(10,(h - n) / 2))
     : Math.max(h - n, 10 - scroller.scrollTop);
@@ -275,7 +279,8 @@ function ryoteiUiInit(){
   updateHeader();
   if (window.ResizeObserver) new ResizeObserver(updateHeader).observe(header);
   window.addEventListener('resize',updateHeader);
-  window.addEventListener('resize',ryoteiUpdateNameMark);
+  // 测量推迟到 rAF：不在 resize 事件派发路径里做布局读取，避免挤压同期的媒体查询回调。
+  window.addEventListener('resize',() => requestAnimationFrame(ryoteiUpdateNameMark));
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(ryoteiUpdateNameMark);
   document.addEventListener('keydown',(e) => {
     const panel = $('#detail-panel');

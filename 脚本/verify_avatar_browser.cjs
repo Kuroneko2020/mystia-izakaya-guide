@@ -360,6 +360,8 @@ async function main() {
     await page.locator('button.primary-tab[data-group="items"]').click();
     await page.locator('#filter-toggle').click();
     await page.setViewportSize({width:1440,height:1000});
+    // 视口改变后的媒体查询回调与渲染帧存在固有派发延迟，等关闭完成再断言（有界，意图不变）。
+    await page.waitForFunction(()=>document.querySelector('#filter-backdrop').hidden,null,{timeout:2000});
     assert.equal(await page.locator('#filter-backdrop').isVisible(),false,'扩大到桌面关闭抽屉遮罩');
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
     assert.deepEqual(errors,[]);

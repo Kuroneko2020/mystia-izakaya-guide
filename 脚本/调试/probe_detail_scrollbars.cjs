@@ -1,8 +1,8 @@
 // 只读探针：定位客人详情四个页签的横向滚动条来源与料理表列宽分布。
 // 运行：NODE_PATH=<pw_bridge>/node_modules node 脚本/调试/probe_detail_scrollbars.cjs
 // 产物：验证记录/2026-10-11--详情滚动条探针/probe.json 与截图；不修改任何成品。
-// 2026-10-11 起详情滚动由内层 .detail-scroller 承担，外层 .detail-scroll 仅承载名字水印独立图层；
-// 水印垂直位置由 ryoteiUpdateNameMark 动态计算（装得下居中固定；装不下随滚动露底后钉住）。
+// 2026-10-11 起详情滚动由内层 .detail-scroller 承担；名字水印挂在面板层级（z:2、范围覆盖头部到底部），
+// 垂直位置由 ryoteiUpdateNameMark 动态计算（装得下居中固定；装不下随滚动露底后钉住）。
 const fs = require('node:fs');
 const path = require('node:path');
 const {pathToFileURL} = require('node:url');
@@ -20,14 +20,18 @@ async function openDetail(page, guest) {
   await page.waitForSelector('#detail-panel.open', {timeout: 5000});
   await page.waitForTimeout(400);
 }
+async function closeDetail(page) {
+  await page.evaluate(() => document.querySelector('#detail-panel .icon-btn').click());
+  await page.waitForTimeout(300);
+}
 async function markState(page) {
   return page.evaluate(() => {
+    const panel = document.querySelector('#detail-panel');
     const scroller = document.querySelector('#detail-body .detail-scroller');
-    const mark = document.querySelector('#detail-body .detail-name-mark');
+    const mark = panel.querySelector(':scope > .detail-name-mark');
     const m = new DOMMatrixReadOnly(getComputedStyle(mark).transform === 'none' ? '' : getComputedStyle(mark).transform);
-    return {name: mark.textContent, markH: mark.offsetHeight, viewportH: scroller.clientHeight,
-      scrollTop: scroller.scrollTop, shiftY: +m.m42.toFixed(1),
-      scrollH: scroller.scrollHeight, clientH: scroller.clientHeight};
+    return {name: mark.textContent, markH: mark.offsetHeight, panelH: panel.clientHeight,
+      viewportH: scroller.clientHeight, scrollTop: scroller.scrollTop, shiftY: +m.m42.toFixed(1)};
   });
 }
 
@@ -39,32 +43,30 @@ async function main() {
   page.on('pageerror', e => errors.push(e.message));
   await page.goto(pathToFileURL(file).href);
 
-  // 长名（比那名居天子，6 字）：先露上段，滚动露出底部后钉住。
-  await openDetail(page, '比那名居天子');
   const report = {file: path.basename(file), viewport: '1920x933', errors};
+
+  // 超长名（蹦蹦跳跳的三妖精，8 字）：先露上段，随滚动露出底部后钉在面板底缘。
+  await openDetail(page, '蹦蹦跳跳的三妖精');
   await page.evaluate(() => document.querySelector('#detail-tabs [data-detail-tab="meals"]').click());
   await page.waitForTimeout(300);
   report.longNameTop = await markState(page);
-  await page.screenshot({path: path.join(outputDir, 'tab-meals.png')});
   await page.evaluate(() => { const s = document.querySelector('#detail-body .detail-scroller'); s.scrollTop = s.scrollHeight; });
   await page.waitForTimeout(300);
   report.longNameScrolled = await markState(page);
   await page.screenshot({path: path.join(outputDir, 'tab-meals-scrolled.png')});
+  await closeDetail(page);
 
-  // 短名（博丽灵梦，4 字）：居中固定，滚动前后 shift 不变。
-  await page.evaluate(() => { document.querySelector('#detail-panel .icon-btn').click(); });
+  // 6 字名（比那名居天子）：面板高度内装得下 → 居中固定，滚动前后不变。
+  await openDetail(page, '比那名居天子');
+  await page.evaluate(() => document.querySelector('#detail-tabs [data-detail-tab="meals"]').click());
   await page.waitForTimeout(300);
-  await openDetail(page, '博丽灵梦');
-  await page.waitForTimeout(300);
-  report.shortNameTop = await markState(page);
+  report.sixNameTop = await markState(page);
+  await page.screenshot({path: path.join(outputDir, 'tab-meals.png')});
   await page.evaluate(() => { const s = document.querySelector('#detail-body .detail-scroller'); s.scrollTop = s.scrollHeight; });
   await page.waitForTimeout(300);
-  report.shortNameScrolled = await markState(page);
+  report.sixNameScrolled = await markState(page);
 
-  // 其余页签横向溢出复查。
-  await page.evaluate(() => { document.querySelector('#detail-panel .icon-btn').click(); });
-  await page.waitForTimeout(300);
-  await openDetail(page, '比那名居天子');
+  // 四页签横向溢出复查。
   report.tabs = {};
   for (const tab of ['meals', 'drinks', 'addons', 'bonds']) {
     await page.evaluate(t => {
