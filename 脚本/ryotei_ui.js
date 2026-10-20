@@ -127,19 +127,44 @@ function renderRyoteiGuestDetail(guest){
   seal.innerHTML = avatar ? '<img src="' + avatar + '" alt="">' : esc(name.charAt(0));
   seal.style.setProperty('--pc',guestColor(name));
   // 口味常驻头部：玩家打开详情第一眼要的就是来访地区与喜好/厌恶。
-  const placeRow = '<div class="taste-row"><span class="tag-label">来访</span><div class="tag-wrap">' +
-    (name === '因幡帝' ? '<span class="muted">全部地区（随机出现）</span>' : ryoteiLocationLinks(guest['出没地点'])) + '</div></div>';
-  const tasteRow = (label,kind,value) => '<div class="taste-row"><span class="tag-label ' + kind + '">' + label + '</span><div class="tag-wrap">' + tagHtml(value,kind) + '</div></div>';
-  $('#detail-tastes').innerHTML =
-    placeRow +
-    tasteRow('喜好料理','good',guest['喜好料理标签']) +
-    tasteRow('厌恶','bad',guest['厌恶料理标签']) +
-    tasteRow('喜好酒水','drink',guest['喜好酒水标签']) + ryoteiGuestFoodWarnings(name);
+  $('#detail-tastes').innerHTML = ryoteiTasteRows(guest);
   $$('#detail-tabs [data-detail-tab]').forEach(button=>
     button.classList.toggle('active',button.dataset.detailTab === state.detailTab));
   renderDetailPane(guest);
 }
 
+// 头部口味标签＝页签内筛选 chip 的快捷入口：料理写 detailMealChips，酒水写 detailDrinkChips。
+// 动态标签与“无”保持静态展示，避免出现点了没反应的按钮；厌恶行刻意不传 chipKind，保持不可点。
+function ryoteiTasteTagHtml(value, kind, chipKind){
+  const tags = sortTagsForDisplay(splitTags(value));
+  if (!tags.length) return '<span class="muted">无</span>';
+  if (!chipKind) return tagHtml(value, kind);
+  const chips = state[chipKind === 'drink' ? 'detailDrinkChips' : 'detailMealChips'] || [];
+  return tags.map((tag) => {
+    if (/动态/.test(tag)) return '<span class="tag dynamic">' + esc(tag) + '</span>';
+    const on = chips.includes(tag);
+    return '<button type="button" class="tag ' + kind + ' taste-tag' + (on ? ' active' : '') +
+      '" data-detail-taste="' + escAttr(tag) + '" data-detail-taste-kind="' + chipKind +
+      '" aria-pressed="' + on + '">' + esc(tag) + '</button>';
+  }).join('');
+}
+function ryoteiTasteRows(guest){
+  const name = guest['客人名字'];
+  const placeRow = '<div class="taste-row"><span class="tag-label">来访</span><div class="tag-wrap">' +
+    (name === '因幡帝' ? '<span class="muted">全部地区（随机出现）</span>' : ryoteiLocationLinks(guest['出没地点'])) + '</div></div>';
+  const tasteRow = (label,kind,value,chipKind) => '<div class="taste-row"><span class="tag-label ' + kind + '">' + label +
+    '</span><div class="tag-wrap">' + (chipKind ? ryoteiTasteTagHtml(value,kind,chipKind) : tagHtml(value,kind)) + '</div></div>';
+  return placeRow +
+    tasteRow('喜好料理','good',guest['喜好料理标签'],'meal') +
+    tasteRow('厌恶','bad',guest['厌恶料理标签']) +
+    tasteRow('喜好酒水','drink',guest['喜好酒水标签'],'drink') + ryoteiGuestFoodWarnings(name);
+}
+// 红框 chip 改动后回写头部高亮，保证“蓝框点了什么”和“红框选中什么”始终是同一份状态。
+function ryoteiRefreshTastes(){
+  const guest = ryoteiGuestRecord(state.openGuest);
+  const host = $('#detail-tastes');
+  if (guest && host) host.innerHTML = ryoteiTasteRows(guest);
+}
 function ryoteiGuestFoodWarnings(name){
   const warnings = [];
   for (const rule of GUEST_FOOD_RULES.foodExclusions || []) {

@@ -416,6 +416,11 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 .detail-toolbar>.tf-msg:empty{display:none}
 .detail-chips{display:flex;flex-wrap:wrap;gap:5px;flex-basis:100%;padding-top:2px}
 .detail-chips .tag{cursor:pointer;user-select:none;opacity:.82}
+.detail-tastes .tag[data-detail-taste]{cursor:pointer;user-select:none;font-family:inherit;opacity:.86}
+.detail-tastes .tag[data-detail-taste]:hover{opacity:1;filter:brightness(1.12);transform:translateY(-1px)}
+.detail-tastes .tag[data-detail-taste]:active{transform:scale(.95)}
+.detail-tastes .tag[data-detail-taste].active{opacity:1;background:var(--accent);border-color:var(--accent);color:#fff}
+.detail-tastes .tag[data-detail-taste]:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 .detail-chips .tag.active{opacity:1;background:var(--accent);border-color:var(--accent);color:#fff}
 .detail-chips .tag.chip{background:var(--panel-3)}
 .detail-scroll{flex:1;min-height:0;overflow:hidden;position:relative;z-index:1}

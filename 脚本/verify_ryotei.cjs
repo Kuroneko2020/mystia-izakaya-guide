@@ -436,6 +436,7 @@ function sourceRuntime(rules={}){
         if (sel === '[data-table-page]') return this.dataset.tablePage != null;
         if (sel === '[data-detail-tab]') return this.dataset.detailTab != null;
         if (sel === '[data-detail-chip]') return this.dataset.detailChip != null;
+        if (sel === '[data-detail-taste]') return this.dataset.detailTaste != null;
         return false;
       });
     }
@@ -717,6 +718,29 @@ for(const query of ['低酒精','dijiujing','djj']) {
   assert.deepEqual(Array.from(tagApp.state.detailDrinkChips),['低酒精'],'酒水详情也支持标签回车: '+query);
   assert.equal(tagApp.state.detailDrinkQuery,'');assert.equal(input.value,'');
 }
+// 头部口味标签＝页签内 chip 的快捷入口：同一份 state、双向高亮、酒水自动切页签。
+const tastesEl=tagTest.elements.get('detail-tastes');
+const tasteRowsHtml=String(tastesEl.innerHTML||'').split('class="taste-row"');
+assert.ok(tastesEl.innerHTML.includes('data-detail-taste="清淡"'),'头部喜好料理标签可点');
+assert.ok(tastesEl.innerHTML.includes('data-detail-taste="低酒精"'),'头部喜好酒水标签可点');
+assert.equal((tasteRowsHtml.find(row=>row.includes('>厌恶<'))||'').includes('data-detail-taste'),false,'厌恶行不产生可点标签');
+tagApp.state.detailMealChips=[];tagApp.state.detailDrinkChips=[];
+tagTest.click(tagTest.tabs[0]);tagTest.flush();
+const mealTaste=tagTest.element('test-taste-meal');mealTaste.dataset.detailTaste='清淡';mealTaste.dataset.detailTasteKind='meal';
+tastesEl.appendChild(mealTaste);tagTest.click(mealTaste);tagTest.flush();
+assert.deepEqual(Array.from(tagApp.state.detailMealChips),['清淡'],'点头部喜好料理＝点同名料理chip');
+assert.ok(String(tastesEl.innerHTML).includes('data-detail-taste="清淡" data-detail-taste-kind="meal" aria-pressed="true"'),'头部标签回写选中态');
+const mealTasteAgain=tagTest.element('test-taste-meal-again');mealTasteAgain.dataset.detailTaste='清淡';mealTasteAgain.dataset.detailTasteKind='meal';
+tastesEl.appendChild(mealTasteAgain);tagTest.click(mealTasteAgain);tagTest.flush();
+assert.equal(tagApp.state.detailMealChips.length,0,'再点一次取消该标签');
+const drinkTaste=tagTest.element('test-taste-drink');drinkTaste.dataset.detailTaste='低酒精';drinkTaste.dataset.detailTasteKind='drink';
+tastesEl.appendChild(drinkTaste);tagTest.click(drinkTaste);tagTest.flush();
+assert.equal(tagApp.state.detailTab,'drinks','点头部喜好酒水自动切到推荐酒水页签');
+assert.deepEqual(Array.from(tagApp.state.detailDrinkChips),['低酒精'],'酒水标签写入detailDrinkChips');
+tagApp.state.detailDrinkChips=[];tagTest.click(tagTest.tabs[0]);tagTest.flush();
+const syncChip=tagTest.element('test-sync-chip');syncChip.dataset.detailChip='清淡';tagTest.body.appendChild(syncChip);tagTest.click(syncChip);tagTest.flush();
+assert.ok(String(tastesEl.innerHTML).includes('data-detail-taste="清淡" data-detail-taste-kind="meal" aria-pressed="true"'),'红框chip点击后头部同步高亮');
+tagApp.state.detailMealChips=[];tagApp.state.detailDrinkChips=[];tagTest.click(tagTest.tabs[0]);tagTest.flush();
 const uniqueCfg={suggestions:['家常','清淡']};
 assert.deepEqual(Array.from(tagApp.resolveTags(uniqueCfg,'jc')),['家常']);
 assert.deepEqual(Array.from(tagApp.resolveTags(uniqueCfg,'jiachang')),['家常']);
