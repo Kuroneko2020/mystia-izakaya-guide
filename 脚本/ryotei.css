@@ -410,6 +410,10 @@ html[data-theme=light] .site-header{background:linear-gradient(90deg,#fbf1dcf7,#
 .detail-toolbar input[type="search"]{flex:1 1 200px;min-width:150px}
 .detail-toolbar select{cursor:pointer}
 .detail-count{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
+.guest-food-warning{margin:3px 0;color:var(--bad);font-size:11px;line-height:1.5}
+.detail-toolbar>.tf-hint{flex-basis:100%;font-size:11px;color:var(--muted)}
+.detail-toolbar>.tf-msg{flex-basis:100%;font-size:11px;color:var(--dynamic)}
+.detail-toolbar>.tf-msg:empty{display:none}
 .detail-chips{display:flex;flex-wrap:wrap;gap:5px;flex-basis:100%;padding-top:2px}
 .detail-chips .tag{cursor:pointer;user-select:none;opacity:.82}
 .detail-chips .tag.active{opacity:1;background:var(--accent);border-color:var(--accent);color:#fff}
@@ -475,3 +479,42 @@ html{scrollbar-gutter:stable}
 }
 @media(max-width:620px){.detail-name-mark{display:none}}
 
+/* 小屏断点值必须排在基础规则之后：后置的 .detail-panel/.detail-head 基础规则会覆盖早期断点。 */
+@media(max-width:1000px){
+  .detail-panel{width:94vw}
+}
+@media(max-width:620px){
+  .detail-panel{width:100%;border-left:0}
+  .detail-head{padding:10px 12px;gap:8px;align-items:flex-start}
+  .detail-head-copy{flex-direction:column;align-items:flex-start;gap:9px;min-width:0}
+  .detail-head-main{max-width:100%}.detail-head h2{font-size:20px;white-space:normal;overflow-wrap:anywhere}
+  .detail-head .seal-lg{width:46px;height:46px;flex-shrink:0}
+  .detail-tastes{width:100%;font-size:11px}.detail-tastes .tag{font-size:10px;padding:2px 4px}
+  .detail-tabs{padding:5px 10px;gap:2px;flex-wrap:wrap;overflow-x:visible}
+  .detail-tabs button{padding:6px 8px;font-size:11px}
+  .detail-toolbar{padding:8px 10px 5px}.detail-toolbar input[type=search]{min-width:0}
+}
+
+/* 今晚备菜覆盖：随“今晚开店”地点联动的只读参考，挂在备菜表页签内容下方。 */
+.ryotei-workbench>.night-preparation{grid-column:1/-1;grid-row:3;min-width:0;margin-top:4px}
+.ryotei-workbench.has-filters>.night-preparation{grid-column:2}
+.night-preparation{border:1px solid var(--border);border-radius:6px;background:var(--panel)}
+.night-preparation>summary{padding:9px 12px;font-size:13px;cursor:pointer;color:var(--text)}
+.night-preparation>summary:hover{color:var(--accent)}
+.night-preparation>summary span{color:var(--muted);font-size:11px;margin-left:6px}
+#night-preparation-body{padding:0 12px 12px}
+.prep-note{font-size:12px;color:var(--muted);line-height:1.7;margin:7px 0}
+.prep-guests{font-size:12px;line-height:2;margin:7px 0;overflow-wrap:anywhere}
+.prep-guests strong{font-weight:500}
+.prep-coverage-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.night-preparation h4{font-size:14px;font-weight:500;margin:12px 0 6px}
+.prep-coverage{list-style:none;margin:0;padding:0;max-height:420px;overflow:auto}
+.prep-coverage>li{display:flex;align-items:flex-start;gap:8px;padding:8px 0;border-bottom:1px solid var(--border)}
+.prep-coverage>li>div{flex:1;min-width:0}
+.prep-coverage strong{display:block;font-size:13px;font-weight:500;overflow-wrap:anywhere}
+.prep-coverage .muted{font-size:11px;display:block;margin-top:4px;color:var(--muted)}
+.prep-coverage details{font-size:11px;color:var(--muted);margin-top:4px}
+.prep-coverage details p{line-height:1.6;margin:4px 0;overflow-wrap:anywhere}
+.prep-coverage summary{cursor:pointer}
+.night-preparation .muted{color:var(--muted)}
+@media(max-width:620px){.prep-coverage-grid{grid-template-columns:1fr;gap:10px}.prep-coverage{max-height:none}}

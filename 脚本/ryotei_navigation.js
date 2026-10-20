@@ -27,6 +27,15 @@ function ryoteiGuestRecord(name){
 function ryoteiStaticTags(value){
   return splitTags(value).filter(tag=>! /动态|^流行/.test(tag));
 }
+function ryoteiFoodException(guestName,row){
+  const food = (GUEST_FOOD_RULES.foodExclusions || []).find(rule=>rule.guestName === guestName && rule.foodName === row['菜品']);
+  if (food) return food;
+  const ingredients = String(row['主料'] || '').split(/[＋+、]/).map(name=>name.trim());
+  return (GUEST_FOOD_RULES.ingredientExclusions || []).find(rule=>rule.guestName === guestName && ingredients.includes(rule.ingredientName));
+}
+function ryoteiIngredientException(guestName,ingredientName){
+  return (GUEST_FOOD_RULES.ingredientExclusions || []).find(rule=>rule.guestName === guestName && rule.ingredientName === ingredientName);
+}
 function ryoteiRecommendationRows(kind){
   if (ryoteiRecommendations.has(kind)) return ryoteiRecommendations.get(kind);
   const food = kind === 'food';
@@ -35,10 +44,12 @@ function ryoteiRecommendationRows(kind){
   for (const guest of dataOf('guests').concat(dataOf('normal'))) {
     const likes = ryoteiStaticTags(guest[food ? '喜好料理标签' : '喜好酒水标签']);
     const dislikes = ryoteiStaticTags(guest[food ? '厌恶料理标签' : '厌恶酒水标签']);
+    const name = guest['客人名字'] || guest['普通客人'];
     for (const {row,tags} of items) {
-      const hits = likes.filter(tag=>tags.has(tag));
-      if (!hits.length || dislikes.some(tag=>tags.has(tag))) continue;
-      rows.push({...row,'客人名字':guest['客人名字'] || guest['普通客人'],'类型':guest['类型'] || '普通客人',
+      // 命中喜好也按统一标签顺序输出，展开的“客人与命中”与单元格顺序一致。
+      const hits = sortTagsForDisplay(likes.filter(tag=>tags.has(tag)));
+      if (!hits.length || dislikes.some(tag=>tags.has(tag)) || (food && ryoteiFoodException(name,row))) continue;
+      rows.push({...row,'客人名字':name,'类型':guest['类型'] || '普通客人',
         '命中喜好':hits.join('、'),'命中数':hits.length,'__等级文本':'Lv ' + row['等级'],
         '加料建议':food ? '按客人喜好补足标签，避开客人厌恶与菜谱冲突标签。' : ''});
     }
@@ -241,7 +252,7 @@ function ryoteiCaptureReading(selector){
   const scope = $(selector);
   if (!scope) return null;
   return {selector,
-    scrolls:Array.from(scope.querySelectorAll('.table-wrap,.paged-table-scroll,.filter-content')).map(el=>({top:el.scrollTop,left:el.scrollLeft})),
+    scrolls:Array.from(scope.querySelectorAll('.table-wrap,.paged-table-scroll,.filter-content,.detail-scroller')).map(el=>({top:el.scrollTop,left:el.scrollLeft})),
     details:Array.from(scope.querySelectorAll('details')).map(el=>el.open),
     rows:Array.from(scope.querySelectorAll('[data-row-expand]')).map(el=>el.getAttribute('aria-expanded') === 'true')
   };
@@ -258,17 +269,26 @@ function ryoteiRestoreReading(entries){
       const row=document.getElementById(el.getAttribute('aria-controls'));
       if (row) row.hidden=!open;
     });
-    Array.from(scope.querySelectorAll('.table-wrap,.paged-table-scroll,.filter-content')).forEach((el,index)=>{
+    Array.from(scope.querySelectorAll('.table-wrap,.paged-table-scroll,.filter-content,.detail-scroller')).forEach((el,index)=>{
       const scroll=saved.scrolls[index];
       if (scroll) {el.scrollTop=scroll.top;el.scrollLeft=scroll.left;}
     });
   }
 }
+function ryoteiDetailViewSignature(){
+  const prefix = {meals:'detailMeal',drinks:'detailDrink',addons:'detailAddon'}[state.detailTab];
+  const local = Object.entries(state).filter(([key])=>key === 'detailTab' || (prefix && key.startsWith(prefix)));
+  const pages = Object.entries(ryoteiPages).filter(([key,page])=>prefix && (page.sortKey || key) === prefix + 'Sort');
+  return JSON.stringify([state.openGuest,local,pages]);
+}
 function ryoteiCaptureView(){
-  const saved = Object.fromEntries(Object.entries(state).filter(([key])=>key !== 'openGuest' && !key.startsWith('global')));
+  // openGuest 由人物路由决定，paneGuest 是当前 DOM 的标记；两者都不能被旧快照伪装成已渲染。
+  const saved = Object.fromEntries(Object.entries(state).filter(([key])=>key !== 'openGuest' && key !== 'paneGuest' && !key.startsWith('global')));
   const reading=[ryoteiCaptureReading('#panel-' + state.tab),ryoteiCaptureReading('#workbench-filters'),state.openGuest ? ryoteiCaptureReading('#detail-body') : null].filter(Boolean);
+  const scroller = $('#detail-body .detail-scroller');
   return {state:JSON.parse(JSON.stringify(saved)),pages:JSON.parse(JSON.stringify(ryoteiPages)),reading,
-    filterSection:$('#workbench-filters').dataset.section,scroll:window.scrollY,detailScroll:($('#detail-body .detail-scroller')||{}).scrollTop || 0};
+    filterSection:$('#workbench-filters').dataset.section,scroll:window.scrollY,scrollLeft:window.scrollX || 0,
+    detailScroll:{top:scroller?.scrollTop || 0,left:scroller?.scrollLeft || 0}};
 }
 function ryoteiSaveView(){
   history.replaceState({...history.state,ryoteiView:ryoteiCaptureView()},'',location.href);
@@ -292,26 +312,52 @@ function ryoteiNavigate(hash,prepare){
   });
 }
 function ryoteiRestoreView(){
+  // 同帧离开再后退时，先前导航的 rAF 不得覆盖这次恢复的快照或阅读位置。
+  cancelAnimationFrame(ryoteiNavigate.captureFrame);
+  cancelAnimationFrame(ryoteiRestoreView.readingFrame);
   const view = history.state?.ryoteiView;
   if (!view) { route();return; }
-  const before = JSON.stringify(Object.fromEntries(Object.entries(state).filter(([key])=>key !== 'openGuest' && !key.startsWith('global'))));
-  const oldGuest = state.openGuest;
-  Object.assign(state,view.state);
-  state.openGuest = oldGuest;
-  const after = JSON.stringify(Object.fromEntries(Object.entries(state).filter(([key])=>key !== 'openGuest' && !key.startsWith('global'))));
-  const pageKey = {details:'detailSort',catalog:'catalogSort',ingredients:'ingredientSort',beverages:'beverageSort',addons:'addonSort',drinkrecs:'drinkrecSort'}[state.tab];
-  const pageChanged = pageKey && JSON.stringify(ryoteiPages[pageKey]) !== JSON.stringify(view.pages[pageKey]);
-  if (lastRenderedTab === state.tab && (before !== after || pageChanged)) lastRenderedTab = '';
+  const target = ryoteiParseRoute();
+  const before = ryoteiRenderSignature(state.tab);
+  const beforeDetail = ryoteiDetailViewSignature();
+  const saved = JSON.parse(JSON.stringify(view.state || {}));
+  const pageKey = {details:'detailSort',catalog:'catalogSort',ingredients:'ingredientSort',beverages:'beverageSort',addons:'addonSort',drinkrecs:'drinkrecSort'}[saved.tab];
+  const pageSignature = pages=>JSON.stringify(Object.entries(pages || {}).filter(([key,page])=>(page.sortKey || key) === pageKey));
+  const pageChanged = pageKey && pageSignature(ryoteiPages) !== pageSignature(view.pages);
+  // 只恢复阅读视图；全局搜索及 DOM 标记保持当前值。
+  for (const [key,value] of Object.entries(saved)) {
+    if (key !== 'openGuest' && key !== 'paneGuest' && !key.startsWith('global')) state[key] = value;
+  }
   for (const key of Object.keys(ryoteiPages)) delete ryoteiPages[key];
-  Object.assign(ryoteiPages,view.pages);
+  Object.assign(ryoteiPages,JSON.parse(JSON.stringify(view.pages || {})));
+  const after = ryoteiRenderSignature(state.tab);
+  if (pageChanged || (lastRenderedTab === state.tab && before !== after)) {
+    if (lastRenderedTab === state.tab) lastRenderedTab = '';
+    ryoteiRenderedViews.delete(state.tab);
+  }
+  // route/openGuest 的恢复合同只跳过“换人清过滤”；同客人字段或页码变了也必须同步详情 DOM。
+  const restoreDetail = target.tab === 'guests' && !!target.guest &&
+    (state.openGuest !== target.guest || state.paneGuest !== target.guest || beforeDetail !== ryoteiDetailViewSignature());
   syncRyoteiControls();
-  route();
+  route({restoreDetail});
   if (view.filterSection && ['tags','visitors'].includes(view.filterSection)) {
     const aside=$('#workbench-filters');
     aside.dataset.section=view.filterSection;
     ryoteiUpdateFilters(state.tab);
   }
-  requestAnimationFrame(()=>{ ryoteiRestoreReading(view.reading);window.scrollTo({top:view.scroll,behavior:'instant'});const detailScroll=state.openGuest && $('#detail-body .detail-scroller');if (detailScroll) detailScroll.scrollTop=view.detailScroll; });
+  const restoredHash = location.hash, restoredTab = state.tab, restoredGuest = state.openGuest;
+  ryoteiRestoreView.readingFrame = requestAnimationFrame(()=>{
+    if (location.hash !== restoredHash || state.tab !== restoredTab || state.openGuest !== restoredGuest) return;
+    ryoteiRestoreReading(view.reading);
+    window.scrollTo({top:view.scroll,left:view.scrollLeft || 0,behavior:'instant'});
+    const scroller = state.openGuest && $('#detail-body .detail-scroller');
+    if (scroller && view.detailScroll != null) {
+      // 兼容旧历史记录仅保存纵向数值；新记录恢复唯一 .detail-scroller 的两个方向。
+      if (typeof view.detailScroll === 'number') scroller.scrollTop = view.detailScroll;
+      else { scroller.scrollTop = view.detailScroll.top;scroller.scrollLeft = view.detailScroll.left; }
+      ryoteiUpdateNameMark();
+    }
+  });
 }
 function ryoteiRevealItem(){
   if (state.focusTab !== state.tab || !state.focusItem) return;

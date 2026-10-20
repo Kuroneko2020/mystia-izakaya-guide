@@ -17,6 +17,7 @@ from build_html import brand_seal_uri, wafu_font_css
 from build_html_ryotei import ROOT, SCRIPT, ASSETS, uri
 
 BASELINE = ROOT / "中间数据" / "料亭版攻略数据基线.json"
+GUEST_RULES = ROOT / "中间数据" / "GAME_GUEST_FOOD_RULES.json"
 ORIGINAL = ROOT / "成品" / "东方夜雀食堂攻略查询_和风版.html"
 OUTPUT_DIR = ROOT / "成品"
 ARCHIVE_DIR = OUTPUT_DIR / "旧版"
@@ -48,6 +49,14 @@ def main():
         if match.group(1) != raw:
             raise ValueError("原版数据与料亭版基线不同，停止构建")
     data = json.loads(raw)
+    rules_raw = GUEST_RULES.read_text(encoding="utf-8")
+    rules = json.loads(rules_raw)
+    if rules.get("schemaVersion") != 1:
+        raise ValueError("客人料理特殊规则版本不支持，停止构建")
+    for source in rules.get("sources", []):
+        source_path = ROOT / source["path"]
+        if not source_path.is_file() or hashlib.sha256(source_path.read_bytes()).hexdigest() != source["sha256"]:
+            raise ValueError(f"客人料理规则来源不一致：{source['path']}，先重新核查并提取规则")
     # 界面构建只读取已纳入 Git 的素材，不重新转换或覆盖素材，也无需上游仓库。
     assets = {"avatars": {}, "icons": {}, "normal": {}}
     for sheet, name_key, kind in [("guests", "客人名字", "avatars"), ("normal", "普通客人", "normal"),
@@ -64,6 +73,7 @@ def main():
     navigation = (SCRIPT / "ryotei_navigation.js").read_text(encoding="utf-8")
     replacements = {
         "__APP_DATA__": raw,
+        "__GUEST_FOOD_RULES__": rules_raw,
         "__GENERATED_AT__": data["meta"]["generatedAt"],
         "__VERSION__": data["meta"]["version"],
         "__EXCEL_NAME__": data["meta"]["excelName"],
@@ -77,7 +87,7 @@ def main():
     }
     for key, value in replacements.items():
         template = template.replace(key, value)
-    if re.search(r"__(?:APP_DATA|WAFU_ASSETS|RYOTEI_[A-Z]+)__", template):
+    if re.search(r"__(?:APP_DATA|GUEST_FOOD_RULES|WAFU_ASSETS|RYOTEI_[A-Z]+)__", template):
         raise ValueError("仍有未注入的页面资源，停止构建")
     avatar = AVATAR.read_bytes()
     raw_out = template.replace("\n", "\r\n").encode("utf-8")
@@ -115,6 +125,9 @@ def main():
         "archivedPrevious": archived,
         "dataSource": "中间数据/料亭版攻略数据基线.json",
         "appDataSha256": hashlib.sha256(raw.encode("utf-8")).hexdigest(),
+        "guestFoodRulesSource": GUEST_RULES.relative_to(ROOT).as_posix(),
+        "guestFoodRulesSha256": hashlib.sha256(rules_raw.encode("utf-8")).hexdigest(),
+        "guestFoodRuleCounts": {key: len(rules.get(key, [])) for key in ["foodExclusions", "ingredientExclusions"]},
         "avatarBlockSha256": hashlib.sha256(avatar).hexdigest(),
         "avatarBlockBytes": len(avatar),
         "outputSha256": hashlib.sha256(final).hexdigest(),
@@ -134,6 +147,16 @@ def main():
             "详情头部两栏化：口味/来访标签移至名字右侧空白区，头部高度减半让位列表；面板再缩窄至 900",
             "消除详情双滚动条：禁用分页结构内层滚动，详情列表仅保留单一滚动条",
             "客人图鉴按今晚开店地点联动；因幡帝纳入所有地区；料理和酒水按全部静态标签匹配，不限数量价格",
+            "客人详情加料页支持价格/等级列头点击排序（默认价格升序，换客人保留排序偏好）",
+            "成餐标签按游戏原生 Sellable.get_Tags + FoodTagRuleProfile 口径自动重算：补大份派生（≥5料）、水产→素覆盖、酒水价格标签，加料建议按成餐槽位与合成后效果评估",
+            "修复详情分页、后退阅读恢复和手机详情布局；原始表格数据、旧版和头像效果保持",
+            "按用户会话目标更正精确撤回四处误继承卡片 CSS，恢复原图鉴绘制；原头像块保持",
+            "按用户指示整体移除集中配餐及其衍生功能（配餐工作台、钱包账本、备菜清单、常用搭配、配餐入口），既有查询功能与缺陷修复保持",
+            "按用户要求恢复“今晚备菜覆盖”参考：随今晚开店地点联动展示可能来客与料理/酒水覆盖榜（只读，含口径备注），不带回配餐其余功能",
+            "客人料理推荐补原生负向彩蛋和食材特例排除，详情、备菜、覆盖榜与加料共用规则；不改原始攻略基线",
+            "详情料理/酒水支持中文、全拼、首字母回车加入标签，拒绝歧义缩写，保护输入法确认，保留输入焦点与完整候选",
+            "料理/酒水标签统一按游戏图鉴 Tag 列表顺序显示（筛选建议、客人卡片、详情头部、表格标签与命中喜好），派生价格/大份标签按游戏 Tag 序号插位、动态流行标签殿后",
+            "按用户要求移除各界面“固定口味候选，不保证本次点单评价”说明；特殊判定仍保留在客人详情和普通客人卡片提示",
         ],
     }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")

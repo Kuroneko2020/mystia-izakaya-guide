@@ -4,8 +4,13 @@
 数据主来源：夜雀助手（AnYiEE/touhou-mystia-izakaya-assistant）v2.10.11，
 其游戏数据更新于 2026-10-04，包含 4.4.0 联动客人秦心。
 
-输出：成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx
+标签派生口径来自 脚本/meal_tags.py（游戏原生 Sellable.get_Tags + FoodTagRuleProfile，
+阈值由 脚本/extract_game_tag_rules.py 从本地游戏数据与上游源码机器提取）。
+
+输出：默认 成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-14.xlsx（可用 --out 指定）。
+原始工作簿 东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx 是不可覆盖输入，脚本拒绝写入。
 """
+import argparse
 import json
 import re
 from collections import OrderedDict, defaultdict
@@ -14,6 +19,8 @@ from pathlib import Path
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
+
+from meal_tags import default_rules
 
 ROOT = Path(__file__).resolve().parents[1]
 MID = ROOT / "中间数据"
@@ -86,11 +93,12 @@ def food_tag_name(tag):
         return "流行喜爱（动态）"
     if tag == -21:
         return "流行厌恶（动态）"
-    return FOOD_TAG.get(tag, f"<{tag}>")
+    return FOOD_TAG.get(tag, RULES.food_names.get(tag, f"<{tag}>"))
 
 
 def drink_tag_name(tag):
-    return BEVERAGE_TAG.get(tag, f"<{tag}>")
+    # 上游 BEVERAGE_TAG_MAP 缺 -3/-2 的名字；酒水价格标签按游戏 BeverageTag 名称补齐。
+    return BEVERAGE_TAG.get(tag, RULES.beverage_names.get(tag, f"<{tag}>"))
 
 
 def tag_list(tags, func=food_tag_name):
@@ -226,22 +234,30 @@ beverages_all = load_json("BEVERAGE_LIST")
 decorations_all = load_json("DECORATION_LIST")
 clothes_all = load_json("CLOTHES_LIST")
 
-TAG_COVERS = [(-3, -2), (-1, 28), (0, 2), (6, 7), (9, 8), (22, 21)]
+RULES = default_rules()
+
+
+def base_ingredient_count(d):
+    recipes = d.get("recipes") or []
+    if not recipes:
+        return 0
+    return len(recipes[0].get("ingredients", []))
 
 
 def process_food(d):
-    """按夜雀助手 FoodCatalog 口径补价格动态标签并处理标签覆盖。"""
-    pos = set(d.get("positiveTags", []))
-    if d.get("id") != -1:
-        if d.get("price", 0) > 60:
-            pos.add(-3)
-        elif d.get("price", 0) < 20:
-            pos.add(-2)
-    for coverer, covered in TAG_COVERS:
-        if coverer in pos:
-            pos.discard(covered)
+    """按游戏原生 Sellable.get_Tags 口径合成默认成餐标签。
+
+    原始标签 + 价格动态标签 + 大份派生（成餐食材总数达阈值）后按覆盖规则去重；
+    规则与阈值来自 GAME_TAG_RULES.json（游戏 FoodTagRuleProfile + 上游源码机器提取）。
+    """
     d = dict(d)
-    d["positiveTags"] = sorted(pos)
+    d["rawPositiveTags"] = list(d.get("positiveTags", []))
+    d["positiveTags"] = RULES.compose_food_tags(
+        d.get("rawPositiveTags", []),
+        d.get("price", 0),
+        base_ingredient_count(d),
+        food_id=d.get("id"),
+    )
     return d
 
 
@@ -249,7 +265,16 @@ special = [r for r in special_all if r.get("dlc") != 9]
 normal = [r for r in normal_all if r.get("dlc") != 9]
 foods = [process_food(r) for r in foods_all if r.get("dlc") != 9 and r.get("id") != -1]
 ingredients = [r for r in ingredients_all if r.get("dlc") != 9]
-beverages = [r for r in beverages_all if r.get("dlc") != 9]
+
+
+def process_beverage(b):
+    """酒水同为 Sellable：派生价格标签；料理覆盖规则表不套用到酒水类别。"""
+    b = dict(b)
+    b["tags"] = RULES.compose_beverage_tags(b.get("tags", []), b.get("price", 0))
+    return b
+
+
+beverages = [process_beverage(r) for r in beverages_all if r.get("dlc") != 9]
 decorations = [r for r in decorations_all if r.get("dlc") != 9]
 clothes = [r for r in clothes_all if r.get("dlc") != 9]
 
@@ -450,14 +475,37 @@ def addon_candidates(guest, dish=None):
         if ing.get("id") == -1 or ing.get("price", 0) > 10000:
             continue
         tags = set(ing.get("tags", []))
-        if tags & dislikes or tags & conflicts:
+        if tags & conflicts:
             continue
         if ing["id"] in used:
             continue
-        hit = tags & likes
-        if not hit:
+        if dish is None:
+            if tags & dislikes:
+                continue
+            hit = tags & likes
+            if not hit:
+                continue
+            out.append((len(hit), len(tags), ing, hit))
             continue
-        out.append((len(hit), len(tags), ing, hit))
+        # 菜品加料按合成后效果评估（覆盖规则/大份派生会改变成品标签）。
+        if RULES.free_slots(base_ingredient_count(dish)) < 1:
+            continue
+        new_tags = set(RULES.compose_food_tags(
+            set(dish.get("rawPositiveTags", [])) | tags,
+            dish.get("price", 0),
+            base_ingredient_count(dish),
+            extra_tags=tags,
+            extra_count=1,
+            food_id=dish.get("id"),
+        ))
+        if new_tags & dislikes:
+            continue
+        gained = (new_tags - set(dish.get("positiveTags", []))) & likes
+        lost = (set(dish.get("positiveTags", [])) - new_tags) & likes
+        net = len(gained) - len(lost)
+        if net <= 0:
+            continue
+        out.append((net, len(tags), ing, gained))
     out.sort(key=lambda x: (-x[0], -x[1], x[2].get("dlc", 0), x[2].get("level", 0), x[2].get("price", 0)))
     return out
 
@@ -475,21 +523,36 @@ def addon_text_for_dish(guest, dish):
     missing_all = s["likes"] - s["pos"]
     dynamic_missing = [t for t in missing_all if t in (-20, -21, -2, -3)]
     missing = sorted(t for t in missing_all if t not in (-20, -21, -2, -3))
+    base_n = base_ingredient_count(dish)
+    free = RULES.free_slots(base_n)
+    if free <= 0:
+        text = ("缺：" + tag_list(missing) + "；" if missing else "") + \
+               f"该菜主料已占满 {RULES.slot_cap} 个食材位，无额外加料，缺标签请换其他推荐菜。"
+        if dynamic_missing:
+            text += "（" + tag_list(dynamic_missing) + "为动态标签，不靠加料）"
+        return text
     if not missing:
         if dynamic_missing:
             return "固定喜好已覆盖；" + tag_list(dynamic_missing) + "为动态标签，不靠加料（看价格/剪报）。"
         return "菜品已覆盖全部固定喜好标签，通常无需加料。"
     cands = []
     for n, _n, ing, hit in addon_candidates(guest, dish):
-        real_hit = hit & set(missing)
-        if real_hit:
-            cands.append((len(real_hit), ing, real_hit))
+        if hit:
+            cands.append((n, ing, hit))
     if not cands:
-        text = "缺：" + tag_list(missing) + "；该菜没有不冲突的加料位，可换其他推荐菜或直接用高命中菜。"
+        text = "缺：" + tag_list(missing)
+        if (base_n + 1 >= RULES.large_min and RULES.large_tag in s["dislikes"]
+                and free >= 1):
+            text += f"；该菜再加任意一份食材即满 {RULES.large_min} 料变大份，客人厌恶大份，不建议加料，可换其他推荐菜。"
+        else:
+            text += "；该菜没有不冲突且有净收益的加料，可换其他推荐菜或直接用高命中菜。"
     else:
         cands.sort(key=lambda x: (-x[0], x[1].get("price", 0)))
         sample = "；".join(f"+{ing['name']}（补{tag_list(sorted(hit))}）" for _, ing, hit in cands[:3])
         text = "缺：" + tag_list(missing) + "；可加：" + sample
+        if base_n + RULES.free_slots(base_n) >= RULES.large_min > base_n and free >= 2 \
+                and RULES.large_tag in s["likes"]:
+            text += f"。另有：把 {RULES.large_min - base_n} 个加料位加满即可凑出大份"
     if dynamic_missing:
         text += "（" + tag_list(dynamic_missing) + "为动态标签，不靠加料）"
     return text
@@ -677,6 +740,15 @@ def add_sheet(wb, title, headers, rows, widths=None):
 
 
 def main():
+    ap = argparse.ArgumentParser(description="生成客人攻略查询表")
+    ap.add_argument("--out", default=str(OUT / "东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-14.xlsx"),
+                    help="输出工作簿路径（默认修正版日期名；原始 2026-10-04 工作簿受保护不可覆盖）")
+    args = ap.parse_args()
+    out_path = Path(args.out)
+    protected = OUT / "东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx"
+    if out_path.resolve() == protected.resolve():
+        raise SystemExit(f"拒绝覆盖原始工作簿：{protected.name}（不可覆盖输入）。"
+                         "请用 --out 指定新的候选结果文件名。")
     bili2024 = parse_bili_2024()
     bili2024_map = {r["客人"]: r for r in bili2024}
     bili2021 = parse_bili_2021()
@@ -887,7 +959,10 @@ def main():
     )
 
     version_rows = [
-        ("表格生成日期", "2026-10-04"),
+        ("表格生成日期", "2026-10-14"),
+        ("标签口径修正", "2026-10-14 起按游戏原生 Sellable.get_Tags + FoodTagRuleProfile 口径重算派生标签（补大份派生、水产→素覆盖、酒水价格标签），"
+                        "规则由 脚本/extract_game_tag_rules.py 从游戏提取物与上游源码机器提取（中间数据/GAME_TAG_RULES.json）；"
+                        "修正前工作簿 东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx 原样保留。"),
         ("主数据版本", "夜雀助手（AnYiEE/touhou-mystia-izakaya-assistant）v2.10.11；仓库最近提交 2026-10-04"),
         ("游戏内容版本", "官方最新内容公告为 v4.4.0（2026-04-17），新增《东方华心传》联动稀客秦心、四个情绪面具摆件，以及《东方妖精武踏会》妖精服。SteamDB 另记录 2026-05-09 有一次更新（https://steamdb.info/patchnotes/23158340/），截至 2026-10-04 未检索到新增官方客人/DLC内容的公告。"),
         ("DLC范围", "官方 DLC0（本篇）至 DLC5（魔界/月之都），共 59 名官方特殊/稀客（含特殊顾客与联动）、47 种普通客人、163 道官方菜谱、46 款官方酒水、62 种官方食材（已剔除 MetaMystia 示例包的 DLC9 模组数据；另有 1 条“黑暗物质”失败料理未列入菜谱表）。"),
@@ -903,8 +978,10 @@ def main():
         ("秦心早期信息", "B站专栏 cv47914353《全网首发！东方夜雀食堂4月17日更新特殊顾客秦心Tag》（2026-04-18）：https://www.bilibili.com/read/cv47914353 。该文称秦心出没博丽神社/妖怪山、预算约800；本表采用夜雀助手最新数据（出没人间之里、博丽神社、妖怪之山、命莲寺、神灵庙；持有金514-805）。"),
         ("统计口径-前期/后期", "前期：本体DLC0、菜谱等级≤3、单价≤120且材料本体早期可获取；优先命中喜好标签≥2、无厌恶标签。后期：单价不超过客人持有金上限、命中喜好/拿手标签≥3，优先高收益菜；若不足则自动放宽并仍在表中标注。此分级为查询用规则，不是游戏官方分级。"),
         ("统计口径-积分", "按游戏规则：菜品每命中一个喜好标签 +1，命中一个厌恶标签 -1；拿手标签单独列出，用于提高开奖励符卡概率。流行喜爱/厌恶随每日剪报变化，本表静态列出但评分不计入流行标签。"),
-        ("统计口径-菜品标签", "菜品标签按夜雀助手 FoodCatalog 口径处理：单价>60补“昂贵”，单价<20补“实惠”；肉覆盖素、重油覆盖清淡、饱腹覆盖下酒、灼热覆盖凉爽、大份覆盖小巧。流行喜爱/厌恶为每日动态标签，本表不把流行标签计入固定评分。"),
-        ("统计口径-加料", "加料候选=食材标签命中客人喜好、且不与客人厌恶标签和该菜冲突标签冲突；需避开会覆盖原标签或产生黑暗物质的组合。实际加料还受菜品已有标签和料理小游戏影响。"),
+        ("统计口径-菜品标签", "菜品标签按游戏原生 Sellable.get_Tags 口径合成：原始标签 + 价格动态标签（单价>60补“昂贵”，单价<20补“实惠”）+ 大份派生（成餐食材总数≥5补“大份”，见 统计口径-大份派生），随后按游戏 FoodTagRuleProfile 覆盖规则去重：重油→清淡、饱腹→下酒、肉→素、水产→素、昂贵→实惠、大份→小巧、灼热→凉爽。规则表与阈值由 脚本/extract_game_tag_rules.py 从游戏提取物与上游源码机器提取，见 中间数据/GAME_TAG_RULES.json。流行喜爱/厌恶为每日动态标签，本表不把流行标签计入固定评分。"),
+        ("统计口径-大份派生", "成餐食材总数（主料+额外加料）≥5 时派生“大份”标签并参与覆盖（大份覆盖小巧）。因此 5 料主料菜（如幻想佛跳墙、罗汉上素）静态成品自带大份；4 料主料菜加任意一份食材即变大份——若客人厌恶大份则不可加料，若客人喜好大份则可利用该规则凑标签。此为游戏原生 MatchedCookCombo/Sellable 标签合成规则，不是查询用近似。"),
+        ("统计口径-加料", "加料候选按游戏成餐语义评估：成餐上限 5 个食材位（主料+额外加料），满位不可加料；每份候选加料并入菜品重新合成成品标签（含价格标签、大份派生、覆盖规则），仅当合成后净增喜好命中且不新增厌恶命中才推荐，覆盖导致喜好标签消失的候选会被淘汰。冲突标签（加料变黑暗物质）一律排除。实际加料还受料理小游戏影响。"),
+        ("统计口径-酒水标签", "酒水与料理同为 Sellable（价格动态标签为共享基类 Sellable.get_PriceTag）：单价>60补“昂贵”，单价<20补“便宜”。料理覆盖规则表（FoodTagRuleProfile，tagType=0）不套用到酒水标签类别；上游 BeverageCatalog 未派生价格标签，本表按游戏原生口径补齐。"),
         ("统计口径-普通客人", "普通客人只有喜好标签、没有厌恶标签与固定持有金；推荐菜按喜好命中数排序，价格上限为查询用的经验值（前期≤80、后期≤200）。"),
         ("统计口径-持有金", "持有金为客人当晚预算范围，推荐菜按“单道菜价格不超过该上限”筛选；部分客人预算浮动（如秦心514-805）。实际以游戏内显示为准。"),
         ("统计口径-随机点单", "稀客点单包含随机点单标签；本表推荐菜只保证静态喜好/厌恶匹配，实际开奖励符卡还需满足点单要求，夜雀系列厨具的完美料理可无视点单标签。"),
@@ -918,7 +995,9 @@ def main():
     ]
     add_sheet(wb, "版本与数据来源", ["项目", "内容"], version_rows, widths=[22, 120])
 
-    out_path = OUT / "东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    if out_path.exists():
+        raise SystemExit(f"输出已存在，不覆盖：{out_path}")
     wb.save(out_path)
     print(out_path)
     print(f"特殊/稀客 {len(special)} 名；普通客人 {len(normal)} 名；官方菜谱 {len(foods)}；官方酒水 {len(beverages)}；官方食材 {len(ingredients)}")

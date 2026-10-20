@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-14 05:44 +0800",
+  "semantics": {
+    "food": "游戏原生 Sellable.get_Tags 口径：原始标签 + 价格动态标签 + 大份派生（成餐食材总数达阈值）后，按 FoodTagRuleProfile 覆盖规则表去重（SolveTagPriority）。",
+    "beverage": "酒水与料理同为 Sellable（原生 get_PriceTag 为共享基类），派生价格标签；覆盖规则表为 FoodTagRuleProfile（tagType=0，料理类别），不套用到酒水标签 ID（两个类别独立编号）。"
+  },
+  "priceTag": {
+    "food": {
+      "-3": "昂贵",
+      "-2": "实惠"
+    },
+    "beverage": {
+      "-3": "昂贵",
+      "-2": "便宜"
+    },
+    "expensiveAbove": 60,
+    "cheapBelow": 20,
+    "comparison": "严格大于 / 严格小于（原生 cmp 后 jl / jle）",
+    "skippedIds": [
+      -1
+    ]
+  },
+  "largePortion": {
+    "tag": -1,
+    "name": "大份",
+    "minTotalIngredients": 5,
+    "note": "成餐食材总数（主料 + 额外加料）达阈值即派生，随后参与覆盖（大份覆盖小巧）。"
+  },
+  "mealSlots": {
+    "maxTotalIngredients": 5,
+    "note": "上游 isMealFood：主料 + 额外加料 ≤ 上限，超出的加料组合不成餐。"
+  },
+  "foodCoverPairs": [
+    [
+      6,
+      7
+    ],
+    [
+      9,
+      8
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      -3,
+      -2
+    ],
+    [
+      -1,
+      28
+    ],
+    [
+      22,
+      21
+    ]
+  ],
+  "foodCoverNames": [
+    [
+      "重油",
+      "清淡"
+    ],
+    [
+      "饱腹",
+      "下酒"
+    ],
+    [
+      "肉",
+      "素"
+    ],
+    [
+      "水产",
+      "素"
+    ],
+    [
+      "昂贵",
+      "实惠"
+    ],
+    [
+      "大份",
+      "小巧"
+    ],
+    [
+      "灼热",
+      "凉爽"
+    ]
+  ],
+  "beverageCoverPairs": [],
+  "upstreamCrossCheck": {
+    "tagCoverMapPairs": [
+      [
+        -3,
+        -2
+      ],
+      [
+        -1,
+        28
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        22,
+        21
+      ]
+    ],
+    "missingInUpstream": [
+      [
+        1,
+        2
+      ]
+    ],
+    "note": "上游 FoodCatalog.tagCoverMap 仅 6 对；游戏规则表多出的对以游戏为准。"
+  },
+  "gameTagNames": {
+    "food": {
+      "-30": "厨具「夜雀」",
+      "-21": "流行·厌恶",
+      "-20": "流行·喜爱",
+      "-9": "煮锅",
+      "-8": "烧烤架",
+      "-7": "油锅",
+      "-6": "蒸锅",
+      "-5": "料理台",
+      "-4": "黑暗物质",
+      "-3": "昂贵",
+      "-2": "实惠",
+      "-1": "大份"
+    },
+    "beverage": {
+      "-30": "厨具「夜雀」",
+      "-21": "流行·厌恶",
+      "-20": "流行·喜爱",
+      "-3": "昂贵",
+      "-2": "便宜",
+      "-1": "无酒精"
+    }
+  },
+  "provenance": {
+    "sources": [
+      {
+        "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/FoodTagRuleProfile_raw.json",
+        "sha256": "bca3e3d02858bcc28bab209c9b190b2bd899a4e27149ecacf1dd245d04a2b54b",
+        "role": "游戏覆盖规则表（7 对，tagType=0）"
+      },
+      {
+        "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/game_catalog_raw_normalized.json",
+        "sha256": "17b94d3e535010ba7959c0eb093e2e2d2471d56d7786c673b0ef744e60ac3162",
+        "role": "游戏标签名映射"
+      },
+      {
+        "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/catalog/food/FoodCatalog.ts",
+        "sha256": "cc52ba3b69ff8c8d348527e6f7fa0bec1bfb052e2ffd3381f8cb8d4264af1876",
+        "role": "上游阈值与覆盖表交叉核对"
+      },
+      {
+        "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/tags/tagFacts.ts",
+        "sha256": "1eff45ca607a9290c3f09b91c033a0ec034c40f243f8ece69bc3f4c9fea867c1",
+        "role": "动态标签 ID 常量"
+      }
+    ]
+  }
+}
