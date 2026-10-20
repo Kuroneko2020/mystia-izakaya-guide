@@ -17,7 +17,9 @@
 | `NORMAL_GUEST_LIST.json` | `app/domain/data/guests/normal/records.ts` | 47 |
 | `SPECIAL_GUEST_LIST.json` | `app/domain/data/guests/special/records.ts` | 69 |
 
-菜谱「飞刀串串烧」在本仓库记为「黑暗物质」。要恢复上游原名应在数据管线内统一改名后重建，不直接手改本目录文件。
+- 上游 `foods/records.ts` 里 `dlc: 9` 的「飞刀串串烧」属 MetaMystia 联机 Mod 示例内容，本项目范围（本体 + DLC1-DLC5 + v4.4.0）不纳入，所以本地没有该条目；不要把它当成「黑暗物质」的改名——「黑暗物质」是上游 id `-1` 的同一条目（上游用常量写 name）。
+- 需要纳入 DLC9 或其他范围外内容时，走数据管线重新导出，不直接手改本目录文件。
+- 逐字段对账：`node 脚本/调试/compare_upstream_2026-10-20.cjs`（按 id 比对 name/price/level/dlc/tags，结论写入 `验证记录/2026-10-20--上游数据对账/`）。
 
 ## 二、由脚本机器提取生成的文件
 

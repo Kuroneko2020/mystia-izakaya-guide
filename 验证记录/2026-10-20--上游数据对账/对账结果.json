@@ -1,0 +1,95 @@
+{
+  "checkedAt": "2026-10-20T10:33:58.780Z",
+  "upstream": "AnYiEE/touhou-mystia-izakaya-assistant@master",
+  "files": [
+    {
+      "file": "BEVERAGE_LIST.json",
+      "local": 50,
+      "upstream": 50,
+      "parsedBlocks": 50,
+      "matched": 50,
+      "outOfScope": 0,
+      "constantFields": 0,
+      "fieldDiffs": []
+    },
+    {
+      "file": "FOOD_LIST.json",
+      "local": 199,
+      "upstream": 200,
+      "parsedBlocks": 200,
+      "matched": 199,
+      "outOfScope": 1,
+      "constantFields": 2,
+      "fieldDiffs": []
+    },
+    {
+      "file": "INGREDIENT_LIST.json",
+      "local": 70,
+      "upstream": 70,
+      "parsedBlocks": 70,
+      "matched": 70,
+      "outOfScope": 0,
+      "constantFields": 0,
+      "fieldDiffs": []
+    },
+    {
+      "file": "COOKER_LIST.json",
+      "local": 41,
+      "upstream": 41,
+      "parsedBlocks": 42,
+      "matched": 41,
+      "outOfScope": 0,
+      "constantFields": 0,
+      "fieldDiffs": []
+    },
+    {
+      "file": "CLOTHES_LIST.json",
+      "local": 28,
+      "upstream": 28,
+      "parsedBlocks": 28,
+      "matched": 28,
+      "outOfScope": 0,
+      "constantFields": 0,
+      "fieldDiffs": []
+    },
+    {
+      "file": "DECORATION_LIST.json",
+      "local": 19,
+      "upstream": 19,
+      "parsedBlocks": 19,
+      "matched": 19,
+      "outOfScope": 0,
+      "constantFields": 0,
+      "fieldDiffs": []
+    },
+    {
+      "file": "NORMAL_GUEST_LIST.json",
+      "local": 47,
+      "upstream": 47,
+      "parsedBlocks": 47,
+      "matched": 47,
+      "outOfScope": 0,
+      "constantFields": 0,
+      "fieldDiffs": []
+    },
+    {
+      "file": "SPECIAL_GUEST_LIST.json",
+      "local": 69,
+      "upstream": 69,
+      "parsedBlocks": 69,
+      "matched": 69,
+      "outOfScope": 0,
+      "constantFields": 0,
+      "fieldDiffs": []
+    }
+  ],
+  "differences": [],
+  "outOfScope": [
+    {
+      "file": "FOOD_LIST.json",
+      "id": 12005,
+      "name": "飞刀串串烧",
+      "dlc": 9
+    }
+  ]
+}

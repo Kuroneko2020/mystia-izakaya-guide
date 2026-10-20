@@ -27,11 +27,14 @@
 | `中间数据/NORMAL_GUEST_LIST.json` | `app/domain/data/guests/normal/records.ts` | 47 | 47/47 |
 | `中间数据/SPECIAL_GUEST_LIST.json` | `app/domain/data/guests/special/records.ts` | 69 | 69/69 |
 
-差异说明：
+差异说明（2026-10-20 逐字段对账后更正）：
 
-- 菜谱「飞刀串串烧」在本仓库记为「黑暗物质」，属本仓库的本地改名，其余条目名称一一对应。
-- 上游 `guests/special/records.ts` 的 name 字段另含符卡等条目（合计 198 条），本仓库仅取客人条目 69 条。
-- 逐文件来源与用途另见 [中间数据/README.md](中间数据/README.md)。
+- 上游 `foods/records.ts` 中 `dlc: 9` 的「飞刀串串烧」属 MetaMystia 联机 Mod 示例内容，不在本项目范围（本体 + DLC1-DLC5 + v4.4.0）内，因此本地没有该条目——这是范围取舍，不是数据缺失。
+- 「黑暗物质」不是它的本地改名：上游同样存在该条目（id `-1`，上游以常量 `DARK_MATTER_META_MAP.name` 写 name），本仓库是同一份数据。
+- 上游 `guests/special/records.ts` 的 name 字段另含符卡等条目，本仓库仅取客人条目 69 条。
+- 逐文件来源与用途另见 [中间数据/README.md](中间数据/README.md)；逐字段对账结论见 `验证记录/2026-10-20--上游数据对账/`。
+
+对账方式：`node 脚本/调试/compare_upstream_2026-10-20.cjs` 按 id 比对 name/price/level/dlc/tags，8 个文件全部一致（BEVERAGE 50/50、FOOD 199/199、INGREDIENT 70/70、COOKER 41/41、DECORATION 19/19、CLOTHES 28/28、NORMAL_GUEST 47/47、SPECIAL_GUEST 69/69），唯一的上游独有条目是上述 DLC9 内容。
 
 ## 三、游戏素材与第三方内容（不在 AGPL-3.0 范围内）
 
