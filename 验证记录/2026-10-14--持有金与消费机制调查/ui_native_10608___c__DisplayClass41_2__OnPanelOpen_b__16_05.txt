@@ -1,0 +1,37 @@
+# <>c__DisplayClass41_2::<OnPanelOpen>b__16
+# {"declaringType": "<>c__DisplayClass41_2", "typeIndex": 1747, "image": "Assembly-CSharp.dll", "name": "<OnPanelOpen>b__16", "metadataMethodIndex": 10608, "token": "0x6002971", "methodPointerIndex": 10608, "va": "0x18054b140", "rva": "0x54b140", "endRva": "0x54b178", "returnTypeIndex": 33376, "parameters": [{"index": 8039, "name": "x", "typeIndex": 25811}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x54b140..0x54b180; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018054B140: 48 83 EC 38        sub         rsp,38h
+  000000018054B144: 4C 8B CA           mov         r9,rdx
+  000000018054B147: 48 85 D2           test        rdx,rdx
+  000000018054B14A: 74 26              je          000000018054B172
+  000000018054B14C: 48 8B 02           mov         rax,qword ptr [rdx]
+  000000018054B14F: 48 8D 54 24 20     lea         rdx,[rsp+20h]
+  000000018054B154: 0F 10 41 30        movups      xmm0,xmmword ptr [rcx+30h]
+  000000018054B158: 49 8B C9           mov         rcx,r9
+  000000018054B15B: 4C 8B 80 B0 02 00  mov         r8,qword ptr [rax+00000000000002B0h]
+                    00
+  000000018054B162: 0F 29 44 24 20     movaps      xmmword ptr [rsp+20h],xmm0
+  000000018054B167: FF 90 A8 02 00 00  call        qword ptr [rax+00000000000002A8h]
+  000000018054B16D: 48 83 C4 38        add         rsp,38h
+  000000018054B171: C3                 ret
+  000000018054B172: E8 A9 1F E1 FF     call        000000018035D120
+  000000018054B177: CC                 int         3
+  000000018054B178: CC                 int         3
+  000000018054B179: CC                 int         3
+  000000018054B17A: CC                 int         3
+  000000018054B17B: CC                 int         3
+  000000018054B17C: CC                 int         3
+  000000018054B17D: CC                 int         3
+  000000018054B17E: CC                 int         3
+  000000018054B17F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

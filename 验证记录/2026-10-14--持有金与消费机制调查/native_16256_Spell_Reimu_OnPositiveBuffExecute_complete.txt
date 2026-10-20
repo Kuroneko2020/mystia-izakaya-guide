@@ -1,0 +1,60 @@
+# GameData.Core.Collections.NightSceneUtility.SkillCollection.Spell_Reimu::OnPositiveBuffExecute
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.SkillCollection.Spell_Reimu", "typeIndex": 2619, "image": "Assembly-CSharp.dll", "name": "OnPositiveBuffExecute", "metadataMethodIndex": 16256, "token": "0x6003f81", "methodPointerIndex": 16256, "va": "0x1806c4ff0", "rva": "0x6c4ff0", "endRva": "0x6c5062", "returnTypeIndex": 25240, "parameters": [{"index": 12110, "name": "spellExecutionContext", "typeIndex": 30873}]}
+# range end RVA 0x6c5070; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001806C4FF0: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001806C4FF5: 57                 push        rdi
+  00000001806C4FF6: 48 83 EC 20        sub         rsp,20h
+  00000001806C4FFA: 80 3D 64 7C CA 03  cmp         byte ptr [000000018436CC65h],0
+                    00
+  00000001806C5001: 48 8B F9           mov         rdi,rcx
+  00000001806C5004: 75 13              jne         00000001806C5019
+  00000001806C5006: 48 8D 0D AB D6 A8  lea         rcx,[00000001841526B8h]
+                    03
+  00000001806C500D: E8 6E 7F C9 FF     call        000000018035CF80
+  00000001806C5012: C6 05 4C 7C CA 03  mov         byte ptr [000000018436CC65h],1
+                    01
+  00000001806C5019: 48 8B 0D 98 D6 A8  mov         rcx,qword ptr [00000001841526B8h]
+                    03
+  00000001806C5020: E8 9B 80 C9 FF     call        000000018035D0C0
+  00000001806C5025: 48 8B D8           mov         rbx,rax
+  00000001806C5028: 48 85 C0           test        rax,rax
+  00000001806C502B: 74 2F              je          00000001806C505C
+  00000001806C502D: 33 D2              xor         edx,edx
+  00000001806C502F: 48 8B C8           mov         rcx,rax
+  00000001806C5032: E8 99 38 D2 FF     call        00000001803E88D0 ; <<Confirm>g__Jump|3>d::System.IDisposable.Dispose [MI 150, RVA 0x3e88d0] | <<Confirm>g__OnRotation|11_1>d::System.IDisposable.Dispose [MI 156, RVA 0x3e88d0] | <CountDownLoop>d__7::System.IDisposable.Dispose [MI 354, RVA 0x3e88d0] | <<OnPanelOpen>g__OnLoadFinish|2>d::System.IDisposable.Dispose [MI 440, RVA 0x3e88d0] | <<OnPanelOpen>g__ShowCG|3>d::System.IDisposable.Dispose [MI 446, RVA 0x3e88d0] | <>c::<OnPanelInitialize>b__24_1 [MI 507, RVA 0x3e88d0] | <<TypeCoroutine>g__DoType|2>d::System.IDisposable.Dispose [MI 538, RVA 0x3e88d0] | <TypeCoroutine>d__34::System.IDisposable.Dispose [MI 544, RVA 0x3e88d0] | <OnUpdatePreview>d__24::System.IDisposable.Dispose [MI 560, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnPanelOpen [MI 590, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnExitExtern [MI 591, RVA 0x3e88d0] | <<OnPanelOpen>g__AfterPreviewMusicLoad|0>d::System.IDisposable.Dispose [MI 619, RVA 0x3e88d0]
+  00000001806C5037: 48 8D 4B 20        lea         rcx,[rbx+20h]
+  00000001806C503B: C7 43 10 00 00 00  mov         dword ptr [rbx+10h],0
+                    00
+  00000001806C5042: 48 8B D7           mov         rdx,rdi
+  00000001806C5045: 48 89 7B 20        mov         qword ptr [rbx+20h],rdi
+  00000001806C5049: E8 62 7A C9 FF     call        000000018035CAB0
+  00000001806C504E: 48 8B C3           mov         rax,rbx
+  00000001806C5051: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  00000001806C5056: 48 83 C4 20        add         rsp,20h
+  00000001806C505A: 5F                 pop         rdi
+  00000001806C505B: C3                 ret
+  00000001806C505C: E8 BF 80 C9 FF     call        000000018035D120
+  00000001806C5061: CC                 int         3
+  00000001806C5062: CC                 int         3
+  00000001806C5063: CC                 int         3
+  00000001806C5064: CC                 int         3
+  00000001806C5065: CC                 int         3
+  00000001806C5066: CC                 int         3
+  00000001806C5067: CC                 int         3
+  00000001806C5068: CC                 int         3
+  00000001806C5069: CC                 int         3
+  00000001806C506A: CC                 int         3
+  00000001806C506B: CC                 int         3
+  00000001806C506C: CC                 int         3
+  00000001806C506D: CC                 int         3
+  00000001806C506E: CC                 int         3
+  00000001806C506F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

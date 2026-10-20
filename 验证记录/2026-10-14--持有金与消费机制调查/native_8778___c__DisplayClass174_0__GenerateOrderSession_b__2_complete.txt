@@ -1,0 +1,33 @@
+# <>c__DisplayClass174_0::<GenerateOrderSession>b__2
+# {"declaringType": "<>c__DisplayClass174_0", "typeIndex": 1482, "image": "Assembly-CSharp.dll", "name": "<GenerateOrderSession>b__2", "metadataMethodIndex": 8778, "token": "0x600224b", "methodPointerIndex": 8778, "va": "0x180520490", "rva": "0x520490", "endRva": "0x5204b6", "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x5204c0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180520490: 48 83 EC 28        sub         rsp,28h
+  0000000180520494: 48 8B 41 18        mov         rax,qword ptr [rcx+18h]
+  0000000180520498: 48 85 C0           test        rax,rax
+  000000018052049B: 74 13              je          00000001805204B0
+  000000018052049D: 48 8B 51 20        mov         rdx,qword ptr [rcx+20h]
+  00000001805204A1: 45 33 C0           xor         r8d,r8d
+  00000001805204A4: 48 8B C8           mov         rcx,rax
+  00000001805204A7: 48 83 C4 28        add         rsp,28h
+  00000001805204AB: E9 C0 60 FB FF     jmp         00000001804D6570 ; NightScene.GuestManagementUtility.GuestsManager::ShowOrder [MI 8527, RVA 0x4d6570]
+  00000001805204B0: E8 6B CC E3 FF     call        000000018035D120
+  00000001805204B5: CC                 int         3
+  00000001805204B6: CC                 int         3
+  00000001805204B7: CC                 int         3
+  00000001805204B8: CC                 int         3
+  00000001805204B9: CC                 int         3
+  00000001805204BA: CC                 int         3
+  00000001805204BB: CC                 int         3
+  00000001805204BC: CC                 int         3
+  00000001805204BD: CC                 int         3
+  00000001805204BE: CC                 int         3
+  00000001805204BF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

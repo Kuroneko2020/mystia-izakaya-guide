@@ -1,0 +1,98 @@
+# NightScene.GuestManagementUtility.GuestGroupController::get_BaseFundCarry
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "get_BaseFundCarry", "metadataMethodIndex": 8174, "token": "0x6001fef", "methodPointerIndex": 8174, "va": "0x1803e5cd0", "rva": "0x3e5cd0", "endRva": null, "returnTypeIndex": 26152, "parameters": []}
+# range end RVA 0x3e5d60; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001803E5CD0: 8B 41 6C           mov         eax,dword ptr [rcx+6Ch]
+  00000001803E5CD3: C3                 ret
+  00000001803E5CD4: CC                 int         3
+  00000001803E5CD5: CC                 int         3
+  00000001803E5CD6: CC                 int         3
+  00000001803E5CD7: CC                 int         3
+  00000001803E5CD8: CC                 int         3
+  00000001803E5CD9: CC                 int         3
+  00000001803E5CDA: CC                 int         3
+  00000001803E5CDB: CC                 int         3
+  00000001803E5CDC: CC                 int         3
+  00000001803E5CDD: CC                 int         3
+  00000001803E5CDE: CC                 int         3
+  00000001803E5CDF: CC                 int         3
+  00000001803E5CE0: 83 79 20 07        cmp         dword ptr [rcx+20h],7
+  00000001803E5CE4: 74 0E              je          00000001803E5CF4
+  00000001803E5CE6: 83 79 20 04        cmp         dword ptr [rcx+20h],4
+  00000001803E5CEA: 74 08              je          00000001803E5CF4
+  00000001803E5CEC: 83 79 20 01        cmp         dword ptr [rcx+20h],1
+  00000001803E5CF0: 0F 94 C0           sete        al
+  00000001803E5CF3: C3                 ret
+  00000001803E5CF4: B0 01              mov         al,1
+  00000001803E5CF6: C3                 ret
+  00000001803E5CF7: CC                 int         3
+  00000001803E5CF8: CC                 int         3
+  00000001803E5CF9: CC                 int         3
+  00000001803E5CFA: CC                 int         3
+  00000001803E5CFB: CC                 int         3
+  00000001803E5CFC: CC                 int         3
+  00000001803E5CFD: CC                 int         3
+  00000001803E5CFE: CC                 int         3
+  00000001803E5CFF: CC                 int         3
+  00000001803E5D00: 83 79 20 06        cmp         dword ptr [rcx+20h],6
+  00000001803E5D04: 74 0E              je          00000001803E5D14
+  00000001803E5D06: 83 79 20 08        cmp         dword ptr [rcx+20h],8
+  00000001803E5D0A: 74 08              je          00000001803E5D14
+  00000001803E5D0C: 83 79 20 07        cmp         dword ptr [rcx+20h],7
+  00000001803E5D10: 0F 94 C0           sete        al
+  00000001803E5D13: C3                 ret
+  00000001803E5D14: B0 01              mov         al,1
+  00000001803E5D16: C3                 ret
+  00000001803E5D17: CC                 int         3
+  00000001803E5D18: CC                 int         3
+  00000001803E5D19: CC                 int         3
+  00000001803E5D1A: CC                 int         3
+  00000001803E5D1B: CC                 int         3
+  00000001803E5D1C: CC                 int         3
+  00000001803E5D1D: CC                 int         3
+  00000001803E5D1E: CC                 int         3
+  00000001803E5D1F: CC                 int         3
+  00000001803E5D20: 83 79 20 03        cmp         dword ptr [rcx+20h],3
+  00000001803E5D24: 74 0E              je          00000001803E5D34
+  00000001803E5D26: 83 79 20 05        cmp         dword ptr [rcx+20h],5
+  00000001803E5D2A: 74 08              je          00000001803E5D34
+  00000001803E5D2C: 83 79 20 04        cmp         dword ptr [rcx+20h],4
+  00000001803E5D30: 0F 94 C0           sete        al
+  00000001803E5D33: C3                 ret
+  00000001803E5D34: B0 01              mov         al,1
+  00000001803E5D36: C3                 ret
+  00000001803E5D37: CC                 int         3
+  00000001803E5D38: CC                 int         3
+  00000001803E5D39: CC                 int         3
+  00000001803E5D3A: CC                 int         3
+  00000001803E5D3B: CC                 int         3
+  00000001803E5D3C: CC                 int         3
+  00000001803E5D3D: CC                 int         3
+  00000001803E5D3E: CC                 int         3
+  00000001803E5D3F: CC                 int         3
+  00000001803E5D40: 83 79 20 08        cmp         dword ptr [rcx+20h],8
+  00000001803E5D44: 74 0E              je          00000001803E5D54
+  00000001803E5D46: 83 79 20 05        cmp         dword ptr [rcx+20h],5
+  00000001803E5D4A: 74 08              je          00000001803E5D54
+  00000001803E5D4C: 83 79 20 02        cmp         dword ptr [rcx+20h],2
+  00000001803E5D50: 0F 94 C0           sete        al
+  00000001803E5D53: C3                 ret
+  00000001803E5D54: B0 01              mov         al,1
+  00000001803E5D56: C3                 ret
+  00000001803E5D57: CC                 int         3
+  00000001803E5D58: CC                 int         3
+  00000001803E5D59: CC                 int         3
+  00000001803E5D5A: CC                 int         3
+  00000001803E5D5B: CC                 int         3
+  00000001803E5D5C: CC                 int         3
+  00000001803E5D5D: CC                 int         3
+  00000001803E5D5E: CC                 int         3
+  00000001803E5D5F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

@@ -1,0 +1,55 @@
+{
+  "sourceFields": [
+    {
+      "table": "ingredients",
+      "entry": "铃仙",
+      "field": "描述",
+      "actual": "【特殊彩蛋物品，价格极高，不建议作为常规加料】我是谁？？？我在哪？？？我为什么会在这里？？？",
+      "expected": "我是谁？？？我在哪？？？我为什么会在这里？？？"
+    },
+    {
+      "table": "guests",
+      "entry": "萌澄果",
+      "field": "所属版本",
+      "actual": "联动",
+      "expected": "本篇"
+    },
+    {
+      "table": "guests",
+      "entry": "蹦蹦跳跳的三妖精",
+      "field": "所属版本",
+      "actual": "联动",
+      "expected": "本篇"
+    },
+    {
+      "table": "guests",
+      "entry": "冴月麟",
+      "field": "所属版本",
+      "actual": "联动",
+      "expected": "本篇"
+    },
+    {
+      "table": "guests",
+      "entry": "立空汐",
+      "field": "所属版本",
+      "actual": "联动",
+      "expected": "本篇"
+    },
+    {
+      "table": "guests",
+      "entry": "时焉侑",
+      "field": "所属版本",
+      "actual": "联动",
+      "expected": "本篇"
+    },
+    {
+      "table": "guests",
+      "entry": "秦心",
+      "field": "所属版本",
+      "actual": "4.4.0 联动",
+      "expected": "本篇"
+    }
+  ],
+  "details": [],
+  "workbook": []
+}

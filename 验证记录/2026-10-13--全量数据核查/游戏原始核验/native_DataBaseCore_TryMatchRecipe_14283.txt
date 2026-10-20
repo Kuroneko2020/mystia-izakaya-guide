@@ -1,0 +1,106 @@
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180661EF0: 48 89 5C 24 10     mov         qword ptr [rsp+10h],rbx
+  0000000180661EF5: 48 89 74 24 18     mov         qword ptr [rsp+18h],rsi
+  0000000180661EFA: 57                 push        rdi
+  0000000180661EFB: 48 83 EC 20        sub         rsp,20h
+  0000000180661EFF: 80 3D 2E AA D0 03  cmp         byte ptr [000000018436C934h],0
+                    00
+  0000000180661F06: 48 8B F2           mov         rsi,rdx
+  0000000180661F09: 48 8B F9           mov         rdi,rcx
+  0000000180661F0C: 75 4F              jne         0000000180661F5D
+  0000000180661F0E: 48 8D 0D A3 10 AE  lea         rcx,[0000000184142FB8h]
+                    03
+  0000000180661F15: E8 66 B0 CF FF     call        000000018035CF80
+  0000000180661F1A: 48 8D 0D 2F C3 AE  lea         rcx,[000000018414E250h]
+                    03
+  0000000180661F21: E8 5A B0 CF FF     call        000000018035CF80
+  0000000180661F26: 48 8D 0D 33 BB B6  lea         rcx,[00000001841CDA60h]
+                    03
+  0000000180661F2D: E8 4E B0 CF FF     call        000000018035CF80
+  0000000180661F32: 48 8D 0D 4F 93 B1  lea         rcx,[000000018417B288h]
+                    03
+  0000000180661F39: E8 42 B0 CF FF     call        000000018035CF80
+  0000000180661F3E: 48 8D 0D FB CA AF  lea         rcx,[000000018415EA40h]
+                    03
+  0000000180661F45: E8 36 B0 CF FF     call        000000018035CF80
+  0000000180661F4A: 48 8D 0D CF DE B0  lea         rcx,[000000018416FE20h]
+                    03
+  0000000180661F51: E8 2A B0 CF FF     call        000000018035CF80
+  0000000180661F56: C6 05 D7 A9 D0 03  mov         byte ptr [000000018436C934h],1
+                    01
+  0000000180661F5D: 48 8B 0D BC DE B0  mov         rcx,qword ptr [000000018416FE20h]
+                    03
+  0000000180661F64: 48 89 6C 24 30     mov         qword ptr [rsp+30h],rbp
+  0000000180661F69: E8 52 B1 CF FF     call        000000018035D0C0
+  0000000180661F6E: 48 8B D8           mov         rbx,rax
+  0000000180661F71: 48 85 C0           test        rax,rax
+  0000000180661F74: 0F 84 D2 00 00 00  je          000000018066204C
+  0000000180661F7A: 33 D2              xor         edx,edx
+  0000000180661F7C: 48 8B C8           mov         rcx,rax
+  0000000180661F7F: E8 DC 3E D8 FF     call        00000001803E5E60
+  0000000180661F84: 48 8D 4B 10        lea         rcx,[rbx+10h]
+  0000000180661F88: 48 89 7B 10        mov         qword ptr [rbx+10h],rdi
+  0000000180661F8C: 48 8B D7           mov         rdx,rdi
+  0000000180661F8F: E8 1C AB CF FF     call        000000018035CAB0
+  0000000180661F94: 80 3D F2 A9 D0 03  cmp         byte ptr [000000018436C98Dh],0
+                    00
+  0000000180661F9B: 75 13              jne         0000000180661FB0
+  0000000180661F9D: 48 8D 0D 84 5F B5  lea         rcx,[00000001841B7F28h]
+                    03
+  0000000180661FA4: E8 D7 AF CF FF     call        000000018035CF80
+  0000000180661FA9: C6 05 DD A9 D0 03  mov         byte ptr [000000018436C98Dh],1
+                    01
+  0000000180661FB0: 48 8B 05 71 5F B5  mov         rax,qword ptr [00000001841B7F28h]
+                    03
+  0000000180661FB7: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  0000000180661FBE: 48 8B 49 20        mov         rcx,qword ptr [rcx+20h]
+  0000000180661FC2: 48 85 C9           test        rcx,rcx
+  0000000180661FC5: 0F 84 81 00 00 00  je          000000018066204C
+  0000000180661FCB: 48 8B 15 E6 0F AE  mov         rdx,qword ptr [0000000184142FB8h]
+                    03
+  0000000180661FD2: E8 F9 F6 58 01     call        0000000181BF16D0
+  0000000180661FD7: 48 8B 0D AA 92 B1  mov         rcx,qword ptr [000000018417B288h]
+                    03
+  0000000180661FDE: 48 8B E8           mov         rbp,rax
+  0000000180661FE1: E8 DA B0 CF FF     call        000000018035D0C0
+  0000000180661FE6: 48 8B F8           mov         rdi,rax
+  0000000180661FE9: 48 85 C0           test        rax,rax
+  0000000180661FEC: 74 5E              je          000000018066204C
+  0000000180661FEE: 4C 8B 05 4B CA AF  mov         r8,qword ptr [000000018415EA40h]
+                    03
+  0000000180661FF5: 45 33 C9           xor         r9d,r9d
+  0000000180661FF8: 48 8B D3           mov         rdx,rbx
+  0000000180661FFB: 48 8B C8           mov         rcx,rax
+  0000000180661FFE: E8 AD D5 EA FF     call        000000018050F5B0
+  0000000180662003: 4C 8B 05 56 BA B6  mov         r8,qword ptr [00000001841CDA60h]
+                    03
+  000000018066200A: 48 8B D7           mov         rdx,rdi
+  000000018066200D: 48 8B CD           mov         rcx,rbp
+  0000000180662010: E8 FB 6A 77 00     call        0000000180DD8B10
+  0000000180662015: 48 8B D0           mov         rdx,rax
+  0000000180662018: 48 89 06           mov         qword ptr [rsi],rax
+  000000018066201B: 48 8B CE           mov         rcx,rsi
+  000000018066201E: E8 8D AA CF FF     call        000000018035CAB0
+  0000000180662023: 48 8B 15 26 C2 AE  mov         rdx,qword ptr [000000018414E250h]
+                    03
+  000000018066202A: 48 8B 0E           mov         rcx,qword ptr [rsi]
+  000000018066202D: E8 EE 84 6F 00     call        0000000180D5A520
+  0000000180662032: 48 8B 6C 24 30     mov         rbp,qword ptr [rsp+30h]
+  0000000180662037: 85 C0              test        eax,eax
+  0000000180662039: 48 8B 5C 24 38     mov         rbx,qword ptr [rsp+38h]
+  000000018066203E: 48 8B 74 24 40     mov         rsi,qword ptr [rsp+40h]
+  0000000180662043: 0F 95 C0           setne       al
+  0000000180662046: 48 83 C4 20        add         rsp,20h
+  000000018066204A: 5F                 pop         rdi
+  000000018066204B: C3                 ret
+  000000018066204C: E8 CF B0 CF FF     call        000000018035D120
+  0000000180662051: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

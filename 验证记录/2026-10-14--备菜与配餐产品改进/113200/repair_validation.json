@@ -1,0 +1,130 @@
+{
+  "createdAt": "2026-10-14T04:11:36.327Z",
+  "node": "v24.14.0",
+  "head": "9774f56fa4f809b93f4ad31f0edae190ba50c53b",
+  "ownedStatus": " M 脚本/ryotei_navigation.js\n M 脚本/ryotei_ui.js\n M 脚本/verify_ryotei.cjs\n",
+  "files": {
+    "脚本/ryotei_ui.js": {
+      "beforeSha256": "77fcd2be8547b7a5ee976e9f04b23d4d996bb35906e17e5a62fc0bc1df5ba53a",
+      "sha256": "1cbc2d1c9c1ba292fabe6a089df84e5b834a1a9ce906624953dcdbd211841d7b",
+      "bytes": 28510
+    },
+    "脚本/ryotei_navigation.js": {
+      "beforeSha256": "764f850462b26b38f0966c954e35f98546efa3c384e86a5ebcf4fb3b761f62c9",
+      "sha256": "48518fb977819943b5501e89ec76968e8560bdfd148d46c503523d960fccd854",
+      "bytes": 24123
+    },
+    "脚本/verify_ryotei.cjs": {
+      "beforeSha256": "4e29b95857a243a70192386b62eb536fb8c589933c9d3ed3cf9ea48a551c5375",
+      "sha256": "809f6c621e83366465aad3b1498984446d2615b0d9f6c7dff00a52808a92e8f7",
+      "bytes": 43993
+    }
+  },
+  "templateSha256": "e1d4de0e066203c54914637ad2a2d799976c9c9aa8b2d091ae79b76358cde2bb",
+  "activeOutputObserved": "东方夜雀食堂攻略查询_2610141204.html",
+  "commands": [
+    {
+      "program": "node",
+      "args": [
+        "--check",
+        "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\脚本\\ryotei_ui.js"
+      ],
+      "status": 0,
+      "stdout": "",
+      "stderr": "",
+      "error": null
+    },
+    {
+      "program": "node",
+      "args": [
+        "--check",
+        "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\脚本\\ryotei_navigation.js"
+      ],
+      "status": 0,
+      "stdout": "",
+      "stderr": "",
+      "error": null
+    },
+    {
+      "program": "node",
+      "args": [
+        "--check",
+        "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\脚本\\verify_ryotei.cjs"
+      ],
+      "status": 0,
+      "stdout": "",
+      "stderr": "",
+      "error": null
+    },
+    {
+      "program": "node",
+      "args": [
+        "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\脚本\\verify_ryotei.cjs"
+      ],
+      "status": 0,
+      "stdout": "PASS: 源码整模块VM — 详情三表document分页、同候选数换客重置、history页签/查询/chips/页码/scrollXY、快照不可变、精确定位、恢复帧竞态、自定义render/pageKey\nPASS: 攻略 JSON、离线资源、脚本语法、11 页导航、地区/共享客人、精确定位与幂等路由、阅读状态恢复、分页、客人加料列头排序、详情关闭与连续切换\n",
+      "stderr": "",
+      "error": null
+    },
+    {
+      "program": "node",
+      "args": [
+        "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-14--备菜与配餐产品改进\\113200\\repair_regression_probe.cjs"
+      ],
+      "status": 0,
+      "stdout": "PASS: 当前三份源码与模板控制组\nCAUGHT: 详情分页误刷新背景网格 — 详情第二页真的重画为全量排序后的第51项\nCAUGHT: 同候选数换客继承页码 — 同候选数换客不可继承详情页码: detailMealSort\nCAUGHT: 后退同客人不渲染已恢复详情 — 同客人后退必须渲染已恢复的酒水页签DOM\nCAUGHT: 详情横向滚动不保存 — 详情scrollX保存于唯一detail-scroller\nCAUGHT: reading漏掉唯一详情滚动容器 — 重建后的表内纵向滚动须恢复\nCAUGHT: 恢复页码与历史快照共用引用 — 恢复页码必须克隆快照，后续分页不能修改历史记录\n",
+      "stderr": "",
+      "error": null
+    },
+    {
+      "program": "git",
+      "args": [
+        "-C",
+        "D:\\Agent流水线\\东方夜雀食堂\\攻略表",
+        "-c",
+        "core.quotepath=false",
+        "diff",
+        "--check",
+        "--",
+        "脚本/ryotei_ui.js",
+        "脚本/ryotei_navigation.js",
+        "脚本/verify_ryotei.cjs"
+      ],
+      "status": 0,
+      "stdout": "",
+      "stderr": "",
+      "error": null
+    }
+  ],
+  "mutation": {
+    "control": "PASS",
+    "expectedDefects": 6,
+    "caught": 6
+  },
+  "protectedDuringThisRun": {
+    "count": 46,
+    "changes": [],
+    "scope": "只比较本证据脚本执行前后。并行工作期间主线或其它线程的早先成品变化不归属于本线程，也未回退。"
+  },
+  "actualScope": {
+    "productionModified": [
+      "脚本/ryotei_ui.js",
+      "脚本/ryotei_navigation.js",
+      "脚本/verify_ryotei.cjs"
+    ],
+    "uncommitted": true,
+    "buildExecuted": false,
+    "browserExecuted": false,
+    "installation": false,
+    "gameTouched": false,
+    "commit": false,
+    "templateContract": "主线已接入 route(options={}), options.restoreDetail -> openGuest(name,false,{restoreView}), openGuest跳过历史恢复时换客清过滤。",
+    "boundaries": "源码runtime测试整份模板IIFE与ui/nav，不自动init、不加载独立MealUI/domain/session业务；成品仅静态一致性/离线/语法检查，不是新功能成品或浏览器验收。"
+  },
+  "initialFailedAttempts": [
+    "旧verify DOMstub无cancelAnimationFrame，补stub及真实signature后通过，未放宽断言。",
+    "整runtime替换源码字符串的$$被replace特殊语义缩成$，改函数替换；补齐heading元素及详情tab父节点。",
+    "mutation外层VM缺URLSearchParams，且ui为CRLF影响精确匹配；补全环境并仅规范化内存换行。"
+  ],
+  "result": "PASS"
+}

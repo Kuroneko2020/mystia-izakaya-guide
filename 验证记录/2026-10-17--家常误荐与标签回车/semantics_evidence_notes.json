@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 1,
+  "lineNumberConvention": "Physical LF-based 1-origin lines; old dumpbin files contain CRCRLF, so Python read_text().splitlines() would overcount. Native VA anchor is stable.",
+  "confirmed": [
+    "Food37真·海鲜味噌汤原生固有tags=[1,32,3,7]，正好命中文的家常3；客人4000固定厌恶只有西式13，彩蛋引用为空。没有证据删除此对。",
+    "全原生/上游/基线选定字段2227项独立复算一致；这只证明本次所查字段及静态合成，不是零语义偏差或游戏验收。",
+    "当前站点只按固定喜好至少1且无已知厌恶；未消费原生guestFoodEasterEggData。这造成4个已证实的实际不适用候选。",
+    "共有13个客人profile引用11唯一资产；10客是8类实际食物/食材评价覆盖，3客纯IdleDialog。后者继承的foodId=0不可误当负向菜条件。",
+    "负向菜条件是Koishi.foodId=70与Lunar.foodId=4001；Lunar由月人、丰姬、依姬共享。负向食材条件Momizi.chocolateId=5000，实际中文名可可豆。基础配方或加料Modifier含之均触发。",
+    "椛6道含可可豆基础菜中只有疯帽子茶会同时有固定喜好且无厌恶；命中大份但原生最高1并停止续单，因此是第4个应排除关系。",
+    "椛存储加料建议（guests/加料推荐与details/加料建议）无可可豆项；仍应在今后生成/解析加料时守护同一食材规则。",
+    "主料不自动继承全部食材标签：MatchedCookCombo.GetResult取AsNewFood，仅Modifier为额外加料；Sellable.get_Tags以原始tags+价格+额外食材tags+AdditiveTags再覆盖。合法成餐总料数5加大份。",
+    "家常3没有被现有7条覆盖规则消除；主料默认成餐不是把三文鱼/鳟鱼的所有标签再并入。",
+    "特殊客人普通点单评价：菜/酒当前点单命中分别计分，再加其余命中喜好、减厌恶；两点单均未满足上限1，仅一边满足上限3，均满足保底2；EvaluationTrans映射<=0/1/2/3/>=4。单固定命中不是固定坏评。",
+    "文reaction.toPop=2,toInfam=2：流行食物通过-20加分，恶评流行通过-21减分；未知当天趋势不能写入静态固定口味或作为现场既定根因。",
+    "普通客人按具体菜/酒下单，不按本表全固定喜好任意换菜；normalGuestMeal基准为2，再看新增喜欢标签，不能套特殊客人单命中=1的推断。"
+  ],
+  "notConfirmed": [
+    "用户现场真汤不喜欢的确切原因：没有当次菜ID/实际加料、菜酒点单、酒水、趋势、厨具/buff、当前版本/模组证据；不能宣称是随机点单、负面流行或模组造成。",
+    "未发现Aya-37专属厌恶、家常被抹去、地点改变家常规则的原生证据；未为查新方向扩大目录范围。",
+    "未启动游戏/修改游戏、存档、配置，静态反汇编不是现场复现。"
+  ],
+  "metricsBeforeFix": {
+    "fixedCandidates": {
+      "relations": 9206,
+      "guests": 106,
+      "foods": 163,
+      "byGuestType": {
+        "specialGuest": 4397,
+        "normalGuest": 4809
+      }
+    },
+    "singleHit": {
+      "relations": 5430,
+      "guests": 105,
+      "foods": 163,
+      "byGuestType": {
+        "specialGuest": 2562,
+        "normalGuest": 2868
+      }
+    },
+    "homeOnlySingleHit": {
+      "relations": 542,
+      "guests": 32,
+      "foods": 34,
+      "byGuestType": {
+        "specialGuest": 242,
+        "normalGuest": 300
+      }
+    },
+    "incompleteFixedOrderCoverage": {
+      "relations": 4392,
+      "guests": 59,
+      "foods": 163,
+      "byGuestType": {
+        "specialGuest": 4392
+      }
+    },
+    "excludedNegativeEasterEggCandidates": {
+      "relations": 4,
+      "guests": 4,
+      "foods": 3,
+      "byGuestType": {
+        "specialGuest": 3,
+        "normalGuest": 1
+      }
+    },
+    "afterExclusions": {
+      "relations": 9202,
+      "guests": 106,
+      "foods": 163,
+      "byGuestType": {
+        "specialGuest": 4394,
+        "normalGuest": 4808
+      }
+    },
+    "singleHitAfterExclusions": {
+      "relations": 5427,
+      "guests": 105,
+      "foods": 163,
+      "byGuestType": {
+        "specialGuest": 2560,
+        "normalGuest": 2867
+      }
+    }
+  },
+  "scope": {
+    "guests": 106,
+    "specialGuests": 59,
+    "normalGuests": 47,
+    "foods": 163,
+    "cartesianPairs": 17278
+  },
+  "directExcludedCandidates": [
+    {
+      "guestType": "specialGuest",
+      "guestId": 1001,
+      "guestName": "犬走椛",
+      "foodId": 5008,
+      "foodName": "疯帽子茶会",
+      "recipeId": 5008,
+      "hitTagIds": [
+        -1
+      ],
+      "hits": [
+        "大份"
+      ],
+      "missingFixedTagIds": [
+        0,
+        6,
+        8,
+        10
+      ],
+      "missingFixedTags": [
+        "肉",
+        "重油",
+        "下酒",
+        "山珍"
+      ],
+      "exceptions": [
+        {
+          "guestName": "犬走椛",
+          "ingredientName": "可可豆",
+          "guestId": 1001,
+          "ingredientId": 5000,
+          "gameIngredientName": "可可豆",
+          "guestType": "specialGuest",
+          "reason": "可可豆彩蛋压低评价，避免给椛使用",
+          "profile": "DLC1_FoodEasterEgg_Momizi",
+          "nativeClass": "MomiziFoodEasterEggData"
+        }
+      ]
+    },
+    {
+      "guestType": "specialGuest",
+      "guestId": 5001,
+      "guestName": "绵月丰姬",
+      "foodId": 4001,
+      "foodName": "蜜桃红烧肉",
+      "recipeId": 4001,
+      "hitTagIds": [
+        31
+      ],
+      "hits": [
+        "果味"
+      ],
+      "missingFixedTagIds": [
+        2,
+        4,
+        12,
+        17,
+        21,
+        25
+      ],
+      "missingFixedTags": [
+        "素",
+        "高级",
+        "和风",
+        "甜",
+        "凉爽",
+        "文化底蕴"
+      ],
+      "exceptions": [
+        {
+          "guestName": "绵月丰姬",
+          "foodName": "蜜桃红烧肉",
+          "guestId": 5001,
+          "foodId": 4001,
+          "guestType": "specialGuest",
+          "reason": "菜品彩蛋直接判最低评价",
+          "profile": "DLC5_FoodEasterEgg_LunarPerson",
+          "nativeClass": "LunarPersonFoodEasterEggData"
+        }
+      ]
+    },
+    {
+      "guestType": "specialGuest",
+      "guestId": 2006,
+      "guestName": "古明地恋",
+      "foodId": 70,
+      "foodName": "无意识妖怪慕斯",
+      "recipeId": 70,
+      "hitTagIds": [
+        17,
+        29
+      ],
+      "hits": [
+        "甜",
+        "梦幻"
+      ],
+      "missingFixedTagIds": [
+        15,
+        18,
+        24,
+        27
+      ],
+      "missingFixedTags": [
+        "咸",
+        "生",
+        "猎奇",
+        "不可思议"
+      ],
+      "exceptions": [
+        {
+          "guestName": "古明地恋",
+          "foodName": "无意识妖怪慕斯",
+          "guestId": 2006,
+          "foodId": 70,
+          "guestType": "specialGuest",
+          "reason": "菜品彩蛋直接判最低评价",
+          "profile": "DLC2_FoodEasterEgg_Koishi",
+          "nativeClass": "KoishiFoodEasterEggData"
+        }
+      ]
+    },
+    {
+      "guestType": "normalGuest",
+      "guestId": 5003,
+      "guestName": "月人",
+      "foodId": 4001,
+      "foodName": "蜜桃红烧肉",
+      "recipeId": 4001,
+      "hitTagIds": [
+        27
+      ],
+      "hits": [
+        "不可思议"
+      ],
+      "missingFixedTagIds": [
+        5,
+        7,
+        11,
+        14,
+        29
+      ],
+      "missingFixedTags": [
+        "传说",
+        "清淡",
+        "海味",
+        "中华",
+        "梦幻"
+      ],
+      "exceptions": [
+        {
+          "guestName": "月人",
+          "foodName": "蜜桃红烧肉",
+          "guestId": 5003,
+          "foodId": 4001,
+          "guestType": "normalGuest",
+          "reason": "菜品彩蛋直接判最低评价",
+          "profile": "DLC5_FoodEasterEgg_LunarPerson",
+          "nativeClass": "LunarPersonFoodEasterEggData"
+        }
+      ]
+    }
+  ],
+  "minimalConsistentFix": [
+    "保留>=1固定喜好全量候选政策，不提高阈值、不把文-真汤黑名单化。",
+    "生产从本次独立规则JSON消费foodExclusions4与ingredientExclusions1；统一料理详情/备菜聚合/覆盖榜/历史推荐映射/加料的负向特例判定；全物品图鉴仍保留菜。",
+    "全菜双向集合回归：旧9206减且仅减4，得到9202，文真汤仍存在且命中仅家常；不得只核总数。",
+    "显著说明仅固定喜好候选，单命中提示，不保证当前点单/动态流行/高评价；当前点单标签AND筛选属用户选择，不是偷偷改排序/候选阈值。",
+    "正向彩蛋不自动扩展固定匹配资格。例如尤魔-油豆腐没有固定喜好命中但原生能强制good，是评价特例，不应被标成固定喜好。"
+  ],
+  "regression": {
+    "ruleExtraction": "py -X utf8 验证记录/2026-10-17--家常误荐与标签回车/extract_guest_food_rules.py --out <new-path>.json",
+    "fullAudit": "py -X utf8 验证记录/2026-10-17--家常误荐与标签回车/audit_guest_food_semantics.py --out <new-path>.json",
+    "assertions": [
+      "106*163=17278;2227 selected consistency checks;0 mismatches",
+      "foodExclusions=4;ingredientExclusions=1;resolvedFoodExclusions=10;referenceCoverage=13/11",
+      "remove exactly Momizi1001-5008,Koishi2006-70,Fuyohime5001-4001,normalMoon5003-4001;Yorihime5002-4001 already absent",
+      "Aya4000-Food37 remains;food0/1/37 not conflated;familyTag3 remains under every legal non-dark added ingredient",
+      "all nonexcluded remaining pair hit sets exactly unchanged;single-hit counts pre5430/post5427",
+      "normal5003 and special5003 ID spaces are not conflated;use guestType or unique guestName",
+      "easter refs idle-dialog-only Food0 never excluded",
+      "all current main/addon/view consumers use one rule set;basic recipe/extra ingredient both guard ingredient5000"
+    ],
+    "executed": [
+      "extract_guest_food_rules.py -> GAME_GUEST_FOOD_RULES_v2.json successful",
+      "audit_guest_food_semantics.py -> game_semantics_audit_01.json successful"
+    ]
+  },
+  "evidence": [
+    {
+      "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/FoodProfile_raw.json",
+      "sha256": "551c4080a0e5abacbe253aead536a10739387d4e20c4ce3766d1510cd364ecd2",
+      "anchors": [
+        {
+          "text": "\"id\": 37,",
+          "physicalLFLineNumbers": [
+            615
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/DLC4_SpecialGuestProfile_raw.json",
+      "sha256": "4d51a68cb7bc688f044bac6a6960335c9383e02bb025cd7728b12c42f2a95086",
+      "anchors": [
+        {
+          "text": "\"id\": 4000,",
+          "physicalLFLineNumbers": [
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/easter_profile_assets_with_types.json",
+      "sha256": "2419299cba9e3776fe37b8685dc597208fd91f19e3db67e2c34d2670e783a396",
+      "anchors": [
+        {
+          "text": "\"m_Name\": \"DLC1_FoodEasterEgg_Momizi\"",
+          "physicalLFLineNumbers": [
+            61
+          ]
+        },
+        {
+          "text": "\"m_Name\": \"DLC2_FoodEasterEgg_Koishi\"",
+          "physicalLFLineNumbers": [
+            124
+          ]
+        },
+        {
+          "text": "\"m_Name\": \"DLC5_FoodEasterEgg_LunarPerson\"",
+          "physicalLFLineNumbers": [
+            227
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_11070_WorkSceneCookingSelectionPannel_MatchedCookCombo_GetResult_complete.txt",
+      "sha256": "06e099918f206e2333c430d3194fee12b29b6deaff083e614af96bd3a237b3c7",
+      "anchors": [
+        {
+          "text": "000000018057F094:",
+          "physicalLFLineNumbers": [
+            44
+          ]
+        },
+        {
+          "text": "000000018057F0B8:",
+          "physicalLFLineNumbers": [
+            53
+          ]
+        },
+        {
+          "text": "000000018057F0F2:",
+          "physicalLFLineNumbers": [
+            67
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/native_Sellable_get_Tags_14607.txt",
+      "sha256": "6ea77ecb5a4ac058ea2aa98c39474ce109cc8e96dc45cb627598261c7ce3c37d",
+      "anchors": [
+        {
+          "text": "000000018068A041:",
+          "physicalLFLineNumbers": [
+            95
+          ]
+        },
+        {
+          "text": "000000018068A15D:",
+          "physicalLFLineNumbers": [
+            175
+          ]
+        },
+        {
+          "text": "000000018068A17F:",
+          "physicalLFLineNumbers": [
+            185
+          ]
+        },
+        {
+          "text": "000000018068A1A1:",
+          "physicalLFLineNumbers": [
+            194
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15094_KoishiFoodEasterEggData_CheckEasterEgg_complete.txt",
+      "sha256": "c089c5096c155d56892f8219e45fbd8c529278252ab44d64ab2995a4fc7e1c94",
+      "anchors": [
+        {
+          "text": "000000018068343E:",
+          "physicalLFLineNumbers": [
+            56
+          ]
+        },
+        {
+          "text": "00000001806835B3:",
+          "physicalLFLineNumbers": [
+            160
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15106_LunarPersonFoodEasterEggData_CheckEasterEgg_complete.txt",
+      "sha256": "1203eebb832971fdee94043d2981a7c88a93f182233458215b6c308c1aca93b3",
+      "anchors": [
+        {
+          "text": "0000000180685605:",
+          "physicalLFLineNumbers": [
+            45
+          ]
+        },
+        {
+          "text": "0000000180685616:",
+          "physicalLFLineNumbers": [
+            54
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15113_MomiziFoodEasterEggData_CheckEasterEgg_complete.txt",
+      "sha256": "f3ef882cabc7d738083d2851c2f189e7612980ad640b1c5d1ad587951d714c47",
+      "anchors": [
+        {
+          "text": "0000000180685BEC:",
+          "physicalLFLineNumbers": [
+            63
+          ]
+        },
+        {
+          "text": "0000000180685C62:",
+          "physicalLFLineNumbers": [
+            95
+          ]
+        },
+        {
+          "text": "0000000180685C8A:",
+          "physicalLFLineNumbers": [
+            107
+          ]
+        },
+        {
+          "text": "0000000180685C9B:",
+          "physicalLFLineNumbers": [
+            112
+          ]
+        },
+        {
+          "text": "0000000180685CA0:",
+          "physicalLFLineNumbers": [
+            114
+          ]
+        },
+        {
+          "text": "0000000180685CCF:",
+          "physicalLFLineNumbers": [
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-14--持有金与消费机制调查/native_8307_GuestGroupController_Evaluate.txt",
+      "sha256": "20ddbf97c41cfc00739708fb7d2ced3ed3bf8effdd8dd61d3ee774960434d7fc",
+      "anchors": [
+        {
+          "text": "00000001804C424D:",
+          "physicalLFLineNumbers": [
+            782
+          ]
+        },
+        {
+          "text": "00000001804C4284:",
+          "physicalLFLineNumbers": [
+            797
+          ]
+        },
+        {
+          "text": "00000001804C461B:",
+          "physicalLFLineNumbers": [
+            1054
+          ]
+        },
+        {
+          "text": "00000001804C4652:",
+          "physicalLFLineNumbers": [
+            1070
+          ]
+        },
+        {
+          "text": "00000001804C47EA:",
+          "physicalLFLineNumbers": [
+            1182
+          ]
+        },
+        {
+          "text": "00000001804C4DDE:",
+          "physicalLFLineNumbers": [
+            1591
+          ]
+        },
+        {
+          "text": "00000001804C4E75:",
+          "physicalLFLineNumbers": [
+            1630
+          ]
+        },
+        {
+          "text": "00000001804C5613:",
+          "physicalLFLineNumbers": [
+            2156
+          ]
+        },
+        {
+          "text": "00000001804C5668:",
+          "physicalLFLineNumbers": [
+            2180
+          ]
+        },
+        {
+          "text": "00000001804C56AD:",
+          "physicalLFLineNumbers": [
+            2200
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_8532_GuestsManager_EvaluationTrans_complete.txt",
+      "sha256": "ad37507cf465b01c0f028ea3f97dc08913dfd3f05e2a9276d8a38e438cf1e57e",
+      "anchors": [
+        {
+          "text": "00000001804CEF40:",
+          "physicalLFLineNumbers": [
+            9
+          ]
+        },
+        {
+          "text": "00000001804CEF4A:",
+          "physicalLFLineNumbers": [
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/native_Sellable_GetPopTag_14610.txt",
+      "sha256": "be3e88be8ff80224241c4b51496df3708823c049e612a08f5e629379374360bc",
+      "anchors": [
+        {
+          "text": "0000000180688731:",
+          "physicalLFLineNumbers": [
+            103
+          ]
+        },
+        {
+          "text": "0000000180688787:",
+          "physicalLFLineNumbers": [
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_14700_SpecialGuest_get_HateFoodTag_complete.txt",
+      "sha256": "d057529728c5265f3a08d5e69840106be15c756d06ebc0b0c769e032934ef260",
+      "anchors": [
+        {
+          "text": "000000018068D14C:",
+          "physicalLFLineNumbers": [
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_14734_SpecialGuest_GetLikeTagWeighted_complete.txt",
+      "sha256": "e703d32be40d721a381c3866013d0c1f5f8369180add587e6622221554a6d19e",
+      "anchors": [
+        {
+          "text": "000000018068AECA:",
+          "physicalLFLineNumbers": [
+            105
+          ]
+        },
+        {
+          "text": "000000018068AF11:",
+          "physicalLFLineNumbers": [
+            126
+          ]
+        }
+      ]
+    },
+    {
+      "path": "验证记录/2026-10-14--持有金与消费机制调查/native_8530_GuestsManager_EvaluateOrder_complete.txt",
+      "sha256": "2a57f1624f08347d7529e8fa728890e943dc1fd550385f4298826c888f150dab",
+      "anchors": [
+        {
+          "text": "00000001804CEA75:",
+          "physicalLFLineNumbers": [
+            607
+          ]
+        }
+      ]
+    }
+  ],
+  "writeScope": "Only new files in this task evidence directory were created by this agent. Main session handles production/UI; no commits/pushes/long-term memory."
+}

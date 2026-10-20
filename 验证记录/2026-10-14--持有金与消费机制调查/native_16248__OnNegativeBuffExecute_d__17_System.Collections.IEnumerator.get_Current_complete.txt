@@ -1,0 +1,54 @@
+# <OnNegativeBuffExecute>d__17::System.Collections.IEnumerator.get_Current
+# {"declaringType": "<OnNegativeBuffExecute>d__17", "typeIndex": 2607, "image": "Assembly-CSharp.dll", "name": "System.Collections.IEnumerator.get_Current", "metadataMethodIndex": 16248, "token": "0x6003f79", "methodPointerIndex": 16248, "va": "0x1803f3a50", "rva": "0x3f3a50", "endRva": null, "returnTypeIndex": 28405, "parameters": []}
+# range end RVA 0x3f3ab0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001803F3A50: 48 8B 41 18        mov         rax,qword ptr [rcx+18h]
+  00000001803F3A54: C3                 ret
+  00000001803F3A55: CC                 int         3
+  00000001803F3A56: CC                 int         3
+  00000001803F3A57: CC                 int         3
+  00000001803F3A58: CC                 int         3
+  00000001803F3A59: CC                 int         3
+  00000001803F3A5A: CC                 int         3
+  00000001803F3A5B: CC                 int         3
+  00000001803F3A5C: CC                 int         3
+  00000001803F3A5D: CC                 int         3
+  00000001803F3A5E: CC                 int         3
+  00000001803F3A5F: CC                 int         3
+  00000001803F3A60: 40 53              push        rbx
+  00000001803F3A62: 48 83 EC 20        sub         rsp,20h
+  00000001803F3A66: 48 8D 0D 8B 4D D8  lea         rcx,[00000001841787F8h]
+                    03
+  00000001803F3A6D: E8 0E 95 F6 FF     call        000000018035CF80
+  00000001803F3A72: 48 8B C8           mov         rcx,rax
+  00000001803F3A75: E8 46 96 F6 FF     call        000000018035D0C0
+  00000001803F3A7A: 48 8B C8           mov         rcx,rax
+  00000001803F3A7D: 48 8B D8           mov         rbx,rax
+  00000001803F3A80: E8 9B F6 C0 FF     call        0000000180003120
+  00000001803F3A85: 33 D2              xor         edx,edx
+  00000001803F3A87: 48 8B CB           mov         rcx,rbx
+  00000001803F3A8A: E8 B1 74 E0 01     call        00000001821FAF40 ; System.NotSupportedException::.ctor [MI 27370, RVA 0x21faf40]
+  00000001803F3A8F: 48 8D 0D D2 6F DC  lea         rcx,[00000001841BAA68h]
+                    03
+  00000001803F3A96: E8 E5 94 F6 FF     call        000000018035CF80
+  00000001803F3A9B: 48 8B D0           mov         rdx,rax
+  00000001803F3A9E: 48 8B CB           mov         rcx,rbx
+  00000001803F3AA1: E8 3A 96 F6 FF     call        000000018035D0E0
+  00000001803F3AA6: CC                 int         3
+  00000001803F3AA7: CC                 int         3
+  00000001803F3AA8: CC                 int         3
+  00000001803F3AA9: CC                 int         3
+  00000001803F3AAA: CC                 int         3
+  00000001803F3AAB: CC                 int         3
+  00000001803F3AAC: CC                 int         3
+  00000001803F3AAD: CC                 int         3
+  00000001803F3AAE: CC                 int         3
+  00000001803F3AAF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

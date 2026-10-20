@@ -1,0 +1,14 @@
+[
+  {
+    "script": "脚本/verify_card_idle.cjs",
+    "exitCode": 0,
+    "stdout": "PASS: 卡片稳定绘制样式、四处 CSS 隔离、原数据、立体头像及业务脚本保持不变。\n",
+    "stderr": ""
+  },
+  {
+    "script": "脚本/verify_ryotei.cjs",
+    "exitCode": 0,
+    "stdout": "PASS: 源码整模块VM — 详情三表document分页、同候选数换客重置、history页签/查询/chips/页码/scrollXY、快照不可变、精确定位、恢复帧竞态、自定义render/pageKey\nPASS: 攻略 JSON、离线资源、脚本语法、11 页导航、地区/共享客人、精确定位与幂等路由、阅读状态恢复、分页、客人加料列头排序、详情关闭与连续切换\n",
+    "stderr": ""
+  }
+]

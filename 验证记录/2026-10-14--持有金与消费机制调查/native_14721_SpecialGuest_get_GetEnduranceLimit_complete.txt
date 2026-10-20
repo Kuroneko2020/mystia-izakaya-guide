@@ -1,0 +1,24 @@
+# GameData.Core.Collections.NightSceneUtility.SpecialGuest::get_GetEnduranceLimit
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest", "typeIndex": 2315, "image": "Assembly-CSharp.dll", "name": "get_GetEnduranceLimit", "metadataMethodIndex": 14721, "token": "0x6003982", "methodPointerIndex": 14721, "va": "0x18068d010", "rva": "0x68d010", "endRva": null, "returnTypeIndex": 30654, "parameters": []}
+# range end RVA 0x68d020; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018068D010: F3 0F 10 41 28     movss       xmm0,dword ptr [rcx+28h]
+  000000018068D015: C3                 ret
+  000000018068D016: CC                 int         3
+  000000018068D017: CC                 int         3
+  000000018068D018: CC                 int         3
+  000000018068D019: CC                 int         3
+  000000018068D01A: CC                 int         3
+  000000018068D01B: CC                 int         3
+  000000018068D01C: CC                 int         3
+  000000018068D01D: CC                 int         3
+  000000018068D01E: CC                 int         3
+  000000018068D01F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

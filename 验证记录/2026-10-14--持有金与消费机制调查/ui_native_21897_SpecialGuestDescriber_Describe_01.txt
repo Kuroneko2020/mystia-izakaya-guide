@@ -1,0 +1,677 @@
+# Common.UI.SpecialGuestDescriber::Describe
+# {"declaringType": "Common.UI.SpecialGuestDescriber", "typeIndex": 3670, "image": "Assembly-CSharp.dll", "name": "Describe", "metadataMethodIndex": 21897, "token": "0x600558a", "methodPointerIndex": 21897, "va": "0x180851cd0", "rva": "0x851cd0", "endRva": "0x852690", "returnTypeIndex": 33376, "parameters": [{"index": 15674, "name": "detail", "typeIndex": 30844}, {"index": 15675, "name": "cancellationToken", "typeIndex": 21034}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x851cd0..0x852690; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180851CD0: 48 8B C4           mov         rax,rsp
+  0000000180851CD3: 48 89 58 18        mov         qword ptr [rax+18h],rbx
+  0000000180851CD7: 48 89 70 20        mov         qword ptr [rax+20h],rsi
+  0000000180851CDB: 48 89 50 10        mov         qword ptr [rax+10h],rdx
+  0000000180851CDF: 48 89 48 08        mov         qword ptr [rax+8],rcx
+  0000000180851CE3: 57                 push        rdi
+  0000000180851CE4: 41 54              push        r12
+  0000000180851CE6: 41 55              push        r13
+  0000000180851CE8: 41 56              push        r14
+  0000000180851CEA: 41 57              push        r15
+  0000000180851CEC: 48 81 EC 30 01 00  sub         rsp,130h
+                    00
+  0000000180851CF3: 0F 29 70 C8        movaps      xmmword ptr [rax-38h],xmm6
+  0000000180851CF7: 0F 29 78 B8        movaps      xmmword ptr [rax-48h],xmm7
+  0000000180851CFB: 49 8B D8           mov         rbx,r8
+  0000000180851CFE: 4C 8B FA           mov         r15,rdx
+  0000000180851D01: 4C 8B F1           mov         r14,rcx
+  0000000180851D04: 80 3D 80 BB B1 03  cmp         byte ptr [000000018436D88Bh],0
+                    00
+  0000000180851D0B: 0F 85 33 01 00 00  jne         0000000180851E44
+  0000000180851D11: 48 8D 0D C0 C7 96  lea         rcx,[00000001841BE4D8h]
+                    03
+  0000000180851D18: E8 63 B2 B0 FF     call        000000018035CF80
+  0000000180851D1D: 48 8D 0D A4 DD 94  lea         rcx,[000000018419FAC8h]
+                    03
+  0000000180851D24: E8 57 B2 B0 FF     call        000000018035CF80
+  0000000180851D29: 48 8D 0D 98 DE 94  lea         rcx,[000000018419FBC8h]
+                    03
+  0000000180851D30: E8 4B B2 B0 FF     call        000000018035CF80
+  0000000180851D35: 48 8D 0D B4 7A 97  lea         rcx,[00000001841C97F0h]
+                    03
+  0000000180851D3C: E8 3F B2 B0 FF     call        000000018035CF80
+  0000000180851D41: 48 8D 0D D0 1D 97  lea         rcx,[00000001841C3B18h]
+                    03
+  0000000180851D48: E8 33 B2 B0 FF     call        000000018035CF80
+  0000000180851D4D: 48 8D 0D 34 E7 90  lea         rcx,[0000000184160488h]
+                    03
+  0000000180851D54: E8 27 B2 B0 FF     call        000000018035CF80
+  0000000180851D59: 48 8D 0D 88 61 95  lea         rcx,[00000001841A7EE8h]
+                    03
+  0000000180851D60: E8 1B B2 B0 FF     call        000000018035CF80
+  0000000180851D65: 48 8D 0D 9C 24 90  lea         rcx,[0000000184154208h]
+                    03
+  0000000180851D6C: E8 0F B2 B0 FF     call        000000018035CF80
+  0000000180851D71: 48 8D 0D 50 D0 90  lea         rcx,[000000018415EDC8h]
+                    03
+  0000000180851D78: E8 03 B2 B0 FF     call        000000018035CF80
+  0000000180851D7D: 48 8D 0D 44 D2 90  lea         rcx,[000000018415EFC8h]
+                    03
+  0000000180851D84: E8 F7 B1 B0 FF     call        000000018035CF80
+  0000000180851D89: 48 8D 0D B0 42 8E  lea         rcx,[0000000184136040h]
+                    03
+  0000000180851D90: E8 EB B1 B0 FF     call        000000018035CF80
+  0000000180851D95: 48 8D 0D DC 52 94  lea         rcx,[0000000184197078h]
+                    03
+  0000000180851D9C: E8 DF B1 B0 FF     call        000000018035CF80
+  0000000180851DA1: 48 8D 0D 78 B2 92  lea         rcx,[000000018417D020h]
+                    03
+  0000000180851DA8: E8 D3 B1 B0 FF     call        000000018035CF80
+  0000000180851DAD: 48 8D 0D E4 A0 92  lea         rcx,[000000018417BE98h]
+                    03
+  0000000180851DB4: E8 C7 B1 B0 FF     call        000000018035CF80
+  0000000180851DB9: 48 8D 0D 10 5D 94  lea         rcx,[0000000184197AD0h]
+                    03
+  0000000180851DC0: E8 BB B1 B0 FF     call        000000018035CF80
+  0000000180851DC5: 48 8D 0D 0C 5F 94  lea         rcx,[0000000184197CD8h]
+                    03
+  0000000180851DCC: E8 AF B1 B0 FF     call        000000018035CF80
+  0000000180851DD1: 48 8D 0D 50 3D 97  lea         rcx,[00000001841C5B28h]
+                    03
+  0000000180851DD8: E8 A3 B1 B0 FF     call        000000018035CF80
+  0000000180851DDD: 48 8D 0D 1C 34 8F  lea         rcx,[0000000184145200h]
+                    03
+  0000000180851DE4: E8 97 B1 B0 FF     call        000000018035CF80
+  0000000180851DE9: 48 8D 0D A8 90 97  lea         rcx,[00000001841CAE98h]
+                    03
+  0000000180851DF0: E8 8B B1 B0 FF     call        000000018035CF80
+  0000000180851DF5: 48 8D 0D 6C 22 93  lea         rcx,[0000000184184068h]
+                    03
+  0000000180851DFC: E8 7F B1 B0 FF     call        000000018035CF80
+  0000000180851E01: 48 8D 0D 08 74 96  lea         rcx,[00000001841B9210h]
+                    03
+  0000000180851E08: E8 73 B1 B0 FF     call        000000018035CF80
+  0000000180851E0D: 48 8D 0D 9C CF 93  lea         rcx,[000000018418EDB0h]
+                    03
+  0000000180851E14: E8 67 B1 B0 FF     call        000000018035CF80
+  0000000180851E19: 48 8D 0D 40 21 93  lea         rcx,[0000000184183F60h]
+                    03
+  0000000180851E20: E8 5B B1 B0 FF     call        000000018035CF80
+  0000000180851E25: 48 8D 0D 44 7C 92  lea         rcx,[0000000184179A70h]
+                    03
+  0000000180851E2C: E8 4F B1 B0 FF     call        000000018035CF80
+  0000000180851E31: 48 8D 0D A8 F8 93  lea         rcx,[00000001841916E0h]
+                    03
+  0000000180851E38: E8 43 B1 B0 FF     call        000000018035CF80
+  0000000180851E3D: C6 05 47 BA B1 03  mov         byte ptr [000000018436D88Bh],1
+                    01
+  0000000180851E44: 33 F6              xor         esi,esi
+  0000000180851E46: 89 74 24 60        mov         dword ptr [rsp+60h],esi
+  0000000180851E4A: 89 74 24 50        mov         dword ptr [rsp+50h],esi
+  0000000180851E4E: 48 89 B4 24 D0 00  mov         qword ptr [rsp+00000000000000D0h],rsi
+                    00 00
+  0000000180851E56: 48 89 B4 24 E0 00  mov         qword ptr [rsp+00000000000000E0h],rsi
+                    00 00
+  0000000180851E5E: 48 89 B4 24 D8 00  mov         qword ptr [rsp+00000000000000D8h],rsi
+                    00 00
+  0000000180851E66: 48 89 B4 24 E8 00  mov         qword ptr [rsp+00000000000000E8h],rsi
+                    00 00
+  0000000180851E6E: 48 89 74 24 70     mov         qword ptr [rsp+70h],rsi
+  0000000180851E73: 48 89 74 24 58     mov         qword ptr [rsp+58h],rsi
+  0000000180851E78: 89 74 24 68        mov         dword ptr [rsp+68h],esi
+  0000000180851E7C: 48 89 B4 24 80 00  mov         qword ptr [rsp+0000000000000080h],rsi
+                    00 00
+  0000000180851E84: 89 74 24 64        mov         dword ptr [rsp+64h],esi
+  0000000180851E88: 4D 85 FF           test        r15,r15
+  0000000180851E8B: 0F 84 D6 07 00 00  je          0000000180852667
+  0000000180851E91: 49 8B 7F 18        mov         rdi,qword ptr [r15+18h]
+  0000000180851E95: 48 8B 0D 34 5C 94  mov         rcx,qword ptr [0000000184197AD0h]
+                    03
+  0000000180851E9C: 39 B1 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],esi
+  0000000180851EA2: 75 05              jne         0000000180851EA9
+  0000000180851EA4: E8 07 B4 AA FF     call        00000001802FD2B0
+  0000000180851EA9: 45 33 C9           xor         r9d,r9d
+  0000000180851EAC: 4C 8D 44 24 50     lea         r8,[rsp+50h]
+  0000000180851EB1: 48 8D 54 24 60     lea         rdx,[rsp+60h]
+  0000000180851EB6: 48 8B CF           mov         rcx,rdi
+  0000000180851EB9: E8 B2 23 DD FF     call        0000000180624270 ; GameData.RunTime.Common.RunTimeAlbum::GetCharacterKizuna [MI 12960, RVA 0x624270]
+  0000000180851EBE: 89 44 24 78        mov         dword ptr [rsp+78h],eax
+  0000000180851EC2: 4D 8B 07           mov         r8,qword ptr [r15]
+  0000000180851EC5: 49 8B 90 B0 01 00  mov         rdx,qword ptr [r8+00000000000001B0h]
+                    00
+  0000000180851ECC: 49 8B CF           mov         rcx,r15
+  0000000180851ECF: 41 FF 90 A8 01 00  call        qword ptr [r8+00000000000001A8h]
+                    00
+  0000000180851ED6: 45 33 C9           xor         r9d,r9d
+  0000000180851ED9: 4C 8B C3           mov         r8,rbx
+  0000000180851EDC: 48 8B D0           mov         rdx,rax
+  0000000180851EDF: 49 8B CE           mov         rcx,r14
+  0000000180851EE2: E8 19 EB FC FF     call        0000000180820A00 ; Common.UI.LanguageBaseDescriber::Describe [MI 21654, RVA 0x820a00]
+  0000000180851EE7: 4D 8B 07           mov         r8,qword ptr [r15]
+  0000000180851EEA: 49 8B 90 A0 01 00  mov         rdx,qword ptr [r8+00000000000001A0h]
+                    00
+  0000000180851EF1: 49 8B CF           mov         rcx,r15
+  0000000180851EF4: 41 FF 90 98 01 00  call        qword ptr [r8+0000000000000198h]
+                    00
+  0000000180851EFB: 48 89 74 24 28     mov         qword ptr [rsp+28h],rsi
+  0000000180851F00: C7 44 24 20 01 00  mov         dword ptr [rsp+20h],1
+                    00 00
+  0000000180851F08: 41 B9 01 00 00 00  mov         r9d,1
+  0000000180851F0E: 4D 8B 46 68        mov         r8,qword ptr [r14+68h]
+  0000000180851F12: 49 8B 56 60        mov         rdx,qword ptr [r14+60h]
+  0000000180851F16: 48 8B C8           mov         rcx,rax
+  0000000180851F19: E8 32 C8 ED FF     call        000000018072E750 ; GameData.Core.Collections.CharacterUtility.CharacterSpriteSetHelper::Assign [MI 17997, RVA 0x72e750]
+  0000000180851F1E: 45 33 C0           xor         r8d,r8d
+  0000000180851F21: 49 8B D7           mov         rdx,r15
+  0000000180851F24: 49 8B CE           mov         rcx,r14
+  0000000180851F27: E8 F4 E8 FF FF     call        0000000180850820 ; Common.UI.SpecialGuestDescriber::ApplySpriteOffset [MI 21898, RVA 0x850820]
+  0000000180851F2C: 49 8B 07           mov         rax,qword ptr [r15]
+  0000000180851F2F: 48 8B 90 A0 01 00  mov         rdx,qword ptr [rax+00000000000001A0h]
+                    00
+  0000000180851F36: 49 8B CF           mov         rcx,r15
+  0000000180851F39: FF 90 98 01 00 00  call        qword ptr [rax+0000000000000198h]
+  0000000180851F3F: 45 33 C0           xor         r8d,r8d
+  0000000180851F42: 48 8B D0           mov         rdx,rax
+  0000000180851F45: 49 8B CE           mov         rcx,r14
+  0000000180851F48: E8 73 0A 00 00     call        00000001808529C0 ; Common.UI.SpecialGuestDescriber::StartTrimCoroutine [MI 21895, RVA 0x8529c0]
+  0000000180851F4D: 48 89 74 24 28     mov         qword ptr [rsp+28h],rsi
+  0000000180851F52: 48 8D 84 24 E8 00  lea         rax,[rsp+00000000000000E8h]
+                    00 00
+  0000000180851F5A: 48 89 44 24 20     mov         qword ptr [rsp+20h],rax
+  0000000180851F5F: 4C 8D 8C 24 D8 00  lea         r9,[rsp+00000000000000D8h]
+                    00 00
+  0000000180851F67: 4C 8D 84 24 E0 00  lea         r8,[rsp+00000000000000E0h]
+                    00 00
+  0000000180851F6F: 48 8D 94 24 D0 00  lea         rdx,[rsp+00000000000000D0h]
+                    00 00
+  0000000180851F77: 49 8B CF           mov         rcx,r15
+  0000000180851F7A: E8 11 2D DD FF     call        0000000180624C90 ; GameData.RunTime.Common.RunTimeAlbum::GetRevealedData [MI 12910, RVA 0x624c90]
+  0000000180851F7F: 4D 8B AE 80 00 00  mov         r13,qword ptr [r14+0000000000000080h]
+                    00
+  0000000180851F86: 33 D2              xor         edx,edx
+  0000000180851F88: 49 8B CF           mov         rcx,r15
+  0000000180851F8B: E8 D0 AE E3 FF     call        000000018068CE60 ; GameData.Core.Collections.NightSceneUtility.SpecialGuest::get_CharacterDefaultPortrayal [MI 14696, RVA 0x68ce60]
+  0000000180851F90: 48 8B F8           mov         rdi,rax
+  0000000180851F93: 48 8B 0D FE 8E 97  mov         rcx,qword ptr [00000001841CAE98h]
+                    03
+  0000000180851F9A: 39 B1 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],esi
+  0000000180851FA0: 75 05              jne         0000000180851FA7
+  0000000180851FA2: E8 09 B3 AA FF     call        00000001802FD2B0
+  0000000180851FA7: 33 C9              xor         ecx,ecx
+  0000000180851FA9: E8 82 C9 FE FF     call        000000018083E930 ; Common.UI.UniversalGameManager::get_PlatformAssetLifetime [MI 21400, RVA 0x83e930]
+  0000000180851FAE: 44 8B E0           mov         r12d,eax
+  0000000180851FB1: 0F 57 C0           xorps       xmm0,xmm0
+  0000000180851FB4: 0F 11 84 24 90 00  movups      xmmword ptr [rsp+0000000000000090h],xmm0
+                    00 00
+  0000000180851FBC: 4C 8B 05 7D 40 8E  mov         r8,qword ptr [0000000184136040h]
+                    03
+  0000000180851FC3: 48 8B D3           mov         rdx,rbx
+  0000000180851FC6: 48 8D 8C 24 90 00  lea         rcx,[rsp+0000000000000090h]
+                    00 00
+  0000000180851FCE: E8 DD DE 8D 00     call        000000018112FEB0
+  0000000180851FD3: 48 85 FF           test        rdi,rdi
+  0000000180851FD6: 0F 84 8B 06 00 00  je          0000000180852667
+  0000000180851FDC: 0F 28 84 24 90 00  movaps      xmm0,xmmword ptr [rsp+0000000000000090h]
+                    00 00
+  0000000180851FE4: 66 0F 7F 84 24 B0  movdqa      xmmword ptr [rsp+00000000000000B0h],xmm0
+                    00 00 00
+  0000000180851FED: 48 89 74 24 20     mov         qword ptr [rsp+20h],rsi
+  0000000180851FF2: 4C 8D 8C 24 B0 00  lea         r9,[rsp+00000000000000B0h]
+                    00 00
+  0000000180851FFA: 45 8B C4           mov         r8d,r12d
+  0000000180851FFD: 48 8B D7           mov         rdx,rdi
+  0000000180852000: 48 8D 8C 24 F8 00  lea         rcx,[rsp+00000000000000F8h]
+                    00 00
+  0000000180852008: E8 C3 AE ED FF     call        000000018072CED0 ; GameData.Profile.CharacterPortrayal::LoadNotebookVisual [MI 18200, RVA 0x72ced0]
+  000000018085200D: 0F 10 30           movups      xmm6,xmmword ptr [rax]
+  0000000180852010: F2 0F 10 78 10     movsd       xmm7,mmword ptr [rax+10h]
+  0000000180852015: 48 8B 0D FC 1A 97  mov         rcx,qword ptr [00000001841C3B18h]
+                    03
+  000000018085201C: 39 B1 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],esi
+  0000000180852022: 75 05              jne         0000000180852029
+  0000000180852024: E8 87 B2 AA FF     call        00000001802FD2B0
+  0000000180852029: 0F 29 B4 24 B0 00  movaps      xmmword ptr [rsp+00000000000000B0h],xmm6
+                    00 00
+  0000000180852031: F2 0F 11 BC 24 C0  movsd       mmword ptr [rsp+00000000000000C0h],xmm7
+                    00 00 00
+  000000018085203A: 48 89 74 24 20     mov         qword ptr [rsp+20h],rsi
+  000000018085203F: 45 33 C9           xor         r9d,r9d
+  0000000180852042: 4C 8B C3           mov         r8,rbx
+  0000000180852045: 48 8D 94 24 B0 00  lea         rdx,[rsp+00000000000000B0h]
+                    00 00
+  000000018085204D: 49 8B CD           mov         rcx,r13
+  0000000180852050: E8 8B A9 FC FF     call        000000018081C9E0 ; Common.UI.DescriberHelper::AssignImageSpriteAsync [MI 21668, RVA 0x81c9e0]
+  0000000180852055: 48 8B 0D 94 77 97  mov         rcx,qword ptr [00000001841C97F0h]
+                    03
+  000000018085205C: 39 B1 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],esi
+  0000000180852062: 75 05              jne         0000000180852069
+  0000000180852064: E8 47 B2 AA FF     call        00000001802FD2B0
+  0000000180852069: 48 8B 0D 58 DA 94  mov         rcx,qword ptr [000000018419FAC8h]
+                    03
+  0000000180852070: E8 9B 29 91 00     call        0000000181164A10
+  0000000180852075: 48 89 44 24 70     mov         qword ptr [rsp+70h],rax
+  000000018085207A: 48 8B 0D 47 DA 94  mov         rcx,qword ptr [000000018419FAC8h]
+                    03
+  0000000180852081: E8 8A 29 91 00     call        0000000181164A10
+  0000000180852086: 48 89 44 24 58     mov         qword ptr [rsp+58h],rax
+  000000018085208B: 48 89 B4 24 90 00  mov         qword ptr [rsp+0000000000000090h],rsi
+                    00 00
+  0000000180852093: 48 8D 44 24 70     lea         rax,[rsp+70h]
+  0000000180852098: 48 89 84 24 98 00  mov         qword ptr [rsp+0000000000000098h],rax
+                    00 00
+  00000001808520A0: 48 8D 44 24 58     lea         rax,[rsp+58h]
+  00000001808520A5: 48 89 84 24 A0 00  mov         qword ptr [rsp+00000000000000A0h],rax
+                    00 00
+  00000001808520AD: 48 8B 4C 24 58     mov         rcx,qword ptr [rsp+58h]
+  00000001808520B2: 48 85 C9           test        rcx,rcx
+  00000001808520B5: 0F 84 BD 05 00 00  je          0000000180852678
+  00000001808520BB: 4C 8B 05 06 CD 90  mov         r8,qword ptr [000000018415EDC8h]
+                    03
+  00000001808520C2: 48 8B 94 24 D0 00  mov         rdx,qword ptr [rsp+00000000000000D0h]
+                    00 00
+  00000001808520CA: E8 21 AF 7D 00     call        000000018102CFF0
+  00000001808520CF: 49 8B 9E 88 00 00  mov         rbx,qword ptr [r14+0000000000000088h]
+                    00
+  00000001808520D6: 49 8B BE A8 00 00  mov         rdi,qword ptr [r14+00000000000000A8h]
+                    00
+  00000001808520DD: 4C 8B 64 24 70     mov         r12,qword ptr [rsp+70h]
+  00000001808520E2: 4C 8B 6C 24 58     mov         r13,qword ptr [rsp+58h]
+  00000001808520E7: 49 8B 86 20 01 00  mov         rax,qword ptr [r14+0000000000000120h]
+                    00
+  00000001808520EE: 48 89 84 24 B0 00  mov         qword ptr [rsp+00000000000000B0h],rax
+                    00 00
+  00000001808520F6: 48 8B 0D 1B 1A 97  mov         rcx,qword ptr [00000001841C3B18h]
+                    03
+  00000001808520FD: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  0000000180852104: 75 0D              jne         0000000180852113
+  0000000180852106: E8 A5 B1 AA FF     call        00000001802FD2B0
+  000000018085210B: 48 8B 84 24 B0 00  mov         rax,qword ptr [rsp+00000000000000B0h]
+                    00 00
+  0000000180852113: 48 89 74 24 40     mov         qword ptr [rsp+40h],rsi
+  0000000180852118: C6 44 24 38 01     mov         byte ptr [rsp+38h],1
+  000000018085211D: 48 89 44 24 30     mov         qword ptr [rsp+30h],rax
+  0000000180852122: 48 8B 05 E7 70 96  mov         rax,qword ptr [00000001841B9210h]
+                    03
+  0000000180852129: 48 89 44 24 28     mov         qword ptr [rsp+28h],rax
+  000000018085212E: C6 44 24 20 00     mov         byte ptr [rsp+20h],0
+  0000000180852133: 4D 8B CD           mov         r9,r13
+  0000000180852136: 4D 8B C4           mov         r8,r12
+  0000000180852139: 48 8B D7           mov         rdx,rdi
+  000000018085213C: 48 8B CB           mov         rcx,rbx
+  000000018085213F: E8 5C AB FC FF     call        000000018081CCA0 ; Common.UI.DescriberHelper::PrintGuestTags [MI 21667, RVA 0x81cca0]
+  0000000180852144: 48 8B 4C 24 58     mov         rcx,qword ptr [rsp+58h]
+  0000000180852149: 48 85 C9           test        rcx,rcx
+  000000018085214C: 0F 84 21 05 00 00  je          0000000180852673
+  0000000180852152: FF 41 1C           inc         dword ptr [rcx+1Ch]
+  0000000180852155: 89 71 18           mov         dword ptr [rcx+18h],esi
+  0000000180852158: 48 8B 4C 24 58     mov         rcx,qword ptr [rsp+58h]
+  000000018085215D: 48 85 C9           test        rcx,rcx
+  0000000180852160: 0F 84 07 05 00 00  je          000000018085266D
+  0000000180852166: 4C 8B 05 5B CC 90  mov         r8,qword ptr [000000018415EDC8h]
+                    03
+  000000018085216D: 48 8B 94 24 D8 00  mov         rdx,qword ptr [rsp+00000000000000D8h]
+                    00 00
+  0000000180852175: E8 76 AE 7D 00     call        000000018102CFF0
+  000000018085217A: 48 89 74 24 40     mov         qword ptr [rsp+40h],rsi
+  000000018085217F: C6 44 24 38 00     mov         byte ptr [rsp+38h],0
+  0000000180852184: 49 8B 86 18 01 00  mov         rax,qword ptr [r14+0000000000000118h]
+                    00
+  000000018085218B: 48 89 44 24 30     mov         qword ptr [rsp+30h],rax
+  0000000180852190: 48 8B 05 79 70 96  mov         rax,qword ptr [00000001841B9210h]
+                    03
+  0000000180852197: 48 89 44 24 28     mov         qword ptr [rsp+28h],rax
+  000000018085219C: C6 44 24 20 00     mov         byte ptr [rsp+20h],0
+  00000001808521A1: 4C 8B 4C 24 58     mov         r9,qword ptr [rsp+58h]
+  00000001808521A6: 4C 8B 44 24 70     mov         r8,qword ptr [rsp+70h]
+  00000001808521AB: 49 8B 96 B0 00 00  mov         rdx,qword ptr [r14+00000000000000B0h]
+                    00
+  00000001808521B2: 49 8B 8E 98 00 00  mov         rcx,qword ptr [r14+0000000000000098h]
+                    00
+  00000001808521B9: E8 E2 AA FC FF     call        000000018081CCA0 ; Common.UI.DescriberHelper::PrintGuestTags [MI 21667, RVA 0x81cca0]
+  00000001808521BE: 90                 nop
+  00000001808521BF: 48 8B 5C 24 70     mov         rbx,qword ptr [rsp+70h]
+  00000001808521C4: 48 8B 0D 25 76 97  mov         rcx,qword ptr [00000001841C97F0h]
+                    03
+  00000001808521CB: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001808521D2: 75 05              jne         00000001808521D9
+  00000001808521D4: E8 D7 B0 AA FF     call        00000001802FD2B0
+  00000001808521D9: 48 8B 15 E8 D9 94  mov         rdx,qword ptr [000000018419FBC8h]
+                    03
+  00000001808521E0: 48 8B CB           mov         rcx,rbx
+  00000001808521E3: E8 58 8C 2C 01     call        0000000181B1AE40
+  00000001808521E8: 48 8B 15 D9 D9 94  mov         rdx,qword ptr [000000018419FBC8h]
+                    03
+  00000001808521EF: 48 8B 4C 24 58     mov         rcx,qword ptr [rsp+58h]
+  00000001808521F4: E8 47 8C 2C 01     call        0000000181B1AE40
+  00000001808521F9: EB 30              jmp         000000018085222B
+  00000001808521FB: 48 8D 8C 24 98 00  lea         rcx,[rsp+0000000000000098h]
+                    00 00
+  0000000180852203: E8 68 02 FB FF     call        0000000180802470
+  0000000180852208: 48 8B 8C 24 90 00  mov         rcx,qword ptr [rsp+0000000000000090h]
+                    00 00
+  0000000180852210: 48 85 C9           test        rcx,rcx
+  0000000180852213: 0F 85 65 04 00 00  jne         000000018085267E
+  0000000180852219: 33 F6              xor         esi,esi
+  000000018085221B: 4C 8B BC 24 68 01  mov         r15,qword ptr [rsp+0000000000000168h]
+                    00 00
+  0000000180852223: 4C 8B B4 24 60 01  mov         r14,qword ptr [rsp+0000000000000160h]
+                    00 00
+  000000018085222B: 4D 8B A6 90 00 00  mov         r12,qword ptr [r14+0000000000000090h]
+                    00
+  0000000180852232: 4D 8B AE A8 00 00  mov         r13,qword ptr [r14+00000000000000A8h]
+                    00
+  0000000180852239: 48 8B 84 24 E0 00  mov         rax,qword ptr [rsp+00000000000000E0h]
+                    00 00
+  0000000180852241: 48 89 84 24 68 01  mov         qword ptr [rsp+0000000000000168h],rax
+                    00 00
+  0000000180852249: 48 8B 0D B0 2F 8F  mov         rcx,qword ptr [0000000184145200h]
+                    03
+  0000000180852250: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  0000000180852257: 75 0C              jne         0000000180852265
+  0000000180852259: E8 52 B0 AA FF     call        00000001802FD2B0
+  000000018085225E: 48 8B 0D 9B 2F 8F  mov         rcx,qword ptr [0000000184145200h]
+                    03
+  0000000180852265: 48 8B 81 B8 00 00  mov         rax,qword ptr [rcx+00000000000000B8h]
+                    00
+  000000018085226C: 48 8B 58 10        mov         rbx,qword ptr [rax+10h]
+  0000000180852270: 48 85 DB           test        rbx,rbx
+  0000000180852273: 75 77              jne         00000001808522EC
+  0000000180852275: 39 99 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],ebx
+  000000018085227B: 75 0C              jne         0000000180852289
+  000000018085227D: E8 2E B0 AA FF     call        00000001802FD2B0
+  0000000180852282: 48 8B 0D 77 2F 8F  mov         rcx,qword ptr [0000000184145200h]
+                    03
+  0000000180852289: 48 8B 81 B8 00 00  mov         rax,qword ptr [rcx+00000000000000B8h]
+                    00
+  0000000180852290: 48 8B 38           mov         rdi,qword ptr [rax]
+  0000000180852293: 48 8B 0D 3E C2 96  mov         rcx,qword ptr [00000001841BE4D8h]
+                    03
+  000000018085229A: E8 21 AE B0 FF     call        000000018035D0C0
+  000000018085229F: 48 8B D8           mov         rbx,rax
+  00000001808522A2: 48 85 C0           test        rax,rax
+  00000001808522A5: 0F 84 DF 03 00 00  je          000000018085268A
+  00000001808522AB: 45 33 C9           xor         r9d,r9d
+  00000001808522AE: 4C 8B 05 73 38 97  mov         r8,qword ptr [00000001841C5B28h]
+                    03
+  00000001808522B5: 48 8B D7           mov         rdx,rdi
+  00000001808522B8: 48 8B C8           mov         rcx,rax
+  00000001808522BB: E8 C0 A1 D5 00     call        00000001815AC480
+  00000001808522C0: 48 8B 05 39 2F 8F  mov         rax,qword ptr [0000000184145200h]
+                    03
+  00000001808522C7: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  00000001808522CE: 48 89 59 10        mov         qword ptr [rcx+10h],rbx
+  00000001808522D2: 48 8B 05 27 2F 8F  mov         rax,qword ptr [0000000184145200h]
+                    03
+  00000001808522D9: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  00000001808522E0: 48 83 C1 10        add         rcx,10h
+  00000001808522E4: 48 8B D3           mov         rdx,rbx
+  00000001808522E7: E8 C4 A7 B0 FF     call        000000018035CAB0
+  00000001808522EC: 49 8B BE 10 01 00  mov         rdi,qword ptr [r14+0000000000000110h]
+                    00
+  00000001808522F3: 48 8B 0D 26 AD 92  mov         rcx,qword ptr [000000018417D020h]
+                    03
+  00000001808522FA: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  0000000180852301: 75 05              jne         0000000180852308
+  0000000180852303: E8 A8 AF AA FF     call        00000001802FD2B0
+  0000000180852308: 48 8B 05 69 4D 94  mov         rax,qword ptr [0000000184197078h]
+                    03
+  000000018085230F: 48 89 44 24 28     mov         qword ptr [rsp+28h],rax
+  0000000180852314: 48 89 7C 24 20     mov         qword ptr [rsp+20h],rdi
+  0000000180852319: 4C 8B CB           mov         r9,rbx
+  000000018085231C: 4C 8B 84 24 68 01  mov         r8,qword ptr [rsp+0000000000000168h]
+                    00 00
+  0000000180852324: 49 8B D5           mov         rdx,r13
+  0000000180852327: 49 8B CC           mov         rcx,r12
+  000000018085232A: E8 11 68 1D 00     call        0000000180A28B40
+  000000018085232F: 49 8B 17           mov         rdx,qword ptr [r15]
+  0000000180852332: 48 8B 82 C8 01 00  mov         rax,qword ptr [rdx+00000000000001C8h]
+                    00
+  0000000180852339: 48 8B 92 D0 01 00  mov         rdx,qword ptr [rdx+00000000000001D0h]
+                    00
+  0000000180852340: 49 8B CF           mov         rcx,r15
+  0000000180852343: FF D0              call        rax
+  0000000180852345: 48 8B D8           mov         rbx,rax
+  0000000180852348: 48 89 84 24 90 00  mov         qword ptr [rsp+0000000000000090h],rax
+                    00 00
+  0000000180852350: 48 8B 0D 81 59 94  mov         rcx,qword ptr [0000000184197CD8h]
+                    03
+  0000000180852357: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  000000018085235E: 75 05              jne         0000000180852365
+  0000000180852360: E8 4B AF AA FF     call        00000001802FD2B0
+  0000000180852365: 80 3D A6 A3 B1 03  cmp         byte ptr [000000018436C712h],0
+                    00
+  000000018085236C: 75 13              jne         0000000180852381
+  000000018085236E: 48 8D 0D 63 59 94  lea         rcx,[0000000184197CD8h]
+                    03
+  0000000180852375: E8 06 AC B0 FF     call        000000018035CF80
+  000000018085237A: C6 05 91 A3 B1 03  mov         byte ptr [000000018436C712h],1
+                    01
+  0000000180852381: 48 8B 0D 50 59 94  mov         rcx,qword ptr [0000000184197CD8h]
+                    03
+  0000000180852388: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  000000018085238F: 75 05              jne         0000000180852396
+  0000000180852391: E8 1A AF AA FF     call        00000001802FD2B0
+  0000000180852396: 48 8B 05 3B 59 94  mov         rax,qword ptr [0000000184197CD8h]
+                    03
+  000000018085239D: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  00000001808523A4: 80 B9 00 01 00 00  cmp         byte ptr [rcx+0000000000000100h],0
+                    00
+  00000001808523AB: 0F 85 FB 00 00 00  jne         00000001808524AC
+  00000001808523B1: 4D 8B A6 B8 00 00  mov         r12,qword ptr [r14+00000000000000B8h]
+                    00
+  00000001808523B8: 49 8B BE 28 01 00  mov         rdi,qword ptr [r14+0000000000000128h]
+                    00
+  00000001808523BF: 41 83 BF 84 00 00  cmp         dword ptr [r15+0000000000000084h],2
+                    00 02
+  00000001808523C7: 0F 84 91 00 00 00  je          000000018085245E
+  00000001808523CD: 89 9C 24 68 01 00  mov         dword ptr [rsp+0000000000000168h],ebx
+                    00
+  00000001808523D4: 48 8D 94 24 68 01  lea         rdx,[rsp+0000000000000168h]
+                    00 00
+  00000001808523DC: 48 8B 0D 25 1E 90  mov         rcx,qword ptr [0000000184154208h]
+                    03
+  00000001808523E3: E8 28 B6 AA FF     call        00000001802FDA10
+  00000001808523E8: 45 33 C9           xor         r9d,r9d
+  00000001808523EB: 4C 8B C0           mov         r8,rax
+  00000001808523EE: 48 8B 15 7B 76 92  mov         rdx,qword ptr [0000000184179A70h]
+                    03
+  00000001808523F5: 48 8B CF           mov         rcx,rdi
+  00000001808523F8: E8 23 E9 8B 01     call        0000000182110D20 ; System.String::Format [MI 25747, RVA 0x2110d20]
+  00000001808523FD: 48 8B F8           mov         rdi,rax
+  0000000180852400: 49 8B 9E 28 01 00  mov         rbx,qword ptr [r14+0000000000000128h]
+                    00
+  0000000180852407: 8B 94 24 94 00 00  mov         edx,dword ptr [rsp+0000000000000094h]
+                    00
+  000000018085240E: 89 94 24 B0 00 00  mov         dword ptr [rsp+00000000000000B0h],edx
+                    00
+  0000000180852415: 48 8D 94 24 B0 00  lea         rdx,[rsp+00000000000000B0h]
+                    00 00
+  000000018085241D: 48 8B 0D E4 1D 90  mov         rcx,qword ptr [0000000184154208h]
+                    03
+  0000000180852424: E8 E7 B5 AA FF     call        00000001802FDA10
+  0000000180852429: 45 33 C9           xor         r9d,r9d
+  000000018085242C: 4C 8B C0           mov         r8,rax
+  000000018085242F: 48 8B 15 3A 76 92  mov         rdx,qword ptr [0000000184179A70h]
+                    03
+  0000000180852436: 48 8B CB           mov         rcx,rbx
+  0000000180852439: E8 E2 E8 8B 01     call        0000000182110D20 ; System.String::Format [MI 25747, RVA 0x2110d20]
+  000000018085243E: 45 33 C9           xor         r9d,r9d
+  0000000180852441: 4C 8B C0           mov         r8,rax
+  0000000180852444: 48 8B 15 1D 1C 93  mov         rdx,qword ptr [0000000184184068h]
+                    03
+  000000018085244B: 48 8B CF           mov         rcx,rdi
+  000000018085244E: E8 2D B9 8B 01     call        000000018210DD80 ; System.String::Concat [MI 25740, RVA 0x210dd80]
+  0000000180852453: 4D 85 E4           test        r12,r12
+  0000000180852456: 0F 84 28 02 00 00  je          0000000180852684
+  000000018085245C: EB 34              jmp         0000000180852492
+  000000018085245E: 45 33 C9           xor         r9d,r9d
+  0000000180852461: 4C 8B 05 78 F2 93  mov         r8,qword ptr [00000001841916E0h]
+                    03
+  0000000180852468: 48 8B 15 01 76 92  mov         rdx,qword ptr [0000000184179A70h]
+                    03
+  000000018085246F: 48 8B CF           mov         rcx,rdi
+  0000000180852472: E8 A9 E8 8B 01     call        0000000182110D20 ; System.String::Format [MI 25747, RVA 0x2110d20]
+  0000000180852477: 45 33 C0           xor         r8d,r8d
+  000000018085247A: 48 8B 15 DF 1A 93  mov         rdx,qword ptr [0000000184183F60h]
+                    03
+  0000000180852481: 48 8B C8           mov         rcx,rax
+  0000000180852484: E8 17 BC 8B 01     call        000000018210E0A0 ; System.String::Concat [MI 25739, RVA 0x210e0a0]
+  0000000180852489: 4D 85 E4           test        r12,r12
+  000000018085248C: 0F 84 F8 01 00 00  je          000000018085268A
+  0000000180852492: 4D 8B 0C 24        mov         r9,qword ptr [r12]
+  0000000180852496: 4D 8B 81 60 05 00  mov         r8,qword ptr [r9+0000000000000560h]
+                    00
+  000000018085249D: 48 8B D0           mov         rdx,rax
+  00000001808524A0: 49 8B CC           mov         rcx,r12
+  00000001808524A3: 41 FF 91 58 05 00  call        qword ptr [r9+0000000000000558h]
+                    00
+  00000001808524AA: EB 27              jmp         00000001808524D3
+  00000001808524AC: 49 8B 8E B8 00 00  mov         rcx,qword ptr [r14+00000000000000B8h]
+                    00
+  00000001808524B3: 48 85 C9           test        rcx,rcx
+  00000001808524B6: 0F 84 CE 01 00 00  je          000000018085268A
+  00000001808524BC: 48 8B 01           mov         rax,qword ptr [rcx]
+  00000001808524BF: 4C 8B 80 60 05 00  mov         r8,qword ptr [rax+0000000000000560h]
+                    00
+  00000001808524C6: 48 8B 15 E3 C8 93  mov         rdx,qword ptr [000000018418EDB0h]
+                    03
+  00000001808524CD: FF 90 58 05 00 00  call        qword ptr [rax+0000000000000558h]
+  00000001808524D3: 49 8B 9E C8 00 00  mov         rbx,qword ptr [r14+00000000000000C8h]
+                    00
+  00000001808524DA: 48 8B 0D B7 99 92  mov         rcx,qword ptr [000000018417BE98h]
+                    03
+  00000001808524E1: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001808524E8: 75 05              jne         00000001808524EF
+  00000001808524EA: E8 C1 AD AA FF     call        00000001802FD2B0
+  00000001808524EF: 45 33 C0           xor         r8d,r8d
+  00000001808524F2: 33 D2              xor         edx,edx
+  00000001808524F4: 48 8B CB           mov         rcx,rbx
+  00000001808524F7: E8 F4 37 3E 02     call        0000000182C35CF0 ; UnityEngine.Object::op_Inequality [MI 78521, RVA 0x2c35cf0]
+  00000001808524FC: 84 C0              test        al,al
+  00000001808524FE: 0F 84 B8 00 00 00  je          00000001808525BC
+  0000000180852504: 49 8B 8E C8 00 00  mov         rcx,qword ptr [r14+00000000000000C8h]
+                    00
+  000000018085250B: 83 7C 24 50 05     cmp         dword ptr [rsp+50h],5
+  0000000180852510: 74 48              je          000000018085255A
+  0000000180852512: 66 0F 6E 54 24 60  movd        xmm2,dword ptr [rsp+60h]
+  0000000180852518: 0F 5B D2           cvtdq2ps    xmm2,xmm2
+  000000018085251B: 0F 57 C9           xorps       xmm1,xmm1
+  000000018085251E: 0F 2E CA           ucomiss     xmm1,xmm2
+  0000000180852521: 7A 02              jp          0000000180852525
+  0000000180852523: 74 2A              je          000000018085254F
+  0000000180852525: 66 0F 6E 44 24 78  movd        xmm0,dword ptr [rsp+78h]
+  000000018085252B: 0F 5B C0           cvtdq2ps    xmm0,xmm0
+  000000018085252E: F3 0F 5C C1        subss       xmm0,xmm1
+  0000000180852532: F3 0F 5C D1        subss       xmm2,xmm1
+  0000000180852536: F3 0F 5E C2        divss       xmm0,xmm2
+  000000018085253A: 0F 2F C8           comiss      xmm1,xmm0
+  000000018085253D: 77 10              ja          000000018085254F
+  000000018085253F: F3 0F 10 0D 39 97  movss       xmm1,dword ptr [0000000182EABC80h]
+                    65 02
+  0000000180852547: 0F 2F C1           comiss      xmm0,xmm1
+  000000018085254A: 77 03              ja          000000018085254F
+  000000018085254C: 0F 28 C8           movaps      xmm1,xmm0
+  000000018085254F: 48 85 C9           test        rcx,rcx
+  0000000180852552: 0F 84 32 01 00 00  je          000000018085268A
+  0000000180852558: EB 11              jmp         000000018085256B
+  000000018085255A: 48 85 C9           test        rcx,rcx
+  000000018085255D: 0F 84 27 01 00 00  je          000000018085268A
+  0000000180852563: F3 0F 10 0D 15 97  movss       xmm1,dword ptr [0000000182EABC80h]
+                    65 02
+  000000018085256B: 45 33 C0           xor         r8d,r8d
+  000000018085256E: E8 2D 2B 4A 02     call        0000000182CF50A0 ; UnityEngine.UI.Image::set_fillAmount [MI 93882, RVA 0x2cf50a0]
+  0000000180852573: 83 7C 24 50 00     cmp         dword ptr [rsp+50h],0
+  0000000180852578: 7F 0F              jg          0000000180852589
+  000000018085257A: C7 44 24 64 01 00  mov         dword ptr [rsp+64h],1
+                    00 00
+  0000000180852582: 48 8D 4C 24 64     lea         rcx,[rsp+64h]
+  0000000180852587: EB 05              jmp         000000018085258E
+  0000000180852589: 48 8D 4C 24 50     lea         rcx,[rsp+50h]
+  000000018085258E: 49 8B 9E D0 00 00  mov         rbx,qword ptr [r14+00000000000000D0h]
+                    00
+  0000000180852595: 33 D2              xor         edx,edx
+  0000000180852597: E8 D4 44 9A 01     call        00000001821F6A70 ; System.Int32::ToString [MI 27150, RVA 0x21f6a70]
+  000000018085259C: 48 85 DB           test        rbx,rbx
+  000000018085259F: 0F 84 E5 00 00 00  je          000000018085268A
+  00000001808525A5: 4C 8B 0B           mov         r9,qword ptr [rbx]
+  00000001808525A8: 4D 8B 81 60 05 00  mov         r8,qword ptr [r9+0000000000000560h]
+                    00
+  00000001808525AF: 48 8B D0           mov         rdx,rax
+  00000001808525B2: 48 8B CB           mov         rcx,rbx
+  00000001808525B5: 41 FF 91 58 05 00  call        qword ptr [r9+0000000000000558h]
+                    00
+  00000001808525BC: 45 33 C9           xor         r9d,r9d
+  00000001808525BF: 4C 8D 84 24 80 00  lea         r8,[rsp+0000000000000080h]
+                    00 00
+  00000001808525C7: 48 8D 54 24 68     lea         rdx,[rsp+68h]
+  00000001808525CC: 49 8B CF           mov         rcx,r15
+  00000001808525CF: E8 CC 89 E3 FF     call        000000018068AFA0 ; GameData.Core.Collections.NightSceneUtility.SpecialGuest::GetSpecialGuestSpawnInfo [MI 14729, RVA 0x68afa0]
+  00000001808525D4: 48 8B 15 0D 59 95  mov         rdx,qword ptr [00000001841A7EE8h]
+                    03
+  00000001808525DB: 48 8B 8C 24 E8 00  mov         rcx,qword ptr [rsp+00000000000000E8h]
+                    00 00
+  00000001808525E3: E8 D8 F4 55 00     call        0000000180DB1AC0
+  00000001808525E8: 48 85 C0           test        rax,rax
+  00000001808525EB: 0F 84 99 00 00 00  je          000000018085268A
+  00000001808525F1: 8B 7C 24 68        mov         edi,dword ptr [rsp+68h]
+  00000001808525F5: 83 78 18 00        cmp         dword ptr [rax+18h],0
+  00000001808525F9: 0F 97 C3           seta        bl
+  00000001808525FC: 85 FF              test        edi,edi
+  00000001808525FE: 75 1F              jne         000000018085261F
+  0000000180852600: 39 78 18           cmp         dword ptr [rax+18h],edi
+  0000000180852603: 0F 97 C3           seta        bl
+  0000000180852606: 4C 8B 05 7B DE 90  mov         r8,qword ptr [0000000184160488h]
+                    03
+  000000018085260D: 48 8B D0           mov         rdx,rax
+  0000000180852610: 48 8B 8C 24 80 00  mov         rcx,qword ptr [rsp+0000000000000080h]
+                    00 00
+  0000000180852618: E8 13 8D 51 00     call        0000000180D6B330
+  000000018085261D: EB 08              jmp         0000000180852627
+  000000018085261F: 48 8B 84 24 80 00  mov         rax,qword ptr [rsp+0000000000000080h]
+                    00 00
+  0000000180852627: 0F B6 D3           movzx       edx,bl
+  000000018085262A: 48 89 74 24 20     mov         qword ptr [rsp+20h],rsi
+  000000018085262F: 4D 8B 8E A0 00 00  mov         r9,qword ptr [r14+00000000000000A0h]
+                    00
+  0000000180852636: 4C 8B C0           mov         r8,rax
+  0000000180852639: 8B CF              mov         ecx,edi
+  000000018085263B: E8 B0 0D FD FF     call        00000001808233F0 ; Common.UI.NormalGuestDescriber::PrintFrequentlyShownText [MI 21692, RVA 0x8233f0]
+  0000000180852640: 4C 8D 9C 24 30 01  lea         r11,[rsp+0000000000000130h]
+                    00 00
+  0000000180852648: 49 8B 5B 40        mov         rbx,qword ptr [r11+40h]
+  000000018085264C: 49 8B 73 48        mov         rsi,qword ptr [r11+48h]
+  0000000180852650: 41 0F 28 73 F0     movaps      xmm6,xmmword ptr [r11-10h]
+  0000000180852655: 41 0F 28 7B E0     movaps      xmm7,xmmword ptr [r11-20h]
+  000000018085265A: 49 8B E3           mov         rsp,r11
+  000000018085265D: 41 5F              pop         r15
+  000000018085265F: 41 5E              pop         r14
+  0000000180852661: 41 5D              pop         r13
+  0000000180852663: 41 5C              pop         r12
+  0000000180852665: 5F                 pop         rdi
+  0000000180852666: C3                 ret
+  0000000180852667: E8 B4 AA B0 FF     call        000000018035D120
+  000000018085266C: 90                 nop
+  000000018085266D: E8 AE AA B0 FF     call        000000018035D120
+  0000000180852672: 90                 nop
+  0000000180852673: E8 A8 AA B0 FF     call        000000018035D120
+  0000000180852678: E8 A3 AA B0 FF     call        000000018035D120
+  000000018085267D: 90                 nop
+  000000018085267E: E8 AD 4C B0 FF     call        0000000180357330
+  0000000180852683: CC                 int         3
+  0000000180852684: E8 97 AA B0 FF     call        000000018035D120
+  0000000180852689: CC                 int         3
+  000000018085268A: E8 91 AA B0 FF     call        000000018035D120
+  000000018085268F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

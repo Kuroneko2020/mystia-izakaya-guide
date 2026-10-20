@@ -1,0 +1,35 @@
+# NightScene.GuestManagementUtility.GuestsManager::EvaluationTrans
+# {"declaringType": "NightScene.GuestManagementUtility.GuestsManager", "typeIndex": 1495, "image": "Assembly-CSharp.dll", "name": "EvaluationTrans", "metadataMethodIndex": 8532, "token": "0x6002155", "methodPointerIndex": 8532, "va": "0x1804cef40", "rva": "0x4cef40", "endRva": null, "returnTypeIndex": 38119, "parameters": [{"index": 6196, "name": "evaluation", "typeIndex": 26152}]}
+# range end RVA 0x4cef70; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804CEF40: 83 FA 04           cmp         edx,4
+  00000001804CEF43: 7D 1E              jge         00000001804CEF63
+  00000001804CEF45: 83 FA 03           cmp         edx,3
+  00000001804CEF48: 7D 13              jge         00000001804CEF5D
+  00000001804CEF4A: 83 FA 02           cmp         edx,2
+  00000001804CEF4D: 7D 08              jge         00000001804CEF57
+  00000001804CEF4F: 33 C0              xor         eax,eax
+  00000001804CEF51: 85 D2              test        edx,edx
+  00000001804CEF53: 0F 9F C0           setg        al
+  00000001804CEF56: C3                 ret
+  00000001804CEF57: B8 02 00 00 00     mov         eax,2
+  00000001804CEF5C: C3                 ret
+  00000001804CEF5D: B8 03 00 00 00     mov         eax,3
+  00000001804CEF62: C3                 ret
+  00000001804CEF63: B8 04 00 00 00     mov         eax,4
+  00000001804CEF68: C3                 ret
+  00000001804CEF69: CC                 int         3
+  00000001804CEF6A: CC                 int         3
+  00000001804CEF6B: CC                 int         3
+  00000001804CEF6C: CC                 int         3
+  00000001804CEF6D: CC                 int         3
+  00000001804CEF6E: CC                 int         3
+  00000001804CEF6F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

@@ -1,0 +1,553 @@
+{
+  "metadataSHA256": "995d1a08cac7a784d397927cf73ae71a8ce47cc8637cc4dd7ea534a3368b31e7",
+  "assemblySHA256": "91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789",
+  "registration": {
+    "fieldCountPos": "0x3c254c0",
+    "registrationRVA": "0x3c25470",
+    "fieldOffsetsVA": "0x184016000",
+    "typeSizesVA": "0x1840351b0",
+    "satoriOffsets": [
+      0,
+      24,
+      32,
+      36
+    ]
+  },
+  "types": [
+    {
+      "typeIndex": 1447,
+      "type": "OrderBase",
+      "byvalTypeIndex": 38196,
+      "parentTypeIndex": 28405,
+      "offsetArrayVA": "0x182ebd698",
+      "fields": [
+        {
+          "fieldIndex": 7780,
+          "name": "beverageRequest",
+          "typeIndex": 26155,
+          "offset": 16,
+          "offsetHex": "0x10"
+        },
+        {
+          "fieldIndex": 7781,
+          "name": "foodRequest",
+          "typeIndex": 26155,
+          "offset": 20,
+          "offsetHex": "0x14"
+        },
+        {
+          "fieldIndex": 7782,
+          "name": "m_ServedBeverageInAir",
+          "typeIndex": 30384,
+          "offset": 24,
+          "offsetHex": "0x18"
+        },
+        {
+          "fieldIndex": 7783,
+          "name": "m_ServedFoodInAir",
+          "typeIndex": 30384,
+          "offset": 32,
+          "offsetHex": "0x20"
+        },
+        {
+          "fieldIndex": 7784,
+          "name": "servBeverage",
+          "typeIndex": 30384,
+          "offset": 40,
+          "offsetHex": "0x28"
+        },
+        {
+          "fieldIndex": 7785,
+          "name": "servFood",
+          "typeIndex": 30384,
+          "offset": 48,
+          "offsetHex": "0x30"
+        },
+        {
+          "fieldIndex": 7786,
+          "name": "<Type>k__BackingField",
+          "typeIndex": 43731,
+          "offset": 56,
+          "offsetHex": "0x38"
+        },
+        {
+          "fieldIndex": 7787,
+          "name": "<OnUpdateServeDataVisualCallback>k__BackingField",
+          "typeIndex": 4894,
+          "offset": 64,
+          "offsetHex": "0x40"
+        },
+        {
+          "fieldIndex": 7788,
+          "name": "<DeskCode>k__BackingField",
+          "typeIndex": 26162,
+          "offset": 72,
+          "offsetHex": "0x48"
+        },
+        {
+          "fieldIndex": 7789,
+          "name": "<ManualOrder>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 76,
+          "offsetHex": "0x4c"
+        },
+        {
+          "fieldIndex": 7790,
+          "name": "<FreeOrder>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 77,
+          "offsetHex": "0x4d"
+        },
+        {
+          "fieldIndex": 7791,
+          "name": "<HiddenPic>k__BackingField",
+          "typeIndex": 31029,
+          "offset": 80,
+          "offsetHex": "0x50"
+        },
+        {
+          "fieldIndex": 7792,
+          "name": "<FoodSender>k__BackingField",
+          "typeIndex": 43734,
+          "offset": 88,
+          "offsetHex": "0x58"
+        },
+        {
+          "fieldIndex": 7793,
+          "name": "<BevSender>k__BackingField",
+          "typeIndex": 43734,
+          "offset": 92,
+          "offsetHex": "0x5c"
+        },
+        {
+          "fieldIndex": 7794,
+          "name": "<NotShowInUI>k__BackingField",
+          "typeIndex": 20613,
+          "offset": 96,
+          "offsetHex": "0x60"
+        }
+      ]
+    },
+    {
+      "typeIndex": 1448,
+      "type": "NormalOrder",
+      "byvalTypeIndex": 38194,
+      "parentTypeIndex": 38196,
+      "offsetArrayVA": "0x182ebd800",
+      "fields": [
+        {
+          "fieldIndex": 7802,
+          "name": "<Guest>k__BackingField",
+          "typeIndex": 24619,
+          "offset": 104,
+          "offsetHex": "0x68"
+        }
+      ]
+    },
+    {
+      "typeIndex": 1449,
+      "type": "SpecialOrder",
+      "byvalTypeIndex": 38204,
+      "parentTypeIndex": 38196,
+      "offsetArrayVA": "0x182ebd804",
+      "fields": [
+        {
+          "fieldIndex": 7803,
+          "name": "<SpecialGuests>k__BackingField",
+          "typeIndex": 30847,
+          "offset": 104,
+          "offsetHex": "0x68"
+        }
+      ]
+    },
+    {
+      "typeIndex": 2298,
+      "type": "GameData.Core.Collections.Sellable",
+      "byvalTypeIndex": 30383,
+      "parentTypeIndex": 32403,
+      "offsetArrayVA": "0x182eb10c8",
+      "fields": [
+        {
+          "fieldIndex": 12502,
+          "name": "isCollab",
+          "typeIndex": 20605,
+          "offset": 40,
+          "offsetHex": "0x28"
+        },
+        {
+          "fieldIndex": 12503,
+          "name": "banTags",
+          "typeIndex": 18551,
+          "offset": 48,
+          "offsetHex": "0x30"
+        },
+        {
+          "fieldIndex": 12504,
+          "name": "type",
+          "typeIndex": 41145,
+          "offset": 56,
+          "offsetHex": "0x38"
+        },
+        {
+          "fieldIndex": 12505,
+          "name": "additiveTags",
+          "typeIndex": 13169,
+          "offset": 64,
+          "offsetHex": "0x40"
+        },
+        {
+          "fieldIndex": 12506,
+          "name": "modifier",
+          "typeIndex": 18551,
+          "offset": 72,
+          "offsetHex": "0x48"
+        },
+        {
+          "fieldIndex": 12507,
+          "name": "<RunTimeGUID>k__BackingField",
+          "typeIndex": 14020,
+          "offset": 80,
+          "offsetHex": "0x50"
+        }
+      ]
+    },
+    {
+      "typeIndex": 2133,
+      "type": "GameData.RunTime.Common.RunTimePlayerData",
+      "byvalTypeIndex": 29984,
+      "parentTypeIndex": 28405,
+      "offsetArrayVA": "0x182ebdeb0",
+      "fields": [
+        {
+          "fieldIndex": 11639,
+          "name": "coreMaps",
+          "typeIndex": 18860,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 11640,
+          "name": "canOpenNoteStorageEscape",
+          "typeIndex": 20610,
+          "offset": 8,
+          "offsetHex": "0x8"
+        },
+        {
+          "fieldIndex": 11641,
+          "name": "OnNoteStorageEscapeOpenStausChangeCallback",
+          "typeIndex": 4584,
+          "offset": 16,
+          "offsetHex": "0x10"
+        },
+        {
+          "fieldIndex": 11642,
+          "name": "OnLevelUpCallback",
+          "typeIndex": 4676,
+          "offset": 24,
+          "offsetHex": "0x18"
+        },
+        {
+          "fieldIndex": 11643,
+          "name": "OnFundChangeCallback",
+          "typeIndex": 4676,
+          "offset": 32,
+          "offsetHex": "0x20"
+        },
+        {
+          "fieldIndex": 11644,
+          "name": "musicScoreData",
+          "typeIndex": 6510,
+          "offset": 40,
+          "offsetHex": "0x28"
+        },
+        {
+          "fieldIndex": 11645,
+          "name": "<Date>k__BackingField",
+          "typeIndex": 24387,
+          "offset": 48,
+          "offsetHex": "0x30"
+        },
+        {
+          "fieldIndex": 11646,
+          "name": "<Fund>k__BackingField",
+          "typeIndex": 26188,
+          "offset": 56,
+          "offsetHex": "0x38"
+        },
+        {
+          "fieldIndex": 11647,
+          "name": "<Exp>k__BackingField",
+          "typeIndex": 26158,
+          "offset": 64,
+          "offsetHex": "0x40"
+        },
+        {
+          "fieldIndex": 11648,
+          "name": "<BufferedExp>k__BackingField",
+          "typeIndex": 26158,
+          "offset": 68,
+          "offsetHex": "0x44"
+        },
+        {
+          "fieldIndex": 11649,
+          "name": "<Level>k__BackingField",
+          "typeIndex": 26158,
+          "offset": 72,
+          "offsetHex": "0x48"
+        },
+        {
+          "fieldIndex": 11650,
+          "name": "<CanPerform>k__BackingField",
+          "typeIndex": 20610,
+          "offset": 76,
+          "offsetHex": "0x4c"
+        },
+        {
+          "fieldIndex": 11651,
+          "name": "<ShouldSpawnSpecialGuests>k__BackingField",
+          "typeIndex": 20610,
+          "offset": 77,
+          "offsetHex": "0x4d"
+        },
+        {
+          "fieldIndex": 11652,
+          "name": "<ShouldShowSpecialGuestsInDay>k__BackingField",
+          "typeIndex": 20610,
+          "offset": 78,
+          "offsetHex": "0x4e"
+        },
+        {
+          "fieldIndex": 11653,
+          "name": "<ShouldHaveLevel5KizunaEvent>k__BackingField",
+          "typeIndex": 20610,
+          "offset": 79,
+          "offsetHex": "0x4f"
+        },
+        {
+          "fieldIndex": 11654,
+          "name": "<ShouldSpawnTewi>k__BackingField",
+          "typeIndex": 20610,
+          "offset": 80,
+          "offsetHex": "0x50"
+        },
+        {
+          "fieldIndex": 11655,
+          "name": "<LockingEventName>k__BackingField",
+          "typeIndex": 31310,
+          "offset": 88,
+          "offsetHex": "0x58"
+        },
+        {
+          "fieldIndex": 11656,
+          "name": "<LockedEvents>k__BackingField",
+          "typeIndex": 13357,
+          "offset": 96,
+          "offsetHex": "0x60"
+        },
+        {
+          "fieldIndex": 11657,
+          "name": "<TryToUnLockEvents>k__BackingField",
+          "typeIndex": 13357,
+          "offset": 104,
+          "offsetHex": "0x68"
+        },
+        {
+          "fieldIndex": 11658,
+          "name": "<CurrentLevelCap>k__BackingField",
+          "typeIndex": 26158,
+          "offset": 112,
+          "offsetHex": "0x70"
+        },
+        {
+          "fieldIndex": 11659,
+          "name": "<EnableMultiPartner>k__BackingField",
+          "typeIndex": 20610,
+          "offset": 116,
+          "offsetHex": "0x74"
+        },
+        {
+          "fieldIndex": 11660,
+          "name": "<MaxPartnerCount>k__BackingField",
+          "typeIndex": 26158,
+          "offset": 120,
+          "offsetHex": "0x78"
+        },
+        {
+          "fieldIndex": 11661,
+          "name": "<HistoryPartnerSelection>k__BackingField",
+          "typeIndex": 18115,
+          "offset": 128,
+          "offsetHex": "0x80"
+        },
+        {
+          "fieldIndex": 11662,
+          "name": "<PopLikeFoodTags>k__BackingField",
+          "typeIndex": 13173,
+          "offset": 136,
+          "offsetHex": "0x88"
+        },
+        {
+          "fieldIndex": 11663,
+          "name": "<PopLikeBevTags>k__BackingField",
+          "typeIndex": 13173,
+          "offset": 144,
+          "offsetHex": "0x90"
+        },
+        {
+          "fieldIndex": 11664,
+          "name": "<PopHateFoodTags>k__BackingField",
+          "typeIndex": 13173,
+          "offset": 152,
+          "offsetHex": "0x98"
+        },
+        {
+          "fieldIndex": 11665,
+          "name": "<PopHateBevTags>k__BackingField",
+          "typeIndex": 13173,
+          "offset": 160,
+          "offsetHex": "0xa0"
+        },
+        {
+          "fieldIndex": 11666,
+          "name": "<ActiveDLCLabel>k__BackingField",
+          "typeIndex": 13357,
+          "offset": 168,
+          "offsetHex": "0xa8"
+        },
+        {
+          "fieldIndex": 11667,
+          "name": "<CollabStatus>k__BackingField",
+          "typeIndex": 6540,
+          "offset": 176,
+          "offsetHex": "0xb0"
+        },
+        {
+          "fieldIndex": 11668,
+          "name": "<PrdTryTimeRecord>k__BackingField",
+          "typeIndex": 6574,
+          "offset": 184,
+          "offsetHex": "0xb8"
+        },
+        {
+          "fieldIndex": 11669,
+          "name": "<HakureiMoneyBoxDonateNum>k__BackingField",
+          "typeIndex": 26188,
+          "offset": 192,
+          "offsetHex": "0xc0"
+        },
+        {
+          "fieldIndex": 11670,
+          "name": "<PinnedObjects>k__BackingField",
+          "typeIndex": 6846,
+          "offset": 200,
+          "offsetHex": "0xc8"
+        },
+        {
+          "fieldIndex": 11671,
+          "name": "<UserIzakayaPresets>k__BackingField",
+          "typeIndex": 6168,
+          "offset": 208,
+          "offsetHex": "0xd0"
+        },
+        {
+          "fieldIndex": 11672,
+          "name": "<ControlledSpecialGuests>k__BackingField",
+          "typeIndex": 13052,
+          "offset": 216,
+          "offsetHex": "0xd8"
+        },
+        {
+          "fieldIndex": 11673,
+          "name": "<UseCreatorBoxData>k__BackingField",
+          "typeIndex": 20610,
+          "offset": 224,
+          "offsetHex": "0xe0"
+        },
+        {
+          "fieldIndex": 11674,
+          "name": "<SelectedCreatorBoxData>k__BackingField",
+          "typeIndex": 13989,
+          "offset": 232,
+          "offsetHex": "0xe8"
+        },
+        {
+          "fieldIndex": 11675,
+          "name": "<SelectedCreatorBoxDataPresets>k__BackingField",
+          "typeIndex": 18067,
+          "offset": 248,
+          "offsetHex": "0xf8"
+        },
+        {
+          "fieldIndex": 11676,
+          "name": "<RewindMode>k__BackingField",
+          "typeIndex": 20610,
+          "offset": 256,
+          "offsetHex": "0x100"
+        },
+        {
+          "fieldIndex": 11677,
+          "name": "<InfiniteIngredients>k__BackingField",
+          "typeIndex": 12943,
+          "offset": 264,
+          "offsetHex": "0x108"
+        },
+        {
+          "fieldIndex": 11678,
+          "name": "<DLCLock>k__BackingField",
+          "typeIndex": 9300,
+          "offset": 272,
+          "offsetHex": "0x110"
+        },
+        {
+          "fieldIndex": 11679,
+          "name": "<MusicChapterStatus>k__BackingField",
+          "typeIndex": 6497,
+          "offset": 280,
+          "offsetHex": "0x118"
+        },
+        {
+          "fieldIndex": 11680,
+          "name": "<HaveChattedSGuestLabel>k__BackingField",
+          "typeIndex": 13357,
+          "offset": 288,
+          "offsetHex": "0x120"
+        },
+        {
+          "fieldIndex": 11681,
+          "name": "<LockedRecipeList>k__BackingField",
+          "typeIndex": 13173,
+          "offset": 296,
+          "offsetHex": "0x128"
+        },
+        {
+          "fieldIndex": 11682,
+          "name": "<NotLoadedRunTimeStorageSaveDataPartial>k__BackingField",
+          "typeIndex": 6689,
+          "offset": 304,
+          "offsetHex": "0x130"
+        },
+        {
+          "fieldIndex": 11683,
+          "name": "<NotLoadedDLCAlbumSaveData>k__BackingField",
+          "typeIndex": 6680,
+          "offset": 312,
+          "offsetHex": "0x138"
+        },
+        {
+          "fieldIndex": 11684,
+          "name": "<NotLoadedDLCDaySceneSaveData>k__BackingField",
+          "typeIndex": 6683,
+          "offset": 320,
+          "offsetHex": "0x140"
+        },
+        {
+          "fieldIndex": 11685,
+          "name": "<NotLoadedDLCSchedulerSaveData>k__BackingField",
+          "typeIndex": 6686,
+          "offset": 328,
+          "offsetHex": "0x148"
+        }
+      ]
+    }
+  ]
+}

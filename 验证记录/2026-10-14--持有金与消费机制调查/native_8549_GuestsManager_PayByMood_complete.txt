@@ -1,0 +1,77 @@
+# NightScene.GuestManagementUtility.GuestsManager::PayByMood
+# {"declaringType": "NightScene.GuestManagementUtility.GuestsManager", "typeIndex": 1495, "image": "Assembly-CSharp.dll", "name": "PayByMood", "metadataMethodIndex": 8549, "token": "0x6002166", "methodPointerIndex": 8549, "va": "0x1804d3d80", "rva": "0x4d3d80", "endRva": "0x4d3e5d", "returnTypeIndex": 33376, "parameters": [{"index": 6225, "name": "toPayAndLeave", "typeIndex": 24624}]}
+# range end RVA 0x4d3e60; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804D3D80: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001804D3D85: 57                 push        rdi
+  00000001804D3D86: 48 83 EC 50        sub         rsp,50h
+  00000001804D3D8A: 80 3D C8 7D E9 03  cmp         byte ptr [000000018436BB59h],0
+                    00
+  00000001804D3D91: 48 8B DA           mov         rbx,rdx
+  00000001804D3D94: 48 8B F9           mov         rdi,rcx
+  00000001804D3D97: 75 13              jne         00000001804D3DAC
+  00000001804D3D99: 48 8D 0D F8 D9 CF  lea         rcx,[00000001841D1798h]
+                    03
+  00000001804D3DA0: E8 DB 91 E8 FF     call        000000018035CF80
+  00000001804D3DA5: C6 05 AD 7D E9 03  mov         byte ptr [000000018436BB59h],1
+                    01
+  00000001804D3DAC: 48 85 DB           test        rbx,rbx
+  00000001804D3DAF: 0F 84 A2 00 00 00  je          00000001804D3E57
+  00000001804D3DB5: 33 C0              xor         eax,eax
+  00000001804D3DB7: 4C 8D 4C 24 44     lea         r9,[rsp+44h]
+  00000001804D3DBC: 48 89 44 24 38     mov         qword ptr [rsp+38h],rax
+  00000001804D3DC1: 0F 57 D2           xorps       xmm2,xmm2
+  00000001804D3DC4: 89 44 24 44        mov         dword ptr [rsp+44h],eax
+  00000001804D3DC8: 33 D2              xor         edx,edx
+  00000001804D3DCA: 89 44 24 40        mov         dword ptr [rsp+40h],eax
+  00000001804D3DCE: 48 8B CB           mov         rcx,rbx
+  00000001804D3DD1: 89 44 24 78        mov         dword ptr [rsp+78h],eax
+  00000001804D3DD5: 89 44 24 68        mov         dword ptr [rsp+68h],eax
+  00000001804D3DD9: 48 8D 44 24 68     lea         rax,[rsp+68h]
+  00000001804D3DDE: 48 89 44 24 30     mov         qword ptr [rsp+30h],rax
+  00000001804D3DE3: 48 8D 44 24 78     lea         rax,[rsp+78h]
+  00000001804D3DE8: 48 89 44 24 28     mov         qword ptr [rsp+28h],rax
+  00000001804D3DED: 48 8D 44 24 40     lea         rax,[rsp+40h]
+  00000001804D3DF2: 48 89 44 24 20     mov         qword ptr [rsp+20h],rax
+  00000001804D3DF7: E8 D4 20 FF FF     call        00000001804C5ED0 ; NightScene.GuestManagementUtility.GuestGroupController::GetPayment [MI 8316, RVA 0x4c5ed0]
+  00000001804D3DFC: 0F AF 43 40        imul        eax,dword ptr [rbx+40h]
+  00000001804D3E00: 33 D2              xor         edx,edx
+  00000001804D3E02: 66 0F 6E C0        movd        xmm0,eax
+  00000001804D3E06: 0F 5B C0           cvtdq2ps    xmm0,xmm0
+  00000001804D3E09: F3 0F 5E 05 93 7E  divss       xmm0,dword ptr [0000000182EABCA4h]
+                    9D 02
+  00000001804D3E11: E8 6A B9 F0 FF     call        00000001803DF780
+  00000001804D3E16: 48 8B 0D 7B D9 CF  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  00000001804D3E1D: 8B D8              mov         ebx,eax
+  00000001804D3E1F: E8 2C 81 C3 00     call        000000018110BF50
+  00000001804D3E24: 48 85 C0           test        rax,rax
+  00000001804D3E27: 74 2E              je          00000001804D3E57
+  00000001804D3E29: 66 0F 6E CB        movd        xmm1,ebx
+  00000001804D3E2D: 45 33 C9           xor         r9d,r9d
+  00000001804D3E30: 0F 5B C9           cvtdq2ps    xmm1,xmm1
+  00000001804D3E33: 45 33 C0           xor         r8d,r8d
+  00000001804D3E36: 48 8B C8           mov         rcx,rax
+  00000001804D3E39: E8 F2 A1 01 00     call        00000001804EE030 ; NightScene.EventUtility.EventManager::FundEdit [MI 9228, RVA 0x4ee030]
+  00000001804D3E3E: 85 DB              test        ebx,ebx
+  00000001804D3E40: 74 0A              je          00000001804D3E4C
+  00000001804D3E42: 33 D2              xor         edx,edx
+  00000001804D3E44: 48 8B CF           mov         rcx,rdi
+  00000001804D3E47: E8 44 02 00 00     call        00000001804D4090 ; NightScene.GuestManagementUtility.GuestsManager::PlayPayAudio [MI 8548, RVA 0x4d4090]
+  00000001804D3E4C: 48 8B 5C 24 60     mov         rbx,qword ptr [rsp+60h]
+  00000001804D3E51: 48 83 C4 50        add         rsp,50h
+  00000001804D3E55: 5F                 pop         rdi
+  00000001804D3E56: C3                 ret
+  00000001804D3E57: E8 C4 92 E8 FF     call        000000018035D120
+  00000001804D3E5C: CC                 int         3
+  00000001804D3E5D: CC                 int         3
+  00000001804D3E5E: CC                 int         3
+  00000001804D3E5F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

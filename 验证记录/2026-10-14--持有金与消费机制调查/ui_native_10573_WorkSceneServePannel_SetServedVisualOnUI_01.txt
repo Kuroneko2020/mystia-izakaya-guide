@@ -1,0 +1,197 @@
+# NightScene.UI.GuestManagementUtility.WorkSceneServePannel::SetServedVisualOnUI
+# {"declaringType": "NightScene.UI.GuestManagementUtility.WorkSceneServePannel", "typeIndex": 1755, "image": "Assembly-CSharp.dll", "name": "SetServedVisualOnUI", "metadataMethodIndex": 10573, "token": "0x600294e", "methodPointerIndex": 10573, "va": "0x18054fef0", "rva": "0x54fef0", "endRva": "0x55017f", "returnTypeIndex": 33376, "parameters": [{"index": 8010, "name": "served", "typeIndex": 32617}, {"index": 8011, "name": "servedOutline", "typeIndex": 25811}, {"index": 8012, "name": "toServe", "typeIndex": 30383}, {"index": 8013, "name": "canCancel", "typeIndex": 20604}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x54fef0..0x550180; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018054FEF0: 40 53              push        rbx
+  000000018054FEF2: 55                 push        rbp
+  000000018054FEF3: 56                 push        rsi
+  000000018054FEF4: 57                 push        rdi
+  000000018054FEF5: 41 56              push        r14
+  000000018054FEF7: 48 83 EC 30        sub         rsp,30h
+  000000018054FEFB: 80 3D B6 BF E1 03  cmp         byte ptr [000000018436BEB8h],0
+                    00
+  000000018054FF02: 49 8B E9           mov         rbp,r9
+  000000018054FF05: 4D 8B F0           mov         r14,r8
+  000000018054FF08: 48 8B DA           mov         rbx,rdx
+  000000018054FF0B: 48 8B F1           mov         rsi,rcx
+  000000018054FF0E: 75 37              jne         000000018054FF47
+  000000018054FF10: 48 8D 0D E9 02 C4  lea         rcx,[0000000184190200h]
+                    03
+  000000018054FF17: E8 64 D0 E0 FF     call        000000018035CF80
+  000000018054FF1C: 48 8D 0D 8D A0 C1  lea         rcx,[0000000184169FB0h]
+                    03
+  000000018054FF23: E8 58 D0 E0 FF     call        000000018035CF80
+  000000018054FF28: 48 8D 0D 79 A1 C1  lea         rcx,[000000018416A0A8h]
+                    03
+  000000018054FF2F: E8 4C D0 E0 FF     call        000000018035CF80
+  000000018054FF34: 48 8D 0D 65 65 C2  lea         rcx,[00000001841764A0h]
+                    03
+  000000018054FF3B: E8 40 D0 E0 FF     call        000000018035CF80
+  000000018054FF40: C6 05 71 BF E1 03  mov         byte ptr [000000018436BEB8h],1
+                    01
+  000000018054FF47: 48 8B 0D 52 65 C2  mov         rcx,qword ptr [00000001841764A0h]
+                    03
+  000000018054FF4E: E8 6D D1 E0 FF     call        000000018035D0C0
+  000000018054FF53: 48 8B F8           mov         rdi,rax
+  000000018054FF56: 48 85 C0           test        rax,rax
+  000000018054FF59: 0F 84 1A 02 00 00  je          0000000180550179
+  000000018054FF5F: 33 D2              xor         edx,edx
+  000000018054FF61: 48 8B C8           mov         rcx,rax
+  000000018054FF64: E8 67 89 E9 FF     call        00000001803E88D0 ; <<Confirm>g__Jump|3>d::System.IDisposable.Dispose [MI 150, RVA 0x3e88d0] | <<Confirm>g__OnRotation|11_1>d::System.IDisposable.Dispose [MI 156, RVA 0x3e88d0] | <CountDownLoop>d__7::System.IDisposable.Dispose [MI 354, RVA 0x3e88d0] | <<OnPanelOpen>g__OnLoadFinish|2>d::System.IDisposable.Dispose [MI 440, RVA 0x3e88d0] | <<OnPanelOpen>g__ShowCG|3>d::System.IDisposable.Dispose [MI 446, RVA 0x3e88d0] | <>c::<OnPanelInitialize>b__24_1 [MI 507, RVA 0x3e88d0] | <<TypeCoroutine>g__DoType|2>d::System.IDisposable.Dispose [MI 538, RVA 0x3e88d0] | <TypeCoroutine>d__34::System.IDisposable.Dispose [MI 544, RVA 0x3e88d0]
+  000000018054FF69: 48 8D 4F 10        lea         rcx,[rdi+10h]
+  000000018054FF6D: 48 89 77 10        mov         qword ptr [rdi+10h],rsi
+  000000018054FF71: 48 8B D6           mov         rdx,rsi
+  000000018054FF74: E8 37 CB E0 FF     call        000000018035CAB0
+  000000018054FF79: 48 8D 4F 18        lea         rcx,[rdi+18h]
+  000000018054FF7D: 48 89 6F 18        mov         qword ptr [rdi+18h],rbp
+  000000018054FF81: 48 8B D5           mov         rdx,rbp
+  000000018054FF84: E8 27 CB E0 FF     call        000000018035CAB0
+  000000018054FF89: 48 85 DB           test        rbx,rbx
+  000000018054FF8C: 0F 84 E7 01 00 00  je          0000000180550179
+  000000018054FF92: 45 33 C0           xor         r8d,r8d
+  000000018054FF95: B2 01              mov         dl,1
+  000000018054FF97: 48 8B CB           mov         rcx,rbx
+  000000018054FF9A: E8 61 C4 8E 02     call        0000000182E3C400 ; UnityEngine.UI.Selectable::set_interactable [MI 94617, RVA 0x2e3c400]
+  000000018054FF9F: 33 D2              xor         edx,edx
+  000000018054FFA1: 48 8B CB           mov         rcx,rbx
+  000000018054FFA4: E8 A7 C2 8E 02     call        0000000182E3C250 ; UnityEngine.UI.Selectable::get_image [MI 94625, RVA 0x2e3c250]
+  000000018054FFA9: 48 85 C0           test        rax,rax
+  000000018054FFAC: 0F 84 C7 01 00 00  je          0000000180550179
+  000000018054FFB2: 45 33 C0           xor         r8d,r8d
+  000000018054FFB5: B2 01              mov         dl,1
+  000000018054FFB7: 48 8B C8           mov         rcx,rax
+  000000018054FFBA: E8 71 C5 6D 02     call        0000000182C2C530 ; UnityEngine.Behaviour::set_enabled [MI 78237, RVA 0x2c2c530]
+  000000018054FFBF: 33 D2              xor         edx,edx
+  000000018054FFC1: 48 8B CB           mov         rcx,rbx
+  000000018054FFC4: E8 87 C2 8E 02     call        0000000182E3C250 ; UnityEngine.UI.Selectable::get_image [MI 94625, RVA 0x2e3c250]
+  000000018054FFC9: 0F B6 AC 24 80 00  movzx       ebp,byte ptr [rsp+0000000000000080h]
+                    00 00
+  000000018054FFD1: 48 8B C8           mov         rcx,rax
+  000000018054FFD4: 40 84 ED           test        bpl,bpl
+  000000018054FFD7: 74 13              je          000000018054FFEC
+  000000018054FFD9: F3 0F 10 05 9F BC  movss       xmm0,dword ptr [0000000182EABC80h]
+                    95 02
+  000000018054FFE1: 0F 28 C8           movaps      xmm1,xmm0
+  000000018054FFE4: 0F 28 D0           movaps      xmm2,xmm0
+  000000018054FFE7: 0F 28 D8           movaps      xmm3,xmm0
+  000000018054FFEA: EB 20              jmp         000000018055000C
+  000000018054FFEC: F3 0F 10 86 D8 00  movss       xmm0,dword ptr [rsi+00000000000000D8h]
+                    00 00
+  000000018054FFF4: F3 0F 10 8E DC 00  movss       xmm1,dword ptr [rsi+00000000000000DCh]
+                    00 00
+  000000018054FFFC: F3 0F 10 96 E0 00  movss       xmm2,dword ptr [rsi+00000000000000E0h]
+                    00 00
+  0000000180550004: F3 0F 10 9E E4 00  movss       xmm3,dword ptr [rsi+00000000000000E4h]
+                    00 00
+  000000018055000C: 48 85 C9           test        rcx,rcx
+  000000018055000F: 0F 84 64 01 00 00  je          0000000180550179
+  0000000180550015: 48 8B 00           mov         rax,qword ptr [rax]
+  0000000180550018: 48 8D 54 24 20     lea         rdx,[rsp+20h]
+  000000018055001D: 0F C6 C0 E1        shufps      xmm0,xmm0,0E1h
+  0000000180550021: F3 0F 10 C1        movss       xmm0,xmm1
+  0000000180550025: 0F C6 C0 C6        shufps      xmm0,xmm0,0C6h
+  0000000180550029: 4C 8B 80 B0 02 00  mov         r8,qword ptr [rax+00000000000002B0h]
+                    00
+  0000000180550030: F3 0F 10 C2        movss       xmm0,xmm2
+  0000000180550034: 0F C6 C0 27        shufps      xmm0,xmm0,27h
+  0000000180550038: F3 0F 10 C3        movss       xmm0,xmm3
+  000000018055003C: 0F C6 C0 39        shufps      xmm0,xmm0,39h
+  0000000180550040: 0F 29 44 24 20     movaps      xmmword ptr [rsp+20h],xmm0
+  0000000180550045: 66 0F 7F 44 24 20  movdqa      xmmword ptr [rsp+20h],xmm0
+  000000018055004B: FF 90 A8 02 00 00  call        qword ptr [rax+00000000000002A8h]
+  0000000180550051: 33 D2              xor         edx,edx
+  0000000180550053: 48 8B CB           mov         rcx,rbx
+  0000000180550056: E8 F5 C1 8E 02     call        0000000182E3C250 ; UnityEngine.UI.Selectable::get_image [MI 94625, RVA 0x2e3c250]
+  000000018055005B: 48 8B 4F 18        mov         rcx,qword ptr [rdi+18h]
+  000000018055005F: 48 8B F0           mov         rsi,rax
+  0000000180550062: 48 85 C9           test        rcx,rcx
+  0000000180550065: 0F 84 0E 01 00 00  je          0000000180550179
+  000000018055006B: 33 D2              xor         edx,edx
+  000000018055006D: E8 4E 3A 11 00     call        0000000180663AC0 ; GameData.Core.NonTradableObjectBase::get_Text [MI 14134, RVA 0x663ac0]
+  0000000180550072: 48 85 C0           test        rax,rax
+  0000000180550075: 0F 84 FE 00 00 00  je          0000000180550179
+  000000018055007B: 48 85 F6           test        rsi,rsi
+  000000018055007E: 0F 84 F5 00 00 00  je          0000000180550179
+  0000000180550084: 48 8B 50 20        mov         rdx,qword ptr [rax+20h]
+  0000000180550088: 45 33 C0           xor         r8d,r8d
+  000000018055008B: 48 8B CE           mov         rcx,rsi
+  000000018055008E: E8 6D 53 7A 02     call        0000000182CF5400 ; UnityEngine.UI.Image::set_sprite [MI 93868, RVA 0x2cf5400]
+  0000000180550093: 48 8B 4F 18        mov         rcx,qword ptr [rdi+18h]
+  0000000180550097: 48 85 C9           test        rcx,rcx
+  000000018055009A: 0F 84 D9 00 00 00  je          0000000180550179
+  00000001805500A0: 33 D2              xor         edx,edx
+  00000001805500A2: E8 19 3A 11 00     call        0000000180663AC0 ; GameData.Core.NonTradableObjectBase::get_Text [MI 14134, RVA 0x663ac0]
+  00000001805500A7: 48 85 C0           test        rax,rax
+  00000001805500AA: 0F 84 C9 00 00 00  je          0000000180550179
+  00000001805500B0: 4D 85 F6           test        r14,r14
+  00000001805500B3: 0F 84 C0 00 00 00  je          0000000180550179
+  00000001805500B9: 48 8B 50 20        mov         rdx,qword ptr [rax+20h]
+  00000001805500BD: 45 33 C0           xor         r8d,r8d
+  00000001805500C0: 49 8B CE           mov         rcx,r14
+  00000001805500C3: E8 38 53 7A 02     call        0000000182CF5400 ; UnityEngine.UI.Image::set_sprite [MI 93868, RVA 0x2cf5400]
+  00000001805500C8: 48 8B 0D 31 01 C4  mov         rcx,qword ptr [0000000184190200h]
+                    03
+  00000001805500CF: E8 EC CF E0 FF     call        000000018035D0C0
+  00000001805500D4: 48 8B F0           mov         rsi,rax
+  00000001805500D7: 48 85 C0           test        rax,rax
+  00000001805500DA: 0F 84 99 00 00 00  je          0000000180550179
+  00000001805500E0: 4C 8B 05 C9 9E C1  mov         r8,qword ptr [0000000184169FB0h]
+                    03
+  00000001805500E7: 45 33 C9           xor         r9d,r9d
+  00000001805500EA: 48 8B D7           mov         rdx,rdi
+  00000001805500ED: 48 8B C8           mov         rcx,rax
+  00000001805500F0: E8 6B 09 46 00     call        00000001809B0A60 ; System.Action::.ctor [MI 26047, RVA 0x9b0a60] | System.Threading.ThreadStart::.ctor [MI 29582, RVA 0x9b0a60] | System.Runtime.Remoting.Contexts.CrossContextDelegate::.ctor [MI 32755, RVA 0x9b0a60] | PanicFunction_::.ctor [MI 75573, RVA 0x9b0a60] | LowMemoryCallback::.ctor [MI 75743, RVA 0x9b0a60] | DisplaysUpdatedDelegate::.ctor [MI 76269, RVA 0x9b0a60] | UnityEngine.Events.UnityAction::.ctor [MI 79198, RVA 0x9b0a60] | UpdateFunction::.ctor [MI 79271, RVA 0x9b0a60]
+  00000001805500F5: 48 8D 8B 40 01 00  lea         rcx,[rbx+0000000000000140h]
+                    00
+  00000001805500FC: 48 89 B3 40 01 00  mov         qword ptr [rbx+0000000000000140h],rsi
+                    00
+  0000000180550103: 48 8B D6           mov         rdx,rsi
+  0000000180550106: E8 A5 C9 E0 FF     call        000000018035CAB0
+  000000018055010B: 40 84 ED           test        bpl,bpl
+  000000018055010E: 75 0C              jne         000000018055011C
+  0000000180550110: 33 D2              xor         edx,edx
+  0000000180550112: 48 8B CB           mov         rcx,rbx
+  0000000180550115: E8 66 67 49 00     call        00000001809E6880
+  000000018055011A: EB 3F              jmp         000000018055015B
+  000000018055011C: 48 8B 0D DD 00 C4  mov         rcx,qword ptr [0000000184190200h]
+                    03
+  0000000180550123: E8 98 CF E0 FF     call        000000018035D0C0
+  0000000180550128: 48 8B F0           mov         rsi,rax
+  000000018055012B: 48 85 C0           test        rax,rax
+  000000018055012E: 74 49              je          0000000180550179
+  0000000180550130: 4C 8B 05 71 9F C1  mov         r8,qword ptr [000000018416A0A8h]
+                    03
+  0000000180550137: 45 33 C9           xor         r9d,r9d
+  000000018055013A: 48 8B D7           mov         rdx,rdi
+  000000018055013D: 48 8B C8           mov         rcx,rax
+  0000000180550140: E8 1B 09 46 00     call        00000001809B0A60 ; System.Action::.ctor [MI 26047, RVA 0x9b0a60] | System.Threading.ThreadStart::.ctor [MI 29582, RVA 0x9b0a60] | System.Runtime.Remoting.Contexts.CrossContextDelegate::.ctor [MI 32755, RVA 0x9b0a60] | PanicFunction_::.ctor [MI 75573, RVA 0x9b0a60] | LowMemoryCallback::.ctor [MI 75743, RVA 0x9b0a60] | DisplaysUpdatedDelegate::.ctor [MI 76269, RVA 0x9b0a60] | UnityEngine.Events.UnityAction::.ctor [MI 79198, RVA 0x9b0a60] | UpdateFunction::.ctor [MI 79271, RVA 0x9b0a60]
+  0000000180550145: 48 8D 8B 98 01 00  lea         rcx,[rbx+0000000000000198h]
+                    00
+  000000018055014C: 48 89 B3 98 01 00  mov         qword ptr [rbx+0000000000000198h],rsi
+                    00
+  0000000180550153: 48 8B D6           mov         rdx,rsi
+  0000000180550156: E8 55 C9 E0 FF     call        000000018035CAB0
+  000000018055015B: 48 8B 03           mov         rax,qword ptr [rbx]
+  000000018055015E: 48 8B CB           mov         rcx,rbx
+  0000000180550161: 48 8B 90 A0 03 00  mov         rdx,qword ptr [rax+00000000000003A0h]
+                    00
+  0000000180550168: 48 83 C4 30        add         rsp,30h
+  000000018055016C: 41 5E              pop         r14
+  000000018055016E: 5F                 pop         rdi
+  000000018055016F: 5E                 pop         rsi
+  0000000180550170: 5D                 pop         rbp
+  0000000180550171: 5B                 pop         rbx
+  0000000180550172: 48 FF A0 98 03 00  jmp         qword ptr [rax+0000000000000398h]
+                    00
+  0000000180550179: E8 A2 CF E0 FF     call        000000018035D120
+  000000018055017E: CC                 int         3
+  000000018055017F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

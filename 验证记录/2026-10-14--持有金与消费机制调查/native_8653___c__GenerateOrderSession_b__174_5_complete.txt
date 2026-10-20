@@ -1,0 +1,46 @@
+# <>c::<GenerateOrderSession>b__174_5
+# {"declaringType": "<>c", "typeIndex": 1452, "image": "Assembly-CSharp.dll", "name": "<GenerateOrderSession>b__174_5", "metadataMethodIndex": 8653, "token": "0x60021ce", "methodPointerIndex": 8653, "va": "0x18051d9d0", "rva": "0x51d9d0", "endRva": "0x51da2d", "returnTypeIndex": 26152, "parameters": [{"index": 6319, "name": "x", "typeIndex": 38196}]}
+# range end RVA 0x51da30; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018051D9D0: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  000000018051D9D5: 57                 push        rdi
+  000000018051D9D6: 48 83 EC 20        sub         rsp,20h
+  000000018051D9DA: 48 8B DA           mov         rbx,rdx
+  000000018051D9DD: 48 85 D2           test        rdx,rdx
+  000000018051D9E0: 74 45              je          000000018051DA27
+  000000018051D9E2: 48 83 7A 30 00     cmp         qword ptr [rdx+30h],0
+  000000018051D9E7: 74 31              je          000000018051DA1A
+  000000018051D9E9: 48 83 7A 28 00     cmp         qword ptr [rdx+28h],0
+  000000018051D9EE: 76 2A              jbe         000000018051DA1A
+  000000018051D9F0: 48 8B 4B 30        mov         rcx,qword ptr [rbx+30h]
+  000000018051D9F4: 33 D2              xor         edx,edx
+  000000018051D9F6: E8 B5 49 15 00     call        00000001806723B0 ; GameData.Core.TradableObjectBase::get_TrueValue [MI 14127, RVA 0x6723b0]
+  000000018051D9FB: 48 8B 4B 28        mov         rcx,qword ptr [rbx+28h]
+  000000018051D9FF: 8B F8              mov         edi,eax
+  000000018051DA01: 48 85 C9           test        rcx,rcx
+  000000018051DA04: 74 21              je          000000018051DA27
+  000000018051DA06: 33 D2              xor         edx,edx
+  000000018051DA08: E8 A3 49 15 00     call        00000001806723B0 ; GameData.Core.TradableObjectBase::get_TrueValue [MI 14127, RVA 0x6723b0]
+  000000018051DA0D: 03 C7              add         eax,edi
+  000000018051DA0F: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  000000018051DA14: 48 83 C4 20        add         rsp,20h
+  000000018051DA18: 5F                 pop         rdi
+  000000018051DA19: C3                 ret
+  000000018051DA1A: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  000000018051DA1F: 33 C0              xor         eax,eax
+  000000018051DA21: 48 83 C4 20        add         rsp,20h
+  000000018051DA25: 5F                 pop         rdi
+  000000018051DA26: C3                 ret
+  000000018051DA27: E8 F4 F6 E3 FF     call        000000018035D120
+  000000018051DA2C: CC                 int         3
+  000000018051DA2D: CC                 int         3
+  000000018051DA2E: CC                 int         3
+  000000018051DA2F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

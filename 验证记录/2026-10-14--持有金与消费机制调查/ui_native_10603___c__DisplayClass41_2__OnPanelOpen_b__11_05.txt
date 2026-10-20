@@ -1,0 +1,59 @@
+# <>c__DisplayClass41_2::<OnPanelOpen>b__11
+# {"declaringType": "<>c__DisplayClass41_2", "typeIndex": 1747, "image": "Assembly-CSharp.dll", "name": "<OnPanelOpen>b__11", "metadataMethodIndex": 10603, "token": "0x600296c", "methodPointerIndex": 10603, "va": "0x18054b020", "rva": "0x54b020", "endRva": "0x54b09b", "returnTypeIndex": 33376, "parameters": [{"index": 8034, "name": "x", "typeIndex": 25811}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x54b020..0x54b0a0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018054B020: 40 53              push        rbx
+  000000018054B022: 48 83 EC 20        sub         rsp,20h
+  000000018054B026: 48 8B 41 40        mov         rax,qword ptr [rcx+40h]
+  000000018054B02A: 48 8B DA           mov         rbx,rdx
+  000000018054B02D: 48 85 C0           test        rax,rax
+  000000018054B030: 74 63              je          000000018054B095
+  000000018054B032: 80 78 20 00        cmp         byte ptr [rax+20h],0
+  000000018054B036: 74 2A              je          000000018054B062
+  000000018054B038: 48 8B 49 10        mov         rcx,qword ptr [rcx+10h]
+  000000018054B03C: 48 85 C9           test        rcx,rcx
+  000000018054B03F: 74 54              je          000000018054B095
+  000000018054B041: 33 D2              xor         edx,edx
+  000000018054B043: E8 48 7B FC FF     call        0000000180512B90 ; NormalOrder::get_RequestBeverage [MI 8602, RVA 0x512b90]
+  000000018054B048: 48 85 C0           test        rax,rax
+  000000018054B04B: 74 48              je          000000018054B095
+  000000018054B04D: 33 D2              xor         edx,edx
+  000000018054B04F: 48 8B C8           mov         rcx,rax
+  000000018054B052: E8 69 8A 11 00     call        0000000180663AC0 ; GameData.Core.NonTradableObjectBase::get_Text [MI 14134, RVA 0x663ac0]
+  000000018054B057: 48 85 C0           test        rax,rax
+  000000018054B05A: 74 39              je          000000018054B095
+  000000018054B05C: 48 8B 50 20        mov         rdx,qword ptr [rax+20h]
+  000000018054B060: EB 1E              jmp         000000018054B080
+  000000018054B062: 48 85 C0           test        rax,rax
+  000000018054B065: 74 2E              je          000000018054B095
+  000000018054B067: 48 8B 48 10        mov         rcx,qword ptr [rax+10h]
+  000000018054B06B: 48 85 C9           test        rcx,rcx
+  000000018054B06E: 74 25              je          000000018054B095
+  000000018054B070: 33 D2              xor         edx,edx
+  000000018054B072: E8 D9 56 00 00     call        0000000180550750 ; NightScene.UI.GuestManagementUtility.WorkSceneServePannel::get_operatingOrder [MI 10556, RVA 0x550750]
+  000000018054B077: 48 85 C0           test        rax,rax
+  000000018054B07A: 74 19              je          000000018054B095
+  000000018054B07C: 48 8B 50 50        mov         rdx,qword ptr [rax+50h]
+  000000018054B080: 48 85 DB           test        rbx,rbx
+  000000018054B083: 74 10              je          000000018054B095
+  000000018054B085: 45 33 C0           xor         r8d,r8d
+  000000018054B088: 48 8B CB           mov         rcx,rbx
+  000000018054B08B: 48 83 C4 20        add         rsp,20h
+  000000018054B08F: 5B                 pop         rbx
+  000000018054B090: E9 6B A3 7A 02     jmp         0000000182CF5400 ; UnityEngine.UI.Image::set_sprite [MI 93868, RVA 0x2cf5400]
+  000000018054B095: E8 86 20 E1 FF     call        000000018035D120
+  000000018054B09A: CC                 int         3
+  000000018054B09B: CC                 int         3
+  000000018054B09C: CC                 int         3
+  000000018054B09D: CC                 int         3
+  000000018054B09E: CC                 int         3
+  000000018054B09F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

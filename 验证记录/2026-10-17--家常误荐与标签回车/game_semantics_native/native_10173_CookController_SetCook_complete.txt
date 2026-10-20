@@ -1,0 +1,208 @@
+# NightScene.CookingUtility.CookController::SetCook
+# {"declaringType": "NightScene.CookingUtility.CookController", "typeIndex": 1692, "image": "Assembly-CSharp.dll", "name": "SetCook", "metadataMethodIndex": 10173, "token": "0x60027be", "methodPointerIndex": 10173, "va": "0x1805267c0", "rva": "0x5267c0", "endRva": "0x5267d9", "returnTypeIndex": 33376, "parameters": [{"index": 7755, "name": "thisResult", "typeIndex": 30383}, {"index": 7756, "name": "recipe", "typeIndex": 29524}, {"index": 7757, "name": "thisCouldReturnIngredients", "typeIndex": 20604}]}
+# range end RVA 0x526a80; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001805267C0: 48 89 5C 24 10     mov         qword ptr [rsp+10h],rbx
+  00000001805267C5: 48 89 74 24 18     mov         qword ptr [rsp+18h],rsi
+  00000001805267CA: 57                 push        rdi
+  00000001805267CB: 48 83 EC 60        sub         rsp,60h
+  00000001805267CF: 80 3D 24 56 E4 03  cmp         byte ptr [000000018436BDFAh],0
+                    00
+  00000001805267D6: 49 8B F0           mov         rsi,r8
+  00000001805267D9: 48 89 6C 24 70     mov         qword ptr [rsp+70h],rbp
+  00000001805267DE: 48 8B FA           mov         rdi,rdx
+  00000001805267E1: 41 0F B6 E9        movzx       ebp,r9b
+  00000001805267E5: 48 8B D9           mov         rbx,rcx
+  00000001805267E8: 75 5B              jne         0000000180526845
+  00000001805267EA: 48 8D 0D 6F C9 C7  lea         rcx,[00000001841A3160h]
+                    03
+  00000001805267F1: E8 8A 67 E3 FF     call        000000018035CF80
+  00000001805267F6: 48 8D 0D 1B 97 C9  lea         rcx,[00000001841BFF18h]
+                    03
+  00000001805267FD: E8 7E 67 E3 FF     call        000000018035CF80
+  0000000180526802: 48 8D 0D 17 84 C5  lea         rcx,[000000018417EC20h]
+                    03
+  0000000180526809: E8 72 67 E3 FF     call        000000018035CF80
+  000000018052680E: 48 8D 0D FB AE C4  lea         rcx,[0000000184171710h]
+                    03
+  0000000180526815: E8 66 67 E3 FF     call        000000018035CF80
+  000000018052681A: 48 8D 0D 77 CA CA  lea         rcx,[00000001841D3298h]
+                    03
+  0000000180526821: E8 5A 67 E3 FF     call        000000018035CF80
+  0000000180526826: 48 8D 0D 23 C3 C8  lea         rcx,[00000001841B2B50h]
+                    03
+  000000018052682D: E8 4E 67 E3 FF     call        000000018035CF80
+  0000000180526832: 48 8D 0D 17 32 C3  lea         rcx,[0000000184159A50h]
+                    03
+  0000000180526839: E8 42 67 E3 FF     call        000000018035CF80
+  000000018052683E: C6 05 B5 55 E4 03  mov         byte ptr [000000018436BDFAh],1
+                    01
+  0000000180526845: 48 8D 8B B8 00 00  lea         rcx,[rbx+00000000000000B8h]
+                    00
+  000000018052684C: 40 88 6B 78        mov         byte ptr [rbx+78h],bpl
+  0000000180526850: 48 8B D7           mov         rdx,rdi
+  0000000180526853: 48 89 BB B8 00 00  mov         qword ptr [rbx+00000000000000B8h],rdi
+                    00
+  000000018052685A: E8 51 62 E3 FF     call        000000018035CAB0
+  000000018052685F: 48 8D 8B C8 00 00  lea         rcx,[rbx+00000000000000C8h]
+                    00
+  0000000180526866: 48 89 B3 C8 00 00  mov         qword ptr [rbx+00000000000000C8h],rsi
+                    00
+  000000018052686D: 48 8B D6           mov         rdx,rsi
+  0000000180526870: E8 3B 62 E3 FF     call        000000018035CAB0
+  0000000180526875: 80 3D 7F 55 E4 03  cmp         byte ptr [000000018436BDFBh],0
+                    00
+  000000018052687C: 48 8B 6C 24 70     mov         rbp,qword ptr [rsp+70h]
+  0000000180526881: 75 13              jne         0000000180526896
+  0000000180526883: 48 8D 0D 0E AF CA  lea         rcx,[00000001841D1798h]
+                    03
+  000000018052688A: E8 F1 66 E3 FF     call        000000018035CF80
+  000000018052688F: C6 05 65 55 E4 03  mov         byte ptr [000000018436BDFBh],1
+                    01
+  0000000180526896: 0F 29 74 24 50     movaps      xmmword ptr [rsp+50h],xmm6
+  000000018052689B: 0F 29 7C 24 40     movaps      xmmword ptr [rsp+40h],xmm7
+  00000001805268A0: 44 0F 29 44 24 30  movaps      xmmword ptr [rsp+30h],xmm8
+  00000001805268A6: 48 85 F6           test        rsi,rsi
+  00000001805268A9: 0F 84 AA 00 00 00  je          0000000180526959
+  00000001805268AF: 33 D2              xor         edx,edx
+  00000001805268B1: 48 8B CE           mov         rcx,rsi
+  00000001805268B4: E8 D7 0F 16 00     call        0000000180687890 ; GameData.Core.Collections.Recipe::get_CookTime [MI 14572, RVA 0x687890]
+  00000001805268B9: 0F 28 F8           movaps      xmm7,xmm0
+  00000001805268BC: 48 8B 8B A0 00 00  mov         rcx,qword ptr [rbx+00000000000000A0h]
+                    00
+  00000001805268C3: 48 85 C9           test        rcx,rcx
+  00000001805268C6: 0F 84 A2 01 00 00  je          0000000180526A6E
+  00000001805268CC: 33 D2              xor         edx,edx
+  00000001805268CE: E8 9D 7C 15 00     call        000000018067E570 ; GameData.Core.Collections.Cooker::get_CookTimeMultiplier [MI 14646, RVA 0x67e570]
+  00000001805268D3: 48 8B 8B A0 00 00  mov         rcx,qword ptr [rbx+00000000000000A0h]
+                    00
+  00000001805268DA: 44 0F 28 C0        movaps      xmm8,xmm0
+  00000001805268DE: 48 85 C9           test        rcx,rcx
+  00000001805268E1: 0F 84 87 01 00 00  je          0000000180526A6E
+  00000001805268E7: 45 33 C9           xor         r9d,r9d
+  00000001805268EA: 4C 8B C7           mov         r8,rdi
+  00000001805268ED: 48 8B D3           mov         rdx,rbx
+  00000001805268F0: E8 0B 75 15 00     call        000000018067DE00 ; GameData.Core.Collections.Cooker::GetExtraCookSpeedMultiplier [MI 14658, RVA 0x67de00]
+  00000001805268F5: 0F 28 F0           movaps      xmm6,xmm0
+  00000001805268F8: 48 8B 0D 99 AE CA  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  00000001805268FF: E8 4C 56 BE 00     call        000000018110BF50
+  0000000180526904: 48 85 C0           test        rax,rax
+  0000000180526907: 0F 84 61 01 00 00  je          0000000180526A6E
+  000000018052690D: 44 8B 46 28        mov         r8d,dword ptr [rsi+28h]
+  0000000180526911: 48 8B D7           mov         rdx,rdi
+  0000000180526914: F3 41 0F 59 F0     mulss       xmm6,xmm8
+  0000000180526919: 48 8B C8           mov         rcx,rax
+  000000018052691C: 48 C7 44 24 28 00  mov         qword ptr [rsp+28h],0
+                    00 00 00
+  0000000180526925: C6 44 24 20 01     mov         byte ptr [rsp+20h],1
+  000000018052692A: F3 0F 59 F7        mulss       xmm6,xmm7
+  000000018052692E: 0F 28 DE           movaps      xmm3,xmm6
+  0000000180526931: E8 3A 99 FC FF     call        00000001804F0270 ; NightScene.EventUtility.EventManager::GetMultiplierOnTargetFoodTagAndCookerCombo [MI 9113, RVA 0x4f0270]
+  0000000180526936: F3 0F 10 0D 9A 56  movss       xmm1,dword ptr [0000000182EABFD8h]
+                    98 02
+  000000018052693E: F3 0F 59 C6        mulss       xmm0,xmm6
+  0000000180526942: 0F 2F C8           comiss      xmm1,xmm0
+  0000000180526945: 77 0D              ja          0000000180526954
+  0000000180526947: F3 0F 10 0D AD 56  movss       xmm1,dword ptr [0000000182EABFFCh]
+                    98 02
+  000000018052694F: 0F 2F C1           comiss      xmm0,xmm1
+  0000000180526952: 76 0D              jbe         0000000180526961
+  0000000180526954: 0F 28 C1           movaps      xmm0,xmm1
+  0000000180526957: EB 08              jmp         0000000180526961
+  0000000180526959: F3 0F 10 05 77 56  movss       xmm0,dword ptr [0000000182EABFD8h]
+                    98 02
+  0000000180526961: F3 0F 11 43 74     movss       dword ptr [rbx+74h],xmm0
+  0000000180526966: C7 83 9C 00 00 00  mov         dword ptr [rbx+000000000000009Ch],1
+                    01 00 00 00
+  0000000180526970: 48 85 FF           test        rdi,rdi
+  0000000180526973: 0F 84 F5 00 00 00  je          0000000180526A6E
+  0000000180526979: 48 8B 07           mov         rax,qword ptr [rdi]
+  000000018052697C: 48 8B CF           mov         rcx,rdi
+  000000018052697F: 48 8B 90 D0 01 00  mov         rdx,qword ptr [rax+00000000000001D0h]
+                    00
+  0000000180526986: FF 90 C8 01 00 00  call        qword ptr [rax+00000000000001C8h]
+  000000018052698C: 48 8B 0D 7D AD C4  mov         rcx,qword ptr [0000000184171710h]
+                    03
+  0000000180526993: 48 8B F0           mov         rsi,rax
+  0000000180526996: E8 25 67 E3 FF     call        000000018035D0C0
+  000000018052699B: 48 8B F8           mov         rdi,rax
+  000000018052699E: 48 85 C0           test        rax,rax
+  00000001805269A1: 0F 84 C7 00 00 00  je          0000000180526A6E
+  00000001805269A7: 4C 8B 05 B2 C7 C7  mov         r8,qword ptr [00000001841A3160h]
+                    03
+  00000001805269AE: 45 33 C9           xor         r9d,r9d
+  00000001805269B1: 33 D2              xor         edx,edx
+  00000001805269B3: 48 8B C8           mov         rcx,rax
+  00000001805269B6: E8 35 E9 93 00     call        0000000180E652F0 ; System.Runtime.InteropServices.Marshal+SecureStringAllocator::.ctor [MI 34039, RVA 0xe652f0]
+  00000001805269BB: 4C 8B 05 5E 82 C5  mov         r8,qword ptr [000000018417EC20h]
+                    03
+  00000001805269C2: 48 8B D7           mov         rdx,rdi
+  00000001805269C5: 48 8B CE           mov         rcx,rsi
+  00000001805269C8: E8 23 B9 86 00     call        0000000180D922F0
+  00000001805269CD: 48 8B 15 7C 30 C3  mov         rdx,qword ptr [0000000184159A50h]
+                    03
+  00000001805269D4: 45 33 C9           xor         r9d,r9d
+  00000001805269D7: 45 33 C0           xor         r8d,r8d
+  00000001805269DA: 48 8B C8           mov         rcx,rax
+  00000001805269DD: E8 3E D0 EB FF     call        00000001803E3A20
+  00000001805269E2: 48 8B 0D 67 C1 C8  mov         rcx,qword ptr [00000001841B2B50h]
+                    03
+  00000001805269E9: 45 33 C0           xor         r8d,r8d
+  00000001805269EC: 48 8B D0           mov         rdx,rax
+  00000001805269EF: E8 AC 76 BE 01     call        000000018210E0A0 ; System.String::Concat [MI 25739, RVA 0x210e0a0]
+  00000001805269F4: 48 8B 0D 1D 95 C9  mov         rcx,qword ptr [00000001841BFF18h]
+                    03
+  00000001805269FB: 48 8B F8           mov         rdi,rax
+  00000001805269FE: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  0000000180526A05: 75 05              jne         0000000180526A0C
+  0000000180526A07: E8 A4 68 DD FF     call        00000001802FD2B0
+  0000000180526A0C: 33 D2              xor         edx,edx
+  0000000180526A0E: 48 8B CF           mov         rcx,rdi
+  0000000180526A11: E8 CA 19 6D 02     call        0000000182BF83E0 ; UnityEngine.Debug::Log [MI 76055, RVA 0x2bf83e0]
+  0000000180526A16: 48 8B 4B 18        mov         rcx,qword ptr [rbx+18h]
+  0000000180526A1A: 48 85 C9           test        rcx,rcx
+  0000000180526A1D: 74 4F              je          0000000180526A6E
+  0000000180526A1F: 8B 93 9C 00 00 00  mov         edx,dword ptr [rbx+000000000000009Ch]
+  0000000180526A25: 45 33 C0           xor         r8d,r8d
+  0000000180526A28: E8 C3 34 05 00     call        0000000180579EF0 ; NightScene.UI.CookingUtility.CookAnimator::SetState [MI 10993, RVA 0x579ef0]
+  0000000180526A2D: 48 8B 0D 64 C8 CA  mov         rcx,qword ptr [00000001841D3298h]
+                    03
+  0000000180526A34: E8 17 55 BE 00     call        000000018110BF50
+  0000000180526A39: 48 85 C0           test        rax,rax
+  0000000180526A3C: 74 30              je          0000000180526A6E
+  0000000180526A3E: 45 33 C0           xor         r8d,r8d
+  0000000180526A41: 48 8B D3           mov         rdx,rbx
+  0000000180526A44: 48 8B C8           mov         rcx,rax
+  0000000180526A47: 44 0F 28 44 24 30  movaps      xmm8,xmmword ptr [rsp+30h]
+  0000000180526A4D: 0F 28 7C 24 40     movaps      xmm7,xmmword ptr [rsp+40h]
+  0000000180526A52: 0F 28 74 24 50     movaps      xmm6,xmmword ptr [rsp+50h]
+  0000000180526A57: 48 8B 5C 24 78     mov         rbx,qword ptr [rsp+78h]
+  0000000180526A5C: 48 8B B4 24 80 00  mov         rsi,qword ptr [rsp+0000000000000080h]
+                    00 00
+  0000000180526A64: 48 83 C4 60        add         rsp,60h
+  0000000180526A68: 5F                 pop         rdi
+  0000000180526A69: E9 92 92 FB FF     jmp         00000001804DFD00 ; NightScene.PartnerUtility.PartnerManager::OnPlayerStartCooker [MI 7963, RVA 0x4dfd00]
+  0000000180526A6E: E8 AD 66 E3 FF     call        000000018035D120
+  0000000180526A73: CC                 int         3
+  0000000180526A74: CC                 int         3
+  0000000180526A75: CC                 int         3
+  0000000180526A76: CC                 int         3
+  0000000180526A77: CC                 int         3
+  0000000180526A78: CC                 int         3
+  0000000180526A79: CC                 int         3
+  0000000180526A7A: CC                 int         3
+  0000000180526A7B: CC                 int         3
+  0000000180526A7C: CC                 int         3
+  0000000180526A7D: CC                 int         3
+  0000000180526A7E: CC                 int         3
+  0000000180526A7F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

@@ -1,0 +1,17 @@
+# GameData.Core.Collections.NightSceneUtility.GuestBase::GenerateFund
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.GuestBase", "typeIndex": 2316, "image": "Assembly-CSharp.dll", "name": "GenerateFund", "metadataMethodIndex": 14783, "token": "0x60039c0", "methodPointerIndex": 14783, "va": "0x1806825d0", "rva": "0x6825d0", "endRva": "0x6825e0", "returnTypeIndex": 26152, "parameters": [{"index": 11406, "name": "baseFund", "typeIndex": 17004}]}
+# range end RVA 0x6825e0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001806825D0: 40 53              push        rbx
+  00000001806825D2: 48 83 EC 30        sub         rsp,30h
+  00000001806825D6: 80 3D 6B A4 CE 03  cmp         byte ptr [000000018436CA48h],0
+                    00
+  00000001806825DD: 48 8B D9           mov         rbx,rcx
+
+  Summary
+
+     2ACC000 il2cpp

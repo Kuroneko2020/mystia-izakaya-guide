@@ -1,0 +1,111 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+  "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+  "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+  "path_id": -9067573325554850623,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": -6045244362953254024
+    },
+    "m_Name": "DLC5_IngredientProfile",
+    "ingredients": [
+      {
+        "id": 5000,
+        "level": 3,
+        "baseValue": 22,
+        "tags": [
+          17,
+          27
+        ],
+        "prefix": 0
+      },
+      {
+        "id": 5001,
+        "level": 2,
+        "baseValue": 18,
+        "tags": [
+          2,
+          3
+        ],
+        "prefix": 0
+      },
+      {
+        "id": 5003,
+        "level": 2,
+        "baseValue": 21,
+        "tags": [
+          21,
+          29
+        ],
+        "prefix": 0
+      },
+      {
+        "id": 5004,
+        "level": 3,
+        "baseValue": 14,
+        "tags": [
+          26,
+          7
+        ],
+        "prefix": 0
+      },
+      {
+        "id": 5002,
+        "level": 5,
+        "baseValue": 10,
+        "tags": [
+          5000
+        ],
+        "prefix": 0
+      },
+      {
+        "id": 5005,
+        "level": 5,
+        "baseValue": 0,
+        "tags": [
+          5000
+        ],
+        "prefix": 0
+      }
+    ],
+    "prefixes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      13,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+}

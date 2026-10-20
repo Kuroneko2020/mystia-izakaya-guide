@@ -1,0 +1,24 @@
+# GameData.Core.Collections.Sellable+<>c::<get_Tags>b__27_0
+# {"declaringType": "GameData.Core.Collections.Sellable+<>c", "typeIndex": 2296, "image": "Assembly-CSharp.dll", "name": "<get_Tags>b__27_0", "metadataMethodIndex": 14621, "token": "0x600391e", "methodPointerIndex": 14621, "va": "0x180697260", "rva": "0x697260", "endRva": null, "returnTypeIndex": 20604, "parameters": [{"index": 11252, "name": "x", "typeIndex": 26152}]}
+# range end RVA 0x697270; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180697260: 83 FA 02           cmp         edx,2
+  0000000180697263: 0F 9F C0           setg        al
+  0000000180697266: C3                 ret
+  0000000180697267: CC                 int         3
+  0000000180697268: CC                 int         3
+  0000000180697269: CC                 int         3
+  000000018069726A: CC                 int         3
+  000000018069726B: CC                 int         3
+  000000018069726C: CC                 int         3
+  000000018069726D: CC                 int         3
+  000000018069726E: CC                 int         3
+  000000018069726F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

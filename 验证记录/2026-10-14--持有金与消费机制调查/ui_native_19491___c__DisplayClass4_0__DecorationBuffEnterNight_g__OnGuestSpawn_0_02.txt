@@ -1,0 +1,161 @@
+# <>c__DisplayClass4_0::<DecorationBuffEnterNight>g__OnGuestSpawn|0
+# {"declaringType": "<>c__DisplayClass4_0", "typeIndex": 3273, "image": "Assembly-CSharp.dll", "name": "<DecorationBuffEnterNight>g__OnGuestSpawn|0", "metadataMethodIndex": 19491, "token": "0x6004c24", "methodPointerIndex": 19491, "va": "0x1807a5df0", "rva": "0x7a5df0", "endRva": "0x7a5fe8", "returnTypeIndex": 33376, "parameters": [{"index": 13888, "name": "guestGroup", "typeIndex": 24624}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x7a5df0..0x7a5ff0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001807A5DF0: 48 89 5C 24 18     mov         qword ptr [rsp+18h],rbx
+  00000001807A5DF5: 48 89 74 24 20     mov         qword ptr [rsp+20h],rsi
+  00000001807A5DFA: 57                 push        rdi
+  00000001807A5DFB: 48 83 EC 20        sub         rsp,20h
+  00000001807A5DFF: 80 3D 25 75 BC 03  cmp         byte ptr [000000018436D32Bh],0
+                    00
+  00000001807A5E06: 48 8B F2           mov         rsi,rdx
+  00000001807A5E09: 48 8B F9           mov         rdi,rcx
+  00000001807A5E0C: 75 43              jne         00000001807A5E51
+  00000001807A5E0E: 48 8D 0D 1B C2 A0  lea         rcx,[00000001841B2030h]
+                    03
+  00000001807A5E15: E8 66 71 BB FF     call        000000018035CF80
+  00000001807A5E1A: 48 8D 0D DF A3 9E  lea         rcx,[0000000184190200h]
+                    03
+  00000001807A5E21: E8 5A 71 BB FF     call        000000018035CF80
+  00000001807A5E26: 48 8D 0D 3B 87 A1  lea         rcx,[00000001841BE568h]
+                    03
+  00000001807A5E2D: E8 4E 71 BB FF     call        000000018035CF80
+  00000001807A5E32: 48 8D 0D 2F 88 A1  lea         rcx,[00000001841BE668h]
+                    03
+  00000001807A5E39: E8 42 71 BB FF     call        000000018035CF80
+  00000001807A5E3E: 48 8D 0D 1B EF 9A  lea         rcx,[0000000184154D60h]
+                    03
+  00000001807A5E45: E8 36 71 BB FF     call        000000018035CF80
+  00000001807A5E4A: C6 05 DA 74 BC 03  mov         byte ptr [000000018436D32Bh],1
+                    01
+  00000001807A5E51: 48 8B 0D 08 EF 9A  mov         rcx,qword ptr [0000000184154D60h]
+                    03
+  00000001807A5E58: 48 89 6C 24 30     mov         qword ptr [rsp+30h],rbp
+  00000001807A5E5D: 4C 89 74 24 38     mov         qword ptr [rsp+38h],r14
+  00000001807A5E62: E8 59 72 BB FF     call        000000018035D0C0
+  00000001807A5E67: 48 8B D8           mov         rbx,rax
+  00000001807A5E6A: 48 85 C0           test        rax,rax
+  00000001807A5E6D: 0F 84 4E 01 00 00  je          00000001807A5FC1
+  00000001807A5E73: 33 D2              xor         edx,edx
+  00000001807A5E75: 48 8B C8           mov         rcx,rax
+  00000001807A5E78: E8 53 2A C4 FF     call        00000001803E88D0 ; <<Confirm>g__Jump|3>d::System.IDisposable.Dispose [MI 150, RVA 0x3e88d0] | <<Confirm>g__OnRotation|11_1>d::System.IDisposable.Dispose [MI 156, RVA 0x3e88d0] | <CountDownLoop>d__7::System.IDisposable.Dispose [MI 354, RVA 0x3e88d0] | <<OnPanelOpen>g__OnLoadFinish|2>d::System.IDisposable.Dispose [MI 440, RVA 0x3e88d0] | <<OnPanelOpen>g__ShowCG|3>d::System.IDisposable.Dispose [MI 446, RVA 0x3e88d0] | <>c::<OnPanelInitialize>b__24_1 [MI 507, RVA 0x3e88d0] | <<TypeCoroutine>g__DoType|2>d::System.IDisposable.Dispose [MI 538, RVA 0x3e88d0] | <TypeCoroutine>d__34::System.IDisposable.Dispose [MI 544, RVA 0x3e88d0]
+  00000001807A5E7D: 48 8D 4B 18        lea         rcx,[rbx+18h]
+  00000001807A5E81: 48 89 7B 18        mov         qword ptr [rbx+18h],rdi
+  00000001807A5E85: 48 8B D7           mov         rdx,rdi
+  00000001807A5E88: E8 23 6C BB FF     call        000000018035CAB0
+  00000001807A5E8D: 48 8D 4B 10        lea         rcx,[rbx+10h]
+  00000001807A5E91: 48 89 73 10        mov         qword ptr [rbx+10h],rsi
+  00000001807A5E95: 48 8B D6           mov         rdx,rsi
+  00000001807A5E98: E8 13 6C BB FF     call        000000018035CAB0
+  00000001807A5E9D: 48 8B 73 10        mov         rsi,qword ptr [rbx+10h]
+  00000001807A5EA1: 48 85 F6           test        rsi,rsi
+  00000001807A5EA4: 0F 84 17 01 00 00  je          00000001807A5FC1
+  00000001807A5EAA: 48 8B 0D 7F C1 A0  mov         rcx,qword ptr [00000001841B2030h]
+                    03
+  00000001807A5EB1: 4C 8B B6 00 01 00  mov         r14,qword ptr [rsi+0000000000000100h]
+                    00
+  00000001807A5EB8: E8 03 72 BB FF     call        000000018035D0C0
+  00000001807A5EBD: 48 8B E8           mov         rbp,rax
+  00000001807A5EC0: 48 85 C0           test        rax,rax
+  00000001807A5EC3: 0F 84 F8 00 00 00  je          00000001807A5FC1
+  00000001807A5EC9: 4C 8B 05 98 87 A1  mov         r8,qword ptr [00000001841BE668h]
+                    03
+  00000001807A5ED0: 45 33 C9           xor         r9d,r9d
+  00000001807A5ED3: 48 8B D3           mov         rdx,rbx
+  00000001807A5ED6: 48 8B C8           mov         rcx,rax
+  00000001807A5ED9: E8 42 82 D4 00     call        00000001814EE120
+  00000001807A5EDE: 45 33 C0           xor         r8d,r8d
+  00000001807A5EE1: 48 8B D5           mov         rdx,rbp
+  00000001807A5EE4: 49 8B CE           mov         rcx,r14
+  00000001807A5EE7: E8 94 57 AA 01     call        000000018224B680 ; System.Delegate::Combine [MI 29095, RVA 0x224b680]
+  00000001807A5EEC: 4C 8B F0           mov         r14,rax
+  00000001807A5EEF: 48 85 C0           test        rax,rax
+  00000001807A5EF2: 74 1B              je          00000001807A5F0F
+  00000001807A5EF4: 48 8B 2D 35 C1 A0  mov         rbp,qword ptr [00000001841B2030h]
+                    03
+  00000001807A5EFB: 49 8B CE           mov         rcx,r14
+  00000001807A5EFE: 48 8B D5           mov         rdx,rbp
+  00000001807A5F01: E8 BA 6B BB FF     call        000000018035CAC0
+  00000001807A5F06: 48 85 C0           test        rax,rax
+  00000001807A5F09: 0F 84 CD 00 00 00  je          00000001807A5FDC
+  00000001807A5F0F: 48 8D 8E 00 01 00  lea         rcx,[rsi+0000000000000100h]
+                    00
+  00000001807A5F16: 48 89 86 00 01 00  mov         qword ptr [rsi+0000000000000100h],rax
+                    00
+  00000001807A5F1D: 48 8B D0           mov         rdx,rax
+  00000001807A5F20: E8 8B 6B BB FF     call        000000018035CAB0
+  00000001807A5F25: 48 8B 0D D4 A2 9E  mov         rcx,qword ptr [0000000184190200h]
+                    03
+  00000001807A5F2C: 48 8B 6F 10        mov         rbp,qword ptr [rdi+10h]
+  00000001807A5F30: E8 8B 71 BB FF     call        000000018035D0C0
+  00000001807A5F35: 48 8B F0           mov         rsi,rax
+  00000001807A5F38: 48 85 C0           test        rax,rax
+  00000001807A5F3B: 0F 84 80 00 00 00  je          00000001807A5FC1
+  00000001807A5F41: 4C 8B 05 20 86 A1  mov         r8,qword ptr [00000001841BE568h]
+                    03
+  00000001807A5F48: 45 33 C9           xor         r9d,r9d
+  00000001807A5F4B: 48 8B D3           mov         rdx,rbx
+  00000001807A5F4E: 48 8B C8           mov         rcx,rax
+  00000001807A5F51: E8 0A AB 20 00     call        00000001809B0A60 ; System.Action::.ctor [MI 26047, RVA 0x9b0a60] | System.Threading.ThreadStart::.ctor [MI 29582, RVA 0x9b0a60] | System.Runtime.Remoting.Contexts.CrossContextDelegate::.ctor [MI 32755, RVA 0x9b0a60] | PanicFunction_::.ctor [MI 75573, RVA 0x9b0a60] | LowMemoryCallback::.ctor [MI 75743, RVA 0x9b0a60] | DisplaysUpdatedDelegate::.ctor [MI 76269, RVA 0x9b0a60] | UnityEngine.Events.UnityAction::.ctor [MI 79198, RVA 0x9b0a60] | UpdateFunction::.ctor [MI 79271, RVA 0x9b0a60]
+  00000001807A5F56: 45 33 C0           xor         r8d,r8d
+  00000001807A5F59: 48 8B D6           mov         rdx,rsi
+  00000001807A5F5C: 48 8B CD           mov         rcx,rbp
+  00000001807A5F5F: E8 1C 57 AA 01     call        000000018224B680 ; System.Delegate::Combine [MI 29095, RVA 0x224b680]
+  00000001807A5F64: 48 85 C0           test        rax,rax
+  00000001807A5F67: 75 08              jne         00000001807A5F71
+  00000001807A5F69: 48 89 47 10        mov         qword ptr [rdi+10h],rax
+  00000001807A5F6D: 33 D2              xor         edx,edx
+  00000001807A5F6F: EB 2E              jmp         00000001807A5F9F
+  00000001807A5F71: 48 8B 15 88 A2 9E  mov         rdx,qword ptr [0000000184190200h]
+                    03
+  00000001807A5F78: 33 C9              xor         ecx,ecx
+  00000001807A5F7A: 48 39 10           cmp         qword ptr [rax],rdx
+  00000001807A5F7D: 48 0F 44 C8        cmove       rcx,rax
+  00000001807A5F81: 48 85 C9           test        rcx,rcx
+  00000001807A5F84: 74 4D              je          00000001807A5FD3
+  00000001807A5F86: 33 D2              xor         edx,edx
+  00000001807A5F88: 48 89 4F 10        mov         qword ptr [rdi+10h],rcx
+  00000001807A5F8C: 48 8B 0D 6D A2 9E  mov         rcx,qword ptr [0000000184190200h]
+                    03
+  00000001807A5F93: 48 39 08           cmp         qword ptr [rax],rcx
+  00000001807A5F96: 48 0F 44 D0        cmove       rdx,rax
+  00000001807A5F9A: 48 85 D2           test        rdx,rdx
+  00000001807A5F9D: 74 28              je          00000001807A5FC7
+  00000001807A5F9F: 48 8D 4F 10        lea         rcx,[rdi+10h]
+  00000001807A5FA3: 4C 8B 74 24 38     mov         r14,qword ptr [rsp+38h]
+  00000001807A5FA8: 48 8B 6C 24 30     mov         rbp,qword ptr [rsp+30h]
+  00000001807A5FAD: 48 8B 5C 24 40     mov         rbx,qword ptr [rsp+40h]
+  00000001807A5FB2: 48 8B 74 24 48     mov         rsi,qword ptr [rsp+48h]
+  00000001807A5FB7: 48 83 C4 20        add         rsp,20h
+  00000001807A5FBB: 5F                 pop         rdi
+  00000001807A5FBC: E9 EF 6A BB FF     jmp         000000018035CAB0
+  00000001807A5FC1: E8 5A 71 BB FF     call        000000018035D120
+  00000001807A5FC6: CC                 int         3
+  00000001807A5FC7: 48 8B D1           mov         rdx,rcx
+  00000001807A5FCA: 48 8B C8           mov         rcx,rax
+  00000001807A5FCD: E8 0E 6B BB FF     call        000000018035CAE0
+  00000001807A5FD2: CC                 int         3
+  00000001807A5FD3: 48 8B C8           mov         rcx,rax
+  00000001807A5FD6: E8 05 6B BB FF     call        000000018035CAE0
+  00000001807A5FDB: CC                 int         3
+  00000001807A5FDC: 48 8B D5           mov         rdx,rbp
+  00000001807A5FDF: 49 8B CE           mov         rcx,r14
+  00000001807A5FE2: E8 F9 6A BB FF     call        000000018035CAE0
+  00000001807A5FE7: CC                 int         3
+  00000001807A5FE8: CC                 int         3
+  00000001807A5FE9: CC                 int         3
+  00000001807A5FEA: CC                 int         3
+  00000001807A5FEB: CC                 int         3
+  00000001807A5FEC: CC                 int         3
+  00000001807A5FED: CC                 int         3
+  00000001807A5FEE: CC                 int         3
+  00000001807A5FEF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

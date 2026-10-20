@@ -1,0 +1,41 @@
+# NightScene.GuestManagementUtility.GuestGroupController::GetPaymentByMood
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "GetPaymentByMood", "metadataMethodIndex": 8312, "token": "0x6002079", "methodPointerIndex": 8312, "va": "0x1804c5e60", "rva": "0x4c5e60", "endRva": "0x4c5ec6", "returnTypeIndex": 26152, "parameters": []}
+# range end RVA 0x4c5ec6; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804C5E60: 4C 8B DC           mov         r11,rsp
+  00000001804C5E63: 53                 push        rbx
+  00000001804C5E64: 48 83 EC 50        sub         rsp,50h
+  00000001804C5E68: 33 C0              xor         eax,eax
+  00000001804C5E6A: 4D 8D 4B E8        lea         r9,[r11-18h]
+  00000001804C5E6E: 49 89 43 E0        mov         qword ptr [r11-20h],rax
+  00000001804C5E72: 0F 57 D2           xorps       xmm2,xmm2
+  00000001804C5E75: 89 44 24 40        mov         dword ptr [rsp+40h],eax
+  00000001804C5E79: 33 D2              xor         edx,edx
+  00000001804C5E7B: 89 44 24 78        mov         dword ptr [rsp+78h],eax
+  00000001804C5E7F: 48 8B D9           mov         rbx,rcx
+  00000001804C5E82: 89 44 24 70        mov         dword ptr [rsp+70h],eax
+  00000001804C5E86: 89 44 24 60        mov         dword ptr [rsp+60h],eax
+  00000001804C5E8A: 49 8D 43 08        lea         rax,[r11+8]
+  00000001804C5E8E: 49 89 43 D8        mov         qword ptr [r11-28h],rax
+  00000001804C5E92: 49 8D 43 18        lea         rax,[r11+18h]
+  00000001804C5E96: 49 89 43 D0        mov         qword ptr [r11-30h],rax
+  00000001804C5E9A: 49 8D 43 20        lea         rax,[r11+20h]
+  00000001804C5E9E: 49 89 43 C8        mov         qword ptr [r11-38h],rax
+  00000001804C5EA2: E8 29 00 00 00     call        00000001804C5ED0 ; NightScene.GuestManagementUtility.GuestGroupController::GetPayment [MI 8316, RVA 0x4c5ed0]
+  00000001804C5EA7: 0F AF 43 40        imul        eax,dword ptr [rbx+40h]
+  00000001804C5EAB: 33 D2              xor         edx,edx
+  00000001804C5EAD: 66 0F 6E C0        movd        xmm0,eax
+  00000001804C5EB1: 0F 5B C0           cvtdq2ps    xmm0,xmm0
+  00000001804C5EB4: F3 0F 5E 05 E8 5D  divss       xmm0,dword ptr [0000000182EABCA4h]
+                    9E 02
+  00000001804C5EBC: 48 83 C4 50        add         rsp,50h
+  00000001804C5EC0: 5B                 pop         rbx
+  00000001804C5EC1: E9 BA 98 F1 FF     jmp         00000001803DF780
+
+  Summary
+
+     2ACC000 il2cpp

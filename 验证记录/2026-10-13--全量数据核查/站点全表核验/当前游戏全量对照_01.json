@@ -1,0 +1,1046 @@
+{
+  "sourceKind": "directly extracted official installed Unity game data, no assistant/wiki/mod catalog",
+  "gameBuild": "23158340",
+  "resourceVersion": "RELEASE 4.4.0e",
+  "sourceFile": "验证记录/2026-10-13--全量数据核查/游戏原始核验/game_catalog_raw_normalized.json",
+  "sourceSha256": "17b94d3e535010ba7959c0eb093e2e2d2471d56d7786c673b0ef744e60ac3162",
+  "fieldsCompared": {
+    "food": 1141,
+    "ingredient": 186,
+    "beverage": 138,
+    "normalGuest": 92,
+    "specialGuest": 236
+  },
+  "fieldDifferenceCount": 0,
+  "differences": [],
+  "displayNameDifferenceCount": 1,
+  "displayNameDifferences": [
+    {
+      "kind": "beverage",
+      "id": 28,
+      "site": "大冰棍儿!",
+      "game": "\"大冰棍儿!\"",
+      "reasonNotAssumed": true
+    }
+  ],
+  "coverage": {
+    "food": {
+      "sourceRows": 163,
+      "matchedGameIds": 163,
+      "missingFromCurrentGame": [],
+      "gameRows": 164,
+      "gameRowsOutsideGuideScope": [
+        {
+          "id": -1,
+          "name": "黑暗物质",
+          "group": "Core",
+          "hideInAlbum": null,
+          "isParticular": null,
+          "hideInNX": null,
+          "doNotShowInNightByDefault": null,
+          "doNotShowInNotebook": null
+        }
+      ]
+    },
+    "ingredient": {
+      "sourceRows": 62,
+      "matchedGameIds": 62,
+      "missingFromCurrentGame": [],
+      "gameRows": 62,
+      "gameRowsOutsideGuideScope": []
+    },
+    "beverage": {
+      "sourceRows": 46,
+      "matchedGameIds": 46,
+      "missingFromCurrentGame": [],
+      "gameRows": 46,
+      "gameRowsOutsideGuideScope": []
+    },
+    "wildcardFoodTags": [
+      {
+        "id": 3004,
+        "name": "僵尸",
+        "gameIsLikeAllFoodTag": true,
+        "sourceFixedTagListCount": 41,
+        "gameMappedStaticTagCount": 49,
+        "missingInEnumeratedTags": [
+          -30,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          4000,
+          5000
+        ],
+        "extraInEnumeratedTags": []
+      }
+    ],
+    "normalGuest": {
+      "sourceRows": 47,
+      "matchedGameIds": 47,
+      "missingFromCurrentGame": [],
+      "gameRows": 50,
+      "gameRowsOutsideGuideScope": [
+        {
+          "id": 4100,
+          "name": "红色妖精",
+          "group": "DLC4",
+          "hideInAlbum": null,
+          "isParticular": null,
+          "hideInNX": null,
+          "doNotShowInNightByDefault": null,
+          "doNotShowInNotebook": true
+        },
+        {
+          "id": 4101,
+          "name": "黄色妖精",
+          "group": "DLC4",
+          "hideInAlbum": null,
+          "isParticular": null,
+          "hideInNX": null,
+          "doNotShowInNightByDefault": null,
+          "doNotShowInNotebook": true
+        },
+        {
+          "id": 4102,
+          "name": "蓝色妖精",
+          "group": "DLC4",
+          "hideInAlbum": null,
+          "isParticular": null,
+          "hideInNX": null,
+          "doNotShowInNightByDefault": null,
+          "doNotShowInNotebook": true
+        }
+      ]
+    },
+    "specialGuest": {
+      "sourceRows": 59,
+      "matchedGameIds": 59,
+      "missingFromCurrentGame": [],
+      "gameRows": 116,
+      "gameRowsOutsideGuideScope": [
+        {
+          "id": 11,
+          "name": "魂魄妖梦",
+          "group": "Core",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": true,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 12,
+          "name": "??????",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 13,
+          "name": "?????",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 14,
+          "name": "幽谷响子",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 16,
+          "name": "因幡帝",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 17,
+          "name": "东风谷早苗",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 18,
+          "name": "本居小铃",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 19,
+          "name": "高丽野阿吽",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 20,
+          "name": "十六夜咲夜",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 21,
+          "name": "铃仙",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 22,
+          "name": "蕾米莉亚",
+          "group": "Core",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 23,
+          "name": "西行寺幽幽子",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 26,
+          "name": "八云紫",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 32,
+          "name": "米斯蒂娅(?)",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 33,
+          "name": "幽谷响子(?)",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 34,
+          "name": "米斯蒂娅",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 35,
+          "name": "幽谷响子",
+          "group": "Core",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 1006,
+          "name": "键山雏",
+          "group": "DLC1",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 1007,
+          "name": "梦子",
+          "group": "DLC1",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2007,
+          "name": "琪斯美",
+          "group": "DLC2",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2008,
+          "name": "小野塚小町",
+          "group": "DLC2",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2009,
+          "name": "地底怨灵",
+          "group": "DLC2",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": true,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2500,
+          "name": "摩多罗隐岐奈",
+          "group": "DLCMusic",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2501,
+          "name": "丁礼田舞",
+          "group": "DLCMusic",
+          "hideInAlbum": true,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2502,
+          "name": "尔子田里乃",
+          "group": "DLCMusic",
+          "hideInAlbum": true,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2503,
+          "name": "秦心",
+          "group": "DLCMusic",
+          "hideInAlbum": true,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2504,
+          "name": "堀川雷鼓",
+          "group": "DLCMusic",
+          "hideInAlbum": true,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2505,
+          "name": "九十九弁弁",
+          "group": "DLCMusic",
+          "hideInAlbum": true,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2506,
+          "name": "九十九八桥",
+          "group": "DLCMusic",
+          "hideInAlbum": true,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2507,
+          "name": "露娜萨",
+          "group": "DLCMusic",
+          "hideInAlbum": true,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2508,
+          "name": "梅露兰",
+          "group": "DLCMusic",
+          "hideInAlbum": true,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 2509,
+          "name": "莉莉卡",
+          "group": "DLCMusic",
+          "hideInAlbum": true,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 3006,
+          "name": "云居一轮",
+          "group": "DLC3",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 3007,
+          "name": "云山",
+          "group": "DLC3",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 3008,
+          "name": "宫古芳香",
+          "group": "DLC3",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 3010,
+          "name": "圣白莲",
+          "group": "DLC3",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": true,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 3011,
+          "name": "丰聪耳神子",
+          "group": "DLC3",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": true,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 3012,
+          "name": "娜兹玲",
+          "group": "DLC3",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 4006,
+          "name": "芙兰朵露",
+          "group": "DLC4",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": true,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 4007,
+          "name": "若鹭姬",
+          "group": "DLC4",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 4009,
+          "name": "拉尔瓦",
+          "group": "DLC4",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 4010,
+          "name": "赤蛮奇",
+          "group": "DLC4",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 4011,
+          "name": "赤蛮奇",
+          "group": "DLC4",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 4012,
+          "name": "赤蛮奇",
+          "group": "DLC4",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 4013,
+          "name": "芙兰朵露·喜",
+          "group": "DLC4",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": true,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 4014,
+          "name": "芙兰朵露·怒",
+          "group": "DLC4",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": true,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 4015,
+          "name": "芙兰朵露·哀",
+          "group": "DLC4",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": true,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 4016,
+          "name": "芙兰朵露·乐",
+          "group": "DLC4",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": true,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 5006,
+          "name": "哆来咪",
+          "group": "DLC5",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 5007,
+          "name": "萨拉",
+          "group": "DLC5",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 5008,
+          "name": "四季映姬",
+          "group": "DLC5",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 5009,
+          "name": "神绮",
+          "group": "DLC5",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 5010,
+          "name": "稀神探女",
+          "group": "DLC5",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 5011,
+          "name": "八意永琳",
+          "group": "DLC5",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": false,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 5013,
+          "name": "宫出口瑞灵",
+          "group": "DLC5",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": true,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 5014,
+          "name": "小野塚小町",
+          "group": "DLC5",
+          "hideInAlbum": true,
+          "isParticular": false,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": true,
+          "doNotShowInNotebook": null
+        },
+        {
+          "id": 5015,
+          "name": "豪德寺三花",
+          "group": "DLC5",
+          "hideInAlbum": false,
+          "isParticular": true,
+          "hideInNX": false,
+          "doNotShowInNightByDefault": true,
+          "doNotShowInNotebook": null
+        }
+      ]
+    }
+  },
+  "defaultCookedTagDifferenceCount": 20,
+  "defaultCookedTagDifferences": [
+    {
+      "id": 43,
+      "name": "惠灵顿牛排",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -4080910253319323610,
+        "rawJson": "FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 51,
+      "name": "竹取姬",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -4080910253319323610,
+        "rawJson": "FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 52,
+      "name": "不死鸟",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -4080910253319323610,
+        "rawJson": "FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 61,
+      "name": "蓬莱玉枝",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -4080910253319323610,
+        "rawJson": "FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 1017,
+      "name": "幻想佛跳墙",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC1_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+        "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+        "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+        "path_id": -6382728470176176148,
+        "rawJson": "DLC1_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 2008,
+      "name": "大江户船祭",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC2_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+        "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+        "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+        "path_id": -4468320463853840810,
+        "rawJson": "DLC2_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 2017,
+      "name": "地狱激辛警告！",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC2_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+        "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+        "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+        "path_id": -4468320463853840810,
+        "rawJson": "DLC2_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 3005,
+      "name": "罗汉上素",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC3_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": 7522829002297902933,
+        "rawJson": "DLC3_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 3008,
+      "name": "幻想星莲船",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC3_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": 7522829002297902933,
+        "rawJson": "DLC3_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 3011,
+      "name": "太极八卦鱼肚",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC3_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": 7522829002297902933,
+        "rawJson": "DLC3_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 4002,
+      "name": "逆转天地！",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC4_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": 6151466870951478234,
+        "rawJson": "DLC4_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 4005,
+      "name": "汉宫藏娇",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC4_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": 6151466870951478234,
+        "rawJson": "DLC4_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 4008,
+      "name": "翠竹迎春",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC4_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": 6151466870951478234,
+        "rawJson": "DLC4_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 4011,
+      "name": "幻想风靡",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC4_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": 6151466870951478234,
+        "rawJson": "DLC4_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 4014,
+      "name": "幽梦",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC4_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": 6151466870951478234,
+        "rawJson": "DLC4_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 5002,
+      "name": "牛肉鸳鸯火锅",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC5_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -3029979986367385987,
+        "rawJson": "DLC5_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 5005,
+      "name": "猫咪戏水",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC5_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -3029979986367385987,
+        "rawJson": "DLC5_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 5008,
+      "name": "疯帽子茶会",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC5_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -3029979986367385987,
+        "rawJson": "DLC5_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 5011,
+      "name": "龙吟桃子",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC5_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -3029979986367385987,
+        "rawJson": "DLC5_FoodProfile_raw.json"
+      }
+    },
+    {
+      "id": 5017,
+      "name": "至尊海鲜面",
+      "ingredientCount": 5,
+      "added": [
+        "大份"
+      ],
+      "removed": [],
+      "gameSource": {
+        "profile": "DLC5_FoodProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -3029979986367385987,
+        "rawJson": "DLC5_FoodProfile_raw.json"
+      }
+    }
+  ],
+  "defaultTagRuleEvidence": "Official profile tags, ingredients, price and tag names verified here; ingredient-count threshold comes from separate native/upstream/independent-source rule evidence, not from raw tags.",
+  "limitations": [
+    "Profiles are parsed from installed original resource files without running game; run-time outcome not asserted.",
+    "Maps, unlock/acquisition, spell cards and dynamic reactions not all compared in this script.",
+    "Name differences can be abbreviations or normalized typography; do not automatically treat them as mismatched records.",
+    "isParticular/hideInAlbum are raw flags; extra profiles are story/variant/content scope questions, not automatically missing regular guests."
+  ]
+}

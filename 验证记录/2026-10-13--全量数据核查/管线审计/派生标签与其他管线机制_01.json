@@ -1,0 +1,1288 @@
+{
+  "auditDate": "2026-10-13",
+  "officialFoodCount": 163,
+  "fiveIngredientRecipeCount": 22,
+  "missingLargePortionRecipeCount": 20,
+  "fiveIngredientRecipes": [
+    {
+      "foodId": 43,
+      "food": "惠灵顿牛排",
+      "recipeId": 58,
+      "ingredientCount": 5,
+      "ingredients": [
+        16,
+        30,
+        0,
+        29,
+        18
+      ],
+      "ingredientNames": [
+        "和牛",
+        "面粉",
+        "鸡蛋",
+        "黄油",
+        "松露"
+      ],
+      "rawPositiveTags": [
+        0,
+        4,
+        5,
+        10,
+        13
+      ],
+      "localProcessedTags": [
+        -3,
+        0,
+        4,
+        5,
+        10,
+        13
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        0,
+        4,
+        5,
+        10,
+        13
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 51,
+      "food": "竹取姬",
+      "recipeId": 43,
+      "ingredientCount": 5,
+      "ingredients": [
+        31,
+        28,
+        18,
+        22,
+        15
+      ],
+      "ingredientNames": [
+        "竹子",
+        "竹笋",
+        "松露",
+        "白果",
+        "黑毛猪肉"
+      ],
+      "rawPositiveTags": [
+        0,
+        4,
+        5,
+        12,
+        20,
+        25,
+        30
+      ],
+      "localProcessedTags": [
+        -3,
+        0,
+        4,
+        5,
+        12,
+        20,
+        25,
+        30
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        0,
+        4,
+        5,
+        12,
+        20,
+        25,
+        30
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 52,
+      "food": "不死鸟",
+      "recipeId": 44,
+      "ingredientCount": 5,
+      "ingredients": [
+        30,
+        24,
+        6,
+        7,
+        9
+      ],
+      "ingredientNames": [
+        "面粉",
+        "蜂蜜",
+        "土豆",
+        "洋葱",
+        "萝卜"
+      ],
+      "rawPositiveTags": [
+        4,
+        5,
+        13,
+        20,
+        33,
+        35
+      ],
+      "localProcessedTags": [
+        -3,
+        4,
+        5,
+        13,
+        20,
+        33,
+        35
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        4,
+        5,
+        13,
+        20,
+        33,
+        35
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 61,
+      "food": "蓬莱玉枝",
+      "recipeId": 53,
+      "ingredientCount": 5,
+      "ingredients": [
+        31,
+        1,
+        13,
+        16,
+        3
+      ],
+      "ingredientNames": [
+        "竹子",
+        "猪肉",
+        "三文鱼",
+        "和牛",
+        "鹿肉"
+      ],
+      "rawPositiveTags": [
+        0,
+        4,
+        5,
+        25,
+        33
+      ],
+      "localProcessedTags": [
+        -3,
+        0,
+        4,
+        5,
+        25,
+        33
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        0,
+        4,
+        5,
+        25,
+        33
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 1017,
+      "food": "幻想佛跳墙",
+      "recipeId": 1017,
+      "ingredientCount": 5,
+      "ingredients": [
+        16,
+        19,
+        15,
+        20,
+        18
+      ],
+      "ingredientNames": [
+        "和牛",
+        "极上金枪鱼",
+        "黑毛猪肉",
+        "河豚",
+        "松露"
+      ],
+      "rawPositiveTags": [
+        0,
+        1,
+        4,
+        5,
+        10,
+        14,
+        20,
+        23,
+        25,
+        26,
+        30
+      ],
+      "localProcessedTags": [
+        -3,
+        0,
+        1,
+        4,
+        5,
+        10,
+        14,
+        20,
+        23,
+        25,
+        26,
+        30
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        0,
+        1,
+        4,
+        5,
+        10,
+        14,
+        20,
+        23,
+        25,
+        26,
+        30
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 2002,
+      "food": "绝叫关东煮",
+      "recipeId": 2002,
+      "ingredientCount": 5,
+      "ingredients": [
+        35,
+        35,
+        2,
+        9,
+        5
+      ],
+      "ingredientNames": [
+        "辣椒",
+        "辣椒",
+        "牛肉",
+        "萝卜",
+        "豆腐"
+      ],
+      "rawPositiveTags": [
+        -1,
+        0,
+        4,
+        9,
+        16,
+        22,
+        23,
+        30,
+        34
+      ],
+      "localProcessedTags": [
+        -3,
+        -1,
+        0,
+        4,
+        9,
+        16,
+        22,
+        23,
+        30,
+        34
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        0,
+        4,
+        9,
+        16,
+        22,
+        23,
+        30,
+        34
+      ],
+      "missingTags": [],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 2008,
+      "food": "大江户船祭",
+      "recipeId": 2008,
+      "ingredientCount": 5,
+      "ingredients": [
+        13,
+        14,
+        19,
+        11,
+        34
+      ],
+      "ingredientNames": [
+        "三文鱼",
+        "金枪鱼",
+        "极上金枪鱼",
+        "鳟鱼",
+        "冰块"
+      ],
+      "rawPositiveTags": [
+        1,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16,
+        18,
+        19,
+        20,
+        25
+      ],
+      "localProcessedTags": [
+        -3,
+        1,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16,
+        18,
+        19,
+        20,
+        25
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        1,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16,
+        18,
+        19,
+        20,
+        25
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 2014,
+      "food": "鱼跃龙门",
+      "recipeId": 2014,
+      "ingredientCount": 5,
+      "ingredients": [
+        19,
+        3,
+        24,
+        33,
+        18
+      ],
+      "ingredientNames": [
+        "极上金枪鱼",
+        "鹿肉",
+        "蜂蜜",
+        "月光草",
+        "松露"
+      ],
+      "rawPositiveTags": [
+        -1,
+        0,
+        1,
+        4,
+        11,
+        14,
+        16,
+        17,
+        25,
+        26,
+        29
+      ],
+      "localProcessedTags": [
+        -3,
+        -1,
+        0,
+        1,
+        4,
+        11,
+        14,
+        16,
+        17,
+        25,
+        26,
+        29
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        0,
+        1,
+        4,
+        11,
+        14,
+        16,
+        17,
+        25,
+        26,
+        29
+      ],
+      "missingTags": [],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 2017,
+      "food": "地狱激辛警告！",
+      "recipeId": 2017,
+      "ingredientCount": 5,
+      "ingredients": [
+        35,
+        35,
+        35,
+        2002,
+        2
+      ],
+      "ingredientNames": [
+        "辣椒",
+        "辣椒",
+        "辣椒",
+        "芝士",
+        "牛肉"
+      ],
+      "rawPositiveTags": [
+        0,
+        6,
+        15,
+        20,
+        22,
+        23,
+        24,
+        34
+      ],
+      "localProcessedTags": [
+        -3,
+        0,
+        6,
+        15,
+        20,
+        22,
+        23,
+        24,
+        34
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        0,
+        6,
+        15,
+        20,
+        22,
+        23,
+        24,
+        34
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 3005,
+      "food": "罗汉上素",
+      "recipeId": 3005,
+      "ingredientCount": 5,
+      "ingredients": [
+        26,
+        28,
+        18,
+        3002,
+        3000
+      ],
+      "ingredientNames": [
+        "幻昙华",
+        "竹笋",
+        "松露",
+        "松子",
+        "莲子"
+      ],
+      "rawPositiveTags": [
+        2,
+        4,
+        7,
+        16,
+        21,
+        25,
+        29,
+        30
+      ],
+      "localProcessedTags": [
+        -3,
+        2,
+        4,
+        7,
+        16,
+        21,
+        25,
+        29,
+        30
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        2,
+        4,
+        7,
+        16,
+        21,
+        25,
+        29,
+        30
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 3008,
+      "food": "幻想星莲船",
+      "recipeId": 3008,
+      "ingredientCount": 5,
+      "ingredients": [
+        8,
+        3000,
+        14,
+        2000,
+        33
+      ],
+      "ingredientNames": [
+        "南瓜",
+        "莲子",
+        "金枪鱼",
+        "并蒂莲",
+        "月光草"
+      ],
+      "rawPositiveTags": [
+        4,
+        16,
+        18,
+        19,
+        20,
+        21,
+        27,
+        29,
+        30
+      ],
+      "localProcessedTags": [
+        -3,
+        4,
+        16,
+        18,
+        19,
+        20,
+        21,
+        27,
+        29,
+        30
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        4,
+        16,
+        18,
+        19,
+        20,
+        21,
+        27,
+        29,
+        30
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 3011,
+      "food": "太极八卦鱼肚",
+      "recipeId": 3011,
+      "ingredientCount": 5,
+      "ingredients": [
+        19,
+        17,
+        9,
+        0,
+        22
+      ],
+      "ingredientNames": [
+        "极上金枪鱼",
+        "蘑菇",
+        "萝卜",
+        "鸡蛋",
+        "白果"
+      ],
+      "rawPositiveTags": [
+        1,
+        4,
+        7,
+        16,
+        21,
+        25
+      ],
+      "localProcessedTags": [
+        -3,
+        1,
+        4,
+        7,
+        16,
+        21,
+        25
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        1,
+        4,
+        7,
+        16,
+        21,
+        25
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 4002,
+      "food": "逆转天地！",
+      "recipeId": 4002,
+      "ingredientCount": 5,
+      "ingredients": [
+        31,
+        4002,
+        4000,
+        15,
+        18
+      ],
+      "ingredientNames": [
+        "竹子",
+        "鲜花",
+        "梅子",
+        "黑毛猪肉",
+        "松露"
+      ],
+      "rawPositiveTags": [
+        10,
+        21,
+        24,
+        26,
+        27,
+        29,
+        35
+      ],
+      "localProcessedTags": [
+        -3,
+        10,
+        21,
+        24,
+        26,
+        27,
+        29,
+        35
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        10,
+        21,
+        24,
+        26,
+        27,
+        29,
+        35
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 4005,
+      "food": "汉宫藏娇",
+      "recipeId": 4005,
+      "ingredientCount": 5,
+      "ingredients": [
+        12,
+        5,
+        1005,
+        31,
+        27
+      ],
+      "ingredientNames": [
+        "八目鳗",
+        "豆腐",
+        "螃蟹",
+        "竹子",
+        "露水"
+      ],
+      "rawPositiveTags": [
+        1,
+        4,
+        5,
+        14,
+        24,
+        25,
+        32
+      ],
+      "localProcessedTags": [
+        -3,
+        1,
+        4,
+        5,
+        14,
+        24,
+        25,
+        32
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        1,
+        4,
+        5,
+        14,
+        24,
+        25,
+        32
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 4008,
+      "food": "翠竹迎春",
+      "recipeId": 4008,
+      "ingredientCount": 5,
+      "ingredients": [
+        1000,
+        0,
+        9,
+        3,
+        33
+      ],
+      "ingredientNames": [
+        "黄瓜",
+        "鸡蛋",
+        "萝卜",
+        "鹿肉",
+        "月光草"
+      ],
+      "rawPositiveTags": [
+        4,
+        10,
+        19,
+        20,
+        25
+      ],
+      "localProcessedTags": [
+        -3,
+        4,
+        10,
+        19,
+        20,
+        25
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        4,
+        10,
+        19,
+        20,
+        25
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 4011,
+      "food": "幻想风靡",
+      "recipeId": 4011,
+      "ingredientCount": 5,
+      "ingredients": [
+        7,
+        4,
+        2,
+        18,
+        4004
+      ],
+      "ingredientNames": [
+        "洋葱",
+        "野猪肉",
+        "牛肉",
+        "松露",
+        "西红柿"
+      ],
+      "rawPositiveTags": [
+        0,
+        6,
+        9,
+        18,
+        19,
+        20,
+        23
+      ],
+      "localProcessedTags": [
+        -3,
+        0,
+        6,
+        9,
+        18,
+        19,
+        20,
+        23
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        0,
+        6,
+        9,
+        18,
+        19,
+        20,
+        23
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 4014,
+      "food": "幽梦",
+      "recipeId": 4014,
+      "ingredientCount": 5,
+      "ingredients": [
+        4002,
+        26,
+        33,
+        27,
+        1004
+      ],
+      "ingredientNames": [
+        "鲜花",
+        "幻昙华",
+        "月光草",
+        "露水",
+        "奶油"
+      ],
+      "rawPositiveTags": [
+        4,
+        7,
+        13,
+        17,
+        20,
+        21,
+        29
+      ],
+      "localProcessedTags": [
+        -3,
+        4,
+        7,
+        13,
+        17,
+        20,
+        21,
+        29
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        4,
+        7,
+        13,
+        17,
+        20,
+        21,
+        29
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 5002,
+      "food": "牛肉鸳鸯火锅",
+      "recipeId": 5002,
+      "ingredientCount": 5,
+      "ingredients": [
+        35,
+        9,
+        18,
+        2,
+        16
+      ],
+      "ingredientNames": [
+        "辣椒",
+        "萝卜",
+        "松露",
+        "牛肉",
+        "和牛"
+      ],
+      "rawPositiveTags": [
+        0,
+        3,
+        10,
+        14,
+        22,
+        23,
+        26,
+        34
+      ],
+      "localProcessedTags": [
+        -3,
+        0,
+        3,
+        10,
+        14,
+        22,
+        23,
+        26,
+        34
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        0,
+        3,
+        10,
+        14,
+        22,
+        23,
+        26,
+        34
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 5005,
+      "food": "猫咪戏水",
+      "recipeId": 5005,
+      "ingredientCount": 5,
+      "ingredients": [
+        21,
+        5003,
+        1004,
+        5000,
+        30
+      ],
+      "ingredientNames": [
+        "桃子",
+        "薜荔",
+        "奶油",
+        "可可豆",
+        "面粉"
+      ],
+      "rawPositiveTags": [
+        2,
+        17,
+        20,
+        21,
+        27,
+        29
+      ],
+      "localProcessedTags": [
+        -3,
+        2,
+        17,
+        20,
+        21,
+        27,
+        29
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        2,
+        17,
+        20,
+        21,
+        27,
+        29
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 5008,
+      "food": "疯帽子茶会",
+      "recipeId": 5008,
+      "ingredientCount": 5,
+      "ingredients": [
+        5000,
+        1004,
+        30,
+        17,
+        5001
+      ],
+      "ingredientNames": [
+        "可可豆",
+        "奶油",
+        "面粉",
+        "蘑菇",
+        "西蓝花"
+      ],
+      "rawPositiveTags": [
+        13,
+        17,
+        20,
+        26,
+        27,
+        29,
+        30
+      ],
+      "localProcessedTags": [
+        -3,
+        13,
+        17,
+        20,
+        26,
+        27,
+        29,
+        30
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        13,
+        17,
+        20,
+        26,
+        27,
+        29,
+        30
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 5011,
+      "food": "龙吟桃子",
+      "recipeId": 5011,
+      "ingredientCount": 5,
+      "ingredients": [
+        5000,
+        21,
+        21,
+        21,
+        21
+      ],
+      "ingredientNames": [
+        "可可豆",
+        "桃子",
+        "桃子",
+        "桃子",
+        "桃子"
+      ],
+      "rawPositiveTags": [
+        4,
+        5,
+        7,
+        17,
+        21,
+        27,
+        30,
+        31
+      ],
+      "localProcessedTags": [
+        -3,
+        4,
+        5,
+        7,
+        17,
+        21,
+        27,
+        30,
+        31
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        4,
+        5,
+        7,
+        17,
+        21,
+        27,
+        30,
+        31
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    },
+    {
+      "foodId": 5017,
+      "food": "至尊海鲜面",
+      "recipeId": 5017,
+      "ingredientCount": 5,
+      "ingredients": [
+        19,
+        10,
+        1001,
+        1005,
+        23
+      ],
+      "ingredientNames": [
+        "极上金枪鱼",
+        "海苔",
+        "章鱼",
+        "螃蟹",
+        "虾"
+      ],
+      "rawPositiveTags": [
+        1,
+        3,
+        4,
+        9,
+        11,
+        16
+      ],
+      "localProcessedTags": [
+        -3,
+        1,
+        3,
+        4,
+        9,
+        11,
+        16
+      ],
+      "defaultComposedTags": [
+        -3,
+        -1,
+        1,
+        3,
+        4,
+        9,
+        11,
+        16
+      ],
+      "missingTags": [
+        "大份"
+      ],
+      "removedByComposition": []
+    }
+  ],
+  "multipleRecipeOfficialFoods": [],
+  "unknownOfficialIngredientReferences": [],
+  "unknownOfficialTagIds": [],
+  "missingRequiredOfficialFields": {
+    "FOOD_LIST": {
+      "id": [],
+      "name": [],
+      "dlc": [],
+      "level": [],
+      "price": []
+    },
+    "INGREDIENT_LIST": {
+      "id": [],
+      "name": [],
+      "dlc": [],
+      "level": [],
+      "price": []
+    },
+    "BEVERAGE_LIST": {
+      "id": [],
+      "name": [],
+      "dlc": [],
+      "level": [],
+      "price": []
+    }
+  },
+  "maxBaselineCellChars": 572,
+  "baselineCellsAtLeast30000Chars": 0,
+  "addonSlotCounterexamples": [
+    {
+      "guest": "莉格露",
+      "food": "惠灵顿牛排",
+      "baseIngredientCount": 5,
+      "productionFunctionResult": "缺：甜、生、猎奇；可加：+蝉蜕（补猎奇）",
+      "issue": "addon_text_for_dish has no 5-slot guard; no unused slot exists",
+      "evidenceLevel": "direct pure-function counterexample, not proof the live UI displays this pairing"
+    },
+    {
+      "guest": "莉格露",
+      "food": "竹取姬",
+      "baseIngredientCount": 5,
+      "productionFunctionResult": "缺：甜、生、猎奇；可加：+鸡蛋（补生）；+葡萄（补甜）；+蝉蜕（补猎奇）",
+      "issue": "addon_text_for_dish has no 5-slot guard; no unused slot exists",
+      "evidenceLevel": "direct pure-function counterexample, not proof the live UI displays this pairing"
+    },
+    {
+      "guest": "莉格露",
+      "food": "不死鸟",
+      "baseIngredientCount": 5,
+      "productionFunctionResult": "缺：肉、甜、生、猎奇；可加：+鸡蛋（补生）；+葡萄（补甜）；+蝉蜕（补猎奇）",
+      "issue": "addon_text_for_dish has no 5-slot guard; no unused slot exists",
+      "evidenceLevel": "direct pure-function counterexample, not proof the live UI displays this pairing"
+    }
+  ],
+  "importantSemantics": [
+    "baseIngredients only supply count; ONLY extraIngredientTags are merged into dish tags",
+    "food negativeTags apply to EXTRA ingredients to test dark matter, not base material tags",
+    "ordinary static UI recommendations ignore mapping/easter eggs/budget/order/trend and use at-least-one-like/no-dislike only",
+    "full HTML and recommendation relation counts are intentionally delegated to coordinator, not recalculated here"
+  ],
+  "lineReferences": [
+    "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/catalog/food/FoodCatalog.ts:68-75,86-114,145-160,231-237,300-306,359-402",
+    "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/evaluation/evaluateSavedMeal.ts:66-80,137-151",
+    "脚本/build_excel.py:229-245,322-345,443-495,650-655",
+    "脚本/ryotei_navigation.js:27-48",
+    "脚本/guide_template_ryotei.html:1563-1625",
+    "脚本/ryotei_ui.js:318-332,346-349"
+  ]
+}

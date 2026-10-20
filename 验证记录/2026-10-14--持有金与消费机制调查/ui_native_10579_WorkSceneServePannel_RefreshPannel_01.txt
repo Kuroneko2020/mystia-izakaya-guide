@@ -1,0 +1,82 @@
+# NightScene.UI.GuestManagementUtility.WorkSceneServePannel::RefreshPannel
+# {"declaringType": "NightScene.UI.GuestManagementUtility.WorkSceneServePannel", "typeIndex": 1755, "image": "Assembly-CSharp.dll", "name": "RefreshPannel", "metadataMethodIndex": 10579, "token": "0x6002954", "methodPointerIndex": 10579, "va": "0x18054f720", "rva": "0x54f720", "endRva": "0x54f7d3", "returnTypeIndex": 33376, "parameters": []}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x54f720..0x54f7e0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018054F720: 40 53              push        rbx
+  000000018054F722: 48 83 EC 20        sub         rsp,20h
+  000000018054F726: 80 3D 8E C7 E1 03  cmp         byte ptr [000000018436BEBBh],0
+                    00
+  000000018054F72D: 48 8B D9           mov         rbx,rcx
+  000000018054F730: 75 1F              jne         000000018054F751
+  000000018054F732: 48 8D 0D 5F 34 C8  lea         rcx,[00000001841D2B98h]
+                    03
+  000000018054F739: E8 42 D8 E0 FF     call        000000018035CF80
+  000000018054F73E: 48 8D 0D F3 76 C5  lea         rcx,[00000001841A6E38h]
+                    03
+  000000018054F745: E8 36 D8 E0 FF     call        000000018035CF80
+  000000018054F74A: C6 05 6A C7 E1 03  mov         byte ptr [000000018436BEBBh],1
+                    01
+  000000018054F751: 48 8B 8B F0 00 00  mov         rcx,qword ptr [rbx+00000000000000F0h]
+                    00
+  000000018054F758: 48 85 C9           test        rcx,rcx
+  000000018054F75B: 74 70              je          000000018054F7CD
+  000000018054F75D: 33 D2              xor         edx,edx
+  000000018054F75F: E8 DC 57 00 00     call        0000000180554F40 ; NightScene.UI.WorkSceneTrayPannel::UpdateTrayVisual [MI 10445, RVA 0x554f40]
+  000000018054F764: 48 8B 0D CD 76 C5  mov         rcx,qword ptr [00000001841A6E38h]
+                    03
+  000000018054F76B: E8 B0 57 CF 00     call        0000000181244F20
+  000000018054F770: 48 85 C0           test        rax,rax
+  000000018054F773: 74 58              je          000000018054F7CD
+  000000018054F775: 33 D2              xor         edx,edx
+  000000018054F777: 48 8B C8           mov         rcx,rax
+  000000018054F77A: E8 31 6E 0B 00     call        00000001806065B0 ; GameData.RunTime.NightSceneUtility.IzakayaTray::get_IsTrayEmpty [MI 12304, RVA 0x6065b0]
+  000000018054F77F: 84 C0              test        al,al
+  000000018054F781: 74 44              je          000000018054F7C7
+  000000018054F783: 33 D2              xor         edx,edx
+  000000018054F785: 48 8B CB           mov         rcx,rbx
+  000000018054F788: E8 53 76 4A 00     call        00000001809F6DE0
+  000000018054F78D: 48 8B 0D 04 34 C8  mov         rcx,qword ptr [00000001841D2B98h]
+                    03
+  000000018054F794: E8 B7 C7 BB 00     call        000000018110BF50
+  000000018054F799: 48 85 C0           test        rax,rax
+  000000018054F79C: 74 2F              je          000000018054F7CD
+  000000018054F79E: 80 B8 E9 00 00 00  cmp         byte ptr [rax+00000000000000E9h],0
+                    00
+  000000018054F7A5: 74 20              je          000000018054F7C7
+  000000018054F7A7: 48 8B 0D EA 33 C8  mov         rcx,qword ptr [00000001841D2B98h]
+                    03
+  000000018054F7AE: E8 9D C7 BB 00     call        000000018110BF50
+  000000018054F7B3: 48 85 C0           test        rax,rax
+  000000018054F7B6: 74 15              je          000000018054F7CD
+  000000018054F7B8: 33 D2              xor         edx,edx
+  000000018054F7BA: 48 8B C8           mov         rcx,rax
+  000000018054F7BD: 48 83 C4 20        add         rsp,20h
+  000000018054F7C1: 5B                 pop         rbx
+  000000018054F7C2: E9 E9 D9 F5 FF     jmp         00000001804AD1B0 ; NightScene.NightSceneDirector::OnCanGotoNextPhase [MI 7788, RVA 0x4ad1b0]
+  000000018054F7C7: 48 83 C4 20        add         rsp,20h
+  000000018054F7CB: 5B                 pop         rbx
+  000000018054F7CC: C3                 ret
+  000000018054F7CD: E8 4E D9 E0 FF     call        000000018035D120
+  000000018054F7D2: CC                 int         3
+  000000018054F7D3: CC                 int         3
+  000000018054F7D4: CC                 int         3
+  000000018054F7D5: CC                 int         3
+  000000018054F7D6: CC                 int         3
+  000000018054F7D7: CC                 int         3
+  000000018054F7D8: CC                 int         3
+  000000018054F7D9: CC                 int         3
+  000000018054F7DA: CC                 int         3
+  000000018054F7DB: CC                 int         3
+  000000018054F7DC: CC                 int         3
+  000000018054F7DD: CC                 int         3
+  000000018054F7DE: CC                 int         3
+  000000018054F7DF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

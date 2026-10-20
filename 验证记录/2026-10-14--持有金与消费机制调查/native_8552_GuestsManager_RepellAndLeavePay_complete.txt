@@ -1,0 +1,100 @@
+# NightScene.GuestManagementUtility.GuestsManager::RepellAndLeavePay
+# {"declaringType": "NightScene.GuestManagementUtility.GuestsManager", "typeIndex": 1495, "image": "Assembly-CSharp.dll", "name": "RepellAndLeavePay", "metadataMethodIndex": 8552, "token": "0x6002169", "methodPointerIndex": 8552, "va": "0x1804d5210", "rva": "0x4d5210", "endRva": "0x4d5328", "returnTypeIndex": 33376, "parameters": [{"index": 6228, "name": "toRepell", "typeIndex": 24624}, {"index": 6229, "name": "leaveType", "typeIndex": 38125}, {"index": 6230, "name": "triggerBuff", "typeIndex": 20624}]}
+# range end RVA 0x4d5330; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804D5210: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001804D5215: 55                 push        rbp
+  00000001804D5216: 56                 push        rsi
+  00000001804D5217: 57                 push        rdi
+  00000001804D5218: 48 83 EC 50        sub         rsp,50h
+  00000001804D521C: 80 3D 38 69 E9 03  cmp         byte ptr [000000018436BB5Bh],0
+                    00
+  00000001804D5223: 41 0F B6 F1        movzx       esi,r9b
+  00000001804D5227: 41 8B E8           mov         ebp,r8d
+  00000001804D522A: 48 8B DA           mov         rbx,rdx
+  00000001804D522D: 48 8B F9           mov         rdi,rcx
+  00000001804D5230: 75 13              jne         00000001804D5245
+  00000001804D5232: 48 8D 0D 5F C5 CF  lea         rcx,[00000001841D1798h]
+                    03
+  00000001804D5239: E8 42 7D E8 FF     call        000000018035CF80
+  00000001804D523E: C6 05 16 69 E9 03  mov         byte ptr [000000018436BB5Bh],1
+                    01
+  00000001804D5245: 48 C7 44 24 28 00  mov         qword ptr [rsp+28h],0
+                    00 00 00
+  00000001804D524E: 4C 8D 84 24 88 00  lea         r8,[rsp+0000000000000088h]
+                    00 00
+  00000001804D5256: 44 8B CD           mov         r9d,ebp
+  00000001804D5259: 40 88 74 24 20     mov         byte ptr [rsp+20h],sil
+  00000001804D525E: 48 8B D3           mov         rdx,rbx
+  00000001804D5261: C6 84 24 88 00 00  mov         byte ptr [rsp+0000000000000088h],0
+                    00 00
+  00000001804D5269: 48 8B CF           mov         rcx,rdi
+  00000001804D526C: C7 44 24 44 00 00  mov         dword ptr [rsp+44h],0
+                    00 00
+  00000001804D5274: C7 44 24 40 00 00  mov         dword ptr [rsp+40h],0
+                    00 00
+  00000001804D527C: C7 44 24 78 00 00  mov         dword ptr [rsp+78h],0
+                    00 00
+  00000001804D5284: C7 84 24 80 00 00  mov         dword ptr [rsp+0000000000000080h],0
+                    00 00 00 00 00
+  00000001804D528F: E8 9C 00 00 00     call        00000001804D5330 ; NightScene.GuestManagementUtility.GuestsManager::RepellInternal [MI 8556, RVA 0x4d5330]
+  00000001804D5294: 80 BC 24 88 00 00  cmp         byte ptr [rsp+0000000000000088h],0
+                    00 00
+  00000001804D529C: 74 77              je          00000001804D5315
+  00000001804D529E: 48 85 DB           test        rbx,rbx
+  00000001804D52A1: 74 7F              je          00000001804D5322
+  00000001804D52A3: 48 C7 44 24 38 00  mov         qword ptr [rsp+38h],0
+                    00 00 00
+  00000001804D52AC: 48 8D 84 24 80 00  lea         rax,[rsp+0000000000000080h]
+                    00 00
+  00000001804D52B4: 48 89 44 24 30     mov         qword ptr [rsp+30h],rax
+  00000001804D52B9: 4C 8D 4C 24 44     lea         r9,[rsp+44h]
+  00000001804D52BE: 48 8D 44 24 78     lea         rax,[rsp+78h]
+  00000001804D52C3: 0F 57 D2           xorps       xmm2,xmm2
+  00000001804D52C6: 48 89 44 24 28     mov         qword ptr [rsp+28h],rax
+  00000001804D52CB: 33 D2              xor         edx,edx
+  00000001804D52CD: 48 8D 44 24 40     lea         rax,[rsp+40h]
+  00000001804D52D2: 48 8B CB           mov         rcx,rbx
+  00000001804D52D5: 48 89 44 24 20     mov         qword ptr [rsp+20h],rax
+  00000001804D52DA: E8 F1 0B FF FF     call        00000001804C5ED0 ; NightScene.GuestManagementUtility.GuestGroupController::GetPayment [MI 8316, RVA 0x4c5ed0]
+  00000001804D52DF: 48 8B 0D B2 C4 CF  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  00000001804D52E6: 8B D8              mov         ebx,eax
+  00000001804D52E8: E8 63 6C C3 00     call        000000018110BF50
+  00000001804D52ED: 48 85 C0           test        rax,rax
+  00000001804D52F0: 74 30              je          00000001804D5322
+  00000001804D52F2: 66 0F 6E CB        movd        xmm1,ebx
+  00000001804D52F6: 45 33 C9           xor         r9d,r9d
+  00000001804D52F9: 0F 5B C9           cvtdq2ps    xmm1,xmm1
+  00000001804D52FC: 45 33 C0           xor         r8d,r8d
+  00000001804D52FF: 48 8B C8           mov         rcx,rax
+  00000001804D5302: E8 29 8D 01 00     call        00000001804EE030 ; NightScene.EventUtility.EventManager::FundEdit [MI 9228, RVA 0x4ee030]
+  00000001804D5307: 85 DB              test        ebx,ebx
+  00000001804D5309: 74 0A              je          00000001804D5315
+  00000001804D530B: 33 D2              xor         edx,edx
+  00000001804D530D: 48 8B CF           mov         rcx,rdi
+  00000001804D5310: E8 7B ED FF FF     call        00000001804D4090 ; NightScene.GuestManagementUtility.GuestsManager::PlayPayAudio [MI 8548, RVA 0x4d4090]
+  00000001804D5315: 48 8B 5C 24 70     mov         rbx,qword ptr [rsp+70h]
+  00000001804D531A: 48 83 C4 50        add         rsp,50h
+  00000001804D531E: 5F                 pop         rdi
+  00000001804D531F: 5E                 pop         rsi
+  00000001804D5320: 5D                 pop         rbp
+  00000001804D5321: C3                 ret
+  00000001804D5322: E8 F9 7D E8 FF     call        000000018035D120
+  00000001804D5327: CC                 int         3
+  00000001804D5328: CC                 int         3
+  00000001804D5329: CC                 int         3
+  00000001804D532A: CC                 int         3
+  00000001804D532B: CC                 int         3
+  00000001804D532C: CC                 int         3
+  00000001804D532D: CC                 int         3
+  00000001804D532E: CC                 int         3
+  00000001804D532F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

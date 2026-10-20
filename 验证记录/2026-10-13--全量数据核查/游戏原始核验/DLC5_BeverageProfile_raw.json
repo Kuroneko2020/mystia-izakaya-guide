@@ -1,0 +1,92 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+  "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+  "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+  "path_id": 7379892454747194059,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 9175463749489793132
+    },
+    "m_Name": "DLC5_BeverageProfile",
+    "sellables": [
+      {
+        "id": 5000,
+        "level": 3,
+        "baseValue": 80,
+        "tags": [
+          0,
+          16,
+          14,
+          17
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      {
+        "id": 5001,
+        "level": 4,
+        "baseValue": 210,
+        "tags": [
+          19,
+          2,
+          4,
+          8
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      {
+        "id": 5002,
+        "level": 4,
+        "baseValue": 300,
+        "tags": [
+          16,
+          18,
+          7,
+          0
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      {
+        "id": 5003,
+        "level": 3,
+        "baseValue": 42,
+        "tags": [
+          1,
+          18,
+          12,
+          10
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      {
+        "id": 5004,
+        "level": 3,
+        "baseValue": 96,
+        "tags": [
+          18,
+          19,
+          -1,
+          15
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      }
+    ],
+    "tagProfileName": "BeverageTagProfile",
+    "langFileName": "DLC5_BeveragesLang"
+  }
+}

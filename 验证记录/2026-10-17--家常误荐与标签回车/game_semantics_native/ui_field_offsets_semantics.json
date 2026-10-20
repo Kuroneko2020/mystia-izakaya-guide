@@ -1,0 +1,968 @@
+{
+  "metadataSHA256": "995d1a08cac7a784d397927cf73ae71a8ce47cc8637cc4dd7ea534a3368b31e7",
+  "assemblySHA256": "91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789",
+  "registration": {
+    "fieldCountPos": "0x3c254c0",
+    "registrationRVA": "0x3c25470",
+    "fieldOffsetsVA": "0x184016000",
+    "typeSizesVA": "0x1840351b0",
+    "satoriOffsets": [
+      0,
+      24,
+      32,
+      36
+    ]
+  },
+  "types": [
+    {
+      "typeIndex": 1435,
+      "type": "NightScene.GuestManagementUtility.GuestGroupController",
+      "byvalTypeIndex": 24624,
+      "parentTypeIndex": 28405,
+      "offsetArrayVA": "0x182ebcd90",
+      "fields": [
+        {
+          "fieldIndex": 7532,
+          "name": "GUEST_MOOD_MIN",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7533,
+          "name": "GUEST_MOOD_MAX",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7534,
+          "name": "NORMAL_GUEST_MAX_EVAL",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7535,
+          "name": "SPECIAL_GUEST_MAX_EVAL",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7536,
+          "name": "POPULAR_TAG",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7537,
+          "name": "EXTRA_FEE_WHEN_CONTAINS_POPULAR_TAG",
+          "typeIndex": 30670,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7538,
+          "name": "BAD_MOOD_FEE",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7539,
+          "name": "NORMAL_MOOD_FEE",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7540,
+          "name": "GOOD_MOOD_FEE",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7541,
+          "name": "EXGOOD_MOOD_FEE",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7542,
+          "name": "currentQueuedChatacters",
+          "typeIndex": 12986,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7543,
+          "name": "CurrentOrderPropertySource",
+          "typeIndex": 38203,
+          "offset": 16,
+          "offsetHex": "0x10"
+        },
+        {
+          "fieldIndex": 7544,
+          "name": "ExtraOrderStaticSource",
+          "typeIndex": 14617,
+          "offset": 24,
+          "offsetHex": "0x18"
+        },
+        {
+          "fieldIndex": 7545,
+          "name": "ExtraOrderVariableSource",
+          "typeIndex": 14617,
+          "offset": 32,
+          "offsetHex": "0x20"
+        },
+        {
+          "fieldIndex": 7546,
+          "name": "freeOrderCount",
+          "typeIndex": 26155,
+          "offset": 40,
+          "offsetHex": "0x28"
+        },
+        {
+          "fieldIndex": 7547,
+          "name": "guestInstances",
+          "typeIndex": 18163,
+          "offset": 48,
+          "offsetHex": "0x30"
+        },
+        {
+          "fieldIndex": 7548,
+          "name": "haveLeft",
+          "typeIndex": 20605,
+          "offset": 56,
+          "offsetHex": "0x38"
+        },
+        {
+          "fieldIndex": 7549,
+          "name": "leaveType",
+          "typeIndex": 38123,
+          "offset": 60,
+          "offsetHex": "0x3c"
+        },
+        {
+          "fieldIndex": 7550,
+          "name": "mood",
+          "typeIndex": 26153,
+          "offset": 64,
+          "offsetHex": "0x40"
+        },
+        {
+          "fieldIndex": 7551,
+          "name": "OverrideLikeFoodTagsCallback",
+          "typeIndex": 38132,
+          "offset": 72,
+          "offsetHex": "0x48"
+        },
+        {
+          "fieldIndex": 7552,
+          "name": "queued",
+          "typeIndex": 20605,
+          "offset": 80,
+          "offsetHex": "0x50"
+        },
+        {
+          "fieldIndex": 7553,
+          "name": "remainOrderCount",
+          "typeIndex": 26155,
+          "offset": 84,
+          "offsetHex": "0x54"
+        },
+        {
+          "fieldIndex": 7554,
+          "name": "spawnedFromPTA",
+          "typeIndex": 13974,
+          "offset": 88,
+          "offsetHex": "0x58"
+        },
+        {
+          "fieldIndex": 7555,
+          "name": "tileManager",
+          "typeIndex": 32123,
+          "offset": 96,
+          "offsetHex": "0x60"
+        },
+        {
+          "fieldIndex": 7556,
+          "name": "<DoNotShowHerOrderOnUI>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 104,
+          "offsetHex": "0x68"
+        },
+        {
+          "fieldIndex": 7557,
+          "name": "<BaseFundCarry>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 108,
+          "offsetHex": "0x6c"
+        },
+        {
+          "fieldIndex": 7558,
+          "name": "<GetFund>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 112,
+          "offsetHex": "0x70"
+        },
+        {
+          "fieldIndex": 7559,
+          "name": "<MaxFundCarry>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 116,
+          "offsetHex": "0x74"
+        },
+        {
+          "fieldIndex": 7560,
+          "name": "<ExtraFundByBuff>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 120,
+          "offsetHex": "0x78"
+        },
+        {
+          "fieldIndex": 7561,
+          "name": "<EnduranceLimit>k__BackingField",
+          "typeIndex": 30655,
+          "offset": 124,
+          "offsetHex": "0x7c"
+        },
+        {
+          "fieldIndex": 7562,
+          "name": "<OverrideEvaluationCallback>k__BackingField",
+          "typeIndex": 38128,
+          "offset": 128,
+          "offsetHex": "0x80"
+        },
+        {
+          "fieldIndex": 7563,
+          "name": "<QueuedGuestControllers>k__BackingField",
+          "typeIndex": 13116,
+          "offset": 8,
+          "offsetHex": "0x8"
+        },
+        {
+          "fieldIndex": 7564,
+          "name": "<OrderingGuest>k__BackingField",
+          "typeIndex": 24619,
+          "offset": 136,
+          "offsetHex": "0x88"
+        },
+        {
+          "fieldIndex": 7565,
+          "name": "<AllOrdersData>k__BackingField",
+          "typeIndex": 15032,
+          "offset": 144,
+          "offsetHex": "0x90"
+        },
+        {
+          "fieldIndex": 7566,
+          "name": "<ControllType>k__BackingField",
+          "typeIndex": 38189,
+          "offset": 152,
+          "offsetHex": "0x98"
+        },
+        {
+          "fieldIndex": 7567,
+          "name": "<CurrentPatient>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 156,
+          "offsetHex": "0x9c"
+        },
+        {
+          "fieldIndex": 7568,
+          "name": "<MaxPatient>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 160,
+          "offsetHex": "0xa0"
+        },
+        {
+          "fieldIndex": 7569,
+          "name": "<OnMoveToSeatCallback>k__BackingField",
+          "typeIndex": 4989,
+          "offset": 168,
+          "offsetHex": "0xa8"
+        },
+        {
+          "fieldIndex": 7570,
+          "name": "<OnFundOrOrderChangeCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 176,
+          "offsetHex": "0xb0"
+        },
+        {
+          "fieldIndex": 7571,
+          "name": "<OnFinishEatingCallbackWithParam>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 184,
+          "offsetHex": "0xb8"
+        },
+        {
+          "fieldIndex": 7572,
+          "name": "<OnFinishOrderCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 192,
+          "offsetHex": "0xc0"
+        },
+        {
+          "fieldIndex": 7573,
+          "name": "<OnCompletelyLeaveCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 200,
+          "offsetHex": "0xc8"
+        },
+        {
+          "fieldIndex": 7574,
+          "name": "<OnLeaveCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 208,
+          "offsetHex": "0xd0"
+        },
+        {
+          "fieldIndex": 7575,
+          "name": "<OnLeaveDeskCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 216,
+          "offsetHex": "0xd8"
+        },
+        {
+          "fieldIndex": 7576,
+          "name": "<OnPatienceRunOutCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 224,
+          "offsetHex": "0xe0"
+        },
+        {
+          "fieldIndex": 7577,
+          "name": "<OnPatientDepeletedCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 232,
+          "offsetHex": "0xe8"
+        },
+        {
+          "fieldIndex": 7578,
+          "name": "<OnStopInQueueCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 240,
+          "offsetHex": "0xf0"
+        },
+        {
+          "fieldIndex": 7579,
+          "name": "<OnLeaveQueueCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 248,
+          "offsetHex": "0xf8"
+        },
+        {
+          "fieldIndex": 7580,
+          "name": "<OnSitCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 256,
+          "offsetHex": "0x100"
+        },
+        {
+          "fieldIndex": 7581,
+          "name": "<OnExtraFinishEvaluationCallback>k__BackingField",
+          "typeIndex": 4886,
+          "offset": 264,
+          "offsetHex": "0x108"
+        },
+        {
+          "fieldIndex": 7582,
+          "name": "<OnPatientUpdatedCallback>k__BackingField",
+          "typeIndex": 4673,
+          "offset": 272,
+          "offsetHex": "0x110"
+        },
+        {
+          "fieldIndex": 7583,
+          "name": "<OnEvalFinishCallback>k__BackingField",
+          "typeIndex": 5061,
+          "offset": 280,
+          "offsetHex": "0x118"
+        },
+        {
+          "fieldIndex": 7584,
+          "name": "<talkMessageOverrideCallback>k__BackingField",
+          "typeIndex": 8677,
+          "offset": 288,
+          "offsetHex": "0x120"
+        },
+        {
+          "fieldIndex": 7585,
+          "name": "<DeskCode>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 296,
+          "offsetHex": "0x128"
+        },
+        {
+          "fieldIndex": 7586,
+          "name": "<TotalPassionGivenAmount>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 300,
+          "offsetHex": "0x12c"
+        },
+        {
+          "fieldIndex": 7587,
+          "name": "<CanIdleDialog>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 304,
+          "offsetHex": "0x130"
+        },
+        {
+          "fieldIndex": 7588,
+          "name": "<HasEvaluated>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 305,
+          "offsetHex": "0x131"
+        },
+        {
+          "fieldIndex": 7589,
+          "name": "<ExtraOrderNumMax>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 308,
+          "offsetHex": "0x134"
+        },
+        {
+          "fieldIndex": 7590,
+          "name": "<IsFirst>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 312,
+          "offsetHex": "0x138"
+        },
+        {
+          "fieldIndex": 7591,
+          "name": "<OnMoodUpdateCallback>k__BackingField",
+          "typeIndex": 4753,
+          "offset": 320,
+          "offsetHex": "0x140"
+        },
+        {
+          "fieldIndex": 7592,
+          "name": "<OverrideOrderGenerationCallback>k__BackingField",
+          "typeIndex": 38134,
+          "offset": 328,
+          "offsetHex": "0x148"
+        },
+        {
+          "fieldIndex": 7593,
+          "name": "<ContinueOrderProbabilityCallback>k__BackingField",
+          "typeIndex": 38118,
+          "offset": 336,
+          "offsetHex": "0x150"
+        },
+        {
+          "fieldIndex": 7594,
+          "name": "<LikeFoodTags>k__BackingField",
+          "typeIndex": 18551,
+          "offset": 344,
+          "offsetHex": "0x158"
+        },
+        {
+          "fieldIndex": 7595,
+          "name": "<LikeBevTags>k__BackingField",
+          "typeIndex": 18551,
+          "offset": 352,
+          "offsetHex": "0x160"
+        },
+        {
+          "fieldIndex": 7596,
+          "name": "<HateFoodTags>k__BackingField",
+          "typeIndex": 18551,
+          "offset": 360,
+          "offsetHex": "0x168"
+        },
+        {
+          "fieldIndex": 7597,
+          "name": "<HateBevTags>k__BackingField",
+          "typeIndex": 18551,
+          "offset": 368,
+          "offsetHex": "0x170"
+        },
+        {
+          "fieldIndex": 7598,
+          "name": "<OverrideHateFoodTagsCallback>k__BackingField",
+          "typeIndex": 38130,
+          "offset": 376,
+          "offsetHex": "0x178"
+        },
+        {
+          "fieldIndex": 7599,
+          "name": "<IsOrdering>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 384,
+          "offsetHex": "0x180"
+        },
+        {
+          "fieldIndex": 7600,
+          "name": "<ContinueOrderWhenExbadEval>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 385,
+          "offsetHex": "0x181"
+        },
+        {
+          "fieldIndex": 7601,
+          "name": "<WillPayMoney>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 386,
+          "offsetHex": "0x182"
+        },
+        {
+          "fieldIndex": 7602,
+          "name": "<CanBeRepelled>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 387,
+          "offsetHex": "0x183"
+        },
+        {
+          "fieldIndex": 7603,
+          "name": "<ShouldHideFund>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 388,
+          "offsetHex": "0x184"
+        },
+        {
+          "fieldIndex": 7604,
+          "name": "OnSpecialGuestHateFoodTag",
+          "typeIndex": 4896,
+          "offset": 392,
+          "offsetHex": "0x188"
+        }
+      ]
+    },
+    {
+      "typeIndex": 2298,
+      "type": "GameData.Core.Collections.Sellable",
+      "byvalTypeIndex": 30383,
+      "parentTypeIndex": 32403,
+      "offsetArrayVA": "0x182eb10c8",
+      "fields": [
+        {
+          "fieldIndex": 12502,
+          "name": "isCollab",
+          "typeIndex": 20605,
+          "offset": 40,
+          "offsetHex": "0x28"
+        },
+        {
+          "fieldIndex": 12503,
+          "name": "banTags",
+          "typeIndex": 18551,
+          "offset": 48,
+          "offsetHex": "0x30"
+        },
+        {
+          "fieldIndex": 12504,
+          "name": "type",
+          "typeIndex": 41145,
+          "offset": 56,
+          "offsetHex": "0x38"
+        },
+        {
+          "fieldIndex": 12505,
+          "name": "additiveTags",
+          "typeIndex": 13169,
+          "offset": 64,
+          "offsetHex": "0x40"
+        },
+        {
+          "fieldIndex": 12506,
+          "name": "modifier",
+          "typeIndex": 18551,
+          "offset": 72,
+          "offsetHex": "0x48"
+        },
+        {
+          "fieldIndex": 12507,
+          "name": "<RunTimeGUID>k__BackingField",
+          "typeIndex": 14020,
+          "offset": 80,
+          "offsetHex": "0x50"
+        }
+      ]
+    },
+    {
+      "typeIndex": 2315,
+      "type": "GameData.Core.Collections.NightSceneUtility.SpecialGuest",
+      "byvalTypeIndex": 30844,
+      "parentTypeIndex": 24618,
+      "offsetArrayVA": "0x182eb1670",
+      "fields": [
+        {
+          "fieldIndex": 12565,
+          "name": "stringId",
+          "typeIndex": 31305,
+          "offset": 24,
+          "offsetHex": "0x18"
+        },
+        {
+          "fieldIndex": 12566,
+          "name": "fundRange",
+          "typeIndex": 33189,
+          "offset": 32,
+          "offsetHex": "0x20"
+        },
+        {
+          "fieldIndex": 12567,
+          "name": "enduranceLimit",
+          "typeIndex": 30655,
+          "offset": 40,
+          "offsetHex": "0x28"
+        },
+        {
+          "fieldIndex": 12568,
+          "name": "hateFoodTag",
+          "typeIndex": 18551,
+          "offset": 48,
+          "offsetHex": "0x30"
+        },
+        {
+          "fieldIndex": 12569,
+          "name": "likeFoodTag",
+          "typeIndex": 19303,
+          "offset": 56,
+          "offsetHex": "0x38"
+        },
+        {
+          "fieldIndex": 12570,
+          "name": "likeBevTag",
+          "typeIndex": 19303,
+          "offset": 64,
+          "offsetHex": "0x40"
+        },
+        {
+          "fieldIndex": 12571,
+          "name": "reaction",
+          "typeIndex": 41303,
+          "offset": 72,
+          "offsetHex": "0x48"
+        },
+        {
+          "fieldIndex": 12572,
+          "name": "destination",
+          "typeIndex": 39449,
+          "offset": 80,
+          "offsetHex": "0x50"
+        },
+        {
+          "fieldIndex": 12573,
+          "name": "commisionAreaLabel",
+          "typeIndex": 31305,
+          "offset": 120,
+          "offsetHex": "0x78"
+        },
+        {
+          "fieldIndex": 12574,
+          "name": "hideInAlbum",
+          "typeIndex": 20605,
+          "offset": 128,
+          "offsetHex": "0x80"
+        },
+        {
+          "fieldIndex": 12575,
+          "name": "isParticular",
+          "typeIndex": 20605,
+          "offset": 129,
+          "offsetHex": "0x81"
+        },
+        {
+          "fieldIndex": 12576,
+          "name": "isCollabCharacter",
+          "typeIndex": 20605,
+          "offset": 130,
+          "offsetHex": "0x82"
+        },
+        {
+          "fieldIndex": 12577,
+          "name": "hideInNX",
+          "typeIndex": 20605,
+          "offset": 131,
+          "offsetHex": "0x83"
+        },
+        {
+          "fieldIndex": 12578,
+          "name": "spawnType",
+          "typeIndex": 41306,
+          "offset": 132,
+          "offsetHex": "0x84"
+        },
+        {
+          "fieldIndex": 12579,
+          "name": "unifiedSpawnProb",
+          "typeIndex": 30655,
+          "offset": 136,
+          "offsetHex": "0x88"
+        },
+        {
+          "fieldIndex": 12580,
+          "name": "unifiedSpawnExclusion",
+          "typeIndex": 18851,
+          "offset": 144,
+          "offsetHex": "0x90"
+        },
+        {
+          "fieldIndex": 12581,
+          "name": "unifiedSpawnWhereAfterEventOrMission",
+          "typeIndex": 31305,
+          "offset": 152,
+          "offsetHex": "0x98"
+        },
+        {
+          "fieldIndex": 12582,
+          "name": "doNotShowInNightByDefault",
+          "typeIndex": 20605,
+          "offset": 160,
+          "offsetHex": "0xa0"
+        },
+        {
+          "fieldIndex": 12583,
+          "name": "doNotShowInChallenge",
+          "typeIndex": 20605,
+          "offset": 161,
+          "offsetHex": "0xa1"
+        },
+        {
+          "fieldIndex": 12584,
+          "name": "controllable",
+          "typeIndex": 20605,
+          "offset": 162,
+          "offsetHex": "0xa2"
+        },
+        {
+          "fieldIndex": 12585,
+          "name": "characterKizunaLevel1Welcome",
+          "typeIndex": 18377,
+          "offset": 168,
+          "offsetHex": "0xa8"
+        },
+        {
+          "fieldIndex": 12586,
+          "name": "characterKizunaLevel2Welcome",
+          "typeIndex": 18377,
+          "offset": 176,
+          "offsetHex": "0xb0"
+        },
+        {
+          "fieldIndex": 12587,
+          "name": "characterKizunaLevel3Welcome",
+          "typeIndex": 18377,
+          "offset": 184,
+          "offsetHex": "0xb8"
+        },
+        {
+          "fieldIndex": 12588,
+          "name": "characterKizunaLevel4Welcome",
+          "typeIndex": 18377,
+          "offset": 192,
+          "offsetHex": "0xc0"
+        },
+        {
+          "fieldIndex": 12589,
+          "name": "characterKizunaLevel5Welcome",
+          "typeIndex": 18377,
+          "offset": 200,
+          "offsetHex": "0xc8"
+        },
+        {
+          "fieldIndex": 12590,
+          "name": "characterKizunaLevel1ChatData",
+          "typeIndex": 18851,
+          "offset": 208,
+          "offsetHex": "0xd0"
+        },
+        {
+          "fieldIndex": 12591,
+          "name": "characterKizunaLevel2ChatData",
+          "typeIndex": 18851,
+          "offset": 216,
+          "offsetHex": "0xd8"
+        },
+        {
+          "fieldIndex": 12592,
+          "name": "characterKizunaLevel3ChatData",
+          "typeIndex": 18851,
+          "offset": 224,
+          "offsetHex": "0xe0"
+        },
+        {
+          "fieldIndex": 12593,
+          "name": "characterKizunaLevel4ChatData",
+          "typeIndex": 18851,
+          "offset": 232,
+          "offsetHex": "0xe8"
+        },
+        {
+          "fieldIndex": 12594,
+          "name": "characterKizunaLevel5ChatData",
+          "typeIndex": 18851,
+          "offset": 240,
+          "offsetHex": "0xf0"
+        },
+        {
+          "fieldIndex": 12595,
+          "name": "characterKizunaLevel2InviteSucceed",
+          "typeIndex": 18377,
+          "offset": 248,
+          "offsetHex": "0xf8"
+        },
+        {
+          "fieldIndex": 12596,
+          "name": "characterKizunaLevel2InviteFailed",
+          "typeIndex": 18377,
+          "offset": 256,
+          "offsetHex": "0x100"
+        },
+        {
+          "fieldIndex": 12597,
+          "name": "characterKizunaLevel3InviteSucceed",
+          "typeIndex": 18377,
+          "offset": 264,
+          "offsetHex": "0x108"
+        },
+        {
+          "fieldIndex": 12598,
+          "name": "characterKizunaLevel3InviteFailed",
+          "typeIndex": 18377,
+          "offset": 272,
+          "offsetHex": "0x110"
+        },
+        {
+          "fieldIndex": 12599,
+          "name": "characterKizunaLevel4InviteSucceed",
+          "typeIndex": 18377,
+          "offset": 280,
+          "offsetHex": "0x118"
+        },
+        {
+          "fieldIndex": 12600,
+          "name": "characterKizunaLevel4InviteFailed",
+          "typeIndex": 18377,
+          "offset": 288,
+          "offsetHex": "0x120"
+        },
+        {
+          "fieldIndex": 12601,
+          "name": "characterKizunaLevel5InviteSucceed",
+          "typeIndex": 18377,
+          "offset": 296,
+          "offsetHex": "0x128"
+        },
+        {
+          "fieldIndex": 12602,
+          "name": "characterKizunaLevel3RequestIngerdient",
+          "typeIndex": 18377,
+          "offset": 304,
+          "offsetHex": "0x130"
+        },
+        {
+          "fieldIndex": 12603,
+          "name": "characterKizunaLevel4RequestIngerdient",
+          "typeIndex": 18377,
+          "offset": 312,
+          "offsetHex": "0x138"
+        },
+        {
+          "fieldIndex": 12604,
+          "name": "characterKizunaLevel5RequestIngerdient",
+          "typeIndex": 18377,
+          "offset": 320,
+          "offsetHex": "0x140"
+        },
+        {
+          "fieldIndex": 12605,
+          "name": "characterKizunaLevel4RequestBeverage",
+          "typeIndex": 18377,
+          "offset": 328,
+          "offsetHex": "0x148"
+        },
+        {
+          "fieldIndex": 12606,
+          "name": "characterKizunaLevel5RequestBeverage",
+          "typeIndex": 18377,
+          "offset": 336,
+          "offsetHex": "0x150"
+        },
+        {
+          "fieldIndex": 12607,
+          "name": "characterKizunaLevel5Commision",
+          "typeIndex": 18377,
+          "offset": 344,
+          "offsetHex": "0x158"
+        },
+        {
+          "fieldIndex": 12608,
+          "name": "characterKizunaLevel5CommisionFinish",
+          "typeIndex": 18377,
+          "offset": 352,
+          "offsetHex": "0x160"
+        },
+        {
+          "fieldIndex": 12609,
+          "name": "m_SpecialGuestExtraDialogDataAsset",
+          "typeIndex": 5168,
+          "offset": 360,
+          "offsetHex": "0x168"
+        },
+        {
+          "fieldIndex": 12610,
+          "name": "guestFoodEasterEggData",
+          "typeIndex": 24623,
+          "offset": 368,
+          "offsetHex": "0x170"
+        }
+      ]
+    },
+    {
+      "typeIndex": 2364,
+      "type": "GameData.Core.Collections.NightSceneUtility.GuestFoodEasterEggData",
+      "byvalTypeIndex": 24622,
+      "parentTypeIndex": 30270,
+      "offsetArrayVA": "0x182eb2838",
+      "fields": [
+        {
+          "fieldIndex": 12848,
+          "name": "foodId",
+          "typeIndex": 26157,
+          "offset": 24,
+          "offsetHex": "0x18"
+        }
+      ]
+    },
+    {
+      "typeIndex": 2373,
+      "type": "GameData.Core.Collections.NightSceneUtility.MomiziFoodEasterEggData",
+      "byvalTypeIndex": 27566,
+      "parentTypeIndex": 24622,
+      "offsetArrayVA": "0x182eb2970",
+      "fields": [
+        {
+          "fieldIndex": 12863,
+          "name": "chocolateId",
+          "typeIndex": 26157,
+          "offset": 32,
+          "offsetHex": "0x20"
+        }
+      ]
+    },
+    {
+      "typeIndex": 2374,
+      "type": "GameData.Core.Collections.NightSceneUtility.NitoriFoodEasterEggData",
+      "byvalTypeIndex": 28123,
+      "parentTypeIndex": 24622,
+      "offsetArrayVA": "0x182eb298c",
+      "fields": [
+        {
+          "fieldIndex": 12864,
+          "name": "cucumberId",
+          "typeIndex": 26157,
+          "offset": 32,
+          "offsetHex": "0x20"
+        }
+      ]
+    }
+  ]
+}

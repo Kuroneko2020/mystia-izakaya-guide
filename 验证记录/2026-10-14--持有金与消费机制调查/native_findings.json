@@ -1,0 +1,141 @@
+{
+  "scope": "仅本机游戏native消费机制静态调查；未启动游戏，未改游戏/存档/配置，未构建站点，未改项目代码或文档。研究脚本和原生证据仅写入本文件所在授权目录。",
+  "evidenceLevel": "静态代码推导，不是运行实测",
+  "version": "RELEASE 4.4.0e",
+  "steamBuild": "23158340",
+  "assemblySha256": "91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789",
+  "metadataSha256": "995d1a08cac7a784d397927cf73ae71a8ce47cc8637cc4dd7ea534a3368b31e7",
+  "indexWarnings": [
+    "game_native_methods_v3.json / game_native_fields_v3.json 是优先索引：修正nested declaringType以byvalTypeIndex解析父类。",
+    "v2方法RVA/Method Index/参数正确，匿名nested类型名不带父类；v1参数/return解析错误，不用于参数签名引用。全部旧件保留，仅为本轮研究过程追溯。",
+    "最初按PE exception EndAddress截断的文件可能只有首funclet；核心结论引用_complete.txt完整到next distinct native method的版本。",
+    "早期反汇编header的匿名nested类型不含父类，以v3索引通过Method Index解析完整symbol；call注释共享地址可能列多个symbol，不能仅凭首个注释认定具体调用。",
+    "反汇编引用行号按物理LF一基计数；旧dumpbin文本经Windows换行转换含CR，Python splitlines可能多算空行。关键地址作为稳定复核锚点。"
+  ],
+  "guestControllerOffsets": {
+    "mood": "0x40",
+    "remainOrderCount": "0x54",
+    "BaseFundCarry": "0x6c",
+    "GetFund": "0x70",
+    "MaxFundCarry": "0x74",
+    "ExtraFundByBuff": "0x78",
+    "EnduranceLimit": "0x7c",
+    "AllOrdersData": "0x90",
+    "ControllType": "0x98",
+    "WillPayMoney": "0x182"
+  },
+  "orderBaseOffsets": {
+    "servBeverage": "0x28",
+    "servFood": "0x30",
+    "FreeOrder": "0x4d"
+  },
+  "observations": [
+    {
+      "finding": "资金不是范围上限直接赋值：调用GetFundRange，整数Random.Range(min,max+1)，基础随机值输出到baseFund，再乘max(0,1+ExtraGenerateFundMultiplier)并向下取整。",
+      "symbol": "GameData.Core.Collections.NightSceneUtility.GuestBase::GenerateFund",
+      "methodIndex": 14783,
+      "rva": "0x6825d0",
+      "file": "native_14783_GuestBase_GenerateFund_complete.txt",
+      "lines": "22-35,46-73",
+      "anchor": "0x18068261f inc edx; 0x180682621 Random.Range; 0x180682626 stores baseFund"
+    },
+    {
+      "finding": "稀客入场初始化在SpecialGuestsController构造而非本版名为Enter的方法；BaseFundCarry保存随机基础值，GetFund和MaxFundCarry保存经倍率生成的预算，ExtraFundByBuff清零。",
+      "symbol": "NightScene.GuestManagementUtility.SpecialGuestsController::.ctor",
+      "methodIndex": 8898,
+      "rva": "0x515de0",
+      "file": "native_8898_SpecialGuestsController_.ctor_complete.txt",
+      "lines": "155-164",
+      "anchor": "0x180516006 GenerateFund; 0x180516016-0x18051601f writes 6c/70/74/78"
+    },
+    {
+      "finding": "历史最后一单非free则GetFund连续减料理TrueValue及酒水TrueValue，不clamp到0，允许负余额；这是进入下一轮订单生成/离场判定时扣账，非按上菜即时扣款。",
+      "symbol": "NightScene.GuestManagementUtility.GuestsManager+<>c__DisplayClass174_0::<GenerateOrderSession>g__GenerateOrderInternal|1",
+      "methodIndex": 8777,
+      "rva": "0x520a50",
+      "file": "native_8777___c__DisplayClass174_0__GenerateOrderSession_g__GenerateOrderInternal_1_complete.txt",
+      "lines": "65-83,109-129",
+      "anchor": "0x180520b3e read GetFund; 0x180520b5f/0x180520b61 two subs; 0x180520b63 stores GetFund"
+    },
+    {
+      "finding": "预算超支判定按历史全部非free订单的料理+酒水实际计费价合计，比较MaxFundCarry+ExtraFundByBuff，不按最后单价比较资料范围上限。",
+      "symbol": "NightScene.GuestManagementUtility.GuestsManager+<>c__DisplayClass174_0::<GenerateOrderSession>g__CheckRemainingFund|0",
+      "methodIndex": 8776,
+      "rva": "0x520510",
+      "file": "native_8776___c__DisplayClass174_0__GenerateOrderSession_g__CheckRemainingFund_0_complete.txt",
+      "lines": "74-76,127-136,189-250,254-257,288-369",
+      "filterEvidence": "native_8652___c__GenerateOrderSession_b__174_4_complete.txt:12-13 (MI8652 RVA0x51d9b0 returns !FreeOrder); native_8653___c__GenerateOrderSession_b__174_5_complete.txt:19-28 (MI8653 RVA0x51d9d0 returns food.TrueValue+bev.TrueValue)",
+      "anchor": "0x18052089b B=ExtraFundByBuff+MaxFundCarry; 0x1805208a1 cmp total,B; 0x180520a35 compares total with B*effectiveEndurance"
+    },
+    {
+      "finding": "超预算后有独立离场评价：未超容忍返回2，稀客绿色缺钱反馈并含小费结账离场；超过角色/心情容忍返回3，黑色缺钱反馈、惩罚符卡后不含小费付款离场。黑色预算反馈本身不走常规Eval的LoseAllCombo。",
+      "symbol": "NightScene.GuestManagementUtility.GuestsManager::GenerateOrderSession",
+      "methodIndex": 8524,
+      "rva": "0x4cffc0",
+      "file": "native_8524_GuestsManager_GenerateOrderSession_complete.txt",
+      "lines": "163-174,209-258,300-336,361-373",
+      "negativeEvidence": "native_8783___GenerateOrderSession_g__OnDelay_3_d_MoveNext_complete.txt:91-95 (MI8783 RVA0x51b560 invokes TriggerNegativeBuff); native_8780___c__DisplayClass174_0__GenerateOrderSession_b__7_complete.txt:22-27 (MI8780 RVA0x5204c0 passes includeTip=false to PayAndLeave)",
+      "anchor": "0x1804d04c7 GuestPay(includeTip=true) for tolerant branch; severe callback 0x1805204ed zeroes r8d before PayAndLeave"
+    },
+    {
+      "finding": "最终累计账单餐费封顶，普通无free/bonus情形为min(累计料理酒水实际计费价,MaxFundCarry+ExtraFundByBuff)。小费作为out参数独立计算，由GuestPay另调TipEdit，不受该餐费封顶自动限制。",
+      "symbol": "NightScene.GuestManagementUtility.GuestGroupController::GetPayment",
+      "methodIndex": 8316,
+      "rva": "0x4c5ed0",
+      "file": "native_8316_GuestGroupController_GetPayment_complete.txt",
+      "lines": "171-183,464-471,623-632,697-735",
+      "paymentEvidence": "native_8547_GuestsManager_GuestPay_complete.txt:183-184,211-216,359-377; MI8547 RVA0x4d1300",
+      "anchor": "0x1804c657a OrderBase.Price; 0x1804c680b cmovg caps principal; 0x1804d1616 FundEdit principal; 0x1804d1867 TipEdit separate"
+    },
+    {
+      "finding": "预算读TrueValue，不是永远等于页面目录value；TrueValue=基础value乘RunTimeScheduler.RefObjectPriceModifier(ProductKey(type,id))后取整，存在折扣/运行时修正。",
+      "symbol": "GameData.Core.TradableObjectBase::get_TrueValue",
+      "methodIndex": 14127,
+      "rva": "0x6723b0",
+      "file": "native_14127_TradableObjectBase_get_TrueValue_complete.txt",
+      "lines": "24,31-58,71-112",
+      "anchor": "0x1806723e5 reads value+0x1c; 0x18067244c RefObjectPriceModifier; 0x180672462 multiplies; 0x180672525 returns rounded int"
+    },
+    {
+      "finding": "稀客续单还受低余额门槛：非free情况下GetFund <= round(MaxFundCarry*0.1)时PostGenerateOrder返回null，不是每单恢复整份预算。即使未严格用完，也可停止点单。",
+      "symbol": "NightScene.GuestManagementUtility.SpecialGuestsController::PostGenerateOrder",
+      "methodIndex": 8924,
+      "rva": "0x5151b0",
+      "file": "native_8924_SpecialGuestsController_PostGenerateOrder_complete.txt",
+      "lines": "108-109,163-171",
+      "anchor": "0x1805153ef MaxFundCarry; 0x1805153f6 GetFund; 0x1805153fc multiplies constant at RVA0x2eabc6c=0.1; 0x18051540b jle 0x1805155ce"
+    }
+  ],
+  "enduranceFormula": {
+    "B": "MaxFundCarry+ExtraFundByBuff",
+    "S": "sum(food.TrueValue+beverage.TrueValue) over all !FreeOrder history",
+    "factor": "mood<=50 ? 1 : 1+log(51/(101-min(mood,100)),25)",
+    "condition": "S<=B => 保留原订单生成结果; B<S<=B*EnduranceLimit*factor => return2; S>B*EnduranceLimit*factor => return3",
+    "constantsFromDll": {"RVA0x2eabc80_f32":1,"RVA0x2eaca08_f32":51,"RVA0x2eac9f8_f64":25,"RVA0x2eabc6c_f32":0.10000000149011612},
+    "precision": "native使用float32及strict >比较；此文本公式仅表达静态逻辑，不保证临界值用Python double完全等同"
+  },
+  "reimu": {
+    "source": "../2026-10-13--全量数据核查/游戏原始核验/SpecialGuestProfile_raw.json",
+    "id": 7,
+    "fundRange": [150,300],
+    "enduranceLimit": 1.100000023841858,
+    "assumedActual200Single300": "若300为实际计费价、此前未消费且无额外资金，允许服务后余额=200-300-beverage.TrueValue，总餐费收入封顶200；绿色还是黑色缺钱离场取决累计总价、当时心情及角色容忍。非单价不能选。",
+    "fourteenNight440": "基准无buff时440超过灵梦150..300实际预算；加料理后更高。允许服务/评价不等于可足额收款，亦不保证无惩罚。",
+    "rewardBoundary": "本轮只证OnPositiveBuffExecute MI16256创建状态机、MI16271注册CountedBuff14；未证其修改客人预算、餐费或扣玩家资金。MI16262名称Deduct不能单凭命名判断扣钱。"
+  },
+  "specialModes": {
+    "budgetModifiers": "GenerateFund事件倍率、ExtraFundByBuff、FreeOrder扩展支付额度及其他bonus为已见例外，基础范围不是全模式绝对上限。",
+    "specialGuestRangeOverride": "SpecialGuest.GetFundRange MI14727 RVA0x68ac60检测静态布尔后返回(999999,999999)；该flag具体模式归属未独立追清，不擅称所有挑战。",
+    "invited": "SpawnInvitedGuestGroup MI8508在native_8508_GuestsManager_SpawnInvitedGuestGroup_complete.txt行96调用SpawnSpecialGuestGroup，复用稀客生成，但邀请buff所有影响未穷举。",
+    "ordinaryAutoBudgetFilter": "NormalGuestsController.PostGenerateOrder首段是编译器封装，未追完自动菜单价格filter；不能引用方法名或‘买不起酒水’literal作已经完整证明。"
+  },
+  "unconfirmed": [
+    "所有结论均未运行游戏验证；UI专由协调者另代理调查，不在本native支线冒称UI实测。",
+    "未穷举每种特殊挑战/邀请脚本/特殊客人覆盖回调；已有预算override/free/bonus/WillPayMoney分支证明日常结论不可无条件套所有模式。",
+    "未追全部priceModifier来源，不对所有折扣、符卡后的账单重算作普遍结论。",
+    "不能根据本轮灵梦奖励状态机断言奖励符卡减少付款或扣玩家钱。",
+    "初始UI是否显示和觉之眼/RewindMode展示、手动selector禁用条件由UI独立证据线补齐。"
+  ],
+  "privacy": "仅build与本题来源字段留档，不保留完整Steam manifest/账号标识；metadata中m_SteamId/userID是游戏字段名称而非用户值。",
+  "projectState": "任务开始已有未提交修改；本支线不修改这些项目文件、不提交、不推送；只新增授权目录native_/game_证据。"
+}

@@ -1,0 +1,62 @@
+# GameData.Core.Collections.NightSceneUtility.SpecialGuest::GetFundRange
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest", "typeIndex": 2315, "image": "Assembly-CSharp.dll", "name": "GetFundRange", "metadataMethodIndex": 14727, "token": "0x6003988", "methodPointerIndex": 14727, "va": "0x18068ac60", "rva": "0x68ac60", "endRva": "0x68ad07", "returnTypeIndex": 33188, "parameters": []}
+# range end RVA 0x68ad07; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018068AC60: 40 53              push        rbx
+  000000018068AC62: 48 83 EC 20        sub         rsp,20h
+  000000018068AC66: 80 3D C7 1D CE 03  cmp         byte ptr [000000018436CA34h],0
+                    00
+  000000018068AC6D: 48 8B D9           mov         rbx,rcx
+  000000018068AC70: 75 13              jne         000000018068AC85
+  000000018068AC72: 48 8D 0D 5F D0 B0  lea         rcx,[0000000184197CD8h]
+                    03
+  000000018068AC79: E8 02 23 CD FF     call        000000018035CF80
+  000000018068AC7E: C6 05 AF 1D CE 03  mov         byte ptr [000000018436CA34h],1
+                    01
+  000000018068AC85: 48 8B 0D 4C D0 B0  mov         rcx,qword ptr [0000000184197CD8h]
+                    03
+  000000018068AC8C: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  000000018068AC93: 75 05              jne         000000018068AC9A
+  000000018068AC95: E8 16 26 C7 FF     call        00000001802FD2B0
+  000000018068AC9A: 80 3D 71 1A CE 03  cmp         byte ptr [000000018436C712h],0
+                    00
+  000000018068ACA1: 75 13              jne         000000018068ACB6
+  000000018068ACA3: 48 8D 0D 2E D0 B0  lea         rcx,[0000000184197CD8h]
+                    03
+  000000018068ACAA: E8 D1 22 CD FF     call        000000018035CF80
+  000000018068ACAF: C6 05 5C 1A CE 03  mov         byte ptr [000000018436C712h],1
+                    01
+  000000018068ACB6: 48 8B 0D 1B D0 B0  mov         rcx,qword ptr [0000000184197CD8h]
+                    03
+  000000018068ACBD: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  000000018068ACC4: 75 05              jne         000000018068ACCB
+  000000018068ACC6: E8 E5 25 C7 FF     call        00000001802FD2B0
+  000000018068ACCB: 48 8B 05 06 D0 B0  mov         rax,qword ptr [0000000184197CD8h]
+                    03
+  000000018068ACD2: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  000000018068ACD9: 80 B9 00 01 00 00  cmp         byte ptr [rcx+0000000000000100h],0
+                    00
+  000000018068ACE0: 75 0A              jne         000000018068ACEC
+  000000018068ACE2: 48 8B 43 20        mov         rax,qword ptr [rbx+20h]
+  000000018068ACE6: 48 83 C4 20        add         rsp,20h
+  000000018068ACEA: 5B                 pop         rbx
+  000000018068ACEB: C3                 ret
+  000000018068ACEC: C7 44 24 40 3F 42  mov         dword ptr [rsp+40h],0F423Fh
+                    0F 00
+  000000018068ACF4: C7 44 24 44 3F 42  mov         dword ptr [rsp+44h],0F423Fh
+                    0F 00
+  000000018068ACFC: 48 8B 44 24 40     mov         rax,qword ptr [rsp+40h]
+  000000018068AD01: 48 83 C4 20        add         rsp,20h
+  000000018068AD05: 5B                 pop         rbx
+  000000018068AD06: C3                 ret
+
+  Summary
+
+     2ACC000 il2cpp

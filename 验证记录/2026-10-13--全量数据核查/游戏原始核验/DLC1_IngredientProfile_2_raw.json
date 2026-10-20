@@ -1,0 +1,119 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+  "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+  "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+  "path_id": -7556507206743873260,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": -6045244362953254024
+    },
+    "m_Name": "DLC1_IngredientProfile_2",
+    "ingredients": [
+      {
+        "id": 1000,
+        "level": 1,
+        "baseValue": 7,
+        "tags": [
+          3,
+          2,
+          7
+        ],
+        "prefix": 3
+      },
+      {
+        "id": 1001,
+        "level": 2,
+        "baseValue": 12,
+        "tags": [
+          1,
+          16,
+          11
+        ],
+        "prefix": 3
+      },
+      {
+        "id": 1002,
+        "level": 3,
+        "baseValue": 18,
+        "tags": [
+          1,
+          4,
+          5,
+          16,
+          11
+        ],
+        "prefix": 3
+      },
+      {
+        "id": 1003,
+        "level": 1,
+        "baseValue": 3,
+        "tags": [
+          15
+        ],
+        "prefix": 3
+      },
+      {
+        "id": 1004,
+        "level": 1,
+        "baseValue": 9,
+        "tags": [
+          3,
+          17,
+          13
+        ],
+        "prefix": 3
+      },
+      {
+        "id": 1005,
+        "level": 3,
+        "baseValue": 10,
+        "tags": [
+          1,
+          4,
+          16
+        ],
+        "prefix": 3
+      }
+    ],
+    "prefixes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      13,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+}

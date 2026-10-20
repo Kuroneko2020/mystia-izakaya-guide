@@ -1,0 +1,104 @@
+{
+  "scope": "2026-10-14 原生UI独立只读调查；Steam build23158340 / RELEASE 4.4.0e；不调查预算随机、支付、评价或离场领域实现",
+  "operations": {
+    "rulesRead": ["AGENTS.md（工作区根）", "东方夜雀食堂/README.md", "东方夜雀食堂/攻略表/AGENTS.md", "东方夜雀食堂/攻略表/README.md", "记录/2026-10-13--全量数据核查与加料排序.md"],
+    "sharedFilesReadOnly": ["game_native_methods_v2.json", "game_native_fields.json", "game_native_provenance.json", "native_probe.py", "../2026-10-13--全量数据核查/游戏原始核验/inspect_native_tags.py", "../2026-10-13--全量数据核查/游戏原始核验/game_chinese_language_texts.json"],
+    "tools": ["existing py -X utf8", "existing pefile", "D:/Programs/ProApps/Code/VS Studio/Communtiy/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/dumpbin.exe"],
+    "writes": "仅本目录新增 ui_ 前缀研究脚本/证据；不改任何原有共享文件、生产代码、成品、游戏、存档、配置；无提交/推送/安装/游戏启动",
+    "git": "开始检查项目Git，原有大量M/D/??状态，全部保留；本UI新增证据未提交"
+  },
+  "inputs": {
+    "assembly": "F:/Games/GamePlats/Steam/steamapps/common/Touhou Mystia Izakaya/GameAssembly.dll",
+    "assemblySHA256": "91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789",
+    "metadata": "F:/Games/GamePlats/Steam/steamapps/common/Touhou Mystia Izakaya/Touhou Mystia Izakaya_Data/il2cpp_data/Metadata/global-metadata.dat",
+    "metadataSHA256": "995d1a08cac7a784d397927cf73ae71a8ce47cc8637cc4dd7ea534a3368b31e7",
+    "imageBase": "0x180000000"
+  },
+  "findings": [
+    {
+      "topic": "图鉴资金栏",
+      "conclusion": "Common.UI.SpecialGuestDescriber.Describe 确定显示 Guest.GetFundRange 两端的范围，不是当晚GuestGroupController.GetFund",
+      "symbol": "Common.UI.SpecialGuestDescriber::Describe",
+      "methodIndex": 21897,
+      "rva": "0x851cd0",
+      "chain": ["native调用detail Il2CppClass虚槽0x1c8", "metadata SpecialGuest vtable slot9明确对应GetFundRange MI14727 RVA0x68ac60", "返回值保存到rsp+0x90，其中低32位和rsp+0x94分别格式化{0:c}", "拼接 '<color=#e98436> - </color>'", "写SpecialGuestDescriber.funds+0xb8 TMP.text"],
+      "specialCases": ["RunTimePlayerData.RewindMode（静态+0x100）时写∞ - ∞", "SpecialGuest+0x84==2分支显示??，该枚举语义本UI任务未进一步映射"],
+      "evidence": ["ui_native_21897_SpecialGuestDescriber_Describe_01.txt:430-545", "ui_usage_refs_03.json（虚槽/字符串编码解码）", "ui_field_offsets_01.json（funds+0xb8）", "ui_field_offsets_06.json（RewindMode静态+0x100）"],
+      "coverageLimit": "不以方法名或metadata字段单独证明逻辑；虚槽绑定+native读写链共同证明。图鉴范围不能替代实时钱包。"
+    },
+    {
+      "topic": "觉之眼实时钱包显示",
+      "conclusion": "存在非debug经营UI例外：觉之眼显示max(0,GuestGroupController.GetFund)，并在资金或订单变化后重刷。不是永远只能看到图鉴范围。",
+      "symbols": [
+        {"name": "DLC2_DecorationSatoriEye::DecorationBuffEnterNight", "methodIndex": 19487, "rva": "0x78d270"},
+        {"name": "DLC2_DecorationSatoriEye::SetNum", "methodIndex": 19488, "rva": "0x78d4f0"},
+        {"name": "<DecorationBuffEnterNight>g__OnGuestSpawn|0", "methodIndex": 19491, "rva": "0x7a5df0"},
+        {"name": "<DecorationBuffEnterNight>g__OnSit|4", "methodIndex": 19495, "rva": "0x7a60e0"},
+        {"name": "<DecorationBuffEnterNight>g__OrderSet|7", "methodIndex": 19498, "rva": "0x7a6910"},
+        {"name": "<SetNum>b__0", "methodIndex": 19507, "rva": "0x7a6b00"}
+      ],
+      "fieldOffsets": {"GuestGroupController.GetFund": "0x70", "GuestGroupController.OnSitCallback": "0x100", "GuestGroupController.OnFundOrOrderChangeCallback": "0xb0", "GuestGroupController.ShouldHideFund": "0x184", "GuestGroupController.ControllType": "0x98", "SetNum closure.remainingMoney": "0x18", "RunTimePlayerData.RewindMode static": "0x100"},
+      "chain": ["DecorationBuffEnterNight订阅GuestsManager.OnGuestSpawn", "OnGuestSpawn对guestGroup.OnSitCallback+0x100组合OnSit委托", "OnSit生成GuestBuffMark类型3并组合OrderSet委托到OnFundOrOrderChangeCallback+0xb0", "成功创建显示时立即SetNum", "SetNum在RVA0x78d580读guestGroup+0x70，负数钳制到0", "闭包<SetNum>b__0将remainingMoney.ToString写TMP.text"],
+      "displayConditions": ["ShouldHideFund==true优先显示???", "否则RewindMode==true且ControllType==1显示∞（ControllType数值1含义本UI任务不另做领域推导）", "否则显示max(0,GetFund)整数；负余额与0在本UI读数不可区分"],
+      "evidence": ["ui_native_19487_DLC2_DecorationSatoriEye_DecorationBuffEnterNight_01.txt:159-170", "ui_native_19491___c__DisplayClass4_0__DecorationBuffEnterNight_g__OnGuestSpawn_0_02.txt:54-90", "ui_native_19495___c__DisplayClass4_1__DecorationBuffEnterNight_g__OnSit_4_02.txt:146-196,240-251", "ui_native_19498___c__DisplayClass4_2__DecorationBuffEnterNight_g__OrderSet_7_02.txt", "ui_native_19488_DLC2_DecorationSatoriEye_SetNum_01.txt:45-53,67-81", "ui_native_19507___c__DisplayClass5_0__SetNum_b__0_02.txt:28-86", "ui_field_offsets_01.json", "ui_field_offsets_02.json", "ui_field_offsets_06.json", "ui_usage_refs_03.json（???/∞字符串以及RunTimePlayerData类型引用）"],
+      "coverageLimit": "本任务未运行游戏，也未验证UI在每个场景/prefab中的实际位置和解锁条件。默认无觉之眼的经营窗口已追链未绑定实时钱包，但未穷尽全部UI，不能用无命中升级为全局永不显示。"
+    },
+    {
+      "topic": "手动推荐/送餐选择门控",
+      "conclusion": "已追主干没有发现按当前持有金禁用菜/酒或计算菜酒总价的门控；正向确认前置限制为订单/送餐槽状态、物品类别及托盘内容。限定此已核UI链，不能证明所有上游列表均不做预算过滤。",
+      "symbols": [
+        {"name": "GuestsManager::ShowManualOrder", "methodIndex": 8520, "rva": "0x4d6100"},
+        {"name": "WorkSceneSustainedPannel::OpenServePanel", "methodIndex": 10393, "rva": "0x551c50", "note": "原生直接调用者已核实；此方法自身未另导出"},
+        {"name": "WorkSceneServePannel::OnPanelOpen", "methodIndex": 10567, "rva": "0x54e3f0"},
+        {"name": "<OnPanelOpen>g__OnTrayElementSubmited|2", "methodIndex": 10588, "rva": "0x54add0"},
+        {"name": "WorkSceneServePannel::Send", "methodIndex": 10575, "rva": "0x54f850"},
+        {"name": "WorkSceneServePannel::SetServedVisualOnUI", "methodIndex": 10573, "rva": "0x54fef0"},
+        {"name": "WorkSceneServePannel::RefreshPannel", "methodIndex": 10579, "rva": "0x54f720"},
+        {"name": "<OnPanelOpen>b__41_3", "methodIndex": 10613, "rva": "0x549b90"},
+        {"name": "<OnPanelOpen>b__41_5", "methodIndex": 10614, "rva": "0x549ba0"}
+      ],
+      "fieldOffsets": {"Sellable.type": "0x38", "OrderBase.Type": "0x38", "OrderBase.servBeverage": "0x28", "OrderBase.servFood": "0x30", "OrderBase.m_ServedBeverageInAir": "0x18", "OrderBase.m_ServedFoodInAir": "0x20", "WorkSceneServePannel.willServeBeverage": "0x100", "WorkSceneServePannel.willServeFood": "0x108"},
+      "chain": ["ShowManualOrder检查未完成订单/已送餐状态、餐桌事件限制后调用OpenServePanel（传isGuestManualControlled=true）", "OnTrayElementSubmited直接jmp Send，无金额比较", "Send按Sellable.type与对应serv/inAir槽有无分支；调用IzakayaTray.Deliver/Receive并写willServe引用", "SetServedVisualOnUI将button.interactable设为true，按canCancel绑定取消事件/颜色", "OnPanelOpen无该类已送餐对象时将served按钮interactable设为false；这里是缺少已送餐物品，不是缺钱", "b__41_3/5仅返回sellable!=null && sellable.type==0/1"],
+      "evidence": ["ui_native_8520_GuestsManager_ShowManualOrder_05.txt:94-172,212-282", "ui_native_10588___c__DisplayClass41_0__OnPanelOpen_g__OnTrayElementSubmited_2_05.txt:9-16", "ui_native_10575_WorkSceneServePannel_Send_01.txt:51-116,259-322", "ui_native_10573_WorkSceneServePannel_SetServedVisualOnUI_01.txt:53-58,154-177", "ui_native_10567_WorkSceneServePannel_OnPanelOpen_01.txt:879-987", "ui_native_10613___c__OnPanelOpen_b__41_3_05.txt:9-15", "ui_native_10614___c__OnPanelOpen_b__41_5_05.txt:9-15", "ui_field_offsets_06.json"],
+      "unknown": ["托盘通用selection factory/UpdateTrayVisual所有过滤器及外层对话选项完整禁用矩阵未逐一核完", "没有得到整个推荐UI完全不做预算过滤的全局证明", "手动推荐UI是否其他位置显示所选菜酒总价仍未知；已核主干未见合计字段/逻辑"]
+    },
+    {
+      "topic": "普通自动订单与特殊推荐UI差别",
+      "conclusion": "显示层有明确不同：普通NormalOrder用具体RequestFood/RequestBeverage图标；SpecialOrder用人物/请求标签语言，而非普通客具体点单的同一显示语义。不要把普通自动选单预算规则直接套给稀客手动送餐UI。",
+      "chain": ["OrderingElement.Initialize检查OrderBase.Type+0x38：0分支显示normalOrderElement_Food/Bev，读取NormalOrder.RequestFood/RequestBeverage.Text.Visual", "1分支改用specialOrderElement、人物皮肤/颜色；不是菜酒价格/钱包显示", "WorkSceneServePannel.OnPanelOpen同样按Type切normalRequest+0x88/specialRequest+0x90", "SpecialOrder分支调用SpecialGuestsController.GetOrderFoodText/GetOrderBevText，并写标签文案", "GetOrderFoodText以OrderBase.foodRequest+0x14传入SpecialGuest.GetFoodTagText"],
+      "evidence": ["ui_native_10522_OrderingElement_Initialize_01.txt:191-295,341-434", "ui_native_10567_WorkSceneServePannel_OnPanelOpen_01.txt:374-445,552-623", "ui_native_8926_SpecialGuestsController_GetOrderFoodText_06.txt:24-31", "ui_native_8927_SpecialGuestsController_GetOrderBevText_06.txt", "ui_field_offsets_01.json", "ui_field_offsets_06.json"],
+      "coverageLimit": "本UI任务没有重新调查普通客自动选单生成/价格筛选领域逻辑，也不证明其实际消费行为。ShowOrder和ShowManualOrder均可服务手动控制入口，不将名字ShowOrder独自视为普通自动选单证明。"
+    },
+    {
+      "topic": "买不起/贫穷文案",
+      "conclusion": "已找到的中文‘贵的我可买不起啊！’来自SpecFoodTagLang客人7行；‘贫穷且凶狠的巫女小姐’来自SpecGuestLang角色说明。至少这些文案不等同预算不足弹窗/禁用条件。",
+      "chain": ["SpecFoodTagLang语言表提供客人/标签请求短句", "SpecialGuest.GetFoodTagText(tagId)调用DataBaseLanguage.GetSpecialFoodTagLang和GetFoodTag，再按tagId取短句", "SpecialGuestsController.GetOrderFoodText传foodRequest+0x14；该已核路径未读钱包字段"],
+      "evidence": ["../2026-10-13--全量数据核查/游戏原始核验/game_chinese_language_texts.json（core文本SpecFoodTagLang客人7、SpecGuestLang客人7）", "ui_native_14735_SpecialGuest_GetFoodTagText_06.txt:29-59", "ui_native_8926_SpecialGuestsController_GetOrderFoodText_06.txt:24-31"],
+      "unknown": "metadata literal18187为‘买不起酒水！更改酒水输出：’，只定位了literal，未证明其string usage/条件/UI可见性；已告知协调者转给领域线，不主动另追预算/payment。没有找到并证实too expensive UI显示条件。"
+    }
+  ],
+  "methodology": {
+    "script": "ui_probe_20261014.py",
+    "disassemblyRanges": "取共享v2符号索引中下一不同原生方法地址作为上限；不把PE Exception.EndAddress当完整方法终点，避免首funclet截断。OnPanelOpen endRva0x54e5fe实际只到初始化，完整导出至0x54f6a0。",
+    "fieldOffsets": "从GameAssembly的Il2CppMetadataRegistration fieldOffsets表读取，按metadata类型/字段index关联；含静态/常量字段offset0，不能把所有offset均当实例布局。",
+    "usageRefs": "只读PE未初始化metadata使用编码（kind3 method、kind5 string、kind1 type）并与metadata对应；metadata和字段只能关联符号，结论依赖同时阅读native分支/调用/写UI证据。",
+    "xrefWarning": "ui_xrefs_04.json为raw E8/E9候选，须由dumpbin确认指令和调用上下文才是native xref；遗漏inline/virtual/indirect/generic，零xref不是不存在证明。已用于定位的ShowManualOrder/ShowOrder/SetNum调用在native中确认。",
+    "symbolWarning": "共享索引某些匿名declaringType重名，methodIndex/typeIndex用于区分。共享同一RVA的方法很多，自动注释不是实际调用语义，按寄存器/metadata usage/context判断。",
+    "lineNumbers": "引用为Read/rg所见逻辑行范围，dumpbin原始CRCRLF使Python splitlines可能将行数翻倍；不要把该双倍行号混作编辑器行号。",
+    "evidenceLevel": "原生静态观察，不是游戏实机/渲染/交互测试；不宣称已启用、加载或用户实机验收。"
+  },
+  "reproduction": [
+    "在本证据目录运行 ui_probe_20261014.py，--game 指定官方安装目录、--dumpbin 指定现有VS dumpbin、--suffix 使用未出现的唯一字符串（所有输出exclusive create）。",
+    "复现核心显示：py -X utf8 ui_probe_20261014.py --game <game-dir> --dumpbin <dumpbin.exe> --dump 19487,19488,19491,19495,19498,19507,21897 --fields 1435,3279,3273,3274,3275,3278,3670,2133 --suffix <unused>",
+    "复现菜单/送餐：--dump 10522,10567,10575,10573,10579,10588,10613,10614,8520,8527,8926,8927,14735 --fields 1755,1737,1745,1747,1447,1448,1449,2298 --suffix <unused>",
+    "解析导出文件的encoded metadata refs：--refs-from <逗号分隔导出文件名> --vtables 2315 --suffix <unused>",
+    "raw直接调用候选：--xref 10393,19488,8280,8176 --suffix <unused>；再以dumpbin完整方法确认候选"
+  ],
+  "contradictionsAndCautions": [
+    "‘经营永远看不到准确余额，只能图鉴上下限’与觉之眼正向native调用链矛盾，应修正为默认已核窗口无实时金额、觉之眼为例外且有隐藏/回溯分支。",
+    "觉之眼显示max0，因此读数0不是资金一定恰为0的证明。",
+    "图鉴fundRange与当晚GetFund必须分开。",
+    "‘买不起’语言句不能自动当成当前预算不足/推荐禁止的证据。",
+    "已核主干无预算门控不升级为穷尽所有UI的全局否定，外层对话/通用托盘过滤仍有未知。"
+  ]
+}

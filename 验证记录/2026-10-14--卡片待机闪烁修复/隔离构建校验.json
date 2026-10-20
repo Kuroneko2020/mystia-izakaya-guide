@@ -1,0 +1,28 @@
+{
+  "inputFile": "成品/旧版/东方夜雀食堂攻略查询_2610140601.html",
+  "outputFile": "成品/东方夜雀食堂攻略查询_2610141148.html",
+  "patchCount": 4,
+  "inverseByteEquality": true,
+  "inputSha256": "9e2cc491f8ca4ba649a5b8acb965a4f7669d2ab049fb1b8eeb918a341c449d7d",
+  "outputSha256": "b668dc1e62b4bc30dd07d3f18d3cf3d85a5c004bbf74f1e8e6a243b8a3216529",
+  "unchangedAppDataSha256": "a9a3e244c2b14ada610b8dc39b4daa666ec7aeb31ee2fb02604d8d00b45430fd",
+  "unchangedAvatarSha256": "1a9574920518f421784602b6447e97130260e85f26c8d56bf8d25225e87ef3b5",
+  "patches": [
+    {
+      "old": "gap:15px;box-shadow:0 3px 0 #d0b79344,0 7px 20px #58401f08;",
+      "new": "gap:15px;box-shadow:inset 0 1px 0 #fff9ea,0 3px 0 #d0b79344,0 7px 20px #58401f08;"
+    },
+    {
+      "old": ".guest-card::before{content:\"\";position:absolute;top:0;left:16px;right:16px;height:1px;background:#fff9ea}",
+      "new": ".guest-card::before{content:none}"
+    },
+    {
+      "old": "border-color:#b28a5d;box-shadow:0 3px 0 #b79a7244,0 10px 22px #62462d16,0 0 18px #dda55f22}",
+      "new": "border-color:#b28a5d;box-shadow:inset 0 1px 0 #fff9ea,0 3px 0 #b79a7244,0 10px 22px #62462d16,0 0 18px #dda55f22}"
+    },
+    {
+      "old": ".guest-card{content-visibility:auto;contain-intrinsic-size:auto 330px}",
+      "new": "/* 图鉴卡片保留溢出的立体头像，不使用会引入 paint containment 的按需绘制。 */\r\n.guest-card{content-visibility:visible;contain-intrinsic-size:none}"
+    }
+  ]
+}

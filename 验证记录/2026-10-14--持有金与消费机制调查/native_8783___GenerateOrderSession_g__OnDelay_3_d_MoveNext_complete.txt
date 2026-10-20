@@ -1,0 +1,118 @@
+# <<GenerateOrderSession>g__OnDelay|3>d::MoveNext
+# {"declaringType": "<<GenerateOrderSession>g__OnDelay|3>d", "typeIndex": 1481, "image": "Assembly-CSharp.dll", "name": "MoveNext", "metadataMethodIndex": 8783, "token": "0x6002250", "methodPointerIndex": 8783, "va": "0x18051b560", "rva": "0x51b560", "endRva": "0x51b605", "returnTypeIndex": 20604, "parameters": []}
+# range end RVA 0x51b6c0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018051B560: 40 53              push        rbx
+  000000018051B562: 48 83 EC 20        sub         rsp,20h
+  000000018051B566: 80 3D 58 07 E5 03  cmp         byte ptr [000000018436BCC5h],0
+                    00
+  000000018051B56D: 48 8B D9           mov         rbx,rcx
+  000000018051B570: 75 37              jne         000000018051B5A9
+  000000018051B572: 48 8D 0D 87 4C C7  lea         rcx,[0000000184190200h]
+                    03
+  000000018051B579: E8 02 1A E4 FF     call        000000018035CF80
+  000000018051B57E: 48 8D 0D 5B D2 C8  lea         rcx,[00000001841A87E0h]
+                    03
+  000000018051B585: E8 F6 19 E4 FF     call        000000018035CF80
+  000000018051B58A: 48 8D 0D 5F A5 C9  lea         rcx,[00000001841B5AF0h]
+                    03
+  000000018051B591: E8 EA 19 E4 FF     call        000000018035CF80
+  000000018051B596: 48 8D 0D 3B EB CA  lea         rcx,[00000001841CA0D8h]
+                    03
+  000000018051B59D: E8 DE 19 E4 FF     call        000000018035CF80
+  000000018051B5A2: C6 05 1C 07 E5 03  mov         byte ptr [000000018436BCC5h],1
+                    01
+  000000018051B5A9: 8B 43 10           mov         eax,dword ptr [rbx+10h]
+  000000018051B5AC: 85 C0              test        eax,eax
+  000000018051B5AE: 75 4C              jne         000000018051B5FC
+  000000018051B5B0: C7 43 10 FF FF FF  mov         dword ptr [rbx+10h],0FFFFFFFFh
+                    FF
+  000000018051B5B7: 48 8B 05 1A EB CA  mov         rax,qword ptr [00000001841CA0D8h]
+                    03
+  000000018051B5BE: 83 B8 E0 00 00 00  cmp         dword ptr [rax+00000000000000E0h],0
+                    00
+  000000018051B5C5: 75 0F              jne         000000018051B5D6
+  000000018051B5C7: 48 8B C8           mov         rcx,rax
+  000000018051B5CA: E8 E1 1C DE FF     call        00000001802FD2B0
+  000000018051B5CF: 48 8B 05 02 EB CA  mov         rax,qword ptr [00000001841CA0D8h]
+                    03
+  000000018051B5D6: 48 8B 80 B8 00 00  mov         rax,qword ptr [rax+00000000000000B8h]
+                    00
+  000000018051B5DD: 48 8D 4B 18        lea         rcx,[rbx+18h]
+  000000018051B5E1: 48 8B 10           mov         rdx,qword ptr [rax]
+  000000018051B5E4: 48 89 53 18        mov         qword ptr [rbx+18h],rdx
+  000000018051B5E8: E8 C3 14 E4 FF     call        000000018035CAB0
+  000000018051B5ED: B0 01              mov         al,1
+  000000018051B5EF: C7 43 10 01 00 00  mov         dword ptr [rbx+10h],1
+                    00
+  000000018051B5F6: 48 83 C4 20        add         rsp,20h
+  000000018051B5FA: 5B                 pop         rbx
+  000000018051B5FB: C3                 ret
+  000000018051B5FC: 83 F8 01           cmp         eax,1
+  000000018051B5FF: 0F 85 9E 00 00 00  jne         000000018051B6A3
+  000000018051B605: 48 89 7C 24 38     mov         qword ptr [rsp+38h],rdi
+  000000018051B60A: 48 8B 7B 20        mov         rdi,qword ptr [rbx+20h]
+  000000018051B60E: 48 89 74 24 30     mov         qword ptr [rsp+30h],rsi
+  000000018051B613: C7 43 10 FF FF FF  mov         dword ptr [rbx+10h],0FFFFFFFFh
+                    FF
+  000000018051B61A: 48 85 FF           test        rdi,rdi
+  000000018051B61D: 0F 84 94 00 00 00  je          000000018051B6B7
+  000000018051B623: 48 8B 0D D6 4B C7  mov         rcx,qword ptr [0000000184190200h]
+                    03
+  000000018051B62A: 48 8B 5F 20        mov         rbx,qword ptr [rdi+20h]
+  000000018051B62E: E8 8D 1A E4 FF     call        000000018035D0C0
+  000000018051B633: 48 8B F0           mov         rsi,rax
+  000000018051B636: 48 85 C0           test        rax,rax
+  000000018051B639: 74 7C              je          000000018051B6B7
+  000000018051B63B: 4C 8B 05 AE A4 C9  mov         r8,qword ptr [00000001841B5AF0h]
+                    03
+  000000018051B642: 45 33 C9           xor         r9d,r9d
+  000000018051B645: 48 8B D7           mov         rdx,rdi
+  000000018051B648: 48 8B C8           mov         rcx,rax
+  000000018051B64B: E8 10 54 49 00     call        00000001809B0A60 ; System.Action::.ctor [MI 26047, RVA 0x9b0a60] | System.Threading.ThreadStart::.ctor [MI 29582, RVA 0x9b0a60] | System.Runtime.Remoting.Contexts.CrossContextDelegate::.ctor [MI 32755, RVA 0x9b0a60] | PanicFunction_::.ctor [MI 75573, RVA 0x9b0a60] | LowMemoryCallback::.ctor [MI 75743, RVA 0x9b0a60] | DisplaysUpdatedDelegate::.ctor [MI 76269, RVA 0x9b0a60] | UnityEngine.Events.UnityAction::.ctor [MI 79198, RVA 0x9b0a60] | UpdateFunction::.ctor [MI 79271, RVA 0x9b0a60]
+  000000018051B650: 48 85 DB           test        rbx,rbx
+  000000018051B653: 74 62              je          000000018051B6B7
+  000000018051B655: 4C 8B 05 84 D1 C8  mov         r8,qword ptr [00000001841A87E0h]
+                    03
+  000000018051B65C: 48 8B 03           mov         rax,qword ptr [rbx]
+  000000018051B65F: 41 0F B6 90 2C 01  movzx       edx,byte ptr [r8+000000000000012Ch]
+                    00 00
+  000000018051B667: 38 90 2C 01 00 00  cmp         byte ptr [rax+000000000000012Ch],dl
+  000000018051B66D: 72 3C              jb          000000018051B6AB
+  000000018051B66F: 48 8B 80 C8 00 00  mov         rax,qword ptr [rax+00000000000000C8h]
+                    00
+  000000018051B676: 0F B6 D2           movzx       edx,dl
+  000000018051B679: 4C 39 44 D0 F8     cmp         qword ptr [rax+rdx*8-8],r8
+  000000018051B67E: 75 2B              jne         000000018051B6AB
+  000000018051B680: 45 33 C9           xor         r9d,r9d
+  000000018051B683: 41 B0 01           mov         r8b,1
+  000000018051B686: 48 8B D6           mov         rdx,rsi
+  000000018051B689: 48 8B CB           mov         rcx,rbx
+  000000018051B68C: E8 8F A0 FF FF     call        0000000180515720 ; NightScene.GuestManagementUtility.SpecialGuestsController::TriggerNegativeBuff [MI 8931, RVA 0x515720]
+  000000018051B691: 48 8B 74 24 30     mov         rsi,qword ptr [rsp+30h]
+  000000018051B696: 32 C0              xor         al,al
+  000000018051B698: 48 8B 7C 24 38     mov         rdi,qword ptr [rsp+38h]
+  000000018051B69D: 48 83 C4 20        add         rsp,20h
+  000000018051B6A1: 5B                 pop         rbx
+  000000018051B6A2: C3                 ret
+  000000018051B6A3: 32 C0              xor         al,al
+  000000018051B6A5: 48 83 C4 20        add         rsp,20h
+  000000018051B6A9: 5B                 pop         rbx
+  000000018051B6AA: C3                 ret
+  000000018051B6AB: 49 8B D0           mov         rdx,r8
+  000000018051B6AE: 48 8B CB           mov         rcx,rbx
+  000000018051B6B1: E8 2A 14 E4 FF     call        000000018035CAE0
+  000000018051B6B6: CC                 int         3
+  000000018051B6B7: E8 64 1A E4 FF     call        000000018035D120
+  000000018051B6BC: CC                 int         3
+  000000018051B6BD: CC                 int         3
+  000000018051B6BE: CC                 int         3
+  000000018051B6BF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

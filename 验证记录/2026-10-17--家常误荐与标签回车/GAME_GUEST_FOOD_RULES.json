@@ -1,0 +1,575 @@
+{
+  "schemaVersion": 1,
+  "scope": "Official extracted RELEASE 4.4.0e / build 23158340; no save/config/game modification",
+  "semantics": "Fixed tag matching stays separate from order/rating. Only proven negative food/ingredient easter eggs are excluded; positive overrides do not invent fixed likes.",
+  "referenceCoverage": {
+    "guestReferences": 13,
+    "uniqueAssets": 11,
+    "behaviorGuests": 10,
+    "idleDialogOnlyGuests": 3
+  },
+  "foodExclusions": [
+    {
+      "guestName": "月人",
+      "foodName": "蜜桃红烧肉",
+      "guestId": 5003,
+      "foodId": 4001,
+      "guestType": "normalGuest",
+      "reason": "菜品彩蛋直接判最低评价",
+      "profile": "DLC5_FoodEasterEgg_LunarPerson",
+      "nativeClass": "LunarPersonFoodEasterEggData"
+    },
+    {
+      "guestName": "古明地恋",
+      "foodName": "无意识妖怪慕斯",
+      "guestId": 2006,
+      "foodId": 70,
+      "guestType": "specialGuest",
+      "reason": "菜品彩蛋直接判最低评价",
+      "profile": "DLC2_FoodEasterEgg_Koishi",
+      "nativeClass": "KoishiFoodEasterEggData"
+    },
+    {
+      "guestName": "绵月丰姬",
+      "foodName": "蜜桃红烧肉",
+      "guestId": 5001,
+      "foodId": 4001,
+      "guestType": "specialGuest",
+      "reason": "菜品彩蛋直接判最低评价",
+      "profile": "DLC5_FoodEasterEgg_LunarPerson",
+      "nativeClass": "LunarPersonFoodEasterEggData"
+    },
+    {
+      "guestName": "绵月依姬",
+      "foodName": "蜜桃红烧肉",
+      "guestId": 5002,
+      "foodId": 4001,
+      "guestType": "specialGuest",
+      "reason": "菜品彩蛋直接判最低评价",
+      "profile": "DLC5_FoodEasterEgg_LunarPerson",
+      "nativeClass": "LunarPersonFoodEasterEggData"
+    }
+  ],
+  "ingredientExclusions": [
+    {
+      "guestName": "犬走椛",
+      "ingredientName": "可可豆",
+      "guestId": 1001,
+      "ingredientId": 5000,
+      "guestType": "specialGuest",
+      "reason": "巧克力彩蛋压低评价，避免给椛使用",
+      "profile": "DLC1_FoodEasterEgg_Momizi",
+      "nativeClass": "MomiziFoodEasterEggData"
+    }
+  ],
+  "resolvedFoodExclusions": [
+    {
+      "guestName": "月人",
+      "foodName": "蜜桃红烧肉",
+      "guestId": 5003,
+      "foodId": 4001,
+      "guestType": "normalGuest",
+      "reason": "菜品彩蛋直接判最低评价",
+      "profile": "DLC5_FoodEasterEgg_LunarPerson",
+      "nativeClass": "LunarPersonFoodEasterEggData",
+      "condition": "servedFoodId"
+    },
+    {
+      "guestName": "犬走椛",
+      "ingredientName": "可可豆",
+      "guestId": 1001,
+      "ingredientId": 5000,
+      "guestType": "specialGuest",
+      "reason": "巧克力彩蛋压低评价，避免给椛使用",
+      "profile": "DLC1_FoodEasterEgg_Momizi",
+      "nativeClass": "MomiziFoodEasterEggData",
+      "foodId": 5003,
+      "foodName": "猫咪可露丽",
+      "condition": "baseRecipeContainsIngredient"
+    },
+    {
+      "guestName": "犬走椛",
+      "ingredientName": "可可豆",
+      "guestId": 1001,
+      "ingredientId": 5000,
+      "guestType": "specialGuest",
+      "reason": "巧克力彩蛋压低评价，避免给椛使用",
+      "profile": "DLC1_FoodEasterEgg_Momizi",
+      "nativeClass": "MomiziFoodEasterEggData",
+      "foodId": 5005,
+      "foodName": "猫咪戏水",
+      "condition": "baseRecipeContainsIngredient"
+    },
+    {
+      "guestName": "犬走椛",
+      "ingredientName": "可可豆",
+      "guestId": 1001,
+      "ingredientId": 5000,
+      "guestType": "specialGuest",
+      "reason": "巧克力彩蛋压低评价，避免给椛使用",
+      "profile": "DLC1_FoodEasterEgg_Momizi",
+      "nativeClass": "MomiziFoodEasterEggData",
+      "foodId": 5008,
+      "foodName": "疯帽子茶会",
+      "condition": "baseRecipeContainsIngredient"
+    },
+    {
+      "guestName": "犬走椛",
+      "ingredientName": "可可豆",
+      "guestId": 1001,
+      "ingredientId": 5000,
+      "guestType": "specialGuest",
+      "reason": "巧克力彩蛋压低评价，避免给椛使用",
+      "profile": "DLC1_FoodEasterEgg_Momizi",
+      "nativeClass": "MomiziFoodEasterEggData",
+      "foodId": 5011,
+      "foodName": "龙吟桃子",
+      "condition": "baseRecipeContainsIngredient"
+    },
+    {
+      "guestName": "犬走椛",
+      "ingredientName": "可可豆",
+      "guestId": 1001,
+      "ingredientId": 5000,
+      "guestType": "specialGuest",
+      "reason": "巧克力彩蛋压低评价，避免给椛使用",
+      "profile": "DLC1_FoodEasterEgg_Momizi",
+      "nativeClass": "MomiziFoodEasterEggData",
+      "foodId": 5012,
+      "foodName": "分子蛋",
+      "condition": "baseRecipeContainsIngredient"
+    },
+    {
+      "guestName": "犬走椛",
+      "ingredientName": "可可豆",
+      "guestId": 1001,
+      "ingredientId": 5000,
+      "guestType": "specialGuest",
+      "reason": "巧克力彩蛋压低评价，避免给椛使用",
+      "profile": "DLC1_FoodEasterEgg_Momizi",
+      "nativeClass": "MomiziFoodEasterEggData",
+      "foodId": 5013,
+      "foodName": "生命之源",
+      "condition": "baseRecipeContainsIngredient"
+    },
+    {
+      "guestName": "古明地恋",
+      "foodName": "无意识妖怪慕斯",
+      "guestId": 2006,
+      "foodId": 70,
+      "guestType": "specialGuest",
+      "reason": "菜品彩蛋直接判最低评价",
+      "profile": "DLC2_FoodEasterEgg_Koishi",
+      "nativeClass": "KoishiFoodEasterEggData",
+      "condition": "servedFoodId"
+    },
+    {
+      "guestName": "绵月丰姬",
+      "foodName": "蜜桃红烧肉",
+      "guestId": 5001,
+      "foodId": 4001,
+      "guestType": "specialGuest",
+      "reason": "菜品彩蛋直接判最低评价",
+      "profile": "DLC5_FoodEasterEgg_LunarPerson",
+      "nativeClass": "LunarPersonFoodEasterEggData",
+      "condition": "servedFoodId"
+    },
+    {
+      "guestName": "绵月依姬",
+      "foodName": "蜜桃红烧肉",
+      "guestId": 5002,
+      "foodId": 4001,
+      "guestType": "specialGuest",
+      "reason": "菜品彩蛋直接判最低评价",
+      "profile": "DLC5_FoodEasterEgg_LunarPerson",
+      "nativeClass": "LunarPersonFoodEasterEggData",
+      "condition": "servedFoodId"
+    }
+  ],
+  "guestRules": [
+    {
+      "guestType": "specialGuest",
+      "guestName": "河城荷取",
+      "guestId": 1000,
+      "profile": "DLC1_FoodEasterEgg_Nitori",
+      "profilePathId": -5731186221914116491,
+      "nativeClass": "NitoriFoodEasterEggData",
+      "badFood": [],
+      "badTags": [],
+      "badIngredients": [],
+      "condition": {
+        "kind": "ingredient",
+        "id": 1000,
+        "name": "黄瓜",
+        "scope": "baseRecipeOrExtraIngredients"
+      },
+      "rating": {
+        "behavior": "floor",
+        "value": 3
+      },
+      "nativeEvidence": {
+        "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15115_NitoriFoodEasterEggData_CheckEasterEgg_complete.txt",
+        "methodIndex": 15115
+      }
+    },
+    {
+      "guestType": "specialGuest",
+      "guestName": "犬走椛",
+      "guestId": 1001,
+      "profile": "DLC1_FoodEasterEgg_Momizi",
+      "profilePathId": 1965670458195611836,
+      "nativeClass": "MomiziFoodEasterEggData",
+      "badFood": [],
+      "badTags": [],
+      "badIngredients": [
+        {
+          "ingredientId": 5000,
+          "ingredientName": "可可豆"
+        }
+      ],
+      "condition": {
+        "kind": "ingredient",
+        "id": 5000,
+        "name": "可可豆",
+        "scope": "baseRecipeOrExtraIngredients"
+      },
+      "rating": {
+        "behavior": "cap",
+        "value": 1
+      },
+      "nativeEvidence": {
+        "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15113_MomiziFoodEasterEggData_CheckEasterEgg_complete.txt",
+        "methodIndex": 15113
+      },
+      "stopFurtherOrders": true
+    },
+    {
+      "guestType": "specialGuest",
+      "guestName": "饕餮尤魔",
+      "guestId": 1003,
+      "profile": "DLC1_FoodEasterEgg_Yuuma",
+      "profilePathId": -4531911869539770698,
+      "nativeClass": "YuumaFoodEasterEggData",
+      "badFood": [],
+      "badTags": [],
+      "badIngredients": [],
+      "condition": {
+        "kind": "food",
+        "id": 35,
+        "name": "油豆腐",
+        "scope": "servedFoodId"
+      },
+      "rating": {
+        "behavior": "set",
+        "value": 3
+      },
+      "nativeEvidence": {
+        "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15124_YuumaFoodEasterEggData_CheckEasterEgg_complete.txt",
+        "methodIndex": 15124
+      }
+    },
+    {
+      "guestType": "specialGuest",
+      "guestName": "古明地恋",
+      "guestId": 2006,
+      "profile": "DLC2_FoodEasterEgg_Koishi",
+      "profilePathId": 653033389050471146,
+      "nativeClass": "KoishiFoodEasterEggData",
+      "badFood": [
+        {
+          "foodId": 70,
+          "foodName": "无意识妖怪慕斯"
+        }
+      ],
+      "badTags": [],
+      "badIngredients": [],
+      "condition": {
+        "kind": "food",
+        "id": 70,
+        "name": "无意识妖怪慕斯",
+        "scope": "servedFoodId"
+      },
+      "rating": {
+        "behavior": "set",
+        "value": 0
+      },
+      "nativeEvidence": {
+        "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15094_KoishiFoodEasterEggData_CheckEasterEgg_complete.txt",
+        "methodIndex": 15094
+      }
+    },
+    {
+      "guestType": "specialGuest",
+      "guestName": "梅蒂欣",
+      "guestId": 4001,
+      "profile": "DLC4_FoodEasterEgg_Medicine",
+      "profilePathId": -1664595637903790873,
+      "nativeClass": "MedicineFoodEasterEggData",
+      "badFood": [],
+      "badTags": [],
+      "badIngredients": [],
+      "condition": {
+        "kind": "food",
+        "id": -1,
+        "name": "黑暗物质",
+        "scope": "servedFoodId"
+      },
+      "rating": {
+        "behavior": "floor",
+        "value": 3
+      },
+      "nativeEvidence": {
+        "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15111_MedicineFoodEasterEggData_CheckEasterEgg_complete.txt",
+        "methodIndex": 15111
+      }
+    },
+    {
+      "guestType": "specialGuest",
+      "guestName": "蕾米莉亚",
+      "guestId": 4008,
+      "profile": "DLC4_FoodEasterEgg_Remilia",
+      "profilePathId": -56130769070096717,
+      "nativeClass": "RemiliaFoodEasterEggData",
+      "badFood": [],
+      "badTags": [],
+      "badIngredients": [],
+      "condition": {
+        "kind": "food",
+        "id": 69,
+        "name": "猩红恶魔蛋糕",
+        "scope": "servedFoodId"
+      },
+      "rating": {
+        "behavior": "set",
+        "value": 4
+      },
+      "nativeEvidence": {
+        "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15122_RemiliaFoodEasterEggData_CheckEasterEgg_complete.txt",
+        "methodIndex": 15122
+      }
+    },
+    {
+      "guestType": "normalGuest",
+      "guestName": "月人",
+      "guestId": 5003,
+      "profile": "DLC5_FoodEasterEgg_LunarPerson",
+      "profilePathId": 2058154835973799856,
+      "nativeClass": "LunarPersonFoodEasterEggData",
+      "badFood": [
+        {
+          "foodId": 4001,
+          "foodName": "蜜桃红烧肉"
+        }
+      ],
+      "badTags": [],
+      "badIngredients": [],
+      "condition": {
+        "kind": "food",
+        "id": 4001,
+        "name": "蜜桃红烧肉",
+        "scope": "servedFoodId"
+      },
+      "rating": {
+        "behavior": "set",
+        "value": 0
+      },
+      "nativeEvidence": {
+        "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15106_LunarPersonFoodEasterEggData_CheckEasterEgg_complete.txt",
+        "methodIndex": 15106
+      }
+    },
+    {
+      "guestType": "specialGuest",
+      "guestName": "绵月丰姬",
+      "guestId": 5001,
+      "profile": "DLC5_FoodEasterEgg_LunarPerson",
+      "profilePathId": 2058154835973799856,
+      "nativeClass": "LunarPersonFoodEasterEggData",
+      "badFood": [
+        {
+          "foodId": 4001,
+          "foodName": "蜜桃红烧肉"
+        }
+      ],
+      "badTags": [],
+      "badIngredients": [],
+      "condition": {
+        "kind": "food",
+        "id": 4001,
+        "name": "蜜桃红烧肉",
+        "scope": "servedFoodId"
+      },
+      "rating": {
+        "behavior": "set",
+        "value": 0
+      },
+      "nativeEvidence": {
+        "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15106_LunarPersonFoodEasterEggData_CheckEasterEgg_complete.txt",
+        "methodIndex": 15106
+      }
+    },
+    {
+      "guestType": "specialGuest",
+      "guestName": "绵月依姬",
+      "guestId": 5002,
+      "profile": "DLC5_FoodEasterEgg_LunarPerson",
+      "profilePathId": 2058154835973799856,
+      "nativeClass": "LunarPersonFoodEasterEggData",
+      "badFood": [
+        {
+          "foodId": 4001,
+          "foodName": "蜜桃红烧肉"
+        }
+      ],
+      "badTags": [],
+      "badIngredients": [],
+      "condition": {
+        "kind": "food",
+        "id": 4001,
+        "name": "蜜桃红烧肉",
+        "scope": "servedFoodId"
+      },
+      "rating": {
+        "behavior": "set",
+        "value": 0
+      },
+      "nativeEvidence": {
+        "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15106_LunarPersonFoodEasterEggData_CheckEasterEgg_complete.txt",
+        "methodIndex": 15106
+      }
+    },
+    {
+      "guestType": "specialGuest",
+      "guestName": "铃仙",
+      "guestId": 5000,
+      "profile": "DLC5_IdleDialogEasterEgg_Reisen2",
+      "profilePathId": -6235643310631633009,
+      "nativeClass": "Reisen2IdleDialogEasterEggData",
+      "badFood": [],
+      "badTags": [],
+      "badIngredients": [],
+      "behavior": "idle-dialog-only; inherited foodId=0 is NOT a food condition"
+    },
+    {
+      "guestType": "specialGuest",
+      "guestName": "露易兹",
+      "guestId": 5005,
+      "profile": "DLC5_IdleDialogEasterEgg_Luize",
+      "profilePathId": 757690946509595801,
+      "nativeClass": "LuizeIdleDialogEasterEggData",
+      "badFood": [],
+      "badTags": [],
+      "badIngredients": [],
+      "behavior": "idle-dialog-only; inherited foodId=0 is NOT a food condition"
+    },
+    {
+      "guestType": "specialGuest",
+      "guestName": "雾雨魔理沙",
+      "guestId": 10,
+      "profile": "FoodEasterEgg_Marisa",
+      "profilePathId": -9171259044457952517,
+      "nativeClass": "MarisaFoodEasterEggData",
+      "badFood": [],
+      "badTags": [],
+      "badIngredients": [],
+      "condition": {
+        "kind": "food",
+        "id": 5002,
+        "name": "牛肉鸳鸯火锅",
+        "scope": "servedFoodId"
+      },
+      "rating": {
+        "behavior": "set",
+        "value": 4
+      },
+      "nativeEvidence": {
+        "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15108_MarisaFoodEasterEggData_CheckEasterEgg_complete.txt",
+        "methodIndex": 15108
+      }
+    },
+    {
+      "guestType": "specialGuest",
+      "guestName": "秦心",
+      "guestId": 41,
+      "profile": "FoodEasterEgg_Kokoro",
+      "profilePathId": 8038547664352954229,
+      "nativeClass": "KokoroIdleDialogEasterEggData",
+      "badFood": [],
+      "badTags": [],
+      "badIngredients": [],
+      "behavior": "idle-dialog-only; inherited foodId=0 is NOT a food condition"
+    }
+  ],
+  "sources": [
+    {
+      "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/DLC1_SpecialGuestProfile_raw.json",
+      "sha256": "350c218c187578b8195aa192322eb44a149c0c3ba3bdd46593918dd04c7f7c15"
+    },
+    {
+      "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/DLC2_SpecialGuestProfile_raw.json",
+      "sha256": "35164c6d21cb5c07f632bb9cbe823ea3470d9dae151a711f5a475a848848ddd6"
+    },
+    {
+      "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/DLC4_SpecialGuestProfile_raw.json",
+      "sha256": "4d51a68cb7bc688f044bac6a6960335c9383e02bb025cd7728b12c42f2a95086"
+    },
+    {
+      "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/DLC5_NormalGuestProfile_raw.json",
+      "sha256": "d122f8cf73cf8c99a8c1aaebac520128c5b1961de42dcfb90cd6341654e17383"
+    },
+    {
+      "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/DLC5_SpecialGuestProfile_raw.json",
+      "sha256": "c69f600edf58caa8d27fb80b948c60e4a136a6c69317363fb509bda6a7565ab4"
+    },
+    {
+      "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/game_catalog_raw_normalized.json",
+      "sha256": "17b94d3e535010ba7959c0eb093e2e2d2471d56d7786c673b0ef744e60ac3162"
+    },
+    {
+      "path": "验证记录/2026-10-13--全量数据核查/游戏原始核验/SpecialGuestProfile_raw.json",
+      "sha256": "a38c3f33d4833a0245f07c4818942ee1e594dee7a8c92de4f9e254bd3bce380d"
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/easter_profile_assets_with_types.json",
+      "sha256": "2419299cba9e3776fe37b8685dc597208fd91f19e3db67e2c34d2670e783a396"
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15094_KoishiFoodEasterEggData_CheckEasterEgg_complete.txt",
+      "sha256": "c089c5096c155d56892f8219e45fbd8c529278252ab44d64ab2995a4fc7e1c94"
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15106_LunarPersonFoodEasterEggData_CheckEasterEgg_complete.txt",
+      "sha256": "1203eebb832971fdee94043d2981a7c88a93f182233458215b6c308c1aca93b3"
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15108_MarisaFoodEasterEggData_CheckEasterEgg_complete.txt",
+      "sha256": "712063d917268c1c8e7f75ce439a41871376bff066970a090dd94b1e4df76923"
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15111_MedicineFoodEasterEggData_CheckEasterEgg_complete.txt",
+      "sha256": "0162a67579349eec192a74718f09620541d455e7dd13d1f98219a90aa62a1415"
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15113_MomiziFoodEasterEggData_CheckEasterEgg_complete.txt",
+      "sha256": "f3ef882cabc7d738083d2851c2f189e7612980ad640b1c5d1ad587951d714c47"
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15115_NitoriFoodEasterEggData_CheckEasterEgg_complete.txt",
+      "sha256": "b97e676121f556d0122636cb4fdb7b67d013732a3982d8ce1e2ccd3ff36b73f9"
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15122_RemiliaFoodEasterEggData_CheckEasterEgg_complete.txt",
+      "sha256": "1b2db1746f7e00fbf0cbd800af9b129fa9c5da61b272fff0979aa6e7679cb1ff"
+    },
+    {
+      "path": "验证记录/2026-10-17--家常误荐与标签回车/game_semantics_native/native_15124_YuumaFoodEasterEggData_CheckEasterEgg_complete.txt",
+      "sha256": "4c01fcd0665fae0476f611c55df003636bc24af0063f65877badcc4bd3388217"
+    }
+  ],
+  "limitations": [
+    "Native templates were statically reviewed, not executed in the game.",
+    "Current order, beverage, trends, added ingredients, cooker, buffs and overrides affect live rating.",
+    "Idle-only assets' inherited foodId=0 must not exclude seaweed miso soup.",
+    "Normal/special guest ID spaces overlap; use guestType or the unique baseline guestName."
+  ]
+}

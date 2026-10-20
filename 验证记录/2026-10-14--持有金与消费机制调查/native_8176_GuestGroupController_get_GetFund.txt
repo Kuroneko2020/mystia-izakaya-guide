@@ -1,0 +1,103 @@
+# NightScene.GuestManagementUtility.GuestGroupController::get_GetFund
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "get_GetFund", "metadataMethodIndex": 8176, "token": "0x6001ff1", "methodPointerIndex": 8176, "va": "0x1803e5d60", "rva": "0x3e5d60", "endRva": null, "returnTypeIndex": 26152, "parameters": []}
+# range end RVA 0x3e5e60; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001803E5D60: 8B 41 70           mov         eax,dword ptr [rcx+70h]
+  00000001803E5D63: C3                 ret
+  00000001803E5D64: CC                 int         3
+  00000001803E5D65: CC                 int         3
+  00000001803E5D66: CC                 int         3
+  00000001803E5D67: CC                 int         3
+  00000001803E5D68: CC                 int         3
+  00000001803E5D69: CC                 int         3
+  00000001803E5D6A: CC                 int         3
+  00000001803E5D6B: CC                 int         3
+  00000001803E5D6C: CC                 int         3
+  00000001803E5D6D: CC                 int         3
+  00000001803E5D6E: CC                 int         3
+  00000001803E5D6F: CC                 int         3
+  00000001803E5D70: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001803E5D75: 57                 push        rdi
+  00000001803E5D76: 48 83 EC 20        sub         rsp,20h
+  00000001803E5D7A: 80 3D A7 54 F8 03  cmp         byte ptr [000000018436B228h],0
+                    00
+  00000001803E5D81: 8B FA              mov         edi,edx
+  00000001803E5D83: 48 8B D9           mov         rbx,rcx
+  00000001803E5D86: 75 13              jne         00000001803E5D9B
+  00000001803E5D88: 48 8D 0D B9 61 D5  lea         rcx,[000000018413BF48h]
+                    03
+  00000001803E5D8F: E8 EC 71 F7 FF     call        000000018035CF80
+  00000001803E5D94: C6 05 8D 54 F8 03  mov         byte ptr [000000018436B228h],1
+                    01
+  00000001803E5D9B: 4C 8B 0D A6 61 D5  mov         r9,qword ptr [000000018413BF48h]
+                    03
+  00000001803E5DA2: 48 8D 53 70        lea         rdx,[rbx+70h]
+  00000001803E5DA6: 44 8B C7           mov         r8d,edi
+  00000001803E5DA9: 48 8B CB           mov         rcx,rbx
+  00000001803E5DAC: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  00000001803E5DB1: 48 83 C4 20        add         rsp,20h
+  00000001803E5DB5: 5F                 pop         rdi
+  00000001803E5DB6: E9 85 AC A3 00     jmp         0000000180E20A40
+  00000001803E5DBB: CC                 int         3
+  00000001803E5DBC: CC                 int         3
+  00000001803E5DBD: CC                 int         3
+  00000001803E5DBE: CC                 int         3
+  00000001803E5DBF: CC                 int         3
+  00000001803E5DC0: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001803E5DC5: 57                 push        rdi
+  00000001803E5DC6: 48 83 EC 20        sub         rsp,20h
+  00000001803E5DCA: 80 3D 72 54 F8 03  cmp         byte ptr [000000018436B243h],0
+                    00
+  00000001803E5DD1: 48 8B F9           mov         rdi,rcx
+  00000001803E5DD4: 75 13              jne         00000001803E5DE9
+  00000001803E5DD6: 48 8D 0D F3 1D DD  lea         rcx,[00000001841B7BD0h]
+                    03
+  00000001803E5DDD: E8 9E 71 F7 FF     call        000000018035CF80
+  00000001803E5DE2: C6 05 5A 54 F8 03  mov         byte ptr [000000018436B243h],1
+                    01
+  00000001803E5DE9: 48 8B 0D E0 1D DD  mov         rcx,qword ptr [00000001841B7BD0h]
+                    03
+  00000001803E5DF0: E8 CB 72 F7 FF     call        000000018035D0C0
+  00000001803E5DF5: 48 8B D8           mov         rbx,rax
+  00000001803E5DF8: 48 85 C0           test        rax,rax
+  00000001803E5DFB: 74 5B              je          00000001803E5E58
+  00000001803E5DFD: 33 D2              xor         edx,edx
+  00000001803E5DFF: 48 8B C8           mov         rcx,rax
+  00000001803E5E02: E8 C9 2A 00 00     call        00000001803E88D0 ; <<Confirm>g__Jump|3>d::System.IDisposable.Dispose [MI 150, RVA 0x3e88d0] | <<Confirm>g__OnRotation|11_1>d::System.IDisposable.Dispose [MI 156, RVA 0x3e88d0] | <CountDownLoop>d__7::System.IDisposable.Dispose [MI 354, RVA 0x3e88d0] | <<OnPanelOpen>g__OnLoadFinish|2>d::System.IDisposable.Dispose [MI 440, RVA 0x3e88d0] | <<OnPanelOpen>g__ShowCG|3>d::System.IDisposable.Dispose [MI 446, RVA 0x3e88d0] | <>c::<OnPanelInitialize>b__24_1 [MI 507, RVA 0x3e88d0] | <<TypeCoroutine>g__DoType|2>d::System.IDisposable.Dispose [MI 538, RVA 0x3e88d0] | <TypeCoroutine>d__34::System.IDisposable.Dispose [MI 544, RVA 0x3e88d0] | <OnUpdatePreview>d__24::System.IDisposable.Dispose [MI 560, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnPanelOpen [MI 590, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnExitExtern [MI 591, RVA 0x3e88d0] | <<OnPanelOpen>g__AfterPreviewMusicLoad|0>d::System.IDisposable.Dispose [MI 619, RVA 0x3e88d0]
+  00000001803E5E07: 8B 4F 10           mov         ecx,dword ptr [rdi+10h]
+  00000001803E5E0A: 89 4B 10           mov         dword ptr [rbx+10h],ecx
+  00000001803E5E0D: 8B 4F 14           mov         ecx,dword ptr [rdi+14h]
+  00000001803E5E10: 89 4B 14           mov         dword ptr [rbx+14h],ecx
+  00000001803E5E13: 8B 4F 18           mov         ecx,dword ptr [rdi+18h]
+  00000001803E5E16: 89 4B 18           mov         dword ptr [rbx+18h],ecx
+  00000001803E5E19: 8B 4F 1C           mov         ecx,dword ptr [rdi+1Ch]
+  00000001803E5E1C: 89 4B 1C           mov         dword ptr [rbx+1Ch],ecx
+  00000001803E5E1F: 8B 47 20           mov         eax,dword ptr [rdi+20h]
+  00000001803E5E22: 89 43 20           mov         dword ptr [rbx+20h],eax
+  00000001803E5E25: 0F B6 47 24        movzx       eax,byte ptr [rdi+24h]
+  00000001803E5E29: 88 43 24           mov         byte ptr [rbx+24h],al
+  00000001803E5E2C: 8B 47 28           mov         eax,dword ptr [rdi+28h]
+  00000001803E5E2F: F3 0F 10 47 2C     movss       xmm0,dword ptr [rdi+2Ch]
+  00000001803E5E34: 89 43 28           mov         dword ptr [rbx+28h],eax
+  00000001803E5E37: F3 0F 11 43 2C     movss       dword ptr [rbx+2Ch],xmm0
+  00000001803E5E3C: 0F 10 4F 30        movups      xmm1,xmmword ptr [rdi+30h]
+  00000001803E5E40: 0F 11 4B 30        movups      xmmword ptr [rbx+30h],xmm1
+  00000001803E5E44: 8B 47 40           mov         eax,dword ptr [rdi+40h]
+  00000001803E5E47: 89 43 40           mov         dword ptr [rbx+40h],eax
+  00000001803E5E4A: 48 8B C3           mov         rax,rbx
+  00000001803E5E4D: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  00000001803E5E52: 48 83 C4 20        add         rsp,20h
+  00000001803E5E56: 5F                 pop         rdi
+  00000001803E5E57: C3                 ret
+  00000001803E5E58: E8 C3 72 F7 FF     call        000000018035D120
+  00000001803E5E5D: CC                 int         3
+  00000001803E5E5E: CC                 int         3
+  00000001803E5E5F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

@@ -1,0 +1,89 @@
+# NightScene.GuestManagementUtility.GuestGroupController::Initialize
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "Initialize", "metadataMethodIndex": 8290, "token": "0x6002063", "methodPointerIndex": 8290, "va": "0x1804c70a0", "rva": "0x4c70a0", "endRva": "0x4c71b6", "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x4c71b6; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804C70A0: 40 53              push        rbx
+  00000001804C70A2: 48 83 EC 20        sub         rsp,20h
+  00000001804C70A6: 80 3D 2B 4A EA 03  cmp         byte ptr [000000018436BAD8h],0
+                    00
+  00000001804C70AD: 75 43              jne         00000001804C70F2
+  00000001804C70AF: 48 8D 0D 12 40 D1  lea         rcx,[00000001841DB0C8h]
+                    03
+  00000001804C70B6: E8 C5 5E E9 FF     call        000000018035CF80
+  00000001804C70BB: 48 8D 0D AE BC C8  lea         rcx,[0000000184152D70h]
+                    03
+  00000001804C70C2: E8 B9 5E E9 FF     call        000000018035CF80
+  00000001804C70C7: 48 8D 0D 12 18 C7  lea         rcx,[00000001841388E0h]
+                    03
+  00000001804C70CE: E8 AD 5E E9 FF     call        000000018035CF80
+  00000001804C70D3: 48 8D 0D A6 18 D1  lea         rcx,[00000001841D8980h]
+                    03
+  00000001804C70DA: E8 A1 5E E9 FF     call        000000018035CF80
+  00000001804C70DF: 48 8D 0D 82 69 D1  lea         rcx,[00000001841DDA68h]
+                    03
+  00000001804C70E6: E8 95 5E E9 FF     call        000000018035CF80
+  00000001804C70EB: C6 05 E6 49 EA 03  mov         byte ptr [000000018436BAD8h],1
+                    01
+  00000001804C70F2: 48 8B 0D 6F 69 D1  mov         rcx,qword ptr [00000001841DDA68h]
+                    03
+  00000001804C70F9: E8 C2 5F E9 FF     call        000000018035D0C0
+  00000001804C70FE: 48 8B D8           mov         rbx,rax
+  00000001804C7101: 48 85 C0           test        rax,rax
+  00000001804C7104: 0F 84 A6 00 00 00  je          00000001804C71B0
+  00000001804C710A: 48 8B 15 5F BC C8  mov         rdx,qword ptr [0000000184152D70h]
+                    03
+  00000001804C7111: 48 8B C8           mov         rcx,rax
+  00000001804C7114: E8 97 D2 B6 00     call        00000001810343B0
+  00000001804C7119: 80 3D 4C 4A EA 03  cmp         byte ptr [000000018436BB6Ch],0
+                    00
+  00000001804C7120: 75 13              jne         00000001804C7135
+  00000001804C7122: 48 8D 0D 9F 3F D1  lea         rcx,[00000001841DB0C8h]
+                    03
+  00000001804C7129: E8 52 5E E9 FF     call        000000018035CF80
+  00000001804C712E: C6 05 37 4A EA 03  mov         byte ptr [000000018436BB6Ch],1
+                    01
+  00000001804C7135: 48 8B 05 8C 3F D1  mov         rax,qword ptr [00000001841DB0C8h]
+                    03
+  00000001804C713C: 48 8B D3           mov         rdx,rbx
+  00000001804C713F: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  00000001804C7146: 48 89 59 08        mov         qword ptr [rcx+8],rbx
+  00000001804C714A: 48 8B 05 77 3F D1  mov         rax,qword ptr [00000001841DB0C8h]
+                    03
+  00000001804C7151: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  00000001804C7158: 48 83 C1 08        add         rcx,8
+  00000001804C715C: E8 4F 59 E9 FF     call        000000018035CAB0
+  00000001804C7161: 48 8B 0D 18 18 D1  mov         rcx,qword ptr [00000001841D8980h]
+                    03
+  00000001804C7168: E8 53 5F E9 FF     call        000000018035D0C0
+  00000001804C716D: 48 8B D8           mov         rbx,rax
+  00000001804C7170: 48 85 C0           test        rax,rax
+  00000001804C7173: 74 3B              je          00000001804C71B0
+  00000001804C7175: 48 8B 15 64 17 C7  mov         rdx,qword ptr [00000001841388E0h]
+                    03
+  00000001804C717C: 48 8B C8           mov         rcx,rax
+  00000001804C717F: E8 2C D2 B6 00     call        00000001810343B0
+  00000001804C7184: 48 8B 0D 3D 3F D1  mov         rcx,qword ptr [00000001841DB0C8h]
+                    03
+  00000001804C718B: 48 8B 91 B8 00 00  mov         rdx,qword ptr [rcx+00000000000000B8h]
+                    00
+  00000001804C7192: 48 89 1A           mov         qword ptr [rdx],rbx
+  00000001804C7195: 48 8B D3           mov         rdx,rbx
+  00000001804C7198: 48 8B 0D 29 3F D1  mov         rcx,qword ptr [00000001841DB0C8h]
+                    03
+  00000001804C719F: 48 8B 89 B8 00 00  mov         rcx,qword ptr [rcx+00000000000000B8h]
+                    00
+  00000001804C71A6: 48 83 C4 20        add         rsp,20h
+  00000001804C71AA: 5B                 pop         rbx
+  00000001804C71AB: E9 00 59 E9 FF     jmp         000000018035CAB0
+  00000001804C71B0: E8 6B 5F E9 FF     call        000000018035D120
+  00000001804C71B5: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

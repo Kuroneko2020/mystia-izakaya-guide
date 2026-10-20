@@ -1,0 +1,445 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+  "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+  "cab": "CAB-fede423717f62585305245104e0fd5e2",
+  "path_id": -8300488578948498014,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": -3889071908337991821
+    },
+    "m_Name": "NormalGuestProfile",
+    "normalGuests": [
+      {
+        "id": 0,
+        "convGroup": [
+          0,
+          1
+        ],
+        "fundMultiplier": 0.699999988079071,
+        "likeFoodTag": [
+          19,
+          31,
+          21,
+          3,
+          15,
+          16,
+          17,
+          23
+        ],
+        "likeBevTag": [
+          -1
+        ],
+        "evaluation": 3,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 1,
+        "convGroup": [
+          0,
+          3
+        ],
+        "fundMultiplier": 0.8500000238418579,
+        "likeFoodTag": [
+          0,
+          21,
+          11,
+          14,
+          19
+        ],
+        "likeBevTag": [
+          3,
+          10,
+          15
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 2,
+        "convGroup": [
+          0,
+          2
+        ],
+        "fundMultiplier": 0.8500000238418579,
+        "likeFoodTag": [
+          0,
+          6,
+          15,
+          9,
+          10,
+          19
+        ],
+        "likeBevTag": [
+          13,
+          14
+        ],
+        "evaluation": 6,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 3,
+        "convGroup": [
+          0,
+          4
+        ],
+        "fundMultiplier": 1.2000000476837158,
+        "likeFoodTag": [
+          0,
+          19,
+          12,
+          14,
+          28
+        ],
+        "likeBevTag": [
+          11
+        ],
+        "evaluation": 4,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 4,
+        "convGroup": [
+          0,
+          16
+        ],
+        "fundMultiplier": 2.0,
+        "likeFoodTag": [
+          0,
+          8,
+          10,
+          23
+        ],
+        "likeBevTag": [
+          5,
+          6
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 5,
+        "convGroup": [
+          10,
+          12
+        ],
+        "fundMultiplier": 0.699999988079071,
+        "likeFoodTag": [
+          0,
+          3,
+          9,
+          14,
+          15,
+          17,
+          21,
+          19
+        ],
+        "likeBevTag": [
+          -1
+        ],
+        "evaluation": 4,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 1,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 6,
+        "convGroup": [
+          10,
+          14
+        ],
+        "fundMultiplier": 1.0,
+        "likeFoodTag": [
+          0,
+          8,
+          12,
+          15,
+          16,
+          22,
+          25
+        ],
+        "likeBevTag": [
+          4,
+          5
+        ],
+        "evaluation": 2,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 7,
+        "convGroup": [
+          10,
+          13
+        ],
+        "fundMultiplier": 1.0,
+        "likeFoodTag": [
+          1,
+          4,
+          15,
+          16,
+          21,
+          19
+        ],
+        "likeBevTag": [
+          3
+        ],
+        "evaluation": 5,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 8,
+        "convGroup": [
+          10,
+          11
+        ],
+        "fundMultiplier": 1.5,
+        "likeFoodTag": [
+          4,
+          20,
+          22,
+          19
+        ],
+        "likeBevTag": [
+          0
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 9,
+        "convGroup": [
+          10,
+          16
+        ],
+        "fundMultiplier": 1.7999999523162842,
+        "likeFoodTag": [
+          18,
+          24,
+          23,
+          4
+        ],
+        "likeBevTag": [
+          2
+        ],
+        "evaluation": 0,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 10,
+        "convGroup": [
+          6
+        ],
+        "fundMultiplier": 0.699999988079071,
+        "likeFoodTag": [
+          21,
+          12,
+          10,
+          18,
+          17,
+          19
+        ],
+        "likeBevTag": [
+          0,
+          -1
+        ],
+        "evaluation": 0,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 11,
+        "convGroup": [
+          7,
+          5
+        ],
+        "fundMultiplier": 1.100000023841858,
+        "likeFoodTag": [
+          -1,
+          4,
+          28,
+          11,
+          22,
+          24,
+          19
+        ],
+        "likeBevTag": [
+          13
+        ],
+        "evaluation": 5,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 12,
+        "convGroup": [
+          9
+        ],
+        "fundMultiplier": 1.2000000476837158,
+        "likeFoodTag": [
+          21,
+          4,
+          6,
+          10,
+          22,
+          23
+        ],
+        "likeBevTag": [
+          6,
+          8
+        ],
+        "evaluation": 4,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 13,
+        "convGroup": [
+          5,
+          8
+        ],
+        "fundMultiplier": 1.5,
+        "likeFoodTag": [
+          20,
+          4,
+          26,
+          19
+        ],
+        "likeBevTag": [
+          5,
+          6
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 14,
+        "convGroup": [
+          15
+        ],
+        "fundMultiplier": 0.5,
+        "likeFoodTag": [
+          17,
+          29,
+          20,
+          31,
+          30,
+          26,
+          16
+        ],
+        "likeBevTag": [
+          16,
+          13,
+          11,
+          12
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      }
+    ]
+  }
+}

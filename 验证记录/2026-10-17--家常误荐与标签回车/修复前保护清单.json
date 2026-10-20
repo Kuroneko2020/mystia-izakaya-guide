@@ -1,0 +1,27 @@
+{
+  "recordedAt": "2026-10-17T16:11:03.064876",
+  "gitStatus": " M AGENTS.md\n M README.md\n M 中间数据/料亭版攻略数据基线.json\n D 成品/东方夜雀食堂攻略查询_2610112307.html\n M 成品/料亭立体头像版_构建校验.json\n M 脚本/build_excel.py\n M 脚本/build_html_ryotei_avatar.py\n M 脚本/guide_template_ryotei.html\n M 脚本/ryotei.css\n M 脚本/ryotei_navigation.js\n M 脚本/ryotei_ui.js\n M 脚本/verify_full_recommendations.cjs\n M 脚本/verify_ryotei.cjs\n M 验证记录/2026-10-10--侧栏布局与全量推荐/全量口味匹配_逐客人检查.json\n M 验证记录/2026-10-10--营业图鉴合并/人物详情_全量推荐.png\n M 验证记录/2026-10-10--营业图鉴合并/侧栏_最后一行标签.png\n M 验证记录/2026-10-10--营业图鉴合并/图鉴_今晚开店与分类页签.png\n M 验证记录/2026-10-10--营业图鉴合并/图鉴_完整标签筛选.png\n M 验证记录/2026-10-10--营业图鉴合并/备菜_全部地点.png\n M 验证记录/2026-10-10--营业图鉴合并/备菜_地点与头像选客.png\n M 验证记录/2026-10-10--营业图鉴合并/性能_修复后.json\n M 验证记录/2026-10-10--营业图鉴合并/手机_图鉴标签.png\n M 验证记录/2026-10-10--营业图鉴合并/手机_结果.png\n M 验证记录/2026-10-10--营业图鉴合并/浏览器_15地区分类.json\n M 验证记录/2026-10-10--营业图鉴合并/浏览器_标签覆盖.json\n?? 中间数据/GAME_TAG_RULES.json\n?? 使用说明.md\n?? 成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-14.xlsx\n?? 成品/东方夜雀食堂攻略查询_2610151241.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610112307.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610132100.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610140600.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610140601.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610141148.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610141204.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610141223.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610141245.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610141252.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610141316.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610141326.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610141333.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610141407.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610151010.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610151144.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610151152.html\n?? 旧版/\n?? 脚本/build_card_idle_fix.py\n?? 脚本/extract_game_tag_rules.py\n?? 脚本/meal_tags.py\n?? 脚本/sync_site_baseline.py\n?? 脚本/verify_card_idle.cjs\n?? 记录/2026-10-13--全量数据核查与加料排序.md\n?? 记录/2026-10-14--卡片待机闪烁绘制加固.md\n?? 记录/2026-10-14--备菜与三步配餐产品改进.md\n?? 记录/2026-10-14--成餐标签自动重算与数据修正.md\n?? 记录/2026-10-14--持有金与料理酒水推荐只读调查.md\n?? 记录/2026-10-15--今晚备菜覆盖恢复.md\n?? 记录/2026-10-15--备菜命中表按物品合并.md\n?? 记录/2026-10-15--集中配餐功能整体移除.md\n?? 验证记录/2026-10-13--全量数据核查/\n?? 验证记录/2026-10-13--加料页列头排序/\n?? 验证记录/2026-10-14--卡片待机闪烁修复/\n?? 验证记录/2026-10-14--备菜与配餐产品改进/\n?? 验证记录/2026-10-14--持有金与消费机制调查/\n?? 验证记录/2026-10-14--数据修正自动重算/\n",
+  "sha256": {
+    "AGENTS.md": "66530f29e5a06a650ac9f29b92c7bae45aab2083a02e0e61cd8fca2fa110b244",
+    "README.md": "22e120593d1a59c822a64da2935da9a941bbe7327fe5cc48d6de09379c594540",
+    "使用说明.md": "f910d3d625db571ba1eb9620e6b9380c379e3ff9b587451819294cb81a55e6e4",
+    "脚本/guide_template_ryotei.html": "e0856529c1276d74c4b4456ba88fa26887d3d69210d34a96e6cac275cc6a9565",
+    "脚本/ryotei_ui.js": "be95872e64fa37d55e9130bb0513804b004c70e8cda5d7e2d779ca40fd279f04",
+    "脚本/ryotei_navigation.js": "97376dd2d1365c3fbb82e0c9735386b14ebffa89dd4e466e7cf61c113f0ff6a1",
+    "脚本/ryotei.css": "0d02bbe400320256b835ea20aaba9eced48064b7610605684c2d6c0ddde87f95",
+    "脚本/build_html_ryotei_avatar.py": "77fc50a31f3b31e44db4eccdbf656a3ad0bc84b28e71a15584db9ff05482dd70",
+    "脚本/meal_tags.py": "d466a1e110e3e9c952c23fa9c5db428e32f7de1a68d77cb458d6ec939874f05a",
+    "脚本/extract_game_tag_rules.py": "e28ae975feeb8bad7281687aec4fe5ec637411a2a16b0295cd217111ed831c4a",
+    "脚本/build_excel.py": "ff457601b1cab8486a2a6a9b35941b852d46ad82cdf4e72daaa50dc7258e00f4",
+    "脚本/verify_ryotei.cjs": "41aad3d2c61ff4ec3977131e88fe498827119d267d032d332a99d89775bc57b9",
+    "脚本/verify_full_recommendations.cjs": "0658f871fe29354156f73945791972aa5c046c7d2119a3381f09e1c015d9cc81",
+    "中间数据/料亭版攻略数据基线.json": "a9a3e244c2b14ada610b8dc39b4daa666ec7aeb31ee2fb02604d8d00b45430fd",
+    "中间数据/GAME_TAG_RULES.json": "cfa5ccc9d5573d28f123417c459570df1c0d1d3444f3a79fd9a074398ebae060",
+    "中间数据/FOOD_LIST.json": "ff7038ebf9442e386f1b7ad62f113f6dd89f586e50e2515fb8112bc5da8edc13",
+    "中间数据/SPECIAL_GUEST_LIST.json": "ef2158b3671c38c25f33a7507154d028f9f23fea4597eeedc296a710d41e2d4d",
+    "成品/东方夜雀食堂攻略查询_2610151241.html": "4051837a3d51987b6c8ab30dd8b180a92679ab25cbd50ab66ec38fd6066cbac0",
+    "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx": "d6d397db47dc7420ead80e1412f437d05984ffcb2eca6895e225dfe9c5ce134e",
+    "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-14.xlsx": "1dca6f710965f28bffa8de11cf0ca4fdac67037968e1c385e1d7d619037f66fa",
+    "脚本/guest_avatar_3d.css": "1a9574920518f421784602b6447e97130260e85f26c8d56bf8d25225e87ef3b5"
+  }
+}

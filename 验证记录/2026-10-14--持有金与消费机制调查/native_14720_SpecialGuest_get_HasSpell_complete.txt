@@ -1,0 +1,40 @@
+# GameData.Core.Collections.NightSceneUtility.SpecialGuest::get_HasSpell
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest", "typeIndex": 2315, "image": "Assembly-CSharp.dll", "name": "get_HasSpell", "metadataMethodIndex": 14720, "token": "0x6003981", "methodPointerIndex": 14720, "va": "0x18068d020", "rva": "0x68d020", "endRva": "0x68d06b", "returnTypeIndex": 20604, "parameters": []}
+# range end RVA 0x68d070; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018068D020: 40 53              push        rbx
+  000000018068D022: 48 83 EC 20        sub         rsp,20h
+  000000018068D026: 80 3D 04 FA CD 03  cmp         byte ptr [000000018436CA31h],0
+                    00
+  000000018068D02D: 48 8B D9           mov         rbx,rcx
+  000000018068D030: 75 13              jne         000000018068D045
+  000000018068D032: 48 8D 0D EF AD B2  lea         rcx,[00000001841B7E28h]
+                    03
+  000000018068D039: E8 42 FF CC FF     call        000000018035CF80
+  000000018068D03E: C6 05 EC F9 CD 03  mov         byte ptr [000000018436CA31h],1
+                    01
+  000000018068D045: 48 8B 0D DC AD B2  mov         rcx,qword ptr [00000001841B7E28h]
+                    03
+  000000018068D04C: 8B 5B 10           mov         ebx,dword ptr [rbx+10h]
+  000000018068D04F: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  000000018068D056: 75 05              jne         000000018068D05D
+  000000018068D058: E8 53 02 C7 FF     call        00000001802FD2B0
+  000000018068D05D: 33 D2              xor         edx,edx
+  000000018068D05F: 8B CB              mov         ecx,ebx
+  000000018068D061: 48 83 C4 20        add         rsp,20h
+  000000018068D065: 5B                 pop         rbx
+  000000018068D066: E9 15 26 0A 00     jmp         000000018072F680 ; GameData.Core.Collections.CharacterUtility.DataBaseCharacter::CheckCharacterHasSpell [MI 18112, RVA 0x72f680]
+  000000018068D06B: CC                 int         3
+  000000018068D06C: CC                 int         3
+  000000018068D06D: CC                 int         3
+  000000018068D06E: CC                 int         3
+  000000018068D06F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

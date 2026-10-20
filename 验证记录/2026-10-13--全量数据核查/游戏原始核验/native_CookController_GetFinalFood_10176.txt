@@ -1,0 +1,67 @@
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180525EF0: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  0000000180525EF5: 48 89 74 24 18     mov         qword ptr [rsp+18h],rsi
+  0000000180525EFA: 57                 push        rdi
+  0000000180525EFB: 48 83 EC 20        sub         rsp,20h
+  0000000180525EFF: 80 3D F6 5E E4 03  cmp         byte ptr [000000018436BDFCh],0
+                    00
+  0000000180525F06: 49 8B F8           mov         rdi,r8
+  0000000180525F09: 48 8B DA           mov         rbx,rdx
+  0000000180525F0C: 75 13              jne         0000000180525F21
+  0000000180525F0E: 48 8D 0D 83 B8 CA  lea         rcx,[00000001841D1798h]
+                    03
+  0000000180525F15: E8 66 70 E3 FF     call        000000018035CF80
+  0000000180525F1A: C6 05 DB 5E E4 03  mov         byte ptr [000000018436BDFCh],1
+                    01
+  0000000180525F21: C6 07 01           mov         byte ptr [rdi],1
+  0000000180525F24: 48 8B 0D 6D B8 CA  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  0000000180525F2B: C7 44 24 38 00 00  mov         dword ptr [rsp+38h],0
+                    00 00
+  0000000180525F33: E8 18 60 BE 00     call        000000018110BF50
+  0000000180525F38: 48 8B F0           mov         rsi,rax
+  0000000180525F3B: 48 85 DB           test        rbx,rbx
+  0000000180525F3E: 74 67              je          0000000180525FA7
+  0000000180525F40: 4C 8B 03           mov         r8,qword ptr [rbx]
+  0000000180525F43: 48 8B CB           mov         rcx,rbx
+  0000000180525F46: 49 8B 90 D0 01 00  mov         rdx,qword ptr [r8+00000000000001D0h]
+                    00
+  0000000180525F4D: 41 FF 90 C8 01 00  call        qword ptr [r8+00000000000001C8h]
+                    00
+  0000000180525F54: 48 85 F6           test        rsi,rsi
+  0000000180525F57: 74 4E              je          0000000180525FA7
+  0000000180525F59: 45 33 C9           xor         r9d,r9d
+  0000000180525F5C: 4C 8D 44 24 38     lea         r8,[rsp+38h]
+  0000000180525F61: 48 8B D0           mov         rdx,rax
+  0000000180525F64: 48 8B CE           mov         rcx,rsi
+  0000000180525F67: E8 04 A4 FC FF     call        00000001804F0370
+  0000000180525F6C: 84 C0              test        al,al
+  0000000180525F6E: 74 24              je          0000000180525F94
+  0000000180525F70: 8B 4C 24 38        mov         ecx,dword ptr [rsp+38h]
+  0000000180525F74: 3B 4B 10           cmp         ecx,dword ptr [rbx+10h]
+  0000000180525F77: 74 1B              je          0000000180525F94
+  0000000180525F79: 33 D2              xor         edx,edx
+  0000000180525F7B: E8 F0 62 13 00     call        000000018065C270
+  0000000180525F80: 48 8B D8           mov         rbx,rax
+  0000000180525F83: 48 85 C0           test        rax,rax
+  0000000180525F86: 74 1F              je          0000000180525FA7
+  0000000180525F88: 8B 4C 24 38        mov         ecx,dword ptr [rsp+38h]
+  0000000180525F8C: 39 48 10           cmp         dword ptr [rax+10h],ecx
+  0000000180525F8F: 0F 94 C1           sete        cl
+  0000000180525F92: 88 0F              mov         byte ptr [rdi],cl
+  0000000180525F94: 48 8B 74 24 40     mov         rsi,qword ptr [rsp+40h]
+  0000000180525F99: 48 8B C3           mov         rax,rbx
+  0000000180525F9C: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  0000000180525FA1: 48 83 C4 20        add         rsp,20h
+  0000000180525FA5: 5F                 pop         rdi
+  0000000180525FA6: C3                 ret
+  0000000180525FA7: E8 74 71 E3 FF     call        000000018035D120
+  0000000180525FAC: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

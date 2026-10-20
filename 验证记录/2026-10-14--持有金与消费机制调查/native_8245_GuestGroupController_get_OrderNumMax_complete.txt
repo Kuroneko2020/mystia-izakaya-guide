@@ -1,0 +1,29 @@
+# NightScene.GuestManagementUtility.GuestGroupController::get_OrderNumMax
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "get_OrderNumMax", "metadataMethodIndex": 8245, "token": "0x6002036", "methodPointerIndex": 8245, "va": "0x1804ca790", "rva": "0x4ca790", "endRva": null, "returnTypeIndex": 26152, "parameters": []}
+# range end RVA 0x4ca7b0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804CA790: 83 B9 98 00 00 00  cmp         dword ptr [rcx+0000000000000098h],0
+                    00
+  00000001804CA797: B8 05 00 00 00     mov         eax,5
+  00000001804CA79C: BA 03 00 00 00     mov         edx,3
+  00000001804CA7A1: 0F 44 C2           cmove       eax,edx
+  00000001804CA7A4: C3                 ret
+  00000001804CA7A5: CC                 int         3
+  00000001804CA7A6: CC                 int         3
+  00000001804CA7A7: CC                 int         3
+  00000001804CA7A8: CC                 int         3
+  00000001804CA7A9: CC                 int         3
+  00000001804CA7AA: CC                 int         3
+  00000001804CA7AB: CC                 int         3
+  00000001804CA7AC: CC                 int         3
+  00000001804CA7AD: CC                 int         3
+  00000001804CA7AE: CC                 int         3
+  00000001804CA7AF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

@@ -1,0 +1,93 @@
+# NightScene.GuestManagementUtility.GuestsManager::LackMoneyEvaluate
+# {"declaringType": "NightScene.GuestManagementUtility.GuestsManager", "typeIndex": 1495, "image": "Assembly-CSharp.dll", "name": "LackMoneyEvaluate", "metadataMethodIndex": 8536, "token": "0x6002159", "methodPointerIndex": 8536, "va": "0x1804d2710", "rva": "0x4d2710", "endRva": "0x4d273b", "returnTypeIndex": 33376, "parameters": [{"index": 6207, "name": "toEvaluate", "typeIndex": 24624}, {"index": 6208, "name": "exceedEndurance", "typeIndex": 20604}]}
+# range end RVA 0x4d2810; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804D2710: 48 89 5C 24 18     mov         qword ptr [rsp+18h],rbx
+  00000001804D2715: 48 89 6C 24 20     mov         qword ptr [rsp+20h],rbp
+  00000001804D271A: 56                 push        rsi
+  00000001804D271B: 48 83 EC 30        sub         rsp,30h
+  00000001804D271F: 48 C7 44 24 48 00  mov         qword ptr [rsp+48h],0
+                    00 00 00
+  00000001804D2728: 41 0F B6 E8        movzx       ebp,r8b
+  00000001804D272C: 48 8B DA           mov         rbx,rdx
+  00000001804D272F: 48 8B F1           mov         rsi,rcx
+  00000001804D2732: 48 85 D2           test        rdx,rdx
+  00000001804D2735: 0F 84 C0 00 00 00  je          00000001804D27FB
+  00000001804D273B: 48 89 7C 24 40     mov         qword ptr [rsp+40h],rdi
+  00000001804D2740: BF 01 00 00 00     mov         edi,1
+  00000001804D2745: 39 BA 98 00 00 00  cmp         dword ptr [rdx+0000000000000098h],edi
+  00000001804D274B: 75 0D              jne         00000001804D275A
+  00000001804D274D: 33 FF              xor         edi,edi
+  00000001804D274F: B8 02 00 00 00     mov         eax,2
+  00000001804D2754: 45 84 C0           test        r8b,r8b
+  00000001804D2757: 0F 44 F8           cmove       edi,eax
+  00000001804D275A: 45 33 C0           xor         r8d,r8d
+  00000001804D275D: 8B D7              mov         edx,edi
+  00000001804D275F: E8 0C 17 00 00     call        00000001804D3E70 ; NightScene.GuestManagementUtility.GuestsManager::PlayEvaluateSFX [MI 8528, RVA 0x4d3e70]
+  00000001804D2764: 45 33 C0           xor         r8d,r8d
+  00000001804D2767: 48 8B D3           mov         rdx,rbx
+  00000001804D276A: 48 8B CE           mov         rcx,rsi
+  00000001804D276D: E8 1E 53 00 00     call        00000001804D7A90 ; NightScene.GuestManagementUtility.GuestsManager::TryCloseCurrentDialogBox [MI 8543, RVA 0x4d7a90]
+  00000001804D2772: 48 8B 03           mov         rax,qword ptr [rbx]
+  00000001804D2775: 48 8B CB           mov         rcx,rbx
+  00000001804D2778: 40 84 ED           test        bpl,bpl
+  00000001804D277B: 74 0F              je          00000001804D278C
+  00000001804D277D: 48 8B 90 F0 01 00  mov         rdx,qword ptr [rax+00000000000001F0h]
+                    00
+  00000001804D2784: FF 90 E8 01 00 00  call        qword ptr [rax+00000000000001E8h]
+  00000001804D278A: EB 0D              jmp         00000001804D2799
+  00000001804D278C: 48 8B 90 E0 01 00  mov         rdx,qword ptr [rax+00000000000001E0h]
+                    00
+  00000001804D2793: FF 90 D8 01 00 00  call        qword ptr [rax+00000000000001D8h]
+  00000001804D2799: 4C 8B 13           mov         r10,qword ptr [rbx]
+  00000001804D279C: 4C 8D 44 24 48     lea         r8,[rsp+48h]
+  00000001804D27A1: 8B D0              mov         edx,eax
+  00000001804D27A3: 48 8B CB           mov         rcx,rbx
+  00000001804D27A6: 4D 8B 8A D0 01 00  mov         r9,qword ptr [r10+00000000000001D0h]
+                    00
+  00000001804D27AD: 41 FF 92 C8 01 00  call        qword ptr [r10+00000000000001C8h]
+                    00
+  00000001804D27B4: 4C 8B C0           mov         r8,rax
+  00000001804D27B7: 48 8B 44 24 48     mov         rax,qword ptr [rsp+48h]
+  00000001804D27BC: 44 8B CF           mov         r9d,edi
+  00000001804D27BF: 48 C7 44 24 28 00  mov         qword ptr [rsp+28h],0
+                    00 00 00
+  00000001804D27C8: 48 8B D3           mov         rdx,rbx
+  00000001804D27CB: 48 8B CE           mov         rcx,rsi
+  00000001804D27CE: 48 89 44 24 20     mov         qword ptr [rsp+20h],rax
+  00000001804D27D3: E8 78 38 00 00     call        00000001804D6050 ; NightScene.GuestManagementUtility.GuestsManager::ShowEvaluationDialog [MI 8501, RVA 0x4d6050]
+  00000001804D27D8: 45 33 C0           xor         r8d,r8d
+  00000001804D27DB: 48 8B D0           mov         rdx,rax
+  00000001804D27DE: 48 8B CE           mov         rcx,rsi
+  00000001804D27E1: E8 FA 05 76 02     call        0000000182C32DE0 ; UnityEngine.MonoBehaviour::StartCoroutine [MI 78394, RVA 0x2c32de0] | UnityEngine.MonoBehaviour::StartCoroutine_Auto [MI 78395, RVA 0x2c32de0]
+  00000001804D27E6: 48 8B 7C 24 40     mov         rdi,qword ptr [rsp+40h]
+  00000001804D27EB: 48 8B 5C 24 50     mov         rbx,qword ptr [rsp+50h]
+  00000001804D27F0: 48 8B 6C 24 58     mov         rbp,qword ptr [rsp+58h]
+  00000001804D27F5: 48 83 C4 30        add         rsp,30h
+  00000001804D27F9: 5E                 pop         rsi
+  00000001804D27FA: C3                 ret
+  00000001804D27FB: E8 20 A9 E8 FF     call        000000018035D120
+  00000001804D2800: CC                 int         3
+  00000001804D2801: CC                 int         3
+  00000001804D2802: CC                 int         3
+  00000001804D2803: CC                 int         3
+  00000001804D2804: CC                 int         3
+  00000001804D2805: CC                 int         3
+  00000001804D2806: CC                 int         3
+  00000001804D2807: CC                 int         3
+  00000001804D2808: CC                 int         3
+  00000001804D2809: CC                 int         3
+  00000001804D280A: CC                 int         3
+  00000001804D280B: CC                 int         3
+  00000001804D280C: CC                 int         3
+  00000001804D280D: CC                 int         3
+  00000001804D280E: CC                 int         3
+  00000001804D280F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

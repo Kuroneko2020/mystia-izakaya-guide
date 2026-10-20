@@ -1,0 +1,26 @@
+# OrderBase::get_DeskCode
+# {"declaringType": "OrderBase", "typeIndex": 1447, "image": "Assembly-CSharp.dll", "name": "get_DeskCode", "metadataMethodIndex": 8580, "token": "0x6002185", "methodPointerIndex": 8580, "va": "0x180513150", "rva": "0x513150", "endRva": null, "returnTypeIndex": 26152, "parameters": []}
+# range end RVA 0x513160; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180513150: 8B 41 48           mov         eax,dword ptr [rcx+48h]
+  0000000180513153: C3                 ret
+  0000000180513154: CC                 int         3
+  0000000180513155: CC                 int         3
+  0000000180513156: CC                 int         3
+  0000000180513157: CC                 int         3
+  0000000180513158: CC                 int         3
+  0000000180513159: CC                 int         3
+  000000018051315A: CC                 int         3
+  000000018051315B: CC                 int         3
+  000000018051315C: CC                 int         3
+  000000018051315D: CC                 int         3
+  000000018051315E: CC                 int         3
+  000000018051315F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

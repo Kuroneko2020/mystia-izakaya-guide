@@ -1,0 +1,30 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\GameAssembly.dll",
+  "assemblySha256": "91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789",
+  "assemblySize": 74782720,
+  "metadata": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\il2cpp_data\\Metadata\\global-metadata.dat",
+  "metadataSha256": "995d1a08cac7a784d397927cf73ae71a8ce47cc8637cc4dd7ea534a3368b31e7",
+  "peImageBase": "0x180000000",
+  "peTimeDateStamp": "0x69fee7f3",
+  "existingCatalogBuild": "23158340",
+  "existingCatalogVersion": "RELEASE 4.4.0e",
+  "steamManifest": "F:\\Games\\GamePlats\\Steam\\steamapps\\appmanifest_1584090.acf",
+  "manifestFacts": {
+    "appid": "1584090",
+    "name": "东方夜雀食堂 - Touhou Mystia's Izakaya",
+    "buildid": "23158340",
+    "TargetBuildID": "23158340",
+    "installdir": "Touhou Mystia Izakaya",
+    "StateFlags": "4"
+  },
+  "executionEvidence": "static inspection only; game not launched",
+  "privacy": "Only task-relevant manifest fields are retained; full manifest text and account identifiers are not archived.",
+  "modules": {
+    "Assembly-CSharp.dll": { "rva": "0x2fc7280", "count": 25004 },
+    "mscorlib.dll": { "rva": "0x3cea530", "count": 13608 },
+    "UnityEngine.CoreModule.dll": { "rva": "0x3d4c4a0", "count": 4415 },
+    "System.Core.dll": { "rva": "0x3d10920", "count": 3846 },
+    "Unity.TextMeshPro.dll": { "rva": "0x3d43790", "count": 1626 },
+    "UnityEngine.UI.dll": { "rva": "0x3d5b1b0", "count": 1879 }
+  }
+}

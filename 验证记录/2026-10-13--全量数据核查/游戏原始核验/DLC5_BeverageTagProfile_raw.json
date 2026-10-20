@@ -1,0 +1,20 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+  "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+  "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+  "path_id": -7625747883786167270,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": -8611876554190415907
+    },
+    "m_Name": "DLC5_BeverageTagProfile",
+    "indexes": [],
+    "previewName": "DLC5_BeverageTagsLang"
+  }
+}

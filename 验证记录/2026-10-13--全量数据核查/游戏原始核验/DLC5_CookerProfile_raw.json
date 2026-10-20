@@ -1,0 +1,84 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+  "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+  "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+  "path_id": -42729662466419673,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 262067847810755891
+    },
+    "m_Name": "DLC5_CookerProfile",
+    "cookers": [
+      {
+        "id": 5000,
+        "type": 5,
+        "cookerSeries": 5000,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 5715875822006931555
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -7297410300173703578
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -603902918399917054
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 2108604865411201025
+        },
+        "illuminationIntensity": 0.25,
+        "startCookSFX": {
+          "m_FileID": 14,
+          "m_PathID": -6171983142883624427
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 5001,
+        "type": 1,
+        "cookerSeries": 5001,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 2642401708376946048
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -7686664132517901568
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -1034059180598441106
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -7749903479987718937
+        },
+        "illuminationIntensity": 0.5,
+        "startCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      }
+    ],
+    "cookersPreview": {
+      "m_FileID": 15,
+      "m_PathID": -4094618370161350327
+    }
+  }
+}

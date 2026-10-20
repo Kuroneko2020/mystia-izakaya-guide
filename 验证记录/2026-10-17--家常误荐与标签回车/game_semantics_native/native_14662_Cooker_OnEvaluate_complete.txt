@@ -1,0 +1,66 @@
+# GameData.Core.Collections.Cooker::OnEvaluate
+# {"declaringType": "GameData.Core.Collections.Cooker", "typeIndex": 2304, "image": "Assembly-CSharp.dll", "name": "OnEvaluate", "metadataMethodIndex": 14662, "token": "0x6003947", "methodPointerIndex": 14662, "va": "0x18067dfa0", "rva": "0x67dfa0", "endRva": "0x67e002", "returnTypeIndex": 26152, "parameters": [{"index": 11292, "name": "evaluationResult", "typeIndex": 26152}, {"index": 11293, "name": "guestGroupController", "typeIndex": 24624}, {"index": 11294, "name": "serveFood", "typeIndex": 30383}]}
+# range end RVA 0x67e010; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018067DFA0: 40 53              push        rbx
+  000000018067DFA2: 55                 push        rbp
+  000000018067DFA3: 56                 push        rsi
+  000000018067DFA4: 57                 push        rdi
+  000000018067DFA5: 48 83 EC 38        sub         rsp,38h
+  000000018067DFA9: 8B DA              mov         ebx,edx
+  000000018067DFAB: 49 8B F1           mov         rsi,r9
+  000000018067DFAE: 33 D2              xor         edx,edx
+  000000018067DFB0: 49 8B E8           mov         rbp,r8
+  000000018067DFB3: 48 8B F9           mov         rdi,rcx
+  000000018067DFB6: E8 F5 04 00 00     call        000000018067E4B0 ; GameData.Core.Collections.Cooker::get_CanTriggerSpecialCookerSkill [MI 14655, RVA 0x67e4b0]
+  000000018067DFBB: 84 C0              test        al,al
+  000000018067DFBD: 74 32              je          000000018067DFF1
+  000000018067DFBF: 48 8B 4F 20        mov         rcx,qword ptr [rdi+20h]
+  000000018067DFC3: 48 85 C9           test        rcx,rcx
+  000000018067DFC6: 74 34              je          000000018067DFFC
+  000000018067DFC8: 4C 8B 11           mov         r10,qword ptr [rcx]
+  000000018067DFCB: 4C 8B CE           mov         r9,rsi
+  000000018067DFCE: 4C 8B C5           mov         r8,rbp
+  000000018067DFD1: 8B D3              mov         edx,ebx
+  000000018067DFD3: 49 8B 82 F0 01 00  mov         rax,qword ptr [r10+00000000000001F0h]
+                    00
+  000000018067DFDA: 48 89 84 24 80 00  mov         qword ptr [rsp+0000000000000080h],rax
+                    00 00
+  000000018067DFE2: 48 83 C4 38        add         rsp,38h
+  000000018067DFE6: 5F                 pop         rdi
+  000000018067DFE7: 5E                 pop         rsi
+  000000018067DFE8: 5D                 pop         rbp
+  000000018067DFE9: 5B                 pop         rbx
+  000000018067DFEA: 49 FF A2 E8 01 00  jmp         qword ptr [r10+00000000000001E8h]
+                    00
+  000000018067DFF1: 8B C3              mov         eax,ebx
+  000000018067DFF3: 48 83 C4 38        add         rsp,38h
+  000000018067DFF7: 5F                 pop         rdi
+  000000018067DFF8: 5E                 pop         rsi
+  000000018067DFF9: 5D                 pop         rbp
+  000000018067DFFA: 5B                 pop         rbx
+  000000018067DFFB: C3                 ret
+  000000018067DFFC: E8 1F F1 CD FF     call        000000018035D120
+  000000018067E001: CC                 int         3
+  000000018067E002: CC                 int         3
+  000000018067E003: CC                 int         3
+  000000018067E004: CC                 int         3
+  000000018067E005: CC                 int         3
+  000000018067E006: CC                 int         3
+  000000018067E007: CC                 int         3
+  000000018067E008: CC                 int         3
+  000000018067E009: CC                 int         3
+  000000018067E00A: CC                 int         3
+  000000018067E00B: CC                 int         3
+  000000018067E00C: CC                 int         3
+  000000018067E00D: CC                 int         3
+  000000018067E00E: CC                 int         3
+  000000018067E00F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

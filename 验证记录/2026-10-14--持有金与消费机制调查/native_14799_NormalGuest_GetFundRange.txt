@@ -1,0 +1,71 @@
+# GameData.Core.Collections.NightSceneUtility.NormalGuest::GetFundRange
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.NormalGuest", "typeIndex": 2318, "image": "Assembly-CSharp.dll", "name": "GetFundRange", "metadataMethodIndex": 14799, "token": "0x60039d0", "methodPointerIndex": 14799, "va": "0x180686070", "rva": "0x686070", "endRva": "0x68614c", "returnTypeIndex": 33188, "parameters": []}
+# range end RVA 0x68614c; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180686070: 40 57              push        rdi
+  0000000180686072: 48 83 EC 30        sub         rsp,30h
+  0000000180686076: 80 3D D1 69 CE 03  cmp         byte ptr [000000018436CA4Eh],0
+                    00
+  000000018068607D: 48 8B F9           mov         rdi,rcx
+  0000000180686080: 75 2B              jne         00000001806860AD
+  0000000180686082: 48 8D 0D 1F 77 AF  lea         rcx,[000000018417D7A8h]
+                    03
+  0000000180686089: E8 F2 6E CD FF     call        000000018035CF80
+  000000018068608E: 48 8D 0D A3 FD AF  lea         rcx,[0000000184185E38h]
+                    03
+  0000000180686095: E8 E6 6E CD FF     call        000000018035CF80
+  000000018068609A: 48 8D 0D 8F 0B B2  lea         rcx,[00000001841A6C30h]
+                    03
+  00000001806860A1: E8 DA 6E CD FF     call        000000018035CF80
+  00000001806860A6: C6 05 A1 69 CE 03  mov         byte ptr [000000018436CA4Eh],1
+                    01
+  00000001806860AD: 48 8B 0D 7C 0B B2  mov         rcx,qword ptr [00000001841A6C30h]
+                    03
+  00000001806860B4: 48 89 5C 24 40     mov         qword ptr [rsp+40h],rbx
+  00000001806860B9: 0F 29 74 24 20     movaps      xmmword ptr [rsp+20h],xmm6
+  00000001806860BE: E8 5D EE BB 00     call        0000000181244F20
+  00000001806860C3: 48 85 C0           test        rax,rax
+  00000001806860C6: 74 7E              je          0000000180686146
+  00000001806860C8: 48 8B 88 94 00 00  mov         rcx,qword ptr [rax+0000000000000094h]
+                    00
+  00000001806860CF: 33 D2              xor         edx,edx
+  00000001806860D1: E8 8A A1 D7 FF     call        0000000180400260
+  00000001806860D6: 48 8B 0D CB 76 AF  mov         rcx,qword ptr [000000018417D7A8h]
+                    03
+  00000001806860DD: 66 48 0F 6E F0     movq        xmm6,rax
+  00000001806860E2: E8 D9 6F CD FF     call        000000018035D0C0
+  00000001806860E7: 48 8B D8           mov         rbx,rax
+  00000001806860EA: 48 85 C0           test        rax,rax
+  00000001806860ED: 74 57              je          0000000180686146
+  00000001806860EF: 4C 8B 05 42 FD AF  mov         r8,qword ptr [0000000184185E38h]
+                    03
+  00000001806860F6: 45 33 C9           xor         r9d,r9d
+  00000001806860F9: 48 8B D7           mov         rdx,rdi
+  00000001806860FC: 48 8B C8           mov         rcx,rax
+  00000001806860FF: E8 FC 1E 7E 00     call        0000000180E68000
+  0000000180686104: 45 33 C0           xor         r8d,r8d
+  0000000180686107: 48 8B D3           mov         rdx,rbx
+  000000018068610A: 66 48 0F 7E F1     movq        rcx,xmm6
+  000000018068610F: E8 9C A1 D7 FF     call        00000001804002B0
+  0000000180686114: 0F 28 74 24 20     movaps      xmm6,xmmword ptr [rsp+20h]
+  0000000180686119: 48 8B 5C 24 40     mov         rbx,qword ptr [rsp+40h]
+  000000018068611E: 66 48 0F 6E C0     movq        xmm0,rax
+  0000000180686123: F3 0F 2C C0        cvttss2si   eax,xmm0
+  0000000180686127: F2 0F 11 44 24 58  movsd       mmword ptr [rsp+58h],xmm0
+  000000018068612D: 89 44 24 50        mov         dword ptr [rsp+50h],eax
+  0000000180686131: F3 0F 2C 44 24 5C  cvttss2si   eax,dword ptr [rsp+5Ch]
+  0000000180686137: 89 44 24 54        mov         dword ptr [rsp+54h],eax
+  000000018068613B: 48 8B 44 24 50     mov         rax,qword ptr [rsp+50h]
+  0000000180686140: 48 83 C4 30        add         rsp,30h
+  0000000180686144: 5F                 pop         rdi
+  0000000180686145: C3                 ret
+  0000000180686146: E8 D5 6F CD FF     call        000000018035D120
+  000000018068614B: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

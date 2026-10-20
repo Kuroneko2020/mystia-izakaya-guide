@@ -1,0 +1,46 @@
+# <>c__DisplayClass174_0::<GenerateOrderSession>b__7
+# {"declaringType": "<>c__DisplayClass174_0", "typeIndex": 1482, "image": "Assembly-CSharp.dll", "name": "<GenerateOrderSession>b__7", "metadataMethodIndex": 8780, "token": "0x600224d", "methodPointerIndex": 8780, "va": "0x1805204c0", "rva": "0x5204c0", "endRva": "0x520506", "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x520510; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001805204C0: 40 53              push        rbx
+  00000001805204C2: 48 83 EC 20        sub         rsp,20h
+  00000001805204C6: 48 8B D9           mov         rbx,rcx
+  00000001805204C9: 48 8B 49 20        mov         rcx,qword ptr [rcx+20h]
+  00000001805204CD: 48 85 C9           test        rcx,rcx
+  00000001805204D0: 74 2E              je          0000000180520500
+  00000001805204D2: 33 D2              xor         edx,edx
+  00000001805204D4: E8 B7 6B FA FF     call        00000001804C7090 ; NightScene.GuestManagementUtility.GuestGroupController::HaveNotLeft [MI 8289, RVA 0x4c7090] | System.Threading.Thread::get_ExecutionContextBelongsToCurrentScope [MI 29902, RVA 0x4c7090]
+  00000001805204D9: 84 C0              test        al,al
+  00000001805204DB: 74 1D              je          00000001805204FA
+  00000001805204DD: 48 8B 4B 18        mov         rcx,qword ptr [rbx+18h]
+  00000001805204E1: 48 85 C9           test        rcx,rcx
+  00000001805204E4: 74 1A              je          0000000180520500
+  00000001805204E6: 48 8B 53 20        mov         rdx,qword ptr [rbx+20h]
+  00000001805204EA: 45 33 C9           xor         r9d,r9d
+  00000001805204ED: 45 33 C0           xor         r8d,r8d
+  00000001805204F0: 48 83 C4 20        add         rsp,20h
+  00000001805204F4: 5B                 pop         rbx
+  00000001805204F5: E9 36 38 FB FF     jmp         00000001804D3D30 ; NightScene.GuestManagementUtility.GuestsManager::PayAndLeave [MI 8546, RVA 0x4d3d30]
+  00000001805204FA: 48 83 C4 20        add         rsp,20h
+  00000001805204FE: 5B                 pop         rbx
+  00000001805204FF: C3                 ret
+  0000000180520500: E8 1B CC E3 FF     call        000000018035D120
+  0000000180520505: CC                 int         3
+  0000000180520506: CC                 int         3
+  0000000180520507: CC                 int         3
+  0000000180520508: CC                 int         3
+  0000000180520509: CC                 int         3
+  000000018052050A: CC                 int         3
+  000000018052050B: CC                 int         3
+  000000018052050C: CC                 int         3
+  000000018052050D: CC                 int         3
+  000000018052050E: CC                 int         3
+  000000018052050F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

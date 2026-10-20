@@ -1,0 +1,217 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+  "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+  "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+  "path_id": -4286539549700201886,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 960848490085854692
+    },
+    "m_Name": "DLC1_RecipeProfile",
+    "recipes": [
+      {
+        "id": 1000,
+        "foodID": 1000,
+        "ingredients": [
+          23,
+          30
+        ],
+        "cookerType": 3,
+        "cookTime": 6.0
+      },
+      {
+        "id": 1001,
+        "foodID": 1001,
+        "ingredients": [
+          11,
+          30,
+          24
+        ],
+        "cookerType": 3,
+        "cookTime": 9.0
+      },
+      {
+        "id": 1002,
+        "foodID": 1002,
+        "ingredients": [
+          4,
+          3,
+          15,
+          16
+        ],
+        "cookerType": 2,
+        "cookTime": 14.0
+      },
+      {
+        "id": 1003,
+        "foodID": 1003,
+        "ingredients": [
+          1000,
+          1003
+        ],
+        "cookerType": 5,
+        "cookTime": 6.0
+      },
+      {
+        "id": 1004,
+        "foodID": 1004,
+        "ingredients": [
+          1004,
+          1005
+        ],
+        "cookerType": 3,
+        "cookTime": 12.0
+      },
+      {
+        "id": 1005,
+        "foodID": 1005,
+        "ingredients": [
+          3,
+          18,
+          25
+        ],
+        "cookerType": 1,
+        "cookTime": 12.0
+      },
+      {
+        "id": 1006,
+        "foodID": 1006,
+        "ingredients": [
+          30,
+          0,
+          9
+        ],
+        "cookerType": 3,
+        "cookTime": 6.0
+      },
+      {
+        "id": 1007,
+        "foodID": 1007,
+        "ingredients": [
+          30,
+          10,
+          1001
+        ],
+        "cookerType": 3,
+        "cookTime": 8.0
+      },
+      {
+        "id": 1008,
+        "foodID": 1008,
+        "ingredients": [
+          1002,
+          27
+        ],
+        "cookerType": 5,
+        "cookTime": 8.0
+      },
+      {
+        "id": 1009,
+        "foodID": 1009,
+        "ingredients": [
+          17,
+          1
+        ],
+        "cookerType": 3,
+        "cookTime": 6.0
+      },
+      {
+        "id": 1010,
+        "foodID": 1010,
+        "ingredients": [
+          18,
+          17,
+          27
+        ],
+        "cookerType": 1,
+        "cookTime": 9.0
+      },
+      {
+        "id": 1011,
+        "foodID": 1011,
+        "ingredients": [
+          17,
+          23,
+          1001,
+          35
+        ],
+        "cookerType": 1,
+        "cookTime": 14.0
+      },
+      {
+        "id": 1012,
+        "foodID": 1012,
+        "ingredients": [
+          17,
+          6,
+          1004
+        ],
+        "cookerType": 1,
+        "cookTime": 8.0
+      },
+      {
+        "id": 1013,
+        "foodID": 1013,
+        "ingredients": [
+          0,
+          36,
+          1004
+        ],
+        "cookerType": 4,
+        "cookTime": 8.0
+      },
+      {
+        "id": 1014,
+        "foodID": 1014,
+        "ingredients": [
+          10,
+          36,
+          27,
+          26
+        ],
+        "cookerType": 4,
+        "cookTime": 8.0
+      },
+      {
+        "id": 1015,
+        "foodID": 1015,
+        "ingredients": [
+          13,
+          14
+        ],
+        "cookerType": 5,
+        "cookTime": 6.0
+      },
+      {
+        "id": 1016,
+        "foodID": 1016,
+        "ingredients": [
+          8,
+          23,
+          5
+        ],
+        "cookerType": 4,
+        "cookTime": 9.0
+      },
+      {
+        "id": 1017,
+        "foodID": 1017,
+        "ingredients": [
+          16,
+          19,
+          15,
+          20,
+          18
+        ],
+        "cookerType": 1,
+        "cookTime": 18.0
+      }
+    ]
+  }
+}

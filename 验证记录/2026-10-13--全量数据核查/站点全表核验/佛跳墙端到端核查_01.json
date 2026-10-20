@@ -1,0 +1,429 @@
+{
+  "recipe": {
+    "菜品ID": "1017",
+    "菜品": "幻想佛跳墙",
+    "所属版本": "DLC1",
+    "等级": "4",
+    "价格": "160",
+    "厨具": "煮锅",
+    "主料": "和牛＋极上金枪鱼＋黑毛猪肉＋河豚＋松露",
+    "菜品标签": "昂贵、肉、水产、高级、传说、山珍、中华、适合拍照、力量涌现、文化底蕴、菌类、特产",
+    "冲突标签（加料会变黑暗物质）": "无",
+    "解锁来源": "矢田寺成美羁绊Lv4",
+    "描述": "由东方文明古国最强料理改造而来，据说得道的真佛也会因为它的气味夺墙而走，摒弃斋戒，真的是很神奇！"
+  },
+  "defaultCookingChange": {
+    "id": 1017,
+    "name": "幻想佛跳墙",
+    "version": "DLC1",
+    "ingredientCount": 5,
+    "ingredients": "和牛＋极上金枪鱼＋黑毛猪肉＋河豚＋松露",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、肉、水产、高级、传说、山珍、中华、适合拍照、力量涌现、文化底蕴、菌类、特产",
+    "expectedDefaultCookedTags": "昂贵、大份、肉、水产、高级、传说、山珍、中华、适合拍照、力量涌现、文化底蕴、菌类、特产"
+  },
+  "incorrectRecommendations": [
+    {
+      "guest": "蓬莱山辉夜",
+      "guestType": "guests",
+      "id": 1017,
+      "recipe": "幻想佛跳墙",
+      "hits": [
+        "传说",
+        "文化底蕴"
+      ],
+      "matchCount": 2,
+      "newlyConflictingTags": [
+        "大份"
+      ]
+    },
+    {
+      "guest": "少名针妙丸",
+      "guestType": "guests",
+      "id": 1017,
+      "recipe": "幻想佛跳墙",
+      "hits": [
+        "传说",
+        "文化底蕴",
+        "适合拍照"
+      ],
+      "matchCount": 3,
+      "newlyConflictingTags": [
+        "大份"
+      ]
+    },
+    {
+      "guest": "上白泽慧音",
+      "guestType": "guests",
+      "id": 1017,
+      "recipe": "幻想佛跳墙",
+      "hits": [
+        "中华",
+        "文化底蕴"
+      ],
+      "matchCount": 2,
+      "newlyConflictingTags": [
+        "大份"
+      ]
+    }
+  ],
+  "changedMatchCounts": [
+    {
+      "guest": "犬走椛",
+      "guestType": "guests",
+      "id": 1017,
+      "recipe": "幻想佛跳墙",
+      "hits": [
+        "大份",
+        "山珍",
+        "肉"
+      ],
+      "matchCount": 3,
+      "oldHits": [
+        "山珍",
+        "肉"
+      ],
+      "oldMatchCount": 2
+    },
+    {
+      "guest": "妖怪鼠",
+      "guestType": "normal",
+      "id": 1017,
+      "recipe": "幻想佛跳墙",
+      "hits": [
+        "大份",
+        "高级"
+      ],
+      "matchCount": 2,
+      "oldHits": [
+        "高级"
+      ],
+      "oldMatchCount": 1
+    },
+    {
+      "guest": "星熊勇仪",
+      "guestType": "guests",
+      "id": 1017,
+      "recipe": "幻想佛跳墙",
+      "hits": [
+        "传说",
+        "力量涌现",
+        "大份"
+      ],
+      "matchCount": 3,
+      "oldHits": [
+        "传说",
+        "力量涌现"
+      ],
+      "oldMatchCount": 2
+    },
+    {
+      "guest": "僵尸",
+      "guestType": "normal",
+      "id": 1017,
+      "recipe": "幻想佛跳墙",
+      "hits": [
+        "中华",
+        "传说",
+        "力量涌现",
+        "大份",
+        "山珍",
+        "文化底蕴",
+        "昂贵",
+        "水产",
+        "特产",
+        "肉",
+        "菌类",
+        "适合拍照",
+        "高级"
+      ],
+      "matchCount": 13,
+      "oldHits": [
+        "中华",
+        "传说",
+        "力量涌现",
+        "山珍",
+        "文化底蕴",
+        "昂贵",
+        "水产",
+        "特产",
+        "肉",
+        "菌类",
+        "适合拍照",
+        "高级"
+      ],
+      "oldMatchCount": 12
+    },
+    {
+      "guest": "饕餮尤魔",
+      "guestType": "guests",
+      "id": 1017,
+      "recipe": "幻想佛跳墙",
+      "hits": [
+        "传说",
+        "力量涌现",
+        "大份",
+        "肉",
+        "高级"
+      ],
+      "matchCount": 5,
+      "oldHits": [
+        "传说",
+        "力量涌现",
+        "肉",
+        "高级"
+      ],
+      "oldMatchCount": 4
+    },
+    {
+      "guest": "西行寺幽幽子",
+      "guestType": "guests",
+      "id": 1017,
+      "recipe": "幻想佛跳墙",
+      "hits": [
+        "中华",
+        "传说",
+        "大份",
+        "水产",
+        "肉",
+        "高级"
+      ],
+      "matchCount": 6,
+      "oldHits": [
+        "中华",
+        "传说",
+        "水产",
+        "肉",
+        "高级"
+      ],
+      "oldMatchCount": 5
+    },
+    {
+      "guest": "土蜘蛛",
+      "guestType": "normal",
+      "id": 1017,
+      "recipe": "幻想佛跳墙",
+      "hits": [
+        "大份",
+        "山珍",
+        "肉"
+      ],
+      "matchCount": 3,
+      "oldHits": [
+        "山珍",
+        "肉"
+      ],
+      "oldMatchCount": 2
+    },
+    {
+      "guest": "河童",
+      "guestType": "normal",
+      "id": 1017,
+      "recipe": "幻想佛跳墙",
+      "hits": [
+        "大份",
+        "高级"
+      ],
+      "matchCount": 2,
+      "oldHits": [
+        "高级"
+      ],
+      "oldMatchCount": 1
+    },
+    {
+      "guest": "山童",
+      "guestType": "normal",
+      "id": 1017,
+      "recipe": "幻想佛跳墙",
+      "hits": [
+        "大份",
+        "山珍",
+        "高级"
+      ],
+      "matchCount": 3,
+      "oldHits": [
+        "山珍",
+        "高级"
+      ],
+      "oldMatchCount": 2
+    }
+  ],
+  "legacyRows": [
+    {
+      "row": 64,
+      "guest": "红美铃",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "中华",
+        "力量涌现",
+        "肉"
+      ],
+      "newHits": [
+        "中华",
+        "力量涌现",
+        "肉"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：饱腹；可加：+地瓜（补饱腹）；+面粉（补饱腹）；+南瓜（补饱腹）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 117,
+      "guest": "矢田寺成美",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "山珍",
+        "文化底蕴",
+        "特产"
+      ],
+      "newHits": [
+        "山珍",
+        "文化底蕴",
+        "特产"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：清淡、和风；可加：+黄瓜（补清淡）；+豆腐（补清淡）；+露水（补清淡）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 162,
+      "guest": "村纱水蜜",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "力量涌现",
+        "特产",
+        "肉",
+        "高级"
+      ],
+      "newHits": [
+        "力量涌现",
+        "特产",
+        "肉",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：饱腹、咸、鲜；可加：+芝士（补咸、鲜）；+黑盐（补咸）；+鳟鱼（补鲜）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 174,
+      "guest": "物部布都",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "传说",
+        "山珍",
+        "高级"
+      ],
+      "newHits": [
+        "传说",
+        "山珍",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：清淡、和风、燃起来了；可加：+黄瓜（补清淡）；+豆腐（补清淡）；+露水（补清淡）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 222,
+      "guest": "今泉影狼",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "山珍",
+        "肉",
+        "适合拍照"
+      ],
+      "newHits": [
+        "山珍",
+        "肉",
+        "适合拍照"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：家常、和风、凉爽；可加：+冰块（补凉爽）；+黄瓜（补家常）；+豆腐（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 279,
+      "guest": "西行寺幽幽子",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "中华",
+        "传说",
+        "水产",
+        "肉",
+        "高级"
+      ],
+      "newHits": [
+        "中华",
+        "传说",
+        "大份",
+        "水产",
+        "肉",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "5",
+      "newTagScore": 6,
+      "extraIngredientSuggestion": "缺：大份、饱腹、和风；可加：+地瓜（补饱腹）；+面粉（补饱腹）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 287,
+      "guest": "萌澄果",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "水产",
+        "肉"
+      ],
+      "newHits": [
+        "水产",
+        "肉"
+      ],
+      "newHates": [],
+      "oldScore": "2",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：甜、梦幻；可加：+葡萄（补甜）；+奶油（补甜）；+桃子（补甜）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 304,
+      "guest": "立空汐",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "力量涌现",
+        "山珍",
+        "昂贵",
+        "肉"
+      ],
+      "newHits": [
+        "力量涌现",
+        "山珍",
+        "昂贵",
+        "肉"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：下酒、和风；该菜没有不冲突的加料位，可换其他推荐菜或直接用高命中菜。（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    }
+  ]
+}

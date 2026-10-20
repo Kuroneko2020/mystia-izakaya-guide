@@ -1,0 +1,43 @@
+# <>c__DisplayClass180_0::<EvaluateOrder>b__6
+# {"declaringType": "<>c__DisplayClass180_0", "typeIndex": 1484, "image": "Assembly-CSharp.dll", "name": "<EvaluateOrder>b__6", "metadataMethodIndex": 8801, "token": "0x6002262", "methodPointerIndex": 8801, "va": "0x180522420", "rva": "0x522420", "endRva": "0x522465", "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x522470; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180522420: 48 83 EC 38        sub         rsp,38h
+  0000000180522424: 4C 8B 59 38        mov         r11,qword ptr [rcx+38h]
+  0000000180522428: 4D 85 DB           test        r11,r11
+  000000018052242B: 74 32              je          000000018052245F
+  000000018052242D: 4D 8B 13           mov         r10,qword ptr [r11]
+  0000000180522430: 44 0F B6 49 50     movzx       r9d,byte ptr [rcx+50h]
+  0000000180522435: 4C 8B 41 48        mov         r8,qword ptr [rcx+48h]
+  0000000180522439: 8B 51 40           mov         edx,dword ptr [rcx+40h]
+  000000018052243C: 49 8B 82 30 02 00  mov         rax,qword ptr [r10+0000000000000230h]
+                    00
+  0000000180522443: 48 89 44 24 28     mov         qword ptr [rsp+28h],rax
+  0000000180522448: 0F B6 41 51        movzx       eax,byte ptr [rcx+51h]
+  000000018052244C: 49 8B CB           mov         rcx,r11
+  000000018052244F: 88 44 24 20        mov         byte ptr [rsp+20h],al
+  0000000180522453: 41 FF 92 28 02 00  call        qword ptr [r10+0000000000000228h]
+                    00
+  000000018052245A: 48 83 C4 38        add         rsp,38h
+  000000018052245E: C3                 ret
+  000000018052245F: E8 BC AC E3 FF     call        000000018035D120
+  0000000180522464: CC                 int         3
+  0000000180522465: CC                 int         3
+  0000000180522466: CC                 int         3
+  0000000180522467: CC                 int         3
+  0000000180522468: CC                 int         3
+  0000000180522469: CC                 int         3
+  000000018052246A: CC                 int         3
+  000000018052246B: CC                 int         3
+  000000018052246C: CC                 int         3
+  000000018052246D: CC                 int         3
+  000000018052246E: CC                 int         3
+  000000018052246F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

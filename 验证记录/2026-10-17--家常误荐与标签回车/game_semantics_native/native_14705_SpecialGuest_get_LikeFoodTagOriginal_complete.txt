@@ -1,0 +1,107 @@
+# GameData.Core.Collections.NightSceneUtility.SpecialGuest::get_LikeFoodTagOriginal
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest", "typeIndex": 2315, "image": "Assembly-CSharp.dll", "name": "get_LikeFoodTagOriginal", "metadataMethodIndex": 14705, "token": "0x6003972", "methodPointerIndex": 14705, "va": "0x18068d630", "rva": "0x68d630", "endRva": "0x68d767", "returnTypeIndex": 18550, "parameters": []}
+# range end RVA 0x68d770; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018068D630: 48 89 5C 24 10     mov         qword ptr [rsp+10h],rbx
+  000000018068D635: 56                 push        rsi
+  000000018068D636: 48 83 EC 20        sub         rsp,20h
+  000000018068D63A: 80 3D EC F3 CD 03  cmp         byte ptr [000000018436CA2Dh],0
+                    00
+  000000018068D641: 48 8B D9           mov         rbx,rcx
+  000000018068D644: 75 43              jne         000000018068D689
+  000000018068D646: 48 8D 0D 93 16 B0  lea         rcx,[000000018418ECE0h]
+                    03
+  000000018068D64D: E8 2E F9 CC FF     call        000000018035CF80
+  000000018068D652: 48 8D 0D 8F A8 B1  lea         rcx,[00000001841A7EE8h]
+                    03
+  000000018068D659: E8 22 F9 CC FF     call        000000018035CF80
+  000000018068D65E: 48 8D 0D 2B 81 B0  lea         rcx,[0000000184195790h]
+                    03
+  000000018068D665: E8 16 F9 CC FF     call        000000018035CF80
+  000000018068D66A: 48 8D 0D DF 7B B3  lea         rcx,[00000001841C5250h]
+                    03
+  000000018068D671: E8 0A F9 CC FF     call        000000018035CF80
+  000000018068D676: 48 8D 0D 83 77 AB  lea         rcx,[0000000184144E00h]
+                    03
+  000000018068D67D: E8 FE F8 CC FF     call        000000018035CF80
+  000000018068D682: C6 05 A4 F3 CD 03  mov         byte ptr [000000018436CA2Dh],1
+                    01
+  000000018068D689: 48 8B 0D 70 77 AB  mov         rcx,qword ptr [0000000184144E00h]
+                    03
+  000000018068D690: 48 8B 73 38        mov         rsi,qword ptr [rbx+38h]
+  000000018068D694: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  000000018068D69B: 75 0C              jne         000000018068D6A9
+  000000018068D69D: E8 0E FC C6 FF     call        00000001802FD2B0
+  000000018068D6A2: 48 8B 0D 57 77 AB  mov         rcx,qword ptr [0000000184144E00h]
+                    03
+  000000018068D6A9: 48 8B 81 B8 00 00  mov         rax,qword ptr [rcx+00000000000000B8h]
+                    00
+  000000018068D6B0: 48 89 7C 24 30     mov         qword ptr [rsp+30h],rdi
+  000000018068D6B5: 48 8B 58 28        mov         rbx,qword ptr [rax+28h]
+  000000018068D6B9: 48 85 DB           test        rbx,rbx
+  000000018068D6BC: 75 73              jne         000000018068D731
+  000000018068D6BE: 39 99 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],ebx
+  000000018068D6C4: 75 0C              jne         000000018068D6D2
+  000000018068D6C6: E8 E5 FB C6 FF     call        00000001802FD2B0
+  000000018068D6CB: 48 8B 0D 2E 77 AB  mov         rcx,qword ptr [0000000184144E00h]
+                    03
+  000000018068D6D2: 48 8B 81 B8 00 00  mov         rax,qword ptr [rcx+00000000000000B8h]
+                    00
+  000000018068D6D9: 48 8B 0D B0 80 B0  mov         rcx,qword ptr [0000000184195790h]
+                    03
+  000000018068D6E0: 48 8B 38           mov         rdi,qword ptr [rax]
+  000000018068D6E3: E8 D8 F9 CC FF     call        000000018035D0C0
+  000000018068D6E8: 48 8B D8           mov         rbx,rax
+  000000018068D6EB: 48 85 C0           test        rax,rax
+  000000018068D6EE: 74 71              je          000000018068D761
+  000000018068D6F0: 4C 8B 05 59 7B B3  mov         r8,qword ptr [00000001841C5250h]
+                    03
+  000000018068D6F7: 45 33 C9           xor         r9d,r9d
+  000000018068D6FA: 48 8B D7           mov         rdx,rdi
+  000000018068D6FD: 48 8B C8           mov         rcx,rax
+  000000018068D700: E8 0B 9E 7D 00     call        0000000180E67510
+  000000018068D705: 48 8B 05 F4 76 AB  mov         rax,qword ptr [0000000184144E00h]
+                    03
+  000000018068D70C: 48 8B D3           mov         rdx,rbx
+  000000018068D70F: 4C 8B 80 B8 00 00  mov         r8,qword ptr [rax+00000000000000B8h]
+                    00
+  000000018068D716: 49 89 58 28        mov         qword ptr [r8+28h],rbx
+  000000018068D71A: 48 8B 05 DF 76 AB  mov         rax,qword ptr [0000000184144E00h]
+                    03
+  000000018068D721: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  000000018068D728: 48 83 C1 28        add         rcx,28h
+  000000018068D72C: E8 7F F3 CC FF     call        000000018035CAB0
+  000000018068D731: 4C 8B 05 A8 15 B0  mov         r8,qword ptr [000000018418ECE0h]
+                    03
+  000000018068D738: 48 8B D3           mov         rdx,rbx
+  000000018068D73B: 48 8B CE           mov         rcx,rsi
+  000000018068D73E: E8 8D F9 70 00     call        0000000180D9D0D0
+  000000018068D743: 48 8B 15 9E A7 B1  mov         rdx,qword ptr [00000001841A7EE8h]
+                    03
+  000000018068D74A: 48 8B C8           mov         rcx,rax
+  000000018068D74D: 48 8B 7C 24 30     mov         rdi,qword ptr [rsp+30h]
+  000000018068D752: 48 8B 5C 24 38     mov         rbx,qword ptr [rsp+38h]
+  000000018068D757: 48 83 C4 20        add         rsp,20h
+  000000018068D75B: 5E                 pop         rsi
+  000000018068D75C: E9 5F 43 72 00     jmp         0000000180DB1AC0
+  000000018068D761: E8 BA F9 CC FF     call        000000018035D120
+  000000018068D766: CC                 int         3
+  000000018068D767: CC                 int         3
+  000000018068D768: CC                 int         3
+  000000018068D769: CC                 int         3
+  000000018068D76A: CC                 int         3
+  000000018068D76B: CC                 int         3
+  000000018068D76C: CC                 int         3
+  000000018068D76D: CC                 int         3
+  000000018068D76E: CC                 int         3
+  000000018068D76F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

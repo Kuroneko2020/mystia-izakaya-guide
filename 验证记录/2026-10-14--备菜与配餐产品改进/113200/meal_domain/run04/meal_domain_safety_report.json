@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "headUnchanged": "9774f56fa4f809b93f4ad31f0edae190ba50c53b",
+  "ownedFiles": [
+    {
+      "path": "脚本/export_meal_domain.py",
+      "bytes": 19327,
+      "sha256": "2bc7cb10aa717e560c21e4a2c09d4155a92e6eacc01c169df0875806e3c6549f"
+    },
+    {
+      "path": "脚本/ryotei_meal_domain.js",
+      "bytes": 33032,
+      "sha256": "eb66ef4950d00eb6e7146b996d447b5cd4f9dcc09266f74ddaffb16dc99b088a"
+    },
+    {
+      "path": "脚本/verify_meal_domain.cjs",
+      "bytes": 23462,
+      "sha256": "d519bf0f21676df869611647dae8c0cf704c6980edebe0fe06517f31e2d6c09d"
+    },
+    {
+      "path": "中间数据/MEAL_DOMAIN_DATA.json",
+      "bytes": 589786,
+      "sha256": "a02a2388f19b9f152e2432f2d291f348bb1d9e3dac584cdcbc97683c2bb3032e"
+    }
+  ],
+  "reproducibleMachineExport": true,
+  "pythonSyntax": "PASS",
+  "duplicateOutputProtection": {
+    "python": "FileExistsError, original bytes unchanged",
+    "node": "EEXIST, original report unchanged"
+  },
+  "protectedInputs": [
+    {
+      "path": "脚本/build_excel.py",
+      "bytes": 50884,
+      "sha256": "ff457601b1cab8486a2a6a9b35941b852d46ad82cdf4e72daaa50dc7258e00f4"
+    },
+    {
+      "path": "脚本/extract_game_tag_rules.py",
+      "bytes": 9983,
+      "sha256": "e28ae975feeb8bad7281687aec4fe5ec637411a2a16b0295cd217111ed831c4a"
+    },
+    {
+      "path": "脚本/meal_tags.py",
+      "bytes": 4253,
+      "sha256": "d466a1e110e3e9c952c23fa9c5db428e32f7de1a68d77cb458d6ec939874f05a"
+    },
+    {
+      "path": "中间数据/BEVERAGE_LIST.json",
+      "bytes": 34940,
+      "sha256": "3ae57aa6d7e79afcc8df15c13b9b4f91d58aaa90082868eb44ddca85e8cf3532"
+    },
+    {
+      "path": "中间数据/check_440.txt",
+      "bytes": 2061,
+      "sha256": "23e81ee0c007c86a7bcd6f1ad3cd9d8683ff6b956bf8aa45c0a345e5021f1468"
+    },
+    {
+      "path": "中间数据/check_addons.txt",
+      "bytes": 1772,
+      "sha256": "b34d8e8d246086f61f3c07a545f17e69167888637cdd641e1cd87fd8dba68700"
+    },
+    {
+      "path": "中间数据/CLOTHES_LIST.json",
+      "bytes": 10668,
+      "sha256": "4a23908da34aec2629b9f8ddd378b15e522e203c93dbacbc0c203f5115b4e61e"
+    },
+    {
+      "path": "中间数据/COLLECTION_POINT_REFRESH_FACTS.json",
+      "bytes": 21100,
+      "sha256": "2a1642894d1e407e7f43b0748915950b95cbd4de52acf5ce8e9a00dbb7e56253"
+    },
+    {
+      "path": "中间数据/COOKER_LIST.json",
+      "bytes": 16078,
+      "sha256": "68b0874aede9e27d7ba27fa4cab916f3cd94044a140b3784bac7e569fddf7048"
+    },
+    {
+      "path": "中间数据/debug_bili2021.txt",
+      "bytes": 2354,
+      "sha256": "217727308f0af4560f9bd07193d06e4588207e9931bf97871cb633ce2ca35318"
+    },
+    {
+      "path": "中间数据/debug_guest.txt",
+      "bytes": 2294,
+      "sha256": "25e481fab7dcf036f5a0c91f6c71e57ac8b0d51a928eeedaacc3dd762a2121bc"
+    },
+    {
+      "path": "中间数据/debug_loop.txt",
+      "bytes": 4947,
+      "sha256": "39c6dc9eea8f59862e6fabaf9c8266cfc42368829a66ce35aa61fbe5cbe75a5f"
+    },
+    {
+      "path": "中间数据/debug_regex.txt",
+      "bytes": 823,
+      "sha256": "ee973cd83f0695b9220a0034f68b4f60fbbc6c06b75e99b1831c9e3184b76f36"
+    },
+    {
+      "path": "中间数据/DECORATION_LIST.json",
+      "bytes": 7364,
+      "sha256": "0a829ec680e55aec141334a39a9eeec2e613747b1cfb5f107b354962ba08b22c"
+    },
+    {
+      "path": "中间数据/dlc9_report.txt",
+      "bytes": 50204,
+      "sha256": "8615c5e8f7968a60fa7e882ec116dc1cb1be905c6a8ada3363db34beae61de2d"
+    },
+    {
+      "path": "中间数据/FOOD_LIST.json",
+      "bytes": 128614,
+      "sha256": "ff7038ebf9442e386f1b7ad62f113f6dd89f586e50e2515fb8112bc5da8edc13"
+    },
+    {
+      "path": "中间数据/GAME_TAG_RULES.json",
+      "bytes": 4111,
+      "sha256": "cfa5ccc9d5573d28f123417c459570df1c0d1d3444f3a79fd9a074398ebae060"
+    },
+    {
+      "path": "中间数据/guest_summary.txt",
+      "bytes": 29473,
+      "sha256": "ba47f30efb01f3646fc323a4a9d2d62d1b4df44dd52337bd8588868a40f7076d"
+    },
+    {
+      "path": "中间数据/INGREDIENT_LIST.json",
+      "bytes": 64583,
+      "sha256": "7c9f8982eb2ebcda06d86158800b37815331521b38455f124223df2daa4ad405"
+    },
+    {
+      "path": "中间数据/ingredient_report.txt",
+      "bytes": 2798,
+      "sha256": "b2cc2cd7969629c77c534b97f0ac3535095c50eb14f79ed8cb2302f301029e9c"
+    },
+    {
+      "path": "中间数据/ingredient_suspicious.txt",
+      "bytes": 59,
+      "sha256": "aed7f28422731b345ecb583dcfd6c7dbcd8a79ccf7867d900a97ae671e497a71"
+    },
+    {
+      "path": "中间数据/inspect_report.txt",
+      "bytes": 13532,
+      "sha256": "95d552e8162cac0b3f0a5a066cf9c946fe9e13bd7dae670f5a2082ef8325c2b0"
+    },
+    {
+      "path": "中间数据/key_report.txt",
+      "bytes": 1471,
+      "sha256": "be85f8ff14051bee24b7e8fa99d11275dd277b83e4d5958eb0855520e25b7230"
+    },
+    {
+      "path": "中间数据/NORMAL_GUEST_LIST.json",
+      "bytes": 38054,
+      "sha256": "50289617134a8afb4cf68be919ea87350f53b0168815451cf3b780c124bd8122"
+    },
+    {
+      "path": "中间数据/SPECIAL_GUEST_LIST.json",
+      "bytes": 179673,
+      "sha256": "ef2158b3671c38c25f33a7507154d028f9f23fea4597eeedc296a710d41e2d4d"
+    },
+    {
+      "path": "中间数据/料亭版攻略数据基线.json",
+      "bytes": 539110,
+      "sha256": "a9a3e244c2b14ada610b8dc39b4daa666ec7aeb31ee2fb02604d8d00b45430fd"
+    },
+    {
+      "path": "中间数据/调试产物/addon_chrome_err.txt",
+      "bytes": 167,
+      "sha256": "42980d47e4897b0d8c4866ad3d7b56b5461837eed3e272e1d69596f860a4ab6e"
+    },
+    {
+      "path": "中间数据/调试产物/addon_dump.html",
+      "bytes": 1792555,
+      "sha256": "bbdd2f1c32aa3eb4ff2c3b0dd0419735420d71b3cb70c5fe255a1054a4f4e509"
+    },
+    {
+      "path": "中间数据/调试产物/base_final_dump.html",
+      "bytes": 1392388,
+      "sha256": "9461a8a3a6027126864208bb449e843588deaeba7bf3c70216f84a9109796b68"
+    },
+    {
+      "path": "中间数据/调试产物/base_final_err.txt",
+      "bytes": 167,
+      "sha256": "80fcfba1d5cdf88713b7cdb6b3cd074c2cead27d10572a0619a7f27ce5c3a0e0"
+    },
+    {
+      "path": "中间数据/调试产物/chip_base_dump.html",
+      "bytes": 1322898,
+      "sha256": "3cc9c5ab9245c0468a5181995c6493afd907dbe5884a020c1c8bc3a230deb486"
+    },
+    {
+      "path": "中间数据/调试产物/chip_base_err.txt",
+      "bytes": 167,
+      "sha256": "43d67a0d7c3f979727c35f80a5402fde55a2074690ac7c146a03183208ba517b"
+    },
+    {
+      "path": "中间数据/调试产物/chip_test.html",
+      "bytes": 595237,
+      "sha256": "e002429b9f5254ff37eaea81a3aa7062fe3b3869c63b8d6d07b3b6fd12c4aed8"
+    },
+    {
+      "path": "中间数据/调试产物/chip_test_dump.html",
+      "bytes": 1295969,
+      "sha256": "9fa348853906adf6a1aadd280c36778bdb29589c7049c0fe436cf98fe18cb9a2"
+    },
+    {
+      "path": "中间数据/调试产物/chip_test_err.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "中间数据/调试产物/chrome_err.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "中间数据/调试产物/chrome_err2.txt",
+      "bytes": 167,
+      "sha256": "33b8b64687d2999da9bd78f169e566fb7a5cd4ee97d584f8393a60e64920c068"
+    },
+    {
+      "path": "中间数据/调试产物/chrome_err3.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "中间数据/调试产物/chrome_err4.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "中间数据/调试产物/debug_mobile.html",
+      "bytes": 566923,
+      "sha256": "f1ed74a0668c074002cbdbbdbde6b5dab5e0988582ff37f2ee684e7f2a20e35e"
+    },
+    {
+      "path": "中间数据/调试产物/detail2_dump.html",
+      "bytes": 1380893,
+      "sha256": "035b084f36b4ca6ba6a174c79c0903032ecb77de5b111368c975f41174bb71eb"
+    },
+    {
+      "path": "中间数据/调试产物/detail2_err.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "中间数据/调试产物/detail_drink_dump.html",
+      "bytes": 1380678,
+      "sha256": "26f2627864352921b51832d0e94c932bd7bfdde6deac6197229a367ae1155779"
+    },
+    {
+      "path": "中间数据/调试产物/detail_drink_err.txt",
+      "bytes": 167,
+      "sha256": "aef27050bfd3c9f6a8a5ba805a62865b9914e4cd09eb5451a4873c14282e7a1c"
+    },
+    {
+      "path": "中间数据/调试产物/drinkrec2_dump.html",
+      "bytes": 1376514,
+      "sha256": "d6f6505bd4b4600cb8ac8f41e40dfdd60f05666bd593c073ae540033906cb22f"
+    },
+    {
+      "path": "中间数据/调试产物/drinkrec2_err.txt",
+      "bytes": 167,
+      "sha256": "807d0fb5dcef0cd0be00c92d3e08fad4e89e4f45c29fb83c6f565d166684fe5f"
+    },
+    {
+      "path": "中间数据/调试产物/drinkrec_dump.html",
+      "bytes": 1376299,
+      "sha256": "7ed1b84a757cb416e38af8858ec4632977f6594606d87a53a693e91f89e6d108"
+    },
+    {
+      "path": "中间数据/调试产物/drinkrec_err.txt",
+      "bytes": 167,
+      "sha256": "c0fb021c456b93dc1ffef79abe7886865d67e922438ce13e59c88d90787fd428"
+    },
+    {
+      "path": "中间数据/调试产物/final_check.html",
+      "bytes": 1322898,
+      "sha256": "3cc9c5ab9245c0468a5181995c6493afd907dbe5884a020c1c8bc3a230deb486"
+    },
+    {
+      "path": "中间数据/调试产物/final_check_err.txt",
+      "bytes": 167,
+      "sha256": "91e60af8787ec0659465b6d2c02dbbdc48617d5fb32fe3a887e5897a23b1c4b6"
+    },
+    {
+      "path": "中间数据/调试产物/final_chrome_err.txt",
+      "bytes": 167,
+      "sha256": "be6859ea52bd0549b41c4f715e0c996c0c493d5a8cd817aeba1e7593af56984b"
+    },
+    {
+      "path": "中间数据/调试产物/final_detail_dump.html",
+      "bytes": 1381713,
+      "sha256": "84af3067cf3d1bedcc8a3b9a357e25d6486d7d62f87dd0ba04f3b90547e82aa2"
+    },
+    {
+      "path": "中间数据/调试产物/final_detail_err.txt",
+      "bytes": 167,
+      "sha256": "c27f4808051361ac7dc1011613d5b54700fb10a9f7257732ad184008f80871d0"
+    },
+    {
+      "path": "中间数据/调试产物/final_drink_dump.html",
+      "bytes": 1376514,
+      "sha256": "d6f6505bd4b4600cb8ac8f41e40dfdd60f05666bd593c073ae540033906cb22f"
+    },
+    {
+      "path": "中间数据/调试产物/final_dump.html",
+      "bytes": 1339082,
+      "sha256": "4bb64a95e9c5db5f21a160dcee4d6a8fc7d08418212f4c3858e8251b4173e3fe"
+    },
+    {
+      "path": "中间数据/调试产物/final_pinyin_dump.html",
+      "bytes": 1361195,
+      "sha256": "104439f80444fcdc86a8423a09f19e3cca803e9d2697ddf31001499e9025e1b6"
+    },
+    {
+      "path": "中间数据/调试产物/final_pinyin_err.txt",
+      "bytes": 167,
+      "sha256": "22f47b517c578c702e57057ed895c5d1e2b881ce77b037805f1a29cec9ba2683"
+    },
+    {
+      "path": "中间数据/调试产物/final_qinxin_addon.html",
+      "bytes": 1367761,
+      "sha256": "9b1fe3af01b6a842727b79c057070fad097dc37c23fce62f98cdedafac00715e"
+    },
+    {
+      "path": "中间数据/调试产物/final_qinxin_addon_err.txt",
+      "bytes": 167,
+      "sha256": "2a0302b27313e2bb14168f94d9c54d17b1c18663f5b9e43f89eebb493c652ca2"
+    },
+    {
+      "path": "中间数据/调试产物/guide_audit.txt",
+      "bytes": 596,
+      "sha256": "ebfe14f5a6e12f1b58b615e4a4ff227bca70a3f6a33c6c7b49aac89c173b8610"
+    },
+    {
+      "path": "中间数据/调试产物/html_check.txt",
+      "bytes": 3723,
+      "sha256": "8f48b53816c3f984c5c199eb2b2ba1b7b42a0a6ba7f6d61a853ec5b83e84565d"
+    },
+    {
+      "path": "中间数据/调试产物/html_dump.html",
+      "bytes": 1337705,
+      "sha256": "44ed4a9378a1ae129c9cd9451a7f0d97fb4b2e7639fb244defff1df80b0c9c5a"
+    },
+    {
+      "path": "中间数据/调试产物/html_dump2.html",
+      "bytes": 1338361,
+      "sha256": "b43e85e64a4eb19ddb77ee4dca7e2b7dcfb5b748181cd7c8a9e28655e962e3d7"
+    },
+    {
+      "path": "中间数据/调试产物/html_dump_qinxin.html",
+      "bytes": 1348883,
+      "sha256": "139cb023c82595c41f412d7c2bdef00c1d253d5588444d772d089cecc58a7244"
+    },
+    {
+      "path": "中间数据/调试产物/html_dump_qinxin2.html",
+      "bytes": 1348741,
+      "sha256": "c724721def04a04371786eafb8ae847afbf8e64428a968a15bb8ba5b25eee416"
+    },
+    {
+      "path": "中间数据/调试产物/length_report.txt",
+      "bytes": 398,
+      "sha256": "8aca538a006977f990632e5baa7471b355a29ccb29b90a2d33310e456045e328"
+    },
+    {
+      "path": "中间数据/调试产物/lv_catalog_dump.html",
+      "bytes": 1305620,
+      "sha256": "0fb2a7faeeb65985529fe3dcf0134f0b73e4082bdacd74daad44462b3ec6928c"
+    },
+    {
+      "path": "中间数据/调试产物/lv_details_dump.html",
+      "bytes": 1305620,
+      "sha256": "accdafe931aea8fca519500da6fc329a92804ec52a57f335372a40b4834950da"
+    },
+    {
+      "path": "中间数据/调试产物/lv_detail_dump.html",
+      "bytes": 1392857,
+      "sha256": "12f8f91218cf4efa224281dc9cc11d48f346b813903df7eabdd27f4845129148"
+    },
+    {
+      "path": "中间数据/调试产物/lv_detail_err.txt",
+      "bytes": 167,
+      "sha256": "7018644179865cc0e7b189a91159c6fcbdce183f60ba8a177a7385bccd7e5b0b"
+    },
+    {
+      "path": "中间数据/调试产物/order_dump.html",
+      "bytes": 1367761,
+      "sha256": "33445ab4ae31b858e31514414fa517feb8ff177d5c78ead82eb92046a3d2a127"
+    },
+    {
+      "path": "中间数据/调试产物/order_err.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_chip_final.html",
+      "bytes": 633383,
+      "sha256": "f72a347f1c573f4a3de01390ba9c4738e24dcf9a06c923a18c425706dfef150f"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_chip_final_dump.html",
+      "bytes": 1403793,
+      "sha256": "ad5cb2d1ea422f36658bbe783a269203c409ace9bd84f244ea70bbadc1cbb457"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_test.html",
+      "bytes": 634267,
+      "sha256": "34a4de599ad1216e804071591046b223c72640e281e040cfb29d4ac1819f8547"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_test2.html",
+      "bytes": 633888,
+      "sha256": "95467d08cc78bee5287b433cd11670982b87e1809685ce7cc1b18504e90549b8"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_test2b_dump.html",
+      "bytes": 866885,
+      "sha256": "a9531546ffb1e1b500ca9c819bdd577f8ceb688888a73d1bbd25e4f126df38a0"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_test2b_err.txt",
+      "bytes": 167,
+      "sha256": "084bd374692d7084463140d13f0ecaad43009be0e7d2bbe6c2125d3bb5fc176f"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_test2_dump.html",
+      "bytes": 866885,
+      "sha256": "a9531546ffb1e1b500ca9c819bdd577f8ceb688888a73d1bbd25e4f126df38a0"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_test2_err.txt",
+      "bytes": 167,
+      "sha256": "803dd022514cdc02c3854cac1bbe73a8c04016564f983917b80f86edd2682e15"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_test3.html",
+      "bytes": 633979,
+      "sha256": "bb1b2e09f806671f4ccd0c074510a70886f87dc4e5d529dabb01b8470bd11551"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_test3_dump.html",
+      "bytes": 860309,
+      "sha256": "b69964afbfbd5f39996e9204d996a7d9859c831c6d56f1e5dcdd5491440bcb67"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_test3_err.txt",
+      "bytes": 167,
+      "sha256": "a1aef787f5407895bc5792112ab0d26303d183ea52a76d445f5dd99c94fb4195"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_test_dump.html",
+      "bytes": 1311710,
+      "sha256": "7e0132a256bda1feccdf53941bbf43e3e483546d8acd3ec35ac50654aebccdc8"
+    },
+    {
+      "path": "中间数据/调试产物/pinyin_test_err.txt",
+      "bytes": 167,
+      "sha256": "9fd54b44d255ebf123865661284e3521246d1f1789ea1c4f6630c0b38db67361"
+    },
+    {
+      "path": "中间数据/调试产物/sample_rows.txt",
+      "bytes": 7649,
+      "sha256": "cc866c7628bb97ce5bef20c2780a25362a36ebda58545a6853205710a613d0db"
+    },
+    {
+      "path": "中间数据/调试产物/selected_guest_report.txt",
+      "bytes": 26624,
+      "sha256": "7c5f5129b37ac81c677a3e439703dc5aeb7b35a90911c33bf2ebae574429c486"
+    },
+    {
+      "path": "中间数据/调试产物/sheet_summary.txt",
+      "bytes": 8239,
+      "sha256": "6af3940bcea855ffac323cac30b554ce9730b888ec84b592ec887320b67d8c89"
+    },
+    {
+      "path": "中间数据/调试产物/tab_addons.html",
+      "bytes": 1833096,
+      "sha256": "26b495cbaea6337e619efad1b7515e08a4e55db824ec936f563c613e8fca1ec4"
+    },
+    {
+      "path": "中间数据/调试产物/tab_drinkrecs.html",
+      "bytes": 1405422,
+      "sha256": "9cbf1adf3545ff30abf53ba4a99849319d6f199feeb11d2f7b6d499f61b66f27"
+    },
+    {
+      "path": "中间数据/调试产物/workbook_verify.txt",
+      "bytes": 18108,
+      "sha256": "e6b76d09711eedee3fe81fef1a6334e51fefad377fe2c35dd3171cdf00c95971"
+    },
+    {
+      "path": "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx",
+      "bytes": 205009,
+      "sha256": "d6d397db47dc7420ead80e1412f437d05984ffcb2eca6895e225dfe9c5ce134e"
+    },
+    {
+      "path": "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-14.xlsx",
+      "bytes": 206177,
+      "sha256": "1dca6f710965f28bffa8de11cf0ca4fdac67037968e1c385e1d7d619037f66fa"
+    }
+  ],
+  "record": "Owned pure-domain implementation only; all changes uncommitted. Shared UI/build files and outputs can change in other coordinator tasks and are not claimed unchanged. No site build, install, game/save or Git mutation in this task.",
+  "oracleFailureHistory": [
+    "run01/02 failed only at cross-language fingerprint check before oracle comparison; fixed numeric JSON key order / Windows newline mismatch",
+    "run03 synthesis and domain checks PASS",
+    "run04 includes finite-number overflow rejection and PASS"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "metadataSHA256": "995d1a08cac7a784d397927cf73ae71a8ce47cc8637cc4dd7ea534a3368b31e7",
+  "assemblySHA256": "91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789",
+  "registration": {
+    "fieldCountPos": "0x3c254c0",
+    "registrationRVA": "0x3c25470",
+    "fieldOffsetsVA": "0x184016000",
+    "typeSizesVA": "0x1840351b0",
+    "satoriOffsets": [
+      0,
+      24,
+      32,
+      36
+    ]
+  },
+  "types": [
+    {
+      "typeIndex": 3273,
+      "type": "<>c__DisplayClass4_0",
+      "byvalTypeIndex": 35836,
+      "parentTypeIndex": 28405,
+      "offsetArrayVA": "0x182ec8b88",
+      "fields": [
+        {
+          "fieldIndex": 17962,
+          "name": "onEndAllDisplayer",
+          "typeIndex": 19577,
+          "offset": 16,
+          "offsetHex": "0x10"
+        },
+        {
+          "fieldIndex": 17963,
+          "name": "guestBuffMarkModule",
+          "typeIndex": 24621,
+          "offset": 24,
+          "offsetHex": "0x18"
+        },
+        {
+          "fieldIndex": 17964,
+          "name": "<>4__this",
+          "typeIndex": 22194,
+          "offset": 32,
+          "offsetHex": "0x20"
+        }
+      ]
+    },
+    {
+      "typeIndex": 3274,
+      "type": "<>c__DisplayClass4_1",
+      "byvalTypeIndex": 35838,
+      "parentTypeIndex": 28405,
+      "offsetArrayVA": "0x182ec8ba8",
+      "fields": [
+        {
+          "fieldIndex": 17965,
+          "name": "guestGroup",
+          "typeIndex": 24626,
+          "offset": 16,
+          "offsetHex": "0x10"
+        },
+        {
+          "fieldIndex": 17966,
+          "name": "CS$<>8__locals1",
+          "typeIndex": 35837,
+          "offset": 24,
+          "offsetHex": "0x18"
+        }
+      ]
+    },
+    {
+      "typeIndex": 3275,
+      "type": "<>c__DisplayClass4_2",
+      "byvalTypeIndex": 35840,
+      "parentTypeIndex": 28405,
+      "offsetArrayVA": "0x182ec8bc0",
+      "fields": [
+        {
+          "fieldIndex": 17967,
+          "name": "effectDisplayer",
+          "typeIndex": 24391,
+          "offset": 16,
+          "offsetHex": "0x10"
+        },
+        {
+          "fieldIndex": 17968,
+          "name": "CS$<>8__locals2",
+          "typeIndex": 35839,
+          "offset": 24,
+          "offsetHex": "0x18"
+        }
+      ]
+    },
+    {
+      "typeIndex": 3278,
+      "type": "<>c__DisplayClass5_0",
+      "byvalTypeIndex": 35842,
+      "parentTypeIndex": 28405,
+      "offsetArrayVA": "0x182ec8c38",
+      "fields": [
+        {
+          "fieldIndex": 17973,
+          "name": "guestGroupController",
+          "typeIndex": 24626,
+          "offset": 16,
+          "offsetHex": "0x10"
+        },
+        {
+          "fieldIndex": 17974,
+          "name": "remainingMoney",
+          "typeIndex": 26157,
+          "offset": 24,
+          "offsetHex": "0x18"
+        }
+      ]
+    }
+  ]
+}

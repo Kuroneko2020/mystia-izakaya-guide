@@ -1,0 +1,35 @@
+# NightScene.GuestManagementUtility.GuestGroupController::TryUpdateFundAndOrder
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "TryUpdateFundAndOrder", "metadataMethodIndex": 8315, "token": "0x600207c", "methodPointerIndex": 8315, "va": "0x1804c98e0", "rva": "0x4c98e0", "endRva": null, "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x4c9910; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804C98E0: 80 B9 80 01 00 00  cmp         byte ptr [rcx+0000000000000180h],0
+                    00
+  00000001804C98E7: 74 1B              je          00000001804C9904
+  00000001804C98E9: 48 8B 81 B0 00 00  mov         rax,qword ptr [rcx+00000000000000B0h]
+                    00
+  00000001804C98F0: 48 85 C0           test        rax,rax
+  00000001804C98F3: 74 0F              je          00000001804C9904
+  00000001804C98F5: 4C 8B 40 28        mov         r8,qword ptr [rax+28h]
+  00000001804C98F9: 48 8B D1           mov         rdx,rcx
+  00000001804C98FC: 48 8B 48 40        mov         rcx,qword ptr [rax+40h]
+  00000001804C9900: 48 FF 60 18        jmp         qword ptr [rax+18h]
+  00000001804C9904: C3                 ret
+  00000001804C9905: CC                 int         3
+  00000001804C9906: CC                 int         3
+  00000001804C9907: CC                 int         3
+  00000001804C9908: CC                 int         3
+  00000001804C9909: CC                 int         3
+  00000001804C990A: CC                 int         3
+  00000001804C990B: CC                 int         3
+  00000001804C990C: CC                 int         3
+  00000001804C990D: CC                 int         3
+  00000001804C990E: CC                 int         3
+  00000001804C990F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

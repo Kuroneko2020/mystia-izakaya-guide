@@ -1,0 +1,28 @@
+# GameData.Core.Collections.NightSceneUtility.GuestBase::GetFundRange
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.GuestBase", "typeIndex": 2316, "image": "Assembly-CSharp.dll", "name": "GetFundRange", "metadataMethodIndex": 14782, "token": "0x60039bf", "methodPointerIndex": 14782, "va": "0x1806826c0", "rva": "0x6826c0", "endRva": "0x6826f6", "returnTypeIndex": 33188, "parameters": []}
+# range end RVA 0x6826f6; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001806826C0: 48 83 EC 28        sub         rsp,28h
+  00000001806826C4: 80 3D 44 8D CE 03  cmp         byte ptr [000000018436B40Fh],0
+                    00
+  00000001806826CB: 75 13              jne         00000001806826E0
+  00000001806826CD: 48 8D 0D 64 D0 B4  lea         rcx,[00000001841CF738h]
+                    03
+  00000001806826D4: E8 A7 A8 CD FF     call        000000018035CF80
+  00000001806826D9: C6 05 2F 8D CE 03  mov         byte ptr [000000018436B40Fh],1
+                    01
+  00000001806826E0: 48 8B 05 51 D0 B4  mov         rax,qword ptr [00000001841CF738h]
+                    03
+  00000001806826E7: 48 8B 80 B8 00 00  mov         rax,qword ptr [rax+00000000000000B8h]
+                    00
+  00000001806826EE: 48 8B 00           mov         rax,qword ptr [rax]
+  00000001806826F1: 48 83 C4 28        add         rsp,28h
+  00000001806826F5: C3                 ret
+
+  Summary
+
+     2ACC000 il2cpp

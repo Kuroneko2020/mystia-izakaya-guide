@@ -1,0 +1,220 @@
+{
+  "observedAt": "2026-10-13T19:04:05.973238+08:00",
+  "scope": "read-only original live 2610112307; source consistency and default cooking large-partition simulation; no game files changed; no live data corrected",
+  "inputs": [
+    {
+      "path": "成品/东方夜雀食堂攻略查询_2610112307.html",
+      "bytes": 2548920,
+      "sha256": "d3d63f2857577dd55f2d44f49bd52a101a3ea8ec236503c45f5cdcb51842f4e1"
+    },
+    {
+      "path": "中间数据/料亭版攻略数据基线.json",
+      "bytes": 532990,
+      "sha256": "cd847712480d6b42928ba803d8c5283e607a03bdc066877e2f5ac74081f20037"
+    },
+    {
+      "path": "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx",
+      "bytes": 205009,
+      "sha256": "d6d397db47dc7420ead80e1412f437d05984ffcb2eca6895e225dfe9c5ce134e"
+    },
+    {
+      "path": "验证记录/2026-10-13--全量数据核查/管线审计/上游与本地转换映射_01.json",
+      "bytes": 15447,
+      "sha256": "57c7132432b98316db3f16189fd8deb6dd9b90a35d7ae872c7d38fe5664e2a88"
+    },
+    {
+      "path": "中间数据/FOOD_LIST.json",
+      "bytes": 128614,
+      "sha256": "ff7038ebf9442e386f1b7ad62f113f6dd89f586e50e2515fb8112bc5da8edc13"
+    },
+    {
+      "path": "中间数据/INGREDIENT_LIST.json",
+      "bytes": 64583,
+      "sha256": "7c9f8982eb2ebcda06d86158800b37815331521b38455f124223df2daa4ad405"
+    },
+    {
+      "path": "中间数据/BEVERAGE_LIST.json",
+      "bytes": 34940,
+      "sha256": "3ae57aa6d7e79afcc8df15c13b9b4f91d58aaa90082868eb44ddca85e8cf3532"
+    },
+    {
+      "path": "中间数据/SPECIAL_GUEST_LIST.json",
+      "bytes": 179673,
+      "sha256": "ef2158b3671c38c25f33a7507154d028f9f23fea4597eeedc296a710d41e2d4d"
+    },
+    {
+      "path": "中间数据/NORMAL_GUEST_LIST.json",
+      "bytes": 38054,
+      "sha256": "50289617134a8afb4cf68be919ea87350f53b0168815451cf3b780c124bd8122"
+    }
+  ],
+  "appDataEqualsBaseline": true,
+  "coverage": {
+    "recipes": {
+      "actualRows": 163,
+      "sourceRows": 163,
+      "missing": [],
+      "extra": [],
+      "duplicates": []
+    },
+    "ingredients": {
+      "actualRows": 62,
+      "sourceRows": 62,
+      "missing": [],
+      "extra": [],
+      "duplicates": []
+    },
+    "beverages": {
+      "actualRows": 46,
+      "sourceRows": 46,
+      "missing": [],
+      "extra": [],
+      "duplicates": []
+    },
+    "guests": {
+      "actualRows": 59,
+      "sourceRows": 59,
+      "missing": [],
+      "extra": [],
+      "duplicates": []
+    },
+    "normal": {
+      "actualRows": 47,
+      "sourceRows": 47,
+      "missing": [],
+      "extra": [],
+      "duplicates": []
+    }
+  },
+  "sourceFieldsChecked": {
+    "recipes": 1467,
+    "ingredients": 434,
+    "beverages": 276,
+    "guests": 472,
+    "normal": 188
+  },
+  "sourceFieldDifferences": 7,
+  "brokenIngredientReferences": [],
+  "multipleOfficialRecipes": [],
+  "defaultFiveIngredientRecipeCount": 22,
+  "defaultCookedTagDifferences": 20,
+  "legacyDetails": {
+    "rows": 339,
+    "internalDifferences": 0,
+    "affectedByDefaultCookedTagChange": 78,
+    "nowConflictingWithGuestHates": 4
+  },
+  "recommendations": {
+    "oldTotal": 9224,
+    "newDefaultCookedTotal": 9197,
+    "removed": 44,
+    "added": 17,
+    "retainedWithChangedMatchCount": 145,
+    "removedByGuest": {
+      "古明地觉": 7,
+      "上白泽慧音": 13,
+      "少名针妙丸": 14,
+      "蓬莱山辉夜": 10
+    },
+    "removedByRecipe": {
+      "罗汉上素": 4,
+      "大江户船祭": 2,
+      "蓬莱玉枝": 3,
+      "幻想星莲船": 2,
+      "龙吟桃子": 4,
+      "疯帽子茶会": 2,
+      "太极八卦鱼肚": 3,
+      "幽梦": 2,
+      "翠竹迎春": 2,
+      "幻想佛跳墙": 3,
+      "至尊海鲜面": 2,
+      "竹取姬": 3,
+      "惠灵顿牛排": 1,
+      "不死鸟": 1,
+      "猫咪戏水": 4,
+      "牛肉鸳鸯火锅": 1,
+      "地狱激辛警告！": 1,
+      "汉宫藏娇": 2,
+      "逆转天地！": 1,
+      "幻想风靡": 1
+    },
+    "affectedGuests": [
+      "上白泽慧音",
+      "僵尸",
+      "古明地觉",
+      "土蜘蛛",
+      "妖怪鼠",
+      "少名针妙丸",
+      "山童",
+      "星熊勇仪",
+      "河童",
+      "犬走椛",
+      "蓬莱山辉夜",
+      "西行寺幽幽子",
+      "饕餮尤魔"
+    ]
+  },
+  "workbook": {
+    "comparisons": {
+      "guests": {
+        "workbookRowsIncludingHeader": 60,
+        "htmlRowsIncludingHeader": 60,
+        "same": true
+      },
+      "details": {
+        "workbookRowsIncludingHeader": 340,
+        "htmlRowsIncludingHeader": 340,
+        "same": true
+      },
+      "recipes": {
+        "workbookRowsIncludingHeader": 164,
+        "htmlRowsIncludingHeader": 164,
+        "same": true
+      },
+      "ingredients": {
+        "workbookRowsIncludingHeader": 63,
+        "htmlRowsIncludingHeader": 63,
+        "same": true
+      },
+      "beverages": {
+        "workbookRowsIncludingHeader": 47,
+        "htmlRowsIncludingHeader": 47,
+        "same": true
+      },
+      "normal": {
+        "workbookRowsIncludingHeader": 48,
+        "htmlRowsIncludingHeader": 48,
+        "same": true
+      },
+      "new440": {
+        "workbookRowsIncludingHeader": 9,
+        "htmlRowsIncludingHeader": 9,
+        "same": true
+      },
+      "guide2024": {
+        "workbookRowsIncludingHeader": 59,
+        "htmlRowsIncludingHeader": 59,
+        "same": true
+      },
+      "guide2021": {
+        "workbookRowsIncludingHeader": 26,
+        "htmlRowsIncludingHeader": 26,
+        "same": true
+      },
+      "sources": {
+        "workbookRowsIncludingHeader": 29,
+        "htmlRowsIncludingHeader": 29,
+        "same": true
+      }
+    },
+    "cellDifferences": 0,
+    "formulaCount": 0,
+    "errorCells": []
+  },
+  "limitations": [
+    "Raw JSON and HTML are not independent sources; source consistency does not prove in-game correctness.",
+    "Only no-extra-ingredient static default cooked tags simulated. Popular trends, title effects, spell cards, total meal affordability and user cooking outcomes not verified here.",
+    "Source/acquisition text semantics checked separately in pipeline audit.",
+    "Historical guide2024 and guide2021 texts are archived evidence, not current authoritative catalogs."
+  ]
+}

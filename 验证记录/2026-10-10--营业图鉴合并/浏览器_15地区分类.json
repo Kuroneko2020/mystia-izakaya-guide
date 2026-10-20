@@ -1,43 +1,43 @@
 [
   {
     "place": "博丽神社",
-    "special": 1807,
-    "ordinary": 720
+    "special": 1811,
+    "ordinary": 722
   },
   {
     "place": "地灵殿",
-    "special": 951,
+    "special": 950,
     "ordinary": 548
   },
   {
     "place": "红魔馆",
-    "special": 1421,
-    "ordinary": 704
+    "special": 1419,
+    "ordinary": 706
   },
   {
     "place": "辉针城",
-    "special": 1314,
+    "special": 1290,
     "ordinary": 357
   },
   {
     "place": "旧地狱",
-    "special": 1044,
+    "special": 1050,
     "ordinary": 508
   },
   {
     "place": "迷途竹林",
-    "special": 1331,
+    "special": 1319,
     "ordinary": 607
   },
   {
     "place": "命莲寺",
-    "special": 1596,
-    "ordinary": 557
+    "special": 1585,
+    "ordinary": 559
   },
   {
     "place": "魔法森林",
-    "special": 1464,
-    "ordinary": 899
+    "special": 1444,
+    "ordinary": 901
   },
   {
     "place": "魔界",
@@ -46,13 +46,13 @@
   },
   {
     "place": "人间之里",
-    "special": 1527,
+    "special": 1507,
     "ordinary": 503
   },
   {
     "place": "神灵庙",
-    "special": 1517,
-    "ordinary": 675
+    "special": 1521,
+    "ordinary": 673
   },
   {
     "place": "太阳花田",
@@ -61,17 +61,17 @@
   },
   {
     "place": "妖怪兽道",
-    "special": 1461,
+    "special": 1464,
     "ordinary": 468
   },
   {
     "place": "妖怪之山",
-    "special": 1664,
-    "ordinary": 999
+    "special": 1679,
+    "ordinary": 1003
   },
   {
     "place": "月之都",
-    "special": 858,
+    "special": 857,
     "ordinary": 284
   }
 ]

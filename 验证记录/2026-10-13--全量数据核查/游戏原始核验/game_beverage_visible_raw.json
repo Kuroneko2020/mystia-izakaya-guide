@@ -1,0 +1,2821 @@
+{
+  "schemaVersion": 1,
+  "tagSemantics": "entries.tags/rawTags are original serialized catalog tags; no dynamic cooked tags inferred",
+  "entries": [
+    {
+      "id": 0,
+      "name": "绿茶",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 0,
+        "level": 1,
+        "baseValue": 1,
+        "tags": [
+          -1
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 1,
+      "level": 1,
+      "tags": [
+        -1
+      ],
+      "tagNames": [
+        "无酒精"
+      ],
+      "rawTags": [
+        -1
+      ],
+      "rawTagNames": [
+        "无酒精"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 1,
+      "name": "果味High Ball",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 1,
+        "level": 1,
+        "baseValue": 12,
+        "tags": [
+          0,
+          3,
+          7,
+          8,
+          12,
+          13,
+          15
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 12,
+      "level": 1,
+      "tags": [
+        0,
+        3,
+        7,
+        8,
+        12,
+        13,
+        15
+      ],
+      "tagNames": [
+        "低酒精",
+        "可加冰",
+        "鸡尾酒",
+        "西洋酒",
+        "水果",
+        "甘",
+        "苦"
+      ],
+      "rawTags": [
+        0,
+        3,
+        7,
+        8,
+        12,
+        13,
+        15
+      ],
+      "rawTagNames": [
+        "低酒精",
+        "可加冰",
+        "鸡尾酒",
+        "西洋酒",
+        "水果",
+        "甘",
+        "苦"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 2,
+      "name": "果味SOUR",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 2,
+        "level": 1,
+        "baseValue": 12,
+        "tags": [
+          0,
+          3,
+          5,
+          7,
+          12,
+          13,
+          15
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 12,
+      "level": 1,
+      "tags": [
+        0,
+        3,
+        5,
+        7,
+        12,
+        13,
+        15
+      ],
+      "tagNames": [
+        "低酒精",
+        "可加冰",
+        "烧酒",
+        "鸡尾酒",
+        "水果",
+        "甘",
+        "苦"
+      ],
+      "rawTags": [
+        0,
+        3,
+        5,
+        7,
+        12,
+        13,
+        15
+      ],
+      "rawTagNames": [
+        "低酒精",
+        "可加冰",
+        "烧酒",
+        "鸡尾酒",
+        "水果",
+        "甘",
+        "苦"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 3,
+      "name": "淇",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 3,
+        "level": 1,
+        "baseValue": 18,
+        "tags": [
+          0,
+          3,
+          6,
+          7,
+          16,
+          13,
+          14,
+          15
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 18,
+      "level": 1,
+      "tags": [
+        0,
+        3,
+        6,
+        7,
+        16,
+        13,
+        14,
+        15
+      ],
+      "tagNames": [
+        "低酒精",
+        "可加冰",
+        "清酒",
+        "鸡尾酒",
+        "气泡",
+        "甘",
+        "辛",
+        "苦"
+      ],
+      "rawTags": [
+        0,
+        3,
+        6,
+        7,
+        16,
+        13,
+        14,
+        15
+      ],
+      "rawTagNames": [
+        "低酒精",
+        "可加冰",
+        "清酒",
+        "鸡尾酒",
+        "气泡",
+        "甘",
+        "辛",
+        "苦"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 4,
+      "name": "超ZUN啤酒",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 4,
+        "level": 1,
+        "baseValue": 18,
+        "tags": [
+          0,
+          3,
+          10,
+          15
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 18,
+      "level": 1,
+      "tags": [
+        0,
+        3,
+        10,
+        15
+      ],
+      "tagNames": [
+        "低酒精",
+        "可加冰",
+        "啤酒",
+        "苦"
+      ],
+      "rawTags": [
+        0,
+        3,
+        10,
+        15
+      ],
+      "rawTagNames": [
+        "低酒精",
+        "可加冰",
+        "啤酒",
+        "苦"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 5,
+      "name": "日月星",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 5,
+        "level": 2,
+        "baseValue": 34,
+        "tags": [
+          1,
+          3,
+          4,
+          6,
+          11
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 34,
+      "level": 2,
+      "tags": [
+        1,
+        3,
+        4,
+        6,
+        11
+      ],
+      "tagNames": [
+        "中酒精",
+        "可加冰",
+        "可加热",
+        "清酒",
+        "直饮"
+      ],
+      "rawTags": [
+        1,
+        3,
+        4,
+        6,
+        11
+      ],
+      "rawTagNames": [
+        "中酒精",
+        "可加冰",
+        "可加热",
+        "清酒",
+        "直饮"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 6,
+      "name": "梅酒",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 6,
+        "level": 2,
+        "baseValue": 32,
+        "tags": [
+          1,
+          3,
+          4,
+          9,
+          12
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 32,
+      "level": 2,
+      "tags": [
+        1,
+        3,
+        4,
+        9,
+        12
+      ],
+      "tagNames": [
+        "中酒精",
+        "可加冰",
+        "可加热",
+        "利口酒",
+        "水果"
+      ],
+      "rawTags": [
+        1,
+        3,
+        4,
+        9,
+        12
+      ],
+      "rawTagNames": [
+        "中酒精",
+        "可加冰",
+        "可加热",
+        "利口酒",
+        "水果"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 7,
+      "name": "天狗踊",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 7,
+        "level": 2,
+        "baseValue": 70,
+        "tags": [
+          2,
+          3,
+          4,
+          6,
+          11
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 70,
+      "level": 2,
+      "tags": [
+        2,
+        3,
+        4,
+        6,
+        11
+      ],
+      "tagNames": [
+        "高酒精",
+        "可加冰",
+        "可加热",
+        "清酒",
+        "直饮"
+      ],
+      "rawTags": [
+        2,
+        3,
+        4,
+        6,
+        11
+      ],
+      "rawTagNames": [
+        "高酒精",
+        "可加冰",
+        "可加热",
+        "清酒",
+        "直饮"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 8,
+      "name": "猩红恶魔",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 8,
+        "level": 2,
+        "baseValue": 45,
+        "tags": [
+          0,
+          3,
+          7,
+          8
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 45,
+      "level": 2,
+      "tags": [
+        0,
+        3,
+        7,
+        8
+      ],
+      "tagNames": [
+        "低酒精",
+        "可加冰",
+        "鸡尾酒",
+        "西洋酒"
+      ],
+      "rawTags": [
+        0,
+        3,
+        7,
+        8
+      ],
+      "rawTagNames": [
+        "低酒精",
+        "可加冰",
+        "鸡尾酒",
+        "西洋酒"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 9,
+      "name": "神之麦",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 9,
+        "level": 2,
+        "baseValue": 45,
+        "tags": [
+          1,
+          3,
+          4,
+          5,
+          11
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 45,
+      "level": 2,
+      "tags": [
+        1,
+        3,
+        4,
+        5,
+        11
+      ],
+      "tagNames": [
+        "中酒精",
+        "可加冰",
+        "可加热",
+        "烧酒",
+        "直饮"
+      ],
+      "rawTags": [
+        1,
+        3,
+        4,
+        5,
+        11
+      ],
+      "rawTagNames": [
+        "中酒精",
+        "可加冰",
+        "可加热",
+        "烧酒",
+        "直饮"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 10,
+      "name": "水獭祭",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 10,
+        "level": 3,
+        "baseValue": 130,
+        "tags": [
+          1,
+          3,
+          4,
+          6,
+          11
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 130,
+      "level": 3,
+      "tags": [
+        1,
+        3,
+        4,
+        6,
+        11
+      ],
+      "tagNames": [
+        "中酒精",
+        "可加冰",
+        "可加热",
+        "清酒",
+        "直饮"
+      ],
+      "rawTags": [
+        1,
+        3,
+        4,
+        6,
+        11
+      ],
+      "rawTagNames": [
+        "中酒精",
+        "可加冰",
+        "可加热",
+        "清酒",
+        "直饮"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 11,
+      "name": "晓",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 11,
+        "level": 4,
+        "baseValue": 400,
+        "tags": [
+          2,
+          3,
+          8,
+          11
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 400,
+      "level": 4,
+      "tags": [
+        2,
+        3,
+        8,
+        11
+      ],
+      "tagNames": [
+        "高酒精",
+        "可加冰",
+        "西洋酒",
+        "直饮"
+      ],
+      "rawTags": [
+        2,
+        3,
+        8,
+        11
+      ],
+      "rawTagNames": [
+        "高酒精",
+        "可加冰",
+        "西洋酒",
+        "直饮"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 12,
+      "name": "雀酒",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 12,
+        "level": 2,
+        "baseValue": 50,
+        "tags": [
+          1,
+          3,
+          4,
+          6,
+          14
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 50,
+      "level": 2,
+      "tags": [
+        1,
+        3,
+        4,
+        6,
+        14
+      ],
+      "tagNames": [
+        "中酒精",
+        "可加冰",
+        "可加热",
+        "清酒",
+        "辛"
+      ],
+      "rawTags": [
+        1,
+        3,
+        4,
+        6,
+        14
+      ],
+      "rawTagNames": [
+        "中酒精",
+        "可加冰",
+        "可加热",
+        "清酒",
+        "辛"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 13,
+      "name": "红魔馆红茶",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 13,
+        "level": 2,
+        "baseValue": 25,
+        "tags": [
+          -1,
+          12,
+          4,
+          19
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 25,
+      "level": 2,
+      "tags": [
+        -1,
+        12,
+        4,
+        19
+      ],
+      "tagNames": [
+        "无酒精",
+        "水果",
+        "可加热",
+        "提神"
+      ],
+      "rawTags": [
+        -1,
+        12,
+        4,
+        19
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "水果",
+        "可加热",
+        "提神"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 14,
+      "name": "阿芙加朵",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 14,
+        "level": 2,
+        "baseValue": 35,
+        "tags": [
+          -1,
+          19,
+          13,
+          15,
+          3
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 35,
+      "level": 2,
+      "tags": [
+        -1,
+        19,
+        13,
+        15,
+        3
+      ],
+      "tagNames": [
+        "无酒精",
+        "提神",
+        "甘",
+        "苦",
+        "可加冰"
+      ],
+      "rawTags": [
+        -1,
+        19,
+        13,
+        15,
+        3
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "提神",
+        "甘",
+        "苦",
+        "可加冰"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 15,
+      "name": "红雾",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 15,
+        "level": 2,
+        "baseValue": 75,
+        "tags": [
+          1,
+          4,
+          8
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 75,
+      "level": 2,
+      "tags": [
+        1,
+        4,
+        8
+      ],
+      "tagNames": [
+        "中酒精",
+        "可加热",
+        "西洋酒"
+      ],
+      "rawTags": [
+        1,
+        4,
+        8
+      ],
+      "rawTagNames": [
+        "中酒精",
+        "可加热",
+        "西洋酒"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 16,
+      "name": "尼格罗尼",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 16,
+        "level": 3,
+        "baseValue": 100,
+        "tags": [
+          1,
+          7,
+          3,
+          12,
+          15,
+          8
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 100,
+      "level": 3,
+      "tags": [
+        1,
+        7,
+        3,
+        12,
+        15,
+        8
+      ],
+      "tagNames": [
+        "中酒精",
+        "鸡尾酒",
+        "可加冰",
+        "水果",
+        "苦",
+        "西洋酒"
+      ],
+      "rawTags": [
+        1,
+        7,
+        3,
+        12,
+        15,
+        8
+      ],
+      "rawTagNames": [
+        "中酒精",
+        "鸡尾酒",
+        "可加冰",
+        "水果",
+        "苦",
+        "西洋酒"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 17,
+      "name": "教父",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 17,
+        "level": 3,
+        "baseValue": 180,
+        "tags": [
+          2,
+          3,
+          7,
+          8,
+          15,
+          17
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 180,
+      "level": 3,
+      "tags": [
+        2,
+        3,
+        7,
+        8,
+        15,
+        17
+      ],
+      "tagNames": [
+        "高酒精",
+        "可加冰",
+        "鸡尾酒",
+        "西洋酒",
+        "苦",
+        "古典"
+      ],
+      "rawTags": [
+        2,
+        3,
+        7,
+        8,
+        15,
+        17
+      ],
+      "rawTagNames": [
+        "高酒精",
+        "可加冰",
+        "鸡尾酒",
+        "西洋酒",
+        "苦",
+        "古典"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 18,
+      "name": "风祝",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 18,
+        "level": 3,
+        "baseValue": 130,
+        "tags": [
+          1,
+          3,
+          7,
+          13,
+          18
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 130,
+      "level": 3,
+      "tags": [
+        1,
+        3,
+        7,
+        13,
+        18
+      ],
+      "tagNames": [
+        "中酒精",
+        "可加冰",
+        "鸡尾酒",
+        "甘",
+        "现代"
+      ],
+      "rawTags": [
+        1,
+        3,
+        7,
+        13,
+        18
+      ],
+      "rawTagNames": [
+        "中酒精",
+        "可加冰",
+        "鸡尾酒",
+        "甘",
+        "现代"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 19,
+      "name": "冬酿",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 19,
+        "level": 2,
+        "baseValue": 60,
+        "tags": [
+          0,
+          13,
+          4,
+          3,
+          17
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 60,
+      "level": 2,
+      "tags": [
+        0,
+        13,
+        4,
+        3,
+        17
+      ],
+      "tagNames": [
+        "低酒精",
+        "甘",
+        "可加热",
+        "可加冰",
+        "古典"
+      ],
+      "rawTags": [
+        0,
+        13,
+        4,
+        3,
+        17
+      ],
+      "rawTagNames": [
+        "低酒精",
+        "甘",
+        "可加热",
+        "可加冰",
+        "古典"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 20,
+      "name": "十四夜",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 20,
+        "level": 4,
+        "baseValue": 440,
+        "tags": [
+          1,
+          6,
+          3,
+          4,
+          17,
+          13
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 440,
+      "level": 4,
+      "tags": [
+        1,
+        6,
+        3,
+        4,
+        17,
+        13
+      ],
+      "tagNames": [
+        "中酒精",
+        "清酒",
+        "可加冰",
+        "可加热",
+        "古典",
+        "甘"
+      ],
+      "rawTags": [
+        1,
+        6,
+        3,
+        4,
+        17,
+        13
+      ],
+      "rawTagNames": [
+        "中酒精",
+        "清酒",
+        "可加冰",
+        "可加热",
+        "古典",
+        "甘"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 21,
+      "name": "火鼠裘",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 21,
+        "level": 4,
+        "baseValue": 420,
+        "tags": [
+          2,
+          4,
+          14,
+          5
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 420,
+      "level": 4,
+      "tags": [
+        2,
+        4,
+        14,
+        5
+      ],
+      "tagNames": [
+        "高酒精",
+        "可加热",
+        "辛",
+        "烧酒"
+      ],
+      "rawTags": [
+        2,
+        4,
+        14,
+        5
+      ],
+      "rawTagNames": [
+        "高酒精",
+        "可加热",
+        "辛",
+        "烧酒"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 22,
+      "name": "玉露茶",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 22,
+        "level": 2,
+        "baseValue": 50,
+        "tags": [
+          -1,
+          17,
+          4
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 50,
+      "level": 2,
+      "tags": [
+        -1,
+        17,
+        4
+      ],
+      "tagNames": [
+        "无酒精",
+        "古典",
+        "可加热"
+      ],
+      "rawTags": [
+        -1,
+        17,
+        4
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "古典",
+        "可加热"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 23,
+      "name": "月面火箭",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 23,
+        "level": 2,
+        "baseValue": 45,
+        "tags": [
+          -1,
+          3,
+          18,
+          16
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 45,
+      "level": 2,
+      "tags": [
+        -1,
+        3,
+        18,
+        16
+      ],
+      "tagNames": [
+        "无酒精",
+        "可加冰",
+        "现代",
+        "气泡"
+      ],
+      "rawTags": [
+        -1,
+        3,
+        18,
+        16
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "可加冰",
+        "现代",
+        "气泡"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 24,
+      "name": "牛奶",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 24,
+        "level": 2,
+        "baseValue": 16,
+        "tags": [
+          -1,
+          11
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 16,
+      "level": 2,
+      "tags": [
+        -1,
+        11
+      ],
+      "tagNames": [
+        "无酒精",
+        "直饮"
+      ],
+      "rawTags": [
+        -1,
+        11
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "直饮"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 25,
+      "name": "红柚果汁",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 25,
+        "level": 2,
+        "baseValue": 24,
+        "tags": [
+          -1,
+          12
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 24,
+      "level": 2,
+      "tags": [
+        -1,
+        12
+      ],
+      "tagNames": [
+        "无酒精",
+        "水果"
+      ],
+      "rawTags": [
+        -1,
+        12
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "水果"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 26,
+      "name": "波子汽水",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 26,
+        "level": 2,
+        "baseValue": 30,
+        "tags": [
+          -1,
+          16,
+          18
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 30,
+      "level": 2,
+      "tags": [
+        -1,
+        16,
+        18
+      ],
+      "tagNames": [
+        "无酒精",
+        "气泡",
+        "现代"
+      ],
+      "rawTags": [
+        -1,
+        16,
+        18
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "气泡",
+        "现代"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 27,
+      "name": "冰山毛玉冻柠",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 27,
+        "level": 2,
+        "baseValue": 45,
+        "tags": [
+          -1,
+          11,
+          16,
+          19,
+          3,
+          13,
+          12
+        ],
+        "isCollab": 1,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 45,
+      "level": 2,
+      "tags": [
+        -1,
+        11,
+        16,
+        19,
+        3,
+        13,
+        12
+      ],
+      "tagNames": [
+        "无酒精",
+        "直饮",
+        "气泡",
+        "提神",
+        "可加冰",
+        "甘",
+        "水果"
+      ],
+      "rawTags": [
+        -1,
+        11,
+        16,
+        19,
+        3,
+        13,
+        12
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "直饮",
+        "气泡",
+        "提神",
+        "可加冰",
+        "甘",
+        "水果"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 1,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 28,
+      "name": "\"大冰棍儿!\"",
+      "type": "beverage",
+      "group": "Core",
+      "source": {
+        "profile": "BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -5687029236828483007,
+        "rawJson": "BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 28,
+        "level": 2,
+        "baseValue": 35,
+        "tags": [
+          19,
+          13,
+          18,
+          -1
+        ],
+        "isCollab": 1,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "BeveragesLang",
+      "price": 35,
+      "level": 2,
+      "tags": [
+        19,
+        13,
+        18,
+        -1
+      ],
+      "tagNames": [
+        "提神",
+        "甘",
+        "现代",
+        "无酒精"
+      ],
+      "rawTags": [
+        19,
+        13,
+        18,
+        -1
+      ],
+      "rawTagNames": [
+        "提神",
+        "甘",
+        "现代",
+        "无酒精"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 1,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 1002,
+      "name": "妖精雨露",
+      "type": "beverage",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_BeverageProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -3112127011929422779,
+        "rawJson": "DLC1_BeverageProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 1002,
+        "level": 2,
+        "baseValue": 80,
+        "tags": [
+          -1,
+          13,
+          3
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC1_BeveragesLang",
+      "price": 80,
+      "level": 2,
+      "tags": [
+        -1,
+        13,
+        3
+      ],
+      "tagNames": [
+        "无酒精",
+        "甘",
+        "可加冰"
+      ],
+      "rawTags": [
+        -1,
+        13,
+        3
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "甘",
+        "可加冰"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 1000,
+      "name": "大吟酿",
+      "type": "beverage",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+        "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+        "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+        "path_id": -7502319316880876922,
+        "rawJson": "DLC1_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 1000,
+        "level": 3,
+        "baseValue": 210,
+        "tags": [
+          1,
+          6,
+          12,
+          3,
+          11,
+          13,
+          17
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC1_BeveragesLang",
+      "price": 210,
+      "level": 3,
+      "tags": [
+        1,
+        6,
+        12,
+        3,
+        11,
+        13,
+        17
+      ],
+      "tagNames": [
+        "中酒精",
+        "清酒",
+        "水果",
+        "可加冰",
+        "直饮",
+        "甘",
+        "古典"
+      ],
+      "rawTags": [
+        1,
+        6,
+        12,
+        3,
+        11,
+        13,
+        17
+      ],
+      "rawTagNames": [
+        "中酒精",
+        "清酒",
+        "水果",
+        "可加冰",
+        "直饮",
+        "甘",
+        "古典"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 1001,
+      "name": "咖啡",
+      "type": "beverage",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+        "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+        "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+        "path_id": -7502319316880876922,
+        "rawJson": "DLC1_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 1001,
+        "level": 2,
+        "baseValue": 62,
+        "tags": [
+          -1,
+          15,
+          18,
+          4,
+          3,
+          19
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC1_BeveragesLang",
+      "price": 62,
+      "level": 2,
+      "tags": [
+        -1,
+        15,
+        18,
+        4,
+        3,
+        19
+      ],
+      "tagNames": [
+        "无酒精",
+        "苦",
+        "现代",
+        "可加热",
+        "可加冰",
+        "提神"
+      ],
+      "rawTags": [
+        -1,
+        15,
+        18,
+        4,
+        3,
+        19
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "苦",
+        "现代",
+        "可加热",
+        "可加冰",
+        "提神"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 1003,
+      "name": "古法奶油冰沙",
+      "type": "beverage",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+        "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+        "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+        "path_id": -7502319316880876922,
+        "rawJson": "DLC1_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 1003,
+        "level": 1,
+        "baseValue": 42,
+        "tags": [
+          -1,
+          13,
+          3,
+          17
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC1_BeveragesLang",
+      "price": 42,
+      "level": 1,
+      "tags": [
+        -1,
+        13,
+        3,
+        17
+      ],
+      "tagNames": [
+        "无酒精",
+        "甘",
+        "可加冰",
+        "古典"
+      ],
+      "rawTags": [
+        -1,
+        13,
+        3,
+        17
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "甘",
+        "可加冰",
+        "古典"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 1004,
+      "name": "普通健身茶",
+      "type": "beverage",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+        "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+        "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+        "path_id": -7502319316880876922,
+        "rawJson": "DLC1_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 1004,
+        "level": 2,
+        "baseValue": 32,
+        "tags": [
+          1,
+          15,
+          16,
+          9
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC1_BeveragesLang",
+      "price": 32,
+      "level": 2,
+      "tags": [
+        1,
+        15,
+        16,
+        9
+      ],
+      "tagNames": [
+        "中酒精",
+        "苦",
+        "气泡",
+        "利口酒"
+      ],
+      "rawTags": [
+        1,
+        15,
+        16,
+        9
+      ],
+      "rawTagNames": [
+        "中酒精",
+        "苦",
+        "气泡",
+        "利口酒"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 2000,
+      "name": "鬼杀",
+      "type": "beverage",
+      "group": "DLC2",
+      "source": {
+        "profile": "DLC2_BeverageProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": 7703607247440273716,
+        "rawJson": "DLC2_BeverageProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 2000,
+        "level": 4,
+        "baseValue": 320,
+        "tags": [
+          2,
+          3,
+          5,
+          14,
+          17
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC2_BeveragesLang",
+      "price": 320,
+      "level": 4,
+      "tags": [
+        2,
+        3,
+        5,
+        14,
+        17
+      ],
+      "tagNames": [
+        "高酒精",
+        "可加冰",
+        "烧酒",
+        "辛",
+        "古典"
+      ],
+      "rawTags": [
+        2,
+        3,
+        5,
+        14,
+        17
+      ],
+      "rawTagNames": [
+        "高酒精",
+        "可加冰",
+        "烧酒",
+        "辛",
+        "古典"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 2001,
+      "name": "气保健",
+      "type": "beverage",
+      "group": "DLC2",
+      "source": {
+        "profile": "DLC2_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+        "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+        "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+        "path_id": 942838652359905741,
+        "rawJson": "DLC2_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 2001,
+        "level": 2,
+        "baseValue": 45,
+        "tags": [
+          -1,
+          13,
+          11,
+          19
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC2_BeveragesLang",
+      "price": 45,
+      "level": 2,
+      "tags": [
+        -1,
+        13,
+        11,
+        19
+      ],
+      "tagNames": [
+        "无酒精",
+        "甘",
+        "直饮",
+        "提神"
+      ],
+      "rawTags": [
+        -1,
+        13,
+        11,
+        19
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "甘",
+        "直饮",
+        "提神"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 2002,
+      "name": "古明地冰激凌",
+      "type": "beverage",
+      "group": "DLC2",
+      "source": {
+        "profile": "DLC2_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+        "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+        "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+        "path_id": 942838652359905741,
+        "rawJson": "DLC2_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 2002,
+        "level": 2,
+        "baseValue": 35,
+        "tags": [
+          -1,
+          13,
+          12,
+          18
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC2_BeveragesLang",
+      "price": 35,
+      "level": 2,
+      "tags": [
+        -1,
+        13,
+        12,
+        18
+      ],
+      "tagNames": [
+        "无酒精",
+        "甘",
+        "水果",
+        "现代"
+      ],
+      "rawTags": [
+        -1,
+        13,
+        12,
+        18
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "甘",
+        "水果",
+        "现代"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 3001,
+      "name": "麒麟",
+      "type": "beverage",
+      "group": "DLC3",
+      "source": {
+        "profile": "DLC3_BeverageProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -998848072234517034,
+        "rawJson": "DLC3_BeverageProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 3001,
+        "level": 3,
+        "baseValue": 180,
+        "tags": [
+          10,
+          1,
+          11
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC3_BeveragesLang",
+      "price": 180,
+      "level": 3,
+      "tags": [
+        10,
+        1,
+        11
+      ],
+      "tagNames": [
+        "啤酒",
+        "中酒精",
+        "直饮"
+      ],
+      "rawTags": [
+        10,
+        1,
+        11
+      ],
+      "rawTagNames": [
+        "啤酒",
+        "中酒精",
+        "直饮"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 3000,
+      "name": "杨枝甘露",
+      "type": "beverage",
+      "group": "DLC3",
+      "source": {
+        "profile": "DLC3_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": -73154147589227417,
+        "rawJson": "DLC3_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 3000,
+        "level": 2,
+        "baseValue": 50,
+        "tags": [
+          -1,
+          3,
+          12
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC3_BeveragesLang",
+      "price": 50,
+      "level": 2,
+      "tags": [
+        -1,
+        3,
+        12
+      ],
+      "tagNames": [
+        "无酒精",
+        "可加冰",
+        "水果"
+      ],
+      "rawTags": [
+        -1,
+        3,
+        12
+      ],
+      "rawTagNames": [
+        "无酒精",
+        "可加冰",
+        "水果"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 4000,
+      "name": "天地无用",
+      "type": "beverage",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -5775768047731588461,
+        "rawJson": "DLC4_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 4000,
+        "level": 3,
+        "baseValue": 150,
+        "tags": [
+          2,
+          5
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC4_BeveragesLang",
+      "price": 150,
+      "level": 3,
+      "tags": [
+        2,
+        5
+      ],
+      "tagNames": [
+        "高酒精",
+        "烧酒"
+      ],
+      "rawTags": [
+        2,
+        5
+      ],
+      "rawTagNames": [
+        "高酒精",
+        "烧酒"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 4001,
+      "name": "伶人醉",
+      "type": "beverage",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -5775768047731588461,
+        "rawJson": "DLC4_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 4001,
+        "level": 3,
+        "baseValue": 100,
+        "tags": [
+          0,
+          11,
+          12,
+          17,
+          13
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC4_BeveragesLang",
+      "price": 100,
+      "level": 3,
+      "tags": [
+        0,
+        11,
+        12,
+        17,
+        13
+      ],
+      "tagNames": [
+        "低酒精",
+        "直饮",
+        "水果",
+        "古典",
+        "甘"
+      ],
+      "rawTags": [
+        0,
+        11,
+        12,
+        17,
+        13
+      ],
+      "rawTagNames": [
+        "低酒精",
+        "直饮",
+        "水果",
+        "古典",
+        "甘"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 5000,
+      "name": "海的女儿",
+      "type": "beverage",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": 7379892454747194059,
+        "rawJson": "DLC5_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 5000,
+        "level": 3,
+        "baseValue": 80,
+        "tags": [
+          0,
+          16,
+          14,
+          17
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC5_BeveragesLang",
+      "price": 80,
+      "level": 3,
+      "tags": [
+        0,
+        16,
+        14,
+        17
+      ],
+      "tagNames": [
+        "低酒精",
+        "气泡",
+        "辛",
+        "古典"
+      ],
+      "rawTags": [
+        0,
+        16,
+        14,
+        17
+      ],
+      "rawTagNames": [
+        "低酒精",
+        "气泡",
+        "辛",
+        "古典"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 5001,
+      "name": "魔界咖啡",
+      "type": "beverage",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": 7379892454747194059,
+        "rawJson": "DLC5_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 5001,
+        "level": 4,
+        "baseValue": 210,
+        "tags": [
+          19,
+          2,
+          4,
+          8
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC5_BeveragesLang",
+      "price": 210,
+      "level": 4,
+      "tags": [
+        19,
+        2,
+        4,
+        8
+      ],
+      "tagNames": [
+        "提神",
+        "高酒精",
+        "可加热",
+        "西洋酒"
+      ],
+      "rawTags": [
+        19,
+        2,
+        4,
+        8
+      ],
+      "rawTagNames": [
+        "提神",
+        "高酒精",
+        "可加热",
+        "西洋酒"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 5002,
+      "name": "莫吉托爆浆球",
+      "type": "beverage",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": 7379892454747194059,
+        "rawJson": "DLC5_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 5002,
+        "level": 4,
+        "baseValue": 300,
+        "tags": [
+          16,
+          18,
+          7,
+          0
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC5_BeveragesLang",
+      "price": 300,
+      "level": 4,
+      "tags": [
+        16,
+        18,
+        7,
+        0
+      ],
+      "tagNames": [
+        "气泡",
+        "现代",
+        "鸡尾酒",
+        "低酒精"
+      ],
+      "rawTags": [
+        16,
+        18,
+        7,
+        0
+      ],
+      "rawTagNames": [
+        "气泡",
+        "现代",
+        "鸡尾酒",
+        "低酒精"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 5003,
+      "name": "太空啤酒",
+      "type": "beverage",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": 7379892454747194059,
+        "rawJson": "DLC5_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 5003,
+        "level": 3,
+        "baseValue": 42,
+        "tags": [
+          1,
+          18,
+          12,
+          10
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC5_BeveragesLang",
+      "price": 42,
+      "level": 3,
+      "tags": [
+        1,
+        18,
+        12,
+        10
+      ],
+      "tagNames": [
+        "中酒精",
+        "现代",
+        "水果",
+        "啤酒"
+      ],
+      "rawTags": [
+        1,
+        18,
+        12,
+        10
+      ],
+      "rawTagNames": [
+        "中酒精",
+        "现代",
+        "水果",
+        "啤酒"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    },
+    {
+      "id": 5004,
+      "name": "卫星冰咖啡",
+      "type": "beverage",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_BeverageProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": 7379892454747194059,
+        "rawJson": "DLC5_BeverageProfile_raw.json"
+      },
+      "raw": {
+        "id": 5004,
+        "level": 3,
+        "baseValue": 96,
+        "tags": [
+          18,
+          19,
+          -1,
+          15
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      "nameTextAsset": "DLC5_BeveragesLang",
+      "price": 96,
+      "level": 3,
+      "tags": [
+        18,
+        19,
+        -1,
+        15
+      ],
+      "tagNames": [
+        "现代",
+        "提神",
+        "无酒精",
+        "苦"
+      ],
+      "rawTags": [
+        18,
+        19,
+        -1,
+        15
+      ],
+      "rawTagNames": [
+        "现代",
+        "提神",
+        "无酒精",
+        "苦"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": 0,
+      "banTags": [],
+      "banTagNames": []
+    }
+  ],
+  "count": 46
+}

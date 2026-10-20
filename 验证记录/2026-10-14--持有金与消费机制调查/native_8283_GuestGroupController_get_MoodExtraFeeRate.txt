@@ -1,0 +1,32 @@
+# NightScene.GuestManagementUtility.GuestGroupController::get_MoodExtraFeeRate
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "get_MoodExtraFeeRate", "metadataMethodIndex": 8283, "token": "0x600205c", "methodPointerIndex": 8283, "va": "0x1804ca6e0", "rva": "0x4ca6e0", "endRva": null, "returnTypeIndex": 30654, "parameters": []}
+# range end RVA 0x4ca720; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804CA6E0: 66 90              nop
+  00000001804CA6E2: 33 C0              xor         eax,eax
+  00000001804CA6E4: 83 79 40 19        cmp         dword ptr [rcx+40h],19h
+  00000001804CA6E8: 0F 9D C0           setge       al
+  00000001804CA6EB: 83 79 40 32        cmp         dword ptr [rcx+40h],32h
+  00000001804CA6EF: 7C 1D              jl          00000001804CA70E
+  00000001804CA6F1: 83 79 40 4B        cmp         dword ptr [rcx+40h],4Bh
+  00000001804CA6F5: BA 05 00 00 00     mov         edx,5
+  00000001804CA6FA: B8 0A 00 00 00     mov         eax,0Ah
+  00000001804CA6FF: 0F 42 C2           cmovb       eax,edx
+  00000001804CA702: 83 79 40 64        cmp         dword ptr [rcx+40h],64h
+  00000001804CA706: BA 19 00 00 00     mov         edx,19h
+  00000001804CA70B: 0F 43 C2           cmovae      eax,edx
+  00000001804CA70E: 66 0F 6E C0        movd        xmm0,eax
+  00000001804CA712: 0F 5B C0           cvtdq2ps    xmm0,xmm0
+  00000001804CA715: F3 0F 5E 05 87 15  divss       xmm0,dword ptr [0000000182EABCA4h]
+                    9E 02
+  00000001804CA71D: C3                 ret
+  00000001804CA71E: CC                 int         3
+  00000001804CA71F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

@@ -1,0 +1,86 @@
+# <>c__DisplayClass180_0::<EvaluateOrder>b__1
+# {"declaringType": "<>c__DisplayClass180_0", "typeIndex": 1484, "image": "Assembly-CSharp.dll", "name": "<EvaluateOrder>b__1", "metadataMethodIndex": 8792, "token": "0x6002259", "methodPointerIndex": 8792, "va": "0x180521fa0", "rva": "0x521fa0", "endRva": "0x522061", "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x522070; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180521FA0: 40 53              push        rbx
+  0000000180521FA2: 55                 push        rbp
+  0000000180521FA3: 56                 push        rsi
+  0000000180521FA4: 57                 push        rdi
+  0000000180521FA5: 41 56              push        r14
+  0000000180521FA7: 48 83 EC 60        sub         rsp,60h
+  0000000180521FAB: 80 3D 15 9D E4 03  cmp         byte ptr [000000018436BCC7h],0
+                    00
+  0000000180521FB2: 48 8B D9           mov         rbx,rcx
+  0000000180521FB5: 0F 29 74 24 50     movaps      xmmword ptr [rsp+50h],xmm6
+  0000000180521FBA: 75 1F              jne         0000000180521FDB
+  0000000180521FBC: 48 8D 0D 6D 00 C9  lea         rcx,[00000001841B2030h]
+                    03
+  0000000180521FC3: E8 B8 AF E3 FF     call        000000018035CF80
+  0000000180521FC8: 48 8D 0D E1 BB C6  lea         rcx,[000000018418DBB0h]
+                    03
+  0000000180521FCF: E8 AC AF E3 FF     call        000000018035CF80
+  0000000180521FD4: C6 05 EC 9C E4 03  mov         byte ptr [000000018436BCC7h],1
+                    01
+  0000000180521FDB: 48 8B 0D 4E 00 C9  mov         rcx,qword ptr [00000001841B2030h]
+                    03
+  0000000180521FE2: 48 8B 73 28        mov         rsi,qword ptr [rbx+28h]
+  0000000180521FE6: F3 0F 10 73 30     movss       xmm6,dword ptr [rbx+30h]
+  0000000180521FEB: 44 0F B6 73 34     movzx       r14d,byte ptr [rbx+34h]
+  0000000180521FF0: E8 CB B0 E3 FF     call        000000018035D0C0
+  0000000180521FF5: 48 8B F8           mov         rdi,rax
+  0000000180521FF8: 48 85 C0           test        rax,rax
+  0000000180521FFB: 74 5E              je          000000018052205B
+  0000000180521FFD: 4C 8B 05 AC BB C6  mov         r8,qword ptr [000000018418DBB0h]
+                    03
+  0000000180522004: 45 33 C9           xor         r9d,r9d
+  0000000180522007: 48 8B D6           mov         rdx,rsi
+  000000018052200A: 48 8B C8           mov         rcx,rax
+  000000018052200D: E8 0E C1 FC 00     call        00000001814EE120
+  0000000180522012: 48 85 F6           test        rsi,rsi
+  0000000180522015: 74 44              je          000000018052205B
+  0000000180522017: 48 8B 53 20        mov         rdx,qword ptr [rbx+20h]
+  000000018052201B: 0F 28 DE           movaps      xmm3,xmm6
+  000000018052201E: 48 C7 44 24 40 00  mov         qword ptr [rsp+40h],0
+                    00 00 00
+  0000000180522027: 45 33 C0           xor         r8d,r8d
+  000000018052202A: 48 89 54 24 38     mov         qword ptr [rsp+38h],rdx
+  000000018052202F: 48 8B CE           mov         rcx,rsi
+  0000000180522032: 48 89 7C 24 30     mov         qword ptr [rsp+30h],rdi
+  0000000180522037: 33 D2              xor         edx,edx
+  0000000180522039: 44 88 74 24 28     mov         byte ptr [rsp+28h],r14b
+  000000018052203E: C7 44 24 20 02 00  mov         dword ptr [rsp+20h],2
+                    00 00
+  0000000180522046: E8 C5 BC FA FF     call        00000001804CDD10 ; NightScene.GuestManagementUtility.GuestsManager::Eval [MI 8534, RVA 0x4cdd10]
+  000000018052204B: 0F 28 74 24 50     movaps      xmm6,xmmword ptr [rsp+50h]
+  0000000180522050: 48 83 C4 60        add         rsp,60h
+  0000000180522054: 41 5E              pop         r14
+  0000000180522056: 5F                 pop         rdi
+  0000000180522057: 5E                 pop         rsi
+  0000000180522058: 5D                 pop         rbp
+  0000000180522059: 5B                 pop         rbx
+  000000018052205A: C3                 ret
+  000000018052205B: E8 C0 B0 E3 FF     call        000000018035D120
+  0000000180522060: CC                 int         3
+  0000000180522061: CC                 int         3
+  0000000180522062: CC                 int         3
+  0000000180522063: CC                 int         3
+  0000000180522064: CC                 int         3
+  0000000180522065: CC                 int         3
+  0000000180522066: CC                 int         3
+  0000000180522067: CC                 int         3
+  0000000180522068: CC                 int         3
+  0000000180522069: CC                 int         3
+  000000018052206A: CC                 int         3
+  000000018052206B: CC                 int         3
+  000000018052206C: CC                 int         3
+  000000018052206D: CC                 int         3
+  000000018052206E: CC                 int         3
+  000000018052206F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

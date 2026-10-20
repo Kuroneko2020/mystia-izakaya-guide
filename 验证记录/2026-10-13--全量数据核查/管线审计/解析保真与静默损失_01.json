@@ -1,0 +1,635 @@
+{
+  "auditDate": "2026-10-13",
+  "method": "AST extracts only pure functions; replays parser entirely in memory. Equality proves reproducibility under the same lossy parser, not semantic equality with executed TypeScript or game correctness.",
+  "totalParsedRecords": 657,
+  "tables": [
+    {
+      "table": "FOOD_LIST",
+      "source": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/foods/records.ts",
+      "sourceSha256": "bcc0928bb3534632fff9cfaded9e71647bf9395fac2288791223de0a8b94dd9a",
+      "jsonSha256": "ff7038ebf9442e386f1b7ad62f113f6dd89f586e50e2515fb8112bc5da8edc13",
+      "parsedCount": 199,
+      "existingCount": 199,
+      "equalUnderExistingParser": true,
+      "fieldCounts": {
+        "description": 199,
+        "dlc": 199,
+        "from": 199,
+        "id": 199,
+        "level": 199,
+        "name": 199,
+        "negativeTags": 199,
+        "positiveTags": 199,
+        "price": 199,
+        "recipes": 199
+      }
+    },
+    {
+      "table": "INGREDIENT_LIST",
+      "source": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/ingredients/records.ts",
+      "sourceSha256": "6327550b742522eb2e9a7bfb74779b7a8bd113aa47481414661e9244e0d51258",
+      "jsonSha256": "7c9f8982eb2ebcda06d86158800b37815331521b38455f124223df2daa4ad405",
+      "parsedCount": 70,
+      "existingCount": 70,
+      "equalUnderExistingParser": true,
+      "fieldCounts": {
+        "description": 70,
+        "dlc": 70,
+        "from": 70,
+        "id": 70,
+        "level": 70,
+        "name": 70,
+        "price": 70,
+        "tags": 70,
+        "type": 70
+      }
+    },
+    {
+      "table": "BEVERAGE_LIST",
+      "source": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/beverages/records.ts",
+      "sourceSha256": "eeee6082cd866d5491fe57c3c1ac4541b5c8d7c8796800f7d27fb4f3ab3432e7",
+      "jsonSha256": "3ae57aa6d7e79afcc8df15c13b9b4f91d58aaa90082868eb44ddca85e8cf3532",
+      "parsedCount": 50,
+      "existingCount": 50,
+      "equalUnderExistingParser": true,
+      "fieldCounts": {
+        "description": 50,
+        "dlc": 50,
+        "from": 50,
+        "id": 50,
+        "level": 50,
+        "name": 50,
+        "price": 50,
+        "tags": 50
+      }
+    },
+    {
+      "table": "SPECIAL_GUEST_LIST",
+      "source": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/guests/special/records.ts",
+      "sourceSha256": "59c0617f4374b67ee2414109df38fe1ad4113754f6c3f31a2e85e36846e74c39",
+      "jsonSha256": "ef2158b3671c38c25f33a7507154d028f9f23fea4597eeedc296a710d41e2d4d",
+      "parsedCount": 69,
+      "existingCount": 69,
+      "equalUnderExistingParser": true,
+      "fieldCounts": {
+        "beverageTagMapping": 69,
+        "beverageTags": 69,
+        "chat": 69,
+        "collaboration": 6,
+        "collection": 69,
+        "description": 69,
+        "dlc": 69,
+        "enduranceLimit": 69,
+        "evaluation": 69,
+        "id": 69,
+        "maps": 69,
+        "name": 69,
+        "negativeTags": 69,
+        "positiveTagMapping": 69,
+        "positiveTags": 69,
+        "price": 69,
+        "spellCards": 69
+      }
+    },
+    {
+      "table": "NORMAL_GUEST_LIST",
+      "source": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/guests/normal/records.ts",
+      "sourceSha256": "faac3511f2211904792b6c11863a5f6f42169461a00a513973c8e7b9f856d822",
+      "jsonSha256": "50289617134a8afb4cf68be919ea87350f53b0168815451cf3b780c124bd8122",
+      "parsedCount": 47,
+      "existingCount": 47,
+      "equalUnderExistingParser": true,
+      "fieldCounts": {
+        "beverageTags": 47,
+        "chat": 47,
+        "description": 47,
+        "dlc": 47,
+        "id": 47,
+        "maps": 47,
+        "name": 47,
+        "positiveTags": 47
+      }
+    },
+    {
+      "table": "DECORATION_LIST",
+      "source": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/decorations/records.ts",
+      "sourceSha256": "4a97eef673e7529bd3b06db9e4934fad7ef123851343729e8a562a0d6b2cb3d5",
+      "jsonSha256": "0a829ec680e55aec141334a39a9eeec2e613747b1cfb5f107b354962ba08b22c",
+      "parsedCount": 19,
+      "existingCount": 19,
+      "equalUnderExistingParser": true,
+      "fieldCounts": {
+        "description": 19,
+        "dlc": 19,
+        "effect": 19,
+        "from": 19,
+        "id": 19,
+        "name": 19
+      }
+    },
+    {
+      "table": "CLOTHES_LIST",
+      "source": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/clothes/records.ts",
+      "sourceSha256": "d949d5fe0f7834a911bd459fa8b56d3bf68036b6efb07f0eb0a53af4cf25a7d1",
+      "jsonSha256": "4a23908da34aec2629b9f8ddd378b15e522e203c93dbacbc0c203f5115b4e61e",
+      "parsedCount": 28,
+      "existingCount": 28,
+      "equalUnderExistingParser": true,
+      "fieldCounts": {
+        "description": 28,
+        "dlc": 28,
+        "from": 28,
+        "gif": 28,
+        "id": 28,
+        "izakaya": 28,
+        "name": 28
+      }
+    },
+    {
+      "table": "COOKER_LIST",
+      "source": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/cookers/records.ts",
+      "sourceSha256": "bc83164c39a0d486df61d455901e3d7949b890849605506bd4dc10e371b9db9c",
+      "jsonSha256": "68b0874aede9e27d7ba27fa4cab916f3cd94044a140b3784bac7e569fddf7048",
+      "parsedCount": 41,
+      "existingCount": 41,
+      "equalUnderExistingParser": true,
+      "fieldCounts": {
+        "availableTypes": 41,
+        "description": 41,
+        "dlc": 41,
+        "effect": 41,
+        "from": 41,
+        "id": 41,
+        "name": 41,
+        "series": 41
+      }
+    },
+    {
+      "table": "COLLECTION_POINT_REFRESH_FACTS",
+      "source": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/places/collectionFacts.ts",
+      "sourceSha256": "5c589bd0bf751afb3db87110c6f6b34eea3bf5e554b10090a5d0dcc4bf8fecd3",
+      "jsonSha256": "2a1642894d1e407e7f43b0748915950b95cbd4de52acf5ce8e9a00dbb7e56253",
+      "parsedCount": 134,
+      "existingCount": 134,
+      "equalUnderExistingParser": true,
+      "fieldCounts": {
+        "displayLabel": 134,
+        "excludedMaps": 2,
+        "label": 114,
+        "labels": 18,
+        "map": 132,
+        "refreshTimeHours": 134
+      }
+    }
+  ],
+  "deletedInterpolationCount": 9,
+  "deletedInterpolations": [
+    {
+      "table": "SPECIAL_GUEST_LIST",
+      "expression": "DYNAMIC_TAG_MAP.signature",
+      "line": 1898,
+      "source": "guests/special/records.ts",
+      "currentResult": "empty string; source constant is not evaluated"
+    },
+    {
+      "table": "SPECIAL_GUEST_LIST",
+      "expression": "DYNAMIC_TAG_MAP.signature",
+      "line": 1902,
+      "source": "guests/special/records.ts",
+      "currentResult": "empty string; source constant is not evaluated"
+    },
+    {
+      "table": "SPECIAL_GUEST_LIST",
+      "expression": "DYNAMIC_TAG_MAP.popularPositive",
+      "line": 1902,
+      "source": "guests/special/records.ts",
+      "currentResult": "empty string; source constant is not evaluated"
+    },
+    {
+      "table": "COOKER_LIST",
+      "expression": "DARK_MATTER_META_MAP.name",
+      "line": 339,
+      "source": "cookers/records.ts",
+      "currentResult": "empty string; source constant is not evaluated"
+    },
+    {
+      "table": "COOKER_LIST",
+      "expression": "DARK_MATTER_META_MAP.name",
+      "line": 357,
+      "source": "cookers/records.ts",
+      "currentResult": "empty string; source constant is not evaluated"
+    },
+    {
+      "table": "COOKER_LIST",
+      "expression": "DARK_MATTER_META_MAP.name",
+      "line": 375,
+      "source": "cookers/records.ts",
+      "currentResult": "empty string; source constant is not evaluated"
+    },
+    {
+      "table": "COOKER_LIST",
+      "expression": "DARK_MATTER_META_MAP.name",
+      "line": 393,
+      "source": "cookers/records.ts",
+      "currentResult": "empty string; source constant is not evaluated"
+    },
+    {
+      "table": "COOKER_LIST",
+      "expression": "DARK_MATTER_META_MAP.name",
+      "line": 411,
+      "source": "cookers/records.ts",
+      "currentResult": "empty string; source constant is not evaluated"
+    },
+    {
+      "table": "COOKER_LIST",
+      "expression": "DYNAMIC_TAG_MAP.popularPositive",
+      "line": 639,
+      "source": "cookers/records.ts",
+      "currentResult": "empty string; source constant is not evaluated"
+    }
+  ],
+  "strippedCalls": [
+    {
+      "table": "CLOTHES_LIST",
+      "callCount": 6,
+      "affectedRecordCount": 6,
+      "affectedRecords": [
+        {
+          "id": 54,
+          "name": "万圣节特典晚装",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 57,
+          "name": "锦绣中华娃娃",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 58,
+          "name": "执事服",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 59,
+          "name": "圣诞节特典晚装",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 60,
+          "name": "蛋糕裙",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 2500,
+          "name": "朋克演出服",
+          "parsedFrom": [
+            {},
+            {
+              "taskReward": {
+                "task": "DLCMusic_Main_AllPass_Event"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "table": "COOKER_LIST",
+      "callCount": 35,
+      "affectedRecordCount": 35,
+      "affectedRecords": [
+        {
+          "id": 0,
+          "name": "煮锅",
+          "parsedFrom": [
+            {
+              "self": true
+            },
+            {}
+          ]
+        },
+        {
+          "id": 1,
+          "name": "烧烤架",
+          "parsedFrom": [
+            {
+              "self": true
+            },
+            {}
+          ]
+        },
+        {
+          "id": 2,
+          "name": "油锅",
+          "parsedFrom": [
+            {
+              "self": true
+            },
+            {}
+          ]
+        },
+        {
+          "id": 3,
+          "name": "蒸锅",
+          "parsedFrom": [
+            {
+              "self": true
+            },
+            {}
+          ]
+        },
+        {
+          "id": 4,
+          "name": "料理台",
+          "parsedFrom": [
+            {
+              "self": true
+            },
+            {}
+          ]
+        },
+        {
+          "id": 5,
+          "name": "夜雀煮锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 6,
+          "name": "夜雀烧烤架",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 7,
+          "name": "夜雀油锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 8,
+          "name": "夜雀蒸锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 9,
+          "name": "夜雀料理台",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 10,
+          "name": "超煮锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 11,
+          "name": "超烧烤架",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 12,
+          "name": "超油锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 13,
+          "name": "超蒸锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 14,
+          "name": "超料理台",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 15,
+          "name": "极煮锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 16,
+          "name": "极烧烤架",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 17,
+          "name": "极油锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 18,
+          "name": "极蒸锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 19,
+          "name": "极料理台",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 20,
+          "name": "核能煮锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 21,
+          "name": "核能烧烤架",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 22,
+          "name": "核能油锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 23,
+          "name": "核能蒸锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 24,
+          "name": "核能料理台",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 25,
+          "name": "可疑煮锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 26,
+          "name": "可疑烧烤架",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 27,
+          "name": "可疑油锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 28,
+          "name": "可疑蒸锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 29,
+          "name": "可疑料理台",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 30,
+          "name": "月见煮锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 31,
+          "name": "月见烧烤架",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 32,
+          "name": "月见油锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 33,
+          "name": "月见蒸锅",
+          "parsedFrom": [
+            {}
+          ]
+        },
+        {
+          "id": 34,
+          "name": "月见料理台",
+          "parsedFrom": [
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "guestExample": [
+    {
+      "name": "「八衢潮流风靡幻想」",
+      "description": "使用报纸大肆宣传店铺，明天开始店铺变为“明星店”，3天后恢复正常。{{br}}“明星店”：提高10%客人预算与5%客流量,“”标签成为流行标签。若店铺已是明星店或当晚已宣传，则此符卡转化为「食堂风起厨神无双」"
+    },
+    {
+      "name": "「食堂风起厨神无双」",
+      "description": "成品带有“”标签的今日菜单上的料理将成为明星料理。制作明星料理时若料理时间小于5秒则瞬间完成；在舆论的裹挟下，追捧“”标签的客人食用明星料理后额外提高30%续单率，返还当单酒水消耗的预算，并100%增加1次续单上限（增加续单上限效果每桌客人只触发一次），持续30秒。"
+    }
+  ],
+  "cookerBlankLabelExamples": [
+    {
+      "id": 20,
+      "name": "核能煮锅",
+      "effect": [
+        "减少50%料理时间。有40%的概率制作出“”，但如果完美歌唱会使此概率降低至5%。",
+        true
+      ]
+    },
+    {
+      "id": 21,
+      "name": "核能烧烤架",
+      "effect": [
+        "减少50%料理时间。有40%的概率制作出“”，但如果完美歌唱会使此概率降低至5%。",
+        true
+      ]
+    },
+    {
+      "id": 22,
+      "name": "核能油锅",
+      "effect": [
+        "减少50%料理时间。有40%的概率制作出“”，但如果完美歌唱会使此概率降低至5%。",
+        true
+      ]
+    },
+    {
+      "id": 23,
+      "name": "核能蒸锅",
+      "effect": [
+        "减少50%料理时间。有40%的概率制作出“”，但如果完美歌唱会使此概率降低至5%。",
+        true
+      ]
+    },
+    {
+      "id": 24,
+      "name": "核能料理台",
+      "effect": [
+        "减少50%料理时间。有40%的概率制作出“”，但如果完美歌唱会使此概率降低至5%。",
+        true
+      ]
+    },
+    {
+      "id": 4000,
+      "name": "「冯风渡御」",
+      "effect": [
+        "减少20%料理时间。烹饪时若没有添加任何额外素材则减少时间效果提高到70%，否则提高30%续单率。若料理带有「」标签则两者同时触发。",
+        true
+      ]
+    }
+  ],
+  "scope": "未运行parse_ts_data.main或build_excel.main；未重写中间数据；FOOD_LIST/INGREDIENT_LIST/BEVERAGE_LIST的现有字段完整转换不等于所有派生成餐标签完整。"
+}

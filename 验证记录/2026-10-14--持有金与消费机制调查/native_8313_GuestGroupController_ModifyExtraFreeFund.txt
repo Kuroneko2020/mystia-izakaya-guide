@@ -1,0 +1,37 @@
+# NightScene.GuestManagementUtility.GuestGroupController::ModifyExtraFreeFund
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "ModifyExtraFreeFund", "metadataMethodIndex": 8313, "token": "0x600207a", "methodPointerIndex": 8313, "va": "0x1804c7260", "rva": "0x4c7260", "endRva": null, "returnTypeIndex": 33376, "parameters": [{"index": 5897, "name": "extraFreeFund", "typeIndex": 26152}]}
+# range end RVA 0x4c72a0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804C7260: 44 8B 41 70        mov         r8d,dword ptr [rcx+70h]
+  00000001804C7264: 01 51 78           add         dword ptr [rcx+78h],edx
+  00000001804C7267: 33 C0              xor         eax,eax
+  00000001804C7269: 44 03 C2           add         r8d,edx
+  00000001804C726C: 44 0F 48 C0        cmovs       r8d,eax
+  00000001804C7270: 44 89 41 70        mov         dword ptr [rcx+70h],r8d
+  00000001804C7274: 38 81 80 01 00 00  cmp         byte ptr [rcx+0000000000000180h],al
+  00000001804C727A: 74 1B              je          00000001804C7297
+  00000001804C727C: 48 8B 81 B0 00 00  mov         rax,qword ptr [rcx+00000000000000B0h]
+                    00
+  00000001804C7283: 48 85 C0           test        rax,rax
+  00000001804C7286: 74 0F              je          00000001804C7297
+  00000001804C7288: 4C 8B 40 28        mov         r8,qword ptr [rax+28h]
+  00000001804C728C: 48 8B D1           mov         rdx,rcx
+  00000001804C728F: 48 8B 48 40        mov         rcx,qword ptr [rax+40h]
+  00000001804C7293: 48 FF 60 18        jmp         qword ptr [rax+18h]
+  00000001804C7297: C3                 ret
+  00000001804C7298: CC                 int         3
+  00000001804C7299: CC                 int         3
+  00000001804C729A: CC                 int         3
+  00000001804C729B: CC                 int         3
+  00000001804C729C: CC                 int         3
+  00000001804C729D: CC                 int         3
+  00000001804C729E: CC                 int         3
+  00000001804C729F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

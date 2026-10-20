@@ -1,0 +1,88 @@
+# NightScene.GuestManagementUtility.NormalGuestsController::.ctor
+# {"declaringType": "NightScene.GuestManagementUtility.NormalGuestsController", "typeIndex": 1505, "image": "Assembly-CSharp.dll", "name": ".ctor", "metadataMethodIndex": 8845, "token": "0x600228e", "methodPointerIndex": 8845, "va": "0x180512160", "rva": "0x512160", "endRva": "0x512270", "returnTypeIndex": 33376, "parameters": [{"index": 6370, "name": "normalGuests", "typeIndex": 10576}, {"index": 6371, "name": "overrideSpawnPosition", "typeIndex": 14126}, {"index": 6372, "name": "postprocessCharacterCallback", "typeIndex": 4552}, {"index": 6373, "name": "walkToLeave", "typeIndex": 38122}]}
+# range end RVA 0x512270; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180512160: 48 89 5C 24 20     mov         qword ptr [rsp+20h],rbx
+  0000000180512165: 55                 push        rbp
+  0000000180512166: 56                 push        rsi
+  0000000180512167: 41 54              push        r12
+  0000000180512169: 41 55              push        r13
+  000000018051216B: 41 57              push        r15
+  000000018051216D: 48 83 EC 40        sub         rsp,40h
+  0000000180512171: 80 3D 60 9B E5 03  cmp         byte ptr [000000018436BCD8h],0
+                    00
+  0000000180512178: 4D 8B F9           mov         r15,r9
+  000000018051217B: 4D 8B E0           mov         r12,r8
+  000000018051217E: 48 8B DA           mov         rbx,rdx
+  0000000180512181: 48 8B F1           mov         rsi,rcx
+  0000000180512184: 75 7F              jne         0000000180512205
+  0000000180512186: 48 8D 0D A3 AE CC  lea         rcx,[00000001841DD030h]
+                    03
+  000000018051218D: E8 EE AD E4 FF     call        000000018035CF80
+  0000000180512192: 48 8D 0D 3F E4 C2  lea         rcx,[00000001841405D8h]
+                    03
+  0000000180512199: E8 E2 AD E4 FF     call        000000018035CF80
+  000000018051219E: 48 8D 0D BB F3 C6  lea         rcx,[0000000184181560h]
+                    03
+  00000001805121A5: E8 D6 AD E4 FF     call        000000018035CF80
+  00000001805121AA: 48 8D 0D BF F5 C6  lea         rcx,[0000000184181770h]
+                    03
+  00000001805121B1: E8 CA AD E4 FF     call        000000018035CF80
+  00000001805121B6: 48 8D 0D 63 6C C9  lea         rcx,[00000001841A8E20h]
+                    03
+  00000001805121BD: E8 BE AD E4 FF     call        000000018035CF80
+  00000001805121C2: 48 8D 0D AF 49 C6  lea         rcx,[0000000184176B78h]
+                    03
+  00000001805121C9: E8 B2 AD E4 FF     call        000000018035CF80
+  00000001805121CE: 48 8D 0D 83 45 C6  lea         rcx,[0000000184176758h]
+                    03
+  00000001805121D5: E8 A6 AD E4 FF     call        000000018035CF80
+  00000001805121DA: 48 8D 0D 5F 35 C4  lea         rcx,[0000000184155740h]
+                    03
+  00000001805121E1: E8 9A AD E4 FF     call        000000018035CF80
+  00000001805121E6: 48 8D 0D 53 36 C4  lea         rcx,[0000000184155840h]
+                    03
+  00000001805121ED: E8 8E AD E4 FF     call        000000018035CF80
+  00000001805121F2: 48 8D 0D DF D8 CA  lea         rcx,[00000001841BFAD8h]
+                    03
+  00000001805121F9: E8 82 AD E4 FF     call        000000018035CF80
+  00000001805121FE: C6 05 D3 9A E5 03  mov         byte ptr [000000018436BCD8h],1
+                    01
+  0000000180512205: 45 33 ED           xor         r13d,r13d
+  0000000180512208: 33 D2              xor         edx,edx
+  000000018051220A: 48 8B CE           mov         rcx,rsi
+  000000018051220D: 44 89 6C 24 70     mov         dword ptr [rsp+70h],r13d
+  0000000180512212: E8 B9 80 FB FF     call        00000001804CA2D0 ; NightScene.GuestManagementUtility.GuestGroupController::.ctor [MI 8171, RVA 0x4ca2d0]
+  0000000180512217: 33 D2              xor         edx,edx
+  0000000180512219: 48 8B CE           mov         rcx,rsi
+  000000018051221C: E8 1F 64 FB FF     call        00000001804C8640 ; NightScene.GuestManagementUtility.GuestGroupController::PreInit [MI 8336, RVA 0x4c8640]
+  0000000180512221: 48 8B 15 F8 6B C9  mov         rdx,qword ptr [00000001841A8E20h]
+                    03
+  0000000180512228: 48 8B CB           mov         rcx,rbx
+  000000018051222B: E8 C0 10 8A 00     call        0000000180DB32F0
+  0000000180512230: 48 8D 8E 90 01 00  lea         rcx,[rsi+0000000000000190h]
+                    00
+  0000000180512237: 48 89 86 90 01 00  mov         qword ptr [rsi+0000000000000190h],rax
+                    00
+  000000018051223E: 48 8B D0           mov         rdx,rax
+  0000000180512241: E8 6A A8 E4 FF     call        000000018035CAB0
+  0000000180512246: 48 8B 0D 8B D8 CA  mov         rcx,qword ptr [00000001841BFAD8h]
+                    03
+  000000018051224D: 48 8B AE 90 01 00  mov         rbp,qword ptr [rsi+0000000000000190h]
+                    00
+  0000000180512254: 44 39 A9 E0 00 00  cmp         dword ptr [rcx+00000000000000E0h],r13d
+                    00
+  000000018051225B: 75 0C              jne         0000000180512269
+  000000018051225D: E8 4E B0 DE FF     call        00000001802FD2B0
+  0000000180512262: 48 8B 0D 6F D8 CA  mov         rcx,qword ptr [00000001841BFAD8h]
+                    03
+  0000000180512269: 48 8B 81 B8 00 00  mov         rax,qword ptr [rcx+00000000000000B8h]
+                    00
+
+  Summary
+
+     2ACC000 il2cpp

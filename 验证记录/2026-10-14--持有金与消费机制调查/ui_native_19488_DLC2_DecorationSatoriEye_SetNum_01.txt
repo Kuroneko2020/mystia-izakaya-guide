@@ -1,0 +1,97 @@
+# GameData.Profile.DLC2_DecorationSatoriEye::SetNum
+# {"declaringType": "GameData.Profile.DLC2_DecorationSatoriEye", "typeIndex": 3279, "image": "Assembly-CSharp.dll", "name": "SetNum", "metadataMethodIndex": 19488, "token": "0x6004c21", "methodPointerIndex": 19488, "va": "0x18078d4f0", "rva": "0x78d4f0", "endRva": "0x78d5f7", "returnTypeIndex": 33376, "parameters": [{"index": 13886, "name": "guestGroupController", "typeIndex": 24624}, {"index": 13887, "name": "targetDisplayer", "typeIndex": 24388}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x78d4f0..0x78d600; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018078D4F0: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  000000018078D4F5: 48 89 74 24 10     mov         qword ptr [rsp+10h],rsi
+  000000018078D4FA: 57                 push        rdi
+  000000018078D4FB: 48 83 EC 20        sub         rsp,20h
+  000000018078D4FF: 80 3D 24 FE BD 03  cmp         byte ptr [000000018436D32Ah],0
+                    00
+  000000018078D506: 49 8B F8           mov         rdi,r8
+  000000018078D509: 48 8B F2           mov         rsi,rdx
+  000000018078D50C: 75 37              jne         000000018078D545
+  000000018078D50E: 48 8D 0D 13 8C A2  lea         rcx,[00000001841B6128h]
+                    03
+  000000018078D515: E8 66 FA BC FF     call        000000018035CF80
+  000000018078D51A: 48 8D 0D B7 44 9F  lea         rcx,[00000001841819D8h]
+                    03
+  000000018078D521: E8 5A FA BC FF     call        000000018035CF80
+  000000018078D526: 48 8D 0D 23 16 A3  lea         rcx,[00000001841BEB50h]
+                    03
+  000000018078D52D: E8 4E FA BC FF     call        000000018035CF80
+  000000018078D532: 48 8D 0D 27 7B 9C  lea         rcx,[0000000184155060h]
+                    03
+  000000018078D539: E8 42 FA BC FF     call        000000018035CF80
+  000000018078D53E: C6 05 E5 FD BD 03  mov         byte ptr [000000018436D32Ah],1
+                    01
+  000000018078D545: 48 8B 0D 14 7B 9C  mov         rcx,qword ptr [0000000184155060h]
+                    03
+  000000018078D54C: E8 6F FB BC FF     call        000000018035D0C0
+  000000018078D551: 48 8B D8           mov         rbx,rax
+  000000018078D554: 48 85 C0           test        rax,rax
+  000000018078D557: 0F 84 94 00 00 00  je          000000018078D5F1
+  000000018078D55D: 33 D2              xor         edx,edx
+  000000018078D55F: 48 8B C8           mov         rcx,rax
+  000000018078D562: E8 69 B3 C5 FF     call        00000001803E88D0 ; <<Confirm>g__Jump|3>d::System.IDisposable.Dispose [MI 150, RVA 0x3e88d0] | <<Confirm>g__OnRotation|11_1>d::System.IDisposable.Dispose [MI 156, RVA 0x3e88d0] | <CountDownLoop>d__7::System.IDisposable.Dispose [MI 354, RVA 0x3e88d0] | <<OnPanelOpen>g__OnLoadFinish|2>d::System.IDisposable.Dispose [MI 440, RVA 0x3e88d0] | <<OnPanelOpen>g__ShowCG|3>d::System.IDisposable.Dispose [MI 446, RVA 0x3e88d0] | <>c::<OnPanelInitialize>b__24_1 [MI 507, RVA 0x3e88d0] | <<TypeCoroutine>g__DoType|2>d::System.IDisposable.Dispose [MI 538, RVA 0x3e88d0] | <TypeCoroutine>d__34::System.IDisposable.Dispose [MI 544, RVA 0x3e88d0]
+  000000018078D567: 48 8D 4B 10        lea         rcx,[rbx+10h]
+  000000018078D56B: 48 89 73 10        mov         qword ptr [rbx+10h],rsi
+  000000018078D56F: 48 8B D6           mov         rdx,rsi
+  000000018078D572: E8 39 F5 BC FF     call        000000018035CAB0
+  000000018078D577: 48 8B 43 10        mov         rax,qword ptr [rbx+10h]
+  000000018078D57B: 48 85 C0           test        rax,rax
+  000000018078D57E: 74 71              je          000000018078D5F1
+  000000018078D580: 8B 40 70           mov         eax,dword ptr [rax+70h]
+  000000018078D583: 89 43 18           mov         dword ptr [rbx+18h],eax
+  000000018078D586: 85 C0              test        eax,eax
+  000000018078D588: 79 07              jns         000000018078D591
+  000000018078D58A: C7 43 18 00 00 00  mov         dword ptr [rbx+18h],0
+                    00
+  000000018078D591: 48 85 FF           test        rdi,rdi
+  000000018078D594: 74 5B              je          000000018078D5F1
+  000000018078D596: 48 8B 15 3B 44 9F  mov         rdx,qword ptr [00000001841819D8h]
+                    03
+  000000018078D59D: 48 8B CF           mov         rcx,rdi
+  000000018078D5A0: E8 9B C6 67 00     call        0000000180E09C40
+  000000018078D5A5: 48 8B 0D 7C 8B A2  mov         rcx,qword ptr [00000001841B6128h]
+                    03
+  000000018078D5AC: 48 8B F0           mov         rsi,rax
+  000000018078D5AF: E8 0C FB BC FF     call        000000018035D0C0
+  000000018078D5B4: 48 8B F8           mov         rdi,rax
+  000000018078D5B7: 48 85 C0           test        rax,rax
+  000000018078D5BA: 74 35              je          000000018078D5F1
+  000000018078D5BC: 4C 8B 05 8D 15 A3  mov         r8,qword ptr [00000001841BEB50h]
+                    03
+  000000018078D5C3: 45 33 C9           xor         r9d,r9d
+  000000018078D5C6: 48 8B D3           mov         rdx,rbx
+  000000018078D5C9: 48 8B C8           mov         rcx,rax
+  000000018078D5CC: E8 4F 0B D6 00     call        00000001814EE120
+  000000018078D5D1: 45 33 C9           xor         r9d,r9d
+  000000018078D5D4: 45 33 C0           xor         r8d,r8d
+  000000018078D5D7: 48 8B D7           mov         rdx,rdi
+  000000018078D5DA: 48 8B CE           mov         rcx,rsi
+  000000018078D5DD: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  000000018078D5E2: 48 8B 74 24 38     mov         rsi,qword ptr [rsp+38h]
+  000000018078D5E7: 48 83 C4 20        add         rsp,20h
+  000000018078D5EB: 5F                 pop         rdi
+  000000018078D5EC: E9 AF 4B E5 FF     jmp         00000001805E21A0 ; GameData.Utils.THIZKYExtendedUICluster::TMPUGUI [MI 11401, RVA 0x5e21a0]
+  000000018078D5F1: E8 2A FB BC FF     call        000000018035D120
+  000000018078D5F6: CC                 int         3
+  000000018078D5F7: CC                 int         3
+  000000018078D5F8: CC                 int         3
+  000000018078D5F9: CC                 int         3
+  000000018078D5FA: CC                 int         3
+  000000018078D5FB: CC                 int         3
+  000000018078D5FC: CC                 int         3
+  000000018078D5FD: CC                 int         3
+  000000018078D5FE: CC                 int         3
+  000000018078D5FF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

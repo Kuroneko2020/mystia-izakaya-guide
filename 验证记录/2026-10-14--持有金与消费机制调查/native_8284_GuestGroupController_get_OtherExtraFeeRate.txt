@@ -1,0 +1,49 @@
+# NightScene.GuestManagementUtility.GuestGroupController::get_OtherExtraFeeRate
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "get_OtherExtraFeeRate", "metadataMethodIndex": 8284, "token": "0x600205d", "methodPointerIndex": 8284, "va": "0x1804ca7b0", "rva": "0x4ca7b0", "endRva": "0x4ca83c", "returnTypeIndex": 30654, "parameters": []}
+# range end RVA 0x4ca83c; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804CA7B0: 40 53              push        rbx
+  00000001804CA7B2: 48 83 EC 40        sub         rsp,40h
+  00000001804CA7B6: 80 3D 17 13 EA 03  cmp         byte ptr [000000018436BAD4h],0
+                    00
+  00000001804CA7BD: 48 8B D9           mov         rbx,rcx
+  00000001804CA7C0: 75 73              jne         00000001804CA835
+  00000001804CA7C2: 48 8D 0D 8F E9 C7  lea         rcx,[0000000184149158h]
+                    03
+  00000001804CA7C9: E8 B2 27 E9 FF     call        000000018035CF80
+  00000001804CA7CE: 48 8D 0D 7B E9 CC  lea         rcx,[0000000184199150h]
+                    03
+  00000001804CA7D5: E8 A6 27 E9 FF     call        000000018035CF80
+  00000001804CA7DA: 48 8D 0D 7F 56 D0  lea         rcx,[00000001841CFE60h]
+                    03
+  00000001804CA7E1: E8 9A 27 E9 FF     call        000000018035CF80
+  00000001804CA7E6: 48 8D 0D E3 3D CC  lea         rcx,[000000018418E5D0h]
+                    03
+  00000001804CA7ED: E8 8E 27 E9 FF     call        000000018035CF80
+  00000001804CA7F2: 48 8D 0D CF 3C CC  lea         rcx,[000000018418E4C8h]
+                    03
+  00000001804CA7F9: E8 82 27 E9 FF     call        000000018035CF80
+  00000001804CA7FE: 48 8D 0D 93 6F D0  lea         rcx,[00000001841D1798h]
+                    03
+  00000001804CA805: E8 76 27 E9 FF     call        000000018035CF80
+  00000001804CA80A: 48 8D 0D 97 5D CE  lea         rcx,[00000001841B05A8h]
+                    03
+  00000001804CA811: E8 6A 27 E9 FF     call        000000018035CF80
+  00000001804CA816: 48 8D 0D 93 5E CE  lea         rcx,[00000001841B06B0h]
+                    03
+  00000001804CA81D: E8 5E 27 E9 FF     call        000000018035CF80
+  00000001804CA822: 48 8D 0D 4F E7 CC  lea         rcx,[0000000184198F78h]
+                    03
+  00000001804CA829: E8 52 27 E9 FF     call        000000018035CF80
+  00000001804CA82E: C6 05 9F 12 EA 03  mov         byte ptr [000000018436BAD4h],1
+                    01
+  00000001804CA835: 48 8B 0D 5C 6F D0  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+
+  Summary
+
+     2ACC000 il2cpp

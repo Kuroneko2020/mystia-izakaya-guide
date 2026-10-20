@@ -1,0 +1,80 @@
+# NightScene.GuestManagementUtility.GuestGroupController::get_ComboExtraFeeRate
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "get_ComboExtraFeeRate", "metadataMethodIndex": 8282, "token": "0x600205b", "methodPointerIndex": 8282, "va": "0x1804ca4e0", "rva": "0x4ca4e0", "endRva": "0x4ca5ce", "returnTypeIndex": 30654, "parameters": []}
+# range end RVA 0x4ca5ce; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804CA4E0: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001804CA4E5: 57                 push        rdi
+  00000001804CA4E6: 48 83 EC 20        sub         rsp,20h
+  00000001804CA4EA: 80 3D E2 15 EA 03  cmp         byte ptr [000000018436BAD3h],0
+                    00
+  00000001804CA4F1: 48 8B F9           mov         rdi,rcx
+  00000001804CA4F4: 75 1F              jne         00000001804CA515
+  00000001804CA4F6: 48 8D 0D 9B 72 D0  lea         rcx,[00000001841D1798h]
+                    03
+  00000001804CA4FD: E8 7E 2A E9 FF     call        000000018035CF80
+  00000001804CA502: 48 8D 0D 8F 8D D0  lea         rcx,[00000001841D3298h]
+                    03
+  00000001804CA509: E8 72 2A E9 FF     call        000000018035CF80
+  00000001804CA50E: C6 05 BE 15 EA 03  mov         byte ptr [000000018436BAD3h],1
+                    01
+  00000001804CA515: 48 8B 0D 7C 8D D0  mov         rcx,qword ptr [00000001841D3298h]
+                    03
+  00000001804CA51C: E8 2F 1A C4 00     call        000000018110BF50
+  00000001804CA521: 48 8B D8           mov         rbx,rax
+  00000001804CA524: 48 85 C0           test        rax,rax
+  00000001804CA527: 0F 84 9B 00 00 00  je          00000001804CA5C8
+  00000001804CA52D: 80 3D 48 15 EA 03  cmp         byte ptr [000000018436BA7Ch],0
+                    00
+  00000001804CA534: 8B BF 28 01 00 00  mov         edi,dword ptr [rdi+0000000000000128h]
+  00000001804CA53A: 75 13              jne         00000001804CA54F
+  00000001804CA53C: 48 8D 0D 7D 43 C7  lea         rcx,[000000018413E8C0h]
+                    03
+  00000001804CA543: E8 38 2A E9 FF     call        000000018035CF80
+  00000001804CA548: C6 05 2D 15 EA 03  mov         byte ptr [000000018436BA7Ch],1
+                    01
+  00000001804CA54F: 48 8B 4B 78        mov         rcx,qword ptr [rbx+78h]
+  00000001804CA553: 48 85 C9           test        rcx,rcx
+  00000001804CA556: 74 70              je          00000001804CA5C8
+  00000001804CA558: 4C 8B 05 61 43 C7  mov         r8,qword ptr [000000018413E8C0h]
+                    03
+  00000001804CA55F: 8B D7              mov         edx,edi
+  00000001804CA561: E8 AA 32 72 01     call        0000000181BED810
+  00000001804CA566: 48 8B 0D 2B 72 D0  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  00000001804CA56D: 84 C0              test        al,al
+  00000001804CA56F: 75 1E              jne         00000001804CA58F
+  00000001804CA571: E8 DA 19 C4 00     call        000000018110BF50
+  00000001804CA576: 48 85 C0           test        rax,rax
+  00000001804CA579: 74 4D              je          00000001804CA5C8
+  00000001804CA57B: 33 D2              xor         edx,edx
+  00000001804CA57D: 48 8B C8           mov         rcx,rax
+  00000001804CA580: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  00000001804CA585: 48 83 C4 20        add         rsp,20h
+  00000001804CA589: 5F                 pop         rdi
+  00000001804CA58A: E9 91 0E 04 00     jmp         000000018050B420 ; NightScene.EventUtility.EventManager::get_ComboFeeRate [MI 9044, RVA 0x50b420]
+  00000001804CA58F: E8 BC 19 C4 00     call        000000018110BF50
+  00000001804CA594: 48 8B 0D FD 8C D0  mov         rcx,qword ptr [00000001841D3298h]
+                    03
+  00000001804CA59B: 48 8B D8           mov         rbx,rax
+  00000001804CA59E: E8 AD 19 C4 00     call        000000018110BF50
+  00000001804CA5A3: 48 85 C0           test        rax,rax
+  00000001804CA5A6: 74 20              je          00000001804CA5C8
+  00000001804CA5A8: 48 85 DB           test        rbx,rbx
+  00000001804CA5AB: 74 1B              je          00000001804CA5C8
+  00000001804CA5AD: 8B 90 C0 00 00 00  mov         edx,dword ptr [rax+00000000000000C0h]
+  00000001804CA5B3: 45 33 C0           xor         r8d,r8d
+  00000001804CA5B6: 48 8B CB           mov         rcx,rbx
+  00000001804CA5B9: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  00000001804CA5BE: 48 83 C4 20        add         rsp,20h
+  00000001804CA5C2: 5F                 pop         rdi
+  00000001804CA5C3: E9 58 41 02 00     jmp         00000001804EE720 ; NightScene.EventUtility.EventManager::GetComboFeeRate [MI 9045, RVA 0x4ee720]
+  00000001804CA5C8: E8 53 2B E9 FF     call        000000018035D120
+  00000001804CA5CD: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

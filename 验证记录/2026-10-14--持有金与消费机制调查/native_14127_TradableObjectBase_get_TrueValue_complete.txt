@@ -1,0 +1,120 @@
+# GameData.Core.TradableObjectBase::get_TrueValue
+# {"declaringType": "GameData.Core.TradableObjectBase", "typeIndex": 2243, "image": "Assembly-CSharp.dll", "name": "get_TrueValue", "metadataMethodIndex": 14127, "token": "0x6003730", "methodPointerIndex": 14127, "va": "0x1806723b0", "rva": "0x6723b0", "endRva": "0x67252f", "returnTypeIndex": 26152, "parameters": []}
+# range end RVA 0x672530; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001806723B0: 48 89 5C 24 10     mov         qword ptr [rsp+10h],rbx
+  00000001806723B5: 57                 push        rdi
+  00000001806723B6: 48 83 EC 30        sub         rsp,30h
+  00000001806723BA: 80 3D FE A4 CF 03  cmp         byte ptr [000000018436C8BFh],0
+                    00
+  00000001806723C1: 48 8B D9           mov         rbx,rcx
+  00000001806723C4: 0F 29 74 24 20     movaps      xmmword ptr [rsp+20h],xmm6
+  00000001806723C9: 75 13              jne         00000001806723DE
+  00000001806723CB: 48 8D 0D 06 5A B2  lea         rcx,[0000000184197DD8h]
+                    03
+  00000001806723D2: E8 A9 AB CE FF     call        000000018035CF80
+  00000001806723D7: C6 05 E1 A4 CF 03  mov         byte ptr [000000018436C8BFh],1
+                    01
+  00000001806723DE: 80 3D DB A4 CF 03  cmp         byte ptr [000000018436C8C0h],0
+                    00
+  00000001806723E5: 8B 7B 1C           mov         edi,dword ptr [rbx+1Ch]
+  00000001806723E8: 75 13              jne         00000001806723FD
+  00000001806723EA: 48 8D 0D 5F E5 B4  lea         rcx,[00000001841C0950h]
+                    03
+  00000001806723F1: E8 8A AB CE FF     call        000000018035CF80
+  00000001806723F6: C6 05 C3 A4 CF 03  mov         byte ptr [000000018436C8C0h],1
+                    01
+  00000001806723FD: 48 8B 03           mov         rax,qword ptr [rbx]
+  0000000180672400: 48 8B CB           mov         rcx,rbx
+  0000000180672403: 48 8B 90 E0 01 00  mov         rdx,qword ptr [rax+00000000000001E0h]
+                    00
+  000000018067240A: FF 90 D8 01 00 00  call        qword ptr [rax+00000000000001D8h]
+  0000000180672410: 4C 8B 0D 39 E5 B4  mov         r9,qword ptr [00000001841C0950h]
+                    03
+  0000000180672417: 48 8D 4C 24 40     lea         rcx,[rsp+40h]
+  000000018067241C: 44 8B 43 10        mov         r8d,dword ptr [rbx+10h]
+  0000000180672420: 8B D0              mov         edx,eax
+  0000000180672422: 48 C7 44 24 40 00  mov         qword ptr [rsp+40h],0
+                    00 00 00
+  000000018067242B: E8 80 28 DA FF     call        0000000180414CB0 ; SpecGuestRefreshNode::.ctor [MI 29, RVA 0x414cb0] | ProductKey::.ctor [MI 17607, RVA 0x414cb0] | SkinSelectionInfo::.ctor [MI 17959, RVA 0x414cb0] | Character::.ctor [MI 18370, RVA 0x414cb0] | RecipePrinterData::.ctor [MI 22268, RVA 0x414cb0] | UnityEngine.Vector2Int::.ctor [MI 78022, RVA 0x414cb0] | UnityEngine.RangeInt::.ctor [MI 78423, RVA 0x414cb0] | CharacterSubstitution::.ctor [MI 91165, RVA 0x414cb0] | TMPro.CaretInfo::.ctor [MI 91237, RVA 0x414cb0]
+  0000000180672430: 48 8B 0D A1 59 B2  mov         rcx,qword ptr [0000000184197DD8h]
+                    03
+  0000000180672437: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  000000018067243E: 75 05              jne         0000000180672445
+  0000000180672440: E8 6B AE C8 FF     call        00000001802FD2B0
+  0000000180672445: 48 8B 4C 24 40     mov         rcx,qword ptr [rsp+40h]
+  000000018067244A: 33 D2              xor         edx,edx
+  000000018067244C: E8 5F 67 FD FF     call        0000000180648BB0 ; GameData.RunTime.Common.RunTimeScheduler::RefObjectPriceModifier [MI 13337, RVA 0x648bb0]
+  0000000180672451: 80 3D BC 8E CF 03  cmp         byte ptr [000000018436B314h],0
+                    00
+  0000000180672458: 0F 28 F0           movaps      xmm6,xmm0
+  000000018067245B: 66 0F 6E CF        movd        xmm1,edi
+  000000018067245F: 0F 5B C9           cvtdq2ps    xmm1,xmm1
+  0000000180672462: F3 0F 59 F1        mulss       xmm6,xmm1
+  0000000180672466: 75 13              jne         000000018067247B
+  0000000180672468: 48 8D 0D D1 52 AF  lea         rcx,[0000000184167740h]
+                    03
+  000000018067246F: E8 0C AB CE FF     call        000000018035CF80
+  0000000180672474: C6 05 99 8E CF 03  mov         byte ptr [000000018436B314h],1
+                    01
+  000000018067247B: 48 8B 0D BE 52 AF  mov         rcx,qword ptr [0000000184167740h]
+                    03
+  0000000180672482: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  0000000180672489: 75 05              jne         0000000180672490
+  000000018067248B: E8 20 AE C8 FF     call        00000001802FD2B0
+  0000000180672490: F3 0F 5A F6        cvtss2sd    xmm6,xmm6
+  0000000180672494: 48 8D 54 24 40     lea         rdx,[rsp+40h]
+  0000000180672499: 0F 57 C0           xorps       xmm0,xmm0
+  000000018067249C: 66 0F 2F F0        comisd      xmm6,xmm0
+  00000001806724A0: 0F 28 C6           movaps      xmm0,xmm6
+  00000001806724A3: 72 3C              jb          00000001806724E1
+  00000001806724A5: E8 06 A1 D3 FF     call        00000001803AC5B0
+  00000001806724AA: F2 0F 10 0D D6 97  movsd       xmm1,mmword ptr [0000000182EABC88h]
+                    83 02
+  00000001806724B2: 66 0F 2E C1        ucomisd     xmm0,xmm1
+  00000001806724B6: 7A 1B              jp          00000001806724D3
+  00000001806724B8: 75 19              jne         00000001806724D3
+  00000001806724BA: F2 0F 10 44 24 40  movsd       xmm0,mmword ptr [rsp+40h]
+  00000001806724C0: F2 48 0F 2C C0     cvttsd2si   rax,xmm0
+  00000001806724C5: A8 01              test        al,1
+  00000001806724C7: 74 52              je          000000018067251B
+  00000001806724C9: F2 0F 58 05 BF 97  addsd       xmm0,mmword ptr [0000000182EABC90h]
+                    83 02
+  00000001806724D1: EB 48              jmp         000000018067251B
+  00000001806724D3: F2 0F 58 F1        addsd       xmm6,xmm1
+  00000001806724D7: 0F 28 C6           movaps      xmm0,xmm6
+  00000001806724DA: E8 11 A3 D3 FF     call        00000001803AC7F0
+  00000001806724DF: EB 3A              jmp         000000018067251B
+  00000001806724E1: E8 CA A0 D3 FF     call        00000001803AC5B0
+  00000001806724E6: 66 0F 2E 05 CA 97  ucomisd     xmm0,mmword ptr [0000000182EABCB8h]
+                    83 02
+  00000001806724EE: 7A 1B              jp          000000018067250B
+  00000001806724F0: 75 19              jne         000000018067250B
+  00000001806724F2: F2 0F 10 44 24 40  movsd       xmm0,mmword ptr [rsp+40h]
+  00000001806724F8: F2 48 0F 2C C0     cvttsd2si   rax,xmm0
+  00000001806724FD: A8 01              test        al,1
+  00000001806724FF: 74 1A              je          000000018067251B
+  0000000180672501: F2 0F 5C 05 87 97  subsd       xmm0,mmword ptr [0000000182EABC90h]
+                    83 02
+  0000000180672509: EB 10              jmp         000000018067251B
+  000000018067250B: F2 0F 5C 35 75 97  subsd       xmm6,mmword ptr [0000000182EABC88h]
+                    83 02
+  0000000180672513: 0F 28 C6           movaps      xmm0,xmm6
+  0000000180672516: E8 65 A1 D3 FF     call        00000001803AC680
+  000000018067251B: 48 8B 5C 24 48     mov         rbx,qword ptr [rsp+48h]
+  0000000180672520: 0F 28 74 24 20     movaps      xmm6,xmmword ptr [rsp+20h]
+  0000000180672525: F2 0F 2C C0        cvttsd2si   eax,xmm0
+  0000000180672529: 48 83 C4 30        add         rsp,30h
+  000000018067252D: 5F                 pop         rdi
+  000000018067252E: C3                 ret
+  000000018067252F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

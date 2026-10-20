@@ -1,0 +1,113 @@
+# NightScene.GuestManagementUtility.NormalGuestsController::PostGenerateOrder
+# {"declaringType": "NightScene.GuestManagementUtility.NormalGuestsController", "typeIndex": 1505, "image": "Assembly-CSharp.dll", "name": "PostGenerateOrder", "metadataMethodIndex": 8858, "token": "0x600229b", "methodPointerIndex": 8858, "va": "0x180510dc0", "rva": "0x510dc0", "endRva": "0x510f47", "returnTypeIndex": 38196, "parameters": [{"index": 6377, "name": "isFreeOrder", "typeIndex": 20604}, {"index": 6378, "name": "orderGenerationMessage", "typeIndex": 17200}]}
+# range end RVA 0x510f47; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180510DC0: 4C 89 44 24 18     mov         qword ptr [rsp+18h],r8
+  0000000180510DC5: 88 54 24 10        mov         byte ptr [rsp+10h],dl
+  0000000180510DC9: 53                 push        rbx
+  0000000180510DCA: 57                 push        rdi
+  0000000180510DCB: 41 54              push        r12
+  0000000180510DCD: 41 55              push        r13
+  0000000180510DCF: 48 83 EC 58        sub         rsp,58h
+  0000000180510DD3: 80 3D 05 AF E5 03  cmp         byte ptr [000000018436BCDFh],0
+                    00
+  0000000180510DDA: 4D 8B E8           mov         r13,r8
+  0000000180510DDD: 0F B6 DA           movzx       ebx,dl
+  0000000180510DE0: 4C 8B E1           mov         r12,rcx
+  0000000180510DE3: 0F 85 57 01 00 00  jne         0000000180510F40
+  0000000180510DE9: 48 8D 0D 40 C2 CC  lea         rcx,[00000001841DD030h]
+                    03
+  0000000180510DF0: E8 8B C1 E4 FF     call        000000018035CF80
+  0000000180510DF5: 48 8D 0D DC F7 C2  lea         rcx,[00000001841405D8h]
+                    03
+  0000000180510DFC: E8 7F C1 E4 FF     call        000000018035CF80
+  0000000180510E01: 48 8D 0D D0 F9 C2  lea         rcx,[00000001841407D8h]
+                    03
+  0000000180510E08: E8 73 C1 E4 FF     call        000000018035CF80
+  0000000180510E0D: 48 8D 0D C4 FC C2  lea         rcx,[0000000184140AD8h]
+                    03
+  0000000180510E14: E8 67 C1 E4 FF     call        000000018035CF80
+  0000000180510E19: 48 8D 0D 30 D7 C3  lea         rcx,[000000018414E550h]
+                    03
+  0000000180510E20: E8 5B C1 E4 FF     call        000000018035CF80
+  0000000180510E25: 48 8D 0D A4 20 CB  lea         rcx,[00000001841C2ED0h]
+                    03
+  0000000180510E2C: E8 4F C1 E4 FF     call        000000018035CF80
+  0000000180510E31: 48 8D 0D D0 33 C4  lea         rcx,[0000000184154208h]
+                    03
+  0000000180510E38: E8 43 C1 E4 FF     call        000000018035CF80
+  0000000180510E3D: 48 8D 0D AC 6B C6  lea         rcx,[00000001841779F0h]
+                    03
+  0000000180510E44: E8 37 C1 E4 FF     call        000000018035CF80
+  0000000180510E49: 48 8D 0D A8 6C C6  lea         rcx,[0000000184177AF8h]
+                    03
+  0000000180510E50: E8 2B C1 E4 FF     call        000000018035CF80
+  0000000180510E55: 48 8D 0D 7C ED C6  lea         rcx,[000000018417FBD8h]
+                    03
+  0000000180510E5C: E8 1F C1 E4 FF     call        000000018035CF80
+  0000000180510E61: 48 8D 0D E8 BA C8  lea         rcx,[000000018419C950h]
+                    03
+  0000000180510E68: E8 13 C1 E4 FF     call        000000018035CF80
+  0000000180510E6D: 48 8D 0D BC 5D C9  lea         rcx,[00000001841A6C30h]
+                    03
+  0000000180510E74: E8 07 C1 E4 FF     call        000000018035CF80
+  0000000180510E79: 48 8D 0D 58 ED CA  lea         rcx,[00000001841BFBD8h]
+                    03
+  0000000180510E80: E8 FB C0 E4 FF     call        000000018035CF80
+  0000000180510E85: 48 8D 0D 3C F2 CB  lea         rcx,[00000001841D00C8h]
+                    03
+  0000000180510E8C: E8 EF C0 E4 FF     call        000000018035CF80
+  0000000180510E91: 48 8D 0D F0 1F C8  lea         rcx,[0000000184192E88h]
+                    03
+  0000000180510E98: E8 E3 C0 E4 FF     call        000000018035CF80
+  0000000180510E9D: 48 8D 0D 1C 01 CC  lea         rcx,[00000001841D0FC0h]
+                    03
+  0000000180510EA4: E8 D7 C0 E4 FF     call        000000018035CF80
+  0000000180510EA9: 48 8D 0D 20 E3 CB  lea         rcx,[00000001841CF1D0h]
+                    03
+  0000000180510EB0: E8 CB C0 E4 FF     call        000000018035CF80
+  0000000180510EB5: 48 8D 0D 0C E7 CB  lea         rcx,[00000001841CF5C8h]
+                    03
+  0000000180510EBC: E8 BF C0 E4 FF     call        000000018035CF80
+  0000000180510EC1: 48 8D 0D C0 1E C8  lea         rcx,[0000000184192D88h]
+                    03
+  0000000180510EC8: E8 B3 C0 E4 FF     call        000000018035CF80
+  0000000180510ECD: 48 8D 0D FC E1 CB  lea         rcx,[00000001841CF0D0h]
+                    03
+  0000000180510ED4: E8 A7 C0 E4 FF     call        000000018035CF80
+  0000000180510ED9: 48 8D 0D 10 48 C4  lea         rcx,[00000001841556F0h]
+                    03
+  0000000180510EE0: E8 9B C0 E4 FF     call        000000018035CF80
+  0000000180510EE5: 48 8D 0D DC 73 CC  lea         rcx,[00000001841D82C8h]
+                    03
+  0000000180510EEC: E8 8F C0 E4 FF     call        000000018035CF80
+  0000000180510EF1: 48 8D 0D C8 FF CB  lea         rcx,[00000001841D0EC0h]
+                    03
+  0000000180510EF8: E8 83 C0 E4 FF     call        000000018035CF80
+  0000000180510EFD: 48 8D 0D 3C 2F C3  lea         rcx,[0000000184143E40h]
+                    03
+  0000000180510F04: E8 77 C0 E4 FF     call        000000018035CF80
+  0000000180510F09: 48 8D 0D 30 30 C3  lea         rcx,[0000000184143F40h]
+                    03
+  0000000180510F10: E8 6B C0 E4 FF     call        000000018035CF80
+  0000000180510F15: 48 8D 0D A4 FD CB  lea         rcx,[00000001841D0CC0h]
+                    03
+  0000000180510F1C: E8 5F C0 E4 FF     call        000000018035CF80
+  0000000180510F21: 48 8D 0D 00 62 C5  lea         rcx,[0000000184167128h]
+                    03
+  0000000180510F28: E8 53 C0 E4 FF     call        000000018035CF80
+  0000000180510F2D: 48 8D 0D A4 B2 CB  lea         rcx,[00000001841CC1D8h]
+                    03
+  0000000180510F34: E8 47 C0 E4 FF     call        000000018035CF80
+  0000000180510F39: C6 05 9F AD E5 03  mov         byte ptr [000000018436BCDFh],1
+                    01
+  0000000180510F40: 48 8B 0D 91 EC CA  mov         rcx,qword ptr [00000001841BFBD8h]
+                    03
+
+  Summary
+
+     2ACC000 il2cpp

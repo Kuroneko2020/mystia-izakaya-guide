@@ -1,0 +1,83 @@
+# NightScene.GuestManagementUtility.GuestGroupController::.ctor
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": ".ctor", "metadataMethodIndex": 8171, "token": "0x6001fec", "methodPointerIndex": 8171, "va": "0x1804ca2d0", "rva": "0x4ca2d0", "endRva": "0x4ca3cc", "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x4ca3d0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804CA2D0: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001804CA2D5: 57                 push        rdi
+  00000001804CA2D6: 48 83 EC 20        sub         rsp,20h
+  00000001804CA2DA: 80 3D ED 17 EA 03  cmp         byte ptr [000000018436BACEh],0
+                    00
+  00000001804CA2E1: 48 8B D9           mov         rbx,rcx
+  00000001804CA2E4: 75 2B              jne         00000001804CA311
+  00000001804CA2E6: 48 8D 0D AB A6 D0  lea         rcx,[00000001841D4998h]
+                    03
+  00000001804CA2ED: E8 8E 2C E9 FF     call        000000018035CF80
+  00000001804CA2F2: 48 8D 0D 2F F4 CA  lea         rcx,[0000000184179728h]
+                    03
+  00000001804CA2F9: E8 82 2C E9 FF     call        000000018035CF80
+  00000001804CA2FE: 48 8D 0D AB 8B C8  lea         rcx,[0000000184152EB0h]
+                    03
+  00000001804CA305: E8 76 2C E9 FF     call        000000018035CF80
+  00000001804CA30A: C6 05 BD 17 EA 03  mov         byte ptr [000000018436BACEh],1
+                    01
+  00000001804CA311: 48 8B 0D 98 8B C8  mov         rcx,qword ptr [0000000184152EB0h]
+                    03
+  00000001804CA318: E8 A3 2D E9 FF     call        000000018035D0C0
+  00000001804CA31D: 48 8B F8           mov         rdi,rax
+  00000001804CA320: 48 85 C0           test        rax,rax
+  00000001804CA323: 0F 84 9D 00 00 00  je          00000001804CA3C6
+  00000001804CA329: 48 8B 15 F8 F3 CA  mov         rdx,qword ptr [0000000184179728h]
+                    03
+  00000001804CA330: 48 8B C8           mov         rcx,rax
+  00000001804CA333: E8 78 E4 CB 00     call        00000001811887B0
+  00000001804CA338: 48 8D 4B 18        lea         rcx,[rbx+18h]
+  00000001804CA33C: 48 89 7B 18        mov         qword ptr [rbx+18h],rdi
+  00000001804CA340: 48 8B D7           mov         rdx,rdi
+  00000001804CA343: E8 68 27 E9 FF     call        000000018035CAB0
+  00000001804CA348: 48 8B 0D 61 8B C8  mov         rcx,qword ptr [0000000184152EB0h]
+                    03
+  00000001804CA34F: E8 6C 2D E9 FF     call        000000018035D0C0
+  00000001804CA354: 48 8B F8           mov         rdi,rax
+  00000001804CA357: 48 85 C0           test        rax,rax
+  00000001804CA35A: 74 6A              je          00000001804CA3C6
+  00000001804CA35C: 48 8B 15 C5 F3 CA  mov         rdx,qword ptr [0000000184179728h]
+                    03
+  00000001804CA363: 48 8B C8           mov         rcx,rax
+  00000001804CA366: E8 45 E4 CB 00     call        00000001811887B0
+  00000001804CA36B: 48 8D 4B 20        lea         rcx,[rbx+20h]
+  00000001804CA36F: 48 89 7B 20        mov         qword ptr [rbx+20h],rdi
+  00000001804CA373: 48 8B D7           mov         rdx,rdi
+  00000001804CA376: E8 35 27 E9 FF     call        000000018035CAB0
+  00000001804CA37B: 33 D2              xor         edx,edx
+  00000001804CA37D: C7 43 7C 00 00 C8  mov         dword ptr [rbx+7Ch],42C80000h
+                    42
+  00000001804CA384: 48 8B CB           mov         rcx,rbx
+  00000001804CA387: 48 C7 83 9C 00 00  mov         qword ptr [rbx+000000000000009Ch],0FFFFFFFFFFFFFFFFh
+                    00 FF FF FF FF
+  00000001804CA392: 66 C7 83 82 01 00  mov         word ptr [rbx+0000000000000182h],101h
+                    00 01 01
+  00000001804CA39B: E8 30 E5 F1 FF     call        00000001803E88D0 ; <<Confirm>g__Jump|3>d::System.IDisposable.Dispose [MI 150, RVA 0x3e88d0] | <<Confirm>g__OnRotation|11_1>d::System.IDisposable.Dispose [MI 156, RVA 0x3e88d0] | <CountDownLoop>d__7::System.IDisposable.Dispose [MI 354, RVA 0x3e88d0] | <<OnPanelOpen>g__OnLoadFinish|2>d::System.IDisposable.Dispose [MI 440, RVA 0x3e88d0] | <<OnPanelOpen>g__ShowCG|3>d::System.IDisposable.Dispose [MI 446, RVA 0x3e88d0] | <>c::<OnPanelInitialize>b__24_1 [MI 507, RVA 0x3e88d0] | <<TypeCoroutine>g__DoType|2>d::System.IDisposable.Dispose [MI 538, RVA 0x3e88d0] | <TypeCoroutine>d__34::System.IDisposable.Dispose [MI 544, RVA 0x3e88d0] | <OnUpdatePreview>d__24::System.IDisposable.Dispose [MI 560, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnPanelOpen [MI 590, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnExitExtern [MI 591, RVA 0x3e88d0] | <<OnPanelOpen>g__AfterPreviewMusicLoad|0>d::System.IDisposable.Dispose [MI 619, RVA 0x3e88d0]
+  00000001804CA3A0: 48 8B 0D F1 A5 D0  mov         rcx,qword ptr [00000001841D4998h]
+                    03
+  00000001804CA3A7: E8 A4 1B C4 00     call        000000018110BF50
+  00000001804CA3AC: 48 8D 4B 60        lea         rcx,[rbx+60h]
+  00000001804CA3B0: 48 89 43 60        mov         qword ptr [rbx+60h],rax
+  00000001804CA3B4: 48 8B D0           mov         rdx,rax
+  00000001804CA3B7: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  00000001804CA3BC: 48 83 C4 20        add         rsp,20h
+  00000001804CA3C0: 5F                 pop         rdi
+  00000001804CA3C1: E9 EA 26 E9 FF     jmp         000000018035CAB0
+  00000001804CA3C6: E8 55 2D E9 FF     call        000000018035D120
+  00000001804CA3CB: CC                 int         3
+  00000001804CA3CC: CC                 int         3
+  00000001804CA3CD: CC                 int         3
+  00000001804CA3CE: CC                 int         3
+  00000001804CA3CF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

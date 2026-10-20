@@ -1,0 +1,654 @@
+{
+  "auditDate": "2026-10-13",
+  "collectedAt": "2026-10-13T11:10:42.092325+00:00",
+  "projectHead": "9774f56fa4f809b93f4ad31f0edae190ba50c53b\n2026-10-12T00:26:53+08:00\nchore: 日期化记录归档至 记录/ 子目录并同步引用路径",
+  "projectStatus": "## main...origin/main\n M \"\\350\\204\\232\\346\\234\\254/guide_template_ryotei.html\"\n?? \"\\351\\252\\214\\350\\257\\201\\350\\256\\260\\345\\275\\225/2026-10-13--\\345\\205\\250\\351\\207\\217\\346\\225\\260\\346\\215\\256\\346\\240\\270\\346\\237\\245/\"",
+  "baselineSha256": "cd847712480d6b42928ba803d8c5283e607a03bdc066877e2f5ac74081f20037",
+  "latestHTMLSha256": "d3d63f2857577dd55f2d44f49bd52a101a3ea8ec236503c45f5cdcb51842f4e1",
+  "scope": "read-only local files/Git; writes restricted to permitted audit directory; no build, fetch, pull, commit, browser or game launch",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 16754,
+      "sha256": "2d9d3bcb6e39bc95378ae9b6598f5b6362904a26525d398cb1d1cf0f2580ff80"
+    },
+    {
+      "path": "README.md",
+      "bytes": 24236,
+      "sha256": "be50fbce1fba3764bbb4492c80904c55c9044483b5f6baed16b73fb18e3684dc"
+    },
+    {
+      "path": "中间数据/BEVERAGE_LIST.json",
+      "bytes": 34940,
+      "sha256": "3ae57aa6d7e79afcc8df15c13b9b4f91d58aaa90082868eb44ddca85e8cf3532"
+    },
+    {
+      "path": "中间数据/CLOTHES_LIST.json",
+      "bytes": 10668,
+      "sha256": "4a23908da34aec2629b9f8ddd378b15e522e203c93dbacbc0c203f5115b4e61e"
+    },
+    {
+      "path": "中间数据/COLLECTION_POINT_REFRESH_FACTS.json",
+      "bytes": 21100,
+      "sha256": "2a1642894d1e407e7f43b0748915950b95cbd4de52acf5ce8e9a00dbb7e56253"
+    },
+    {
+      "path": "中间数据/COOKER_LIST.json",
+      "bytes": 16078,
+      "sha256": "68b0874aede9e27d7ba27fa4cab916f3cd94044a140b3784bac7e569fddf7048"
+    },
+    {
+      "path": "中间数据/DECORATION_LIST.json",
+      "bytes": 7364,
+      "sha256": "0a829ec680e55aec141334a39a9eeec2e613747b1cfb5f107b354962ba08b22c"
+    },
+    {
+      "path": "中间数据/FOOD_LIST.json",
+      "bytes": 128614,
+      "sha256": "ff7038ebf9442e386f1b7ad62f113f6dd89f586e50e2515fb8112bc5da8edc13"
+    },
+    {
+      "path": "中间数据/INGREDIENT_LIST.json",
+      "bytes": 64583,
+      "sha256": "7c9f8982eb2ebcda06d86158800b37815331521b38455f124223df2daa4ad405"
+    },
+    {
+      "path": "中间数据/NORMAL_GUEST_LIST.json",
+      "bytes": 38054,
+      "sha256": "50289617134a8afb4cf68be919ea87350f53b0168815451cf3b780c124bd8122"
+    },
+    {
+      "path": "中间数据/SPECIAL_GUEST_LIST.json",
+      "bytes": 179673,
+      "sha256": "ef2158b3671c38c25f33a7507154d028f9f23fea4597eeedc296a710d41e2d4d"
+    },
+    {
+      "path": "中间数据/料亭版攻略数据基线.json",
+      "bytes": 532990,
+      "sha256": "cd847712480d6b42928ba803d8c5283e607a03bdc066877e2f5ac74081f20037"
+    },
+    {
+      "path": "原始资料/repos/mystia-hayami-data/data/main/foods/dishes.json",
+      "bytes": 70159,
+      "sha256": "24991a06f17ab0c2dfd4eccc19cbc9716dcf76661f9bf547a9f9e3565f665908"
+    },
+    {
+      "path": "原始资料/repos/mystia-hayami-data/README.md",
+      "bytes": 868,
+      "sha256": "cfe66a7e9e020b82cc45df83e919fea26bec0dbcf56deb8e9f7618d3a09410fb"
+    },
+    {
+      "path": "原始资料/repos/mystia-steward-companion/apps/companion/src/recommendation-engine/dynamic-food-tags.ts",
+      "bytes": 949,
+      "sha256": "7f3059ebc88d510b87df7fab09916e39e3325da6de3db9983387715b487d467b"
+    },
+    {
+      "path": "原始资料/repos/mystia-steward-companion/NOTICE",
+      "bytes": 368,
+      "sha256": "7c0123d24371a32714b7c297efb6faff758745ee257cedbf2bf567c994a39e2d"
+    },
+    {
+      "path": "原始资料/repos/mystia-steward-companion/README.md",
+      "bytes": 9024,
+      "sha256": "ef71dc4cfb738fe75c5e2e3ecc190135d29785b6c98aefdeee0e0704ef94c250"
+    },
+    {
+      "path": "原始资料/repos/mystias_izakaya/README.md",
+      "bytes": 73,
+      "sha256": "9c96a053e114934ea861affcc3b9bb16579d36ec2bdf38b600b1a77f6f2c2a0a"
+    },
+    {
+      "path": "原始资料/repos/mystias_izakaya/src/main/java/com/crystal/mystia_izakaya/registry/ItemRegistry.java",
+      "bytes": 63965,
+      "sha256": "87b0c032248179d907a4025546cce350d31d083aa7a6987247cee2d106c535ce"
+    },
+    {
+      "path": "原始资料/repos/mystias_izakaya/src/main/java/com/crystal/mystia_izakaya/utils/UtilMethod.java",
+      "bytes": 9638,
+      "sha256": "f2ab0b432aa8956ab8e36278a51ee1776348910384cf0f182ea9018aed6806d3"
+    },
+    {
+      "path": "原始资料/repos/MystiasIzakaya/README.md",
+      "bytes": 3010,
+      "sha256": "2620cefb2a7bd16d23541631ee71c779898bf5fc5212f5a209791c1b9803d8c1"
+    },
+    {
+      "path": "原始资料/repos/MystiasIzakaya/src/main/java/org/hiedacamellia/mystiasizakaya/content/cooking/CookingUtils.java",
+      "bytes": 11032,
+      "sha256": "313c0d6496427b2ab690d9f8082dbf9aab0b39b9feb3a4b974b17964766ce9f4"
+    },
+    {
+      "path": "原始资料/repos/MystiasIzakaya/src/main/java/org/hiedacamellia/mystiasizakaya/registries/MIItem.java",
+      "bytes": 100576,
+      "sha256": "7bcdf196b4746bea8d44730da4eae27db6f4b232b5421716f69572374cd32d66"
+    },
+    {
+      "path": "原始资料/repos/MystiasIzakayaDataProjects/AzureSQL/IzakayaFillMenu.ipynb",
+      "bytes": 151874,
+      "sha256": "8330aef07366fe1a52057a6467bb536c1f109a8097e271ceb235cff5d9b214d5"
+    },
+    {
+      "path": "原始资料/repos/MystiasIzakayaDataProjects/README.md",
+      "bytes": 238,
+      "sha256": "a304779148fe57639c6f10fa2112dbbda3d38219036de5aa07bbe7a39f2e521c"
+    },
+    {
+      "path": "原始资料/repos/touhou-izakaya-helper/js/cook.js",
+      "bytes": 41454,
+      "sha256": "d0a8237b63f700faee3f38c37dd55a5a1a452e8db88f1e72991d9b95010219bb"
+    },
+    {
+      "path": "原始资料/repos/touhou-izakaya-helper/readme.md",
+      "bytes": 9816,
+      "sha256": "949b5915e63845bc53e5860aa4a9b74f0b67851f7d2c2f04dfeb5c880e92ed6a"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/AGENTS.md",
+      "bytes": 29478,
+      "sha256": "8e9d1299b22cfc34f9bda3ac1e158e3cf544ab21026fd92239a703e48e2ea1c0"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/catalog/food/BeverageCatalog.ts",
+      "bytes": 2013,
+      "sha256": "47da42be8d76d38233640ecae32d82f78552816bfcfa8505b6c66c633a6d2737"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/catalog/food/FoodCatalog.ts",
+      "bytes": 12568,
+      "sha256": "cc52ba3b69ff8c8d348527e6f7fa0bec1bfb052e2ffd3381f8cb8d4264af1876"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/catalog/food/IngredientCatalog.ts",
+      "bytes": 2216,
+      "sha256": "cfc841e40cb492119cff5c934e7f9a9a5c4b0842b4420963aa4595af9028cfa7"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/badges/records.ts",
+      "bytes": 16531,
+      "sha256": "dfb0745c376239cdedb4a29f326be2d0fbc17f3f40ea784a4453d0b622db2452"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/badges/schema.ts",
+      "bytes": 203,
+      "sha256": "d7c9bdb84bd22d7800a4c491958e1d5923adc144c1d849cf98f2380ea5da5248"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/badges/types.ts",
+      "bytes": 163,
+      "sha256": "08acb624747fddeb83ad6ba3c109d76e7e963fdf059a83934178871b3b4835b8"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/beverages/records.ts",
+      "bytes": 31347,
+      "sha256": "eeee6082cd866d5491fe57c3c1ac4541b5c8d7c8796800f7d27fb4f3ab3432e7"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/beverages/schema.ts",
+      "bytes": 388,
+      "sha256": "8d07b00c118a19e5287d0a1e8a8444e81463e19c7768598904a3eab8405f6e20"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/beverages/types.ts",
+      "bytes": 178,
+      "sha256": "50d23973975d3aac60190d872d01724ade0a1546bcbf883b3dc8b1a981a9d1db"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/clothes/records.ts",
+      "bytes": 10152,
+      "sha256": "d949d5fe0f7834a911bd459fa8b56d3bf68036b6efb07f0eb0a53af4cf25a7d1"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/clothes/schema.ts",
+      "bytes": 1469,
+      "sha256": "f7f5e873a0d4cf4d7405df1b783c8783791b9c902aa4cc69b38daae8e4c7e48f"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/clothes/types.ts",
+      "bytes": 169,
+      "sha256": "06a49cde0f7a48c752c55ab6775a41339303c17e49365190b4cdc3c9eb58aadf"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/cookers/cookerFacts.ts",
+      "bytes": 1158,
+      "sha256": "ca89ee53a5af4a1fdcd176d3cc216dd3dda336ca6aa6c3d320c74dd72bd61b8f"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/cookers/records.ts",
+      "bytes": 18796,
+      "sha256": "bc83164c39a0d486df61d455901e3d7949b890849605506bd4dc10e371b9db9c"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/cookers/schema.ts",
+      "bytes": 1412,
+      "sha256": "a4e532a24f631c1e500dc0d2fd62e34cdedbe971c17ce51c4334ebf598da5c02"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/cookers/types.ts",
+      "bytes": 387,
+      "sha256": "8e52bf4b7ae58c3d08c6942888bf9c1b8c8fec21dc9cbddf7f191b0626bfafa8"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/currencyItems/records.ts",
+      "bytes": 2680,
+      "sha256": "110d1cde036c29c41f5b9cdcc8d6b165bbccc69f8e2dd25c9e2ba716921f2c93"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/currencyItems/schema.ts",
+      "bytes": 850,
+      "sha256": "aec71b8f512b106a90176dcfa5820c1010b28e784b8cab11b53cb0d4bdf014ac"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/currencyItems/types.ts",
+      "bytes": 206,
+      "sha256": "9e266038b323119af1a06f5c7dad860610752bec0f84f4a7599f029c30776b9e"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/decorations/records.ts",
+      "bytes": 6960,
+      "sha256": "4a97eef673e7529bd3b06db9e4934fad7ef123851343729e8a562a0d6b2cb3d5"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/decorations/schema.ts",
+      "bytes": 1401,
+      "sha256": "fcb5e326bc5d6905c7a72e7df60a9827163763611f493fc6b87be7d27af6d361"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/decorations/types.ts",
+      "bytes": 190,
+      "sha256": "3c3dc1bf832e68c273612ff6af6aa9ab36b3bdb0e90b39e5898079453cec193a"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/fishingCollectibles/records.ts",
+      "bytes": 11550,
+      "sha256": "ae32717cd1fabbf952b636b72dc0fc1c8ab4bfdd2e82bdf1eed4d7ef118d3283"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/fishingCollectibles/schema.ts",
+      "bytes": 413,
+      "sha256": "ef4971c8e27a69a49b2749a9fe022ce662b47c5ee47d0ae1e443e4ad76dfce8b"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/fishingCollectibles/types.ts",
+      "bytes": 244,
+      "sha256": "1df8258d7fb8414266bb71cdfb0db992d53b062f203b1986e9971b4e08e113af"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/foods/records.ts",
+      "bytes": 106311,
+      "sha256": "bcc0928bb3534632fff9cfaded9e71647bf9395fac2288791223de0a8b94dd9a"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/foods/schema.ts",
+      "bytes": 2361,
+      "sha256": "dd3e52286e760881787010e698ea7bdda12c65b1451e4eb6f7341d87b1928f54"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/foods/types.ts",
+      "bytes": 220,
+      "sha256": "9fd0211ed452511960782a84cb8253be65473cbd26ad4232f9339b36f1a7214b"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/generalItems/records.ts",
+      "bytes": 4889,
+      "sha256": "f20f130ba1d333406a439364e918b1fe93bd9ad74d830ea551134b95e56837eb"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/generalItems/schema.ts",
+      "bytes": 741,
+      "sha256": "c6b2e61ec8062755dff7d8bc0de3284683c95bc10ff0c979cc0006123b8d4608"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/generalItems/types.ts",
+      "bytes": 200,
+      "sha256": "bd7e82fbe074872bc63869a7539d98a5e951e0a6e96bfe9a1231e69dbce6596d"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/guests/normal/records.ts",
+      "bytes": 34658,
+      "sha256": "faac3511f2211904792b6c11863a5f6f42169461a00a513973c8e7b9f856d822"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/guests/normal/schema.ts",
+      "bytes": 124,
+      "sha256": "030bfa8b327a8c63b679dff1d75cdc23e69dba0a9c104a423f0ecdfaab73d7d5"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/guests/normal/types.ts",
+      "bytes": 197,
+      "sha256": "ae30b028411073a588058469d16e4a7560322c2396a75030d69e814f5fc943b9"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/guests/special/formatTokens.ts",
+      "bytes": 53,
+      "sha256": "01dfc6c0c555ad942659fae5ed2eea689f14912ef72c3a6b7fb3d0d5cd8bacbb"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/guests/special/records.ts",
+      "bytes": 170617,
+      "sha256": "59c0617f4374b67ee2414109df38fe1ad4113754f6c3f31a2e85e36846e74c39"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/guests/special/schema.ts",
+      "bytes": 982,
+      "sha256": "0162d65c60b2e2ae39af780f932d21245cea0f7ef1d5d4bd7693233d81a83fe0"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/guests/special/types.ts",
+      "bytes": 203,
+      "sha256": "e1f7efbbc19ee38574ebd798a7a434783ff939027ae361d98a20fb2fc14bea0b"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/ingredients/ingredientFacts.ts",
+      "bytes": 369,
+      "sha256": "d2d320e15038a9791458c16faebaead7300dc637a04056069b8e73a27fb69bb7"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/ingredients/records.ts",
+      "bytes": 56477,
+      "sha256": "6327550b742522eb2e9a7bfb74779b7a8bd113aa47481414661e9244e0d51258"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/ingredients/schema.ts",
+      "bytes": 324,
+      "sha256": "39bcb1fda8efe5e41d63b4fe46394f14883849ae6d2fd58b2dff3730309e64ee"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/ingredients/types.ts",
+      "bytes": 368,
+      "sha256": "aaa7a3308de16fd9cf240d221687928e2675b6beeb79f4317e11b3f7a3924e65"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/labels/collaborationFacts.ts",
+      "bytes": 378,
+      "sha256": "b1080f50303c532d7db907f37fc1acf3ba5a237d5ff5a6a67dc79a2d96f83b22"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/labels/prayerFacts.ts",
+      "bytes": 579,
+      "sha256": "a8848d722dbd0a12edca6d0ae0d429482923e04ef6c961f1516a6aab09245a7b"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/labels/schedulerFacts.ts",
+      "bytes": 3401,
+      "sha256": "24aebca97609ff45589f562a8c17941b8502e0b3677365ebfc06258a854f429a"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/partners/records.ts",
+      "bytes": 10272,
+      "sha256": "6d6193ddb2dac42b48069d54f8e4c14fb5cd0ea97202a1fb155bdddad778ea78"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/partners/schema.ts",
+      "bytes": 1231,
+      "sha256": "4f711e6fb1cc830b5b0a3b6e9e9e8da6694d8b4f867e2aa18ead645650c43897"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/partners/speedFacts.ts",
+      "bytes": 180,
+      "sha256": "cc561373e44a7c7af88c13b741a4fe0f8afefdf368c1f29c1ab1ab08afceff6c"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/partners/types.ts",
+      "bytes": 172,
+      "sha256": "7bbc35e0fb1ad1a6a2b90a0db99c96f0b635393bd2fe102906d20e00856feb43"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/places/collectableLabels.ts",
+      "bytes": 5435,
+      "sha256": "ff9bfdf8b092d7b01b592bd8c04dd00fbe8cd2612ce854dab80415a0959553c8"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/places/collectionFacts.ts",
+      "bytes": 21099,
+      "sha256": "5c589bd0bf751afb3db87110c6f6b34eea3bf5e554b10090a5d0dcc4bf8fecd3"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/places/collectionYieldFacts.ts",
+      "bytes": 60274,
+      "sha256": "1a3b73708107a6741fefd9152d9fe868b928fcff24700fc049d01e39c827f185"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/places/merchantFacts.ts",
+      "bytes": 1227,
+      "sha256": "1cf76c5c7e4e964f738f0b704b2aeb6c6f37a6096ae1cf1ec83922e7c7b22196"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/places/placeFacts.ts",
+      "bytes": 2731,
+      "sha256": "d5b02dd50ea760fc633112be7b1788ec441680f001e67736ca247597ca924cce"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/places/types.ts",
+      "bytes": 2450,
+      "sha256": "05ab42f9f5727be2af21e980825745bd805e3aa085714ecc06e42849d9aed81b"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/records/records.ts",
+      "bytes": 28998,
+      "sha256": "000d714ed0e4659c6dc81588fa5aea904478cdd69fe5e835b788cb3e54b6b879"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/records/schema.ts",
+      "bytes": 551,
+      "sha256": "5f6e4fa163b75e2e4178b9205a84a9d37bc6a7cb1f4ada17725226877d33392d"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/records/types.ts",
+      "bytes": 169,
+      "sha256": "0b88485a83e2fdbc574ce2bd628231192d99a7d9c51a602cea4eb3ae5e33bc44"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/shared/foodSchema.ts",
+      "bytes": 1209,
+      "sha256": "4b9e6194f4be238d07731ca295b00603061f62ddedf9e2800cb3574a571f7e69"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/shared/guestSchema.ts",
+      "bytes": 346,
+      "sha256": "afe984f3fabe161938eb3ccc2c52817909bd6d2f4ce68fb214ca618e6fdd3a38"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/shared/itemSchema.ts",
+      "bytes": 180,
+      "sha256": "0fddd15173943bd8772d1a33dfb62580c288b76b31659105e7e2f6cdd8fb20c3"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/shared/types.ts",
+      "bytes": 282,
+      "sha256": "95023eab6594ae59a3ec189125abe1425fb6cb03955ca4b6e3195aa775f47a38"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/sprites/configs.ts",
+      "bytes": 2673,
+      "sha256": "6a32b500d3b0fff2667f9a837164d0c2960b94aa7319578cd45cfd07ae43c823"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/sprites/createSpriteConfig.ts",
+      "bytes": 1185,
+      "sha256": "442452000fcb35c49abf92297dcd081802c6de10e888cb682d08e72a31417d00"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/sprites/types.ts",
+      "bytes": 2665,
+      "sha256": "ded1a9a37bdabc10b3c2f97201b382d3c44d58dade19cb97f7732cb9d13418b8"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/tags/tagFacts.ts",
+      "bytes": 2041,
+      "sha256": "1eff45ca607a9290c3f09b91c033a0ec034c40f243f8ece69bc3f4c9fea867c1"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/tags/types.ts",
+      "bytes": 330,
+      "sha256": "5ef13f5f251ad225f2f8018ed759ed92a5ad6dcfcabf88b3ac6f78f418ea12dc"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/types.ts",
+      "bytes": 1717,
+      "sha256": "6316232ceea3fd9c9d661b0ab2aef5ee1e7edb0faa1148628968a24800fa2caf"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/evaluation/evaluateSavedMeal.ts",
+      "bytes": 5519,
+      "sha256": "555da1c91148286a864a0ee99058cd5363ecd7dc3166558941294db04177db41"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/places/collectionLocations.ts",
+      "bytes": 495,
+      "sha256": "7da2f3fc3a7490a8647a794e357947fd24ad7cc68fa752be480d36309cc9249d"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/package.json",
+      "bytes": 9008,
+      "sha256": "06ae13d9f682cd9c97f44a85f2b2dc25a90a80fe8eff4d76bb26400038342540"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant/README.md",
+      "bytes": 1350,
+      "sha256": "a8b805dede78ee2ef24703fced8655c8dcc43476d3680677fe9d9ffc366c3d26"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-data/data/recipes.json",
+      "bytes": 90428,
+      "sha256": "d615fa615ea7b1b70985e471f372d3b04596868f77fb7f9f777274e7bed8618e"
+    },
+    {
+      "path": "原始资料/repos/touhou-mystia-izakaya-data/README.md",
+      "bytes": 820,
+      "sha256": "0f28da661267dbdca01f4216f3c145b672e23589728570548f2facf639029a3e"
+    },
+    {
+      "path": "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx",
+      "bytes": 205009,
+      "sha256": "d6d397db47dc7420ead80e1412f437d05984ffcb2eca6895e225dfe9c5ce134e"
+    },
+    {
+      "path": "成品/东方夜雀食堂攻略查询_2610112307.html",
+      "bytes": 2548920,
+      "sha256": "d3d63f2857577dd55f2d44f49bd52a101a3ea8ec236503c45f5cdcb51842f4e1"
+    },
+    {
+      "path": "成品/料亭立体头像版_构建校验.json",
+      "bytes": 3097,
+      "sha256": "561ffca8fa41b2f0f8031ea0fa9fb4e88e930704e87c7c82a8e6473ab079b49e"
+    },
+    {
+      "path": "脚本/apply_lantern_logo.py",
+      "bytes": 3646,
+      "sha256": "8330e5badfa367b0aef197d7463c20b0bf12116ca5df10abb4a528f36918a187"
+    },
+    {
+      "path": "脚本/asset_map.json",
+      "bytes": 11539,
+      "sha256": "a5fc072516396393d483feef008ea348c624ea09db0adb956dfd4cb7d555ef3f"
+    },
+    {
+      "path": "脚本/build_assets.py",
+      "bytes": 7192,
+      "sha256": "41439232f6ee1b75b9e13c040e798023575ce947906006d23b44c47469b9b880"
+    },
+    {
+      "path": "脚本/build_excel.py",
+      "bytes": 45316,
+      "sha256": "a8e7758ad5c86a796d2729bba81defefd0496f23ce095fdb7f985e6f2df638b5"
+    },
+    {
+      "path": "脚本/build_html.py",
+      "bytes": 15645,
+      "sha256": "d2dc3a94bc45d08b07c70efa3cd775c13d92fea5e046d9e3a42e04df70c0f544"
+    },
+    {
+      "path": "脚本/build_html_3d.py",
+      "bytes": 6377,
+      "sha256": "be5436498d1876f399af580ccbd9671ba9cac56bc8a06f2e2bb9b144c241c0f6"
+    },
+    {
+      "path": "脚本/build_html_ryotei.py",
+      "bytes": 5881,
+      "sha256": "1ff8e199d85c97f28d7067032de597134ead6e28dd9fc47b9f083550bb78476d"
+    },
+    {
+      "path": "脚本/build_html_ryotei_avatar.py",
+      "bytes": 8829,
+      "sha256": "f88e6ed05fc785fb92e907d81e4ce4104693b8f254ab55608d4502e4f28792d4"
+    },
+    {
+      "path": "脚本/check_addons.py",
+      "bytes": 749,
+      "sha256": "6569bba790d96a968f7093aff54863b67295cc2fbae122b821de7be24749db62"
+    },
+    {
+      "path": "脚本/final_audit.py",
+      "bytes": 2291,
+      "sha256": "8394a1bdaf8750f9572ddd1c217ae288439363cacbd79b863768fe5e1ac2982e"
+    },
+    {
+      "path": "脚本/guide_template_ryotei.html",
+      "bytes": 130526,
+      "sha256": "6ff259fa2f36750dc748ad82950ed6f656a8b7e574f976d1c3a7373a47f7995f"
+    },
+    {
+      "path": "脚本/live_output.cjs",
+      "bytes": 965,
+      "sha256": "f2f766c412f360ff4f58b3b3ae201c35b18c18078581461d9a11304d398e6230"
+    },
+    {
+      "path": "脚本/parse_ts_data.py",
+      "bytes": 5626,
+      "sha256": "3418a225dcecad0f1449fa25ffeb7692832147a28cbc63f24f89c09a3e45b92a"
+    },
+    {
+      "path": "脚本/ryotei_navigation.js",
+      "bytes": 21866,
+      "sha256": "764f850462b26b38f0966c954e35f98546efa3c384e86a5ebcf4fb3b761f62c9"
+    },
+    {
+      "path": "脚本/ryotei_ui.js",
+      "bytes": 26902,
+      "sha256": "77fcd2be8547b7a5ee976e9f04b23d4d996bb35906e17e5a62fc0bc1df5ba53a"
+    },
+    {
+      "path": "脚本/subset_wafu_font.py",
+      "bytes": 1934,
+      "sha256": "7f514555d7dfa7f95a87698f2d93192370540a5a8e1785de18e2f305f523dbdf"
+    },
+    {
+      "path": "脚本/verify_3d.cjs",
+      "bytes": 3098,
+      "sha256": "e8b5d8ae5069f1125a37d41c222f890a9a50702d924d2e537e05fd9c36f7781f"
+    },
+    {
+      "path": "脚本/verify_avatar_browser.cjs",
+      "bytes": 30303,
+      "sha256": "291353332e80f0c8d3f7bb471323cb1edd339b24a58db773abcff6e6835fd874"
+    },
+    {
+      "path": "脚本/verify_full_recommendations.cjs",
+      "bytes": 3427,
+      "sha256": "b0f2e1a6b9f32824ccdf9a50a637e63f4dc1b763360ecd2e34cd1d27f6469fba"
+    },
+    {
+      "path": "脚本/verify_ryotei.cjs",
+      "bytes": 17451,
+      "sha256": "db171e3f883ae13878a7e1daacf92e9707a46d7c9978a7920b822dea4bde0825"
+    },
+    {
+      "path": "脚本/verify_workbook.py",
+      "bytes": 670,
+      "sha256": "b26c6dfb48cdfb14c0368a646cf02ed19d99d876e5f9d72fff6f43d6ef671a07"
+    }
+  ],
+  "newEvidenceFiles": [
+    "验证记录/2026-10-13--全量数据核查/管线审计/解析保真与静默损失_01.json",
+    "验证记录/2026-10-13--全量数据核查/管线审计/获取来源格式化风险_01.json",
+    "验证记录/2026-10-13--全量数据核查/管线审计/派生标签与其他管线机制_01.json",
+    "验证记录/2026-10-13--全量数据核查/管线审计/加料容量与四料替代候选边界_01.json",
+    "验证记录/2026-10-13--全量数据核查/管线审计/上游仓库版本与佛跳墙证据_01.json"
+  ],
+  "excludedIndependentTasks": [
+    "主Agent当前HTML核心表全字段对比与全量推荐关系重算",
+    "原始游戏Agent真实catalog解码",
+    "THBWiki Agent全表数据比对",
+    "加料页排序Agent实现"
+  ]
+}

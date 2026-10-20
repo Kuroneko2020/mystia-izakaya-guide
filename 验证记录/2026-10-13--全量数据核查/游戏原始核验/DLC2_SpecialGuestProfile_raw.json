@@ -1,0 +1,1955 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+  "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+  "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+  "path_id": 8201579563814224086,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 6250583566208569587
+    },
+    "m_Name": "DLC2_SpecialGuestProfile",
+    "specialGuests": [
+      {
+        "id": 2000,
+        "stringId": "Yamame",
+        "fundRange": {
+          "x": 250,
+          "y": 400
+        },
+        "enduranceLimit": 1.2000000476837158,
+        "hateFoodTag": [
+          15,
+          6,
+          22
+        ],
+        "likeFoodTag": [
+          {
+            "tagId": 17,
+            "weight": 1
+          },
+          {
+            "tagId": 16,
+            "weight": 2
+          },
+          {
+            "tagId": 24,
+            "weight": 2
+          },
+          {
+            "tagId": 20,
+            "weight": 1
+          },
+          {
+            "tagId": 18,
+            "weight": 2
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 0,
+            "weight": 2
+          },
+          {
+            "tagId": 1,
+            "weight": 1
+          },
+          {
+            "tagId": 10,
+            "weight": 2
+          },
+          {
+            "tagId": 13,
+            "weight": 1
+          }
+        ],
+        "reaction": {
+          "toPop": 2,
+          "toInfam": 1
+        },
+        "destination": {
+          "spawnMarker": "Yamame",
+          "stayTime": {
+            "x": 10,
+            "y": 18
+          },
+          "initialDialogPackIDs": [],
+          "interactiveAreaSize": 0.0,
+          "switchConditionLabel": ""
+        },
+        "commisionAreaLabel": "DLC2_FormerHell",
+        "hideInAlbum": 0,
+        "isParticular": 0,
+        "isCollabCharacter": 0,
+        "hideInNX": 0,
+        "spawnType": 0,
+        "unifiedSpawnProb": 0.0,
+        "unifiedSpawnExclusion": [],
+        "unifiedSpawnWhereAfterEventOrMission": "",
+        "doNotShowInNightByDefault": 0,
+        "doNotShowInChallenge": 0,
+        "controllable": 0,
+        "characterKizunaLevel1Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -995650939335621754
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 4527035250045548255
+          }
+        ],
+        "characterKizunaLevel2Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -995650939335621754
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 4527035250045548255
+          }
+        ],
+        "characterKizunaLevel3Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -995650939335621754
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 4527035250045548255
+          }
+        ],
+        "characterKizunaLevel4Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -995650939335621754
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 4527035250045548255
+          }
+        ],
+        "characterKizunaLevel5Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -995650939335621754
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 4527035250045548255
+          }
+        ],
+        "characterKizunaLevel1ChatData": [
+          "DLC2_Kizuna_Yamame_LV1_001",
+          "DLC2_Kizuna_Yamame_LV1_002"
+        ],
+        "characterKizunaLevel2ChatData": [
+          "DLC2_Kizuna_Yamame_LV2_001",
+          "DLC2_Kizuna_Yamame_LV2_002"
+        ],
+        "characterKizunaLevel3ChatData": [
+          "DLC2_Kizuna_Yamame_LV3_001",
+          "DLC2_Kizuna_Yamame_LV3_002"
+        ],
+        "characterKizunaLevel4ChatData": [
+          "DLC2_Kizuna_Yamame_LV4_001",
+          "DLC2_Kizuna_Yamame_LV4_002"
+        ],
+        "characterKizunaLevel5ChatData": [
+          "DLC2_Kizuna_Yamame_LV4_001",
+          "DLC2_Kizuna_Yamame_LV4_002"
+        ],
+        "characterKizunaLevel2InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6280910938536828762
+          }
+        ],
+        "characterKizunaLevel2InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -3592751059114294516
+          }
+        ],
+        "characterKizunaLevel3InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6280910938536828762
+          }
+        ],
+        "characterKizunaLevel3InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -3592751059114294516
+          }
+        ],
+        "characterKizunaLevel4InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6280910938536828762
+          }
+        ],
+        "characterKizunaLevel4InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -3592751059114294516
+          }
+        ],
+        "characterKizunaLevel5InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6280910938536828762
+          }
+        ],
+        "characterKizunaLevel3RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -5572208130810607627
+          }
+        ],
+        "characterKizunaLevel4RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -5572208130810607627
+          }
+        ],
+        "characterKizunaLevel5RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -5572208130810607627
+          }
+        ],
+        "characterKizunaLevel4RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -7977349967895030563
+          }
+        ],
+        "characterKizunaLevel5RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -7977349967895030563
+          }
+        ],
+        "characterKizunaLevel5Commision": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 3895329584801750111
+          }
+        ],
+        "characterKizunaLevel5CommisionFinish": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6889410822324240768
+          }
+        ],
+        "m_SpecialGuestExtraDialogDataAsset": {
+          "m_AssetGUID": "",
+          "m_SubObjectName": "",
+          "m_SubObjectType": ""
+        },
+        "guestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 2001,
+        "stringId": "Parsee",
+        "fundRange": {
+          "x": 300,
+          "y": 400
+        },
+        "enduranceLimit": 1.2000000476837158,
+        "hateFoodTag": [
+          17
+        ],
+        "likeFoodTag": [
+          {
+            "tagId": 2000,
+            "weight": 2
+          },
+          {
+            "tagId": 15,
+            "weight": 2
+          },
+          {
+            "tagId": 34,
+            "weight": 1
+          },
+          {
+            "tagId": 16,
+            "weight": 1
+          },
+          {
+            "tagId": 31,
+            "weight": 1
+          },
+          {
+            "tagId": 0,
+            "weight": 2
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": -1,
+            "weight": 2
+          },
+          {
+            "tagId": 4,
+            "weight": 1
+          },
+          {
+            "tagId": 11,
+            "weight": 2
+          },
+          {
+            "tagId": 15,
+            "weight": 1
+          },
+          {
+            "tagId": 14,
+            "weight": 1
+          }
+        ],
+        "reaction": {
+          "toPop": 0,
+          "toInfam": 0
+        },
+        "destination": {
+          "spawnMarker": "Parsee",
+          "stayTime": {
+            "x": 10,
+            "y": 18
+          },
+          "initialDialogPackIDs": [],
+          "interactiveAreaSize": 0.0,
+          "switchConditionLabel": ""
+        },
+        "commisionAreaLabel": "",
+        "hideInAlbum": 0,
+        "isParticular": 0,
+        "isCollabCharacter": 0,
+        "hideInNX": 0,
+        "spawnType": 0,
+        "unifiedSpawnProb": 0.0,
+        "unifiedSpawnExclusion": [],
+        "unifiedSpawnWhereAfterEventOrMission": "",
+        "doNotShowInNightByDefault": 0,
+        "doNotShowInChallenge": 0,
+        "controllable": 0,
+        "characterKizunaLevel1Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -6399192140116376211
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 966590158188750205
+          }
+        ],
+        "characterKizunaLevel2Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -6399192140116376211
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 966590158188750205
+          }
+        ],
+        "characterKizunaLevel3Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -6399192140116376211
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 966590158188750205
+          }
+        ],
+        "characterKizunaLevel4Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -6399192140116376211
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 966590158188750205
+          }
+        ],
+        "characterKizunaLevel5Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -6399192140116376211
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 966590158188750205
+          }
+        ],
+        "characterKizunaLevel1ChatData": [
+          "DLC2_Kizuna_Parsee_LV1_001",
+          "DLC2_Kizuna_Parsee_LV1_002"
+        ],
+        "characterKizunaLevel2ChatData": [
+          "DLC2_Kizuna_Parsee_LV2_001",
+          "DLC2_Kizuna_Parsee_LV2_002"
+        ],
+        "characterKizunaLevel3ChatData": [
+          "DLC2_Kizuna_Parsee_LV3_001",
+          "DLC2_Kizuna_Parsee_LV3_002"
+        ],
+        "characterKizunaLevel4ChatData": [
+          "DLC2_Kizuna_Parsee_LV4_001",
+          "DLC2_Kizuna_Parsee_LV4_002"
+        ],
+        "characterKizunaLevel5ChatData": [
+          "DLC2_Kizuna_Parsee_LV4_001",
+          "DLC2_Kizuna_Parsee_LV4_002"
+        ],
+        "characterKizunaLevel2InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4385360905885590505
+          }
+        ],
+        "characterKizunaLevel2InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -9217126688435414881
+          }
+        ],
+        "characterKizunaLevel3InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4385360905885590505
+          }
+        ],
+        "characterKizunaLevel3InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -9217126688435414881
+          }
+        ],
+        "characterKizunaLevel4InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4385360905885590505
+          }
+        ],
+        "characterKizunaLevel4InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -9217126688435414881
+          }
+        ],
+        "characterKizunaLevel5InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4385360905885590505
+          }
+        ],
+        "characterKizunaLevel3RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6473620180469797411
+          }
+        ],
+        "characterKizunaLevel4RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6473620180469797411
+          }
+        ],
+        "characterKizunaLevel5RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6473620180469797411
+          }
+        ],
+        "characterKizunaLevel4RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -84520791092865281
+          }
+        ],
+        "characterKizunaLevel5RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -84520791092865281
+          }
+        ],
+        "characterKizunaLevel5Commision": [],
+        "characterKizunaLevel5CommisionFinish": [],
+        "m_SpecialGuestExtraDialogDataAsset": {
+          "m_AssetGUID": "",
+          "m_SubObjectName": "",
+          "m_SubObjectType": ""
+        },
+        "guestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 2002,
+        "stringId": "Yuugi",
+        "fundRange": {
+          "x": 600,
+          "y": 1000
+        },
+        "enduranceLimit": 1.5,
+        "hateFoodTag": [
+          2,
+          24,
+          28
+        ],
+        "likeFoodTag": [
+          {
+            "tagId": 8,
+            "weight": 2
+          },
+          {
+            "tagId": 19,
+            "weight": 2
+          },
+          {
+            "tagId": 5,
+            "weight": 1
+          },
+          {
+            "tagId": 12,
+            "weight": 1
+          },
+          {
+            "tagId": -1,
+            "weight": 1
+          },
+          {
+            "tagId": 23,
+            "weight": 2
+          },
+          {
+            "tagId": 35,
+            "weight": 2
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 2,
+            "weight": 2
+          },
+          {
+            "tagId": 10,
+            "weight": 1
+          },
+          {
+            "tagId": 17,
+            "weight": 2
+          },
+          {
+            "tagId": 6,
+            "weight": 1
+          }
+        ],
+        "reaction": {
+          "toPop": 2,
+          "toInfam": 1
+        },
+        "destination": {
+          "spawnMarker": "Yuugi",
+          "stayTime": {
+            "x": 10,
+            "y": 18
+          },
+          "initialDialogPackIDs": [],
+          "interactiveAreaSize": 0.0,
+          "switchConditionLabel": ""
+        },
+        "commisionAreaLabel": "",
+        "hideInAlbum": 0,
+        "isParticular": 0,
+        "isCollabCharacter": 0,
+        "hideInNX": 0,
+        "spawnType": 0,
+        "unifiedSpawnProb": 0.0,
+        "unifiedSpawnExclusion": [],
+        "unifiedSpawnWhereAfterEventOrMission": "",
+        "doNotShowInNightByDefault": 0,
+        "doNotShowInChallenge": 0,
+        "controllable": 0,
+        "characterKizunaLevel1Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4639631810537699638
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": -4480074681911346687
+          }
+        ],
+        "characterKizunaLevel2Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4639631810537699638
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": -4480074681911346687
+          }
+        ],
+        "characterKizunaLevel3Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4639631810537699638
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": -4480074681911346687
+          }
+        ],
+        "characterKizunaLevel4Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4639631810537699638
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": -4480074681911346687
+          }
+        ],
+        "characterKizunaLevel5Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4639631810537699638
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": -4480074681911346687
+          }
+        ],
+        "characterKizunaLevel1ChatData": [
+          "DLC2_Kizuna_Yuugi_LV1_001",
+          "DLC2_Kizuna_Yuugi_LV1_002"
+        ],
+        "characterKizunaLevel2ChatData": [
+          "DLC2_Kizuna_Yuugi_LV2_001",
+          "DLC2_Kizuna_Yuugi_LV2_002"
+        ],
+        "characterKizunaLevel3ChatData": [
+          "DLC2_Kizuna_Yuugi_LV3_001",
+          "DLC2_Kizuna_Yuugi_LV3_002"
+        ],
+        "characterKizunaLevel4ChatData": [
+          "DLC2_Kizuna_Yuugi_LV4_001",
+          "DLC2_Kizuna_Yuugi_LV4_002"
+        ],
+        "characterKizunaLevel5ChatData": [
+          "DLC2_Kizuna_Yuugi_LV4_001",
+          "DLC2_Kizuna_Yuugi_LV4_002"
+        ],
+        "characterKizunaLevel2InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4478029371726249099
+          }
+        ],
+        "characterKizunaLevel2InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 2900056611032067575
+          }
+        ],
+        "characterKizunaLevel3InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4478029371726249099
+          }
+        ],
+        "characterKizunaLevel3InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 2900056611032067575
+          }
+        ],
+        "characterKizunaLevel4InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4478029371726249099
+          }
+        ],
+        "characterKizunaLevel4InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 2900056611032067575
+          }
+        ],
+        "characterKizunaLevel5InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4478029371726249099
+          }
+        ],
+        "characterKizunaLevel3RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4648551796080633143
+          }
+        ],
+        "characterKizunaLevel4RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4648551796080633143
+          }
+        ],
+        "characterKizunaLevel5RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 4648551796080633143
+          }
+        ],
+        "characterKizunaLevel4RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 1033775501934839432
+          }
+        ],
+        "characterKizunaLevel5RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 1033775501934839432
+          }
+        ],
+        "characterKizunaLevel5Commision": [],
+        "characterKizunaLevel5CommisionFinish": [],
+        "m_SpecialGuestExtraDialogDataAsset": {
+          "m_AssetGUID": "bc97d29b87afdb74385fadb5e0f94c9c",
+          "m_SubObjectName": "",
+          "m_SubObjectType": ""
+        },
+        "guestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 2003,
+        "stringId": "Satori",
+        "fundRange": {
+          "x": 500,
+          "y": 600
+        },
+        "enduranceLimit": 1.5,
+        "hateFoodTag": [
+          0,
+          10,
+          22,
+          24,
+          -1
+        ],
+        "likeFoodTag": [
+          {
+            "tagId": 3,
+            "weight": 2
+          },
+          {
+            "tagId": 28,
+            "weight": 1
+          },
+          {
+            "tagId": 17,
+            "weight": 2
+          },
+          {
+            "tagId": 29,
+            "weight": 1
+          },
+          {
+            "tagId": 30,
+            "weight": 1
+          },
+          {
+            "tagId": 23,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": -1,
+            "weight": 2
+          },
+          {
+            "tagId": 15,
+            "weight": 2
+          },
+          {
+            "tagId": 16,
+            "weight": 2
+          },
+          {
+            "tagId": 19,
+            "weight": 1
+          }
+        ],
+        "reaction": {
+          "toPop": 1,
+          "toInfam": 1
+        },
+        "destination": {
+          "spawnMarker": "Satori",
+          "stayTime": {
+            "x": 10,
+            "y": 18
+          },
+          "initialDialogPackIDs": [],
+          "interactiveAreaSize": 2.5,
+          "switchConditionLabel": ""
+        },
+        "commisionAreaLabel": "",
+        "hideInAlbum": 0,
+        "isParticular": 0,
+        "isCollabCharacter": 0,
+        "hideInNX": 0,
+        "spawnType": 0,
+        "unifiedSpawnProb": 0.0,
+        "unifiedSpawnExclusion": [],
+        "unifiedSpawnWhereAfterEventOrMission": "",
+        "doNotShowInNightByDefault": 0,
+        "doNotShowInChallenge": 0,
+        "controllable": 0,
+        "characterKizunaLevel1Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -262322769046954084
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 7362884361439789742
+          }
+        ],
+        "characterKizunaLevel2Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -262322769046954084
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 7362884361439789742
+          }
+        ],
+        "characterKizunaLevel3Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -262322769046954084
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 7362884361439789742
+          }
+        ],
+        "characterKizunaLevel4Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -262322769046954084
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 7362884361439789742
+          }
+        ],
+        "characterKizunaLevel5Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -262322769046954084
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 7362884361439789742
+          }
+        ],
+        "characterKizunaLevel1ChatData": [
+          "DLC2_Kizuna_Satori_LV1_001",
+          "DLC2_Kizuna_Satori_LV1_002"
+        ],
+        "characterKizunaLevel2ChatData": [
+          "DLC2_Kizuna_Satori_LV2_001",
+          "DLC2_Kizuna_Satori_LV2_002"
+        ],
+        "characterKizunaLevel3ChatData": [
+          "DLC2_Kizuna_Satori_LV3_001",
+          "DLC2_Kizuna_Satori_LV3_002"
+        ],
+        "characterKizunaLevel4ChatData": [
+          "DLC2_Kizuna_Satori_LV4_001",
+          "DLC2_Kizuna_Satori_LV4_002"
+        ],
+        "characterKizunaLevel5ChatData": [
+          "DLC2_Kizuna_Satori_LV4_001",
+          "DLC2_Kizuna_Satori_LV4_002"
+        ],
+        "characterKizunaLevel2InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -6191000584567259875
+          }
+        ],
+        "characterKizunaLevel2InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -7868979506054030054
+          }
+        ],
+        "characterKizunaLevel3InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -6191000584567259875
+          }
+        ],
+        "characterKizunaLevel3InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -7868979506054030054
+          }
+        ],
+        "characterKizunaLevel4InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -6191000584567259875
+          }
+        ],
+        "characterKizunaLevel4InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -7868979506054030054
+          }
+        ],
+        "characterKizunaLevel5InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -6191000584567259875
+          }
+        ],
+        "characterKizunaLevel3RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -1323572804161428959
+          }
+        ],
+        "characterKizunaLevel4RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -1323572804161428959
+          }
+        ],
+        "characterKizunaLevel5RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -1323572804161428959
+          }
+        ],
+        "characterKizunaLevel4RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4577791931404520517
+          }
+        ],
+        "characterKizunaLevel5RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4577791931404520517
+          }
+        ],
+        "characterKizunaLevel5Commision": [],
+        "characterKizunaLevel5CommisionFinish": [],
+        "m_SpecialGuestExtraDialogDataAsset": {
+          "m_AssetGUID": "587fe41ad23f49a4f9c4a112170f327d",
+          "m_SubObjectName": "",
+          "m_SubObjectType": ""
+        },
+        "guestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 2004,
+        "stringId": "Orin",
+        "fundRange": {
+          "x": 500,
+          "y": 700
+        },
+        "enduranceLimit": 1.2999999523162842,
+        "hateFoodTag": [
+          18,
+          22
+        ],
+        "likeFoodTag": [
+          {
+            "tagId": 16,
+            "weight": 2
+          },
+          {
+            "tagId": 17,
+            "weight": 1
+          },
+          {
+            "tagId": 1,
+            "weight": 2
+          },
+          {
+            "tagId": 11,
+            "weight": 1
+          },
+          {
+            "tagId": 24,
+            "weight": 1
+          },
+          {
+            "tagId": 29,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 0,
+            "weight": 1
+          },
+          {
+            "tagId": 12,
+            "weight": 2
+          },
+          {
+            "tagId": 6,
+            "weight": 1
+          }
+        ],
+        "reaction": {
+          "toPop": 2,
+          "toInfam": 1
+        },
+        "destination": {
+          "spawnMarker": "Orin",
+          "stayTime": {
+            "x": 10,
+            "y": 18
+          },
+          "initialDialogPackIDs": [],
+          "interactiveAreaSize": 0.0,
+          "switchConditionLabel": ""
+        },
+        "commisionAreaLabel": "DLC2_EarthSpiritsPalace",
+        "hideInAlbum": 0,
+        "isParticular": 0,
+        "isCollabCharacter": 0,
+        "hideInNX": 0,
+        "spawnType": 0,
+        "unifiedSpawnProb": 0.0,
+        "unifiedSpawnExclusion": [],
+        "unifiedSpawnWhereAfterEventOrMission": "",
+        "doNotShowInNightByDefault": 0,
+        "doNotShowInChallenge": 0,
+        "controllable": 0,
+        "characterKizunaLevel1Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4296753814076037362
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 8283663116161922343
+          }
+        ],
+        "characterKizunaLevel2Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4296753814076037362
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 8283663116161922343
+          }
+        ],
+        "characterKizunaLevel3Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4296753814076037362
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 8283663116161922343
+          }
+        ],
+        "characterKizunaLevel4Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4296753814076037362
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 8283663116161922343
+          }
+        ],
+        "characterKizunaLevel5Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4296753814076037362
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 8283663116161922343
+          }
+        ],
+        "characterKizunaLevel1ChatData": [
+          "DLC2_Kizuna_Orin_LV1_001",
+          "DLC2_Kizuna_Orin_LV1_002"
+        ],
+        "characterKizunaLevel2ChatData": [
+          "DLC2_Kizuna_Orin_LV2_001",
+          "DLC2_Kizuna_Orin_LV2_002"
+        ],
+        "characterKizunaLevel3ChatData": [
+          "DLC2_Kizuna_Orin_LV3_001",
+          "DLC2_Kizuna_Orin_LV3_002"
+        ],
+        "characterKizunaLevel4ChatData": [
+          "DLC2_Kizuna_Orin_LV4_001",
+          "DLC2_Kizuna_Orin_LV4_002"
+        ],
+        "characterKizunaLevel5ChatData": [
+          "DLC2_Kizuna_Orin_LV4_001",
+          "DLC2_Kizuna_Orin_LV4_002"
+        ],
+        "characterKizunaLevel2InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -87281599935335846
+          }
+        ],
+        "characterKizunaLevel2InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -5788830436945745831
+          }
+        ],
+        "characterKizunaLevel3InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -87281599935335846
+          }
+        ],
+        "characterKizunaLevel3InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -5788830436945745831
+          }
+        ],
+        "characterKizunaLevel4InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -87281599935335846
+          }
+        ],
+        "characterKizunaLevel4InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -5788830436945745831
+          }
+        ],
+        "characterKizunaLevel5InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -87281599935335846
+          }
+        ],
+        "characterKizunaLevel3RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 624839936205509997
+          }
+        ],
+        "characterKizunaLevel4RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 624839936205509997
+          }
+        ],
+        "characterKizunaLevel5RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 624839936205509997
+          }
+        ],
+        "characterKizunaLevel4RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -3453461392328315609
+          }
+        ],
+        "characterKizunaLevel5RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -3453461392328315609
+          }
+        ],
+        "characterKizunaLevel5Commision": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -8148464951939506959
+          }
+        ],
+        "characterKizunaLevel5CommisionFinish": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 5156980609373441096
+          }
+        ],
+        "m_SpecialGuestExtraDialogDataAsset": {
+          "m_AssetGUID": "e44f72ef3f0bb48459cfc1eaa61d2631",
+          "m_SubObjectName": "",
+          "m_SubObjectType": ""
+        },
+        "guestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 2005,
+        "stringId": "Utsuho",
+        "fundRange": {
+          "x": 500,
+          "y": 800
+        },
+        "enduranceLimit": 1.2999999523162842,
+        "hateFoodTag": [
+          7,
+          26
+        ],
+        "likeFoodTag": [
+          {
+            "tagId": 0,
+            "weight": 2
+          },
+          {
+            "tagId": 34,
+            "weight": 1
+          },
+          {
+            "tagId": 15,
+            "weight": 1
+          },
+          {
+            "tagId": 6,
+            "weight": 2
+          },
+          {
+            "tagId": 22,
+            "weight": 1
+          },
+          {
+            "tagId": 23,
+            "weight": 2
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 1,
+            "weight": 2
+          },
+          {
+            "tagId": 4,
+            "weight": 1
+          },
+          {
+            "tagId": 7,
+            "weight": 2
+          }
+        ],
+        "reaction": {
+          "toPop": 1,
+          "toInfam": 1
+        },
+        "destination": {
+          "spawnMarker": "Utsuho",
+          "stayTime": {
+            "x": 10,
+            "y": 18
+          },
+          "initialDialogPackIDs": [],
+          "interactiveAreaSize": 0.0,
+          "switchConditionLabel": ""
+        },
+        "commisionAreaLabel": "",
+        "hideInAlbum": 0,
+        "isParticular": 0,
+        "isCollabCharacter": 0,
+        "hideInNX": 0,
+        "spawnType": 0,
+        "unifiedSpawnProb": 0.0,
+        "unifiedSpawnExclusion": [],
+        "unifiedSpawnWhereAfterEventOrMission": "",
+        "doNotShowInNightByDefault": 0,
+        "doNotShowInChallenge": 0,
+        "controllable": 0,
+        "characterKizunaLevel1Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6788995853491725660
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 1785058924991311866
+          }
+        ],
+        "characterKizunaLevel2Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6788995853491725660
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 1785058924991311866
+          }
+        ],
+        "characterKizunaLevel3Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6788995853491725660
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 1785058924991311866
+          }
+        ],
+        "characterKizunaLevel4Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6788995853491725660
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 1785058924991311866
+          }
+        ],
+        "characterKizunaLevel5Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 6788995853491725660
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 1785058924991311866
+          }
+        ],
+        "characterKizunaLevel1ChatData": [
+          "DLC2_Kizuna_Utsuho_LV1_001",
+          "DLC2_Kizuna_Utsuho_LV1_002"
+        ],
+        "characterKizunaLevel2ChatData": [
+          "DLC2_Kizuna_Utsuho_LV2_001",
+          "DLC2_Kizuna_Utsuho_LV2_002"
+        ],
+        "characterKizunaLevel3ChatData": [
+          "DLC2_Kizuna_Utsuho_LV3_001",
+          "DLC2_Kizuna_Utsuho_LV3_002"
+        ],
+        "characterKizunaLevel4ChatData": [
+          "DLC2_Kizuna_Utsuho_LV4_001",
+          "DLC2_Kizuna_Utsuho_LV4_002"
+        ],
+        "characterKizunaLevel5ChatData": [
+          "DLC2_Kizuna_Utsuho_LV4_001",
+          "DLC2_Kizuna_Utsuho_LV4_002"
+        ],
+        "characterKizunaLevel2InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -7010559725446853570
+          }
+        ],
+        "characterKizunaLevel2InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 1912176930197336048
+          }
+        ],
+        "characterKizunaLevel3InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -7010559725446853570
+          }
+        ],
+        "characterKizunaLevel3InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 1912176930197336048
+          }
+        ],
+        "characterKizunaLevel4InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -7010559725446853570
+          }
+        ],
+        "characterKizunaLevel4InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 1912176930197336048
+          }
+        ],
+        "characterKizunaLevel5InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -7010559725446853570
+          }
+        ],
+        "characterKizunaLevel3RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -8294362456448716583
+          }
+        ],
+        "characterKizunaLevel4RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -8294362456448716583
+          }
+        ],
+        "characterKizunaLevel5RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -8294362456448716583
+          }
+        ],
+        "characterKizunaLevel4RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -1435436096236833173
+          }
+        ],
+        "characterKizunaLevel5RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -1435436096236833173
+          }
+        ],
+        "characterKizunaLevel5Commision": [],
+        "characterKizunaLevel5CommisionFinish": [],
+        "m_SpecialGuestExtraDialogDataAsset": {
+          "m_AssetGUID": "",
+          "m_SubObjectName": "",
+          "m_SubObjectType": ""
+        },
+        "guestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 2006,
+        "stringId": "Koishi",
+        "fundRange": {
+          "x": 800,
+          "y": 1200
+        },
+        "enduranceLimit": 1.5,
+        "hateFoodTag": [],
+        "likeFoodTag": [
+          {
+            "tagId": 17,
+            "weight": 2
+          },
+          {
+            "tagId": 15,
+            "weight": 2
+          },
+          {
+            "tagId": 18,
+            "weight": 1
+          },
+          {
+            "tagId": 24,
+            "weight": 2
+          },
+          {
+            "tagId": 29,
+            "weight": 2
+          },
+          {
+            "tagId": 27,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 2,
+            "weight": 1
+          },
+          {
+            "tagId": 15,
+            "weight": 2
+          },
+          {
+            "tagId": 5,
+            "weight": 1
+          },
+          {
+            "tagId": 16,
+            "weight": 2
+          }
+        ],
+        "reaction": {
+          "toPop": 1,
+          "toInfam": 0
+        },
+        "destination": {
+          "spawnMarker": "",
+          "stayTime": {
+            "x": 0,
+            "y": 0
+          },
+          "initialDialogPackIDs": [],
+          "interactiveAreaSize": 0.0,
+          "switchConditionLabel": ""
+        },
+        "commisionAreaLabel": "",
+        "hideInAlbum": 0,
+        "isParticular": 1,
+        "isCollabCharacter": 0,
+        "hideInNX": 0,
+        "spawnType": 1,
+        "unifiedSpawnProb": 0.05000000074505806,
+        "unifiedSpawnExclusion": [],
+        "unifiedSpawnWhereAfterEventOrMission": "",
+        "doNotShowInNightByDefault": 1,
+        "doNotShowInChallenge": 1,
+        "controllable": 0,
+        "characterKizunaLevel1Welcome": [],
+        "characterKizunaLevel2Welcome": [],
+        "characterKizunaLevel3Welcome": [],
+        "characterKizunaLevel4Welcome": [],
+        "characterKizunaLevel5Welcome": [],
+        "characterKizunaLevel1ChatData": [],
+        "characterKizunaLevel2ChatData": [],
+        "characterKizunaLevel3ChatData": [],
+        "characterKizunaLevel4ChatData": [],
+        "characterKizunaLevel5ChatData": [],
+        "characterKizunaLevel2InviteSucceed": [],
+        "characterKizunaLevel2InviteFailed": [],
+        "characterKizunaLevel3InviteSucceed": [],
+        "characterKizunaLevel3InviteFailed": [],
+        "characterKizunaLevel4InviteSucceed": [],
+        "characterKizunaLevel4InviteFailed": [],
+        "characterKizunaLevel5InviteSucceed": [],
+        "characterKizunaLevel3RequestIngerdient": [],
+        "characterKizunaLevel4RequestIngerdient": [],
+        "characterKizunaLevel5RequestIngerdient": [],
+        "characterKizunaLevel4RequestBeverage": [],
+        "characterKizunaLevel5RequestBeverage": [],
+        "characterKizunaLevel5Commision": [],
+        "characterKizunaLevel5CommisionFinish": [],
+        "m_SpecialGuestExtraDialogDataAsset": {
+          "m_AssetGUID": "",
+          "m_SubObjectName": "",
+          "m_SubObjectType": ""
+        },
+        "guestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 653033389050471146
+        }
+      },
+      {
+        "id": 2007,
+        "stringId": "Kisume",
+        "fundRange": {
+          "x": 6666,
+          "y": 6666
+        },
+        "enduranceLimit": 1.0,
+        "hateFoodTag": [],
+        "likeFoodTag": [],
+        "likeBevTag": [],
+        "reaction": {
+          "toPop": 2,
+          "toInfam": 2
+        },
+        "destination": {
+          "spawnMarker": "",
+          "stayTime": {
+            "x": 0,
+            "y": 0
+          },
+          "initialDialogPackIDs": [],
+          "interactiveAreaSize": 0.0,
+          "switchConditionLabel": ""
+        },
+        "commisionAreaLabel": "",
+        "hideInAlbum": 1,
+        "isParticular": 0,
+        "isCollabCharacter": 0,
+        "hideInNX": 0,
+        "spawnType": 0,
+        "unifiedSpawnProb": 0.0,
+        "unifiedSpawnExclusion": [],
+        "unifiedSpawnWhereAfterEventOrMission": "",
+        "doNotShowInNightByDefault": 0,
+        "doNotShowInChallenge": 0,
+        "controllable": 0,
+        "characterKizunaLevel1Welcome": [],
+        "characterKizunaLevel2Welcome": [],
+        "characterKizunaLevel3Welcome": [],
+        "characterKizunaLevel4Welcome": [],
+        "characterKizunaLevel5Welcome": [],
+        "characterKizunaLevel1ChatData": [],
+        "characterKizunaLevel2ChatData": [],
+        "characterKizunaLevel3ChatData": [],
+        "characterKizunaLevel4ChatData": [],
+        "characterKizunaLevel5ChatData": [],
+        "characterKizunaLevel2InviteSucceed": [],
+        "characterKizunaLevel2InviteFailed": [],
+        "characterKizunaLevel3InviteSucceed": [],
+        "characterKizunaLevel3InviteFailed": [],
+        "characterKizunaLevel4InviteSucceed": [],
+        "characterKizunaLevel4InviteFailed": [],
+        "characterKizunaLevel5InviteSucceed": [],
+        "characterKizunaLevel3RequestIngerdient": [],
+        "characterKizunaLevel4RequestIngerdient": [],
+        "characterKizunaLevel5RequestIngerdient": [],
+        "characterKizunaLevel4RequestBeverage": [],
+        "characterKizunaLevel5RequestBeverage": [],
+        "characterKizunaLevel5Commision": [],
+        "characterKizunaLevel5CommisionFinish": [],
+        "m_SpecialGuestExtraDialogDataAsset": {
+          "m_AssetGUID": "",
+          "m_SubObjectName": "",
+          "m_SubObjectType": ""
+        },
+        "guestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 2008,
+        "stringId": "Komachi",
+        "fundRange": {
+          "x": 6666,
+          "y": 6666
+        },
+        "enduranceLimit": 1.0,
+        "hateFoodTag": [],
+        "likeFoodTag": [],
+        "likeBevTag": [],
+        "reaction": {
+          "toPop": 2,
+          "toInfam": 2
+        },
+        "destination": {
+          "spawnMarker": "",
+          "stayTime": {
+            "x": 0,
+            "y": 0
+          },
+          "initialDialogPackIDs": [],
+          "interactiveAreaSize": 0.0,
+          "switchConditionLabel": ""
+        },
+        "commisionAreaLabel": "",
+        "hideInAlbum": 1,
+        "isParticular": 0,
+        "isCollabCharacter": 0,
+        "hideInNX": 0,
+        "spawnType": 0,
+        "unifiedSpawnProb": 0.0,
+        "unifiedSpawnExclusion": [],
+        "unifiedSpawnWhereAfterEventOrMission": "",
+        "doNotShowInNightByDefault": 0,
+        "doNotShowInChallenge": 0,
+        "controllable": 0,
+        "characterKizunaLevel1Welcome": [],
+        "characterKizunaLevel2Welcome": [],
+        "characterKizunaLevel3Welcome": [],
+        "characterKizunaLevel4Welcome": [],
+        "characterKizunaLevel5Welcome": [],
+        "characterKizunaLevel1ChatData": [],
+        "characterKizunaLevel2ChatData": [],
+        "characterKizunaLevel3ChatData": [],
+        "characterKizunaLevel4ChatData": [],
+        "characterKizunaLevel5ChatData": [],
+        "characterKizunaLevel2InviteSucceed": [],
+        "characterKizunaLevel2InviteFailed": [],
+        "characterKizunaLevel3InviteSucceed": [],
+        "characterKizunaLevel3InviteFailed": [],
+        "characterKizunaLevel4InviteSucceed": [],
+        "characterKizunaLevel4InviteFailed": [],
+        "characterKizunaLevel5InviteSucceed": [],
+        "characterKizunaLevel3RequestIngerdient": [],
+        "characterKizunaLevel4RequestIngerdient": [],
+        "characterKizunaLevel5RequestIngerdient": [],
+        "characterKizunaLevel4RequestBeverage": [],
+        "characterKizunaLevel5RequestBeverage": [],
+        "characterKizunaLevel5Commision": [],
+        "characterKizunaLevel5CommisionFinish": [],
+        "m_SpecialGuestExtraDialogDataAsset": {
+          "m_AssetGUID": "",
+          "m_SubObjectName": "",
+          "m_SubObjectType": ""
+        },
+        "guestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 2009,
+        "stringId": "Orin_Ghost",
+        "fundRange": {
+          "x": 500,
+          "y": 700
+        },
+        "enduranceLimit": 1.0,
+        "hateFoodTag": [
+          24,
+          18,
+          22
+        ],
+        "likeFoodTag": [
+          {
+            "tagId": 16,
+            "weight": 2
+          },
+          {
+            "tagId": 17,
+            "weight": 1
+          },
+          {
+            "tagId": 1,
+            "weight": 2
+          },
+          {
+            "tagId": 11,
+            "weight": 1
+          },
+          {
+            "tagId": 24,
+            "weight": 1
+          },
+          {
+            "tagId": 29,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 0,
+            "weight": 1
+          },
+          {
+            "tagId": 12,
+            "weight": 2
+          },
+          {
+            "tagId": 6,
+            "weight": 1
+          }
+        ],
+        "reaction": {
+          "toPop": 2,
+          "toInfam": 1
+        },
+        "destination": {
+          "spawnMarker": "",
+          "stayTime": {
+            "x": 10,
+            "y": 18
+          },
+          "initialDialogPackIDs": [],
+          "interactiveAreaSize": 0.0,
+          "switchConditionLabel": ""
+        },
+        "commisionAreaLabel": "",
+        "hideInAlbum": 1,
+        "isParticular": 0,
+        "isCollabCharacter": 0,
+        "hideInNX": 0,
+        "spawnType": 2,
+        "unifiedSpawnProb": 0.0,
+        "unifiedSpawnExclusion": [],
+        "unifiedSpawnWhereAfterEventOrMission": "",
+        "doNotShowInNightByDefault": 1,
+        "doNotShowInChallenge": 1,
+        "controllable": 0,
+        "characterKizunaLevel1Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4296753814076037362
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 8283663116161922343
+          }
+        ],
+        "characterKizunaLevel2Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4296753814076037362
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 8283663116161922343
+          }
+        ],
+        "characterKizunaLevel3Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4296753814076037362
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 8283663116161922343
+          }
+        ],
+        "characterKizunaLevel4Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4296753814076037362
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 8283663116161922343
+          }
+        ],
+        "characterKizunaLevel5Welcome": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4296753814076037362
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 8283663116161922343
+          }
+        ],
+        "characterKizunaLevel1ChatData": [
+          "DLC2_Kizuna_Orin_LV1_001",
+          "DLC2_Kizuna_Orin_LV1_002"
+        ],
+        "characterKizunaLevel2ChatData": [
+          "DLC2_Kizuna_Orin_LV2_001",
+          "DLC2_Kizuna_Orin_LV2_002"
+        ],
+        "characterKizunaLevel3ChatData": [
+          "DLC2_Kizuna_Orin_LV3_001",
+          "DLC2_Kizuna_Orin_LV3_002"
+        ],
+        "characterKizunaLevel4ChatData": [
+          "DLC2_Kizuna_Orin_LV4_001",
+          "DLC2_Kizuna_Orin_LV4_002"
+        ],
+        "characterKizunaLevel5ChatData": [
+          "DLC2_Kizuna_Orin_LV4_001",
+          "DLC2_Kizuna_Orin_LV4_002"
+        ],
+        "characterKizunaLevel2InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -87281599935335846
+          }
+        ],
+        "characterKizunaLevel2InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -5788830436945745831
+          }
+        ],
+        "characterKizunaLevel3InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -87281599935335846
+          }
+        ],
+        "characterKizunaLevel3InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -5788830436945745831
+          }
+        ],
+        "characterKizunaLevel4InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -87281599935335846
+          }
+        ],
+        "characterKizunaLevel4InviteFailed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -5788830436945745831
+          }
+        ],
+        "characterKizunaLevel5InviteSucceed": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -87281599935335846
+          }
+        ],
+        "characterKizunaLevel3RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 624839936205509997
+          }
+        ],
+        "characterKizunaLevel4RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 624839936205509997
+          }
+        ],
+        "characterKizunaLevel5RequestIngerdient": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 624839936205509997
+          }
+        ],
+        "characterKizunaLevel4RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -3453461392328315609
+          }
+        ],
+        "characterKizunaLevel5RequestBeverage": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -3453461392328315609
+          }
+        ],
+        "characterKizunaLevel5Commision": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -8148464951939506959
+          }
+        ],
+        "characterKizunaLevel5CommisionFinish": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 5156980609373441096
+          }
+        ],
+        "m_SpecialGuestExtraDialogDataAsset": {
+          "m_AssetGUID": "",
+          "m_SubObjectName": "",
+          "m_SubObjectType": ""
+        },
+        "guestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      }
+    ],
+    "mappedSpecialGuests": []
+  }
+}

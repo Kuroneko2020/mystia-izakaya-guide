@@ -1,0 +1,241 @@
+# Python 3: read-only collection; saves only create-new evidence files in the allowed audit directory.
+# Run with PROJECT_ROOT supplied as an environment variable. This script never imports a project module,
+# never calls a build/main function, never writes inputs, and uses only git status/log/show.
+import ast
+from collections import Counter, OrderedDict, defaultdict
+from datetime import datetime, timezone
+import hashlib
+import json
+import os
+from pathlib import Path
+import re
+import subprocess
+import json5
+
+root = Path(os.environ['PROJECT_ROOT']).resolve()
+dest = root / '验证记录/2026-10-13--全量数据核查/管线审计'
+source = root / '原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data'
+
+def read(rel):
+    return (root / rel).read_text(encoding='utf-8-sig')
+
+def load(rel):
+    return json.loads(read(rel))
+
+def sha(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+def save(stem, data):
+    # Resume after a collector failure without duplicating already saved identical evidence.
+    if os.environ.get('EVIDENCE_REUSE_MATCHING') == '1':
+        for existing_path in sorted(dest.glob(stem + '_*.json')):
+            if json.loads(existing_path.read_text(encoding='utf-8')) == data:
+                print('Preserved existing evidence:', existing_path)
+                return existing_path
+    for i in range(1, 10000):
+        path = dest / f'{stem}_{i:02}.json'
+        try:
+            with path.open('x', encoding='utf-8', newline='\n') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+                f.write('\n')
+            print(path)
+            return path
+        except FileExistsError:
+            continue
+    raise RuntimeError('No available create-new evidence filename')
+
+def pure_functions(rel, names, context):
+    tree = ast.parse(read(rel), filename=rel)
+    for node in tree.body:
+        if isinstance(node, ast.FunctionDef) and node.name in names:
+            exec(compile(ast.Module(body=[node], type_ignores=[]), rel, 'exec'), context)
+    return tree
+
+ctx = {'Path': Path, 're': re, 'json': json, 'json5': json5, 'SRC': source}
+tree = pure_functions('脚本/parse_ts_data.py', {'extract_array', 'strip_function_calls', 'replace_template', 'parse_array'}, ctx)
+tables = ast.literal_eval(next(node.value for node in tree.body if isinstance(node, ast.Assign) and any(isinstance(t, ast.Name) and t.id == 'TABLES' for t in node.targets)))
+parse_tables = []
+interpolations = []
+stripped_calls = []
+raw_arrays = {}
+for name, rel in tables.items():
+    text = (source / rel).read_text(encoding='utf-8')
+    literal = ctx['extract_array'](text, name)
+    data = ctx['parse_array'](name, rel)
+    raw_arrays[name] = data
+    existing = load(f'中间数据/{name}.json')
+    parse_tables.append({'table': name, 'source': f'原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/{rel}', 'sourceSha256': sha(source / rel), 'jsonSha256': sha(root / f'中间数据/{name}.json'), 'parsedCount': len(data), 'existingCount': len(existing), 'equalUnderExistingParser': data == existing, 'fieldCounts': {key: sum(key in r for r in data) for key in sorted({key for r in data for key in r})}})
+    array_start = text.index(literal)
+    for match in re.finditer(r'\$\{([^}]*)\}', literal):
+        expr = match.group(1)
+        if expr == 'LABEL_MAP.br':
+            continue
+        interpolations.append({'table': name, 'expression': expr, 'line': text[:array_start + match.start()].count('\n') + 1, 'source': rel, 'currentResult': 'empty string; source constant is not evaluated'})
+    call_count = literal.count('createKourindouPurchase(')
+    if call_count:
+        affected = [{'id': r['id'], 'name': r['name'], 'parsedFrom': r.get('from')} for r in data if any(x == {} for x in r.get('from', []) if isinstance(x, dict))]
+        stripped_calls.append({'table': name, 'callCount': call_count, 'affectedRecordCount': len(affected), 'affectedRecords': affected})
+parse_result = {'auditDate': '2026-10-13', 'method': 'AST extracts only pure functions; replays parser entirely in memory. Equality proves reproducibility under the same lossy parser, not semantic equality with executed TypeScript or game correctness.', 'totalParsedRecords': sum(x['parsedCount'] for x in parse_tables), 'tables': parse_tables, 'deletedInterpolationCount': len(interpolations), 'deletedInterpolations': interpolations, 'strippedCalls': stripped_calls, 'guestExample': next(g for g in raw_arrays['SPECIAL_GUEST_LIST'] if g['name'] == '射命丸文')['spellCards']['positive'], 'cookerBlankLabelExamples': [{'id': r['id'], 'name': r['name'], 'effect': r['effect']} for r in raw_arrays['COOKER_LIST'] if r.get('effect') and ('“”' in str(r['effect']) or '「」' in str(r['effect']))], 'scope': '未运行parse_ts_data.main或build_excel.main；未重写中间数据；FOOD_LIST/INGREDIENT_LIST/BEVERAGE_LIST的现有字段完整转换不等于所有派生成餐标签完整。'}
+parse_path = save('解析保真与静默损失', parse_result)
+
+mapping = load('验证记录/2026-10-13--全量数据核查/管线审计/上游与本地转换映射_01.json')
+food_tags = {int(k): v for k, v in mapping['FOOD_TAG'].items()}
+drink_tags = {int(k): v for k, v in mapping['BEVERAGE_TAG'].items()}
+ctx2 = {'re': re, 'json': json, 'ANYI': source, 'MAP': mapping['MAP'], 'MERCHANT': mapping['MERCHANT'], 'COLLAB': mapping['COLLAB'], 'COLLECTION_POINTS': mapping['COLLECTION_POINTS'], 'TAG_COVERS': [(-3, -2), (-1, 28), (0, 2), (6, 7), (9, 8), (22, 21)], 'FOOD_TAG': food_tags, 'BEVERAGE_TAG': drink_tags, 'OrderedDict': OrderedDict, 'defaultdict': defaultdict, 'NL': '\n'}
+pure_functions('脚本/build_excel.py', {'format_source', 'parse_string_map', 'export_object_body', 'process_food', 'food_tag_name', 'drink_tag_name', 'tag_list', 'fixed_positive', 'fixed_negative', 'dynamic_positive', 'dynamic_negative', 'dish_score', 'first_recipe_ids', 'addon_candidates', 'addon_text_for_dish'}, ctx2)
+official = {name: [r for r in data if r.get('dlc') != 9 and (name != 'FOOD_LIST' or r['id'] != -1)] for name, data in raw_arrays.items()}
+guests = {r['id']: r['name'] for r in official['SPECIAL_GUEST_LIST']}
+source_rows = []
+counts = {}
+for table in ['FOOD_LIST', 'INGREDIENT_LIST', 'BEVERAGE_LIST']:
+    rows = official[table]
+    stats = defaultdict(list)
+    for r in rows:
+        src = r['from']
+        risks = []
+        if 'prayer' in src:
+            stats['prayerDropped'].append(r['name'])
+            risks.append('prayer is not handled; omitted entirely if another handled source exists')
+        if 'task' in src:
+            stats['taskUntranslated'].append(r['name'])
+            risks.append('scheduler IDs/arrays rendered using str(), without schedulerFacts labels')
+        if 'excludedMaps' in json.dumps(src):
+            stats['excludedMapsDropped'].append(r['name'])
+            risks.append('collection reference with excludedMaps has neither label nor map; ignored')
+        for key in ['buy', 'collect']:
+            if isinstance(src.get(key), list):
+                tuples = [x for x in src[key] if isinstance(x, list)]
+                if tuples:
+                    stats[f'{key}TupleValuesDropped'].append(r['name'])
+                    risks.append(f'{key}: tuple probability/boolean/time values discarded by recursive walker')
+        if isinstance(src.get('buy'), dict) and 'price' in src['buy']:
+            stats['buyPriceDropped'].append(r['name'])
+            risks.append('purchase price/currency omitted; this is recipe acquisition cost, not dish sale price')
+        if 'collaboration' in src:
+            stats['collaborationMerchantsDropped'].append(r['name'])
+            risks.append('collaboration merchant, map and PC/Switch branch omitted')
+            label = src['collaboration']['collaborationLabel']
+            if label not in mapping['COLLAB']:
+                stats['collaborationLabelUnmapped'].append(r['name'])
+                risks.append('quoted/hyphenated collaboration key absent from parse_string_map')
+        if 'fishingAdvanced' in src:
+            stats['advancedFishingMerged'].append(r['name'])
+            risks.append('fishingAdvanced joined with fishing, no advanced distinction')
+        if 'collect' in src:
+            stats['collectionRefreshOmitted'].append(r['name'])
+            risks.append('COLLECTION_POINT_REFRESH_FACTS.refreshTimeHours not included in source text')
+        if 'buy' in src and isinstance(src['buy'], list) and 'specialGuest' in json.dumps(src['buy']):
+            stats['specialGuestShopLabelCollapsed'].append(r['name'])
+            risks.append('merchant object with both label and specialGuest chooses specialGuest branch and drops shop label')
+        source_rows.append({'table': table, 'id': r['id'], 'name': r['name'], 'rawFrom': src, 'formattedText': ctx2['format_source'](src, guests), 'risks': risks})
+    counts[table] = {'officialRecordCount': len(rows), 'topLevelFromKeys': dict(Counter(k for r in rows for k in r['from'])), 'riskRecordCounts': {k: len(v) for k, v in stats.items()}, 'riskNames': dict(stats)}
+source_result = {'auditDate': '2026-10-13', 'method': 'Runs only format_source in memory on all 271 official food/ingredient/beverage records. Source risk categories overlap; counts must not be summed as unique affected records.', 'counts': counts, 'parsedCollaborationMap': mapping['COLLAB'], 'quotedKeyExpected': {'3FARIES_Collab': '三妖精的蹦蹦跳跳讨伐大作战'}, 'sourceLineReferences': ['脚本/build_excel.py:64-77 (word-only key parser/collection map)', '脚本/build_excel.py:116-217 (source formatter)', '原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/shared/foodSchema.ts:12-24', '原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/places/types.ts:67-99', '原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/labels/schedulerFacts.ts:12-90', '原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/data/labels/prayerFacts.ts:3-17'], 'allOfficialSourceRows': source_rows}
+source_path = save('获取来源格式化风险', source_result)
+
+foods = official['FOOD_LIST']
+ctx2['ingredients'] = official['INGREDIENT_LIST']
+ctx2['ing_map'] = {r['id']: r for r in official['INGREDIENT_LIST']}
+five = []
+unknown_ingredients = []
+unknown_tags = []
+for f in foods:
+    local_pos = ctx2['process_food'](f)['positiveTags']
+    for recipe in f['recipes']:
+        for iid in recipe['ingredients']:
+            if iid not in ctx2['ing_map']:
+                unknown_ingredients.append({'food': f['name'], 'recipeId': recipe['id'], 'ingredientId': iid})
+        if len(recipe['ingredients']) >= 5:
+            new_tags = set(local_pos) | {-1}
+            for a, b in ctx2['TAG_COVERS']:
+                if a in new_tags:
+                    new_tags.discard(b)
+            five.append({'foodId': f['id'], 'food': f['name'], 'recipeId': recipe['id'], 'ingredientCount': len(recipe['ingredients']), 'ingredients': recipe['ingredients'], 'ingredientNames': [ctx2['ing_map'][i]['name'] for i in recipe['ingredients']], 'rawPositiveTags': f['positiveTags'], 'localProcessedTags': local_pos, 'defaultComposedTags': sorted(new_tags), 'missingTags': [food_tags[t] for t in sorted(new_tags - set(local_pos))], 'removedByComposition': [food_tags[t] for t in sorted(set(local_pos) - new_tags)]})
+for table, tagmap, fields in [('FOOD_LIST', food_tags, ['positiveTags', 'negativeTags']), ('INGREDIENT_LIST', food_tags, ['tags']), ('BEVERAGE_LIST', drink_tags, ['tags']), ('SPECIAL_GUEST_LIST', food_tags, ['positiveTags', 'negativeTags']), ('NORMAL_GUEST_LIST', food_tags, ['positiveTags'])]:
+    for r in official[table]:
+        for field in fields:
+            for tag in r.get(field, []):
+                if tag not in tagmap:
+                    unknown_tags.append({'table': table, 'name': r['name'], 'field': field, 'tag': tag})
+# Show mechanism-only extra-ingredient counterexample. This is not a statement that the UI currently displays it.
+addon_examples = []
+for f in foods:
+    if len(f['recipes'][0]['ingredients']) != 5:
+        continue
+    for g in official['SPECIAL_GUEST_LIST']:
+        text = ctx2['addon_text_for_dish'](g, ctx2['process_food'](f))
+        if '可加：' in text:
+            addon_examples.append({'guest': g['name'], 'food': f['name'], 'baseIngredientCount': 5, 'productionFunctionResult': text, 'issue': 'addon_text_for_dish has no 5-slot guard; no unused slot exists', 'evidenceLevel': 'direct pure-function counterexample, not proof the live UI displays this pairing'})
+            break
+    if len(addon_examples) == 3:
+        break
+baseline = load('中间数据/料亭版攻略数据基线.json')
+cell_lengths = [len(str(cell)) for sheet in baseline['sheets'].values() for row in sheet['rows'] for cell in row]
+mechanisms = {'auditDate': '2026-10-13', 'officialFoodCount': len(foods), 'fiveIngredientRecipeCount': len(five), 'missingLargePortionRecipeCount': sum(bool(x['missingTags']) for x in five), 'fiveIngredientRecipes': five, 'multipleRecipeOfficialFoods': [{'id': f['id'], 'name': f['name'], 'recipes': f['recipes']} for f in foods if len(f['recipes']) > 1], 'unknownOfficialIngredientReferences': unknown_ingredients, 'unknownOfficialTagIds': unknown_tags, 'missingRequiredOfficialFields': {table: {k: [r['name'] for r in official[table] if k not in r] for k in ['id', 'name', 'dlc', 'level', 'price']} for table in ['FOOD_LIST', 'INGREDIENT_LIST', 'BEVERAGE_LIST']}, 'maxBaselineCellChars': max(cell_lengths), 'baselineCellsAtLeast30000Chars': sum(n >= 30000 for n in cell_lengths), 'addonSlotCounterexamples': addon_examples, 'importantSemantics': ['baseIngredients only supply count; ONLY extraIngredientTags are merged into dish tags', 'food negativeTags apply to EXTRA ingredients to test dark matter, not base material tags', 'ordinary static UI recommendations ignore mapping/easter eggs/budget/order/trend and use at-least-one-like/no-dislike only', 'full HTML and recommendation relation counts are intentionally delegated to coordinator, not recalculated here'], 'lineReferences': ['原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/catalog/food/FoodCatalog.ts:68-75,86-114,145-160,231-237,300-306,359-402', '原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/evaluation/evaluateSavedMeal.ts:66-80,137-151', '脚本/build_excel.py:229-245,322-345,443-495,650-655', '脚本/ryotei_navigation.js:27-48', '脚本/guide_template_ryotei.html:1563-1625', '脚本/ryotei_ui.js:318-332,346-349']}
+mechanism_path = save('派生标签与其他管线机制', mechanisms)
+
+# Capacity audit of legacy detail rows only; do not recalculate current UI recommendation relations.
+detail_sheet = baseline['sheets']['details']
+detail_rows = [dict(zip(detail_sheet['headers'], row)) for row in detail_sheet['rows']]
+foods_by_name = {f['name']: f for f in foods}
+five_names = {f['name'] for f in foods if len(f['recipes'][0]['ingredients']) == 5}
+four_names = {f['name'] for f in foods if len(f['recipes'][0]['ingredients']) == 4}
+five_details = [r for r in detail_rows if r['菜品'] in five_names]
+five_invalid = [r for r in five_details if '可加：' in r['加料建议']]
+four_suggestions = [r for r in detail_rows if r['菜品'] in four_names and '可加：' in r['加料建议']]
+four_multi = [r for r in four_suggestions if r['加料建议'].count('+') > 1]
+guests_by_name = {g['name']: g for g in official['SPECIAL_GUEST_LIST']}
+four_dislike_large = [r for r in four_suggestions if -1 in guests_by_name[r['客人名字']]['negativeTags']]
+capacity_result = {'auditDate': '2026-10-13', 'basis': '中间数据/料亭版攻略数据基线.json sheets.details, original ingredient lists and 5-slot upstream mechanism; not current recommendation relation recomputation', 'fiveIngredientFoodCount': len(five_names), 'fiveIngredientDetailRows': len(five_details), 'fiveIngredientRowsWithImpossibleExtraSuggestion': len(five_invalid), 'fiveIngredientDetailsByFood': dict(Counter(r['菜品'] for r in five_details)), 'impossibleSuggestionsByFood': dict(Counter(r['菜品'] for r in five_invalid)), 'fiveIngredientDetails': five_details, 'buddhaDetails': [r for r in five_details if r['菜品'] == '幻想佛跳墙'], 'fourIngredientRowsWithSuggestions': len(four_suggestions), 'fourIngredientRowsListingMultipleAlternatives': len(four_multi), 'fourIngredientRowsAddingOneWouldCreateDislikedLargePortion': four_dislike_large, 'fourIngredientExamples': four_multi[:6], 'wordingBoundary': 'Production code emits separate +A(补X);+B(补Y) candidates, not an explicit combined +A+B recipe. No remaining-slot/choose-one instruction appears. Multiple alternatives are wording/capacity ambiguity, not by themselves proof every listed ingredient is to be simultaneously added.', 'lineReferences': ['脚本/build_excel.py:443-461,473-495 (no remaining-slot guard or recomposed tags)', '原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/catalog/food/FoodCatalog.ts:145-160,231-237,383-402', '脚本/guide_template_ryotei.html:1563-1625 (parses legacy suggestion text; does not revalidate capacity)', '脚本/ryotei_ui.js:164-169 (shows legacy addon index/original suggestions)']}
+capacity_path = save('加料容量与四料替代候选边界', capacity_result)
+
+repos = []
+for folder in sorted((root / '原始资料/repos').iterdir(), key=lambda p: p.name.lower()):
+    if not folder.is_dir():
+        continue
+    def git(args):
+        result = subprocess.run(['git', '--no-optional-locks', '-C', str(folder), *args], capture_output=True, text=True, encoding='utf-8', errors='replace')
+        return {'returncode': result.returncode, 'stdout': result.stdout.strip(), 'stderr': result.stderr.strip()}
+    repos.append({'name': folder.name, 'path': folder.relative_to(root).as_posix(), 'status': git(['status', '--short', '--branch']), 'head': git(['log', '-1', '--format=%H%n%aI%n%cI%n%s']), 'gitLocalOnly': True})
+focus = []
+for repo, rel, mode in [('touhou-izakaya-helper', 'js/cook.js', 'gitee'), ('touhou-mystia-izakaya-data', 'data/recipes.json', 'recipejson'), ('mystia-hayami-data', 'data/main/foods/dishes.json', 'hayami')]:
+    p = root / '原始资料/repos' / repo / rel
+    text = p.read_text(encoding='utf-8-sig')
+    if mode == 'gitee':
+        rows = json5.loads(ctx['extract_array']('export const DATA = ' + text[text.index('[', text.index('return')):], 'DATA'))
+        buddha = next(r for r in rows if r['chinese'] == '幻想佛跳墙')
+        names = [r['chinese'] for r in rows]
+    else:
+        rows = json.loads(text)
+        buddha = next(r for r in rows if (r.get('name') == '幻想佛跳墙' if mode == 'recipejson' else r.get('app_label_id') == 'buddha_jumps_over_the_wall'))
+        names = [r.get('name') for r in rows]
+    focus.append({'repo': repo, 'source': p.relative_to(root).as_posix(), 'sha256': sha(p), 'recordCount': len(rows), 'buddhaRecord': buddha, 'comparisonMeaning': 'raw upstream reference, not an independent game truth claim'})
+# SQL notebook has Meals data but does not populate MealTags in its source cells.
+sql_path = root / '原始资料/repos/MystiasIzakayaDataProjects/AzureSQL/IzakayaFillMenu.ipynb'
+notebook = json.loads(sql_path.read_text(encoding='utf-8-sig'))
+sql_text = '\n'.join(''.join(cell.get('source', [])) for cell in notebook.get('cells', []))
+sql_focus = {'source': sql_path.relative_to(root).as_posix(), 'sha256': sha(sql_path), 'cellCount': len(notebook['cells']), 'mealInsertCountIncludingTest': len(re.findall(r'INSERT\s+INTO\s+Meals\b', sql_text, re.I)), 'drinkInsertCount': len(re.findall(r'INSERT\s+INTO\s+Drinks\b', sql_text, re.I)), 'mealTagInsertCount': len(re.findall(r'INSERT\s+INTO\s+MealTags\b', sql_text, re.I)), 'buddhaSQL': next((''.join(c.get('source', [])) for c in notebook['cells'] if 'Buddha Jumps Over The Wall' in ''.join(c.get('source', []))), None)}
+inventory = {'auditDate': '2026-10-13', 'repos': repos, 'focusRawSourceRecords': focus, 'sqlNotebook': sql_focus, 'unresolvedCoverage': ['Gitee cook/material/drinks and two Minecraft mods have static records; only focused findings are claimed here, not a complete independent cross-source reconciliation.', 'mystia-hayami-data lists main+DLC1 only; README says uncertain game_id. Labels differ in script/language.', 'mystia-steward-companion consumes game runtime catalog; repository does not supply a filled current game catalog. dynamic-food-tags.ts corroborates the >=5 mechanism but the project retains assistant source attribution.', 'Minecraft mod tags/prices are adaptation data, and can contain distinct IDs, errors or balance values. Do not use them as official truth.', 'touhou-mystia-izakaya-data README cites Bilibili cv33098171; therefore other community tables may share provenance.', 'No fetch/pull or remote version claim; all repository versions are local snapshots.'], 'mechanismEvidence': ['原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/catalog/food/FoodCatalog.ts:145-160,383-402', '原始资料/repos/MystiasIzakaya/src/main/java/org/hiedacamellia/mystiasizakaya/content/cooking/CookingUtils.java:135-155,180-188', '原始资料/repos/MystiasIzakaya/src/main/java/org/hiedacamellia/mystiasizakaya/registries/MIItem.java:146', '原始资料/repos/mystias_izakaya/src/main/java/com/crystal/mystia_izakaya/registry/ItemRegistry.java:100', '原始资料/repos/mystias_izakaya/src/main/java/com/crystal/mystia_izakaya/utils/UtilMethod.java:55-100', '原始资料/repos/mystia-steward-companion/apps/companion/src/recommendation-engine/dynamic-food-tags.ts:3-26', '原始资料/repos/mystia-steward-companion/apps/companion/src/lib/recommendation-data.ts:41-52,69-102']}
+inventory_path = save('上游仓库版本与佛跳墙证据', inventory)
+
+inputs = set()
+for folder in ['中间数据', '脚本']:
+    for p in (root / folder).iterdir():
+        if p.is_file() and (p.suffix in {'.json', '.py', '.js', '.cjs'} or p.name == 'guide_template_ryotei.html'):
+            inputs.add(p)
+for rel in ['AGENTS.md', 'README.md', '成品/东方夜雀食堂攻略查询_2610112307.html', '成品/料亭立体头像版_构建校验.json', '成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx']:
+    inputs.add(root / rel)
+for p in source.rglob('*.ts'):
+    inputs.add(p)
+for rel in ['原始资料/repos/touhou-mystia-izakaya-assistant/AGENTS.md', '原始资料/repos/touhou-mystia-izakaya-assistant/README.md', '原始资料/repos/touhou-mystia-izakaya-assistant/package.json', '原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/catalog/food/FoodCatalog.ts', '原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/catalog/food/IngredientCatalog.ts', '原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/catalog/food/BeverageCatalog.ts', '原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/evaluation/evaluateSavedMeal.ts', '原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/places/collectionLocations.ts', '原始资料/repos/MystiasIzakaya/src/main/java/org/hiedacamellia/mystiasizakaya/content/cooking/CookingUtils.java', '原始资料/repos/MystiasIzakaya/src/main/java/org/hiedacamellia/mystiasizakaya/registries/MIItem.java', '原始资料/repos/mystias_izakaya/src/main/java/com/crystal/mystia_izakaya/registry/ItemRegistry.java', '原始资料/repos/mystias_izakaya/src/main/java/com/crystal/mystia_izakaya/utils/UtilMethod.java', '原始资料/repos/mystia-steward-companion/apps/companion/src/recommendation-engine/dynamic-food-tags.ts']:
+    inputs.add(root / rel)
+for folder in (root / '原始资料/repos').iterdir():
+    if folder.is_dir():
+        for p in folder.iterdir():
+            if p.is_file() and p.name.lower() in {'readme.md', 'notice'}:
+                inputs.add(p)
+for entry in focus:
+    inputs.add(root / entry['source'])
+inputs.add(sql_path)
+manifest = {'auditDate': '2026-10-13', 'collectedAt': datetime.now(timezone.utc).isoformat(), 'projectHead': subprocess.run(['git', '--no-optional-locks', '-C', str(root), 'log', '-1', '--format=%H%n%aI%n%s'], capture_output=True, text=True, encoding='utf-8').stdout.strip(), 'projectStatus': subprocess.run(['git', '--no-optional-locks', '-C', str(root), 'status', '--short', '--branch'], capture_output=True, text=True, encoding='utf-8').stdout.strip(), 'baselineSha256': sha(root / '中间数据/料亭版攻略数据基线.json'), 'latestHTMLSha256': sha(root / '成品/东方夜雀食堂攻略查询_2610112307.html'), 'scope': 'read-only local files/Git; writes restricted to permitted audit directory; no build, fetch, pull, commit, browser or game launch', 'files': [{'path': p.relative_to(root).as_posix(), 'bytes': p.stat().st_size, 'sha256': sha(p)} for p in sorted(inputs, key=lambda p: str(p).lower()) if p.is_file()], 'newEvidenceFiles': [p.relative_to(root).as_posix() for p in [parse_path, source_path, mechanism_path, capacity_path, inventory_path]], 'excludedIndependentTasks': ['主Agent当前HTML核心表全字段对比与全量推荐关系重算', '原始游戏Agent真实catalog解码', 'THBWiki Agent全表数据比对', '加料页排序Agent实现']}
+save('输入哈希与审计范围', manifest)
+print(json.dumps({'parsedTables': len(parse_tables), 'parsedRecords': parse_result['totalParsedRecords'], 'allEqualUnderParser': all(x['equalUnderExistingParser'] for x in parse_tables), 'deletedInterpolations': len(interpolations), 'strippedPurchaseCalls': sum(x['callCount'] for x in stripped_calls), 'sourceRiskCounts': {k: v['riskRecordCounts'] for k, v in counts.items()}, 'fiveIngredientRecipes': len(five), 'missingLargePortion': mechanisms['missingLargePortionRecipeCount'], 'maxBaselineCellChars': mechanisms['maxBaselineCellChars'], 'addonSlotCounterexamples': addon_examples, 'inputManifestFileCount': len(manifest['files'])}, ensure_ascii=False))

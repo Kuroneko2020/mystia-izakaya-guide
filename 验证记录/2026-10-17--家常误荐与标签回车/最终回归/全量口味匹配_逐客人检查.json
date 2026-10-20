@@ -1,0 +1,873 @@
+{
+  "status": "PASS",
+  "food": {
+    "total": 9202,
+    "guests": [
+      {
+        "name": "莉格露",
+        "count": 81
+      },
+      {
+        "name": "露米娅",
+        "count": 47
+      },
+      {
+        "name": "橙",
+        "count": 86
+      },
+      {
+        "name": "稗田阿求",
+        "count": 89
+      },
+      {
+        "name": "上白泽慧音",
+        "count": 69
+      },
+      {
+        "name": "茨木华扇",
+        "count": 65
+      },
+      {
+        "name": "博丽灵梦",
+        "count": 50
+      },
+      {
+        "name": "伊吹萃香",
+        "count": 74
+      },
+      {
+        "name": "比那名居天子",
+        "count": 80
+      },
+      {
+        "name": "雾雨魔理沙",
+        "count": 72
+      },
+      {
+        "name": "红美铃",
+        "count": 61
+      },
+      {
+        "name": "琪露诺",
+        "count": 35
+      },
+      {
+        "name": "帕秋莉",
+        "count": 74
+      },
+      {
+        "name": "藤原妹红",
+        "count": 17
+      },
+      {
+        "name": "蓬莱山辉夜",
+        "count": 45
+      },
+      {
+        "name": "因幡帝",
+        "count": 63
+      },
+      {
+        "name": "河城荷取",
+        "count": 64
+      },
+      {
+        "name": "犬走椛",
+        "count": 56
+      },
+      {
+        "name": "东风谷早苗",
+        "count": 80
+      },
+      {
+        "name": "爱丽丝",
+        "count": 58
+      },
+      {
+        "name": "矢田寺成美",
+        "count": 75
+      },
+      {
+        "name": "黑谷山女",
+        "count": 84
+      },
+      {
+        "name": "水桥帕露西",
+        "count": 70
+      },
+      {
+        "name": "星熊勇仪",
+        "count": 56
+      },
+      {
+        "name": "古明地觉",
+        "count": 65
+      },
+      {
+        "name": "火焰猫燐",
+        "count": 80
+      },
+      {
+        "name": "灵乌路空",
+        "count": 60
+      },
+      {
+        "name": "多多良小伞",
+        "count": 106
+      },
+      {
+        "name": "村纱水蜜",
+        "count": 86
+      },
+      {
+        "name": "封兽鵺",
+        "count": 115
+      },
+      {
+        "name": "物部布都",
+        "count": 72
+      },
+      {
+        "name": "霍青娥",
+        "count": 88
+      },
+      {
+        "name": "苏我屠自古",
+        "count": 85
+      },
+      {
+        "name": "射命丸文",
+        "count": 113
+      },
+      {
+        "name": "梅蒂欣",
+        "count": 87
+      },
+      {
+        "name": "风见幽香",
+        "count": 67
+      },
+      {
+        "name": "鬼人正邪",
+        "count": 60
+      },
+      {
+        "name": "少名针妙丸",
+        "count": 77
+      },
+      {
+        "name": "今泉影狼",
+        "count": 106
+      },
+      {
+        "name": "铃仙",
+        "count": 67
+      },
+      {
+        "name": "绵月丰姬",
+        "count": 84
+      },
+      {
+        "name": "绵月依姬",
+        "count": 84
+      },
+      {
+        "name": "爱莲",
+        "count": 75
+      },
+      {
+        "name": "魅魔",
+        "count": 55
+      },
+      {
+        "name": "露易兹",
+        "count": 86
+      },
+      {
+        "name": "森近霖之助",
+        "count": 54
+      },
+      {
+        "name": "蕾米莉亚",
+        "count": 80
+      },
+      {
+        "name": "魂魄妖梦",
+        "count": 66
+      },
+      {
+        "name": "西行寺幽幽子",
+        "count": 86
+      },
+      {
+        "name": "萌澄果",
+        "count": 92
+      },
+      {
+        "name": "蹦蹦跳跳的三妖精",
+        "count": 86
+      },
+      {
+        "name": "冴月麟",
+        "count": 54
+      },
+      {
+        "name": "立空汐",
+        "count": 87
+      },
+      {
+        "name": "时焉侑",
+        "count": 62
+      },
+      {
+        "name": "秦心",
+        "count": 79
+      },
+      {
+        "name": "饕餮尤魔",
+        "count": 118
+      },
+      {
+        "name": "古明地恋",
+        "count": 83
+      },
+      {
+        "name": "二岩猯藏",
+        "count": 99
+      },
+      {
+        "name": "八云紫",
+        "count": 79
+      },
+      {
+        "name": "妖怪兔",
+        "count": 124
+      },
+      {
+        "name": "妖怪猫",
+        "count": 90
+      },
+      {
+        "name": "妖怪狸",
+        "count": 90
+      },
+      {
+        "name": "妖怪狐",
+        "count": 105
+      },
+      {
+        "name": "蟒蛇精",
+        "count": 59
+      },
+      {
+        "name": "人类小孩",
+        "count": 139
+      },
+      {
+        "name": "人类男性",
+        "count": 105
+      },
+      {
+        "name": "人类女性",
+        "count": 95
+      },
+      {
+        "name": "人类长者",
+        "count": 92
+      },
+      {
+        "name": "左卫门",
+        "count": 72
+      },
+      {
+        "name": "座敷童子",
+        "count": 95
+      },
+      {
+        "name": "河童",
+        "count": 99
+      },
+      {
+        "name": "地精",
+        "count": 89
+      },
+      {
+        "name": "鸦天狗",
+        "count": 89
+      },
+      {
+        "name": "妖精",
+        "count": 109
+      },
+      {
+        "name": "白狼天狗",
+        "count": 120
+      },
+      {
+        "name": "山姥",
+        "count": 127
+      },
+      {
+        "name": "山童",
+        "count": 100
+      },
+      {
+        "name": "魔法使",
+        "count": 137
+      },
+      {
+        "name": "森之妖精",
+        "count": 130
+      },
+      {
+        "name": "迷之人形",
+        "count": 122
+      },
+      {
+        "name": "土蜘蛛",
+        "count": 133
+      },
+      {
+        "name": "鬼",
+        "count": 113
+      },
+      {
+        "name": "骨女",
+        "count": 98
+      },
+      {
+        "name": "地狱鸦",
+        "count": 101
+      },
+      {
+        "name": "姑获鸟",
+        "count": 116
+      },
+      {
+        "name": "豹女",
+        "count": 117
+      },
+      {
+        "name": "僧侣",
+        "count": 77
+      },
+      {
+        "name": "妖怪鼠",
+        "count": 97
+      },
+      {
+        "name": "八尺大人",
+        "count": 95
+      },
+      {
+        "name": "道士",
+        "count": 114
+      },
+      {
+        "name": "僵尸",
+        "count": 163
+      },
+      {
+        "name": "仙人",
+        "count": 104
+      },
+      {
+        "name": "小人族",
+        "count": 81
+      },
+      {
+        "name": "不良少年",
+        "count": 90
+      },
+      {
+        "name": "不良少女",
+        "count": 117
+      },
+      {
+        "name": "玩具兵",
+        "count": 69
+      },
+      {
+        "name": "铃兰花精",
+        "count": 66
+      },
+      {
+        "name": "太阳花精",
+        "count": 93
+      },
+      {
+        "name": "玫瑰花精",
+        "count": 97
+      },
+      {
+        "name": "影女",
+        "count": 102
+      },
+      {
+        "name": "纸牌兵",
+        "count": 100
+      },
+      {
+        "name": "小丑",
+        "count": 103
+      },
+      {
+        "name": "疯帽匠",
+        "count": 91
+      },
+      {
+        "name": "月人",
+        "count": 76
+      },
+      {
+        "name": "捣药兔",
+        "count": 110
+      },
+      {
+        "name": "月之使者",
+        "count": 97
+      }
+    ]
+  },
+  "drink": {
+    "total": 2812,
+    "guests": [
+      {
+        "name": "莉格露",
+        "count": 29
+      },
+      {
+        "name": "露米娅",
+        "count": 15
+      },
+      {
+        "name": "橙",
+        "count": 17
+      },
+      {
+        "name": "稗田阿求",
+        "count": 16
+      },
+      {
+        "name": "上白泽慧音",
+        "count": 14
+      },
+      {
+        "name": "茨木华扇",
+        "count": 25
+      },
+      {
+        "name": "博丽灵梦",
+        "count": 36
+      },
+      {
+        "name": "伊吹萃香",
+        "count": 16
+      },
+      {
+        "name": "比那名居天子",
+        "count": 14
+      },
+      {
+        "name": "雾雨魔理沙",
+        "count": 29
+      },
+      {
+        "name": "红美铃",
+        "count": 25
+      },
+      {
+        "name": "琪露诺",
+        "count": 33
+      },
+      {
+        "name": "帕秋莉",
+        "count": 14
+      },
+      {
+        "name": "藤原妹红",
+        "count": 16
+      },
+      {
+        "name": "蓬莱山辉夜",
+        "count": 23
+      },
+      {
+        "name": "因幡帝",
+        "count": 28
+      },
+      {
+        "name": "河城荷取",
+        "count": 25
+      },
+      {
+        "name": "犬走椛",
+        "count": 24
+      },
+      {
+        "name": "东风谷早苗",
+        "count": 41
+      },
+      {
+        "name": "爱丽丝",
+        "count": 22
+      },
+      {
+        "name": "矢田寺成美",
+        "count": 36
+      },
+      {
+        "name": "黑谷山女",
+        "count": 29
+      },
+      {
+        "name": "水桥帕露西",
+        "count": 41
+      },
+      {
+        "name": "星熊勇仪",
+        "count": 21
+      },
+      {
+        "name": "古明地觉",
+        "count": 27
+      },
+      {
+        "name": "火焰猫燐",
+        "count": 23
+      },
+      {
+        "name": "灵乌路空",
+        "count": 26
+      },
+      {
+        "name": "多多良小伞",
+        "count": 36
+      },
+      {
+        "name": "村纱水蜜",
+        "count": 31
+      },
+      {
+        "name": "封兽鵺",
+        "count": 27
+      },
+      {
+        "name": "物部布都",
+        "count": 30
+      },
+      {
+        "name": "霍青娥",
+        "count": 29
+      },
+      {
+        "name": "苏我屠自古",
+        "count": 19
+      },
+      {
+        "name": "射命丸文",
+        "count": 33
+      },
+      {
+        "name": "梅蒂欣",
+        "count": 31
+      },
+      {
+        "name": "风见幽香",
+        "count": 20
+      },
+      {
+        "name": "鬼人正邪",
+        "count": 25
+      },
+      {
+        "name": "少名针妙丸",
+        "count": 30
+      },
+      {
+        "name": "今泉影狼",
+        "count": 33
+      },
+      {
+        "name": "铃仙",
+        "count": 28
+      },
+      {
+        "name": "绵月丰姬",
+        "count": 36
+      },
+      {
+        "name": "绵月依姬",
+        "count": 29
+      },
+      {
+        "name": "爱莲",
+        "count": 35
+      },
+      {
+        "name": "魅魔",
+        "count": 31
+      },
+      {
+        "name": "露易兹",
+        "count": 35
+      },
+      {
+        "name": "森近霖之助",
+        "count": 8
+      },
+      {
+        "name": "蕾米莉亚",
+        "count": 32
+      },
+      {
+        "name": "魂魄妖梦",
+        "count": 34
+      },
+      {
+        "name": "西行寺幽幽子",
+        "count": 30
+      },
+      {
+        "name": "萌澄果",
+        "count": 35
+      },
+      {
+        "name": "蹦蹦跳跳的三妖精",
+        "count": 31
+      },
+      {
+        "name": "冴月麟",
+        "count": 28
+      },
+      {
+        "name": "立空汐",
+        "count": 32
+      },
+      {
+        "name": "时焉侑",
+        "count": 32
+      },
+      {
+        "name": "秦心",
+        "count": 31
+      },
+      {
+        "name": "饕餮尤魔",
+        "count": 20
+      },
+      {
+        "name": "古明地恋",
+        "count": 22
+      },
+      {
+        "name": "二岩猯藏",
+        "count": 23
+      },
+      {
+        "name": "八云紫",
+        "count": 26
+      },
+      {
+        "name": "妖怪兔",
+        "count": 17
+      },
+      {
+        "name": "妖怪猫",
+        "count": 30
+      },
+      {
+        "name": "妖怪狸",
+        "count": 19
+      },
+      {
+        "name": "妖怪狐",
+        "count": 11
+      },
+      {
+        "name": "蟒蛇精",
+        "count": 12
+      },
+      {
+        "name": "人类小孩",
+        "count": 17
+      },
+      {
+        "name": "人类男性",
+        "count": 17
+      },
+      {
+        "name": "人类女性",
+        "count": 26
+      },
+      {
+        "name": "人类长者",
+        "count": 9
+      },
+      {
+        "name": "左卫门",
+        "count": 7
+      },
+      {
+        "name": "座敷童子",
+        "count": 26
+      },
+      {
+        "name": "河童",
+        "count": 15
+      },
+      {
+        "name": "地精",
+        "count": 14
+      },
+      {
+        "name": "鸦天狗",
+        "count": 12
+      },
+      {
+        "name": "妖精",
+        "count": 33
+      },
+      {
+        "name": "白狼天狗",
+        "count": 22
+      },
+      {
+        "name": "山姥",
+        "count": 22
+      },
+      {
+        "name": "山童",
+        "count": 21
+      },
+      {
+        "name": "魔法使",
+        "count": 28
+      },
+      {
+        "name": "森之妖精",
+        "count": 36
+      },
+      {
+        "name": "迷之人形",
+        "count": 26
+      },
+      {
+        "name": "土蜘蛛",
+        "count": 38
+      },
+      {
+        "name": "鬼",
+        "count": 25
+      },
+      {
+        "name": "骨女",
+        "count": 34
+      },
+      {
+        "name": "地狱鸦",
+        "count": 29
+      },
+      {
+        "name": "姑获鸟",
+        "count": 29
+      },
+      {
+        "name": "豹女",
+        "count": 26
+      },
+      {
+        "name": "僧侣",
+        "count": 28
+      },
+      {
+        "name": "妖怪鼠",
+        "count": 29
+      },
+      {
+        "name": "八尺大人",
+        "count": 32
+      },
+      {
+        "name": "道士",
+        "count": 25
+      },
+      {
+        "name": "僵尸",
+        "count": 46
+      },
+      {
+        "name": "仙人",
+        "count": 35
+      },
+      {
+        "name": "小人族",
+        "count": 38
+      },
+      {
+        "name": "不良少年",
+        "count": 31
+      },
+      {
+        "name": "不良少女",
+        "count": 30
+      },
+      {
+        "name": "玩具兵",
+        "count": 28
+      },
+      {
+        "name": "铃兰花精",
+        "count": 26
+      },
+      {
+        "name": "太阳花精",
+        "count": 26
+      },
+      {
+        "name": "玫瑰花精",
+        "count": 26
+      },
+      {
+        "name": "影女",
+        "count": 37
+      },
+      {
+        "name": "纸牌兵",
+        "count": 30
+      },
+      {
+        "name": "小丑",
+        "count": 33
+      },
+      {
+        "name": "疯帽匠",
+        "count": 24
+      },
+      {
+        "name": "月人",
+        "count": 29
+      },
+      {
+        "name": "捣药兔",
+        "count": 33
+      },
+      {
+        "name": "月之使者",
+        "count": 38
+      }
+    ]
+  },
+  "rules": {
+    "food": 4,
+    "ingredient": 1
+  },
+  "independentAudit": {
+    "cartesianPairs": 17278,
+    "selectedComparisons": 2227,
+    "before": 9206,
+    "removed": 4,
+    "after": 9202,
+    "allHitSetsIdentical": true
+  }
+}

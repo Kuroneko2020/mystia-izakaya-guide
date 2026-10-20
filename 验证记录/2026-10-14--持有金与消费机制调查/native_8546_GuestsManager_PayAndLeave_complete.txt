@@ -1,0 +1,45 @@
+# NightScene.GuestManagementUtility.GuestsManager::PayAndLeave
+# {"declaringType": "NightScene.GuestManagementUtility.GuestsManager", "typeIndex": 1495, "image": "Assembly-CSharp.dll", "name": "PayAndLeave", "metadataMethodIndex": 8546, "token": "0x6002163", "methodPointerIndex": 8546, "va": "0x1804d3d30", "rva": "0x4d3d30", "endRva": "0x4d3d72", "returnTypeIndex": 33376, "parameters": [{"index": 6221, "name": "toPayAndLeave", "typeIndex": 24624}, {"index": 6222, "name": "includeTip", "typeIndex": 20604}]}
+# range end RVA 0x4d3d80; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804D3D30: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001804D3D35: 57                 push        rdi
+  00000001804D3D36: 48 83 EC 30        sub         rsp,30h
+  00000001804D3D3A: 45 33 C9           xor         r9d,r9d
+  00000001804D3D3D: 48 8B DA           mov         rbx,rdx
+  00000001804D3D40: 48 8B F9           mov         rdi,rcx
+  00000001804D3D43: E8 B8 D5 FF FF     call        00000001804D1300 ; NightScene.GuestManagementUtility.GuestsManager::GuestPay [MI 8547, RVA 0x4d1300]
+  00000001804D3D48: 45 33 C9           xor         r9d,r9d
+  00000001804D3D4B: 48 C7 44 24 28 00  mov         qword ptr [rsp+28h],0
+                    00 00 00
+  00000001804D3D54: 45 33 C0           xor         r8d,r8d
+  00000001804D3D57: C6 44 24 20 01     mov         byte ptr [rsp+20h],1
+  00000001804D3D5C: 48 8B D3           mov         rdx,rbx
+  00000001804D3D5F: 48 8B CF           mov         rcx,rdi
+  00000001804D3D62: E8 A9 EA FF FF     call        00000001804D2810 ; NightScene.GuestManagementUtility.GuestsManager::LeaveFromDesk [MI 8544, RVA 0x4d2810]
+  00000001804D3D67: 48 8B 5C 24 40     mov         rbx,qword ptr [rsp+40h]
+  00000001804D3D6C: 48 83 C4 30        add         rsp,30h
+  00000001804D3D70: 5F                 pop         rdi
+  00000001804D3D71: C3                 ret
+  00000001804D3D72: CC                 int         3
+  00000001804D3D73: CC                 int         3
+  00000001804D3D74: CC                 int         3
+  00000001804D3D75: CC                 int         3
+  00000001804D3D76: CC                 int         3
+  00000001804D3D77: CC                 int         3
+  00000001804D3D78: CC                 int         3
+  00000001804D3D79: CC                 int         3
+  00000001804D3D7A: CC                 int         3
+  00000001804D3D7B: CC                 int         3
+  00000001804D3D7C: CC                 int         3
+  00000001804D3D7D: CC                 int         3
+  00000001804D3D7E: CC                 int         3
+  00000001804D3D7F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

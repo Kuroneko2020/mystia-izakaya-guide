@@ -1,0 +1,3799 @@
+{
+  "capturedAt": "2026-10-14T09:45:03.335741+08:00",
+  "head": "9774f56fa4f809b93f4ad31f0edae190ba50c53b",
+  "statusPorcelainZ": " M AGENTS.md\u0000 M README.md\u0000 M 中间数据/料亭版攻略数据基线.json\u0000 D 成品/东方夜雀食堂攻略查询_2610112307.html\u0000 M 成品/料亭立体头像版_构建校验.json\u0000 M 脚本/build_excel.py\u0000 M 脚本/build_html_ryotei_avatar.py\u0000 M 脚本/guide_template_ryotei.html\u0000 M 脚本/verify_ryotei.cjs\u0000 M 验证记录/2026-10-10--侧栏布局与全量推荐/全量口味匹配_逐客人检查.json\u0000 M 验证记录/2026-10-10--营业图鉴合并/人物详情_全量推荐.png\u0000 M 验证记录/2026-10-10--营业图鉴合并/侧栏_最后一行标签.png\u0000 M 验证记录/2026-10-10--营业图鉴合并/图鉴_今晚开店与分类页签.png\u0000 M 验证记录/2026-10-10--营业图鉴合并/图鉴_完整标签筛选.png\u0000 M 验证记录/2026-10-10--营业图鉴合并/备菜_全部地点.png\u0000 M 验证记录/2026-10-10--营业图鉴合并/备菜_地点与头像选客.png\u0000 M 验证记录/2026-10-10--营业图鉴合并/性能_修复后.json\u0000 M 验证记录/2026-10-10--营业图鉴合并/手机_图鉴标签.png\u0000 M 验证记录/2026-10-10--营业图鉴合并/手机_结果.png\u0000 M 验证记录/2026-10-10--营业图鉴合并/浏览器_15地区分类.json\u0000 M 验证记录/2026-10-10--营业图鉴合并/浏览器_标签覆盖.json\u0000?? 中间数据/GAME_TAG_RULES.json\u0000?? 成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-14.xlsx\u0000?? 成品/东方夜雀食堂攻略查询_2610140601.html\u0000?? 成品/旧版/东方夜雀食堂攻略查询_2610112307.html\u0000?? 成品/旧版/东方夜雀食堂攻略查询_2610132100.html\u0000?? 成品/旧版/东方夜雀食堂攻略查询_2610140600.html\u0000?? 脚本/extract_game_tag_rules.py\u0000?? 脚本/meal_tags.py\u0000?? 脚本/sync_site_baseline.py\u0000?? 记录/2026-10-13--全量数据核查与加料排序.md\u0000?? 记录/2026-10-14--成餐标签自动重算与数据修正.md\u0000?? 验证记录/2026-10-13--全量数据核查/\u0000?? 验证记录/2026-10-13--加料页列头排序/\u0000?? 验证记录/2026-10-14--数据修正自动重算/\u0000",
+  "protectedFiles": {
+    "脚本/apply_lantern_logo.py": {
+      "bytes": 3646,
+      "sha256": "8330e5badfa367b0aef197d7463c20b0bf12116ca5df10abb4a528f36918a187"
+    },
+    "脚本/asset_map.json": {
+      "bytes": 11539,
+      "sha256": "a5fc072516396393d483feef008ea348c624ea09db0adb956dfd4cb7d555ef3f"
+    },
+    "脚本/brand_seal.png": {
+      "bytes": 11192,
+      "sha256": "35d1bd63ce423411a2c2235a9f11bd81c2f0464f0e92c1776614706886539f90"
+    },
+    "脚本/build_assets.py": {
+      "bytes": 7192,
+      "sha256": "41439232f6ee1b75b9e13c040e798023575ce947906006d23b44c47469b9b880"
+    },
+    "脚本/build_excel.py": {
+      "bytes": 50884,
+      "sha256": "ff457601b1cab8486a2a6a9b35941b852d46ad82cdf4e72daaa50dc7258e00f4"
+    },
+    "脚本/build_html.py": {
+      "bytes": 15645,
+      "sha256": "d2dc3a94bc45d08b07c70efa3cd775c13d92fea5e046d9e3a42e04df70c0f544"
+    },
+    "脚本/build_html_3d.py": {
+      "bytes": 6377,
+      "sha256": "be5436498d1876f399af580ccbd9671ba9cac56bc8a06f2e2bb9b144c241c0f6"
+    },
+    "脚本/build_html_ryotei.py": {
+      "bytes": 5881,
+      "sha256": "1ff8e199d85c97f28d7067032de597134ead6e28dd9fc47b9f083550bb78476d"
+    },
+    "脚本/build_html_ryotei_avatar.py": {
+      "bytes": 9187,
+      "sha256": "e468239189991f6920887ea90bb28d5d039dfd28ac4e037b77deecb62ae4860e"
+    },
+    "脚本/check_addons.py": {
+      "bytes": 749,
+      "sha256": "6569bba790d96a968f7093aff54863b67295cc2fbae122b821de7be24749db62"
+    },
+    "脚本/extract_game_tag_rules.py": {
+      "bytes": 9983,
+      "sha256": "e28ae975feeb8bad7281687aec4fe5ec637411a2a16b0295cd217111ed831c4a"
+    },
+    "脚本/final_audit.py": {
+      "bytes": 2291,
+      "sha256": "8394a1bdaf8750f9572ddd1c217ae288439363cacbd79b863768fe5e1ac2982e"
+    },
+    "脚本/guest_avatar_3d.css": {
+      "bytes": 3180,
+      "sha256": "1a9574920518f421784602b6447e97130260e85f26c8d56bf8d25225e87ef3b5"
+    },
+    "脚本/guide_template_ryotei.html": {
+      "bytes": 130526,
+      "sha256": "6ff259fa2f36750dc748ad82950ed6f656a8b7e574f976d1c3a7373a47f7995f"
+    },
+    "脚本/guide_template_wafu.html": {
+      "bytes": 141024,
+      "sha256": "273628b0cb5dd78c79e81d6d3a8ca78c6293bce030da8ebb28fbc3fbe52e1632"
+    },
+    "脚本/izakaya_3d.css": {
+      "bytes": 24741,
+      "sha256": "0742cafa1237bfd7418c551d550161dc7b77b06cc4da5922c58fcdf79852050d"
+    },
+    "脚本/izakaya_night_market.css": {
+      "bytes": 24937,
+      "sha256": "2f2e88c85bdc5991cb2acb9ed921b1d102014ca2b132ff5a552a549eb0d83778"
+    },
+    "脚本/live_output.cjs": {
+      "bytes": 965,
+      "sha256": "f2f766c412f360ff4f58b3b3ae201c35b18c18078581461d9a11304d398e6230"
+    },
+    "脚本/meal_tags.py": {
+      "bytes": 4253,
+      "sha256": "d466a1e110e3e9c952c23fa9c5db428e32f7de1a68d77cb458d6ec939874f05a"
+    },
+    "脚本/parse_ts_data.py": {
+      "bytes": 5626,
+      "sha256": "3418a225dcecad0f1449fa25ffeb7692832147a28cbc63f24f89c09a3e45b92a"
+    },
+    "脚本/ryotei.css": {
+      "bytes": 46154,
+      "sha256": "a1d418375801d5f494f74c8b0d45bd479d8b94d4ce4543e8bbd94477a7119cf1"
+    },
+    "脚本/ryotei_navigation.js": {
+      "bytes": 21866,
+      "sha256": "764f850462b26b38f0966c954e35f98546efa3c384e86a5ebcf4fb3b761f62c9"
+    },
+    "脚本/ryotei_ui.js": {
+      "bytes": 26902,
+      "sha256": "77fcd2be8547b7a5ee976e9f04b23d4d996bb35906e17e5a62fc0bc1df5ba53a"
+    },
+    "脚本/subset_wafu_font.py": {
+      "bytes": 1934,
+      "sha256": "7f514555d7dfa7f95a87698f2d93192370540a5a8e1785de18e2f305f523dbdf"
+    },
+    "脚本/sync_site_baseline.py": {
+      "bytes": 3139,
+      "sha256": "9146f5edaa389ca50a7bc62af2b56bf7b60afec9678ff789c9d4249b52a56e6c"
+    },
+    "脚本/verify_3d.cjs": {
+      "bytes": 3098,
+      "sha256": "e8b5d8ae5069f1125a37d41c222f890a9a50702d924d2e537e05fd9c36f7781f"
+    },
+    "脚本/verify_avatar_browser.cjs": {
+      "bytes": 30303,
+      "sha256": "291353332e80f0c8d3f7bb471323cb1edd339b24a58db773abcff6e6835fd874"
+    },
+    "脚本/verify_full_recommendations.cjs": {
+      "bytes": 3427,
+      "sha256": "b0f2e1a6b9f32824ccdf9a50a637e63f4dc1b763360ecd2e34cd1d27f6469fba"
+    },
+    "脚本/verify_ryotei.cjs": {
+      "bytes": 19353,
+      "sha256": "4e29b95857a243a70192386b62eb536fb8c589933c9d3ed3cf9ea48a551c5375"
+    },
+    "脚本/verify_workbook.py": {
+      "bytes": 670,
+      "sha256": "b26c6dfb48cdfb14c0368a646cf02ed19d99d876e5f9d72fff6f43d6ef671a07"
+    },
+    "脚本/wafu_font_subset.woff2": {
+      "bytes": 474284,
+      "sha256": "6685b756a735310f3e665b2678c93352667c299baa371ec2930ab475172c0142"
+    },
+    "脚本/旧版_guide_template_before_ui_2026-10-05.html": {
+      "bytes": 97790,
+      "sha256": "842c2b8a03bd69ef8d266b8462bcf0d3e9098b2add893fea7eeaf99e8956d4fd"
+    },
+    "脚本/ryotei_assets/manifest.json": {
+      "bytes": 121506,
+      "sha256": "33f5ecca971c8fe5996ea022f15f0f8a974a7e82e4758d26b5ad4bc62be1d491"
+    },
+    "脚本/ryotei_assets/night-stall.webp": {
+      "bytes": 121402,
+      "sha256": "9b1a4f9d452cc0d2f01cbb8a944ae7d646d0450224d5d4b778b6bfd5cc70400f"
+    },
+    "脚本/调试/analyze_keys.py": {
+      "bytes": 902,
+      "sha256": "922482069068f17d69ccdaa8810ce464d9d02f7fc1e45ce0a5acad0ccca0b024"
+    },
+    "脚本/调试/audit_guides.py": {
+      "bytes": 685,
+      "sha256": "dbd7a1fdc2c154f85f8f81723a1658a119cdf150bb3ca99d070c06ab4bdcfb80"
+    },
+    "脚本/调试/check_440.py": {
+      "bytes": 412,
+      "sha256": "5a50180970d440c4db042cfc0adf1e39f061758c31bf96b5ecde60870769cc53"
+    },
+    "脚本/调试/check_html_text.py": {
+      "bytes": 928,
+      "sha256": "155ccd2f7121cf7704d09442d2e3988903e5f8906d528a8e1b15fc227dcfba8e"
+    },
+    "脚本/调试/check_ingredients.py": {
+      "bytes": 611,
+      "sha256": "bd65567119a875110499cbe8fe1c59c2e45adc5ba20f1b8327110fd37f180fbb"
+    },
+    "脚本/调试/check_lengths.py": {
+      "bytes": 574,
+      "sha256": "70ee524ab04d9157a324dda21257ed3a4951dbeabf3e34691a46976c687d653c"
+    },
+    "脚本/调试/count_by_dlc.py": {
+      "bytes": 708,
+      "sha256": "3260a0853bed2883f4d0646e6d96d6d8fbc2011119f66cc9d374dd149d1f139a"
+    },
+    "脚本/调试/debug_bili2021.py": {
+      "bytes": 351,
+      "sha256": "00cea2f907845452e82b6a7bb0d23b1bc760e9157a10ae5b874c275172c6d6ec"
+    },
+    "脚本/调试/debug_guest.py": {
+      "bytes": 1028,
+      "sha256": "fd1f85f7fd554404a45cccbfef40c5e495f35af63fc81058c645372a241c6bb3"
+    },
+    "脚本/调试/debug_loop.py": {
+      "bytes": 1378,
+      "sha256": "93358cd059b851061fb9ffbb00e0757aac229f778b59e292e1c5b8d11b15a7d9"
+    },
+    "脚本/调试/debug_regex.py": {
+      "bytes": 711,
+      "sha256": "bc97ce90df8fd251405e478439c3886aea5ea7256a05b4e209b5e4c8bacec014"
+    },
+    "脚本/调试/dump_version.py": {
+      "bytes": 698,
+      "sha256": "5cf17884a59ed190a3e4eb113c55d1d156e7ddf7614666fe561c5e7e44f9a73e"
+    },
+    "脚本/调试/inspect_data.py": {
+      "bytes": 624,
+      "sha256": "15ba503998231129d0b120a79a6d143ad0cb97ed0fc5d860cfdcd134e28047c8"
+    },
+    "脚本/调试/inspect_selected.py": {
+      "bytes": 729,
+      "sha256": "935ad1238c35382910848b3169091d7e0c57e9caf3bffc8f71de51359e6e6866"
+    },
+    "脚本/调试/list_dlc9.py": {
+      "bytes": 542,
+      "sha256": "5ed5bce240b6e2f37339fdf71cd3380e20488000d5c0b68fc451f123aa67eab2"
+    },
+    "脚本/调试/probe_detail_scrollbars.cjs": {
+      "bytes": 4926,
+      "sha256": "f3d9433e431b48b6c833e8e8acd01f6b018f0139099a452dcc73809f06e140fb"
+    },
+    "脚本/调试/profile_detail_modal.cjs": {
+      "bytes": 9590,
+      "sha256": "88f4aa3efd225e05e417fa7199aa6708c1e2bdba752537173ea58aff6ee5e8cd"
+    },
+    "脚本/调试/profile_detail_modal2.cjs": {
+      "bytes": 5019,
+      "sha256": "579ee760dd108fcafd18e9580c9d7799716b4d6d0ee2b6388b4b6b5b611c9a34"
+    },
+    "脚本/调试/profile_detail_modal3.cjs": {
+      "bytes": 2980,
+      "sha256": "c71597317275fa9ca896e79688e812b4313c1f8f3c28e7dc254a5faa1c0a5ce8"
+    },
+    "脚本/调试/profile_detail_modal4.cjs": {
+      "bytes": 2666,
+      "sha256": "703d67e748d79e17d08b4224729e8cd43fecfbb7c60047638ac7a26866cfaac9"
+    },
+    "脚本/调试/profile_detail_modal5.cjs": {
+      "bytes": 3115,
+      "sha256": "bbc90082f8a5fef0579bceb11cbc6442d7bb3d1cfb46cda81455471b1e8e8c88"
+    },
+    "脚本/调试/profile_detail_modal6.cjs": {
+      "bytes": 2513,
+      "sha256": "957388a4d8248ec849bca90faf7f2d7964f95a139a8d1de251ca72c220f4f2dc"
+    },
+    "脚本/调试/rec_counts.py": {
+      "bytes": 717,
+      "sha256": "5681f9595a5648ec00c9b66603458eea2d2a958445be69a12f39b9d4491b5fb7"
+    },
+    "脚本/调试/sample_rows.py": {
+      "bytes": 881,
+      "sha256": "beaba624c840e6dcd2527b048c471887473b44f2caa335e181cfa8436913490e"
+    },
+    "脚本/调试/summarize_guests.py": {
+      "bytes": 2245,
+      "sha256": "ce66269c4a784c72122f3dfcc6248ecbdaa9de766cd6eab25db06d759e18586c"
+    },
+    "脚本/调试/avatar-mapping/all-dlc3-1.png": {
+      "bytes": 276904,
+      "sha256": "83a66dbbc1fe9d1bd8d9716e95c201989b6b08125835b46f25534a4130f7dd83"
+    },
+    "脚本/调试/avatar-mapping/all-dlc3-2.png": {
+      "bytes": 246100,
+      "sha256": "d16ff0f42d87cfd8dc69af8736d8cc9233d8162d9e59f29e1de321de313be465"
+    },
+    "脚本/调试/avatar-mapping/all-dlc3-3.png": {
+      "bytes": 272385,
+      "sha256": "3d14695104b18ee8665fce4a33b05ae7a31c418b6f226c9c420d28324402b011"
+    },
+    "脚本/调试/avatar-mapping/all-dlc3-4.png": {
+      "bytes": 283228,
+      "sha256": "1494c88a5669553131d7a2d7ba7dae9e29cb19a3eddb388509a4f2213432710e"
+    },
+    "脚本/调试/avatar-mapping/all-dlc3-5.png": {
+      "bytes": 165774,
+      "sha256": "9669cde682d630e69efb04c229419bebac4c3a87bc8bc2dcb6b6a913101b009a"
+    },
+    "脚本/调试/avatar-mapping/big-bentou-b1.png": {
+      "bytes": 43965,
+      "sha256": "082f67958d59b6dffc838ebb9acbc759bd77e7377fa183be27e939937d23fdac"
+    },
+    "脚本/调试/avatar-mapping/big-bentou-b2.png": {
+      "bytes": 45387,
+      "sha256": "f2b390d0579cb8b37e3cc9a5e5aa47bec663dc4fe1400026ead0ac44c9a485bd"
+    },
+    "脚本/调试/avatar-mapping/big-bentou-b3.png": {
+      "bytes": 45594,
+      "sha256": "cdf984e6e6806bd8368e0c69c0ea327e745bbb9b47a794f2749ece0dbfc4b531"
+    },
+    "脚本/调试/avatar-mapping/big-bentou-b4.png": {
+      "bytes": 46806,
+      "sha256": "3407582123dc5377b5078383070952eaacd7c00fff592f7a289423f3b24f353e"
+    },
+    "脚本/调试/avatar-mapping/big-bentou-b5.png": {
+      "bytes": 37384,
+      "sha256": "9331014448b71b4ccda6f1ac26a553dcd0e9386f82b993722b99c870076133bd"
+    },
+    "脚本/调试/avatar-mapping/big-dlc1-d11.png": {
+      "bytes": 50961,
+      "sha256": "f5dc103b8c2407498194975d63f4a6b3460999d267eab414e204e9746cb68780"
+    },
+    "脚本/调试/avatar-mapping/big-dlc2-d21.png": {
+      "bytes": 47726,
+      "sha256": "4a1e0896c6f8639c709d275836bb466f1fd6285347d94c01023fa987436435c5"
+    },
+    "脚本/调试/avatar-mapping/big-dlc2-d22.png": {
+      "bytes": 7459,
+      "sha256": "609d9c7ee03de066f27fff8a4cc27e5f1d9afd80ed06a11bfa332399325ac73e"
+    },
+    "脚本/调试/avatar-mapping/big-dlc3-d31.png": {
+      "bytes": 27921,
+      "sha256": "7a6d3d1eb60b840d6ff98441b1c952b5473a0f1c1127aff62bbce9e92631e3b6"
+    },
+    "脚本/调试/avatar-mapping/big-dlc3-d32.png": {
+      "bytes": 24495,
+      "sha256": "e651bcdd5c9878ea9e54554dff9a38cc42173b65e740d991bf4f7a3b73e23bf3"
+    },
+    "脚本/调试/avatar-mapping/big-dlc3-d33.png": {
+      "bytes": 34526,
+      "sha256": "be7315bf2bab5b64856bef023431d4ea630a398185b8ce915c9095b02e3a100e"
+    },
+    "脚本/调试/avatar-mapping/big-dlc3-d34.png": {
+      "bytes": 28823,
+      "sha256": "195fcdfdb1a271ef9efaa2ab403211223a84a7072045468b44e075b5b54e66f9"
+    },
+    "脚本/调试/avatar-mapping/big-dlc3-d35.png": {
+      "bytes": 20237,
+      "sha256": "86f8c0393ffc159754f610baa9b6dc86ce5973230e2c268c6b1ea83d97d8225e"
+    },
+    "脚本/调试/avatar-mapping/check-dlc3-001-006.png": {
+      "bytes": 16765,
+      "sha256": "a0e9ce35e01c390f5051fdc1fe326530a049fb29a81ae1154352edbc39325983"
+    },
+    "脚本/调试/avatar-mapping/final-check-1.png": {
+      "bytes": 1182545,
+      "sha256": "98560d857cdc11c21093b028496aac059e4357dfd57dae606ac26acb14decc62"
+    },
+    "脚本/调试/avatar-mapping/final-check-2.png": {
+      "bytes": 1075787,
+      "sha256": "6b704614a87c219d29b51fa04ea08b92be5f9e072c4c7499a2a7096a3430aa2c"
+    },
+    "脚本/调试/avatar-mapping/last-bentou-1.png": {
+      "bytes": 1155084,
+      "sha256": "c286b0a481be284f2838a1f3e6abf3ef1645d03d54dd0b719fec42f3aae43164"
+    },
+    "脚本/调试/avatar-mapping/last-bentou-2.png": {
+      "bytes": 1206688,
+      "sha256": "930c9ed091766fa24cbc263aa207e024a87cd570394ab0fed9e18fe0e1ddc350"
+    },
+    "脚本/调试/avatar-mapping/last-music.png": {
+      "bytes": 152146,
+      "sha256": "e1a093823ab75dda6428a64f5ee5082e997f79b05c3ac8322acf0d0fb6c7a4d6"
+    },
+    "脚本/调试/avatar-mapping/m1-bentou.png": {
+      "bytes": 1213728,
+      "sha256": "c076b172bb6077b646ebc4c6d9bcc9abc3d180672ab20d63b38a06e1bd03effe"
+    },
+    "脚本/调试/avatar-mapping/m1-bottom.png": {
+      "bytes": 1592801,
+      "sha256": "aa6b5f84aa182ceff9bb2e3476779e7de3dbd7f0c350cb938d99480595af4dde"
+    },
+    "脚本/调试/avatar-mapping/m1-top.png": {
+      "bytes": 1617308,
+      "sha256": "3735946e4904c47b12436f0ca6b6c6809e5701f4b30608c4dccc9ca0bffa8934"
+    },
+    "脚本/调试/avatar-mapping/m2-dlc1.png": {
+      "bytes": 270133,
+      "sha256": "b3f7d91d455658668ba22a2684ee56ecb23955670e7b894390429120631a1d67"
+    },
+    "脚本/调试/avatar-mapping/m3-dlc2.png": {
+      "bytes": 296508,
+      "sha256": "6ea65c65e46cc5d71641f35177c541e69ac6b483f72e7c3d8ed85b6d886f17eb"
+    },
+    "脚本/调试/avatar-mapping/m4-dlcmusic.png": {
+      "bytes": 34912,
+      "sha256": "a83b7075ad9eabff55ed7bbd306760d097a45e7d60d7ed16b48b4014051d036b"
+    },
+    "脚本/调试/avatar-mapping/m5-dlc3.png": {
+      "bytes": 629902,
+      "sha256": "8a149efd05840524ab58ee603ae328aaeeed2b19d0d157b5e9a8e5bfeb1354e2"
+    },
+    "脚本/调试/avatar-mapping/zoom-bentou-1.png": {
+      "bytes": 1111096,
+      "sha256": "0c945c230346486314a6360a58bbf8becaee70f11fdb51cc1f283ff0c32955b8"
+    },
+    "脚本/调试/avatar-mapping/zoom-bentou-2.png": {
+      "bytes": 1071709,
+      "sha256": "9f0ee397be61f2830ad450f8d75e627c28bcc989fe1dfde5b465d967441dcffc"
+    },
+    "脚本/调试/avatar-mapping/zoom-bentou-3.png": {
+      "bytes": 893248,
+      "sha256": "e7cfd9c0ee6d0fa5da307016d57b890a2d9b5ba17697ac9e2a7eaf71ec6c5489"
+    },
+    "脚本/调试/logo-candidates/crop-preview.png": {
+      "bytes": 102632,
+      "sha256": "87b2b8a1263b5e706202dc7a3aab1b9a3a337e9ed6bd93503577b40beeb85361"
+    },
+    "脚本/调试/logo-candidates/exe-icon.png": {
+      "bytes": 1824,
+      "sha256": "ebe730fc472ba74f454e4ba5b152e34b41a70e4c12f8a9b9d254aae1c9bf3a02"
+    },
+    "脚本/调试/logo-candidates/favicon-32.png": {
+      "bytes": 3747,
+      "sha256": "e36a78031159945c5abd512afcbd1787594588551aeb8e2da1c0c432e84f78e8"
+    },
+    "脚本/调试/logo-candidates/favicon-b64.txt": {
+      "bytes": 4996,
+      "sha256": "4f62027f9fdf88d1fb3ec0f8ba08de323d495bcadca5818676fb0bfe221baf61"
+    },
+    "脚本/调试/logo-candidates/favicon-new-64.png": {
+      "bytes": 1345,
+      "sha256": "9b34c4f22741220a220033990928025a815819c6e6ad8ec48093663c8b18ea31"
+    },
+    "脚本/调试/logo-candidates/header-preview.png": {
+      "bytes": 164665,
+      "sha256": "1e42908fbd00a6db3b3ac0394321bd27c6505d99f7a4a825447923e53a629dc2"
+    },
+    "脚本/调试/logo-candidates/header_schinese.jpg": {
+      "bytes": 65886,
+      "sha256": "0ec50240bb6a52f9c07def7c58a2f63ecd3c2bcd00d9944be4b68c1abbb357b7"
+    },
+    "脚本/调试/logo-candidates/logo.png": {
+      "bytes": 155650,
+      "sha256": "4977692da22a07d03d717b9216c6c6e0088a2ee3abc462b34862b9936b3583bd"
+    },
+    "脚本/调试/logo-candidates/mystia-two.png": {
+      "bytes": 11372,
+      "sha256": "4e3b5cfaf733976abad0cb4498d6174cb022be45b94a1da624920947912124d6"
+    },
+    "脚本/调试/logo-candidates/preview-38.png": {
+      "bytes": 4058,
+      "sha256": "9ceb55b0b15fed6a16e30ca4bd993506cbdfc95d89e0c0ea1be442b96d9e716b"
+    },
+    "脚本/调试/logo-candidates/preview-76.png": {
+      "bytes": 12877,
+      "sha256": "2388e412b66950cdd328578c6b30d052dc800096aeacb7f89f4946da64168a6b"
+    },
+    "脚本/调试/ui-screens/1-guests-dark-top.png": {
+      "bytes": 928411,
+      "sha256": "c0c939d8932e2bd460f3a6b8218a66dabd03799f9b12e5dce8827ce4964e2813"
+    },
+    "脚本/调试/ui-screens/10-centered-tabs-guides.png": {
+      "bytes": 631196,
+      "sha256": "0a55697ac68c66836301d3253904d79b2f7ce6572f16d991b5fc0a5f642303a3"
+    },
+    "脚本/调试/ui-screens/11-centered-final.png": {
+      "bytes": 1000662,
+      "sha256": "aaf970f99b8a0c8d067b6b42bb408b2d9541a867c6ba3cc0eeb55eeac6652d8d"
+    },
+    "脚本/调试/ui-screens/12-centered-settled.png": {
+      "bytes": 1106202,
+      "sha256": "c186b17bc6d68c26978e502b58e67318748e85020bb86cd473f96e0f42c12051"
+    },
+    "脚本/调试/ui-screens/2-guests-dark-hover.png": {
+      "bytes": 928411,
+      "sha256": "c0c939d8932e2bd460f3a6b8218a66dabd03799f9b12e5dce8827ce4964e2813"
+    },
+    "脚本/调试/ui-screens/3-detail-panel.png": {
+      "bytes": 801211,
+      "sha256": "f4e40a80c9fbe47eb796f25f6cab9f09baef0f512ff4cd2df20f674192911745"
+    },
+    "脚本/调试/ui-screens/4-details-table.png": {
+      "bytes": 906456,
+      "sha256": "c91804c7b5c4ccbe611bb52bd2c7ef1ef2fe39cdfaedbe120afcae4775cf2610"
+    },
+    "脚本/调试/ui-screens/5-guests-light.png": {
+      "bytes": 806213,
+      "sha256": "c6f4779cfe48cf0792e2d2421f3861dbb4115a206cd7babdaf48402ad2fa74ee"
+    },
+    "脚本/调试/ui-screens/6-details-table-fixed.png": {
+      "bytes": 875610,
+      "sha256": "ed93f661a5b65c144f69ce0835f5aa7e54f6c3c482aa57ede1249889ea6862ce"
+    },
+    "脚本/调试/ui-screens/7-mobile-guests.png": {
+      "bytes": 286878,
+      "sha256": "e197afce41e9e1689e47feb43e2e5cc69f4ecb2186ca05fc1ab6e987bdb54ee7"
+    },
+    "脚本/调试/ui-screens/8-centered-tabs-1920.png": {
+      "bytes": 1106449,
+      "sha256": "e98d02808d108c8c1d90e662e9bfe3ae75c9d93b8b2f4363cd688f4ea4d29f72"
+    },
+    "脚本/调试/ui-screens/9-centered-tabs-narrow.png": {
+      "bytes": 401990,
+      "sha256": "32cc3e3b107e50c838904e6f5c92a0a423e960b9dd30d3aa988e481f507a4175"
+    },
+    "脚本/调试/ui-screens/w1-guests-wafu.png": {
+      "bytes": 1015399,
+      "sha256": "452b514b6e8c67b111edabe8121991519a337ef44653347c0192040e2d0a5e49"
+    },
+    "脚本/调试/ui-screens/w10-logo-theme-final.png": {
+      "bytes": 40388,
+      "sha256": "e88d833f2f9306e6d753812af65e8756bc164d384c7edb668dab33ada85763c8"
+    },
+    "脚本/调试/ui-screens/w11-logo-amber.png": {
+      "bytes": 39447,
+      "sha256": "564b1f3179721c4c2036236d8eb95e57e356536fe132da8ed71dc4d735bd0512"
+    },
+    "脚本/调试/ui-screens/w12-logo-lantern-wafu.png": {
+      "bytes": 44721,
+      "sha256": "4496c18147b111faaa1936ea2535ce793f2ab62cc8259f8a01a8f53dd2a07a5f"
+    },
+    "脚本/调试/ui-screens/w13-logo-lantern-amber.png": {
+      "bytes": 43996,
+      "sha256": "2a397fc750b8f974461e080a432de08139445c80b8cf09a385a5ae0548225247"
+    },
+    "脚本/调试/ui-screens/w14-lantern-header-wafu.png": {
+      "bytes": 45533,
+      "sha256": "3ce1efa029fdbc6bdb76642b017c35223d51fcd2396cd452bc17bef730357956"
+    },
+    "脚本/调试/ui-screens/w15-lantern-flat-wafu.png": {
+      "bytes": 46238,
+      "sha256": "0e7d1d0cea5763664e0b0294c048cf015b7ffed62363ddf5aa06dd255c2eabdc"
+    },
+    "脚本/调试/ui-screens/w16-lantern-flat-amber.png": {
+      "bytes": 45911,
+      "sha256": "3885114c96dde896628756a5eb59b48457a71e33197f300599612064c78d09ce"
+    },
+    "脚本/调试/ui-screens/w17-logo-mystia-wafu.png": {
+      "bytes": 47164,
+      "sha256": "6481b6399b3d7483cb6e401bc5932d56df9fb6a26616b0837dcf96d7d7566659"
+    },
+    "脚本/调试/ui-screens/w18-logo-mystia-amber.png": {
+      "bytes": 46356,
+      "sha256": "96d22382f2af15b4b9527eb9e1b440140db2589ed9da7977850efe8557f150b1"
+    },
+    "脚本/调试/ui-screens/w19-logo-mystia-final.png": {
+      "bytes": 48112,
+      "sha256": "7ff101722b3cdf42c703266a72a10bb52d1fdbf05e6e3156a3b070e07b81f2f5"
+    },
+    "脚本/调试/ui-screens/w2-detail-wafu.png": {
+      "bytes": 877346,
+      "sha256": "897360019f1b5ba1b00e52c7c4173f6a1100cf93194cf6bd9ff0b38d3f5f04d8"
+    },
+    "脚本/调试/ui-screens/w3-catalog-wafu.png": {
+      "bytes": 903895,
+      "sha256": "ec5640cd186f15bde40cf1d49977d9001f81f3cd57e68c6666c6c1cd49b2b9ff"
+    },
+    "脚本/调试/ui-screens/w4-guests-wafu-light.png": {
+      "bytes": 987782,
+      "sha256": "a968a17fa1422b3ece339fbed7458ab5e9856a8bcc01964610c948a0c7fc106b"
+    },
+    "脚本/调试/ui-screens/w5-guests-final.png": {
+      "bytes": 1032239,
+      "sha256": "5e40bc5256090c9a2feae183d232008dfabfca8ee62a411a08ca601c2ba82b1c"
+    },
+    "脚本/调试/ui-screens/w6-detail-remilia.png": {
+      "bytes": 868491,
+      "sha256": "afb0d25f466369ab837c2ad72cd6c22690c8163e56154d6d2e966cca20257cd8"
+    },
+    "脚本/调试/ui-screens/w7-ingredients-icons.png": {
+      "bytes": 929392,
+      "sha256": "fbc335e500eb6250bd1973eb848cf98e17457292da343213502eb6e0b8345949"
+    },
+    "脚本/调试/ui-screens/w8-drinkrecs-icons.png": {
+      "bytes": 834489,
+      "sha256": "00e453e402f8b88eb04f627a17671a52c4ce5de4ae3b013cdfda11f3ff6c9b25"
+    },
+    "脚本/调试/ui-screens/w9-logo-wafu.png": {
+      "bytes": 40388,
+      "sha256": "e88d833f2f9306e6d753812af65e8756bc164d384c7edb668dab33ada85763c8"
+    },
+    "脚本/调试/unity-scan/bundle_index.json": {
+      "bytes": 1511,
+      "sha256": "ef3368de0909df41e11b5677c019a57ec967b3a4e874d13c8097aeb20c1c8a44"
+    },
+    "脚本/调试/unity-scan/catalog_raw.json": {
+      "bytes": 15108759,
+      "sha256": "eb73a654ef8f01562905709dc53aff31a0789cfd5e405a4865c72f8bc6bdf8be"
+    },
+    "脚本/调试/unity-scan/scan_bundles.py": {
+      "bytes": 1209,
+      "sha256": "a323145e236c16813846b384cffdaa2a96440b99bb1fa3a073dae0da228f0eae"
+    },
+    "脚本/wafu_assets/avatars/上白泽慧音.webp": {
+      "bytes": 8950,
+      "sha256": "cf49b74df873026edaa10dbf036bd4c29b576352a461e018fbf5ad7381b41a22"
+    },
+    "脚本/wafu_assets/avatars/东风谷早苗.webp": {
+      "bytes": 9494,
+      "sha256": "33881a6029b154624228fea45c39cd125c3c93c19a9917e95a81eabfdc514190"
+    },
+    "脚本/wafu_assets/avatars/今泉影狼.webp": {
+      "bytes": 9780,
+      "sha256": "a183c9f74edbf9f0a527127aa906ecc680633fbe6e773df4234445c65ad43c4e"
+    },
+    "脚本/wafu_assets/avatars/伊吹萃香.webp": {
+      "bytes": 10520,
+      "sha256": "9b97f2c2fc5bd207edb4e8a0ee9b671076c7df0485be4ec71ccded55e8ed5675"
+    },
+    "脚本/wafu_assets/avatars/博丽灵梦.webp": {
+      "bytes": 10162,
+      "sha256": "5a6585b5b8e8dfeb295541d340abb8027363c18ffb3b969a60a93c39412f621d"
+    },
+    "脚本/wafu_assets/avatars/古明地恋.webp": {
+      "bytes": 10130,
+      "sha256": "7b8f57fe7f716dfc0c94efa012fda9673ad0f390c945e7c0577f469129c47461"
+    },
+    "脚本/wafu_assets/avatars/古明地觉.webp": {
+      "bytes": 10086,
+      "sha256": "7a01898adbc09131b0ca879b5c00e130653161fb6455ae95f41e5ff9d0f8f7e5"
+    },
+    "脚本/wafu_assets/avatars/帕秋莉.webp": {
+      "bytes": 9694,
+      "sha256": "44968469689aaf99b159a020ffaff240360f656941c88276780d1a1b63d41adb"
+    },
+    "脚本/wafu_assets/avatars/星熊勇仪.webp": {
+      "bytes": 10288,
+      "sha256": "79e9bcce31792ac1157cc9d35f62f09507ace8e97b2507f0a6f926fb35e5fd94"
+    },
+    "脚本/wafu_assets/avatars/村纱水蜜.webp": {
+      "bytes": 9512,
+      "sha256": "2d342bf17c38fb3b39b62a445809617b3697b9e63e302bd0598488293d49dc94"
+    },
+    "脚本/wafu_assets/avatars/森近霖之助.webp": {
+      "bytes": 9246,
+      "sha256": "cee88aa44923b007cadb72a43cec6e3c52162ee004b632e9c2b52feb8e2bccda"
+    },
+    "脚本/wafu_assets/avatars/橙.webp": {
+      "bytes": 9550,
+      "sha256": "6c4803d74294d27a9cf316a4421921bae2a30e2e40cf59c5110b9c4107e1b33f"
+    },
+    "脚本/wafu_assets/avatars/比那名居天子.webp": {
+      "bytes": 9016,
+      "sha256": "be8832a91e59c6384e9dccb55e239e3f650c7bdf9b53754b770d7fe9911364b3"
+    },
+    "脚本/wafu_assets/avatars/河城荷取.webp": {
+      "bytes": 9918,
+      "sha256": "f81ae9f08f01375e971c68ce72cf6c8cc703e981e323c5143892f04fd93eef1a"
+    },
+    "脚本/wafu_assets/avatars/火焰猫燐.webp": {
+      "bytes": 9112,
+      "sha256": "9f18d70c82b873faa83960aaa937df52045ba88db14d7d84e986ba1ebca27e69"
+    },
+    "脚本/wafu_assets/avatars/爱丽丝.webp": {
+      "bytes": 10588,
+      "sha256": "d366616508ca056ed27c03df4a2753a35361d1bfe04c3366818088b72bad547a"
+    },
+    "脚本/wafu_assets/avatars/犬走椛.webp": {
+      "bytes": 10838,
+      "sha256": "62fc168aa8c52fe9d65e8ec6b843b218e62724ef6ddb54c12efce6cc31ba7a6e"
+    },
+    "脚本/wafu_assets/avatars/琪露诺.webp": {
+      "bytes": 10930,
+      "sha256": "ebab988d5567b701dc276a296cbd6766bd3ce380d086afbd33b5239cdcb06c68"
+    },
+    "脚本/wafu_assets/avatars/矢田寺成美.webp": {
+      "bytes": 9854,
+      "sha256": "5762a7ccbf65745d3eb695d163ba183c8de802b5c4576bfe9a17a4f4f2d856ba"
+    },
+    "脚本/wafu_assets/avatars/稗田阿求.webp": {
+      "bytes": 8106,
+      "sha256": "092f0dc4a15b6b088d24c8234809b2479e145a02b6816efa35f5ad144701f5e3"
+    },
+    "脚本/wafu_assets/avatars/红美铃.webp": {
+      "bytes": 9014,
+      "sha256": "b637aae0179d7e5784aaa9252c79ca136aa2571ce03ba838a6fa66ece12ebb9f"
+    },
+    "脚本/wafu_assets/avatars/茨木华扇.webp": {
+      "bytes": 8704,
+      "sha256": "9081509963ccb7b3eab17b89458a49838f888162aec386ec48722424b08e96bf"
+    },
+    "脚本/wafu_assets/avatars/莉格露.webp": {
+      "bytes": 8704,
+      "sha256": "b6f083f0c223e629bf98622185c85b81ca99ce1b732f8e9a91ff8cc0d33dbb3c"
+    },
+    "脚本/wafu_assets/avatars/蓬莱山辉夜.webp": {
+      "bytes": 8098,
+      "sha256": "518f30c403c661d155563cf1be71edbc468681b9913934ffd1bbf912a4e99f00"
+    },
+    "脚本/wafu_assets/avatars/蕾米莉亚.webp": {
+      "bytes": 9754,
+      "sha256": "b07a7a284b12f39a367e92b2e8ee432a3a8213a98c808cdac1acb1b404d67283"
+    },
+    "脚本/wafu_assets/avatars/藤原妹红.webp": {
+      "bytes": 9676,
+      "sha256": "ac343987430bf132c7c99ef89ff1b222a2ce27dfaca89bc4a7495209e8bb95db"
+    },
+    "脚本/wafu_assets/avatars/西行寺幽幽子.webp": {
+      "bytes": 10812,
+      "sha256": "65da517a1d50ea7c088750b04fe0e45027cbde465dd5a613e492154094dc17b1"
+    },
+    "脚本/wafu_assets/avatars/雾雨魔理沙.webp": {
+      "bytes": 9024,
+      "sha256": "fe466e06d1bcb85516c28a1cba8415afb713d1e2803b9bddf3fd1f17e9d1d8d1"
+    },
+    "脚本/wafu_assets/avatars/露米娅.webp": {
+      "bytes": 8146,
+      "sha256": "a6543b660378858b2ca1e18a748a81418593e4a0664e78847108f65fcc730a00"
+    },
+    "脚本/wafu_assets/avatars/饕餮尤魔.webp": {
+      "bytes": 10172,
+      "sha256": "d895785ae5ba028f64c6fdf9f45e376408e41f5f1f743ed562d3c950775e37ed"
+    },
+    "脚本/wafu_assets/avatars/魂魄妖梦.webp": {
+      "bytes": 8238,
+      "sha256": "03cd2169ffe2567dc69bd674251dc3f4311028583f10cbb8b2f6d7d5c5982193"
+    },
+    "脚本/wafu_assets/avatars/黑谷山女.webp": {
+      "bytes": 9712,
+      "sha256": "2ed2eadc53601a16e747b4321a5b41a6114f5ac60aabb1e87b12d2b02dde6852"
+    },
+    "脚本/wafu_assets/icons/一击☆必杀.webp": {
+      "bytes": 1090,
+      "sha256": "e0b1741680288750d4067eec28f56f554648d8c13595e6e87b3accb2fe27b478"
+    },
+    "脚本/wafu_assets/icons/七色羊羹.webp": {
+      "bytes": 1138,
+      "sha256": "b1a897bc441d1a85eb6e69fdf6368303b0af27fe1f01f752a5dcb9704157d601"
+    },
+    "脚本/wafu_assets/icons/三文鱼.webp": {
+      "bytes": 1288,
+      "sha256": "9bd4c08c000d1f8dc46be31d27381c2ffb3eb41b14b0780afdea04a8977c4e38"
+    },
+    "脚本/wafu_assets/icons/三文鱼天妇罗.webp": {
+      "bytes": 1076,
+      "sha256": "8b5eb28513c827e084bde8134467e5bf470c1dd9623997526b955bbb4de83ea6"
+    },
+    "脚本/wafu_assets/icons/不死鸟.webp": {
+      "bytes": 1286,
+      "sha256": "f7add8752fa960cfd732f056f3d82bb0038c90576a02995874b0e9f71de41ded"
+    },
+    "脚本/wafu_assets/icons/丧气芝士条.webp": {
+      "bytes": 1008,
+      "sha256": "d5b47f02ae03eb902dfc597909ecefb615bee58056a173d5a0e4f841f7ee0e8e"
+    },
+    "脚本/wafu_assets/icons/二天一流.webp": {
+      "bytes": 1030,
+      "sha256": "b954aab9e550525007a0bd7d43bbe3929d26666b9c47648a59342b1409a9d26b"
+    },
+    "脚本/wafu_assets/icons/云山棉花糖.webp": {
+      "bytes": 1016,
+      "sha256": "25016d52cd7a12fd6b69e10726d40f06ca542d30dfaafa9db5e765ec5eca06b1"
+    },
+    "脚本/wafu_assets/icons/什锦天妇罗.webp": {
+      "bytes": 1214,
+      "sha256": "349fb83bb5e3e333aa339038a394692cce8b17c45d0335bd03dd1d0022b0fa47"
+    },
+    "脚本/wafu_assets/icons/仰望天花板派.webp": {
+      "bytes": 1044,
+      "sha256": "52edfba7e6861f9d0dbe719ed956bec9fadc2c9052ef3ee8740666187d0b0cf4"
+    },
+    "脚本/wafu_assets/icons/伶人醉.webp": {
+      "bytes": 1142,
+      "sha256": "43ffd118c9104f3accd5d716d1adc9b0ecaad1a0091565348e0e2980a87ac56a"
+    },
+    "脚本/wafu_assets/icons/兜甲蒸糕.webp": {
+      "bytes": 978,
+      "sha256": "03c012420a48253499b34faee5a7156349d3fae073073a8518518bf0a34daa25"
+    },
+    "脚本/wafu_assets/icons/全肉盛宴.webp": {
+      "bytes": 1200,
+      "sha256": "716f158ccaa73da6508e5939103bce2189b4ce98e1e846a77dc3f02e35c16dc0"
+    },
+    "脚本/wafu_assets/icons/八目鳗.webp": {
+      "bytes": 1210,
+      "sha256": "22297d29fdac94f95df280dd8d8bbdb5fbe953527b0e778c93629d320907eae5"
+    },
+    "脚本/wafu_assets/icons/养心粥.webp": {
+      "bytes": 966,
+      "sha256": "0a1ff2cb9ca2caa66b6fe2e6cb1204e00a4d1005ab9ff3b73039a5eadc817fac"
+    },
+    "脚本/wafu_assets/icons/冬酿.webp": {
+      "bytes": 938,
+      "sha256": "26933daec43cb2517677690274d0622a0d2bf1153423b29b7ffa01ec2ccfe271"
+    },
+    "脚本/wafu_assets/icons/冰块.webp": {
+      "bytes": 1154,
+      "sha256": "e7af1d02b3739b92eb43ba2732091d6fcf52697c7f3985708060b7fd271fdda0"
+    },
+    "脚本/wafu_assets/icons/冰山毛玉冻柠.webp": {
+      "bytes": 1022,
+      "sha256": "554d8d5e59334cfc32e7c631d04c7d8cc15a6ea8b29e2027848fefa8a6e3d1c0"
+    },
+    "脚本/wafu_assets/icons/冷豆腐.webp": {
+      "bytes": 1030,
+      "sha256": "51d4ce0cc83d00d687d2b4b9773ca2610b23f6755557cf285e72b105449f2f6c"
+    },
+    "脚本/wafu_assets/icons/凉菜雕花.webp": {
+      "bytes": 1188,
+      "sha256": "8972c7c558f40d70599c7fd3ae7733a257f495913496f48551e47f89eb9a79cb"
+    },
+    "脚本/wafu_assets/icons/分子蛋.webp": {
+      "bytes": 1072,
+      "sha256": "179fceb882623d867a04a8520eabb891299adc5792a71961df1a7d1a9322cb19"
+    },
+    "脚本/wafu_assets/icons/刺身拼盘.webp": {
+      "bytes": 1166,
+      "sha256": "cb6ed2f6108144137a2ea83f66e9e413e39c51afe6730de5e1f06159e93046ac"
+    },
+    "脚本/wafu_assets/icons/力量汤.webp": {
+      "bytes": 896,
+      "sha256": "9407042895c5d7d8d9a357139768b3feff784b72e4eb155f7da3e63241e39518"
+    },
+    "脚本/wafu_assets/icons/北极甜虾蜜桃色拉.webp": {
+      "bytes": 1048,
+      "sha256": "67ecbf112144e699d498b0dc624db4bec731b94008ce7b1cf8f24c1789767a52"
+    },
+    "脚本/wafu_assets/icons/十四夜.webp": {
+      "bytes": 1160,
+      "sha256": "0e811942e1a23ace29608d9f850e8f1a08e2c8ecd638698eff1dd2d7823a1d12"
+    },
+    "脚本/wafu_assets/icons/华光玉煎包.webp": {
+      "bytes": 1162,
+      "sha256": "3bdf62ed7ba19090afe62a5a0adfed6e340228cd6121939efab8a92f41877a6e"
+    },
+    "脚本/wafu_assets/icons/南瓜.webp": {
+      "bytes": 864,
+      "sha256": "1d0e1c2323f5ffb01005c1658081f2b28723a91243d0ba5a3d4e76b7a6e2a491"
+    },
+    "脚本/wafu_assets/icons/南瓜虾盅.webp": {
+      "bytes": 1242,
+      "sha256": "089f1cc83db56a1dd349d4f4a88e01a60738bcc25bfe89465af0f63672417c9b"
+    },
+    "脚本/wafu_assets/icons/卫星冰咖啡.webp": {
+      "bytes": 1268,
+      "sha256": "a10fe45d099558e49c7fceb0a0eba1a2367124d112ec13cdf80a77fa6d8aae14"
+    },
+    "脚本/wafu_assets/icons/古明地冰激凌.webp": {
+      "bytes": 1390,
+      "sha256": "af2ee8376e66a197f5f6b41df8f6f41d6fb77c54f2276ea0933f0b382f028926"
+    },
+    "脚本/wafu_assets/icons/古法奶油冰沙.webp": {
+      "bytes": 954,
+      "sha256": "858995f6e83f26d1685efaa200388efe83a3d679fd975dedc135cbae3e485b9f"
+    },
+    "脚本/wafu_assets/icons/可可豆.webp": {
+      "bytes": 912,
+      "sha256": "6128095adc7f0b60ad450b76ac00243316ced191d703078b59398da2259827d9"
+    },
+    "脚本/wafu_assets/icons/司康饼.webp": {
+      "bytes": 1014,
+      "sha256": "0bc325da30e4ebac6716204afd1ae00ddc80516a55d9546c7eee55bb62714f84"
+    },
+    "脚本/wafu_assets/icons/和牛.webp": {
+      "bytes": 1234,
+      "sha256": "87392824ff79f808f351c75f1cd44ea486e51ff14df49973d365c2ca0fbddb20"
+    },
+    "脚本/wafu_assets/icons/咖啡.webp": {
+      "bytes": 1020,
+      "sha256": "36cb24bf034aafc980711bbd41e4edc980b735f18e1bf9b78d85560b6efc4c10"
+    },
+    "脚本/wafu_assets/icons/噗噗呦果.webp": {
+      "bytes": 1004,
+      "sha256": "75130c741baf19b4fbe9e52cdac9abfb3741a2db771bf050f27656e98e260c94"
+    },
+    "脚本/wafu_assets/icons/土豆.webp": {
+      "bytes": 800,
+      "sha256": "680dbff359b45cb36dd57a257881d05002afe6fc117457f609cb1d9f8d8ac1dd"
+    },
+    "脚本/wafu_assets/icons/土豆可乐饼.webp": {
+      "bytes": 980,
+      "sha256": "1d39bb6847e99e5bbd169051df5e8c44eef6fe6630ce8afba7277583c72e9b26"
+    },
+    "脚本/wafu_assets/icons/圣白莲子糕.webp": {
+      "bytes": 744,
+      "sha256": "358f47fccc73cf83eb9c6ca34f9e026727ab883b00197866b58f8baa47ab1713"
+    },
+    "脚本/wafu_assets/icons/地狱激辛警告！.webp": {
+      "bytes": 1116,
+      "sha256": "e8ce6bcaefc2cc7b00eabd3eec4dc001f5055e8521324fafd2c870f1fb3338a9"
+    },
+    "脚本/wafu_assets/icons/地瓜.webp": {
+      "bytes": 840,
+      "sha256": "2945f2a2ce7ed18a5c4728208bc5a98446ca7727b446b24185555b4fcc93a8ab"
+    },
+    "脚本/wafu_assets/icons/大冰棍儿!.webp": {
+      "bytes": 1152,
+      "sha256": "1c12389c21427d301f0eba5edfdfa7409d4294f03a6a237c9d5a205cb71aecbe"
+    },
+    "脚本/wafu_assets/icons/大吟酿.webp": {
+      "bytes": 1216,
+      "sha256": "dbd0113d9415a51bae5198e3c5763a48de5fb4bcd08070a4dd4b27b41ec6128b"
+    },
+    "脚本/wafu_assets/icons/大奢宴.webp": {
+      "bytes": 1094,
+      "sha256": "6b163458a02ede60d2145a88b33370baa5dae71d17f095825251afc9edea9da3"
+    },
+    "脚本/wafu_assets/icons/大江户船祭.webp": {
+      "bytes": 1184,
+      "sha256": "0bccfb51671e6e9e386c910e821a75b5e2ac3c0623d92c8a081da86e37bf9937"
+    },
+    "脚本/wafu_assets/icons/大阪烧.webp": {
+      "bytes": 1010,
+      "sha256": "9f4a77baf3d322af474176041a43fb21fda6e322832a2fa954b3c6e4665b80f8"
+    },
+    "脚本/wafu_assets/icons/天地无用.webp": {
+      "bytes": 894,
+      "sha256": "89b1b97e9fc9c3f88d9118eb85772dd48fb1b0db1b770b4a88cb6f6d9a634c64"
+    },
+    "脚本/wafu_assets/icons/天师板栗焖菇.webp": {
+      "bytes": 1110,
+      "sha256": "703408c3dd161931e5a166fbec73b9743430cfa2e48d6994cbd31521fffdf183"
+    },
+    "脚本/wafu_assets/icons/天狗踊.webp": {
+      "bytes": 1218,
+      "sha256": "5a862585e45834d6740883cdc32e86d73b92504a3e992c5e407dfd72fe28fb9f"
+    },
+    "脚本/wafu_assets/icons/太极八卦鱼肚.webp": {
+      "bytes": 1352,
+      "sha256": "5de68a945199561c8e7a1279e39108a1d40a4620ab0be04b31822b8a69d64a12"
+    },
+    "脚本/wafu_assets/icons/太空啤酒.webp": {
+      "bytes": 714,
+      "sha256": "0e57361addca986c4e6ef99ce4c51db00cd1df39420a029db36d03291d2c60c8"
+    },
+    "脚本/wafu_assets/icons/奶油.webp": {
+      "bytes": 952,
+      "sha256": "f408904883da9b62357f9bac7f9465157f9242b47dc4a0317574336b3afbd919"
+    },
+    "脚本/wafu_assets/icons/奶油炖菜.webp": {
+      "bytes": 910,
+      "sha256": "13d325ff560b70f4f384c333852833b05520d8be15e0cf0627b743166368b2f7"
+    },
+    "脚本/wafu_assets/icons/奶油焗蟹.webp": {
+      "bytes": 1608,
+      "sha256": "abd96fce09aa8c7a82246aeec9f202016b427cef29dc12833607be447a5ba63e"
+    },
+    "脚本/wafu_assets/icons/奶香蘑菇汤.webp": {
+      "bytes": 1160,
+      "sha256": "a8699a35e0f5f7c147ad91c584abe1321e8d44a20f88417925b97172d53b66be"
+    },
+    "脚本/wafu_assets/icons/妖精雨露.webp": {
+      "bytes": 1100,
+      "sha256": "e7d18dc3e27843465acb2ff860c4e822e8cdbab853469c39cc957833c5dfd3be"
+    },
+    "脚本/wafu_assets/icons/小小的甜蜜「毒药」.webp": {
+      "bytes": 1344,
+      "sha256": "bfcbbbf586a08f08bccca34e92a44c8ff4dc9a891e5a60a3f573bcdd3cfcf54b"
+    },
+    "脚本/wafu_assets/icons/尼格罗尼.webp": {
+      "bytes": 954,
+      "sha256": "1946670dada4f3e715ef60264ce8a2456d9f1dc25692873f56a4c8872bbe329a"
+    },
+    "脚本/wafu_assets/icons/岩浆.webp": {
+      "bytes": 1114,
+      "sha256": "e0f5bd7d1402ac1f9769341280acbb8e09c047e30a88190e8ec8f8b57eafceea"
+    },
+    "脚本/wafu_assets/icons/巨人玉子烧.webp": {
+      "bytes": 948,
+      "sha256": "31a8e720591de6eed04501604398943a464d6f10152b5edf1876d97b3caeb6f7"
+    },
+    "脚本/wafu_assets/icons/并蒂莲.webp": {
+      "bytes": 1290,
+      "sha256": "b9de65f3d3702a67650edf0081d2ca26e800590d919107ce624a7b6fe274b2b4"
+    },
+    "脚本/wafu_assets/icons/幻想佛跳墙.webp": {
+      "bytes": 1146,
+      "sha256": "785251e1e42a88a1d82376122dc5aff5a2b5a07ad4982b7f6a1d763ff215c676"
+    },
+    "脚本/wafu_assets/icons/幻想星莲船.webp": {
+      "bytes": 1382,
+      "sha256": "216756fcaaca27861a3c939bfbcc6a67a976bf08e0e5eb59df020f8b9777d9ca"
+    },
+    "脚本/wafu_assets/icons/幻想风靡.webp": {
+      "bytes": 1138,
+      "sha256": "d78f957b13514ef77c13266f203bb0e1009698822a9d1d0a523507d1857598e3"
+    },
+    "脚本/wafu_assets/icons/幻昙华.webp": {
+      "bytes": 1170,
+      "sha256": "0ac90210557c3d155444e125c5af3ffbb6250be027558d0e98b677d68c8fd86e"
+    },
+    "脚本/wafu_assets/icons/幻昙花糕.webp": {
+      "bytes": 1070,
+      "sha256": "3f6f8df865a973a5c8c6f96aff7cc8eb1ca38176f52adc4ba670d5a55048c21b"
+    },
+    "脚本/wafu_assets/icons/幽梦.webp": {
+      "bytes": 1242,
+      "sha256": "f94952c073765ca2befd1e625fa471b20deb8cf8bb3fb53b2573b45d1ea7c8bf"
+    },
+    "脚本/wafu_assets/icons/强效辣椒素.webp": {
+      "bytes": 860,
+      "sha256": "50e747f13636acdb13b9d55e9728ae1d31b4bab2c9bf281b913868aa742a2d87"
+    },
+    "脚本/wafu_assets/icons/惊吓！大冒险.webp": {
+      "bytes": 1252,
+      "sha256": "9860df771294ce4104d6c7edcfe38d641bf3254d343ff88ef8839c743e54b35b"
+    },
+    "脚本/wafu_assets/icons/惠灵顿牛排.webp": {
+      "bytes": 1236,
+      "sha256": "e2bff2185fb4607661833f05114508f6b1309e6c450dc39c2fafeda0c9eadbe1"
+    },
+    "脚本/wafu_assets/icons/意式烩饭.webp": {
+      "bytes": 1056,
+      "sha256": "edcfec09df553a1ecd722941f11ccb78fa1509133acc81fe694d87f29f9cb46c"
+    },
+    "脚本/wafu_assets/icons/拔丝地瓜.webp": {
+      "bytes": 1182,
+      "sha256": "bce1c9195ecd2837ac55fd394fc331827aa2a465016995fa0703bb3cf534a4bb"
+    },
+    "脚本/wafu_assets/icons/拟尻子玉.webp": {
+      "bytes": 852,
+      "sha256": "598f4dad060a6d3b7b34d839cc5c4f06833ce59c9ada92ddc128f8dee5583e3c"
+    },
+    "脚本/wafu_assets/icons/提神布丁.webp": {
+      "bytes": 1046,
+      "sha256": "05751a71fddfba7b5d42596f8efdb04ff41d8bff8df52fe966c58a95e373ea06"
+    },
+    "脚本/wafu_assets/icons/教父.webp": {
+      "bytes": 978,
+      "sha256": "3a8f225caa78b98c0fa5cce2f4d41ef80f0abc6db3014093b426b0d62fc80065"
+    },
+    "脚本/wafu_assets/icons/无意识妖怪慕斯.webp": {
+      "bytes": 1106,
+      "sha256": "c29d94b635038b85aafcd343a736f097c6ecd013542ee736cfcb1ee383357999"
+    },
+    "脚本/wafu_assets/icons/日月星.webp": {
+      "bytes": 554,
+      "sha256": "ac83ad49cddc92cd16caca0f873479a0807f9ae271be3a749bf274e8414d8178"
+    },
+    "脚本/wafu_assets/icons/晓.webp": {
+      "bytes": 916,
+      "sha256": "5c350896133a7c902a75e118c0e4912bceed8bdc8cff52352bd0a903f718999a"
+    },
+    "脚本/wafu_assets/icons/普通健身茶.webp": {
+      "bytes": 920,
+      "sha256": "91839e3e35302c8fe8863dc94dcaeadcbba9c278788b1912f0966f39b99b3284"
+    },
+    "脚本/wafu_assets/icons/普通小蛋糕.webp": {
+      "bytes": 1052,
+      "sha256": "113758472f52eb2c7f95b836a9e2fd6492efb643d09c8362fa5aa9908610c3eb"
+    },
+    "脚本/wafu_assets/icons/月之恋人.webp": {
+      "bytes": 990,
+      "sha256": "13a90399ec0dfb02848a723bae52c98f3a8813734d87445011f3158fa8a1fb1b"
+    },
+    "脚本/wafu_assets/icons/月光团子.webp": {
+      "bytes": 1158,
+      "sha256": "752fa7f0b15ad858ad93d762ef14207b9379316c49d3bb5fa8e620dbdc6d7f8b"
+    },
+    "脚本/wafu_assets/icons/月光草.webp": {
+      "bytes": 1384,
+      "sha256": "c33992072a1c2b4e10b68e5835b95ed0aefb34c2b2a8257230607496f2d6656a"
+    },
+    "脚本/wafu_assets/icons/月面火箭.webp": {
+      "bytes": 946,
+      "sha256": "6e7c10f64abe9dd3cfc18cf941a43ca7898648fac18915817f7bb41f24cd65f8"
+    },
+    "脚本/wafu_assets/icons/月饼.webp": {
+      "bytes": 668,
+      "sha256": "79575c9d91980cd77ddec7dac8cc08f526eebd7109611403c04c551717113b6e"
+    },
+    "脚本/wafu_assets/icons/杂炊.webp": {
+      "bytes": 830,
+      "sha256": "e778a68d82c6573be607e4585b990df7b44251bde93f7ffbdcb64085508ce3f3"
+    },
+    "脚本/wafu_assets/icons/杨枝甘露.webp": {
+      "bytes": 1142,
+      "sha256": "65b2227446152be6151502c5121b6013d8c660e24b3579f12181962ae4fe20d9"
+    },
+    "脚本/wafu_assets/icons/松子.webp": {
+      "bytes": 1214,
+      "sha256": "e6a649bcac9f2f72b0873998f7afc0491341a879d98639dffeacbe5b10986b76"
+    },
+    "脚本/wafu_assets/icons/松子糕.webp": {
+      "bytes": 1028,
+      "sha256": "60f970d31dc2db962927180721738870ca9f344254ac9684f81677f2c1ffcf4a"
+    },
+    "脚本/wafu_assets/icons/松露.webp": {
+      "bytes": 1260,
+      "sha256": "081f88a63954a53b383fd16873d2ace28d732106a06a0545d1a28e9c181bdabc"
+    },
+    "脚本/wafu_assets/icons/板栗.webp": {
+      "bytes": 966,
+      "sha256": "3de72544a6e7d612df976106440d348b02267a439ab9de5559565851ee02581e"
+    },
+    "脚本/wafu_assets/icons/极上金枪鱼.webp": {
+      "bytes": 1176,
+      "sha256": "03737f5fdf8cfd3eefc2e4fb1d14fc8bbc44c4d0a2c1e8e2a80e20635899ce97"
+    },
+    "脚本/wafu_assets/icons/果味High Ball.webp": {
+      "bytes": 924,
+      "sha256": "dad221171d72f4a0df8adc2f51f4f8af7ae0c94b340e10587eb53f5e399e2d99"
+    },
+    "脚本/wafu_assets/icons/果味SOUR.webp": {
+      "bytes": 934,
+      "sha256": "0ff75096ff187c8bb7b5fe39755db956b6be5989f23e9e6a6ab601c79b05e762"
+    },
+    "脚本/wafu_assets/icons/柠檬.webp": {
+      "bytes": 1024,
+      "sha256": "36143d84dfbbab6591cd85e51922b593df84a7e5540421c8dfbaa327adbcd3d4"
+    },
+    "脚本/wafu_assets/icons/桃子.webp": {
+      "bytes": 878,
+      "sha256": "0ade52f961969cb4138521454b01da39e742f1fc1df4659bf1ab8e6ca351c761"
+    },
+    "脚本/wafu_assets/icons/桃花琉璃卷.webp": {
+      "bytes": 1010,
+      "sha256": "f6157bd4b1945b341f5a1bddd254ee8cb76671ab74f82790b899e49d97e1c4eb"
+    },
+    "脚本/wafu_assets/icons/桃花羹.webp": {
+      "bytes": 1222,
+      "sha256": "ebff2702249965b14b725f1edd6127b5b57b6bf6ea67d620c8b16f5da760c75d"
+    },
+    "脚本/wafu_assets/icons/梅子.webp": {
+      "bytes": 888,
+      "sha256": "9b842daa94f1fc6371f0d900e932b7c359236ffdfb7eaa3e117f1475e762b21e"
+    },
+    "脚本/wafu_assets/icons/梅子茶泡饭.webp": {
+      "bytes": 942,
+      "sha256": "73e5761d203685bcabf2764bed26ede617df64eb72c44cfbd2a579c77e7a151f"
+    },
+    "脚本/wafu_assets/icons/梅酒.webp": {
+      "bytes": 938,
+      "sha256": "d98d4b288c24a677cfeb919ca21cc0bee31d4a0eef93ad82e8fa1256dc164419"
+    },
+    "脚本/wafu_assets/icons/樱花布丁.webp": {
+      "bytes": 1232,
+      "sha256": "cf4704f4ecb3f26322d88a37a2d2304df4bb004d7fbd3ddd0b38a5d36cb41f3d"
+    },
+    "脚本/wafu_assets/icons/樱落雪.webp": {
+      "bytes": 1048,
+      "sha256": "7cb4bcb1452b406997378b7b7b2ea7096f1090a1417c8c5ab787b758eb4200dd"
+    },
+    "脚本/wafu_assets/icons/毒瘴花园.webp": {
+      "bytes": 1032,
+      "sha256": "61b9a99a30c8899b8789d2b23f31891c092546a9a374a2d178a01c2b2d3dd876"
+    },
+    "脚本/wafu_assets/icons/比斯开湾饼干.webp": {
+      "bytes": 944,
+      "sha256": "ace1c1084fffdcd4219bf527fbc6f095e1e6291e2e726ddc49a72dbdeaaba342"
+    },
+    "脚本/wafu_assets/icons/毛玉三色冰激凌.webp": {
+      "bytes": 922,
+      "sha256": "d5948b904c0d04409a0c2e4969e510fc68df8bc3ad9b0d4ecd8e59bbc8b841be"
+    },
+    "脚本/wafu_assets/icons/毛玉熔岩豆腐.webp": {
+      "bytes": 1036,
+      "sha256": "3169cdc06f220b02402c6c7b948f4aae3c1d9cb4e9c538d5b840a0ed52fe29ef"
+    },
+    "脚本/wafu_assets/icons/气保健.webp": {
+      "bytes": 664,
+      "sha256": "323f8030ea716fd77653b964db162dcb2d7b5606644f4bb6cbda45c4f7be5481"
+    },
+    "脚本/wafu_assets/icons/水煮鱼.webp": {
+      "bytes": 884,
+      "sha256": "fe2981e0da9eb026e415c338c53951402fad94d7183c20e7a05443a0893908b8"
+    },
+    "脚本/wafu_assets/icons/水獭祭.webp": {
+      "bytes": 1198,
+      "sha256": "381beddb64971ff0058f0ae3fbe655659fc996a090fec36337cebf2c96d4e793"
+    },
+    "脚本/wafu_assets/icons/水饺.webp": {
+      "bytes": 956,
+      "sha256": "c3973aa593ceb0e1249d597cfd95186dda107d060c01fe02d056cd58b31e616c"
+    },
+    "脚本/wafu_assets/icons/汉宫藏娇.webp": {
+      "bytes": 1344,
+      "sha256": "58071a7d763c1147481f2993af7125006495c799516a24b6781da5e9e5f26de8"
+    },
+    "脚本/wafu_assets/icons/汤圆.webp": {
+      "bytes": 896,
+      "sha256": "c3dd4fd3fa3531f68c838371a4a19bdbfd2bed8e553160ff36538f413edbdd4e"
+    },
+    "脚本/wafu_assets/icons/河豚.webp": {
+      "bytes": 1266,
+      "sha256": "06d4da5127356bc2143c8ef3d74af540d69f6026a46f72dee01b46573c35ff7a"
+    },
+    "脚本/wafu_assets/icons/油豆腐.webp": {
+      "bytes": 978,
+      "sha256": "37f74395b707685c68bc4cda74b6b7e0213532d68762dea3419e05e1494a02d2"
+    },
+    "脚本/wafu_assets/icons/波子汽水.webp": {
+      "bytes": 788,
+      "sha256": "fc3444c6358ce0f71c83dcc21120b86ea1f412d9245944b7563b6e191177870a"
+    },
+    "脚本/wafu_assets/icons/洋葱.webp": {
+      "bytes": 804,
+      "sha256": "f636f2999a69aa71c4a61e04cf242e23d939b0481e6cd9668a6cb671fac05f53"
+    },
+    "脚本/wafu_assets/icons/流水素面.webp": {
+      "bytes": 1134,
+      "sha256": "50b441eb6677fa75fa41a523ee09b9d307a4823861d94fbe419f9fb218342ed9"
+    },
+    "脚本/wafu_assets/icons/海的女儿.webp": {
+      "bytes": 928,
+      "sha256": "bb2968ffec62649517a5c29516a52c2a8d9ab088d3a4146b4c4cfca6340b0b51"
+    },
+    "脚本/wafu_assets/icons/海盗熏肉.webp": {
+      "bytes": 768,
+      "sha256": "64177dacb1df0f595e5733457a90a104c3735e96695b6d33b7362e16c6655163"
+    },
+    "脚本/wafu_assets/icons/海胆.webp": {
+      "bytes": 1304,
+      "sha256": "bfd78e6e9123526fe88ceaadf0f587e2ff927844792bf32e40f287d0ecd009ee"
+    },
+    "脚本/wafu_assets/icons/海胆信玄饼.webp": {
+      "bytes": 1044,
+      "sha256": "beb256ccd53ea315dd4d7c59cacd76213aa58ab2f51578b98cc8d06625cf46d9"
+    },
+    "脚本/wafu_assets/icons/海胆刺身.webp": {
+      "bytes": 1202,
+      "sha256": "012f88b63ee119647938c495770d755fa3034c14da3dee1477bedb0b24bed44e"
+    },
+    "脚本/wafu_assets/icons/海胆蒸蛋.webp": {
+      "bytes": 1066,
+      "sha256": "1f899d4aefaa54cba383a56bd20dc963cb08d089f132ecaad519997bf53db9ff"
+    },
+    "脚本/wafu_assets/icons/海苔.webp": {
+      "bytes": 912,
+      "sha256": "e8a77a922ad979f4c1c958391bf8638cfc75ce1a93aa50b153ff28677b464b54"
+    },
+    "脚本/wafu_assets/icons/海鲜味噌汤.webp": {
+      "bytes": 948,
+      "sha256": "c2fed2cd92d7fa259b5f7bd134aaff05d97fd20deb63a26cc1bdfd7c7d7dcd5c"
+    },
+    "脚本/wafu_assets/icons/淇.webp": {
+      "bytes": 1008,
+      "sha256": "61132535fc01d0a4806235becb984ad87c2397eb152188b93128faa0efe7d415"
+    },
+    "脚本/wafu_assets/icons/温暖饭团.webp": {
+      "bytes": 1010,
+      "sha256": "d806fe3bd83ad1ffa7c7a7f234241651b5fb36e96312a66fd56087888a9bf26c"
+    },
+    "脚本/wafu_assets/icons/火星.webp": {
+      "bytes": 1036,
+      "sha256": "924106db1767b2347acaeee1dfd6e09b559f08f57f160d35a2b38cd90ca9777b"
+    },
+    "脚本/wafu_assets/icons/火鼠裘.webp": {
+      "bytes": 974,
+      "sha256": "b6d3d4d8c01eab97c711b702e185828ac02aaad871cd314d1f521b6f219e6f82"
+    },
+    "脚本/wafu_assets/icons/炒肉丝.webp": {
+      "bytes": 1032,
+      "sha256": "0c38873e6fc7d0c19d3491598c4bbc61f997cb2a7ae436e00f0966d69231eb08"
+    },
+    "脚本/wafu_assets/icons/炙猪肉饭团.webp": {
+      "bytes": 976,
+      "sha256": "bf17ee63051fbc4bbeb75180790cbf844f31d3142535f5e70256a5bd04d779f0"
+    },
+    "脚本/wafu_assets/icons/炸八目鳗.webp": {
+      "bytes": 990,
+      "sha256": "5ed9ede85f89e0d382ee79b7210bcf44d1d5c502dcae0979ae65d63e99d233f5"
+    },
+    "脚本/wafu_assets/icons/炸猪肉排.webp": {
+      "bytes": 1002,
+      "sha256": "2876232fea9fd0d3e06d0b6d7d2a707847fb8c21bcff74b166f4fdb2c3ee44c1"
+    },
+    "脚本/wafu_assets/icons/炸番茄条.webp": {
+      "bytes": 1072,
+      "sha256": "f40c38403f3a9d7dd8a3e4494615a222b29c62b08b2ebec84b118340b5f8d627"
+    },
+    "脚本/wafu_assets/icons/炸虾天妇罗.webp": {
+      "bytes": 1104,
+      "sha256": "3d053265fb6b3f6b6ba0ef6020f68ebbc3f3e43475c753736f5dcf307ab45912"
+    },
+    "脚本/wafu_assets/icons/烤八目鳗.webp": {
+      "bytes": 1082,
+      "sha256": "70da362d0759c52e5539f9970be9cbfcd0e69d3213b6e8c73b20b4d8ec37c9d9"
+    },
+    "脚本/wafu_assets/icons/烤地瓜.webp": {
+      "bytes": 1020,
+      "sha256": "661f8cd8658bf25e611bfe79a69fcddc20b7b653c523f776c75a508f317a4976"
+    },
+    "脚本/wafu_assets/icons/烤蘑菇.webp": {
+      "bytes": 1052,
+      "sha256": "824885cae0388e9bb870f3ed25e696b527512e0d8d084758f72a898577bed0bf"
+    },
+    "脚本/wafu_assets/icons/热松饼.webp": {
+      "bytes": 1002,
+      "sha256": "76ea96161eac4463cc7f80c37e43de07a2cff04d62bce442a9e7769da11bf8b7"
+    },
+    "脚本/wafu_assets/icons/煮豆腐.webp": {
+      "bytes": 952,
+      "sha256": "dfd1510785ed950a344ad434a74244fd9608cd3a72f5d9fec658406b36799100"
+    },
+    "脚本/wafu_assets/icons/燃尽布丁.webp": {
+      "bytes": 1096,
+      "sha256": "7c0b2c9c1e4b14d917fe1bbdc7003c3376287ecb66978cbb7f0a09e1e1b1622e"
+    },
+    "脚本/wafu_assets/icons/牛奶.webp": {
+      "bytes": 968,
+      "sha256": "88221875de539d80667ef7a1c5cfc7867e96247a4ddf3d8bbbf6204d0463bc1d"
+    },
+    "脚本/wafu_assets/icons/牛肉.webp": {
+      "bytes": 924,
+      "sha256": "5a92f10e53b9e1cf9851581aefa93d3c80519094e9789a8c676a4a329dd4bd2a"
+    },
+    "脚本/wafu_assets/icons/牛肉盖浇饭.webp": {
+      "bytes": 1124,
+      "sha256": "4b9b779a481cba6ee334e42b3e59d3ad89223f07bfeef158744735f4ab3abf1b"
+    },
+    "脚本/wafu_assets/icons/牛肉鸳鸯火锅.webp": {
+      "bytes": 1172,
+      "sha256": "9b1db1223cdd06d1e591378c7afae299de38e17a88952a647fc0e3de302070e5"
+    },
+    "脚本/wafu_assets/icons/狮子头.webp": {
+      "bytes": 1350,
+      "sha256": "c998e2be407dcd05518bbf9530a96585594ba65a568655fa7969a63601da77b3"
+    },
+    "脚本/wafu_assets/icons/猩红恶魔.webp": {
+      "bytes": 978,
+      "sha256": "3c95a8135cdd9ee403d082d1f230e48653c80aed30407dca0e932dc91a21b667"
+    },
+    "脚本/wafu_assets/icons/猩红恶魔蛋糕.webp": {
+      "bytes": 1068,
+      "sha256": "b96e2274c02578a7880deac11cde797d2118885316681b1011bb5de4f80e83b9"
+    },
+    "脚本/wafu_assets/icons/猪肉.webp": {
+      "bytes": 850,
+      "sha256": "57a15886889f121282f387bd230be748725a7554753bf0b5e5ac87199f56eeee"
+    },
+    "脚本/wafu_assets/icons/猪肉盖浇饭.webp": {
+      "bytes": 1088,
+      "sha256": "13d76821b6373f2fb88867786da86777b83a92f551725456e0e69cddd118015c"
+    },
+    "脚本/wafu_assets/icons/猪肉鳟鱼熏.webp": {
+      "bytes": 1006,
+      "sha256": "13f9bb23e5c4a88668918c5bfade7cfd9ad093ce7d182e7e71b8387c5ecbb1fd"
+    },
+    "脚本/wafu_assets/icons/猪鹿蝶.webp": {
+      "bytes": 1158,
+      "sha256": "fed795bda8f2a1d76196147ebba32247193c24ec7ca538f0d75ee717d0b686f7"
+    },
+    "脚本/wafu_assets/icons/猫咪可露丽.webp": {
+      "bytes": 1064,
+      "sha256": "61a120e4f609fb061b4b2e7f5d956f39b3dcfa15e2756c4cc981392d97a9627a"
+    },
+    "脚本/wafu_assets/icons/猫咪戏水.webp": {
+      "bytes": 1272,
+      "sha256": "ab549ca94346bd0b0e7fc04b07451198d08cf1b033dd82185deeb4b2034c0939"
+    },
+    "脚本/wafu_assets/icons/猫咪披萨.webp": {
+      "bytes": 1050,
+      "sha256": "1d4b4bd846ee42107dd0b1a042396ce1ef16f19b65e5e8335478bbe0b3fc3b4a"
+    },
+    "脚本/wafu_assets/icons/猫饭.webp": {
+      "bytes": 946,
+      "sha256": "f0c8e722f3a4bb261a10d74c2f394bc3707e07ef436060ba4c08aaac74729282"
+    },
+    "脚本/wafu_assets/icons/玉露茶.webp": {
+      "bytes": 1226,
+      "sha256": "95d2d7ad1393e6807ebc363e0dbe79fbcb8505a4d3f19eaf31d564f66e3c494e"
+    },
+    "脚本/wafu_assets/icons/班尼迪克蛋.webp": {
+      "bytes": 1034,
+      "sha256": "75db6269ec814314d36bb50d545b9ff394752eea4ca8bd81f5c9313ffa052729"
+    },
+    "脚本/wafu_assets/icons/生命之源.webp": {
+      "bytes": 1194,
+      "sha256": "a7760cd4c6324dcc59cf305f3399e65f904c0e92b6adf99657ff6f00c2cfedf4"
+    },
+    "脚本/wafu_assets/icons/疯帽子茶会.webp": {
+      "bytes": 1274,
+      "sha256": "0c327442b6fd706285be0a0d69b0a4278cf19069862fa83edbb901f13d2de1bf"
+    },
+    "脚本/wafu_assets/icons/瘦马团子.webp": {
+      "bytes": 984,
+      "sha256": "0e98a40c750ad9b971b66bd5def4a18934193ebfbee0ef836b483cbfea2536c9"
+    },
+    "脚本/wafu_assets/icons/白果.webp": {
+      "bytes": 926,
+      "sha256": "c5ecdf32c2637988ab77eb6af60c976d01e8482947c0f04c1397a2f4baac268e"
+    },
+    "脚本/wafu_assets/icons/白果萝卜排骨汤.webp": {
+      "bytes": 1040,
+      "sha256": "297fe9f493c157c734e404a28798960789f840f4f746c725384e1af7a552d917"
+    },
+    "脚本/wafu_assets/icons/白桃生八桥.webp": {
+      "bytes": 970,
+      "sha256": "45b26a567e67d5714cd2905022eb95aaa43f954ff903fc5cb869801d45c123b8"
+    },
+    "脚本/wafu_assets/icons/白雪.webp": {
+      "bytes": 1056,
+      "sha256": "c3fe91965a9dc34e79da0898777c90dbd8b67f3506ed09c4c2675a68e616c814"
+    },
+    "脚本/wafu_assets/icons/白鹿贞松.webp": {
+      "bytes": 1280,
+      "sha256": "ba2f9917baf10efdb3b0a6d0f8753cd13383531cbd2cdc220925b330604c111f"
+    },
+    "脚本/wafu_assets/icons/真·海鲜味噌汤.webp": {
+      "bytes": 946,
+      "sha256": "949ad90a754d050f58d72102f818099ba5fb23f4f3e7ac91605624864be9932b"
+    },
+    "脚本/wafu_assets/icons/石锅竹笋炖肉.webp": {
+      "bytes": 918,
+      "sha256": "624a16bfa502e465515c4cbd671935ff637a889e17192588966e21d9cf217c10"
+    },
+    "脚本/wafu_assets/icons/神之麦.webp": {
+      "bytes": 1092,
+      "sha256": "d446b7d36f381ecbc759efd93417c0c8c1e1bcba06725169803959255f624d5b"
+    },
+    "脚本/wafu_assets/icons/秘制小鱼干.webp": {
+      "bytes": 970,
+      "sha256": "6df1eb23c347aed17267c2ae7cfbac5034fb4ab290fa48d0f5aa8b570bd10483"
+    },
+    "脚本/wafu_assets/icons/秘制鲜菌煲.webp": {
+      "bytes": 886,
+      "sha256": "87879c9d6624b6ac3b5a53c19cb98ba2ebd6ec3b98cc5984b6e97d37b688b81a"
+    },
+    "脚本/wafu_assets/icons/章鱼.webp": {
+      "bytes": 1000,
+      "sha256": "2329775ea82560f450cb1fe5ce5a4822fc0ef3d6eebe8a340a09e3f1b1fecae9"
+    },
+    "脚本/wafu_assets/icons/章鱼烧.webp": {
+      "bytes": 1106,
+      "sha256": "19968eed7064b716a3ae00d13ea1010d082e61d725b4313a51dc894a4fbdeb2e"
+    },
+    "脚本/wafu_assets/icons/竹取姬.webp": {
+      "bytes": 1328,
+      "sha256": "3b574aa5cf6bf7cc9ca21e84fa375d76c7445b8eea447aebe22f4edbe6a57dff"
+    },
+    "脚本/wafu_assets/icons/竹子.webp": {
+      "bytes": 1248,
+      "sha256": "dbd3804ac67bf99cab28aae53999d14fad04b74d389c7b2776f5380578357a1f"
+    },
+    "脚本/wafu_assets/icons/竹笋.webp": {
+      "bytes": 1044,
+      "sha256": "e16b0674c77fa2cc89186d0fabe7a3ea634c5e81253e750be02e01aef6c68a60"
+    },
+    "脚本/wafu_assets/icons/竹笋炒肉.webp": {
+      "bytes": 1034,
+      "sha256": "c9e385ee6875ed0c05463955a41bc4abe6d760cea98a4624832bb3763ea24025"
+    },
+    "脚本/wafu_assets/icons/竹筒烧醉虾.webp": {
+      "bytes": 976,
+      "sha256": "0392df6fdfd92329aeec89811d952123763847fae2d2d06dd8e794085bbeb8f4"
+    },
+    "脚本/wafu_assets/icons/竹筒粉蒸肉.webp": {
+      "bytes": 938,
+      "sha256": "d5f677ffa04bcee57787b658ba7d96f589c672d42621f1decc860fe0a5f5eb13"
+    },
+    "脚本/wafu_assets/icons/竹筒蒸蛋.webp": {
+      "bytes": 696,
+      "sha256": "2e4644ec53a1cf6c36ff19139109505bfc9ccde794975eccb7168d35af6fb50b"
+    },
+    "脚本/wafu_assets/icons/糯米.webp": {
+      "bytes": 868,
+      "sha256": "fbc4f0354b01c6a51dbd50b06b7a1058f15b88d3759ed437eb324a675ac8a9fc"
+    },
+    "脚本/wafu_assets/icons/红柚果汁.webp": {
+      "bytes": 910,
+      "sha256": "e545bf5504e2b26ea497e56c2928ce09dfac26b3907245e8c25d46747b03640e"
+    },
+    "脚本/wafu_assets/icons/红烧鳗鱼.webp": {
+      "bytes": 844,
+      "sha256": "aac2b4bb4d7b23204ffc77aa6445176dee467a0c0d42f85dfec56bf445e72f23"
+    },
+    "脚本/wafu_assets/icons/红豆.webp": {
+      "bytes": 900,
+      "sha256": "b83804295efad3b585ca88a954b336860d0f50016af33eb6463a62e3193a7ec0"
+    },
+    "脚本/wafu_assets/icons/红豆大福.webp": {
+      "bytes": 986,
+      "sha256": "aa48d07d6ebe8dc6877207bbe6229da713be2c89f0919187fd9599297d9a49eb"
+    },
+    "脚本/wafu_assets/icons/红雾.webp": {
+      "bytes": 1054,
+      "sha256": "3559a96453680f2190f92aef632b84f21c4c9057cce5d652493ad2626014215e"
+    },
+    "脚本/wafu_assets/icons/红魔馆红茶.webp": {
+      "bytes": 970,
+      "sha256": "f20fe768bf2adc023b0fc90336fd5cb70fdbd083cb90b730af7b266e7118a602"
+    },
+    "脚本/wafu_assets/icons/绝叫关东煮.webp": {
+      "bytes": 1004,
+      "sha256": "0d6ba5afb0ffc62bacefa06ae572b5a0cccf58c6ad6bede7cdb6ae2f3f8d042a"
+    },
+    "脚本/wafu_assets/icons/绿茶.webp": {
+      "bytes": 806,
+      "sha256": "6f111e0cfe61cadb00de4270f71c217c5275e1975334317551f4efe595cc3841"
+    },
+    "脚本/wafu_assets/icons/绿野仙菇.webp": {
+      "bytes": 1044,
+      "sha256": "9e8471c53ff80a0061373b129d4280661d781c5d7f8b5112303f1c59116a49e7"
+    },
+    "脚本/wafu_assets/icons/罗汉上素.webp": {
+      "bytes": 1304,
+      "sha256": "01eac13fb07bcf0d29b325e2275f69c0519354340cdaa3143035925ae8cc9cf4"
+    },
+    "脚本/wafu_assets/icons/翠竹迎春.webp": {
+      "bytes": 1020,
+      "sha256": "82f17d087fa1116e6e5572b6cd44c79173109bd9cdab7ef42a18597dce4f7477"
+    },
+    "脚本/wafu_assets/icons/胡辣汤.webp": {
+      "bytes": 1016,
+      "sha256": "64da33d62726a643e88ceff44ffbc57faeef7407b4bdd3794c36b4adf72f3085"
+    },
+    "脚本/wafu_assets/icons/能量串.webp": {
+      "bytes": 1050,
+      "sha256": "9a0f9488bc02e8b3e9de30d06f9531ba1ce7f79d1674bbee027d11900aad2931"
+    },
+    "脚本/wafu_assets/icons/脆旋风.webp": {
+      "bytes": 1072,
+      "sha256": "cb50e86dda26d151bce3c8ecfb76917107d6d908774e45d07da8bb7af8e1d00e"
+    },
+    "脚本/wafu_assets/icons/腌黄瓜.webp": {
+      "bytes": 1144,
+      "sha256": "1df729e52eb041e91563c23d9d956a2d4b513e07a45f2948de23c5a04b4818e3"
+    },
+    "脚本/wafu_assets/icons/臭豆腐.webp": {
+      "bytes": 938,
+      "sha256": "b97116598a0a20efaa0f77c7963361b02379e9a3b0b2f15321cbc2880ff8d40b"
+    },
+    "脚本/wafu_assets/icons/至尊海鲜面.webp": {
+      "bytes": 1130,
+      "sha256": "f18a25f0bcd02c2edce1746b3acc8373d7556d315cd1970c5cd8bbb3896b0337"
+    },
+    "脚本/wafu_assets/icons/芝士.webp": {
+      "bytes": 818,
+      "sha256": "0dd39dc51a59de7da7f0ebf17bf2e5ce1cbca52e0c6fcbd736dbf478e1a2dd11"
+    },
+    "脚本/wafu_assets/icons/芝士蛋.webp": {
+      "bytes": 834,
+      "sha256": "a1140f8928e3c571db21bb030bae1300d7551ee401f83be36d98e38b78a2afd5"
+    },
+    "脚本/wafu_assets/icons/花鸟风月.webp": {
+      "bytes": 1248,
+      "sha256": "c9d39ada391e895f28ab2bc9ba535555426c5aea39c91c849da12d0c6c72b514"
+    },
+    "脚本/wafu_assets/icons/荷塘月色.webp": {
+      "bytes": 1112,
+      "sha256": "567400cddc7b13e2fa1f51aa4b798b4d6d39cf89453322147a0420cff72a9326"
+    },
+    "脚本/wafu_assets/icons/荷花鱼米盏.webp": {
+      "bytes": 1170,
+      "sha256": "ada9a91ece3171dd87ad83b5fc8097ad7e1b6ea6275099858a972fb209ac1e9a"
+    },
+    "脚本/wafu_assets/icons/莫吉托爆浆球.webp": {
+      "bytes": 968,
+      "sha256": "233dadd661dc594dbda22fd3925aeadcd86e2c436f25d4535ca017640f3ac13d"
+    },
+    "脚本/wafu_assets/icons/莲子.webp": {
+      "bytes": 960,
+      "sha256": "d5ac62ebaff4549f38fcc0d2d8e189d58f434ea67305520c7bb1fddfb6ff4088"
+    },
+    "脚本/wafu_assets/icons/萝卜.webp": {
+      "bytes": 858,
+      "sha256": "82440093d1e20a178664bd6ed89c1920352266a81b069f8076fff67d2a8c8388"
+    },
+    "脚本/wafu_assets/icons/葡萄.webp": {
+      "bytes": 716,
+      "sha256": "858ced3ac48e01bbf10bdf95aa827c3e66545105445066f544d289dfd2068e29"
+    },
+    "脚本/wafu_assets/icons/蓬莱玉枝.webp": {
+      "bytes": 1532,
+      "sha256": "764cc112137b0eae8a9abf5ed5c8b84ac9eec05666b5dcb7fab38cd86979e3e2"
+    },
+    "脚本/wafu_assets/icons/蔬菜专辑.webp": {
+      "bytes": 1008,
+      "sha256": "75f731586469cb7e770f2ce162361cdad8652f406b7b7299ff0891ad8a8a67d5"
+    },
+    "脚本/wafu_assets/icons/薜荔.webp": {
+      "bytes": 948,
+      "sha256": "ce75110dc91d60928e9109badcfbeeea40fa21cf6b9bfefb0b47027a62944d37"
+    },
+    "脚本/wafu_assets/icons/蘑女的舞踏烩.webp": {
+      "bytes": 1080,
+      "sha256": "77efad258a750e0a67f1fb9ba171eb72b791c5f87f42234d890001215323aba5"
+    },
+    "脚本/wafu_assets/icons/蘑菇.webp": {
+      "bytes": 1172,
+      "sha256": "7070273eb30f18739d766c84f73a1e910efd7cdf74d4b18a09de7d72fc28dfaf"
+    },
+    "脚本/wafu_assets/icons/蘑菇肉片.webp": {
+      "bytes": 1112,
+      "sha256": "840976e74e29a80215db67355c6c3970b30bc61b517546da268f77ae6cdc6fd5"
+    },
+    "脚本/wafu_assets/icons/虾.webp": {
+      "bytes": 1098,
+      "sha256": "0fdd261aa176bedc86cb87ce1f2fd947bd248667e0d00eb93999ecbeed4bfc41"
+    },
+    "脚本/wafu_assets/icons/蜂蜜.webp": {
+      "bytes": 870,
+      "sha256": "1e4bb3b72ee31ee5d14aec804d59afd50b95c7ebd18465e61dfdd4d1fdd25180"
+    },
+    "脚本/wafu_assets/icons/蜜桃红烧肉.webp": {
+      "bytes": 994,
+      "sha256": "4b74092fae2dc4a08d4c261aa79957de5dea4fad6752f34941971b74a167061b"
+    },
+    "脚本/wafu_assets/icons/蜜汁叉烧.webp": {
+      "bytes": 1018,
+      "sha256": "fed5b06fd163d51ddc37e795bf143e539f9ec32fe32e2555f6842b965da90356"
+    },
+    "脚本/wafu_assets/icons/蜜饯栗子.webp": {
+      "bytes": 1090,
+      "sha256": "1ad5a7aa2dabe0dab1e35f64d64a094f93a88d36c7b987fcfc2041b8d73e7ab5"
+    },
+    "脚本/wafu_assets/icons/蝉蜕.webp": {
+      "bytes": 1102,
+      "sha256": "bc2ec1521fb61b54965bac5f493659ab4708f7a24938afcf04605efc3df9d91f"
+    },
+    "脚本/wafu_assets/icons/螃蟹.webp": {
+      "bytes": 1002,
+      "sha256": "cbde4fbc7da61d13e79e2d0998be3869b48130c881f49d38430d80b0f70df323"
+    },
+    "脚本/wafu_assets/icons/西红柿.webp": {
+      "bytes": 932,
+      "sha256": "ba53b1d778191781823c83656d4fd6eb72318403e20456e7bbac6df4bd311236"
+    },
+    "脚本/wafu_assets/icons/西蓝花.webp": {
+      "bytes": 946,
+      "sha256": "dc204656d96d2e3fc8ded5f3d45ee5e6e612927c39613e970f1a93f5bab877ee"
+    },
+    "脚本/wafu_assets/icons/诗礼银杏.webp": {
+      "bytes": 1030,
+      "sha256": "b78975f25cfd807684250a623a254934c0ebea348d50b7211548357452ef611f"
+    },
+    "脚本/wafu_assets/icons/豆腐.webp": {
+      "bytes": 780,
+      "sha256": "bd7e6595c619dd76ef9926793f0e4de7be02c41563530e40e2ddcd6292713eaa"
+    },
+    "脚本/wafu_assets/icons/豆腐味噌.webp": {
+      "bytes": 944,
+      "sha256": "ef04e54b7b28d978329b59f6188546d261d8d1d06059c06c56b0d406da0588fd"
+    },
+    "脚本/wafu_assets/icons/豆腐锅.webp": {
+      "bytes": 832,
+      "sha256": "4efcf339d4f86a51870a58c343f8b4fbafe8fce038064431a069ea01bbf9eebe"
+    },
+    "脚本/wafu_assets/icons/豚骨拉面.webp": {
+      "bytes": 1038,
+      "sha256": "fb71eb9ce254c8fa6e8f30a30d8e56c4c09cfcebc2bdd04c69af6095aa20def9"
+    },
+    "脚本/wafu_assets/icons/赛熊掌.webp": {
+      "bytes": 1006,
+      "sha256": "e847b426dcf23b534e3528afef0586452707542d79a99551f155f3e8380956a5"
+    },
+    "脚本/wafu_assets/icons/超ZUN啤酒.webp": {
+      "bytes": 1024,
+      "sha256": "4a501d3e4f377afad029ebe36b34b94cd607f0ea98ea9242ba969fcb121c5356"
+    },
+    "脚本/wafu_assets/icons/辣椒.webp": {
+      "bytes": 894,
+      "sha256": "10d9d6f7a8c9ef86376dcc0845da384454fd49bc960e5c58a6464e86eff7d0c5"
+    },
+    "脚本/wafu_assets/icons/逆转天地！.webp": {
+      "bytes": 1302,
+      "sha256": "b42dc173fca3a5cd411cb070d9848cf087010aebc7508f4437e6bb845b5a25a1"
+    },
+    "脚本/wafu_assets/icons/野味加农.webp": {
+      "bytes": 1100,
+      "sha256": "cbb8bee10b3cfaaf2dffbaea51dd86cc30823a86adfe10d14d8d377cd135ed8e"
+    },
+    "脚本/wafu_assets/icons/野猪肉.webp": {
+      "bytes": 792,
+      "sha256": "117d2972b83e5b513f291fc48e7cf62c605b9ddd2c6db513f3f6d0a5a39da559"
+    },
+    "脚本/wafu_assets/icons/金枪鱼.webp": {
+      "bytes": 804,
+      "sha256": "2a414a7652c268189aa983cb81e8a0f75c1435400eee8329705f08e4612190b8"
+    },
+    "脚本/wafu_assets/icons/铃仙.webp": {
+      "bytes": 934,
+      "sha256": "abb7208a21c83a3c9cc6c3aa6ae97eb3b4e6c7ed5c6dee954d0d270cf7cb3a3e"
+    },
+    "脚本/wafu_assets/icons/铜锣烧.webp": {
+      "bytes": 1070,
+      "sha256": "18e6db4ca9cc04f8aeea55f2ecf5a0d2bc2d8e26573a8e8b739d6d01ffbd339d"
+    },
+    "脚本/wafu_assets/icons/银耳.webp": {
+      "bytes": 1084,
+      "sha256": "fb23b71182aff6a761b82185b87fc8d6ca149c4b1d0f6da5c1fbf81976752577"
+    },
+    "脚本/wafu_assets/icons/长发公主.webp": {
+      "bytes": 1210,
+      "sha256": "28557bf37bfb273e6a811d93806274b6946980a3bd36ee097969755120d8be70"
+    },
+    "脚本/wafu_assets/icons/阴郁水果派.webp": {
+      "bytes": 1090,
+      "sha256": "afac48bfab211826d32e963b2105b5dde048bb89485a259bf0e2078867b2f8e4"
+    },
+    "脚本/wafu_assets/icons/阿芙加朵.webp": {
+      "bytes": 1102,
+      "sha256": "c66163196bf5192b1e6260d93f4fe775ad01cc670bba6a76fa23aa7f85aceaee"
+    },
+    "脚本/wafu_assets/icons/雀酒.webp": {
+      "bytes": 898,
+      "sha256": "547c2670373e50227eb78d09c3e1ee15998abbb9966d1ed5d9d10b5f0e45aa3c"
+    },
+    "脚本/wafu_assets/icons/露水.webp": {
+      "bytes": 942,
+      "sha256": "111682bc44c012ebc9bc1e0d8f089326aede5b219c7b13b6274d683501c33e19"
+    },
+    "脚本/wafu_assets/icons/露水煮蛋.webp": {
+      "bytes": 1000,
+      "sha256": "93acb42a2f35cc82df9608c94a6c911a8f7b4f3d118544f4dd9f8cf495e1d362"
+    },
+    "脚本/wafu_assets/icons/面粉.webp": {
+      "bytes": 1050,
+      "sha256": "e4e2d37586b652a339625e06333e216db7f82ef3c5cdb2c520fedb8f4814bae9"
+    },
+    "脚本/wafu_assets/icons/风祝.webp": {
+      "bytes": 1072,
+      "sha256": "cbf9ce9fd565c46924de4324cf4c6df6bc737d92fd82d176caafca9d3d9f7aa4"
+    },
+    "脚本/wafu_assets/icons/饭团.webp": {
+      "bytes": 982,
+      "sha256": "99b89728b9991aa1d798d97fb3c31477384305c9b828a9beb34914b3e4d66f87"
+    },
+    "脚本/wafu_assets/icons/香椿.webp": {
+      "bytes": 1156,
+      "sha256": "0b72354fe793446d583df72416760efdf61d57de34df30d8561e4da2d91f17eb"
+    },
+    "脚本/wafu_assets/icons/香椿煎饼.webp": {
+      "bytes": 970,
+      "sha256": "1170daac3852a2f2b8ac0116a90f23ca3f6e9f6320aebe0bf8ee3b7c21baa374"
+    },
+    "脚本/wafu_assets/icons/香炸蝉蜕.webp": {
+      "bytes": 996,
+      "sha256": "8212f6b48cecdbea1dcd615b5da500a69d1e2eba31f3c0a8b3cb1a93c55005d4"
+    },
+    "脚本/wafu_assets/icons/香煎三文鱼.webp": {
+      "bytes": 1026,
+      "sha256": "527f64a164bbbd8d205d70c029a425c0a280a11b76c17280453e29fd0e1f889a"
+    },
+    "脚本/wafu_assets/icons/香煎双菇肉卷.webp": {
+      "bytes": 1052,
+      "sha256": "944c55bb1cd82878155e0e4664dae009aff5acb531dcd14f69bea583ef85c5db"
+    },
+    "脚本/wafu_assets/icons/鬼杀.webp": {
+      "bytes": 946,
+      "sha256": "55d811383f99d8c69c84a60b2891cd1a2302f6f3b0e2c21e43a9eb5afef98ad3"
+    },
+    "脚本/wafu_assets/icons/魔界咖啡.webp": {
+      "bytes": 1252,
+      "sha256": "10117f81192c65a4975735269a6726839857db708ef20f69c3192fbaff5955c0"
+    },
+    "脚本/wafu_assets/icons/鱼跃龙门.webp": {
+      "bytes": 1168,
+      "sha256": "813a0b950fc6c544e5544408d24aebdefc6be15eaec55d8d75ea7f3b6e279c96"
+    },
+    "脚本/wafu_assets/icons/鲜花.webp": {
+      "bytes": 1020,
+      "sha256": "59ca0baf8a2ee9e71e40c164d4d455152fb32e907d16a619eb78d5636e2a14d5"
+    },
+    "脚本/wafu_assets/icons/鳗鱼嫩蛋丼.webp": {
+      "bytes": 1068,
+      "sha256": "5f346e60ed213d49ccd21f848b0b10e13f2bef3315077ec496a6051b5d28e841"
+    },
+    "脚本/wafu_assets/icons/鳟鱼.webp": {
+      "bytes": 916,
+      "sha256": "f86ac7ac1cb3f176bc6d8214741c20c43b1d60e541b8f66d7534c05e513e5777"
+    },
+    "脚本/wafu_assets/icons/鸡蛋.webp": {
+      "bytes": 778,
+      "sha256": "54511d600829f0ae0100ed9148ba3c53b3cab136fd8271823da5c6b9aff318e4"
+    },
+    "脚本/wafu_assets/icons/鹿肉.webp": {
+      "bytes": 666,
+      "sha256": "c417f41ecb98571e39b2671cb6b1119280f59f29a76131023adf32952be7b502"
+    },
+    "脚本/wafu_assets/icons/麒麟.webp": {
+      "bytes": 1022,
+      "sha256": "24ce7aea95a4fcf1044352bb8d002fc18eacef5bea7f4830f541266de3c49fcb"
+    },
+    "脚本/wafu_assets/icons/麻婆豆腐.webp": {
+      "bytes": 1076,
+      "sha256": "c55c458127a7f973ca00ae279df3cc4f26db4ec6b8ddaae91e16f9f865bc97a1"
+    },
+    "脚本/wafu_assets/icons/麻薯.webp": {
+      "bytes": 918,
+      "sha256": "ae01fe68eb458fa80e979b57b67b2a7fc0a88254e4a8e73fb2bac4e674c3d6ae"
+    },
+    "脚本/wafu_assets/icons/黄油.webp": {
+      "bytes": 910,
+      "sha256": "72b2c722643d234a9622552a3ddc4be943ba69a62e72d797cca0ab36a0ae4d58"
+    },
+    "脚本/wafu_assets/icons/黄油牛排.webp": {
+      "bytes": 774,
+      "sha256": "85e75358c71830fdec20d4e4b529ec4d7f0c437f79090e2138bd94dcb50fa43f"
+    },
+    "脚本/wafu_assets/icons/黄瓜.webp": {
+      "bytes": 922,
+      "sha256": "810f4386b44dee6133dfd67dad1859ba0df6e915b27462d6a1dab8a0462eff19"
+    },
+    "脚本/wafu_assets/icons/黄金酥鱼饼.webp": {
+      "bytes": 1046,
+      "sha256": "638193f62f56c28d0b97a538121fd2ac5a1e8ee21c7d51102b514c831bcd3d91"
+    },
+    "脚本/wafu_assets/icons/黑毛猪肉.webp": {
+      "bytes": 1124,
+      "sha256": "c6ca72a521e2a7fc4c1b1687de5ccf7faba7d7926a9b1c79228a81435d7afa8a"
+    },
+    "脚本/wafu_assets/icons/黑盐.webp": {
+      "bytes": 830,
+      "sha256": "901cbcc939d04915859ea6313a62716bc9878e91144093bf083aa99142a6a9a8"
+    },
+    "脚本/wafu_assets/icons/龙吟桃子.webp": {
+      "bytes": 1274,
+      "sha256": "0f332358727ed1fc27890108aee5343c0a6e0c371771344c0d4e5819cc87a25d"
+    },
+    "脚本/ryotei_assets/avatars/上白泽慧音.webp": {
+      "bytes": 2114,
+      "sha256": "2cbe75780664e8c29cbf0f8e575b5b276e4486e38963a537106834901297dcd7"
+    },
+    "脚本/ryotei_assets/avatars/东风谷早苗.webp": {
+      "bytes": 2372,
+      "sha256": "e3d0d016d4f56ce716808325276a97976434c8ef1dccb626403f3695651411ba"
+    },
+    "脚本/ryotei_assets/avatars/二岩猯藏.webp": {
+      "bytes": 2500,
+      "sha256": "990d3a5127e05844ca5815dc90097f38942e49d719e5c0a293961684e1f79682"
+    },
+    "脚本/ryotei_assets/avatars/今泉影狼.webp": {
+      "bytes": 2584,
+      "sha256": "62020df23b2beb10cdc37feff9306593c3289e9e6a833a0d9ba16d3d42a8eec3"
+    },
+    "脚本/ryotei_assets/avatars/伊吹萃香.webp": {
+      "bytes": 2718,
+      "sha256": "aa4d49afc4cbee4877791fd43dee5fe1ce9f3f491a3f56e544327f4886b52c09"
+    },
+    "脚本/ryotei_assets/avatars/八云紫.webp": {
+      "bytes": 2808,
+      "sha256": "a6c701fb935e9486cfaafcd1c054885785632e1043a5b3c1fdb2a6ec833580a4"
+    },
+    "脚本/ryotei_assets/avatars/冴月麟.webp": {
+      "bytes": 2372,
+      "sha256": "39fb63c4ea1229b36ebba5ab500ba3f1622bd544eb38916a5fbec538e8c855d6"
+    },
+    "脚本/ryotei_assets/avatars/博丽灵梦.webp": {
+      "bytes": 2630,
+      "sha256": "a8ae997e25015e779a14410c13cc5de15915667678300e99f0f7b215518674a6"
+    },
+    "脚本/ryotei_assets/avatars/古明地恋.webp": {
+      "bytes": 2492,
+      "sha256": "e139a5937f120a6e971789262f49e0c9918cc374e27f28194a4700259bc83e15"
+    },
+    "脚本/ryotei_assets/avatars/古明地觉.webp": {
+      "bytes": 2512,
+      "sha256": "b37bb2c931d63909e5c03fad7b9c5fdfe09f97f88b0f3473953d387ba899a964"
+    },
+    "脚本/ryotei_assets/avatars/因幡帝.webp": {
+      "bytes": 2048,
+      "sha256": "53dd2611b153cf4b7b366d0fdd5e9af12053008aaca8bedc9dd153ffdb4ebe35"
+    },
+    "脚本/ryotei_assets/avatars/多多良小伞.webp": {
+      "bytes": 2458,
+      "sha256": "5964b2474e44f3c19c0531c3e8d95400777bc07c54e6e0bd9b66e6cd22a88a4b"
+    },
+    "脚本/ryotei_assets/avatars/封兽鵺.webp": {
+      "bytes": 2434,
+      "sha256": "40e23064ffe7dd8bd16937d87519fb2f568f728fb75120470c5ec6fed2568c42"
+    },
+    "脚本/ryotei_assets/avatars/射命丸文.webp": {
+      "bytes": 2690,
+      "sha256": "b143646e4627cc27277e63a7517d821e059fe99277e0289e80057266939a744d"
+    },
+    "脚本/ryotei_assets/avatars/少名针妙丸.webp": {
+      "bytes": 2496,
+      "sha256": "ff391a40bf689ea75851a7d05d16a9fa61b450fdd6275031ac0e79a3535cee54"
+    },
+    "脚本/ryotei_assets/avatars/帕秋莉.webp": {
+      "bytes": 2540,
+      "sha256": "fc79fdeca9d73e2e5f6b07a7bdcb61f8f668966ce4ec5807c1e6bfd7b1ccb79c"
+    },
+    "脚本/ryotei_assets/avatars/时焉侑.webp": {
+      "bytes": 2764,
+      "sha256": "97d0f47df60c1c24813ee281c0a518236afd1b7280af03a04de8cd150f41f236"
+    },
+    "脚本/ryotei_assets/avatars/星熊勇仪.webp": {
+      "bytes": 2398,
+      "sha256": "95a849b3cd19d4317d6c862b5cce6af3ffb197b5dfc1c1150f3de2ae124cb7a8"
+    },
+    "脚本/ryotei_assets/avatars/村纱水蜜.webp": {
+      "bytes": 2268,
+      "sha256": "a4b484e710890cdba309f2f9291e133cffece9a337f2d3ea38eb50364436d347"
+    },
+    "脚本/ryotei_assets/avatars/梅蒂欣.webp": {
+      "bytes": 2820,
+      "sha256": "79679cefc5b2e0d39fe5cd8c2a58bce0c6c862bdbcd1979f946e3fdffa2b8c8f"
+    },
+    "脚本/ryotei_assets/avatars/森近霖之助.webp": {
+      "bytes": 2330,
+      "sha256": "bbd6c85fb75581439b30f135648e139ad096ffbed00f8af59a8c61a785cda6a8"
+    },
+    "脚本/ryotei_assets/avatars/橙.webp": {
+      "bytes": 2534,
+      "sha256": "95f2bc1b4da64514b612cbf11f82acd346b17a9a509206fbe7adda9a931ac35d"
+    },
+    "脚本/ryotei_assets/avatars/比那名居天子.webp": {
+      "bytes": 2184,
+      "sha256": "59e8e7a3c2869439cf52443a9e17bc25411a796881939b59bfdf05860bca9d09"
+    },
+    "脚本/ryotei_assets/avatars/水桥帕露西.webp": {
+      "bytes": 2438,
+      "sha256": "ac00a7e0dfffddbf70f6217639abd491b918cbe6f9ce1c8759442bb4fb0c55f9"
+    },
+    "脚本/ryotei_assets/avatars/河城荷取.webp": {
+      "bytes": 2504,
+      "sha256": "da516439702754211ae552ed4d1b3c41dd0eaa39131e230dee0704aa9c5941c7"
+    },
+    "脚本/ryotei_assets/avatars/火焰猫燐.webp": {
+      "bytes": 2376,
+      "sha256": "98b30a85334340f8925340c281c33c9e5b20abf2c2bbcb94b6d76da244c7a477"
+    },
+    "脚本/ryotei_assets/avatars/灵乌路空.webp": {
+      "bytes": 2566,
+      "sha256": "6f8e2da4ab71fb850e4b5f0c13d79712ca75011401a017ba78f2dafa9ad5fe17"
+    },
+    "脚本/ryotei_assets/avatars/爱丽丝.webp": {
+      "bytes": 2386,
+      "sha256": "f6e2ec3fb006ee837e4f50f41c52f58298055e0be33659283d102cb09a586078"
+    },
+    "脚本/ryotei_assets/avatars/爱莲.webp": {
+      "bytes": 2432,
+      "sha256": "5a00a1a1cfc7c7dab9ef3d44c353a742da073af16ebe75c3404a0a0909b4dd06"
+    },
+    "脚本/ryotei_assets/avatars/物部布都.webp": {
+      "bytes": 2244,
+      "sha256": "5c114900878ee047cabca9e8d938244b091c0fcb596c39a75c6b0706113c51e8"
+    },
+    "脚本/ryotei_assets/avatars/犬走椛.webp": {
+      "bytes": 2464,
+      "sha256": "d27cbb919bfa161cc32690e3606fc931b751052590762c967080d278db4ab8fa"
+    },
+    "脚本/ryotei_assets/avatars/琪露诺.webp": {
+      "bytes": 2472,
+      "sha256": "a7c5973bc55e30795434768740f5fd680b53510df112ba3b0e586b39bff6ae52"
+    },
+    "脚本/ryotei_assets/avatars/矢田寺成美.webp": {
+      "bytes": 2666,
+      "sha256": "c8b5884df2575ebbf953ed9d691b135da64c07f17bc578490f7939739ba77fee"
+    },
+    "脚本/ryotei_assets/avatars/秦心.webp": {
+      "bytes": 2758,
+      "sha256": "50af9b404b28aabe1acedf40f457ce210a645d89a1fbd460409c1c973f25cd57"
+    },
+    "脚本/ryotei_assets/avatars/稗田阿求.webp": {
+      "bytes": 2114,
+      "sha256": "b50f8ca3b62436694409461dffeb7d65baab31eb16f5ca8126a8393254d6feaf"
+    },
+    "脚本/ryotei_assets/avatars/立空汐.webp": {
+      "bytes": 2492,
+      "sha256": "e41cc94c7f67900dfaaf87ed4ff4756ff433e8106851915202cae7fd8fea5cc1"
+    },
+    "脚本/ryotei_assets/avatars/红美铃.webp": {
+      "bytes": 2272,
+      "sha256": "05b03bce8b8e055c26929433fa9658bfec2acd4d8ad43d9bb40b00de9bf00e3e"
+    },
+    "脚本/ryotei_assets/avatars/绵月丰姬.webp": {
+      "bytes": 2524,
+      "sha256": "d97ecda05736a41838081295664f0d526d226a14909d0f06d5eede3c9371feb2"
+    },
+    "脚本/ryotei_assets/avatars/绵月依姬.webp": {
+      "bytes": 2270,
+      "sha256": "0256d463ea5e7d9c9bdfc32c995779d5a571cb4039ff9341ecfa4231f1c6a527"
+    },
+    "脚本/ryotei_assets/avatars/苏我屠自古.webp": {
+      "bytes": 2180,
+      "sha256": "64a5b6373f14de897f469733a663af2a3abdf0ff2359bf689487b3bb4ab115cd"
+    },
+    "脚本/ryotei_assets/avatars/茨木华扇.webp": {
+      "bytes": 2334,
+      "sha256": "b23ffa52cefa6d10b672a8e3576223274cf63651e56e1d3516ffb2d70189dc30"
+    },
+    "脚本/ryotei_assets/avatars/莉格露.webp": {
+      "bytes": 2138,
+      "sha256": "cc5f4bb45dc58989c62b89a08cd541406f637d39d9475235c658b70d9dcbb2f0"
+    },
+    "脚本/ryotei_assets/avatars/萌澄果.webp": {
+      "bytes": 10572,
+      "sha256": "2e869cf5cc9e8d3f1de45455b4b301bd0a10e3204d1dad742b6acc3c178bd550"
+    },
+    "脚本/ryotei_assets/avatars/蓬莱山辉夜.webp": {
+      "bytes": 2028,
+      "sha256": "2281722103110a741508d15033c7f40278a10f920bdbc4d9b8c1823b285fdc63"
+    },
+    "脚本/ryotei_assets/avatars/蕾米莉亚.webp": {
+      "bytes": 2604,
+      "sha256": "f18a1fc3f3bf31c4b5121bfea7f67a2c0c741facd498c922d51d76a17e6843a6"
+    },
+    "脚本/ryotei_assets/avatars/藤原妹红.webp": {
+      "bytes": 2212,
+      "sha256": "e66e24aac9c2f5809174de85d2f01015e1d902b7bd66c3864c3e7f3571d976ef"
+    },
+    "脚本/ryotei_assets/avatars/西行寺幽幽子.webp": {
+      "bytes": 2660,
+      "sha256": "bd117bc79d8b844193b9fb4f718529db3bb0bc6da694308bba04e0e8f4c977fb"
+    },
+    "脚本/ryotei_assets/avatars/蹦蹦跳跳的三妖精.webp": {
+      "bytes": 8858,
+      "sha256": "c45921840de60f77cacafd38edd3940774ab2542d527a9f7c42b7917194c91ac"
+    },
+    "脚本/ryotei_assets/avatars/铃仙.webp": {
+      "bytes": 2338,
+      "sha256": "ab0c1c40b2e02c98a96a19ab381e7902b81ea31603aa836bd2c9b10d134f2b64"
+    },
+    "脚本/ryotei_assets/avatars/雾雨魔理沙.webp": {
+      "bytes": 2156,
+      "sha256": "b9ac837eb9928d2486de12b55235ec7df7d9afc69a07d71727a649af41238d13"
+    },
+    "脚本/ryotei_assets/avatars/霍青娥.webp": {
+      "bytes": 2444,
+      "sha256": "7756cbef5bfa145a7c29b1998710b4c228bcb049dd2ee35354e7cd03330f1421"
+    },
+    "脚本/ryotei_assets/avatars/露易兹.webp": {
+      "bytes": 2390,
+      "sha256": "346c577cb3ccf108bb853c8b3f9256135fb79c2248109847da4fb4f2a00b40c5"
+    },
+    "脚本/ryotei_assets/avatars/露米娅.webp": {
+      "bytes": 2198,
+      "sha256": "0283a7499908232e099573fb4d04f900879314fd297ffaa70453cab43885aa7b"
+    },
+    "脚本/ryotei_assets/avatars/风见幽香.webp": {
+      "bytes": 2302,
+      "sha256": "041514e4bc4e8661aa6e806e81f44fdffaca74a4e62b2f6f238ff82bea28276c"
+    },
+    "脚本/ryotei_assets/avatars/饕餮尤魔.webp": {
+      "bytes": 2646,
+      "sha256": "e14c2cf31f623d637c94b4805f4deb867989c8f5db0a6225458461d4eda47b68"
+    },
+    "脚本/ryotei_assets/avatars/鬼人正邪.webp": {
+      "bytes": 2546,
+      "sha256": "c7c2a4bcffacbeee95a4220cd94538504e507e5f80d38a5968e72fd41873cb34"
+    },
+    "脚本/ryotei_assets/avatars/魂魄妖梦.webp": {
+      "bytes": 2028,
+      "sha256": "99d1193184c362b43b134326dc10f46e1df0dbd9d4b68cfa585e0190cc74a628"
+    },
+    "脚本/ryotei_assets/avatars/魅魔.webp": {
+      "bytes": 3406,
+      "sha256": "d85381f706b259890fa4908752da1d0ab2d908d24a7de95c1b1a89fc04915b4b"
+    },
+    "脚本/ryotei_assets/avatars/黑谷山女.webp": {
+      "bytes": 2388,
+      "sha256": "2ab2394a19f44654ac2d14d020acd2bee3ede4a1f72add8c0b0bf57d63a81ddd"
+    },
+    "脚本/ryotei_assets/icons/一击☆必杀.webp": {
+      "bytes": 820,
+      "sha256": "3f9fe261f398fecffcf15565f87c823e620e373453f2ff40142c7f856a5aa908"
+    },
+    "脚本/ryotei_assets/icons/七色羊羹.webp": {
+      "bytes": 822,
+      "sha256": "ed937d8fc7812b51c6076ea0627fb41687038d5068aa856c3b9604d25f4bfa90"
+    },
+    "脚本/ryotei_assets/icons/三文鱼.webp": {
+      "bytes": 572,
+      "sha256": "c5c9bd6ee26578d7559ba30c6d978ddaf0ab7bf23e56f5a82395b13882c1e954"
+    },
+    "脚本/ryotei_assets/icons/三文鱼天妇罗.webp": {
+      "bytes": 826,
+      "sha256": "68c3a4dca689fe6a4e565c6b65b697b843d930a022ee01e35206efe0d3da778c"
+    },
+    "脚本/ryotei_assets/icons/不死鸟.webp": {
+      "bytes": 866,
+      "sha256": "640c45fee99d8c9a69a2e3d00e9f3defb14e127e76f2bba46b1497eae7ed57dd"
+    },
+    "脚本/ryotei_assets/icons/丧气芝士条.webp": {
+      "bytes": 786,
+      "sha256": "748515af2c57607ffa7a78c6bdfaa9a104ccb21a6206cfc9c728c9d1a9bfcc3a"
+    },
+    "脚本/ryotei_assets/icons/二天一流.webp": {
+      "bytes": 684,
+      "sha256": "1237f8cfb4acdf2fc1a01086dd9b47f628a83b928f6d29bc6e9b30ad6cd2b238"
+    },
+    "脚本/ryotei_assets/icons/云山棉花糖.webp": {
+      "bytes": 866,
+      "sha256": "3dcb12348c758154535094d1d71682c0c62f262f3fad052e5d22e7731b21b526"
+    },
+    "脚本/ryotei_assets/icons/什锦天妇罗.webp": {
+      "bytes": 966,
+      "sha256": "b57dcd9ae1f1ec1fc06ac3b6d51afde8cf5061ddd6ea7587f1b9187c86976389"
+    },
+    "脚本/ryotei_assets/icons/仰望天花板派.webp": {
+      "bytes": 778,
+      "sha256": "d75e4a3744a97cad7e74cf61344d4bdb5a2d2d8ae955c99d1e7b60baded6a932"
+    },
+    "脚本/ryotei_assets/icons/伶人醉.webp": {
+      "bytes": 712,
+      "sha256": "ef3af9073682d290bc73436b6a05ca0498511e01ed32d29d4d15436223139e02"
+    },
+    "脚本/ryotei_assets/icons/兜甲蒸糕.webp": {
+      "bytes": 680,
+      "sha256": "13bb00e8a400f069f81f7a6bdc91cecb5b9c74dd1a7f188c77711a88cc2fe324"
+    },
+    "脚本/ryotei_assets/icons/全肉盛宴.webp": {
+      "bytes": 832,
+      "sha256": "1c62df9dc5dbe4ecc9196982b646ef76fc69e8019e1c9d4d35915f05a210b9c3"
+    },
+    "脚本/ryotei_assets/icons/八目鳗.webp": {
+      "bytes": 484,
+      "sha256": "72e6a5482c3e5cd2c53d5e2d022e5b900b243eb2ff50242f00ac3e64896052b3"
+    },
+    "脚本/ryotei_assets/icons/养心粥.webp": {
+      "bytes": 540,
+      "sha256": "2d3207b706adcd4cdeaa360811b479415b0443ce166012f1e7c7b8c90db5ddfa"
+    },
+    "脚本/ryotei_assets/icons/冬酿.webp": {
+      "bytes": 526,
+      "sha256": "e20c23245870504e5f53deb48036dcaddaa6cd3bd1656b15e8942bfd24e55528"
+    },
+    "脚本/ryotei_assets/icons/冰块.webp": {
+      "bytes": 626,
+      "sha256": "dcb6a0b50457917713613c583f6f88a6a9218275f493d051987102980b42c5f8"
+    },
+    "脚本/ryotei_assets/icons/冰山毛玉冻柠.webp": {
+      "bytes": 654,
+      "sha256": "cd5c04caf318f7a2f9d52ec43cf1e3dad978c830b04e541beb2fa44e4d4c9cd3"
+    },
+    "脚本/ryotei_assets/icons/冷豆腐.webp": {
+      "bytes": 642,
+      "sha256": "a153b613a61971dfb0d8854c67cd14535ff80e6e972cf3aef29f88269afa5072"
+    },
+    "脚本/ryotei_assets/icons/凉菜雕花.webp": {
+      "bytes": 724,
+      "sha256": "9214159d49fd99e5998d73ff6389a72877c6f68603fbe7d4d6a1ed5b368ae1ed"
+    },
+    "脚本/ryotei_assets/icons/分子蛋.webp": {
+      "bytes": 536,
+      "sha256": "ff860b3d18681dfda9d9df201eeaeca0784ea3c922c6acd1c9aac61497c8eefd"
+    },
+    "脚本/ryotei_assets/icons/刺身拼盘.webp": {
+      "bytes": 794,
+      "sha256": "4e97f5298afab8f2a9fd761f1d18e16f9e548c7a7c31e3efea9f4e9014c1597c"
+    },
+    "脚本/ryotei_assets/icons/力量汤.webp": {
+      "bytes": 738,
+      "sha256": "9bee10f6f3552d8d9188335a8ef3f9edc38e4f29f08c3e01a279661c4ac4aa43"
+    },
+    "脚本/ryotei_assets/icons/北极甜虾蜜桃色拉.webp": {
+      "bytes": 736,
+      "sha256": "475b9e146eee80ce1bb10cf5319255451d3f60b0d7c0cac0d9da3d01c1a1d753"
+    },
+    "脚本/ryotei_assets/icons/十四夜.webp": {
+      "bytes": 582,
+      "sha256": "350b2a249057aa2616cc1956c167e18ee28edb5839c9c3cdd29a1f76eacb5657"
+    },
+    "脚本/ryotei_assets/icons/华光玉煎包.webp": {
+      "bytes": 908,
+      "sha256": "b9270cd90e7153f8d31954fdc4084c38c5c063c28e13cce5ddfed792628ac119"
+    },
+    "脚本/ryotei_assets/icons/南瓜.webp": {
+      "bytes": 388,
+      "sha256": "a1500b6c13b91f81f8c5cfb0f10ca69cce188ca61205023f1f2ce9565de72cba"
+    },
+    "脚本/ryotei_assets/icons/南瓜虾盅.webp": {
+      "bytes": 758,
+      "sha256": "39911bc075f729ea05e92d42e2c05c2ce5bad19b29b11907c3d7c1f7ae258cc4"
+    },
+    "脚本/ryotei_assets/icons/卫星冰咖啡.webp": {
+      "bytes": 512,
+      "sha256": "321ffae1f37b8d3269254129af1e0f3608233e870c4c8b2f263fe2f78104300c"
+    },
+    "脚本/ryotei_assets/icons/古明地冰激凌.webp": {
+      "bytes": 934,
+      "sha256": "866b04dd7fc4cb8a073d624158917327878d65c9c252b91747cac745ca25ac60"
+    },
+    "脚本/ryotei_assets/icons/古法奶油冰沙.webp": {
+      "bytes": 710,
+      "sha256": "cf4c700a337a8f4b2bd099a1b8ccf6f5c609e5a363187b27bd1df4131f1de9ac"
+    },
+    "脚本/ryotei_assets/icons/可可豆.webp": {
+      "bytes": 612,
+      "sha256": "2caca604ae25312175f50f3b36682f1ceae0122aad6779cbdbc462790c8df1ca"
+    },
+    "脚本/ryotei_assets/icons/司康饼.webp": {
+      "bytes": 694,
+      "sha256": "87bd5953d6b4739e75ab725295a305e12b1a892722ca906b2c8999c0d335f89a"
+    },
+    "脚本/ryotei_assets/icons/和牛.webp": {
+      "bytes": 476,
+      "sha256": "3ef14227d7db36b1ed8422baf6815c4b19fa02ebc87c7cf3b7acd5c1d13ec78b"
+    },
+    "脚本/ryotei_assets/icons/咖啡.webp": {
+      "bytes": 592,
+      "sha256": "92c13a9e9bf803e0b14434003e27113c6d2eb5ac915766196c8ff32f3a21db72"
+    },
+    "脚本/ryotei_assets/icons/噗噗呦果.webp": {
+      "bytes": 524,
+      "sha256": "919267a913347f788cf55e6f60c717b5c48f326b2c9750875002bd7756848fe0"
+    },
+    "脚本/ryotei_assets/icons/土豆.webp": {
+      "bytes": 260,
+      "sha256": "88483a2e09ea3ed6aefc395dcce6f46b07f6fd7ca89f5b2835505b03f53e3adb"
+    },
+    "脚本/ryotei_assets/icons/土豆可乐饼.webp": {
+      "bytes": 628,
+      "sha256": "2fdeccca5945e3f4912d91ffdc2f14d34c3ca775cb530516af5c6ba3ef2e15cd"
+    },
+    "脚本/ryotei_assets/icons/圣白莲子糕.webp": {
+      "bytes": 752,
+      "sha256": "33705ff8c80f8066d6a94e1b02571b9524f31e19c61031597450a15eefa86afe"
+    },
+    "脚本/ryotei_assets/icons/地狱激辛警告！.webp": {
+      "bytes": 748,
+      "sha256": "e430da1a30252cb782c1af3fc05d6885e0496f2de33626227f3ed254c8f7111e"
+    },
+    "脚本/ryotei_assets/icons/地瓜.webp": {
+      "bytes": 484,
+      "sha256": "21903fa08f4e0779777056dfcbc98aaf32e51021927808e6ee2daa1e693167b0"
+    },
+    "脚本/ryotei_assets/icons/大冰棍儿!.webp": {
+      "bytes": 424,
+      "sha256": "1068d2784b41f4da7271fb4b20ccdb4d4e662c17a3d6065c342b9f91117bf947"
+    },
+    "脚本/ryotei_assets/icons/大吟酿.webp": {
+      "bytes": 550,
+      "sha256": "241f72389fc3fc7adef5a7c66a71ca22e65639a49a6691edaa6c4976f42a3aa2"
+    },
+    "脚本/ryotei_assets/icons/大奢宴.webp": {
+      "bytes": 740,
+      "sha256": "de251c9a193566509ee87c16d1d3e73dc810bae7d4129c03d7c3ade57d54249e"
+    },
+    "脚本/ryotei_assets/icons/大江户船祭.webp": {
+      "bytes": 1046,
+      "sha256": "4a8f532fb16193705df5b856a3d5a097b21e140cfefbaf8349b35e52785cf2c3"
+    },
+    "脚本/ryotei_assets/icons/大阪烧.webp": {
+      "bytes": 720,
+      "sha256": "f04fc4252c379b521848450c1a6d60071e5ff52977b2018274442d23eb4c61a7"
+    },
+    "脚本/ryotei_assets/icons/天地无用.webp": {
+      "bytes": 698,
+      "sha256": "baf724749324c964590a9b088acce3efab10429bc69ba49bdbcb9f6fb11f3ccc"
+    },
+    "脚本/ryotei_assets/icons/天师板栗焖菇.webp": {
+      "bytes": 868,
+      "sha256": "a8bf6522cf389751334ae9f01716b02c4cd343a063d8bfd210ff72694e07febb"
+    },
+    "脚本/ryotei_assets/icons/天狗踊.webp": {
+      "bytes": 458,
+      "sha256": "f1d60eb80fe53f35bb01a4deea1466f0737f3ba0ea444b273e41eff48f2bacd1"
+    },
+    "脚本/ryotei_assets/icons/太极八卦鱼肚.webp": {
+      "bytes": 810,
+      "sha256": "bf8710a921ad2f954be36a2878aea1930cc40a01deb183675bcf12b75c09b3b7"
+    },
+    "脚本/ryotei_assets/icons/太空啤酒.webp": {
+      "bytes": 374,
+      "sha256": "20a0bd7f78517361d40c3bb32c33d79af521a1c1abc257b07e8dd5fdb827c4b4"
+    },
+    "脚本/ryotei_assets/icons/奶油.webp": {
+      "bytes": 390,
+      "sha256": "2814dea257d26da15ecb24c3759b414b5e73344093b343f79e36f3fa8ab5fc9f"
+    },
+    "脚本/ryotei_assets/icons/奶油炖菜.webp": {
+      "bytes": 772,
+      "sha256": "38c721cdf6640417f261e516aba12b20344bcc8351f35c9ece314200cb64280a"
+    },
+    "脚本/ryotei_assets/icons/奶油焗蟹.webp": {
+      "bytes": 902,
+      "sha256": "d83d235ea87879c1a67fe983c09d8ed0a71b189b2f351395526f06f2a10b2301"
+    },
+    "脚本/ryotei_assets/icons/奶香蘑菇汤.webp": {
+      "bytes": 648,
+      "sha256": "cb2f7b3fc64ae635829ed6241b6e123b1d4576f5007be2bd15d07b4fab46f514"
+    },
+    "脚本/ryotei_assets/icons/妖精雨露.webp": {
+      "bytes": 712,
+      "sha256": "ce7c7fbd772fb0eedde0da292a445cb71f9095ce5bcca36cbd33eab5c2561ff9"
+    },
+    "脚本/ryotei_assets/icons/小小的甜蜜「毒药」.webp": {
+      "bytes": 888,
+      "sha256": "83787f622c0a430a158324893be85944705d63946995879c26e0a3c127c63378"
+    },
+    "脚本/ryotei_assets/icons/尼格罗尼.webp": {
+      "bytes": 590,
+      "sha256": "9a074cbf741726687acaf2146a5435026f3e8fdb15a6ed2c9ae02bea9b34e7da"
+    },
+    "脚本/ryotei_assets/icons/岩浆.webp": {
+      "bytes": 684,
+      "sha256": "fa7e9bc053b741866933e6a00ffc98c1a00e59a35199f5bcf9dbdf8a86c352ca"
+    },
+    "脚本/ryotei_assets/icons/巨人玉子烧.webp": {
+      "bytes": 880,
+      "sha256": "1380d3ccce0343d0f90a8bcfbbc11a5d7ecba30341cf6ac281c494b8b6ed29a8"
+    },
+    "脚本/ryotei_assets/icons/并蒂莲.webp": {
+      "bytes": 1030,
+      "sha256": "0e7d8f5939d27efdac693de456da5998dcf47f071214eea1b4d6cfc0b83f59d6"
+    },
+    "脚本/ryotei_assets/icons/幻想佛跳墙.webp": {
+      "bytes": 794,
+      "sha256": "234a2e34a97b03bafff4ebc3b2a3930e7d85b70acf54b051e91064bfa99c80bd"
+    },
+    "脚本/ryotei_assets/icons/幻想星莲船.webp": {
+      "bytes": 936,
+      "sha256": "88059dc12f4fe04af0dcc1ae5c45240632fbdc49a1cba4524c26df870309fcc6"
+    },
+    "脚本/ryotei_assets/icons/幻想风靡.webp": {
+      "bytes": 1230,
+      "sha256": "af6f774ccf41e3141143afb3cf12bb0eec6c246f10415f8f2401285b1f8e2b25"
+    },
+    "脚本/ryotei_assets/icons/幻昙华.webp": {
+      "bytes": 582,
+      "sha256": "d28c17767c19633d681f9ffa5155c04f813258354270e4e99ff271089efe2b7b"
+    },
+    "脚本/ryotei_assets/icons/幻昙花糕.webp": {
+      "bytes": 742,
+      "sha256": "0937ee4e65fdc0012f36adb8617ea9a3bfa81cf5735c434d663f16928b998407"
+    },
+    "脚本/ryotei_assets/icons/幽梦.webp": {
+      "bytes": 1018,
+      "sha256": "ff5fb7bd997c9ca1082d81e3606e805c5a009304145666f1fb8bd55ccc217d11"
+    },
+    "脚本/ryotei_assets/icons/强效辣椒素.webp": {
+      "bytes": 422,
+      "sha256": "211eb3abf23fe3434f11c0f267fb0e334ff5bd50076d59cdf65b54588003246e"
+    },
+    "脚本/ryotei_assets/icons/惊吓！大冒险.webp": {
+      "bytes": 970,
+      "sha256": "713a2986dd5eebd247579d8e89056c3493c81bdc361506ccf1a1e35151a3e2b1"
+    },
+    "脚本/ryotei_assets/icons/惠灵顿牛排.webp": {
+      "bytes": 752,
+      "sha256": "ebdfe8a6499dc59452a49019a000797993f7a4123dafea161bd4a946356ab387"
+    },
+    "脚本/ryotei_assets/icons/意式烩饭.webp": {
+      "bytes": 750,
+      "sha256": "81586a740d0a6796f31e26aea4898f2e636fd80d8da4fbc8d1ccce1c6e0f9da7"
+    },
+    "脚本/ryotei_assets/icons/手握寿司.webp": {
+      "bytes": 656,
+      "sha256": "450a410d14d0eac9bb8e602f1607b804a7c32e2c8b1c0f7851e424327d32d741"
+    },
+    "脚本/ryotei_assets/icons/拔丝地瓜.webp": {
+      "bytes": 920,
+      "sha256": "b36cac294c5f5de59e90d4e89bf615fb851d3c0a6889c5e4e78d041d9f8e80dd"
+    },
+    "脚本/ryotei_assets/icons/拟尻子玉.webp": {
+      "bytes": 496,
+      "sha256": "9e7a28f91af4290a209f1fa7afd97f16b3a432e42e7d15a72502b7864e040a24"
+    },
+    "脚本/ryotei_assets/icons/提神布丁.webp": {
+      "bytes": 808,
+      "sha256": "7f728a516f39f3214468556cf9052e2ccac7b7d1d8582558708fe3eaae821e44"
+    },
+    "脚本/ryotei_assets/icons/教父.webp": {
+      "bytes": 540,
+      "sha256": "ee18a25a6ed2f97e2464806055b2a8f68f8707790191f72f052e2527e37253ac"
+    },
+    "脚本/ryotei_assets/icons/无意识妖怪慕斯.webp": {
+      "bytes": 540,
+      "sha256": "3d07c5fec60dd3a77584d409a97970ae112a39430c4d167284aa9e03a0693f92"
+    },
+    "脚本/ryotei_assets/icons/日月星.webp": {
+      "bytes": 296,
+      "sha256": "ca141bea3335e052a2abd4d4bd440a48346372a6f4cd32ffa5973e4b3dcac625"
+    },
+    "脚本/ryotei_assets/icons/晓.webp": {
+      "bytes": 694,
+      "sha256": "228db434386941c8700be06abda84aa0c3ffaf52aedcd356da8abf6e0e43fe89"
+    },
+    "脚本/ryotei_assets/icons/普通健身茶.webp": {
+      "bytes": 714,
+      "sha256": "2e9dc61e8e1521a4396e3d3c6a879b2a9978c6e57d6b35892c969419bb2c7faa"
+    },
+    "脚本/ryotei_assets/icons/普通小蛋糕.webp": {
+      "bytes": 734,
+      "sha256": "c7e6ebe16c6c14c0fe06bb4b5e3b210f3df6f762fdcca70b059198cef9de3988"
+    },
+    "脚本/ryotei_assets/icons/月之恋人.webp": {
+      "bytes": 762,
+      "sha256": "ff27cbb93fa7ca3bfac633f5276a645cbab2885ea2022354b4882e9a95639790"
+    },
+    "脚本/ryotei_assets/icons/月光团子.webp": {
+      "bytes": 636,
+      "sha256": "6eab5224aad0fef8cab74aa32029c8992ffb39c5333e8b9cdb9d9aa464463abf"
+    },
+    "脚本/ryotei_assets/icons/月光草.webp": {
+      "bytes": 658,
+      "sha256": "a21e493436d91e37b9a9be1b961bdc2ca21bd66b5e15123931f86df4987d1f43"
+    },
+    "脚本/ryotei_assets/icons/月面火箭.webp": {
+      "bytes": 390,
+      "sha256": "b439386e43a26b7a5268682890394151f8eddf5dcd4dfc6d2681bd9c0afb2eba"
+    },
+    "脚本/ryotei_assets/icons/月饼.webp": {
+      "bytes": 462,
+      "sha256": "4b34413d2bbcdf82f888127141794f60b12e2cb93c3d5abe59c86c9633829313"
+    },
+    "脚本/ryotei_assets/icons/杂炊.webp": {
+      "bytes": 620,
+      "sha256": "477a8e3c2311f7effffe9af25461f8ecb6a4661d06c8045c13601ef9b2f3a7d5"
+    },
+    "脚本/ryotei_assets/icons/杨枝甘露.webp": {
+      "bytes": 908,
+      "sha256": "a3b797a74b000248d0261aaf4b8b22ff7c782bc846af61749e53649843edc9ec"
+    },
+    "脚本/ryotei_assets/icons/松子.webp": {
+      "bytes": 846,
+      "sha256": "4fb1107aa0360a2c86072ad6829ac064568a190847134c82b9ac481ebace8564"
+    },
+    "脚本/ryotei_assets/icons/松子糕.webp": {
+      "bytes": 878,
+      "sha256": "8f61f33b4d274c73d3ccde2a4694053b15388cc4bb25ce02c2b97592a70e0100"
+    },
+    "脚本/ryotei_assets/icons/松露.webp": {
+      "bytes": 488,
+      "sha256": "37616933214180f9a1b91bc8f06d04bafe16b729fffc11addb817a9aeed4964b"
+    },
+    "脚本/ryotei_assets/icons/板栗.webp": {
+      "bytes": 748,
+      "sha256": "6ae9be496ffc7500ad6fe8131111a252bcfbe23a8b828f49f88698a88606c510"
+    },
+    "脚本/ryotei_assets/icons/极上金枪鱼.webp": {
+      "bytes": 444,
+      "sha256": "5abc67c2545f67f81977e130c75fd5115fa033553e4c8d3b9a99f3ed22e3ea04"
+    },
+    "脚本/ryotei_assets/icons/果味High Ball.webp": {
+      "bytes": 596,
+      "sha256": "4f0042fd727b2f45e42501dd28ac85a19a650614a5843964d160a965e028a5e2"
+    },
+    "脚本/ryotei_assets/icons/果味SOUR.webp": {
+      "bytes": 580,
+      "sha256": "edb77f01ba239951085d441a239d0f74547290c7844070931e4fa68b4d1e7a95"
+    },
+    "脚本/ryotei_assets/icons/柠檬.webp": {
+      "bytes": 590,
+      "sha256": "edbcbb17414c53905d64c317e0d102e6d2bcc7bd7c864c858c46fc57fcd8c104"
+    },
+    "脚本/ryotei_assets/icons/桃子.webp": {
+      "bytes": 342,
+      "sha256": "6365968ae8912571b5cc27f23e3f68c2337f2392810c9f5c254540eff0c46c71"
+    },
+    "脚本/ryotei_assets/icons/桃花琉璃卷.webp": {
+      "bytes": 540,
+      "sha256": "b2498a81bd161c00c8965e58a3d2b1a1f4fff43a035234a5470f658e84aa73b7"
+    },
+    "脚本/ryotei_assets/icons/桃花羹.webp": {
+      "bytes": 702,
+      "sha256": "8e0d8b6f5f5f559cdb5acc5f0349343f29259e615ecfce43a83ed90aeea44320"
+    },
+    "脚本/ryotei_assets/icons/梅子.webp": {
+      "bytes": 748,
+      "sha256": "1911ef2532d66dae62f049ccfebf41a09021ca27daab4d98962b73906e41e9a2"
+    },
+    "脚本/ryotei_assets/icons/梅子茶泡饭.webp": {
+      "bytes": 830,
+      "sha256": "3d08047f8d9931c3afcf26197930c347527e6b278e001df44f237046d2e51e99"
+    },
+    "脚本/ryotei_assets/icons/梅酒.webp": {
+      "bytes": 378,
+      "sha256": "9fa8e87da3347dbae4aab55b2c9c67d8b305b0f5de6ad3800478c0821a14313e"
+    },
+    "脚本/ryotei_assets/icons/樱花布丁.webp": {
+      "bytes": 658,
+      "sha256": "b45a1f68d215a0a701bca18791ff3a0411abebeeacfe7dcbcbc203c96d61ac4e"
+    },
+    "脚本/ryotei_assets/icons/樱落雪.webp": {
+      "bytes": 616,
+      "sha256": "0f318f953bcb7f925629a422e3fc7e45e7d7e77068334e26fd643ab0be3b8f17"
+    },
+    "脚本/ryotei_assets/icons/毒瘴花园.webp": {
+      "bytes": 850,
+      "sha256": "32dd121051e07f902901955332d0d9d827abb9f441ef89b496e025fe30bb6cac"
+    },
+    "脚本/ryotei_assets/icons/比斯开湾饼干.webp": {
+      "bytes": 586,
+      "sha256": "639629e8297751d1a38efc9c353a22351e35f08ea1aeb2013ce5af1bc09f06da"
+    },
+    "脚本/ryotei_assets/icons/毛玉三色冰激凌.webp": {
+      "bytes": 550,
+      "sha256": "26e86f976094e0b2d3f2fe6b839d1fca7b12637b004e3936f9637cede8dbbd40"
+    },
+    "脚本/ryotei_assets/icons/毛玉熔岩豆腐.webp": {
+      "bytes": 538,
+      "sha256": "ddce6b82fb93d95ab811f0680a13adf8ac25e4f873b0e5395d0557da208907de"
+    },
+    "脚本/ryotei_assets/icons/气保健.webp": {
+      "bytes": 540,
+      "sha256": "80e7a7375b35406ad60e4cc114ef0dc731081e05132c6b020aed0b6bebf13918"
+    },
+    "脚本/ryotei_assets/icons/水煮鱼.webp": {
+      "bytes": 744,
+      "sha256": "33288457a3ef52f735896b0bf3777c63d0b6bfc22ccaa0ebc63246a37c32ff76"
+    },
+    "脚本/ryotei_assets/icons/水獭祭.webp": {
+      "bytes": 496,
+      "sha256": "d0fc2fb40defc4c57e70015d8cfd1c94aa8a2a556861d7b5e59439d94e31950f"
+    },
+    "脚本/ryotei_assets/icons/水饺.webp": {
+      "bytes": 588,
+      "sha256": "6a5bbb133ba7ec6fe4bfc3e8cb6525d24c5c15f3c152db8229e604a5a78bf8fd"
+    },
+    "脚本/ryotei_assets/icons/汉宫藏娇.webp": {
+      "bytes": 952,
+      "sha256": "884f0b7704877d03e6ad381f55f02435dfb96b902a3746700f90b26a2a91e6d3"
+    },
+    "脚本/ryotei_assets/icons/汤圆.webp": {
+      "bytes": 476,
+      "sha256": "9855a58a8c718dbb22c4cfa001769a99f2886631e3bd1d90746ee2362840112e"
+    },
+    "脚本/ryotei_assets/icons/河豚.webp": {
+      "bytes": 608,
+      "sha256": "58907b449cc1670ddd1f9acbfc826a215e9179e41c7fe51f59413cc5cec10867"
+    },
+    "脚本/ryotei_assets/icons/油豆腐.webp": {
+      "bytes": 592,
+      "sha256": "fce446ab2148bece360ea0965bb1f625409ef442bdf0e4ddc8b94a3a594fbb72"
+    },
+    "脚本/ryotei_assets/icons/波子汽水.webp": {
+      "bytes": 558,
+      "sha256": "772cc6c2034e3b31ed3ee12a7f637635e63b430d3d318262db50960dd1e4eda9"
+    },
+    "脚本/ryotei_assets/icons/洋葱.webp": {
+      "bytes": 434,
+      "sha256": "60168c73372ea8fb926e6feab342b79b629b42e63bcd6e9f926433747e527b9e"
+    },
+    "脚本/ryotei_assets/icons/流水素面.webp": {
+      "bytes": 562,
+      "sha256": "b38e22b3ff66eae5a902f73fc80ca63d233660c83be612ba864eb58fc2b4ec33"
+    },
+    "脚本/ryotei_assets/icons/海的女儿.webp": {
+      "bytes": 448,
+      "sha256": "0dd3ebd23084a8340aab77344dc0493a4e4199e1ea50aec9bc51d903fa452f7f"
+    },
+    "脚本/ryotei_assets/icons/海盗熏肉.webp": {
+      "bytes": 716,
+      "sha256": "ad02c7da24f2df3437b94ea9ea984e3bdbf530f557d86fd4b922d003383ecda4"
+    },
+    "脚本/ryotei_assets/icons/海胆.webp": {
+      "bytes": 802,
+      "sha256": "94906512e3cfdd45fb4866dea6692d701efd7b9210eda8d829b6b41c5af38959"
+    },
+    "脚本/ryotei_assets/icons/海胆信玄饼.webp": {
+      "bytes": 528,
+      "sha256": "7ee8c661eb48da3db9830018ccbf01f8110df14b5fa226413f6c6bde023b94be"
+    },
+    "脚本/ryotei_assets/icons/海胆刺身.webp": {
+      "bytes": 852,
+      "sha256": "703b0a53972d02e7226d3e48e6db365d25774312c59d32f19a892bbf5716a9d8"
+    },
+    "脚本/ryotei_assets/icons/海胆蒸蛋.webp": {
+      "bytes": 730,
+      "sha256": "cd5d6d6f1fc1c4558215979e48d745019df0d9e5693f40d9cf8840cb87822322"
+    },
+    "脚本/ryotei_assets/icons/海苔.webp": {
+      "bytes": 496,
+      "sha256": "0b0e4efbcf4d9f6d11632e1191b1077b689f8c1c340382d30daac02369267a6d"
+    },
+    "脚本/ryotei_assets/icons/海鲜味噌汤.webp": {
+      "bytes": 622,
+      "sha256": "2a81b8265d94ed44a5e298e5808ba3a28031d58e3892ce37fa059f5c160ca442"
+    },
+    "脚本/ryotei_assets/icons/淇.webp": {
+      "bytes": 682,
+      "sha256": "cefdac101b27374094fbae7a279478732fb7905a6a2c0039c08554a9cab867bc"
+    },
+    "脚本/ryotei_assets/icons/温暖饭团.webp": {
+      "bytes": 680,
+      "sha256": "7c29c6f81be5a670ef1e0df4055104edcdbc4355d1df56f43e1371daa24deeef"
+    },
+    "脚本/ryotei_assets/icons/火星.webp": {
+      "bytes": 558,
+      "sha256": "9c72b4cf6c53a966144378e1800c1336d1ec45498122858513042e585720415e"
+    },
+    "脚本/ryotei_assets/icons/火鼠裘.webp": {
+      "bytes": 530,
+      "sha256": "5008bb2660c728404def9de5d6945b97a82b28ec623d4995da3b6a9b787d645b"
+    },
+    "脚本/ryotei_assets/icons/炒肉丝.webp": {
+      "bytes": 726,
+      "sha256": "50b9a2d8a8ea024a1498be744016b547105a19595fe5452ebd82aa5324fb447b"
+    },
+    "脚本/ryotei_assets/icons/炙猪肉饭团.webp": {
+      "bytes": 636,
+      "sha256": "9b1fa5fa7f9774ab71c14dff7b3d0ac2baf52909976498c585dc7243801855f0"
+    },
+    "脚本/ryotei_assets/icons/炸八目鳗.webp": {
+      "bytes": 636,
+      "sha256": "353b51933c00a2c6a7f656d0e8965551e9f3131ac84ad1bb298e61691ccc748f"
+    },
+    "脚本/ryotei_assets/icons/炸猪肉排.webp": {
+      "bytes": 678,
+      "sha256": "40ed1ec6fd167e24deac97bb72f0070c0b2e2a5bf458ce2c7ac86ceb97389a34"
+    },
+    "脚本/ryotei_assets/icons/炸番茄条.webp": {
+      "bytes": 806,
+      "sha256": "01809f2118eaa5b2530d96c9ce75d5e48d9a26813e7407456091c02a8b909098"
+    },
+    "脚本/ryotei_assets/icons/炸虾天妇罗.webp": {
+      "bytes": 752,
+      "sha256": "7bd32e6307f5ce7a2621e4b1e1630fd4e838e69a541ef72f647cf4108e7e0aae"
+    },
+    "脚本/ryotei_assets/icons/烤八目鳗.webp": {
+      "bytes": 652,
+      "sha256": "c7284569122369a0eef4ee7e2fa7833bc833eaa46a8d8f3fbee7265a1dd88ae2"
+    },
+    "脚本/ryotei_assets/icons/烤地瓜.webp": {
+      "bytes": 768,
+      "sha256": "226c72dbb3a7b4645f58604e5a625250d364564f79962856d76f98dcc41e818a"
+    },
+    "脚本/ryotei_assets/icons/烤蘑菇.webp": {
+      "bytes": 670,
+      "sha256": "72d5fb72da997869e5fd89ff8588c96609193ee37459124f7515e366aba81a49"
+    },
+    "脚本/ryotei_assets/icons/热松饼.webp": {
+      "bytes": 798,
+      "sha256": "ee0228f319ab0e46943244ed3bc13833d673c156af83e61a59ab9583c2365f03"
+    },
+    "脚本/ryotei_assets/icons/煮豆腐.webp": {
+      "bytes": 848,
+      "sha256": "8b31fa1d981745a67daf315e588e2a9a1a699be0a91a9d919612ec38b74dd2a3"
+    },
+    "脚本/ryotei_assets/icons/燃尽布丁.webp": {
+      "bytes": 792,
+      "sha256": "eb1ab698498bba1c04ad2cc00d900843a785f8f350e6ff444077a599baecb22b"
+    },
+    "脚本/ryotei_assets/icons/牛奶.webp": {
+      "bytes": 524,
+      "sha256": "45ece171b3c95991034d15ceff8f4684b259071249f4779ff0155b3d478790a1"
+    },
+    "脚本/ryotei_assets/icons/牛肉.webp": {
+      "bytes": 402,
+      "sha256": "09e99e9bc4b61be5c3ccfd1cf70ebaf19a43c4cef9ede8f432c36aa0cd99c8ac"
+    },
+    "脚本/ryotei_assets/icons/牛肉盖浇饭.webp": {
+      "bytes": 774,
+      "sha256": "d4b71f3d4258e84368ef6d10baece97d43ebb97c100bbf1c5ca599a65ff49565"
+    },
+    "脚本/ryotei_assets/icons/牛肉鸳鸯火锅.webp": {
+      "bytes": 488,
+      "sha256": "ffc59290987a45f73015acf56eaf44d9aa643272951c12dfd48b4dba61587c9d"
+    },
+    "脚本/ryotei_assets/icons/狮子头.webp": {
+      "bytes": 800,
+      "sha256": "2b46b28b64d29acdbda147a2964a93de13491e8765185e692d7e1118f98a6ff9"
+    },
+    "脚本/ryotei_assets/icons/猩红恶魔.webp": {
+      "bytes": 754,
+      "sha256": "2e1263a577d354183ae362650c93f4edbd89fb696fa179fef5d81ed90d806864"
+    },
+    "脚本/ryotei_assets/icons/猩红恶魔蛋糕.webp": {
+      "bytes": 548,
+      "sha256": "7a33063314b396016800769713efb4b5b49f36dde65e1d79d0054c13e158d0d8"
+    },
+    "脚本/ryotei_assets/icons/猪肉.webp": {
+      "bytes": 364,
+      "sha256": "55bb2602beff113c30738030191b7aee006426f3de6ff65dad9497d2589a93cf"
+    },
+    "脚本/ryotei_assets/icons/猪肉盖浇饭.webp": {
+      "bytes": 774,
+      "sha256": "84be361320168c15c1f068160dcd4ce3ed1224d34110c7476d44e0d019b34569"
+    },
+    "脚本/ryotei_assets/icons/猪肉鳟鱼熏.webp": {
+      "bytes": 528,
+      "sha256": "c0a472ad9bf544aa74f693a32596ffa87ccfc5903f6f076a1339594bf073a88a"
+    },
+    "脚本/ryotei_assets/icons/猪鹿蝶.webp": {
+      "bytes": 932,
+      "sha256": "aadd035682c8ccca24ed26f89a597ac3d762c2d5f065cd074f686cb4d06f02de"
+    },
+    "脚本/ryotei_assets/icons/猫咪可露丽.webp": {
+      "bytes": 522,
+      "sha256": "a1a1391cbbc3ed5ce39c1ad44eceb1e4ef1ccedc3a96256f14dc2d8cbed2a06b"
+    },
+    "脚本/ryotei_assets/icons/猫咪戏水.webp": {
+      "bytes": 572,
+      "sha256": "59751977d76fdd0dab8afbb1ba1f2dd77850ae5bb5d80f040623f8e19ef54bc2"
+    },
+    "脚本/ryotei_assets/icons/猫咪披萨.webp": {
+      "bytes": 514,
+      "sha256": "ca2cf21e210dc59a0fbc71edf7e214cb398fba78257f2f88435fd6ade617855b"
+    },
+    "脚本/ryotei_assets/icons/猫饭.webp": {
+      "bytes": 706,
+      "sha256": "94cf2f5c663e7693877eb0323326700c0e2a1fcec2a18d580c13d70a86861dcc"
+    },
+    "脚本/ryotei_assets/icons/玉露茶.webp": {
+      "bytes": 532,
+      "sha256": "04405f6157df16f7f1ba31c4417a52a089f109ba99f95c08faf9210fa0762c3a"
+    },
+    "脚本/ryotei_assets/icons/班尼迪克蛋.webp": {
+      "bytes": 786,
+      "sha256": "106e64351b69bfe1c64e09f3ba6a93d2ed11f34c6195c124402152f41620aa37"
+    },
+    "脚本/ryotei_assets/icons/生命之源.webp": {
+      "bytes": 618,
+      "sha256": "a338c30deba5d1b7be782db2991174372fde89070106af397986b16c0cadbdb9"
+    },
+    "脚本/ryotei_assets/icons/疯帽子茶会.webp": {
+      "bytes": 582,
+      "sha256": "5c488abeb57522482999dda0d4e36824e2ec3688f6c95638ae0a6d7421d95806"
+    },
+    "脚本/ryotei_assets/icons/瘦马团子.webp": {
+      "bytes": 788,
+      "sha256": "ad866860a877be9f47394aaf0ac7f04e499dcf89b93375b82a29496514bd1e94"
+    },
+    "脚本/ryotei_assets/icons/白果.webp": {
+      "bytes": 340,
+      "sha256": "c957e63def2211883ea670350c4f614922d75016fcc6d3fd2be871851258fa51"
+    },
+    "脚本/ryotei_assets/icons/白果萝卜排骨汤.webp": {
+      "bytes": 722,
+      "sha256": "42b20a77b9d79d4cf38baf802b832cd75afdf2daebc30f05aadf1f4886a7c352"
+    },
+    "脚本/ryotei_assets/icons/白桃生八桥.webp": {
+      "bytes": 694,
+      "sha256": "2476f4b36bbacd87f1a38a373b0d75d5a711096e32e7b54d1cd2a4eacea54ea2"
+    },
+    "脚本/ryotei_assets/icons/白雪.webp": {
+      "bytes": 656,
+      "sha256": "2a3a102ed611f5eff08be44d73def3894b175c2259232f95c8115d1e19fb3ee2"
+    },
+    "脚本/ryotei_assets/icons/白鹿贞松.webp": {
+      "bytes": 848,
+      "sha256": "66be3ce31722d3deec8f7862110623ec7340bbf9103f04c70b73139b683331be"
+    },
+    "脚本/ryotei_assets/icons/真·海鲜味噌汤.webp": {
+      "bytes": 750,
+      "sha256": "5ea0894281ee323875ecc72b6fee9205007bb25f4c8f3548a628b68018261298"
+    },
+    "脚本/ryotei_assets/icons/石锅竹笋炖肉.webp": {
+      "bytes": 784,
+      "sha256": "3d298138b3f0d38371ecc8409c210ba987dbeb08461b02b751e676ea67ea177f"
+    },
+    "脚本/ryotei_assets/icons/神之麦.webp": {
+      "bytes": 450,
+      "sha256": "64e553c5826612061014386ea6051248e80790240010cbc42c677546c22c195d"
+    },
+    "脚本/ryotei_assets/icons/秘制小鱼干.webp": {
+      "bytes": 690,
+      "sha256": "54f58a0da6ce6350f16acaa6b8d9e68d6c2d8cecb96c3e7fed5e447beba5219a"
+    },
+    "脚本/ryotei_assets/icons/秘制鲜菌煲.webp": {
+      "bytes": 586,
+      "sha256": "ed3f7d22b9c87896f03c0ac76c9c70be971669c5869ed46a252a041e20057f19"
+    },
+    "脚本/ryotei_assets/icons/章鱼.webp": {
+      "bytes": 486,
+      "sha256": "0d8034c7085e9b5ddb9d018bab669aee64af655890e6b39361766fbf4833f9c3"
+    },
+    "脚本/ryotei_assets/icons/章鱼烧.webp": {
+      "bytes": 728,
+      "sha256": "58d4d154d35ab2f661cc3b7b8320b463ae9393085471c5a1977cbb1fe59a2876"
+    },
+    "脚本/ryotei_assets/icons/竹取姬.webp": {
+      "bytes": 614,
+      "sha256": "0514e6f135b01f30bb2ff6910b56b242304582387c362f6851b9bb06d687116b"
+    },
+    "脚本/ryotei_assets/icons/竹子.webp": {
+      "bytes": 616,
+      "sha256": "1724a2ebb026d1b31e14cc1baeaa33acbc5ffa3d37290b9437e4e5ca0747b987"
+    },
+    "脚本/ryotei_assets/icons/竹笋.webp": {
+      "bytes": 512,
+      "sha256": "bfd5e5c44291d61f19f767fa6e045b48036380f577de8c5936e3b519e7e23267"
+    },
+    "脚本/ryotei_assets/icons/竹笋炒肉.webp": {
+      "bytes": 752,
+      "sha256": "ca97dc98727ee85b7cf5143176b753f797f2c1fd9ed1d39433269718cc6283ea"
+    },
+    "脚本/ryotei_assets/icons/竹筒烧醉虾.webp": {
+      "bytes": 596,
+      "sha256": "4d9ba1267229937cfa51d9c2947272a73578185b36e4673ba102a4796f928d30"
+    },
+    "脚本/ryotei_assets/icons/竹筒粉蒸肉.webp": {
+      "bytes": 906,
+      "sha256": "2cccadb6e91d4c468799b349933c93b50982c8dc8bea1a9842ce8ec8e82f501a"
+    },
+    "脚本/ryotei_assets/icons/竹筒蒸蛋.webp": {
+      "bytes": 546,
+      "sha256": "a39f4acd0970be8b26e711c34c122629527917b610accff015593fc7efd59021"
+    },
+    "脚本/ryotei_assets/icons/糯米.webp": {
+      "bytes": 492,
+      "sha256": "fd5c5cb4571001bfef3ed3716bf63192619f1f40facbd9ab0b184cf3b8bf40ce"
+    },
+    "脚本/ryotei_assets/icons/红柚果汁.webp": {
+      "bytes": 600,
+      "sha256": "72f0a41389cf20000680ae747481fabbff8eeda42825e4f2b7277c73278f30fe"
+    },
+    "脚本/ryotei_assets/icons/红烧鳗鱼.webp": {
+      "bytes": 716,
+      "sha256": "eff84e4869b6344f03931fe76cad838ed22138526a4d8d6e362453c725b2004e"
+    },
+    "脚本/ryotei_assets/icons/红豆.webp": {
+      "bytes": 880,
+      "sha256": "28391946210782a1f0b16f3cfdd25cf8a53122b1f7a90be5f0f1c53ffafb514c"
+    },
+    "脚本/ryotei_assets/icons/红豆大福.webp": {
+      "bytes": 734,
+      "sha256": "aab2301112e5c8515fb848e2f4b422ece230b4b32d1be7a87f8935ac5372fcea"
+    },
+    "脚本/ryotei_assets/icons/红雾.webp": {
+      "bytes": 528,
+      "sha256": "902ecd6838f66d67cff3a9ae609791de605e262e593b1e4fc70fc33f30030f33"
+    },
+    "脚本/ryotei_assets/icons/红魔馆红茶.webp": {
+      "bytes": 494,
+      "sha256": "370f8cd60b3cff747fa071c2b60af42b077761da6b59b8070d0bf282935c7fb0"
+    },
+    "脚本/ryotei_assets/icons/绝叫关东煮.webp": {
+      "bytes": 880,
+      "sha256": "7f31e6a77bb27f5da84fac012ba5ea29f9bdf7c1758e33975bfbad3fd0a042d2"
+    },
+    "脚本/ryotei_assets/icons/绿茶.webp": {
+      "bytes": 470,
+      "sha256": "a2e2a81e31dc9bce30791ead5fb98fad31a87ed43ddf724ece006818d253088c"
+    },
+    "脚本/ryotei_assets/icons/绿野仙菇.webp": {
+      "bytes": 862,
+      "sha256": "e7d212d88fc0e42165a9bf0525d6b79b6866e7e2e5704cce9df84714cd62f1f7"
+    },
+    "脚本/ryotei_assets/icons/罗汉上素.webp": {
+      "bytes": 936,
+      "sha256": "fdf27ca3b8854c9e2a634783c93dea862258d2bede5f875d2992714d2fdce8ff"
+    },
+    "脚本/ryotei_assets/icons/翠竹迎春.webp": {
+      "bytes": 918,
+      "sha256": "38a7cf8a8874acd2eee312450cc1420c1dc4f8d393c011ab9b97d9ed8acadcbe"
+    },
+    "脚本/ryotei_assets/icons/胡辣汤.webp": {
+      "bytes": 548,
+      "sha256": "533b4b63d1dde86e9a9c9fd7ec744158490642988d6e1128b4de2ff411988f75"
+    },
+    "脚本/ryotei_assets/icons/能量串.webp": {
+      "bytes": 596,
+      "sha256": "618b53e44476cb83d58c70a02529619b373554734ccb748fe48bcdc9ccc0e769"
+    },
+    "脚本/ryotei_assets/icons/脆旋风.webp": {
+      "bytes": 824,
+      "sha256": "7778a7a3e65047be578b219caff0a9f4eb79575868c7b203f6a6547c22abf631"
+    },
+    "脚本/ryotei_assets/icons/腌黄瓜.webp": {
+      "bytes": 836,
+      "sha256": "8c1d4dd15ade3618aee91d5dfb3fb51771cc111eeb7b6f876946e2213cbacc0b"
+    },
+    "脚本/ryotei_assets/icons/臭豆腐.webp": {
+      "bytes": 818,
+      "sha256": "fea2a634cdd6f8b782dbd5dd4bf0ac5de878cb83917fbb2f438f9d5cc676a89d"
+    },
+    "脚本/ryotei_assets/icons/至尊海鲜面.webp": {
+      "bytes": 596,
+      "sha256": "b5d21d9e208df8697c9a2fe04f0199f44c7741bc355d8b8584e4d3ca48811a65"
+    },
+    "脚本/ryotei_assets/icons/芝士.webp": {
+      "bytes": 594,
+      "sha256": "7b0090d12bb6b48b0a2cbc4d3ce264b7771828e90a7556125bef653d58ae7ec9"
+    },
+    "脚本/ryotei_assets/icons/芝士蛋.webp": {
+      "bytes": 844,
+      "sha256": "68f633bbd443b06f424d67ccec475f7dfdb84b81875df1148656377e78f3f84e"
+    },
+    "脚本/ryotei_assets/icons/花鸟风月.webp": {
+      "bytes": 996,
+      "sha256": "c36d64a718139f470447cb1798d9473c05b989ca46996f28745105742a11dcf0"
+    },
+    "脚本/ryotei_assets/icons/荷塘月色.webp": {
+      "bytes": 606,
+      "sha256": "8e7f60b54da6f148def71997ae64c44e9fa6fe5b098a6878efdb248b8db47e2d"
+    },
+    "脚本/ryotei_assets/icons/荷花鱼米盏.webp": {
+      "bytes": 934,
+      "sha256": "6a3f296135534a8b342335772d4084b60024e16ea16a24c14fe6cb51334da256"
+    },
+    "脚本/ryotei_assets/icons/莫吉托爆浆球.webp": {
+      "bytes": 666,
+      "sha256": "540853f88f0b8d1ffbfb7931daa37d5d0aacb9e452bfaabe83080c457fb76e57"
+    },
+    "脚本/ryotei_assets/icons/莲子.webp": {
+      "bytes": 694,
+      "sha256": "e4811a220e58f8ac515f36ab36c1e33ddaa357af8eb458ac99aa8e2a06aa88de"
+    },
+    "脚本/ryotei_assets/icons/萝卜.webp": {
+      "bytes": 388,
+      "sha256": "f3c879fc5e0acfdb90ee98dc7aa102f616d3002afc67b8e4c84db75557c54c53"
+    },
+    "脚本/ryotei_assets/icons/葡萄.webp": {
+      "bytes": 608,
+      "sha256": "9a69d8ad51fb0666996b673f117adfd5138d871f73aaae7e372470ffd50328c7"
+    },
+    "脚本/ryotei_assets/icons/蓬莱玉枝.webp": {
+      "bytes": 600,
+      "sha256": "e72c92f06c80725740a1b3520291c66ec5019ab3444027b36ef14c87f3c889b0"
+    },
+    "脚本/ryotei_assets/icons/蔬菜专辑.webp": {
+      "bytes": 740,
+      "sha256": "d6f8c6b30d9812043be52144a2bca4d27bd2fd491f7e8ed9b5e02bec84f568c1"
+    },
+    "脚本/ryotei_assets/icons/薜荔.webp": {
+      "bytes": 458,
+      "sha256": "bf93a3985c7c3086a2bdae96c16f86378ab707deba045a40bfc605a51801f0b1"
+    },
+    "脚本/ryotei_assets/icons/蘑女的舞踏烩.webp": {
+      "bytes": 860,
+      "sha256": "80de2aa468cadea1de65994d98b72c324fa8bf51b17b417b06cd9338a382ed91"
+    },
+    "脚本/ryotei_assets/icons/蘑菇.webp": {
+      "bytes": 404,
+      "sha256": "231f0314ab4b28836035c42b271a57864d7da60bbcbba5948d7669b11e53ff7a"
+    },
+    "脚本/ryotei_assets/icons/蘑菇肉片.webp": {
+      "bytes": 744,
+      "sha256": "be1291f0772f1cdd37f5624a4354c0b300af387caaefd36b152023be7ce42f59"
+    },
+    "脚本/ryotei_assets/icons/虾.webp": {
+      "bytes": 506,
+      "sha256": "fe3ba605cfdd0ae581e104d162500259c96378626411119a534bd8817ac36cb8"
+    },
+    "脚本/ryotei_assets/icons/蜂蜜.webp": {
+      "bytes": 550,
+      "sha256": "bda87f94ca89441ee86478a7aa1b180e4ddd1e41648f16284fa48e33f9ff3130"
+    },
+    "脚本/ryotei_assets/icons/蜜桃红烧肉.webp": {
+      "bytes": 682,
+      "sha256": "3cfac8cac26152536e0972baf428a6f0f5d64010703235c630c09787f8668d00"
+    },
+    "脚本/ryotei_assets/icons/蜜汁叉烧.webp": {
+      "bytes": 630,
+      "sha256": "d423a299f4884cd39528f354dc2ad9984311ab929df9e0152674aa7ac51cd507"
+    },
+    "脚本/ryotei_assets/icons/蜜饯栗子.webp": {
+      "bytes": 838,
+      "sha256": "0ccd060cad9269b821036b0fd66950e493681514ac8c3338edf038f1fa6cd603"
+    },
+    "脚本/ryotei_assets/icons/蝉蜕.webp": {
+      "bytes": 612,
+      "sha256": "1350e4172ea49b48e91fc3f537c2e9bce3c164bba9f3bc53ea7a2f2f4c78e587"
+    },
+    "脚本/ryotei_assets/icons/螃蟹.webp": {
+      "bytes": 640,
+      "sha256": "4d0e8790e3713b5df2b7e32358b0f4b2ad3abab26b2ec7b029abcd6ff6670971"
+    },
+    "脚本/ryotei_assets/icons/西红柿.webp": {
+      "bytes": 714,
+      "sha256": "2fb956dfabc28d9e5e73b926db299ec9cc35610915d44e179dde2c10ca04ed65"
+    },
+    "脚本/ryotei_assets/icons/西蓝花.webp": {
+      "bytes": 548,
+      "sha256": "7b51b10c2f5dc35a15ece30ae458a0dc07a1c3276ff1d7e0558e9aa16731185f"
+    },
+    "脚本/ryotei_assets/icons/诗礼银杏.webp": {
+      "bytes": 742,
+      "sha256": "d1d8244fe7ca32cbad45a867185c219e3ea2308b168bf630537d4232921943c2"
+    },
+    "脚本/ryotei_assets/icons/豆腐.webp": {
+      "bytes": 426,
+      "sha256": "0487102b0f523ca710c99c36e3a3b4ca621fb389a6f8725fa4235f81746cbf8a"
+    },
+    "脚本/ryotei_assets/icons/豆腐味噌.webp": {
+      "bytes": 634,
+      "sha256": "2f688f249e571e44fefbe094ff209287b3e54e3f5138b01ebc80ec26c004a073"
+    },
+    "脚本/ryotei_assets/icons/豆腐锅.webp": {
+      "bytes": 590,
+      "sha256": "b7e57fbc5b57af08f3b8f532bf55c11efa6ab20c2579b3f93ee5860ecc1d2343"
+    },
+    "脚本/ryotei_assets/icons/豚骨拉面.webp": {
+      "bytes": 694,
+      "sha256": "1e7599091b910e90c5b1bd5551b010b007a7d0fcedbd1f50b44bbe287c4fee34"
+    },
+    "脚本/ryotei_assets/icons/赛熊掌.webp": {
+      "bytes": 620,
+      "sha256": "7650f85873c019bfa8ec87e2599ed943869349d62b0d8208509bc720cb1db210"
+    },
+    "脚本/ryotei_assets/icons/超ZUN啤酒.webp": {
+      "bytes": 554,
+      "sha256": "8f498a835800c03c3c3b4fceeebe5c9b4f360c84841cd30f9bdedd26f54bef78"
+    },
+    "脚本/ryotei_assets/icons/辣椒.webp": {
+      "bytes": 396,
+      "sha256": "25d164e806c8a966972e37436cfed232b8e8160c049d04c0cafcdbdfdad8cdd5"
+    },
+    "脚本/ryotei_assets/icons/逆转天地！.webp": {
+      "bytes": 1020,
+      "sha256": "e86bd71e7b694877e0cc3f5974ca29f0acf742dedc4f8ece3a646b1f1f2fd610"
+    },
+    "脚本/ryotei_assets/icons/野味加农.webp": {
+      "bytes": 692,
+      "sha256": "e8405c6be2ab99b83b399582a3bf88d90fc5059c814c8261f61dea2fe7ca3648"
+    },
+    "脚本/ryotei_assets/icons/野猪肉.webp": {
+      "bytes": 396,
+      "sha256": "4ad880f41ea263b7420cfba227d38f34f5592f99d019ffc985f49d5e8fe48312"
+    },
+    "脚本/ryotei_assets/icons/金枪鱼.webp": {
+      "bytes": 514,
+      "sha256": "55e0bd429116c896449f8e6c859f41a7955a992e956ca320c72b263c707d23b1"
+    },
+    "脚本/ryotei_assets/icons/铃仙.webp": {
+      "bytes": 658,
+      "sha256": "68c36183b452f4f50207e97442c04ea9f94485acd03b35def082acd6c8951af7"
+    },
+    "脚本/ryotei_assets/icons/铜锣烧.webp": {
+      "bytes": 716,
+      "sha256": "d6e56eebfb5ec85626897685ed21daa6114de14511c3b2509ce95444c02ee663"
+    },
+    "脚本/ryotei_assets/icons/银耳.webp": {
+      "bytes": 500,
+      "sha256": "68f808ebd481131aa73e66c92eddadb2b310510749b17512295a7845fc03c9d0"
+    },
+    "脚本/ryotei_assets/icons/长发公主.webp": {
+      "bytes": 608,
+      "sha256": "395fc909d730c2b924fc90409ad212d4a2482e925348ddf58631abf601cce131"
+    },
+    "脚本/ryotei_assets/icons/阴郁水果派.webp": {
+      "bytes": 780,
+      "sha256": "4aa3aef9933266b0cd83c7912f4217b3770dbf8e2d8651fc62e38a449ec7d203"
+    },
+    "脚本/ryotei_assets/icons/阿芙加朵.webp": {
+      "bytes": 466,
+      "sha256": "90691db7f26118bc29fb69c53aeeead157157b0b763993c602fe883825e2837b"
+    },
+    "脚本/ryotei_assets/icons/雀酒.webp": {
+      "bytes": 458,
+      "sha256": "15d1c778b80784b1b09e9e270420d460667f7f4606bcc264fb6f2e8496557d70"
+    },
+    "脚本/ryotei_assets/icons/露水.webp": {
+      "bytes": 476,
+      "sha256": "a8be0912918fa42009ae947d75a1b31bcb5afcf87a0887fc696390107397e94b"
+    },
+    "脚本/ryotei_assets/icons/露水煮蛋.webp": {
+      "bytes": 546,
+      "sha256": "2689bc0527cec310f8ad9c684a68ad0bd255e1617f1039e979ae2cdef727fffb"
+    },
+    "脚本/ryotei_assets/icons/面粉.webp": {
+      "bytes": 490,
+      "sha256": "5e3735958421ca87b777814067ca2bab2abf889fceac7d1e443a14646e706313"
+    },
+    "脚本/ryotei_assets/icons/风祝.webp": {
+      "bytes": 504,
+      "sha256": "b5a4b3213e7723e552f0575a639207f2a9a72c7d7b44824725ed1d30c23c42a5"
+    },
+    "脚本/ryotei_assets/icons/饭团.webp": {
+      "bytes": 538,
+      "sha256": "e392c687ed5aa5bb69db67d3f64e51855f18990621260079d4a962e6680eb512"
+    },
+    "脚本/ryotei_assets/icons/香椿.webp": {
+      "bytes": 930,
+      "sha256": "7ac17b68462f321593577efbe25309201c8f933a7cfe195b56f7672be76148bc"
+    },
+    "脚本/ryotei_assets/icons/香椿煎饼.webp": {
+      "bytes": 738,
+      "sha256": "c679ad4771d7f26df39dca76e735133de653107d8079af807cd84957e7bbc77a"
+    },
+    "脚本/ryotei_assets/icons/香炸蝉蜕.webp": {
+      "bytes": 770,
+      "sha256": "742a5f8a25c718682f828894d13fb106bc96a10cfcba4e2d015d5ebaf049c213"
+    },
+    "脚本/ryotei_assets/icons/香煎三文鱼.webp": {
+      "bytes": 794,
+      "sha256": "4a13a822e64cf93f8b831dec7d49ac397c752a2e70eeea3277765c15abb5946b"
+    },
+    "脚本/ryotei_assets/icons/香煎双菇肉卷.webp": {
+      "bytes": 942,
+      "sha256": "6d38e6c100c706779a1538f799a364ea850b34280291b5b3b4d1db0fe9150999"
+    },
+    "脚本/ryotei_assets/icons/鬼杀.webp": {
+      "bytes": 652,
+      "sha256": "c7c65b18fb4fb4f349cb25ca315bc3d7faf4cf3cb89746a3a9913fb11d5e1110"
+    },
+    "脚本/ryotei_assets/icons/魔界咖啡.webp": {
+      "bytes": 502,
+      "sha256": "a9c2cad41410eba2064c1273662f6a9cefeead30979ffab8b1061e9ae9553ad3"
+    },
+    "脚本/ryotei_assets/icons/鱼跃龙门.webp": {
+      "bytes": 966,
+      "sha256": "28384c2335e59060027c991b6e21b62f7ff4ba1de5af58890292216259672aa6"
+    },
+    "脚本/ryotei_assets/icons/鲜花.webp": {
+      "bytes": 1092,
+      "sha256": "27511fee0f7bd44601e823775bdc4a874cdb9d8863cd18b0731c77c0a05303ad"
+    },
+    "脚本/ryotei_assets/icons/鳗鱼嫩蛋丼.webp": {
+      "bytes": 478,
+      "sha256": "c9cf6d380803f4cd5f23f0eddc1c81b67707f04803089b6ca00ac3541912749b"
+    },
+    "脚本/ryotei_assets/icons/鳟鱼.webp": {
+      "bytes": 624,
+      "sha256": "dca8d4fa76e3a53c4d63fcb0fe25adb3ff2fc51c2be61c19e2c0fd9f80b9417a"
+    },
+    "脚本/ryotei_assets/icons/鸡蛋.webp": {
+      "bytes": 228,
+      "sha256": "bf11707e2cac8f0394cbfdd9f9e6cf3ab02893334aa3b316e03b9620ae27e345"
+    },
+    "脚本/ryotei_assets/icons/鹿肉.webp": {
+      "bytes": 262,
+      "sha256": "320121de2bbb072fdea46af1788a12cc4b2bb8e9812508793487043089c12285"
+    },
+    "脚本/ryotei_assets/icons/麒麟.webp": {
+      "bytes": 630,
+      "sha256": "538c1d66bf06c2c197fcaa0fc9ef0c65bbe29dfabe8c592d5a418a089c50e10e"
+    },
+    "脚本/ryotei_assets/icons/麻婆豆腐.webp": {
+      "bytes": 750,
+      "sha256": "bcf1c3396e816e7eff17323b9e8cf86aa2773f567a31d10f71e61c715119e75f"
+    },
+    "脚本/ryotei_assets/icons/麻薯.webp": {
+      "bytes": 480,
+      "sha256": "b2e9edbcf6c33b3cb62c93a1c52ffd984f3822eb184be5e333a21b864b268875"
+    },
+    "脚本/ryotei_assets/icons/黄油.webp": {
+      "bytes": 498,
+      "sha256": "8fde55f206f038a30c72050b3270f6187139592a3cd5cb5f9138885bee203c74"
+    },
+    "脚本/ryotei_assets/icons/黄油牛排.webp": {
+      "bytes": 634,
+      "sha256": "227d14ee92bb300204245b03c7e0d5d2c80c5eb550d69cdb21c34d4a8058e4ab"
+    },
+    "脚本/ryotei_assets/icons/黄瓜.webp": {
+      "bytes": 732,
+      "sha256": "153d917e9050f8d3351f29920a456ab7fc52ee4e43be7e9a32c1de5a2a288524"
+    },
+    "脚本/ryotei_assets/icons/黄金酥鱼饼.webp": {
+      "bytes": 742,
+      "sha256": "ad2261745ab35e49cc574f79842600420ae736fc57ea673a31fbcc3905659d6b"
+    },
+    "脚本/ryotei_assets/icons/黑毛猪肉.webp": {
+      "bytes": 474,
+      "sha256": "5b78339ad469e6c6148fadb58d4df18f5be7e7375dba211d999cf46d21d00acb"
+    },
+    "脚本/ryotei_assets/icons/黑盐.webp": {
+      "bytes": 660,
+      "sha256": "bdd378577642285d708a7a6e459535006d8456352320fde60148f377ff12d5a4"
+    },
+    "脚本/ryotei_assets/icons/龙吟桃子.webp": {
+      "bytes": 626,
+      "sha256": "3edc7801190207a01ef3fa3ef1e6b9d56b946e6530e5bbdb781f28d5cf69cf29"
+    },
+    "脚本/ryotei_assets/normal/不良少女.webp": {
+      "bytes": 3288,
+      "sha256": "81b03fe0715a473daacde434c138efc58201ea606d02e44176ab0b17b376a72b"
+    },
+    "脚本/ryotei_assets/normal/不良少年.webp": {
+      "bytes": 2952,
+      "sha256": "21fad681a8e68cd498600b97e43a261c98eead09f6b730f50fd51d8a87769965"
+    },
+    "脚本/ryotei_assets/normal/人类女性.webp": {
+      "bytes": 2832,
+      "sha256": "36fc67437caa49d7d49265b8090eea2922b63f4296cb72f28b1368f19bd1a252"
+    },
+    "脚本/ryotei_assets/normal/人类小孩.webp": {
+      "bytes": 2730,
+      "sha256": "1d559bbbf722212e44e9f815816462aceeaed490cf8c1e0a4694de9fa9c19164"
+    },
+    "脚本/ryotei_assets/normal/人类男性.webp": {
+      "bytes": 2960,
+      "sha256": "fac29d536a884979e476264909a2ced89d13567154dee9bb0adce53fc99a8735"
+    },
+    "脚本/ryotei_assets/normal/人类长者.webp": {
+      "bytes": 2924,
+      "sha256": "24d01528979abe6b8ae15cce7b88d8dabb2df4a734811ff0cedc1072ccdf20a2"
+    },
+    "脚本/ryotei_assets/normal/仙人.webp": {
+      "bytes": 2898,
+      "sha256": "7b9cb95e2ac4ca431d403e76973506407969bbbb63c0425ec009e03462f93cd1"
+    },
+    "脚本/ryotei_assets/normal/僧侣.webp": {
+      "bytes": 3106,
+      "sha256": "93d256e3bf416c3693e3b25dfdce8f5a7e953a6a356d84ebe2d219d9c403a284"
+    },
+    "脚本/ryotei_assets/normal/僵尸.webp": {
+      "bytes": 2996,
+      "sha256": "115549eec23bbbbc8c65fe8fe0fd6ba70a2790649b99689368ba6ce0e1d5d49c"
+    },
+    "脚本/ryotei_assets/normal/八尺大人.webp": {
+      "bytes": 2882,
+      "sha256": "3dc99e81d5e9325e259ca605ccd612ad9fea64269e2abfcfaad76c8cc7489dea"
+    },
+    "脚本/ryotei_assets/normal/土蜘蛛.webp": {
+      "bytes": 2994,
+      "sha256": "fba660267fb89280167f71653e488d33834a4d91f0d7598ac4c81368c4d9875b"
+    },
+    "脚本/ryotei_assets/normal/地狱鸦.webp": {
+      "bytes": 3236,
+      "sha256": "570def3598562f3a04c85d52d76bb6c68d444c9db60c78a0f6e0e64ee947e81c"
+    },
+    "脚本/ryotei_assets/normal/地精.webp": {
+      "bytes": 2282,
+      "sha256": "89c34e4210e5fe9b18303d9177f27e7441b0204e3f3919618bb65e98a4fa1def"
+    },
+    "脚本/ryotei_assets/normal/太阳花精.webp": {
+      "bytes": 3866,
+      "sha256": "21b275f4e8854529ddc011d8ec261926b1ce95e7752aa287dd10eb7b03721890"
+    },
+    "脚本/ryotei_assets/normal/妖怪兔.webp": {
+      "bytes": 2986,
+      "sha256": "5aecc44343f3e04f72efa23d20d6d59442c5ae1e425c9892a74440fb885cac82"
+    },
+    "脚本/ryotei_assets/normal/妖怪狐.webp": {
+      "bytes": 2852,
+      "sha256": "6132c36eb402e80e1d189917d37d5644bbff319257a97fbbd12304a0d346b9fd"
+    },
+    "脚本/ryotei_assets/normal/妖怪狸.webp": {
+      "bytes": 4410,
+      "sha256": "5cfc1108849df28b7b2097b82b8f6831741116db4320be404d9d6d0259075269"
+    },
+    "脚本/ryotei_assets/normal/妖怪猫.webp": {
+      "bytes": 2876,
+      "sha256": "e5c3784aa8abfb4a0ffc49dce5d506e1f40b46f6482b28514e732bed43ab24cd"
+    },
+    "脚本/ryotei_assets/normal/妖怪鼠.webp": {
+      "bytes": 3062,
+      "sha256": "92b7253664d9f8dda5c9814d7fc431810acb01149eff0f243ccca505c955c373"
+    },
+    "脚本/ryotei_assets/normal/妖精.webp": {
+      "bytes": 2746,
+      "sha256": "7aabd3a3c00119e879242a1c86f4dc0b74e38751eac845b0eebf3d26673a5f25"
+    },
+    "脚本/ryotei_assets/normal/姑获鸟.webp": {
+      "bytes": 3410,
+      "sha256": "48e0b4fb24b9351a4581014fef214eb944e23f39c28503c71bd76bca43de4a56"
+    },
+    "脚本/ryotei_assets/normal/小丑.webp": {
+      "bytes": 3190,
+      "sha256": "457be3c12804dfab2499cff46e6a74f9ed1536a07b74edb15ac58f8462f6e783"
+    },
+    "脚本/ryotei_assets/normal/小人族.webp": {
+      "bytes": 2632,
+      "sha256": "cf50a3b6c222310495d8f1d57ba98da30a6efaa1bd0af197644f6b5abccf950e"
+    },
+    "脚本/ryotei_assets/normal/山姥.webp": {
+      "bytes": 2634,
+      "sha256": "6cf0a4121179fee5ae2dbcf7124ee4dd43f7b382495d37bae9005ee265567377"
+    },
+    "脚本/ryotei_assets/normal/山童.webp": {
+      "bytes": 2850,
+      "sha256": "3d496bb64b7bdc42e84daf5aafd77e78cb9bae9831cdd0cbde80325dd5daf060"
+    },
+    "脚本/ryotei_assets/normal/左卫门.webp": {
+      "bytes": 2758,
+      "sha256": "518bce597e8528c3adcc3a7576893963165067b5bf1e46d9cf422bce4748736c"
+    },
+    "脚本/ryotei_assets/normal/座敷童子.webp": {
+      "bytes": 3190,
+      "sha256": "35f718ea8ce59d3149973aeef0d3140e2ad11994d3c3a8bbd775df2663a5af6e"
+    },
+    "脚本/ryotei_assets/normal/影女.webp": {
+      "bytes": 2704,
+      "sha256": "7b9ca008178328029400c1e95b867e3033c462b57ce31a8d3f8bb3287800b950"
+    },
+    "脚本/ryotei_assets/normal/捣药兔.webp": {
+      "bytes": 3162,
+      "sha256": "18a5c4dcfce18167ef9a78d5bc82330e60b54ac48c4537cc4f16fcc9d231938a"
+    },
+    "脚本/ryotei_assets/normal/月之使者.webp": {
+      "bytes": 3214,
+      "sha256": "2e97c8c1451c8288c57c8b7ec7ca8e47bcee2efe52b3931c408d1b858582992e"
+    },
+    "脚本/ryotei_assets/normal/月人.webp": {
+      "bytes": 2358,
+      "sha256": "c6632621eef35a96b4a46592be520b891807d674c1b90dd96da91c009d18b027"
+    },
+    "脚本/ryotei_assets/normal/森之妖精.webp": {
+      "bytes": 3310,
+      "sha256": "2db8b68c6df0126a5bcb35697d1c5bdf3f1955268b6828ed421690561c8c86a4"
+    },
+    "脚本/ryotei_assets/normal/河童.webp": {
+      "bytes": 2894,
+      "sha256": "fb704e2df872467463b73f9f46e1a2b34f6876963e15e01fc9418e311cf48ad7"
+    },
+    "脚本/ryotei_assets/normal/玩具兵.webp": {
+      "bytes": 2742,
+      "sha256": "04afca0f58160c7021a5a30d9c5c32e366e66c289b16c8393d60eaf3307fdb6e"
+    },
+    "脚本/ryotei_assets/normal/玫瑰花精.webp": {
+      "bytes": 3940,
+      "sha256": "7e0190815ab6c531c0259a54c4f961697dab3e8787af6e27f4ef3ba899c7d33d"
+    },
+    "脚本/ryotei_assets/normal/疯帽匠.webp": {
+      "bytes": 3516,
+      "sha256": "4405e14b972bce281590e26fc71e38f78da913d77eab94afb03cdf436087011e"
+    },
+    "脚本/ryotei_assets/normal/白狼天狗.webp": {
+      "bytes": 3110,
+      "sha256": "ab76b6138b73729419027e17688e3ed6bceafc9e529e13ff15ed48611e0c2f48"
+    },
+    "脚本/ryotei_assets/normal/纸牌兵.webp": {
+      "bytes": 2726,
+      "sha256": "c1806af6b81658a4e1c97fd8b36dee3255a776efad995845dc8b4cdccc8b9029"
+    },
+    "脚本/ryotei_assets/normal/蟒蛇精.webp": {
+      "bytes": 3000,
+      "sha256": "a12bc8809a3e6eb0afebbba31dcf10389dc5bf7c78cbb4f58b1055dadf2192e1"
+    },
+    "脚本/ryotei_assets/normal/豹女.webp": {
+      "bytes": 2896,
+      "sha256": "4267adb74b7222041c8e408f809a4e84896679716139b1943db4ceba32009a4c"
+    },
+    "脚本/ryotei_assets/normal/迷之人形.webp": {
+      "bytes": 3300,
+      "sha256": "3a40133d26c4ae434ac67f2f265551a4b0d360d33733703e8f09c2343407a663"
+    },
+    "脚本/ryotei_assets/normal/道士.webp": {
+      "bytes": 2632,
+      "sha256": "345ab438f4fb1203b33824d15dd6205665c417de0b91d47aac67c04a0bc40d7b"
+    },
+    "脚本/ryotei_assets/normal/铃兰花精.webp": {
+      "bytes": 3992,
+      "sha256": "777a16892495f5d34b34fdec217a0a37407c741bc52fa19ae626e0635db9e135"
+    },
+    "脚本/ryotei_assets/normal/骨女.webp": {
+      "bytes": 3614,
+      "sha256": "050ecc7877ff1d57ff455d80ed0b2bf690c4e9f920129215e29631a5bc9e7386"
+    },
+    "脚本/ryotei_assets/normal/鬼.webp": {
+      "bytes": 3372,
+      "sha256": "a8e5dd666c9c0174b78a36a385b6f0809c10c971f064287584cdbb9b6d75084d"
+    },
+    "脚本/ryotei_assets/normal/魔法使.webp": {
+      "bytes": 3074,
+      "sha256": "ab644dc9e601583fdea5d21b77540f86b063b1da10c85a388c66cc615dd6f089"
+    },
+    "脚本/ryotei_assets/normal/鸦天狗.webp": {
+      "bytes": 2920,
+      "sha256": "3dfd5ead15bc467d53de48317cbb69c678a17e6e7041e8c547de544795d1267e"
+    },
+    "中间数据/BEVERAGE_LIST.json": {
+      "bytes": 34940,
+      "sha256": "3ae57aa6d7e79afcc8df15c13b9b4f91d58aaa90082868eb44ddca85e8cf3532"
+    },
+    "中间数据/check_440.txt": {
+      "bytes": 2061,
+      "sha256": "23e81ee0c007c86a7bcd6f1ad3cd9d8683ff6b956bf8aa45c0a345e5021f1468"
+    },
+    "中间数据/check_addons.txt": {
+      "bytes": 1772,
+      "sha256": "b34d8e8d246086f61f3c07a545f17e69167888637cdd641e1cd87fd8dba68700"
+    },
+    "中间数据/CLOTHES_LIST.json": {
+      "bytes": 10668,
+      "sha256": "4a23908da34aec2629b9f8ddd378b15e522e203c93dbacbc0c203f5115b4e61e"
+    },
+    "中间数据/COLLECTION_POINT_REFRESH_FACTS.json": {
+      "bytes": 21100,
+      "sha256": "2a1642894d1e407e7f43b0748915950b95cbd4de52acf5ce8e9a00dbb7e56253"
+    },
+    "中间数据/COOKER_LIST.json": {
+      "bytes": 16078,
+      "sha256": "68b0874aede9e27d7ba27fa4cab916f3cd94044a140b3784bac7e569fddf7048"
+    },
+    "中间数据/debug_bili2021.txt": {
+      "bytes": 2354,
+      "sha256": "217727308f0af4560f9bd07193d06e4588207e9931bf97871cb633ce2ca35318"
+    },
+    "中间数据/debug_guest.txt": {
+      "bytes": 2294,
+      "sha256": "25e481fab7dcf036f5a0c91f6c71e57ac8b0d51a928eeedaacc3dd762a2121bc"
+    },
+    "中间数据/debug_loop.txt": {
+      "bytes": 4947,
+      "sha256": "39c6dc9eea8f59862e6fabaf9c8266cfc42368829a66ce35aa61fbe5cbe75a5f"
+    },
+    "中间数据/debug_regex.txt": {
+      "bytes": 823,
+      "sha256": "ee973cd83f0695b9220a0034f68b4f60fbbc6c06b75e99b1831c9e3184b76f36"
+    },
+    "中间数据/DECORATION_LIST.json": {
+      "bytes": 7364,
+      "sha256": "0a829ec680e55aec141334a39a9eeec2e613747b1cfb5f107b354962ba08b22c"
+    },
+    "中间数据/dlc9_report.txt": {
+      "bytes": 50204,
+      "sha256": "8615c5e8f7968a60fa7e882ec116dc1cb1be905c6a8ada3363db34beae61de2d"
+    },
+    "中间数据/FOOD_LIST.json": {
+      "bytes": 128614,
+      "sha256": "ff7038ebf9442e386f1b7ad62f113f6dd89f586e50e2515fb8112bc5da8edc13"
+    },
+    "中间数据/GAME_TAG_RULES.json": {
+      "bytes": 4111,
+      "sha256": "cfa5ccc9d5573d28f123417c459570df1c0d1d3444f3a79fd9a074398ebae060"
+    },
+    "中间数据/guest_summary.txt": {
+      "bytes": 29473,
+      "sha256": "ba47f30efb01f3646fc323a4a9d2d62d1b4df44dd52337bd8588868a40f7076d"
+    },
+    "中间数据/INGREDIENT_LIST.json": {
+      "bytes": 64583,
+      "sha256": "7c9f8982eb2ebcda06d86158800b37815331521b38455f124223df2daa4ad405"
+    },
+    "中间数据/ingredient_report.txt": {
+      "bytes": 2798,
+      "sha256": "b2cc2cd7969629c77c534b97f0ac3535095c50eb14f79ed8cb2302f301029e9c"
+    },
+    "中间数据/ingredient_suspicious.txt": {
+      "bytes": 59,
+      "sha256": "aed7f28422731b345ecb583dcfd6c7dbcd8a79ccf7867d900a97ae671e497a71"
+    },
+    "中间数据/inspect_report.txt": {
+      "bytes": 13532,
+      "sha256": "95d552e8162cac0b3f0a5a066cf9c946fe9e13bd7dae670f5a2082ef8325c2b0"
+    },
+    "中间数据/key_report.txt": {
+      "bytes": 1471,
+      "sha256": "be85f8ff14051bee24b7e8fa99d11275dd277b83e4d5958eb0855520e25b7230"
+    },
+    "中间数据/NORMAL_GUEST_LIST.json": {
+      "bytes": 38054,
+      "sha256": "50289617134a8afb4cf68be919ea87350f53b0168815451cf3b780c124bd8122"
+    },
+    "中间数据/SPECIAL_GUEST_LIST.json": {
+      "bytes": 179673,
+      "sha256": "ef2158b3671c38c25f33a7507154d028f9f23fea4597eeedc296a710d41e2d4d"
+    },
+    "中间数据/料亭版攻略数据基线.json": {
+      "bytes": 539110,
+      "sha256": "a9a3e244c2b14ada610b8dc39b4daa666ec7aeb31ee2fb02604d8d00b45430fd"
+    },
+    "中间数据/调试产物/addon_chrome_err.txt": {
+      "bytes": 167,
+      "sha256": "42980d47e4897b0d8c4866ad3d7b56b5461837eed3e272e1d69596f860a4ab6e"
+    },
+    "中间数据/调试产物/addon_dump.html": {
+      "bytes": 1792555,
+      "sha256": "bbdd2f1c32aa3eb4ff2c3b0dd0419735420d71b3cb70c5fe255a1054a4f4e509"
+    },
+    "中间数据/调试产物/base_final_dump.html": {
+      "bytes": 1392388,
+      "sha256": "9461a8a3a6027126864208bb449e843588deaeba7bf3c70216f84a9109796b68"
+    },
+    "中间数据/调试产物/base_final_err.txt": {
+      "bytes": 167,
+      "sha256": "80fcfba1d5cdf88713b7cdb6b3cd074c2cead27d10572a0619a7f27ce5c3a0e0"
+    },
+    "中间数据/调试产物/chip_base_dump.html": {
+      "bytes": 1322898,
+      "sha256": "3cc9c5ab9245c0468a5181995c6493afd907dbe5884a020c1c8bc3a230deb486"
+    },
+    "中间数据/调试产物/chip_base_err.txt": {
+      "bytes": 167,
+      "sha256": "43d67a0d7c3f979727c35f80a5402fde55a2074690ac7c146a03183208ba517b"
+    },
+    "中间数据/调试产物/chip_test.html": {
+      "bytes": 595237,
+      "sha256": "e002429b9f5254ff37eaea81a3aa7062fe3b3869c63b8d6d07b3b6fd12c4aed8"
+    },
+    "中间数据/调试产物/chip_test_dump.html": {
+      "bytes": 1295969,
+      "sha256": "9fa348853906adf6a1aadd280c36778bdb29589c7049c0fe436cf98fe18cb9a2"
+    },
+    "中间数据/调试产物/chip_test_err.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "中间数据/调试产物/chrome_err.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "中间数据/调试产物/chrome_err2.txt": {
+      "bytes": 167,
+      "sha256": "33b8b64687d2999da9bd78f169e566fb7a5cd4ee97d584f8393a60e64920c068"
+    },
+    "中间数据/调试产物/chrome_err3.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "中间数据/调试产物/chrome_err4.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "中间数据/调试产物/debug_mobile.html": {
+      "bytes": 566923,
+      "sha256": "f1ed74a0668c074002cbdbbdbde6b5dab5e0988582ff37f2ee684e7f2a20e35e"
+    },
+    "中间数据/调试产物/detail2_dump.html": {
+      "bytes": 1380893,
+      "sha256": "035b084f36b4ca6ba6a174c79c0903032ecb77de5b111368c975f41174bb71eb"
+    },
+    "中间数据/调试产物/detail2_err.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "中间数据/调试产物/detail_drink_dump.html": {
+      "bytes": 1380678,
+      "sha256": "26f2627864352921b51832d0e94c932bd7bfdde6deac6197229a367ae1155779"
+    },
+    "中间数据/调试产物/detail_drink_err.txt": {
+      "bytes": 167,
+      "sha256": "aef27050bfd3c9f6a8a5ba805a62865b9914e4cd09eb5451a4873c14282e7a1c"
+    },
+    "中间数据/调试产物/drinkrec2_dump.html": {
+      "bytes": 1376514,
+      "sha256": "d6f6505bd4b4600cb8ac8f41e40dfdd60f05666bd593c073ae540033906cb22f"
+    },
+    "中间数据/调试产物/drinkrec2_err.txt": {
+      "bytes": 167,
+      "sha256": "807d0fb5dcef0cd0be00c92d3e08fad4e89e4f45c29fb83c6f565d166684fe5f"
+    },
+    "中间数据/调试产物/drinkrec_dump.html": {
+      "bytes": 1376299,
+      "sha256": "7ed1b84a757cb416e38af8858ec4632977f6594606d87a53a693e91f89e6d108"
+    },
+    "中间数据/调试产物/drinkrec_err.txt": {
+      "bytes": 167,
+      "sha256": "c0fb021c456b93dc1ffef79abe7886865d67e922438ce13e59c88d90787fd428"
+    },
+    "中间数据/调试产物/final_check.html": {
+      "bytes": 1322898,
+      "sha256": "3cc9c5ab9245c0468a5181995c6493afd907dbe5884a020c1c8bc3a230deb486"
+    },
+    "中间数据/调试产物/final_check_err.txt": {
+      "bytes": 167,
+      "sha256": "91e60af8787ec0659465b6d2c02dbbdc48617d5fb32fe3a887e5897a23b1c4b6"
+    },
+    "中间数据/调试产物/final_chrome_err.txt": {
+      "bytes": 167,
+      "sha256": "be6859ea52bd0549b41c4f715e0c996c0c493d5a8cd817aeba1e7593af56984b"
+    },
+    "中间数据/调试产物/final_detail_dump.html": {
+      "bytes": 1381713,
+      "sha256": "84af3067cf3d1bedcc8a3b9a357e25d6486d7d62f87dd0ba04f3b90547e82aa2"
+    },
+    "中间数据/调试产物/final_detail_err.txt": {
+      "bytes": 167,
+      "sha256": "c27f4808051361ac7dc1011613d5b54700fb10a9f7257732ad184008f80871d0"
+    },
+    "中间数据/调试产物/final_drink_dump.html": {
+      "bytes": 1376514,
+      "sha256": "d6f6505bd4b4600cb8ac8f41e40dfdd60f05666bd593c073ae540033906cb22f"
+    },
+    "中间数据/调试产物/final_dump.html": {
+      "bytes": 1339082,
+      "sha256": "4bb64a95e9c5db5f21a160dcee4d6a8fc7d08418212f4c3858e8251b4173e3fe"
+    },
+    "中间数据/调试产物/final_pinyin_dump.html": {
+      "bytes": 1361195,
+      "sha256": "104439f80444fcdc86a8423a09f19e3cca803e9d2697ddf31001499e9025e1b6"
+    },
+    "中间数据/调试产物/final_pinyin_err.txt": {
+      "bytes": 167,
+      "sha256": "22f47b517c578c702e57057ed895c5d1e2b881ce77b037805f1a29cec9ba2683"
+    },
+    "中间数据/调试产物/final_qinxin_addon.html": {
+      "bytes": 1367761,
+      "sha256": "9b1fe3af01b6a842727b79c057070fad097dc37c23fce62f98cdedafac00715e"
+    },
+    "中间数据/调试产物/final_qinxin_addon_err.txt": {
+      "bytes": 167,
+      "sha256": "2a0302b27313e2bb14168f94d9c54d17b1c18663f5b9e43f89eebb493c652ca2"
+    },
+    "中间数据/调试产物/guide_audit.txt": {
+      "bytes": 596,
+      "sha256": "ebfe14f5a6e12f1b58b615e4a4ff227bca70a3f6a33c6c7b49aac89c173b8610"
+    },
+    "中间数据/调试产物/html_check.txt": {
+      "bytes": 3723,
+      "sha256": "8f48b53816c3f984c5c199eb2b2ba1b7b42a0a6ba7f6d61a853ec5b83e84565d"
+    },
+    "中间数据/调试产物/html_dump.html": {
+      "bytes": 1337705,
+      "sha256": "44ed4a9378a1ae129c9cd9451a7f0d97fb4b2e7639fb244defff1df80b0c9c5a"
+    },
+    "中间数据/调试产物/html_dump2.html": {
+      "bytes": 1338361,
+      "sha256": "b43e85e64a4eb19ddb77ee4dca7e2b7dcfb5b748181cd7c8a9e28655e962e3d7"
+    },
+    "中间数据/调试产物/html_dump_qinxin.html": {
+      "bytes": 1348883,
+      "sha256": "139cb023c82595c41f412d7c2bdef00c1d253d5588444d772d089cecc58a7244"
+    },
+    "中间数据/调试产物/html_dump_qinxin2.html": {
+      "bytes": 1348741,
+      "sha256": "c724721def04a04371786eafb8ae847afbf8e64428a968a15bb8ba5b25eee416"
+    },
+    "中间数据/调试产物/length_report.txt": {
+      "bytes": 398,
+      "sha256": "8aca538a006977f990632e5baa7471b355a29ccb29b90a2d33310e456045e328"
+    },
+    "中间数据/调试产物/lv_catalog_dump.html": {
+      "bytes": 1305620,
+      "sha256": "0fb2a7faeeb65985529fe3dcf0134f0b73e4082bdacd74daad44462b3ec6928c"
+    },
+    "中间数据/调试产物/lv_details_dump.html": {
+      "bytes": 1305620,
+      "sha256": "accdafe931aea8fca519500da6fc329a92804ec52a57f335372a40b4834950da"
+    },
+    "中间数据/调试产物/lv_detail_dump.html": {
+      "bytes": 1392857,
+      "sha256": "12f8f91218cf4efa224281dc9cc11d48f346b813903df7eabdd27f4845129148"
+    },
+    "中间数据/调试产物/lv_detail_err.txt": {
+      "bytes": 167,
+      "sha256": "7018644179865cc0e7b189a91159c6fcbdce183f60ba8a177a7385bccd7e5b0b"
+    },
+    "中间数据/调试产物/order_dump.html": {
+      "bytes": 1367761,
+      "sha256": "33445ab4ae31b858e31514414fa517feb8ff177d5c78ead82eb92046a3d2a127"
+    },
+    "中间数据/调试产物/order_err.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "中间数据/调试产物/pinyin_chip_final.html": {
+      "bytes": 633383,
+      "sha256": "f72a347f1c573f4a3de01390ba9c4738e24dcf9a06c923a18c425706dfef150f"
+    },
+    "中间数据/调试产物/pinyin_chip_final_dump.html": {
+      "bytes": 1403793,
+      "sha256": "ad5cb2d1ea422f36658bbe783a269203c409ace9bd84f244ea70bbadc1cbb457"
+    },
+    "中间数据/调试产物/pinyin_test.html": {
+      "bytes": 634267,
+      "sha256": "34a4de599ad1216e804071591046b223c72640e281e040cfb29d4ac1819f8547"
+    },
+    "中间数据/调试产物/pinyin_test2.html": {
+      "bytes": 633888,
+      "sha256": "95467d08cc78bee5287b433cd11670982b87e1809685ce7cc1b18504e90549b8"
+    },
+    "中间数据/调试产物/pinyin_test2b_dump.html": {
+      "bytes": 866885,
+      "sha256": "a9531546ffb1e1b500ca9c819bdd577f8ceb688888a73d1bbd25e4f126df38a0"
+    },
+    "中间数据/调试产物/pinyin_test2b_err.txt": {
+      "bytes": 167,
+      "sha256": "084bd374692d7084463140d13f0ecaad43009be0e7d2bbe6c2125d3bb5fc176f"
+    },
+    "中间数据/调试产物/pinyin_test2_dump.html": {
+      "bytes": 866885,
+      "sha256": "a9531546ffb1e1b500ca9c819bdd577f8ceb688888a73d1bbd25e4f126df38a0"
+    },
+    "中间数据/调试产物/pinyin_test2_err.txt": {
+      "bytes": 167,
+      "sha256": "803dd022514cdc02c3854cac1bbe73a8c04016564f983917b80f86edd2682e15"
+    },
+    "中间数据/调试产物/pinyin_test3.html": {
+      "bytes": 633979,
+      "sha256": "bb1b2e09f806671f4ccd0c074510a70886f87dc4e5d529dabb01b8470bd11551"
+    },
+    "中间数据/调试产物/pinyin_test3_dump.html": {
+      "bytes": 860309,
+      "sha256": "b69964afbfbd5f39996e9204d996a7d9859c831c6d56f1e5dcdd5491440bcb67"
+    },
+    "中间数据/调试产物/pinyin_test3_err.txt": {
+      "bytes": 167,
+      "sha256": "a1aef787f5407895bc5792112ab0d26303d183ea52a76d445f5dd99c94fb4195"
+    },
+    "中间数据/调试产物/pinyin_test_dump.html": {
+      "bytes": 1311710,
+      "sha256": "7e0132a256bda1feccdf53941bbf43e3e483546d8acd3ec35ac50654aebccdc8"
+    },
+    "中间数据/调试产物/pinyin_test_err.txt": {
+      "bytes": 167,
+      "sha256": "9fd54b44d255ebf123865661284e3521246d1f1789ea1c4f6630c0b38db67361"
+    },
+    "中间数据/调试产物/sample_rows.txt": {
+      "bytes": 7649,
+      "sha256": "cc866c7628bb97ce5bef20c2780a25362a36ebda58545a6853205710a613d0db"
+    },
+    "中间数据/调试产物/selected_guest_report.txt": {
+      "bytes": 26624,
+      "sha256": "7c5f5129b37ac81c677a3e439703dc5aeb7b35a90911c33bf2ebae574429c486"
+    },
+    "中间数据/调试产物/sheet_summary.txt": {
+      "bytes": 8239,
+      "sha256": "6af3940bcea855ffac323cac30b554ce9730b888ec84b592ec887320b67d8c89"
+    },
+    "中间数据/调试产物/tab_addons.html": {
+      "bytes": 1833096,
+      "sha256": "26b495cbaea6337e619efad1b7515e08a4e55db824ec936f563c613e8fca1ec4"
+    },
+    "中间数据/调试产物/tab_drinkrecs.html": {
+      "bytes": 1405422,
+      "sha256": "9cbf1adf3545ff30abf53ba4a99849319d6f199feeb11d2f7b6d499f61b66f27"
+    },
+    "中间数据/调试产物/workbook_verify.txt": {
+      "bytes": 18108,
+      "sha256": "e6b76d09711eedee3fe81fef1a6334e51fefad377fe2c35dd3171cdf00c95971"
+    },
+    "成品/3D拟物试验版_构建校验.json": {
+      "bytes": 2037,
+      "sha256": "b1a4cf3ea8821ffbd8226f3d82cfcf068104217457c373d972c2fe9554ef0a94"
+    },
+    "成品/final_audit.txt": {
+      "bytes": 290,
+      "sha256": "40538569c06ac02b5636b57ae48b0b353436abc83ef2699e9afa6a7a82f47768"
+    },
+    "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx": {
+      "bytes": 205009,
+      "sha256": "d6d397db47dc7420ead80e1412f437d05984ffcb2eca6895e225dfe9c5ce134e"
+    },
+    "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-14.xlsx": {
+      "bytes": 206177,
+      "sha256": "1dca6f710965f28bffa8de11cf0ca4fdac67037968e1c385e1d7d619037f66fa"
+    },
+    "成品/东方夜雀食堂攻略查询_2610140601.html": {
+      "bytes": 2555166,
+      "sha256": "9e2cc491f8ca4ba649a5b8acb965a4f7669d2ab049fb1b8eeb918a341c449d7d"
+    },
+    "成品/料亭优化版_构建校验.json": {
+      "bytes": 642,
+      "sha256": "4da6f3c879831fc9e79b8095801c1dd8f39c418d4569b9fa5dbda1f37c1f5a30"
+    },
+    "成品/料亭立体头像版_构建校验.json": {
+      "bytes": 3439,
+      "sha256": "1aea1e6b41c713904d6244e78e19439d2ddf79b1ace188365e0373db486e804f"
+    },
+    "成品/旧版/guide_template_琥珀夜色版_2026-10-05.html": {
+      "bytes": 130010,
+      "sha256": "303af353df7e4870e28f48d5e731756adcf090a31e1355631659c8b58f815d6f"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101429.html": {
+      "bytes": 2537328,
+      "sha256": "6deef1e228c11a7c3730c1af30e0f3e23a486bedf8b22494200a8c8f809d23f0"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101430.html": {
+      "bytes": 2537328,
+      "sha256": "6deef1e228c11a7c3730c1af30e0f3e23a486bedf8b22494200a8c8f809d23f0"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101742.html": {
+      "bytes": 2537676,
+      "sha256": "f515b910d9c05c89d4c97e1051d2960afb02a062a5388ca0ce8ebf2f53222a4f"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101747.html": {
+      "bytes": 2537676,
+      "sha256": "f515b910d9c05c89d4c97e1051d2960afb02a062a5388ca0ce8ebf2f53222a4f"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101910.html": {
+      "bytes": 2541027,
+      "sha256": "4741ed9276018cf89f5918a27cdba71b500f5f6934ba31d438bb479df79eee24"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101911.html": {
+      "bytes": 2541471,
+      "sha256": "3f39ec8c4e0e2ca148d5ec66f02bf93ad3d9587808f498a58ef1187815743624"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101914.html": {
+      "bytes": 2541433,
+      "sha256": "ae986230298a0b406729143d0bf61be13153ba324d83b20f8d02370283fe964c"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101915.html": {
+      "bytes": 2541433,
+      "sha256": "ae986230298a0b406729143d0bf61be13153ba324d83b20f8d02370283fe964c"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101926.html": {
+      "bytes": 2543526,
+      "sha256": "5e4fc6f1a5a3d7ae661369c6f551e8aa7ee6f98a2cc18cfec742563636489870"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101928.html": {
+      "bytes": 2546062,
+      "sha256": "0178d3072eff13af4adcd25a85799621e60924b5286803e467fb243b391fc8ca"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101930.html": {
+      "bytes": 2546372,
+      "sha256": "22406694972c2ec5183efd3a1bf8d5b304063c939a63e18f7f6d45d1df266bc1"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101932.html": {
+      "bytes": 2546351,
+      "sha256": "0b8ec6b6f020f3567402abe6fb61cb68c8697547de1f8c0263b49a5e77f05c8a"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101933.html": {
+      "bytes": 2546351,
+      "sha256": "0b8ec6b6f020f3567402abe6fb61cb68c8697547de1f8c0263b49a5e77f05c8a"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101938.html": {
+      "bytes": 2545421,
+      "sha256": "9d3833b3c3f7766dde998757632764257c371497415ce69705d892a393d8743b"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101940.html": {
+      "bytes": 2545421,
+      "sha256": "9d3833b3c3f7766dde998757632764257c371497415ce69705d892a393d8743b"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101941.html": {
+      "bytes": 2545412,
+      "sha256": "4362dfd113dde1d49b1bc7d7100dbee4bc81f0e8b732ce49495d52543534a291"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610101942.html": {
+      "bytes": 2545412,
+      "sha256": "4362dfd113dde1d49b1bc7d7100dbee4bc81f0e8b732ce49495d52543534a291"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610102010.html": {
+      "bytes": 2545677,
+      "sha256": "9fc595b4ddf239c24cc2a14e501d3522b6bcc5fe718c41392bc96b90e2dce438"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610102013.html": {
+      "bytes": 2545642,
+      "sha256": "ce0aec53e9e4158f26f8c388ee808d0316baacfe78037cd8d3398e962b9c15df"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610102016.html": {
+      "bytes": 2545736,
+      "sha256": "6a29a0985ab8e7233a6cdb82abca0a675ea2dcd3f1731d5c362816181625f5a5"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610102020.html": {
+      "bytes": 2546057,
+      "sha256": "f91c6304d9506321bce95293663f208fc37f6368ad48016f09b8eca07268837a"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610102025.html": {
+      "bytes": 2545635,
+      "sha256": "af66f5b76c489d3c22d78ab1f581d883e325c8b6bb0f2709b2847e0da37295f4"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610110954.html": {
+      "bytes": 2546515,
+      "sha256": "2b9b8882483f433dacc2c97eda540f161049a83b326f5994a52c08dcc4d885cb"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610112211.html": {
+      "bytes": 2546796,
+      "sha256": "c3c27f7645fbfe1deaba732997b1aee5521b0dbfc4b5e064a450c49f8c126170"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610112235.html": {
+      "bytes": 2546959,
+      "sha256": "33eebc96052d8a3426eb86ddac401b81f679070d3d45282bf864e5a9321812f8"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610112250.html": {
+      "bytes": 2548129,
+      "sha256": "555540decf67b45fb9b76c79ee8e3ccd4221eff9527cf1f6b0a0da0a4bf0f5bd"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610112252.html": {
+      "bytes": 2548313,
+      "sha256": "e43b4c62aa274d2828400a3c3d6087ad687bb300a287b161f055e4f666b92216"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610112301.html": {
+      "bytes": 2548652,
+      "sha256": "7bc98f8c102676713cf88da4aea90134b8fc3a1c6fc7b93adeffbd880af57034"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610112307.html": {
+      "bytes": 2548920,
+      "sha256": "d3d63f2857577dd55f2d44f49bd52a101a3ea8ec236503c45f5cdcb51842f4e1"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610132100.html": {
+      "bytes": 2549046,
+      "sha256": "2a3cc59097c3ce2c2608e6475ae93d1b64d6857e74e89b297601d3d6a270b884"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_2610140600.html": {
+      "bytes": 2555166,
+      "sha256": "9e2cc491f8ca4ba649a5b8acb965a4f7669d2ab049fb1b8eeb918a341c449d7d"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_3D拟物试验版.html": {
+      "bytes": 2707235,
+      "sha256": "837f7e85880e515dc4d2d413887523c89a24f77b3b9b506c29627ccbbcff8f56"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_改造前_2026-10-05.html": {
+      "bytes": 632616,
+      "sha256": "856d3341c0bdf22671012bf25f85ec144123288251ff0dba93a865acba45155b"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_料亭优化版.html": {
+      "bytes": 2518050,
+      "sha256": "01d36ce39add10e28982e16d793d1630c66e6adbc01d77d94d76d9c3c3edc65b"
+    },
+    "成品/旧版/东方夜雀食堂攻略查询_料亭立体头像版.html": {
+      "bytes": 2536866,
+      "sha256": "338c30574c6b8cb0ad096a6fbe5db5dc4abeea33ab8291d8d99df8c2929417d6"
+    }
+  }
+}

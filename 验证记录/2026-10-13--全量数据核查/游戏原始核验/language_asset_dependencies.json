@@ -1,0 +1,190 @@
+{
+  "Assets/_SortedAssets/DataBase/Core/Language_Chinese/General/BeveragesLang.txt": [
+    "core_d588e1cad1b8b9b47f46af2be495e6c3.bundle",
+    "system_fontdata_assets_all.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/Core/Language_Chinese/General/BeverageTagsLang.txt": [
+    "core_d588e1cad1b8b9b47f46af2be495e6c3.bundle",
+    "system_fontdata_assets_all.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/Core/Language_Chinese/General/CookersLang.txt": [
+    "core_d588e1cad1b8b9b47f46af2be495e6c3.bundle",
+    "system_fontdata_assets_all.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/Core/Language_Chinese/General/FoodsLang.txt": [
+    "core_d588e1cad1b8b9b47f46af2be495e6c3.bundle",
+    "system_fontdata_assets_all.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/Core/Language_Chinese/General/FoodTagsLang.txt": [
+    "core_d588e1cad1b8b9b47f46af2be495e6c3.bundle",
+    "system_fontdata_assets_all.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/Core/Language_Chinese/General/IngredientsLang.txt": [
+    "core_d588e1cad1b8b9b47f46af2be495e6c3.bundle",
+    "system_fontdata_assets_all.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/Core/Language_Chinese/General/StandardCookersLang.txt": [
+    "core_d588e1cad1b8b9b47f46af2be495e6c3.bundle",
+    "system_fontdata_assets_all.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/Core/Language_Chinese/Guest/NormGuestLang.txt": [
+    "core_d588e1cad1b8b9b47f46af2be495e6c3.bundle",
+    "system_fontdata_assets_all.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/Core/Language_Chinese/Guest/SpecBevTagLang.txt": [
+    "core_d588e1cad1b8b9b47f46af2be495e6c3.bundle",
+    "system_fontdata_assets_all.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/Core/Language_Chinese/Guest/SpecFoodTagLang.txt": [
+    "core_d588e1cad1b8b9b47f46af2be495e6c3.bundle",
+    "system_fontdata_assets_all.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/Core/Language_Chinese/Guest/SpecGuestLang.txt": [
+    "core_d588e1cad1b8b9b47f46af2be495e6c3.bundle",
+    "system_fontdata_assets_all.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC1/DLC1_Language_Chinese/DLC1_General/DLC1_BeveragesLang.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC1/DLC1_Language_Chinese/DLC1_General/DLC1_BeverageTagsLang.txt": [
+    "dlc1_0afd98215ac51d973847dc2a00dcea6b.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC1/DLC1_Language_Chinese/DLC1_General/DLC1_CookersLang.txt": [
+    "dlc1_0afd98215ac51d973847dc2a00dcea6b.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC1/DLC1_Language_Chinese/DLC1_General/DLC1_FoodsLang.txt": [
+    "dlc1_0afd98215ac51d973847dc2a00dcea6b.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC1/DLC1_Language_Chinese/DLC1_General/DLC1_FoodTagsLang.txt": [
+    "dlc1_0afd98215ac51d973847dc2a00dcea6b.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC1/DLC1_Language_Chinese/DLC1_General/DLC1_IngredientsLang.txt": [
+    "dlc1_0afd98215ac51d973847dc2a00dcea6b.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC1/DLC1_Language_Chinese/DLC1_General/DLC1_IngredientsLang_2.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC1/DLC1_Language_Chinese/DLC1_Guest/DLC1_NormGuestLang.txt": [
+    "dlc1_0afd98215ac51d973847dc2a00dcea6b.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC1/DLC1_Language_Chinese/DLC1_Guest/DLC1_SpecFoodTagLang.txt": [
+    "dlc1_0afd98215ac51d973847dc2a00dcea6b.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC1/DLC1_Language_Chinese/DLC1_Guest/DLC1_SpecGuestLang.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC2/DLC2_Language_Chinese/DLC2_General/DLC2_BeveragesLang.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC2/DLC2_Language_Chinese/DLC2_General/DLC2_BeverageTagsLang.txt": [
+    "dlc2_9aa5445cfa6886a68947803386975906.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC2/DLC2_Language_Chinese/DLC2_General/DLC2_CookersLang.txt": [
+    "dlc2_9aa5445cfa6886a68947803386975906.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC2/DLC2_Language_Chinese/DLC2_General/DLC2_FoodsLang.txt": [
+    "dlc2_9aa5445cfa6886a68947803386975906.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC2/DLC2_Language_Chinese/DLC2_General/DLC2_FoodTagsLang.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC2/DLC2_Language_Chinese/DLC2_General/DLC2_IngredientsLang.txt": [
+    "dlc2_9aa5445cfa6886a68947803386975906.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC2/DLC2_Language_Chinese/DLC2_General/DLC2_IngredientsLang_2.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC2/DLC2_Language_Chinese/DLC2_Guest/DLC2_NormGuestLang.txt": [
+    "dlc2_9aa5445cfa6886a68947803386975906.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC2/DLC2_Language_Chinese/DLC2_Guest/DLC2_SpecFoodTagLang.txt": [
+    "dlc2_9aa5445cfa6886a68947803386975906.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC2/DLC2_Language_Chinese/DLC2_Guest/DLC2_SpecGuestLang.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC3/DLC3_Language_Chinese/DLC3_General/DLC3_BeveragesLang.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC3/DLC3_Language_Chinese/DLC3_General/DLC3_BeverageTagsLang.txt": [
+    "dlc3_18ca5f455cbdff205d4a3430a247a533.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC3/DLC3_Language_Chinese/DLC3_General/DLC3_CookersLang.txt": [
+    "dlc3_18ca5f455cbdff205d4a3430a247a533.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC3/DLC3_Language_Chinese/DLC3_General/DLC3_FoodsLang.txt": [
+    "dlc3_18ca5f455cbdff205d4a3430a247a533.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC3/DLC3_Language_Chinese/DLC3_General/DLC3_FoodTagsLang.txt": [
+    "dlc3_18ca5f455cbdff205d4a3430a247a533.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC3/DLC3_Language_Chinese/DLC3_General/DLC3_IngredientsLang.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC3/DLC3_Language_Chinese/DLC3_Guest/DLC3_NormGuestLang.txt": [
+    "dlc3_18ca5f455cbdff205d4a3430a247a533.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC3/DLC3_Language_Chinese/DLC3_Guest/DLC3_SpecFoodTagLang.txt": [
+    "dlc3_18ca5f455cbdff205d4a3430a247a533.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC3/DLC3_Language_Chinese/DLC3_Guest/DLC3_SpecGuestLang.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC4/DLC4_Language_Chinese/DLC4_General/DLC4_BeveragesLang.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC4/DLC4_Language_Chinese/DLC4_General/DLC4_BeverageTagsLang.txt": [
+    "dlc4_0dd43d15e0799f127cc4e2966daef09c.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC4/DLC4_Language_Chinese/DLC4_General/DLC4_CookersLang.txt": [
+    "dlc4_0dd43d15e0799f127cc4e2966daef09c.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC4/DLC4_Language_Chinese/DLC4_General/DLC4_FoodsLang.txt": [
+    "dlc4_0dd43d15e0799f127cc4e2966daef09c.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC4/DLC4_Language_Chinese/DLC4_General/DLC4_FoodTagsLang.txt": [
+    "dlc4_0dd43d15e0799f127cc4e2966daef09c.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC4/DLC4_Language_Chinese/DLC4_General/DLC4_IngredientsLang.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC4/DLC4_Language_Chinese/DLC4_Guest/DLC4_NormGuestLang.txt": [
+    "dlc4_0dd43d15e0799f127cc4e2966daef09c.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC4/DLC4_Language_Chinese/DLC4_Guest/DLC4_SpecFoodTagLang.txt": [
+    "dlc4_0dd43d15e0799f127cc4e2966daef09c.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC4/DLC4_Language_Chinese/DLC4_Guest/DLC4_SpecGuestLang.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC5/DLC5_Language_Chinese/DLC5_General/DLC5_BeveragesLang.txt": [
+    "dlc5_4a3161b3f1927859949fd0189e736a50.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC5/DLC5_Language_Chinese/DLC5_General/DLC5_BeverageTagsLang.txt": [
+    "dlc5_4a3161b3f1927859949fd0189e736a50.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC5/DLC5_Language_Chinese/DLC5_General/DLC5_CookersLang.txt": [
+    "dlc5_4a3161b3f1927859949fd0189e736a50.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC5/DLC5_Language_Chinese/DLC5_General/DLC5_FoodsLang.txt": [
+    "dlc5_4a3161b3f1927859949fd0189e736a50.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC5/DLC5_Language_Chinese/DLC5_General/DLC5_FoodTagsLang.txt": [
+    "dlc5_4a3161b3f1927859949fd0189e736a50.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC5/DLC5_Language_Chinese/DLC5_General/DLC5_IngredientsLang.txt": [
+    "dlc5_4a3161b3f1927859949fd0189e736a50.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC5/DLC5_Language_Chinese/DLC5_Guest/DLC5_NormGuestLang.txt": [
+    "dlc5_4a3161b3f1927859949fd0189e736a50.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC5/DLC5_Language_Chinese/DLC5_Guest/DLC5_SpecFoodTagLang.txt": [
+    "dlc5_4a3161b3f1927859949fd0189e736a50.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLC5/DLC5_Language_Chinese/DLC5_Guest/DLC5_SpecGuestLang.txt": [
+    "dlcshared_e02c043425f8a6671f7f00a8d77788d3.bundle"
+  ],
+  "Assets/_SortedAssets/DataBase/DLCMusic/DLCMusic_Language_Chinese/DLCMusic_Guest/DLCMusic_SpecGuestLang.txt": [
+    "dlcmusic_58abdf197f41fe3ae9779e7af8eac51b.bundle"
+  ]
+}

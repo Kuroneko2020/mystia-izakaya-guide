@@ -1,0 +1,54 @@
+{
+  "outputFile": "东方夜雀食堂攻略查询_2610141148.html",
+  "browser": "ZCode 官方 browser-use / 内置 Chromium 浏览器",
+  "transport": "仅本机 HTTP 预览，127.0.0.1:8765",
+  "viewport": {"width": 1280, "height": 720},
+  "rareGuestCards": {
+    "count": 59,
+    "contentVisibility": "visible",
+    "containIntrinsicSize": "none",
+    "beforeContent": "none",
+    "idleAnimations": 0,
+    "sampleCount": 5,
+    "uniqueVisualStates": 1,
+    "idleDomMutations": 0
+  },
+  "normalGuestCards": {
+    "count": 47,
+    "contentVisibility": "visible",
+    "containIntrinsicSize": "none",
+    "beforeContent": "none",
+    "idleAnimations": 0,
+    "avatarPerspectivePreserved": true
+  },
+  "hover": {
+    "hoverMatched": true,
+    "cardTransform": "matrix(1, 0, 0, 1, 0, -2)",
+    "avatarLiftAndPerspectiveObserved": true,
+    "glowOpacity": "1",
+    "afterHoverSettled": {"cardTransform": "none", "glowOpacity": "0", "animations": 0}
+  },
+  "detail": {
+    "openedByRealCoordinateClick": true,
+    "guestHeadingVisible": "稗田阿求",
+    "closedByRealCoordinateClick": true,
+    "detailVisibleAfterClose": false
+  },
+  "idleScreenshots": {
+    "intervalMs": 6000,
+    "changedRgbPixels": 0,
+    "pixelEquality": true,
+    "files": ["修复后_静置_1.png", "修复后_静置_2.png"]
+  },
+  "motionEnvironment": {
+    "prefersReducedMotion": true,
+    "normalCssTest": "仅在测试页面 CSSOM 将减少动态媒体规则临时置为 not all，未改系统或生产文件；JS 启动时的 REDUCED_MOTION 常量不随之改变",
+    "systemSettingsChanged": false
+  },
+  "toolLimitations": [
+    "部分官方浏览器 locator.click 超时，刷新观察后改用截图坐标点击，实际详情打开/关闭成功",
+    "普通客人页面截图超时，该项以计算样式与卡片数量观察验证，未声称完成普通客人截图对比",
+    "recording 文档入口不可用，未录制视频"
+  ],
+  "acceptanceBoundary": "本环境修复前未复现用户设备的周期闪烁。已验证修复生效和本环境待机稳定，不能据此认定已证明根因或完成用户长期实机验收。"
+}

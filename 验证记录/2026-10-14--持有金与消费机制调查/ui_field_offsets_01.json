@@ -1,0 +1,1134 @@
+{
+  "metadataSHA256": "995d1a08cac7a784d397927cf73ae71a8ce47cc8637cc4dd7ea534a3368b31e7",
+  "assemblySHA256": "91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789",
+  "registration": {
+    "fieldCountPos": "0x3c254c0",
+    "registrationRVA": "0x3c25470",
+    "fieldOffsetsVA": "0x184016000",
+    "typeSizesVA": "0x1840351b0",
+    "satoriOffsets": [
+      0,
+      24,
+      32,
+      36
+    ]
+  },
+  "types": [
+    {
+      "typeIndex": 1435,
+      "type": "NightScene.GuestManagementUtility.GuestGroupController",
+      "byvalTypeIndex": 24624,
+      "parentTypeIndex": 28405,
+      "offsetArrayVA": "0x182ebcd90",
+      "fields": [
+        {
+          "fieldIndex": 7532,
+          "name": "GUEST_MOOD_MIN",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7533,
+          "name": "GUEST_MOOD_MAX",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7534,
+          "name": "NORMAL_GUEST_MAX_EVAL",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7535,
+          "name": "SPECIAL_GUEST_MAX_EVAL",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7536,
+          "name": "POPULAR_TAG",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7537,
+          "name": "EXTRA_FEE_WHEN_CONTAINS_POPULAR_TAG",
+          "typeIndex": 30670,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7538,
+          "name": "BAD_MOOD_FEE",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7539,
+          "name": "NORMAL_MOOD_FEE",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7540,
+          "name": "GOOD_MOOD_FEE",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7541,
+          "name": "EXGOOD_MOOD_FEE",
+          "typeIndex": 26176,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7542,
+          "name": "currentQueuedChatacters",
+          "typeIndex": 12986,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 7543,
+          "name": "CurrentOrderPropertySource",
+          "typeIndex": 38203,
+          "offset": 16,
+          "offsetHex": "0x10"
+        },
+        {
+          "fieldIndex": 7544,
+          "name": "ExtraOrderStaticSource",
+          "typeIndex": 14617,
+          "offset": 24,
+          "offsetHex": "0x18"
+        },
+        {
+          "fieldIndex": 7545,
+          "name": "ExtraOrderVariableSource",
+          "typeIndex": 14617,
+          "offset": 32,
+          "offsetHex": "0x20"
+        },
+        {
+          "fieldIndex": 7546,
+          "name": "freeOrderCount",
+          "typeIndex": 26155,
+          "offset": 40,
+          "offsetHex": "0x28"
+        },
+        {
+          "fieldIndex": 7547,
+          "name": "guestInstances",
+          "typeIndex": 18163,
+          "offset": 48,
+          "offsetHex": "0x30"
+        },
+        {
+          "fieldIndex": 7548,
+          "name": "haveLeft",
+          "typeIndex": 20605,
+          "offset": 56,
+          "offsetHex": "0x38"
+        },
+        {
+          "fieldIndex": 7549,
+          "name": "leaveType",
+          "typeIndex": 38123,
+          "offset": 60,
+          "offsetHex": "0x3c"
+        },
+        {
+          "fieldIndex": 7550,
+          "name": "mood",
+          "typeIndex": 26153,
+          "offset": 64,
+          "offsetHex": "0x40"
+        },
+        {
+          "fieldIndex": 7551,
+          "name": "OverrideLikeFoodTagsCallback",
+          "typeIndex": 38132,
+          "offset": 72,
+          "offsetHex": "0x48"
+        },
+        {
+          "fieldIndex": 7552,
+          "name": "queued",
+          "typeIndex": 20605,
+          "offset": 80,
+          "offsetHex": "0x50"
+        },
+        {
+          "fieldIndex": 7553,
+          "name": "remainOrderCount",
+          "typeIndex": 26155,
+          "offset": 84,
+          "offsetHex": "0x54"
+        },
+        {
+          "fieldIndex": 7554,
+          "name": "spawnedFromPTA",
+          "typeIndex": 13974,
+          "offset": 88,
+          "offsetHex": "0x58"
+        },
+        {
+          "fieldIndex": 7555,
+          "name": "tileManager",
+          "typeIndex": 32123,
+          "offset": 96,
+          "offsetHex": "0x60"
+        },
+        {
+          "fieldIndex": 7556,
+          "name": "<DoNotShowHerOrderOnUI>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 104,
+          "offsetHex": "0x68"
+        },
+        {
+          "fieldIndex": 7557,
+          "name": "<BaseFundCarry>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 108,
+          "offsetHex": "0x6c"
+        },
+        {
+          "fieldIndex": 7558,
+          "name": "<GetFund>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 112,
+          "offsetHex": "0x70"
+        },
+        {
+          "fieldIndex": 7559,
+          "name": "<MaxFundCarry>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 116,
+          "offsetHex": "0x74"
+        },
+        {
+          "fieldIndex": 7560,
+          "name": "<ExtraFundByBuff>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 120,
+          "offsetHex": "0x78"
+        },
+        {
+          "fieldIndex": 7561,
+          "name": "<EnduranceLimit>k__BackingField",
+          "typeIndex": 30655,
+          "offset": 124,
+          "offsetHex": "0x7c"
+        },
+        {
+          "fieldIndex": 7562,
+          "name": "<OverrideEvaluationCallback>k__BackingField",
+          "typeIndex": 38128,
+          "offset": 128,
+          "offsetHex": "0x80"
+        },
+        {
+          "fieldIndex": 7563,
+          "name": "<QueuedGuestControllers>k__BackingField",
+          "typeIndex": 13116,
+          "offset": 8,
+          "offsetHex": "0x8"
+        },
+        {
+          "fieldIndex": 7564,
+          "name": "<OrderingGuest>k__BackingField",
+          "typeIndex": 24619,
+          "offset": 136,
+          "offsetHex": "0x88"
+        },
+        {
+          "fieldIndex": 7565,
+          "name": "<AllOrdersData>k__BackingField",
+          "typeIndex": 15032,
+          "offset": 144,
+          "offsetHex": "0x90"
+        },
+        {
+          "fieldIndex": 7566,
+          "name": "<ControllType>k__BackingField",
+          "typeIndex": 38189,
+          "offset": 152,
+          "offsetHex": "0x98"
+        },
+        {
+          "fieldIndex": 7567,
+          "name": "<CurrentPatient>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 156,
+          "offsetHex": "0x9c"
+        },
+        {
+          "fieldIndex": 7568,
+          "name": "<MaxPatient>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 160,
+          "offsetHex": "0xa0"
+        },
+        {
+          "fieldIndex": 7569,
+          "name": "<OnMoveToSeatCallback>k__BackingField",
+          "typeIndex": 4989,
+          "offset": 168,
+          "offsetHex": "0xa8"
+        },
+        {
+          "fieldIndex": 7570,
+          "name": "<OnFundOrOrderChangeCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 176,
+          "offsetHex": "0xb0"
+        },
+        {
+          "fieldIndex": 7571,
+          "name": "<OnFinishEatingCallbackWithParam>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 184,
+          "offsetHex": "0xb8"
+        },
+        {
+          "fieldIndex": 7572,
+          "name": "<OnFinishOrderCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 192,
+          "offsetHex": "0xc0"
+        },
+        {
+          "fieldIndex": 7573,
+          "name": "<OnCompletelyLeaveCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 200,
+          "offsetHex": "0xc8"
+        },
+        {
+          "fieldIndex": 7574,
+          "name": "<OnLeaveCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 208,
+          "offsetHex": "0xd0"
+        },
+        {
+          "fieldIndex": 7575,
+          "name": "<OnLeaveDeskCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 216,
+          "offsetHex": "0xd8"
+        },
+        {
+          "fieldIndex": 7576,
+          "name": "<OnPatienceRunOutCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 224,
+          "offsetHex": "0xe0"
+        },
+        {
+          "fieldIndex": 7577,
+          "name": "<OnPatientDepeletedCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 232,
+          "offsetHex": "0xe8"
+        },
+        {
+          "fieldIndex": 7578,
+          "name": "<OnStopInQueueCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 240,
+          "offsetHex": "0xf0"
+        },
+        {
+          "fieldIndex": 7579,
+          "name": "<OnLeaveQueueCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 248,
+          "offsetHex": "0xf8"
+        },
+        {
+          "fieldIndex": 7580,
+          "name": "<OnSitCallback>k__BackingField",
+          "typeIndex": 4649,
+          "offset": 256,
+          "offsetHex": "0x100"
+        },
+        {
+          "fieldIndex": 7581,
+          "name": "<OnExtraFinishEvaluationCallback>k__BackingField",
+          "typeIndex": 4886,
+          "offset": 264,
+          "offsetHex": "0x108"
+        },
+        {
+          "fieldIndex": 7582,
+          "name": "<OnPatientUpdatedCallback>k__BackingField",
+          "typeIndex": 4673,
+          "offset": 272,
+          "offsetHex": "0x110"
+        },
+        {
+          "fieldIndex": 7583,
+          "name": "<OnEvalFinishCallback>k__BackingField",
+          "typeIndex": 5061,
+          "offset": 280,
+          "offsetHex": "0x118"
+        },
+        {
+          "fieldIndex": 7584,
+          "name": "<talkMessageOverrideCallback>k__BackingField",
+          "typeIndex": 8677,
+          "offset": 288,
+          "offsetHex": "0x120"
+        },
+        {
+          "fieldIndex": 7585,
+          "name": "<DeskCode>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 296,
+          "offsetHex": "0x128"
+        },
+        {
+          "fieldIndex": 7586,
+          "name": "<TotalPassionGivenAmount>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 300,
+          "offsetHex": "0x12c"
+        },
+        {
+          "fieldIndex": 7587,
+          "name": "<CanIdleDialog>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 304,
+          "offsetHex": "0x130"
+        },
+        {
+          "fieldIndex": 7588,
+          "name": "<HasEvaluated>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 305,
+          "offsetHex": "0x131"
+        },
+        {
+          "fieldIndex": 7589,
+          "name": "<ExtraOrderNumMax>k__BackingField",
+          "typeIndex": 26153,
+          "offset": 308,
+          "offsetHex": "0x134"
+        },
+        {
+          "fieldIndex": 7590,
+          "name": "<IsFirst>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 312,
+          "offsetHex": "0x138"
+        },
+        {
+          "fieldIndex": 7591,
+          "name": "<OnMoodUpdateCallback>k__BackingField",
+          "typeIndex": 4753,
+          "offset": 320,
+          "offsetHex": "0x140"
+        },
+        {
+          "fieldIndex": 7592,
+          "name": "<OverrideOrderGenerationCallback>k__BackingField",
+          "typeIndex": 38134,
+          "offset": 328,
+          "offsetHex": "0x148"
+        },
+        {
+          "fieldIndex": 7593,
+          "name": "<ContinueOrderProbabilityCallback>k__BackingField",
+          "typeIndex": 38118,
+          "offset": 336,
+          "offsetHex": "0x150"
+        },
+        {
+          "fieldIndex": 7594,
+          "name": "<LikeFoodTags>k__BackingField",
+          "typeIndex": 18551,
+          "offset": 344,
+          "offsetHex": "0x158"
+        },
+        {
+          "fieldIndex": 7595,
+          "name": "<LikeBevTags>k__BackingField",
+          "typeIndex": 18551,
+          "offset": 352,
+          "offsetHex": "0x160"
+        },
+        {
+          "fieldIndex": 7596,
+          "name": "<HateFoodTags>k__BackingField",
+          "typeIndex": 18551,
+          "offset": 360,
+          "offsetHex": "0x168"
+        },
+        {
+          "fieldIndex": 7597,
+          "name": "<HateBevTags>k__BackingField",
+          "typeIndex": 18551,
+          "offset": 368,
+          "offsetHex": "0x170"
+        },
+        {
+          "fieldIndex": 7598,
+          "name": "<OverrideHateFoodTagsCallback>k__BackingField",
+          "typeIndex": 38130,
+          "offset": 376,
+          "offsetHex": "0x178"
+        },
+        {
+          "fieldIndex": 7599,
+          "name": "<IsOrdering>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 384,
+          "offsetHex": "0x180"
+        },
+        {
+          "fieldIndex": 7600,
+          "name": "<ContinueOrderWhenExbadEval>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 385,
+          "offsetHex": "0x181"
+        },
+        {
+          "fieldIndex": 7601,
+          "name": "<WillPayMoney>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 386,
+          "offsetHex": "0x182"
+        },
+        {
+          "fieldIndex": 7602,
+          "name": "<CanBeRepelled>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 387,
+          "offsetHex": "0x183"
+        },
+        {
+          "fieldIndex": 7603,
+          "name": "<ShouldHideFund>k__BackingField",
+          "typeIndex": 20605,
+          "offset": 388,
+          "offsetHex": "0x184"
+        },
+        {
+          "fieldIndex": 7604,
+          "name": "OnSpecialGuestHateFoodTag",
+          "typeIndex": 4896,
+          "offset": 392,
+          "offsetHex": "0x188"
+        }
+      ]
+    },
+    {
+      "typeIndex": 1755,
+      "type": "NightScene.UI.GuestManagementUtility.WorkSceneServePannel",
+      "byvalTypeIndex": 33652,
+      "parentTypeIndex": 32666,
+      "offsetArrayVA": "0x182eb5050",
+      "fields": [
+        {
+          "fieldIndex": 9676,
+          "name": "m_Scheduler",
+          "typeIndex": 19589,
+          "offset": 112,
+          "offsetHex": "0x70"
+        },
+        {
+          "fieldIndex": 9677,
+          "name": "describerPannel",
+          "typeIndex": 21065,
+          "offset": 120,
+          "offsetHex": "0x78"
+        },
+        {
+          "fieldIndex": 9678,
+          "name": "describerSubPannel",
+          "typeIndex": 21065,
+          "offset": 128,
+          "offsetHex": "0x80"
+        },
+        {
+          "fieldIndex": 9679,
+          "name": "normalRequest",
+          "typeIndex": 24391,
+          "offset": 136,
+          "offsetHex": "0x88"
+        },
+        {
+          "fieldIndex": 9680,
+          "name": "specialRequest",
+          "typeIndex": 24391,
+          "offset": 144,
+          "offsetHex": "0x90"
+        },
+        {
+          "fieldIndex": 9681,
+          "name": "onClose",
+          "typeIndex": 20261,
+          "offset": 152,
+          "offsetHex": "0x98"
+        },
+        {
+          "fieldIndex": 9682,
+          "name": "onOpen",
+          "typeIndex": 20261,
+          "offset": 160,
+          "offsetHex": "0xa0"
+        },
+        {
+          "fieldIndex": 9683,
+          "name": "servBev",
+          "typeIndex": 32619,
+          "offset": 168,
+          "offsetHex": "0xa8"
+        },
+        {
+          "fieldIndex": 9684,
+          "name": "servBevOutline",
+          "typeIndex": 25814,
+          "offset": 176,
+          "offsetHex": "0xb0"
+        },
+        {
+          "fieldIndex": 9685,
+          "name": "describer",
+          "typeIndex": 30388,
+          "offset": 184,
+          "offsetHex": "0xb8"
+        },
+        {
+          "fieldIndex": 9686,
+          "name": "servFood",
+          "typeIndex": 32619,
+          "offset": 192,
+          "offsetHex": "0xc0"
+        },
+        {
+          "fieldIndex": 9687,
+          "name": "servFoodOutline",
+          "typeIndex": 25814,
+          "offset": 200,
+          "offsetHex": "0xc8"
+        },
+        {
+          "fieldIndex": 9688,
+          "name": "guestName",
+          "typeIndex": 31941,
+          "offset": 208,
+          "offsetHex": "0xd0"
+        },
+        {
+          "fieldIndex": 9689,
+          "name": "onServedColor",
+          "typeIndex": 21596,
+          "offset": 216,
+          "offsetHex": "0xd8"
+        },
+        {
+          "fieldIndex": 9690,
+          "name": "deskCodeText",
+          "typeIndex": 31941,
+          "offset": 232,
+          "offsetHex": "0xe8"
+        },
+        {
+          "fieldIndex": 9691,
+          "name": "m_CurrentTray",
+          "typeIndex": 33664,
+          "offset": 240,
+          "offsetHex": "0xf0"
+        },
+        {
+          "fieldIndex": 9692,
+          "name": "m_DescriberCanvasGroup",
+          "typeIndex": 21064,
+          "offset": 248,
+          "offsetHex": "0xf8"
+        },
+        {
+          "fieldIndex": 9693,
+          "name": "willServeBeverage",
+          "typeIndex": 30384,
+          "offset": 256,
+          "offsetHex": "0x100"
+        },
+        {
+          "fieldIndex": 9694,
+          "name": "willServeFood",
+          "typeIndex": 30384,
+          "offset": 264,
+          "offsetHex": "0x108"
+        },
+        {
+          "fieldIndex": 9695,
+          "name": "<OpenContext>k__BackingField",
+          "typeIndex": 14186,
+          "offset": 272,
+          "offsetHex": "0x110"
+        }
+      ]
+    },
+    {
+      "typeIndex": 1737,
+      "type": "NightScene.UI.GuestManagementUtility.OrderingElement",
+      "byvalTypeIndex": 28571,
+      "parentTypeIndex": 27574,
+      "offsetArrayVA": "0x182eb47c0",
+      "fields": [
+        {
+          "fieldIndex": 9617,
+          "name": "s_Property",
+          "typeIndex": 26166,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 9618,
+          "name": "ghostField",
+          "typeIndex": 32413,
+          "offset": 24,
+          "offsetHex": "0x18"
+        },
+        {
+          "fieldIndex": 9619,
+          "name": "borderStyleImageForWaiting",
+          "typeIndex": 25814,
+          "offset": 32,
+          "offsetHex": "0x20"
+        },
+        {
+          "fieldIndex": 9620,
+          "name": "borderStyleImageForCurrent",
+          "typeIndex": 25814,
+          "offset": 40,
+          "offsetHex": "0x28"
+        },
+        {
+          "fieldIndex": 9621,
+          "name": "normalFoodFinished",
+          "typeIndex": 25814,
+          "offset": 48,
+          "offsetHex": "0x30"
+        },
+        {
+          "fieldIndex": 9622,
+          "name": "normalBevFinished",
+          "typeIndex": 25814,
+          "offset": 56,
+          "offsetHex": "0x38"
+        },
+        {
+          "fieldIndex": 9623,
+          "name": "specFoodFinished",
+          "typeIndex": 25814,
+          "offset": 64,
+          "offsetHex": "0x40"
+        },
+        {
+          "fieldIndex": 9624,
+          "name": "specBevFinished",
+          "typeIndex": 25814,
+          "offset": 72,
+          "offsetHex": "0x48"
+        },
+        {
+          "fieldIndex": 9625,
+          "name": "animator",
+          "typeIndex": 19846,
+          "offset": 80,
+          "offsetHex": "0x50"
+        },
+        {
+          "fieldIndex": 9626,
+          "name": "text",
+          "typeIndex": 31941,
+          "offset": 88,
+          "offsetHex": "0x58"
+        },
+        {
+          "fieldIndex": 9627,
+          "name": "layoutElement",
+          "typeIndex": 26746,
+          "offset": 96,
+          "offsetHex": "0x60"
+        },
+        {
+          "fieldIndex": 9628,
+          "name": "time",
+          "typeIndex": 30658,
+          "offset": 104,
+          "offsetHex": "0x68"
+        },
+        {
+          "fieldIndex": 9629,
+          "name": "normalOrderElement_Food",
+          "typeIndex": 23236,
+          "offset": 112,
+          "offsetHex": "0x70"
+        },
+        {
+          "fieldIndex": 9630,
+          "name": "normalOrderElement_Bev",
+          "typeIndex": 23236,
+          "offset": 120,
+          "offsetHex": "0x78"
+        },
+        {
+          "fieldIndex": 9631,
+          "name": "specialOrderElement",
+          "typeIndex": 23236,
+          "offset": 128,
+          "offsetHex": "0x80"
+        },
+        {
+          "fieldIndex": 9632,
+          "name": "current",
+          "typeIndex": 20605,
+          "offset": 136,
+          "offsetHex": "0x88"
+        },
+        {
+          "fieldIndex": 9633,
+          "name": "normalOrderElement_BevCanvasGroup",
+          "typeIndex": 21064,
+          "offset": 144,
+          "offsetHex": "0x90"
+        },
+        {
+          "fieldIndex": 9634,
+          "name": "normalOrderElement_FoodCanvasGroup",
+          "typeIndex": 21064,
+          "offset": 152,
+          "offsetHex": "0x98"
+        },
+        {
+          "fieldIndex": 9635,
+          "name": "onSelfRemoveFinish",
+          "typeIndex": 19574,
+          "offset": 160,
+          "offsetHex": "0xa0"
+        },
+        {
+          "fieldIndex": 9636,
+          "name": "onSetBevPartnerIndicatorCallback",
+          "typeIndex": 4762,
+          "offset": 168,
+          "offsetHex": "0xa8"
+        },
+        {
+          "fieldIndex": 9637,
+          "name": "onSetFoodPartnerIndicatorCallback",
+          "typeIndex": 4762,
+          "offset": 176,
+          "offsetHex": "0xb0"
+        },
+        {
+          "fieldIndex": 9638,
+          "name": "shouldMove",
+          "typeIndex": 20605,
+          "offset": 184,
+          "offsetHex": "0xb8"
+        },
+        {
+          "fieldIndex": 9639,
+          "name": "specialOrderElementCanvasGroup",
+          "typeIndex": 21064,
+          "offset": 192,
+          "offsetHex": "0xc0"
+        },
+        {
+          "fieldIndex": 9640,
+          "name": "velocity",
+          "typeIndex": 33200,
+          "offset": 200,
+          "offsetHex": "0xc8"
+        },
+        {
+          "fieldIndex": 9641,
+          "name": "<ActiveOrder>k__BackingField",
+          "typeIndex": 38197,
+          "offset": 216,
+          "offsetHex": "0xd8"
+        }
+      ]
+    },
+    {
+      "typeIndex": 3279,
+      "type": "GameData.Profile.DLC2_DecorationSatoriEye",
+      "byvalTypeIndex": 22193,
+      "parentTypeIndex": 22956,
+      "offsetArrayVA": "0x182ec8c80",
+      "fields": [
+        {
+          "fieldIndex": 17958,
+          "name": "SATORI_EYE_BUFF_MARK",
+          "typeIndex": 38096,
+          "offset": 0,
+          "offsetHex": "0x0"
+        },
+        {
+          "fieldIndex": 17959,
+          "name": "displayUI",
+          "typeIndex": 24391,
+          "offset": 24,
+          "offsetHex": "0x18"
+        },
+        {
+          "fieldIndex": 17960,
+          "name": "UIFieldIndex",
+          "typeIndex": 26157,
+          "offset": 32,
+          "offsetHex": "0x20"
+        },
+        {
+          "fieldIndex": 17961,
+          "name": "UIOffset",
+          "typeIndex": 30658,
+          "offset": 36,
+          "offsetHex": "0x24"
+        }
+      ]
+    },
+    {
+      "typeIndex": 3670,
+      "type": "Common.UI.SpecialGuestDescriber",
+      "byvalTypeIndex": 30851,
+      "parentTypeIndex": 26720,
+      "offsetArrayVA": "0x182ec5490",
+      "fields": [
+        {
+          "fieldIndex": 20585,
+          "name": "bse",
+          "typeIndex": 25814,
+          "offset": 96,
+          "offsetHex": "0x60"
+        },
+        {
+          "fieldIndex": 20586,
+          "name": "eyes",
+          "typeIndex": 25814,
+          "offset": 104,
+          "offsetHex": "0x68"
+        },
+        {
+          "fieldIndex": 20587,
+          "name": "trimBack",
+          "typeIndex": 25814,
+          "offset": 112,
+          "offsetHex": "0x70"
+        },
+        {
+          "fieldIndex": 20588,
+          "name": "trimFront",
+          "typeIndex": 25814,
+          "offset": 120,
+          "offsetHex": "0x78"
+        },
+        {
+          "fieldIndex": 20589,
+          "name": "portrayal",
+          "typeIndex": 25814,
+          "offset": 128,
+          "offsetHex": "0x80"
+        },
+        {
+          "fieldIndex": 20590,
+          "name": "foodTagParent",
+          "typeIndex": 24391,
+          "offset": 136,
+          "offsetHex": "0x88"
+        },
+        {
+          "fieldIndex": 20591,
+          "name": "banTagParent",
+          "typeIndex": 24391,
+          "offset": 144,
+          "offsetHex": "0x90"
+        },
+        {
+          "fieldIndex": 20592,
+          "name": "bevTagParent",
+          "typeIndex": 24391,
+          "offset": 152,
+          "offsetHex": "0x98"
+        },
+        {
+          "fieldIndex": 20593,
+          "name": "placeText",
+          "typeIndex": 31941,
+          "offset": 160,
+          "offsetHex": "0xa0"
+        },
+        {
+          "fieldIndex": 20594,
+          "name": "foodTagField",
+          "typeIndex": 29569,
+          "offset": 168,
+          "offsetHex": "0xa8"
+        },
+        {
+          "fieldIndex": 20595,
+          "name": "bevTagField",
+          "typeIndex": 29569,
+          "offset": 176,
+          "offsetHex": "0xb0"
+        },
+        {
+          "fieldIndex": 20596,
+          "name": "funds",
+          "typeIndex": 31941,
+          "offset": 184,
+          "offsetHex": "0xb8"
+        },
+        {
+          "fieldIndex": 20597,
+          "name": "kizunaField",
+          "typeIndex": 24391,
+          "offset": 192,
+          "offsetHex": "0xc0"
+        },
+        {
+          "fieldIndex": 20598,
+          "name": "kizunaExp",
+          "typeIndex": 25814,
+          "offset": 200,
+          "offsetHex": "0xc8"
+        },
+        {
+          "fieldIndex": 20599,
+          "name": "kizunaLevel",
+          "typeIndex": 31941,
+          "offset": 208,
+          "offsetHex": "0xd0"
+        },
+        {
+          "fieldIndex": 20600,
+          "name": "InfoField",
+          "typeIndex": 21065,
+          "offset": 216,
+          "offsetHex": "0xd8"
+        },
+        {
+          "fieldIndex": 20601,
+          "name": "DescriptionField",
+          "typeIndex": 21065,
+          "offset": 224,
+          "offsetHex": "0xe0"
+        },
+        {
+          "fieldIndex": 20602,
+          "name": "GotoInfoToggle",
+          "typeIndex": 32622,
+          "offset": 232,
+          "offsetHex": "0xe8"
+        },
+        {
+          "fieldIndex": 20603,
+          "name": "GotoDescriptionToggle",
+          "typeIndex": 32622,
+          "offset": 240,
+          "offsetHex": "0xf0"
+        },
+        {
+          "fieldIndex": 20604,
+          "name": "partnerProperties",
+          "typeIndex": 31941,
+          "offset": 248,
+          "offsetHex": "0xf8"
+        },
+        {
+          "fieldIndex": 20605,
+          "name": "positiveSC",
+          "typeIndex": 32632,
+          "offset": 256,
+          "offsetHex": "0x100"
+        },
+        {
+          "fieldIndex": 20606,
+          "name": "negativeSC",
+          "typeIndex": 32632,
+          "offset": 264,
+          "offsetHex": "0x108"
+        },
+        {
+          "fieldIndex": 20607,
+          "name": "allBanTagInstances",
+          "typeIndex": 13095,
+          "offset": 272,
+          "offsetHex": "0x110"
+        },
+        {
+          "fieldIndex": 20608,
+          "name": "allBevTagInstances",
+          "typeIndex": 13095,
+          "offset": 280,
+          "offsetHex": "0x118"
+        },
+        {
+          "fieldIndex": 20609,
+          "name": "allFoodTagInstances",
+          "typeIndex": 13095,
+          "offset": 288,
+          "offsetHex": "0x120"
+        },
+        {
+          "fieldIndex": 20610,
+          "name": "currencyInfo",
+          "typeIndex": 28383,
+          "offset": 296,
+          "offsetHex": "0x128"
+        },
+        {
+          "fieldIndex": 20611,
+          "name": "m_CurrentSwitcherSwitcherMode",
+          "typeIndex": 41317,
+          "offset": 304,
+          "offsetHex": "0x130"
+        },
+        {
+          "fieldIndex": 20612,
+          "name": "m_LastMode",
+          "typeIndex": 13972,
+          "offset": 308,
+          "offsetHex": "0x134"
+        },
+        {
+          "fieldIndex": 20613,
+          "name": "trimBackCoroutine",
+          "typeIndex": 22041,
+          "offset": 312,
+          "offsetHex": "0x138"
+        },
+        {
+          "fieldIndex": 20614,
+          "name": "m_IsSwitchModeEnabled",
+          "typeIndex": 20605,
+          "offset": 320,
+          "offsetHex": "0x140"
+        },
+        {
+          "fieldIndex": 20615,
+          "name": "trimFrontCoroutine",
+          "typeIndex": 22041,
+          "offset": 328,
+          "offsetHex": "0x148"
+        }
+      ]
+    }
+  ]
+}

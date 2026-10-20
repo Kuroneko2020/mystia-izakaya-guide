@@ -1,0 +1,26 @@
+# <>c::<GenerateOrderSession>b__174_4
+# {"declaringType": "<>c", "typeIndex": 1452, "image": "Assembly-CSharp.dll", "name": "<GenerateOrderSession>b__174_4", "metadataMethodIndex": 8652, "token": "0x60021cd", "methodPointerIndex": 8652, "va": "0x18051d9b0", "rva": "0x51d9b0", "endRva": "0x51d9cb", "returnTypeIndex": 20604, "parameters": [{"index": 6318, "name": "x", "typeIndex": 38196}]}
+# range end RVA 0x51d9d0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018051D9B0: 48 83 EC 28        sub         rsp,28h
+  000000018051D9B4: 48 85 D2           test        rdx,rdx
+  000000018051D9B7: 74 0C              je          000000018051D9C5
+  000000018051D9B9: 80 7A 4D 00        cmp         byte ptr [rdx+4Dh],0
+  000000018051D9BD: 0F 94 C0           sete        al
+  000000018051D9C0: 48 83 C4 28        add         rsp,28h
+  000000018051D9C4: C3                 ret
+  000000018051D9C5: E8 56 F7 E3 FF     call        000000018035D120
+  000000018051D9CA: CC                 int         3
+  000000018051D9CB: CC                 int         3
+  000000018051D9CC: CC                 int         3
+  000000018051D9CD: CC                 int         3
+  000000018051D9CE: CC                 int         3
+  000000018051D9CF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

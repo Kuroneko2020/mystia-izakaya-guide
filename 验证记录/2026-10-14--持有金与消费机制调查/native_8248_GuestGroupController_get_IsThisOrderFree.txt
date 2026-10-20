@@ -1,0 +1,32 @@
+# NightScene.GuestManagementUtility.GuestGroupController::get_IsThisOrderFree
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "get_IsThisOrderFree", "metadataMethodIndex": 8248, "token": "0x6002039", "methodPointerIndex": 8248, "va": "0x1804ca6b0", "rva": "0x4ca6b0", "endRva": null, "returnTypeIndex": 20604, "parameters": []}
+# range end RVA 0x4ca6d0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804CA6B0: 48 83 79 10 00     cmp         qword ptr [rcx+10h],0
+  00000001804CA6B5: 74 09              je          00000001804CA6C0
+  00000001804CA6B7: 48 8B 41 10        mov         rax,qword ptr [rcx+10h]
+  00000001804CA6BB: 0F B6 40 20        movzx       eax,byte ptr [rax+20h]
+  00000001804CA6BF: C3                 ret
+  00000001804CA6C0: 32 C0              xor         al,al
+  00000001804CA6C2: C3                 ret
+  00000001804CA6C3: CC                 int         3
+  00000001804CA6C4: CC                 int         3
+  00000001804CA6C5: CC                 int         3
+  00000001804CA6C6: CC                 int         3
+  00000001804CA6C7: CC                 int         3
+  00000001804CA6C8: CC                 int         3
+  00000001804CA6C9: CC                 int         3
+  00000001804CA6CA: CC                 int         3
+  00000001804CA6CB: CC                 int         3
+  00000001804CA6CC: CC                 int         3
+  00000001804CA6CD: CC                 int         3
+  00000001804CA6CE: CC                 int         3
+  00000001804CA6CF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

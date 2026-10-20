@@ -1,0 +1,226 @@
+# NightScene.GuestManagementUtility.SpecialGuestsController::IfCanUseSpellCard
+# {"declaringType": "NightScene.GuestManagementUtility.SpecialGuestsController", "typeIndex": 1514, "image": "Assembly-CSharp.dll", "name": "IfCanUseSpellCard", "metadataMethodIndex": 8934, "token": "0x60022e7", "methodPointerIndex": 8934, "va": "0x180514980", "rva": "0x514980", "endRva": "0x514c71", "returnTypeIndex": 20604, "parameters": [{"index": 6453, "name": "spellType", "typeIndex": 41333}, {"index": 6454, "name": "onFinish", "typeIndex": 19586}]}
+# range end RVA 0x514c71; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180514980: 48 89 5C 24 10     mov         qword ptr [rsp+10h],rbx
+  0000000180514985: 48 89 74 24 18     mov         qword ptr [rsp+18h],rsi
+  000000018051498A: 57                 push        rdi
+  000000018051498B: 48 83 EC 30        sub         rsp,30h
+  000000018051498F: 80 3D 6B 73 E5 03  cmp         byte ptr [000000018436BD01h],0
+                    00
+  0000000180514996: 49 8B D8           mov         rbx,r8
+  0000000180514999: 8B F2              mov         esi,edx
+  000000018051499B: 48 8B F9           mov         rdi,rcx
+  000000018051499E: 75 37              jne         00000001805149D7
+  00000001805149A0: 48 8D 0D 29 58 CB  lea         rcx,[00000001841CA1D0h]
+                    03
+  00000001805149A7: E8 D4 85 E4 FF     call        000000018035CF80
+  00000001805149AC: 48 8D 0D 3D 1F C4  lea         rcx,[00000001841568F0h]
+                    03
+  00000001805149B3: E8 C8 85 E4 FF     call        000000018035CF80
+  00000001805149B8: 48 8D 0D 81 39 CB  lea         rcx,[00000001841C8340h]
+                    03
+  00000001805149BF: E8 BC 85 E4 FF     call        000000018035CF80
+  00000001805149C4: 48 8D 0D 25 1E C4  lea         rcx,[00000001841567F0h]
+                    03
+  00000001805149CB: E8 B0 85 E4 FF     call        000000018035CF80
+  00000001805149D0: C6 05 2A 73 E5 03  mov         byte ptr [000000018436BD01h],1
+                    01
+  00000001805149D7: 48 8B 8F A8 01 00  mov         rcx,qword ptr [rdi+00000000000001A8h]
+                    00
+  00000001805149DE: 48 85 C9           test        rcx,rcx
+  00000001805149E1: 0F 84 07 02 00 00  je          0000000180514BEE
+  00000001805149E7: 33 D2              xor         edx,edx
+  00000001805149E9: E8 32 86 17 00     call        000000018068D020 ; GameData.Core.Collections.NightSceneUtility.SpecialGuest::get_HasSpell [MI 14720, RVA 0x68d020]
+  00000001805149EE: 84 C0              test        al,al
+  00000001805149F0: 0F 84 6C 01 00 00  je          0000000180514B62
+  00000001805149F6: 8B CE              mov         ecx,esi
+  00000001805149F8: 85 F6              test        esi,esi
+  00000001805149FA: 0F 84 80 00 00 00  je          0000000180514A80
+  0000000180514A00: 83 E9 01           sub         ecx,1
+  0000000180514A03: 74 42              je          0000000180514A47
+  0000000180514A05: 83 F9 01           cmp         ecx,1
+  0000000180514A08: 0F 85 E6 01 00 00  jne         0000000180514BF4
+  0000000180514A0E: 48 8B 8F A8 01 00  mov         rcx,qword ptr [rdi+00000000000001A8h]
+                    00
+  0000000180514A15: 48 85 C9           test        rcx,rcx
+  0000000180514A18: 0F 84 D0 01 00 00  je          0000000180514BEE
+  0000000180514A1E: 8B 49 10           mov         ecx,dword ptr [rcx+10h]
+  0000000180514A21: 33 D2              xor         edx,edx
+  0000000180514A23: E8 C8 A6 16 00     call        000000018067F0F0 ; GameData.Core.Collections.NightSceneUtility.DataBaseNight::WorkSceneGetSpell [MI 14679, RVA 0x67f0f0]
+  0000000180514A28: 48 85 C0           test        rax,rax
+  0000000180514A2B: 0F 84 BD 01 00 00  je          0000000180514BEE
+  0000000180514A31: 4C 8B 00           mov         r8,qword ptr [rax]
+  0000000180514A34: 48 8B C8           mov         rcx,rax
+  0000000180514A37: 49 8B 90 F0 01 00  mov         rdx,qword ptr [r8+00000000000001F0h]
+                    00
+  0000000180514A3E: 41 FF 90 E8 01 00  call        qword ptr [r8+00000000000001E8h]
+                    00
+  0000000180514A45: EB 70              jmp         0000000180514AB7
+  0000000180514A47: 48 8B 8F A8 01 00  mov         rcx,qword ptr [rdi+00000000000001A8h]
+                    00
+  0000000180514A4E: 48 85 C9           test        rcx,rcx
+  0000000180514A51: 0F 84 97 01 00 00  je          0000000180514BEE
+  0000000180514A57: 8B 49 10           mov         ecx,dword ptr [rcx+10h]
+  0000000180514A5A: 33 D2              xor         edx,edx
+  0000000180514A5C: E8 8F A6 16 00     call        000000018067F0F0 ; GameData.Core.Collections.NightSceneUtility.DataBaseNight::WorkSceneGetSpell [MI 14679, RVA 0x67f0f0]
+  0000000180514A61: 48 85 C0           test        rax,rax
+  0000000180514A64: 0F 84 84 01 00 00  je          0000000180514BEE
+  0000000180514A6A: 4C 8B 00           mov         r8,qword ptr [rax]
+  0000000180514A6D: 48 8B C8           mov         rcx,rax
+  0000000180514A70: 49 8B 90 D0 01 00  mov         rdx,qword ptr [r8+00000000000001D0h]
+                    00
+  0000000180514A77: 41 FF 90 C8 01 00  call        qword ptr [r8+00000000000001C8h]
+                    00
+  0000000180514A7E: EB 37              jmp         0000000180514AB7
+  0000000180514A80: 48 8B 8F A8 01 00  mov         rcx,qword ptr [rdi+00000000000001A8h]
+                    00
+  0000000180514A87: 48 85 C9           test        rcx,rcx
+  0000000180514A8A: 0F 84 5E 01 00 00  je          0000000180514BEE
+  0000000180514A90: 8B 49 10           mov         ecx,dword ptr [rcx+10h]
+  0000000180514A93: 33 D2              xor         edx,edx
+  0000000180514A95: E8 56 A6 16 00     call        000000018067F0F0 ; GameData.Core.Collections.NightSceneUtility.DataBaseNight::WorkSceneGetSpell [MI 14679, RVA 0x67f0f0]
+  0000000180514A9A: 48 85 C0           test        rax,rax
+  0000000180514A9D: 0F 84 4B 01 00 00  je          0000000180514BEE
+  0000000180514AA3: 4C 8B 00           mov         r8,qword ptr [rax]
+  0000000180514AA6: 48 8B C8           mov         rcx,rax
+  0000000180514AA9: 49 8B 90 B0 01 00  mov         rdx,qword ptr [r8+00000000000001B0h]
+                    00
+  0000000180514AB0: 41 FF 90 A8 01 00  call        qword ptr [r8+00000000000001A8h]
+                    00
+  0000000180514AB7: 84 C0              test        al,al
+  0000000180514AB9: 74 5B              je          0000000180514B16
+  0000000180514ABB: 48 83 BF A0 01 00  cmp         qword ptr [rdi+00000000000001A0h],0
+                    00 00
+  0000000180514AC3: 74 3F              je          0000000180514B04
+  0000000180514AC5: 48 8B 87 A0 01 00  mov         rax,qword ptr [rdi+00000000000001A0h]
+                    00
+  0000000180514ACC: 48 8B D7           mov         rdx,rdi
+  0000000180514ACF: 4C 8B 40 28        mov         r8,qword ptr [rax+28h]
+  0000000180514AD3: 48 8B 48 40        mov         rcx,qword ptr [rax+40h]
+  0000000180514AD7: FF 50 18           call        qword ptr [rax+18h]
+  0000000180514ADA: 84 C0              test        al,al
+  0000000180514ADC: 75 26              jne         0000000180514B04
+  0000000180514ADE: 48 85 DB           test        rbx,rbx
+  0000000180514AE1: 0F 84 F5 00 00 00  je          0000000180514BDC
+  0000000180514AE7: 48 8B 53 28        mov         rdx,qword ptr [rbx+28h]
+  0000000180514AEB: 48 8B 4B 40        mov         rcx,qword ptr [rbx+40h]
+  0000000180514AEF: FF 53 18           call        qword ptr [rbx+18h]
+  0000000180514AF2: 32 C0              xor         al,al
+  0000000180514AF4: 48 8B 5C 24 48     mov         rbx,qword ptr [rsp+48h]
+  0000000180514AF9: 48 8B 74 24 50     mov         rsi,qword ptr [rsp+50h]
+  0000000180514AFE: 48 83 C4 30        add         rsp,30h
+  0000000180514B02: 5F                 pop         rdi
+  0000000180514B03: C3                 ret
+  0000000180514B04: B0 01              mov         al,1
+  0000000180514B06: 48 8B 5C 24 48     mov         rbx,qword ptr [rsp+48h]
+  0000000180514B0B: 48 8B 74 24 50     mov         rsi,qword ptr [rsp+50h]
+  0000000180514B10: 48 83 C4 30        add         rsp,30h
+  0000000180514B14: 5F                 pop         rdi
+  0000000180514B15: C3                 ret
+  0000000180514B16: 48 85 DB           test        rbx,rbx
+  0000000180514B19: 74 0B              je          0000000180514B26
+  0000000180514B1B: 48 8B 53 28        mov         rdx,qword ptr [rbx+28h]
+  0000000180514B1F: 48 8B 4B 40        mov         rcx,qword ptr [rbx+40h]
+  0000000180514B23: FF 53 18           call        qword ptr [rbx+18h]
+  0000000180514B26: 48 8B 8F A8 01 00  mov         rcx,qword ptr [rdi+00000000000001A8h]
+                    00
+  0000000180514B2D: 48 85 C9           test        rcx,rcx
+  0000000180514B30: 0F 84 B8 00 00 00  je          0000000180514BEE
+  0000000180514B36: 48 8B 01           mov         rax,qword ptr [rcx]
+  0000000180514B39: 48 8B 90 B0 01 00  mov         rdx,qword ptr [rax+00000000000001B0h]
+                    00
+  0000000180514B40: FF 90 A8 01 00 00  call        qword ptr [rax+00000000000001A8h]
+  0000000180514B46: 48 85 C0           test        rax,rax
+  0000000180514B49: 0F 84 9F 00 00 00  je          0000000180514BEE
+  0000000180514B4F: 33 D2              xor         edx,edx
+  0000000180514B51: 48 8B C8           mov         rcx,rax
+  0000000180514B54: E8 C7 32 ED FF     call        00000001803E7E20
+  0000000180514B59: 4C 8B 05 90 1C C4  mov         r8,qword ptr [00000001841567F0h]
+                    03
+  0000000180514B60: EB 42              jmp         0000000180514BA4
+  0000000180514B62: 48 85 DB           test        rbx,rbx
+  0000000180514B65: 74 0B              je          0000000180514B72
+  0000000180514B67: 48 8B 53 28        mov         rdx,qword ptr [rbx+28h]
+  0000000180514B6B: 48 8B 4B 40        mov         rcx,qword ptr [rbx+40h]
+  0000000180514B6F: FF 53 18           call        qword ptr [rbx+18h]
+  0000000180514B72: 48 8B 8F A8 01 00  mov         rcx,qword ptr [rdi+00000000000001A8h]
+                    00
+  0000000180514B79: 48 85 C9           test        rcx,rcx
+  0000000180514B7C: 74 70              je          0000000180514BEE
+  0000000180514B7E: 48 8B 01           mov         rax,qword ptr [rcx]
+  0000000180514B81: 48 8B 90 B0 01 00  mov         rdx,qword ptr [rax+00000000000001B0h]
+                    00
+  0000000180514B88: FF 90 A8 01 00 00  call        qword ptr [rax+00000000000001A8h]
+  0000000180514B8E: 48 85 C0           test        rax,rax
+  0000000180514B91: 74 5B              je          0000000180514BEE
+  0000000180514B93: 33 D2              xor         edx,edx
+  0000000180514B95: 48 8B C8           mov         rcx,rax
+  0000000180514B98: E8 83 32 ED FF     call        00000001803E7E20
+  0000000180514B9D: 4C 8B 05 4C 1D C4  mov         r8,qword ptr [00000001841568F0h]
+                    03
+  0000000180514BA4: 48 8B 0D 95 37 CB  mov         rcx,qword ptr [00000001841C8340h]
+                    03
+  0000000180514BAB: 45 33 C9           xor         r9d,r9d
+  0000000180514BAE: 48 8B D0           mov         rdx,rax
+  0000000180514BB1: E8 CA 91 BF 01     call        000000018210DD80 ; System.String::Concat [MI 25740, RVA 0x210dd80]
+  0000000180514BB6: 48 8B 0D 13 56 CB  mov         rcx,qword ptr [00000001841CA1D0h]
+                    03
+  0000000180514BBD: 48 8B D8           mov         rbx,rax
+  0000000180514BC0: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  0000000180514BC7: 75 05              jne         0000000180514BCE
+  0000000180514BC9: E8 E2 86 DE FF     call        00000001802FD2B0
+  0000000180514BCE: 45 33 C0           xor         r8d,r8d
+  0000000180514BD1: 48 8B D3           mov         rdx,rbx
+  0000000180514BD4: 48 8B CF           mov         rcx,rdi
+  0000000180514BD7: E8 44 65 EE FF     call        00000001803FB120
+  0000000180514BDC: 48 8B 5C 24 48     mov         rbx,qword ptr [rsp+48h]
+  0000000180514BE1: 32 C0              xor         al,al
+  0000000180514BE3: 48 8B 74 24 50     mov         rsi,qword ptr [rsp+50h]
+  0000000180514BE8: 48 83 C4 30        add         rsp,30h
+  0000000180514BEC: 5F                 pop         rdi
+  0000000180514BED: C3                 ret
+  0000000180514BEE: E8 2D 85 E4 FF     call        000000018035D120
+  0000000180514BF3: CC                 int         3
+  0000000180514BF4: 48 8D 0D 05 0F C3  lea         rcx,[0000000184145B00h]
+                    03
+  0000000180514BFB: 89 74 24 40        mov         dword ptr [rsp+40h],esi
+  0000000180514BFF: E8 7C 83 E4 FF     call        000000018035CF80
+  0000000180514C04: 48 8B C8           mov         rcx,rax
+  0000000180514C07: 48 8D 54 24 40     lea         rdx,[rsp+40h]
+  0000000180514C0C: E8 FF 8D DE FF     call        00000001802FDA10
+  0000000180514C11: 48 8D 0D D0 0C C8  lea         rcx,[00000001841958E8h]
+                    03
+  0000000180514C18: 48 8B D8           mov         rbx,rax
+  0000000180514C1B: E8 60 83 E4 FF     call        000000018035CF80
+  0000000180514C20: 48 8B C8           mov         rcx,rax
+  0000000180514C23: E8 98 84 E4 FF     call        000000018035D0C0
+  0000000180514C28: 48 8B C8           mov         rcx,rax
+  0000000180514C2B: 48 8B F8           mov         rdi,rax
+  0000000180514C2E: E8 ED E4 AE FF     call        0000000180003120
+  0000000180514C33: 48 8D 0D 36 3B C2  lea         rcx,[0000000184138770h]
+                    03
+  0000000180514C3A: E8 41 83 E4 FF     call        000000018035CF80
+  0000000180514C3F: 48 8B D0           mov         rdx,rax
+  0000000180514C42: 48 C7 44 24 20 00  mov         qword ptr [rsp+20h],0
+                    00 00 00
+  0000000180514C4B: 45 33 C9           xor         r9d,r9d
+  0000000180514C4E: 4C 8B C3           mov         r8,rbx
+  0000000180514C51: 48 8B CF           mov         rcx,rdi
+  0000000180514C54: E8 97 F0 CA 01     call        00000001821C3CF0 ; System.ArgumentOutOfRangeException::.ctor [MI 26124, RVA 0x21c3cf0]
+  0000000180514C59: 48 8D 0D 30 CE C6  lea         rcx,[0000000184181A90h]
+                    03
+  0000000180514C60: E8 1B 83 E4 FF     call        000000018035CF80
+  0000000180514C65: 48 8B D0           mov         rdx,rax
+  0000000180514C68: 48 8B CF           mov         rcx,rdi
+  0000000180514C6B: E8 70 84 E4 FF     call        000000018035D0E0
+  0000000180514C70: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

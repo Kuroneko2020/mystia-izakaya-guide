@@ -1,0 +1,312 @@
+# NightScene.GuestManagementUtility.SpecialGuestsController::PostGenerateOrder
+# {"declaringType": "NightScene.GuestManagementUtility.SpecialGuestsController", "typeIndex": 1514, "image": "Assembly-CSharp.dll", "name": "PostGenerateOrder", "metadataMethodIndex": 8924, "token": "0x60022dd", "methodPointerIndex": 8924, "va": "0x1805151b0", "rva": "0x5151b0", "endRva": "0x5152ae", "returnTypeIndex": 38196, "parameters": [{"index": 6438, "name": "isFreeOrder", "typeIndex": 20604}, {"index": 6439, "name": "orderGenerationMessage", "typeIndex": 17200}]}
+# range end RVA 0x515600; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001805151B0: 40 55              push        rbp
+  00000001805151B2: 56                 push        rsi
+  00000001805151B3: 57                 push        rdi
+  00000001805151B4: 41 57              push        r15
+  00000001805151B6: 48 83 EC 38        sub         rsp,38h
+  00000001805151BA: 80 3D 38 6B E5 03  cmp         byte ptr [000000018436BCF9h],0
+                    00
+  00000001805151C1: 49 8B F8           mov         rdi,r8
+  00000001805151C4: 44 0F B6 FA        movzx       r15d,dl
+  00000001805151C8: 48 8B F1           mov         rsi,rcx
+  00000001805151CB: 0F 85 C7 00 00 00  jne         0000000180515298
+  00000001805151D1: 48 8D 0D 00 B2 C2  lea         rcx,[00000001841403D8h]
+                    03
+  00000001805151D8: E8 A3 7D E4 FF     call        000000018035CF80
+  00000001805151DD: 48 8D 0D 8C 70 CB  lea         rcx,[00000001841CC270h]
+                    03
+  00000001805151E4: E8 97 7D E4 FF     call        000000018035CF80
+  00000001805151E9: 48 8D 0D 28 AA C5  lea         rcx,[000000018416FC18h]
+                    03
+  00000001805151F0: E8 8B 7D E4 FF     call        000000018035CF80
+  00000001805151F5: 48 8D 0D 84 54 C6  lea         rcx,[000000018417A680h]
+                    03
+  00000001805151FC: E8 7F 7D E4 FF     call        000000018035CF80
+  0000000180515201: 48 8D 0D 00 F0 C3  lea         rcx,[0000000184154208h]
+                    03
+  0000000180515208: E8 73 7D E4 FF     call        000000018035CF80
+  000000018051520D: 48 8D 0D 44 79 C8  lea         rcx,[000000018419CB58h]
+                    03
+  0000000180515214: E8 67 7D E4 FF     call        000000018035CF80
+  0000000180515219: 48 8D 0D E0 13 CB  lea         rcx,[00000001841C6600h]
+                    03
+  0000000180515220: E8 5B 7D E4 FF     call        000000018035CF80
+  0000000180515225: 48 8D 0D CC 14 CB  lea         rcx,[00000001841C66F8h]
+                    03
+  000000018051522C: E8 4F 7D E4 FF     call        000000018035CF80
+  0000000180515231: 48 8D 0D C8 03 C3  lea         rcx,[0000000184145600h]
+                    03
+  0000000180515238: E8 43 7D E4 FF     call        000000018035CF80
+  000000018051523D: 48 8D 0D DC 52 C7  lea         rcx,[000000018418A520h]
+                    03
+  0000000180515244: E8 37 7D E4 FF     call        000000018035CF80
+  0000000180515249: 48 8D 0D 60 04 C9  lea         rcx,[00000001841A56B0h]
+                    03
+  0000000180515250: E8 2B 7D E4 FF     call        000000018035CF80
+  0000000180515255: 48 8D 0D 64 BE CB  lea         rcx,[00000001841D10C0h]
+                    03
+  000000018051525C: E8 1F 7D E4 FF     call        000000018035CF80
+  0000000180515261: 48 8D 0D 88 04 C4  lea         rcx,[00000001841556F0h]
+                    03
+  0000000180515268: E8 13 7D E4 FF     call        000000018035CF80
+  000000018051526D: 48 8D 0D B4 1F C5  lea         rcx,[0000000184167228h]
+                    03
+  0000000180515274: E8 07 7D E4 FF     call        000000018035CF80
+  0000000180515279: 48 8D 0D F0 CA CB  lea         rcx,[00000001841D1D70h]
+                    03
+  0000000180515280: E8 FB 7C E4 FF     call        000000018035CF80
+  0000000180515285: 48 8D 0D 34 BA CB  lea         rcx,[00000001841D0CC0h]
+                    03
+  000000018051528C: E8 EF 7C E4 FF     call        000000018035CF80
+  0000000180515291: C6 05 61 6A E5 03  mov         byte ptr [000000018436BCF9h],1
+                    01
+  0000000180515298: 48 8B 0D 61 03 C3  mov         rcx,qword ptr [0000000184145600h]
+                    03
+  000000018051529F: 48 89 5C 24 60     mov         qword ptr [rsp+60h],rbx
+  00000001805152A4: 4C 89 64 24 68     mov         qword ptr [rsp+68h],r12
+  00000001805152A9: 4C 89 6C 24 70     mov         qword ptr [rsp+70h],r13
+  00000001805152AE: 4C 89 74 24 30     mov         qword ptr [rsp+30h],r14
+  00000001805152B3: E8 08 7E E4 FF     call        000000018035D0C0
+  00000001805152B8: 48 8B E8           mov         rbp,rax
+  00000001805152BB: 48 85 C0           test        rax,rax
+  00000001805152BE: 0F 84 2E 03 00 00  je          00000001805155F2
+  00000001805152C4: 33 D2              xor         edx,edx
+  00000001805152C6: 48 8B C8           mov         rcx,rax
+  00000001805152C9: E8 02 36 ED FF     call        00000001803E88D0 ; <<Confirm>g__Jump|3>d::System.IDisposable.Dispose [MI 150, RVA 0x3e88d0] | <<Confirm>g__OnRotation|11_1>d::System.IDisposable.Dispose [MI 156, RVA 0x3e88d0] | <CountDownLoop>d__7::System.IDisposable.Dispose [MI 354, RVA 0x3e88d0] | <<OnPanelOpen>g__OnLoadFinish|2>d::System.IDisposable.Dispose [MI 440, RVA 0x3e88d0] | <<OnPanelOpen>g__ShowCG|3>d::System.IDisposable.Dispose [MI 446, RVA 0x3e88d0] | <>c::<OnPanelInitialize>b__24_1 [MI 507, RVA 0x3e88d0] | <<TypeCoroutine>g__DoType|2>d::System.IDisposable.Dispose [MI 538, RVA 0x3e88d0] | <TypeCoroutine>d__34::System.IDisposable.Dispose [MI 544, RVA 0x3e88d0] | <OnUpdatePreview>d__24::System.IDisposable.Dispose [MI 560, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnPanelOpen [MI 590, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnExitExtern [MI 591, RVA 0x3e88d0] | <<OnPanelOpen>g__AfterPreviewMusicLoad|0>d::System.IDisposable.Dispose [MI 619, RVA 0x3e88d0]
+  00000001805152CE: 48 8D 4D 10        lea         rcx,[rbp+10h]
+  00000001805152D2: 48 89 75 10        mov         qword ptr [rbp+10h],rsi
+  00000001805152D6: 48 8B D6           mov         rdx,rsi
+  00000001805152D9: E8 D2 77 E4 FF     call        000000018035CAB0
+  00000001805152DE: 4C 8B 06           mov         r8,qword ptr [rsi]
+  00000001805152E1: 48 8B CE           mov         rcx,rsi
+  00000001805152E4: 49 8B 90 C0 01 00  mov         rdx,qword ptr [r8+00000000000001C0h]
+                    00
+  00000001805152EB: 41 FF 90 B8 01 00  call        qword ptr [r8+00000000000001B8h]
+                    00
+  00000001805152F2: 4C 8B 05 F7 03 C4  mov         r8,qword ptr [00000001841556F0h]
+                    03
+  00000001805152F9: 45 33 C9           xor         r9d,r9d
+  00000001805152FC: 48 8B 0D 25 1F C5  mov         rcx,qword ptr [0000000184167228h]
+                    03
+  0000000180515303: 48 8B D0           mov         rdx,rax
+  0000000180515306: E8 75 8A BF 01     call        000000018210DD80 ; System.String::Concat [MI 25740, RVA 0x210dd80]
+  000000018051530B: 48 8B D0           mov         rdx,rax
+  000000018051530E: 48 89 07           mov         qword ptr [rdi],rax
+  0000000180515311: 48 8B CF           mov         rcx,rdi
+  0000000180515314: E8 97 77 E4 FF     call        000000018035CAB0
+  0000000180515319: 48 8B 1F           mov         rbx,qword ptr [rdi]
+  000000018051531C: 48 8D 54 24 20     lea         rdx,[rsp+20h]
+  0000000180515321: 48 8B 0D E0 EE C3  mov         rcx,qword ptr [0000000184154208h]
+                    03
+  0000000180515328: 45 84 FF           test        r15b,r15b
+  000000018051532B: 74 3F              je          000000018051536C
+  000000018051532D: 8B 46 28           mov         eax,dword ptr [rsi+28h]
+  0000000180515330: 89 44 24 20        mov         dword ptr [rsp+20h],eax
+  0000000180515334: E8 D7 86 DE FF     call        00000001802FDA10
+  0000000180515339: 48 8B 0D 80 B9 CB  mov         rcx,qword ptr [00000001841D0CC0h]
+                    03
+  0000000180515340: 45 33 C0           xor         r8d,r8d
+  0000000180515343: 48 8B D0           mov         rdx,rax
+  0000000180515346: E8 45 C0 BF 01     call        0000000182111390 ; System.String::Format [MI 25743, RVA 0x2111390]
+  000000018051534B: 45 33 C0           xor         r8d,r8d
+  000000018051534E: 48 8B D0           mov         rdx,rax
+  0000000180515351: 48 8B CB           mov         rcx,rbx
+  0000000180515354: E8 47 8D BF 01     call        000000018210E0A0 ; System.String::Concat [MI 25739, RVA 0x210e0a0]
+  0000000180515359: 48 8B D0           mov         rdx,rax
+  000000018051535C: 48 89 07           mov         qword ptr [rdi],rax
+  000000018051535F: 48 8B CF           mov         rcx,rdi
+  0000000180515362: E8 49 77 E4 FF     call        000000018035CAB0
+  0000000180515367: E9 A5 00 00 00     jmp         0000000180515411
+  000000018051536C: 8B 46 70           mov         eax,dword ptr [rsi+70h]
+  000000018051536F: 89 44 24 20        mov         dword ptr [rsp+20h],eax
+  0000000180515373: E8 98 86 DE FF     call        00000001802FDA10
+  0000000180515378: 48 8B 0D A1 51 C7  mov         rcx,qword ptr [000000018418A520h]
+                    03
+  000000018051537F: 45 33 C0           xor         r8d,r8d
+  0000000180515382: 48 8B D0           mov         rdx,rax
+  0000000180515385: E8 06 C0 BF 01     call        0000000182111390 ; System.String::Format [MI 25743, RVA 0x2111390]
+  000000018051538A: 45 33 C0           xor         r8d,r8d
+  000000018051538D: 48 8B D0           mov         rdx,rax
+  0000000180515390: 48 8B CB           mov         rcx,rbx
+  0000000180515393: E8 08 8D BF 01     call        000000018210E0A0 ; System.String::Concat [MI 25739, RVA 0x210e0a0]
+  0000000180515398: 48 8B D0           mov         rdx,rax
+  000000018051539B: 48 89 07           mov         qword ptr [rdi],rax
+  000000018051539E: 48 8B CF           mov         rcx,rdi
+  00000001805153A1: E8 0A 77 E4 FF     call        000000018035CAB0
+  00000001805153A6: 8B 46 74           mov         eax,dword ptr [rsi+74h]
+  00000001805153A9: 48 8D 54 24 24     lea         rdx,[rsp+24h]
+  00000001805153AE: 48 8B 0D 53 EE C3  mov         rcx,qword ptr [0000000184154208h]
+                    03
+  00000001805153B5: 48 8B 1F           mov         rbx,qword ptr [rdi]
+  00000001805153B8: 89 44 24 24        mov         dword ptr [rsp+24h],eax
+  00000001805153BC: E8 4F 86 DE FF     call        00000001802FDA10
+  00000001805153C1: 48 8B 0D E8 02 C9  mov         rcx,qword ptr [00000001841A56B0h]
+                    03
+  00000001805153C8: 45 33 C0           xor         r8d,r8d
+  00000001805153CB: 48 8B D0           mov         rdx,rax
+  00000001805153CE: E8 BD BF BF 01     call        0000000182111390 ; System.String::Format [MI 25743, RVA 0x2111390]
+  00000001805153D3: 45 33 C0           xor         r8d,r8d
+  00000001805153D6: 48 8B D0           mov         rdx,rax
+  00000001805153D9: 48 8B CB           mov         rcx,rbx
+  00000001805153DC: E8 BF 8C BF 01     call        000000018210E0A0 ; System.String::Concat [MI 25739, RVA 0x210e0a0]
+  00000001805153E1: 48 8B D0           mov         rdx,rax
+  00000001805153E4: 48 89 07           mov         qword ptr [rdi],rax
+  00000001805153E7: 48 8B CF           mov         rcx,rdi
+  00000001805153EA: E8 C1 76 E4 FF     call        000000018035CAB0
+  00000001805153EF: 66 0F 6E 46 74     movd        xmm0,dword ptr [rsi+74h]
+  00000001805153F4: 33 D2              xor         edx,edx
+  00000001805153F6: 8B 5E 70           mov         ebx,dword ptr [rsi+70h]
+  00000001805153F9: 0F 5B C0           cvtdq2ps    xmm0,xmm0
+  00000001805153FC: F3 0F 59 05 68 68  mulss       xmm0,dword ptr [0000000182EABC6Ch]
+                    99 02
+  0000000180515404: E8 77 A3 EC FF     call        00000001803DF780
+  0000000180515409: 3B D8              cmp         ebx,eax
+  000000018051540B: 0F 8E BD 01 00 00  jle         00000001805155CE
+  0000000180515411: 48 8B 0D 68 52 C6  mov         rcx,qword ptr [000000018417A680h]
+                    03
+  0000000180515418: BA 02 00 00 00     mov         edx,2
+  000000018051541D: E8 FE 76 E4 FF     call        000000018035CB20
+  0000000180515422: 48 85 C0           test        rax,rax
+  0000000180515425: 0F 84 C7 01 00 00  je          00000001805155F2
+  000000018051542B: 83 78 18 00        cmp         dword ptr [rax+18h],0
+  000000018051542F: 0F 86 C3 01 00 00  jbe         00000001805155F8
+  0000000180515435: C7 40 20 EC FF FF  mov         dword ptr [rax+20h],0FFFFFFECh
+                    FF
+  000000018051543C: 83 78 18 01        cmp         dword ptr [rax+18h],1
+  0000000180515440: 0F 86 B2 01 00 00  jbe         00000001805155F8
+  0000000180515446: C7 40 24 EB FF FF  mov         dword ptr [rax+24h],0FFFFFFEBh
+                    FF
+  000000018051544D: 48 8D 4D 18        lea         rcx,[rbp+18h]
+  0000000180515451: 48 8B D0           mov         rdx,rax
+  0000000180515454: 48 89 45 18        mov         qword ptr [rbp+18h],rax
+  0000000180515458: E8 53 76 E4 FF     call        000000018035CAB0
+  000000018051545D: 48 8B 0D B4 A7 C5  mov         rcx,qword ptr [000000018416FC18h]
+                    03
+  0000000180515464: 4C 8B B6 A8 01 00  mov         r14,qword ptr [rsi+00000000000001A8h]
+                    00
+  000000018051546B: 4C 8B A6 58 01 00  mov         r12,qword ptr [rsi+0000000000000158h]
+                    00
+  0000000180515472: E8 49 7C E4 FF     call        000000018035D0C0
+  0000000180515477: 48 8B D8           mov         rbx,rax
+  000000018051547A: 48 85 C0           test        rax,rax
+  000000018051547D: 0F 84 6F 01 00 00  je          00000001805155F2
+  0000000180515483: 4C 8B 05 76 11 CB  mov         r8,qword ptr [00000001841C6600h]
+                    03
+  000000018051548A: 45 33 C9           xor         r9d,r9d
+  000000018051548D: 48 8B D5           mov         rdx,rbp
+  0000000180515490: 48 8B C8           mov         rcx,rax
+  0000000180515493: E8 28 A0 FF FF     call        000000018050F4C0 ; BuffFrozenCheckDelegate::.ctor [MI 9391, RVA 0x50f4c0] | WindowsCancelHandler::.ctor [MI 29055, RVA 0x50f4c0]
+  0000000180515498: 4C 8B 05 D1 6D CB  mov         r8,qword ptr [00000001841CC270h]
+                    03
+  000000018051549F: 48 8B D3           mov         rdx,rbx
+  00000001805154A2: 49 8B CC           mov         rcx,r12
+  00000001805154A5: E8 26 B6 8B 00     call        0000000180DD0AD0
+  00000001805154AA: 48 8B 15 27 AF C2  mov         rdx,qword ptr [00000001841403D8h]
+                    03
+  00000001805154B1: 48 8B C8           mov         rcx,rax
+  00000001805154B4: E8 27 56 8D 00     call        0000000180DEAAE0
+  00000001805154B9: 48 8B 0D 58 A7 C5  mov         rcx,qword ptr [000000018416FC18h]
+                    03
+  00000001805154C0: 44 8B E8           mov         r13d,eax
+  00000001805154C3: 4C 8B A6 60 01 00  mov         r12,qword ptr [rsi+0000000000000160h]
+                    00
+  00000001805154CA: E8 F1 7B E4 FF     call        000000018035D0C0
+  00000001805154CF: 48 8B D8           mov         rbx,rax
+  00000001805154D2: 48 85 C0           test        rax,rax
+  00000001805154D5: 0F 84 17 01 00 00  je          00000001805155F2
+  00000001805154DB: 4C 8B 05 16 12 CB  mov         r8,qword ptr [00000001841C66F8h]
+                    03
+  00000001805154E2: 45 33 C9           xor         r9d,r9d
+  00000001805154E5: 48 8B D5           mov         rdx,rbp
+  00000001805154E8: 48 8B C8           mov         rcx,rax
+  00000001805154EB: E8 D0 9F FF FF     call        000000018050F4C0 ; BuffFrozenCheckDelegate::.ctor [MI 9391, RVA 0x50f4c0] | WindowsCancelHandler::.ctor [MI 29055, RVA 0x50f4c0]
+  00000001805154F0: 4C 8B 05 79 6D CB  mov         r8,qword ptr [00000001841CC270h]
+                    03
+  00000001805154F7: 48 8B D3           mov         rdx,rbx
+  00000001805154FA: 49 8B CC           mov         rcx,r12
+  00000001805154FD: E8 CE B5 8B 00     call        0000000180DD0AD0
+  0000000180515502: 48 8B 15 CF AE C2  mov         rdx,qword ptr [00000001841403D8h]
+                    03
+  0000000180515509: 48 8B C8           mov         rcx,rax
+  000000018051550C: E8 CF 55 8D 00     call        0000000180DEAAE0
+  0000000180515511: 48 8B 0D 40 76 C8  mov         rcx,qword ptr [000000018419CB58h]
+                    03
+  0000000180515518: 8B D8              mov         ebx,eax
+  000000018051551A: 8B AE 28 01 00 00  mov         ebp,dword ptr [rsi+0000000000000128h]
+  0000000180515520: 44 0F B6 66 68     movzx       r12d,byte ptr [rsi+68h]
+  0000000180515525: E8 96 7B E4 FF     call        000000018035D0C0
+  000000018051552A: 48 8B F0           mov         rsi,rax
+  000000018051552D: 48 85 C0           test        rax,rax
+  0000000180515530: 0F 84 BC 00 00 00  je          00000001805155F2
+  0000000180515536: 33 D2              xor         edx,edx
+  0000000180515538: 48 8B C8           mov         rcx,rax
+  000000018051553B: E8 90 33 ED FF     call        00000001803E88D0 ; <<Confirm>g__Jump|3>d::System.IDisposable.Dispose [MI 150, RVA 0x3e88d0] | <<Confirm>g__OnRotation|11_1>d::System.IDisposable.Dispose [MI 156, RVA 0x3e88d0] | <CountDownLoop>d__7::System.IDisposable.Dispose [MI 354, RVA 0x3e88d0] | <<OnPanelOpen>g__OnLoadFinish|2>d::System.IDisposable.Dispose [MI 440, RVA 0x3e88d0] | <<OnPanelOpen>g__ShowCG|3>d::System.IDisposable.Dispose [MI 446, RVA 0x3e88d0] | <>c::<OnPanelInitialize>b__24_1 [MI 507, RVA 0x3e88d0] | <<TypeCoroutine>g__DoType|2>d::System.IDisposable.Dispose [MI 538, RVA 0x3e88d0] | <TypeCoroutine>d__34::System.IDisposable.Dispose [MI 544, RVA 0x3e88d0] | <OnUpdatePreview>d__24::System.IDisposable.Dispose [MI 560, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnPanelOpen [MI 590, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnExitExtern [MI 591, RVA 0x3e88d0] | <<OnPanelOpen>g__AfterPreviewMusicLoad|0>d::System.IDisposable.Dispose [MI 619, RVA 0x3e88d0]
+  0000000180515540: 48 8D 4E 50        lea         rcx,[rsi+50h]
+  0000000180515544: C7 46 38 01 00 00  mov         dword ptr [rsi+38h],1
+                    00
+  000000018051554B: 33 D2              xor         edx,edx
+  000000018051554D: 44 89 6E 14        mov         dword ptr [rsi+14h],r13d
+  0000000180515551: 89 5E 10           mov         dword ptr [rsi+10h],ebx
+  0000000180515554: 89 6E 48           mov         dword ptr [rsi+48h],ebp
+  0000000180515557: 44 88 66 60        mov         byte ptr [rsi+60h],r12b
+  000000018051555B: 44 88 7E 4D        mov         byte ptr [rsi+4Dh],r15b
+  000000018051555F: 48 C7 46 50 00 00  mov         qword ptr [rsi+50h],0
+                    00 00
+  0000000180515567: E8 44 75 E4 FF     call        000000018035CAB0
+  000000018051556C: 48 8D 4E 68        lea         rcx,[rsi+68h]
+  0000000180515570: 4C 89 76 68        mov         qword ptr [rsi+68h],r14
+  0000000180515574: 49 8B D6           mov         rdx,r14
+  0000000180515577: E8 34 75 E4 FF     call        000000018035CAB0
+  000000018051557C: 48 8B 0D ED C7 CB  mov         rcx,qword ptr [00000001841D1D70h]
+                    03
+  0000000180515583: 45 33 C0           xor         r8d,r8d
+  0000000180515586: 48 8B 1F           mov         rbx,qword ptr [rdi]
+  0000000180515589: 48 8B D6           mov         rdx,rsi
+  000000018051558C: E8 FF BD BF 01     call        0000000182111390 ; System.String::Format [MI 25743, RVA 0x2111390]
+  0000000180515591: 45 33 C0           xor         r8d,r8d
+  0000000180515594: 48 8B D0           mov         rdx,rax
+  0000000180515597: 48 8B CB           mov         rcx,rbx
+  000000018051559A: E8 01 8B BF 01     call        000000018210E0A0 ; System.String::Concat [MI 25739, RVA 0x210e0a0]
+  000000018051559F: 48 8B D0           mov         rdx,rax
+  00000001805155A2: 48 89 07           mov         qword ptr [rdi],rax
+  00000001805155A5: 48 8B CF           mov         rcx,rdi
+  00000001805155A8: E8 03 75 E4 FF     call        000000018035CAB0
+  00000001805155AD: 48 8B C6           mov         rax,rsi
+  00000001805155B0: 4C 8B 74 24 30     mov         r14,qword ptr [rsp+30h]
+  00000001805155B5: 4C 8B 6C 24 70     mov         r13,qword ptr [rsp+70h]
+  00000001805155BA: 4C 8B 64 24 68     mov         r12,qword ptr [rsp+68h]
+  00000001805155BF: 48 8B 5C 24 60     mov         rbx,qword ptr [rsp+60h]
+  00000001805155C4: 48 83 C4 38        add         rsp,38h
+  00000001805155C8: 41 5F              pop         r15
+  00000001805155CA: 5F                 pop         rdi
+  00000001805155CB: 5E                 pop         rsi
+  00000001805155CC: 5D                 pop         rbp
+  00000001805155CD: C3                 ret
+  00000001805155CE: 48 8B 15 EB BA CB  mov         rdx,qword ptr [00000001841D10C0h]
+                    03
+  00000001805155D5: 45 33 C0           xor         r8d,r8d
+  00000001805155D8: 48 8B 0F           mov         rcx,qword ptr [rdi]
+  00000001805155DB: E8 C0 8A BF 01     call        000000018210E0A0 ; System.String::Concat [MI 25739, RVA 0x210e0a0]
+  00000001805155E0: 48 8B D0           mov         rdx,rax
+  00000001805155E3: 48 89 07           mov         qword ptr [rdi],rax
+  00000001805155E6: 48 8B CF           mov         rcx,rdi
+  00000001805155E9: E8 C2 74 E4 FF     call        000000018035CAB0
+  00000001805155EE: 33 C0              xor         eax,eax
+  00000001805155F0: EB BE              jmp         00000001805155B0
+  00000001805155F2: E8 29 7B E4 FF     call        000000018035D120
+  00000001805155F7: CC                 int         3
+  00000001805155F8: E8 13 7B E4 FF     call        000000018035D110
+  00000001805155FD: CC                 int         3
+  00000001805155FE: CC                 int         3
+  00000001805155FF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

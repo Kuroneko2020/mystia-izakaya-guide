@@ -1,0 +1,1809 @@
+{
+  "affected": [
+    {
+      "row": 5,
+      "guest": "莉格露",
+      "phase": "后期",
+      "recipe": "幻想风靡",
+      "oldHits": [
+        "生",
+        "肉"
+      ],
+      "newHits": [
+        "生",
+        "肉"
+      ],
+      "newHates": [],
+      "oldScore": "2",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：甜、猎奇；可加：+葡萄（补甜）；+蝉蜕（补猎奇）；+奶油（补甜）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 23,
+      "guest": "稗田阿求",
+      "phase": "后期",
+      "recipe": "大江户船祭",
+      "oldHits": [
+        "和风",
+        "文化底蕴",
+        "高级"
+      ],
+      "newHits": [
+        "和风",
+        "文化底蕴",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：清淡、甜、汤羹；可加：+葡萄（补甜）；+黄瓜（补清淡）；+豆腐（补清淡）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 24,
+      "guest": "稗田阿求",
+      "phase": "后期",
+      "recipe": "龙吟桃子",
+      "oldHits": [
+        "清淡",
+        "甜",
+        "高级"
+      ],
+      "newHits": [
+        "清淡",
+        "甜",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：和风、文化底蕴、汤羹；可加：+莲子（补文化底蕴）；+并蒂莲（补文化底蕴）；+月光草（补文化底蕴）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 29,
+      "guest": "上白泽慧音",
+      "phase": "后期",
+      "recipe": "罗汉上素",
+      "oldHits": [
+        "文化底蕴",
+        "清淡",
+        "素"
+      ],
+      "newHits": [
+        "文化底蕴",
+        "清淡",
+        "素"
+      ],
+      "newHates": [
+        "大份"
+      ],
+      "oldScore": "3",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：家常、和风、中华；可加：+黄瓜（补家常）；+豆腐（补家常）；+奶油（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 36,
+      "guest": "茨木华扇",
+      "phase": "后期",
+      "recipe": "竹取姬",
+      "oldHits": [
+        "和风",
+        "文化底蕴"
+      ],
+      "newHits": [
+        "和风",
+        "文化底蕴"
+      ],
+      "newHates": [],
+      "oldScore": "2",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：家常、下酒；可加：+黄瓜（补家常）；+豆腐（补家常）；+奶油（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 52,
+      "guest": "比那名居天子",
+      "phase": "后期",
+      "recipe": "龙吟桃子",
+      "oldHits": [
+        "传说",
+        "昂贵",
+        "果味",
+        "清淡",
+        "甜"
+      ],
+      "newHits": [
+        "传说",
+        "昂贵",
+        "果味",
+        "清淡",
+        "甜"
+      ],
+      "newHates": [],
+      "oldScore": "5",
+      "newTagScore": 5,
+      "extraIngredientSuggestion": "缺：素、适合拍照；可加：+海苔（补素）；+白果（补适合拍照）；+西红柿（补素）（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 53,
+      "guest": "比那名居天子",
+      "phase": "后期",
+      "recipe": "幽梦",
+      "oldHits": [
+        "昂贵",
+        "清淡",
+        "甜",
+        "适合拍照"
+      ],
+      "newHits": [
+        "昂贵",
+        "清淡",
+        "甜",
+        "适合拍照"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：素、传说、果味；可加：+松露（补素、传说）；+海苔（补素）；+葡萄（补果味）（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 63,
+      "guest": "红美铃",
+      "phase": "后期",
+      "recipe": "牛肉鸳鸯火锅",
+      "oldHits": [
+        "中华",
+        "力量涌现",
+        "肉"
+      ],
+      "newHits": [
+        "中华",
+        "力量涌现",
+        "肉"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：饱腹；可加：+地瓜（补饱腹）；+面粉（补饱腹）；+南瓜（补饱腹）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 64,
+      "guest": "红美铃",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "中华",
+        "力量涌现",
+        "肉"
+      ],
+      "newHits": [
+        "中华",
+        "力量涌现",
+        "肉"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：饱腹；可加：+地瓜（补饱腹）；+面粉（补饱腹）；+南瓜（补饱腹）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 65,
+      "guest": "红美铃",
+      "phase": "后期",
+      "recipe": "幻想风靡",
+      "oldHits": [
+        "力量涌现",
+        "肉",
+        "饱腹"
+      ],
+      "newHits": [
+        "力量涌现",
+        "肉",
+        "饱腹"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：中华；该菜没有不冲突的加料位，可换其他推荐菜或直接用高命中菜。",
+      "ingredientCount": 5
+    },
+    {
+      "row": 71,
+      "guest": "帕秋莉",
+      "phase": "前期",
+      "recipe": "不死鸟",
+      "oldHits": [
+        "西式",
+        "适合拍照",
+        "高级"
+      ],
+      "newHits": [
+        "西式",
+        "适合拍照",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：甜、梦幻；可加：+葡萄（补甜）；+奶油（补甜）；+桃子（补甜）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 73,
+      "guest": "帕秋莉",
+      "phase": "后期",
+      "recipe": "幽梦",
+      "oldHits": [
+        "梦幻",
+        "甜",
+        "西式",
+        "适合拍照",
+        "高级"
+      ],
+      "newHits": [
+        "梦幻",
+        "甜",
+        "西式",
+        "适合拍照",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "5",
+      "newTagScore": 5,
+      "extraIngredientSuggestion": "菜品已覆盖全部固定喜好标签，通常无需加料。",
+      "ingredientCount": 5
+    },
+    {
+      "row": 75,
+      "guest": "帕秋莉",
+      "phase": "后期",
+      "recipe": "疯帽子茶会",
+      "oldHits": [
+        "梦幻",
+        "甜",
+        "西式",
+        "适合拍照"
+      ],
+      "newHits": [
+        "梦幻",
+        "甜",
+        "西式",
+        "适合拍照"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：高级；可加：+螃蟹（补高级）；+松子（补高级）；+海胆（补高级）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 81,
+      "guest": "蓬莱山辉夜",
+      "phase": "前期",
+      "recipe": "竹取姬",
+      "oldHits": [
+        "传说",
+        "和风",
+        "文化底蕴"
+      ],
+      "newHits": [
+        "传说",
+        "和风",
+        "文化底蕴"
+      ],
+      "newHates": [
+        "大份"
+      ],
+      "oldScore": "3",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：不可思议；可加：+可可豆（补不可思议）；+幻昙华（补不可思议）；+月光草（补不可思议）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 107,
+      "guest": "东风谷早苗",
+      "phase": "后期",
+      "recipe": "疯帽子茶会",
+      "oldHits": [
+        "梦幻",
+        "甜",
+        "适合拍照"
+      ],
+      "newHits": [
+        "梦幻",
+        "甜",
+        "适合拍照"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：家常、和风；可加：+黄瓜（补家常）；+豆腐（补家常）；+土豆（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 108,
+      "guest": "东风谷早苗",
+      "phase": "后期",
+      "recipe": "幽梦",
+      "oldHits": [
+        "梦幻",
+        "甜",
+        "适合拍照"
+      ],
+      "newHits": [
+        "梦幻",
+        "甜",
+        "适合拍照"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：家常、和风；可加：+黄瓜（补家常）；+豆腐（补家常）；+土豆（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 112,
+      "guest": "爱丽丝",
+      "phase": "后期",
+      "recipe": "幽梦",
+      "oldHits": [
+        "甜",
+        "西式",
+        "高级"
+      ],
+      "newHits": [
+        "甜",
+        "西式",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：家常、文化底蕴；可加：+黄瓜（补家常）；+豆腐（补家常）；+土豆（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 117,
+      "guest": "矢田寺成美",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "山珍",
+        "文化底蕴",
+        "特产"
+      ],
+      "newHits": [
+        "山珍",
+        "文化底蕴",
+        "特产"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：清淡、和风；可加：+黄瓜（补清淡）；+豆腐（补清淡）；+露水（补清淡）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 118,
+      "guest": "矢田寺成美",
+      "phase": "后期",
+      "recipe": "罗汉上素",
+      "oldHits": [
+        "文化底蕴",
+        "清淡",
+        "特产"
+      ],
+      "newHits": [
+        "文化底蕴",
+        "清淡",
+        "特产"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：山珍、和风；该菜没有不冲突的加料位，可换其他推荐菜或直接用高命中菜。",
+      "ingredientCount": 5
+    },
+    {
+      "row": 124,
+      "guest": "黑谷山女",
+      "phase": "后期",
+      "recipe": "大江户船祭",
+      "oldHits": [
+        "生",
+        "适合拍照",
+        "鲜"
+      ],
+      "newHits": [
+        "生",
+        "适合拍照",
+        "鲜"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：甜、猎奇；可加：+葡萄（补甜）；+蝉蜕（补猎奇）；+奶油（补甜）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 129,
+      "guest": "水桥帕露西",
+      "phase": "后期",
+      "recipe": "地狱激辛警告！",
+      "oldHits": [
+        "咸",
+        "肉",
+        "辣"
+      ],
+      "newHits": [
+        "咸",
+        "肉",
+        "辣"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：鲜、果味、酸；可加：+柠檬（补果味、酸）；+鳟鱼（补鲜）；+螃蟹（补鲜）（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 130,
+      "guest": "星熊勇仪",
+      "phase": "前期",
+      "recipe": "不死鸟",
+      "oldHits": [
+        "传说",
+        "燃起来了"
+      ],
+      "newHits": [
+        "传说",
+        "大份",
+        "燃起来了"
+      ],
+      "newHates": [],
+      "oldScore": "2",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：大份、下酒、和风、招牌、力量涌现；可加：+八目鳗（补招牌）；+松子（补招牌）；+莲子（补招牌）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 131,
+      "guest": "星熊勇仪",
+      "phase": "前期",
+      "recipe": "竹取姬",
+      "oldHits": [
+        "传说",
+        "和风"
+      ],
+      "newHits": [
+        "传说",
+        "和风",
+        "大份"
+      ],
+      "newHates": [],
+      "oldScore": "2",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：大份、下酒、招牌、力量涌现、燃起来了；可加：+八目鳗（补招牌）；+松子（补招牌）；+莲子（补招牌）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 133,
+      "guest": "星熊勇仪",
+      "phase": "后期",
+      "recipe": "大江户船祭",
+      "oldHits": [
+        "下酒",
+        "传说",
+        "和风",
+        "招牌"
+      ],
+      "newHits": [
+        "下酒",
+        "传说",
+        "和风",
+        "大份",
+        "招牌"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 5,
+      "extraIngredientSuggestion": "缺：大份、力量涌现、燃起来了；该菜没有不冲突的加料位，可换其他推荐菜或直接用高命中菜。",
+      "ingredientCount": 5
+    },
+    {
+      "row": 144,
+      "guest": "火焰猫燐",
+      "phase": "后期",
+      "recipe": "至尊海鲜面",
+      "oldHits": [
+        "水产",
+        "海味",
+        "鲜"
+      ],
+      "newHits": [
+        "水产",
+        "海味",
+        "鲜"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：甜、猎奇、梦幻；可加：+葡萄（补甜）；+蝉蜕（补猎奇）；+奶油（补甜）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 149,
+      "guest": "灵乌路空",
+      "phase": "后期",
+      "recipe": "地狱激辛警告！",
+      "oldHits": [
+        "力量涌现",
+        "咸",
+        "灼热",
+        "肉",
+        "辣",
+        "重油"
+      ],
+      "newHits": [
+        "力量涌现",
+        "咸",
+        "灼热",
+        "肉",
+        "辣",
+        "重油"
+      ],
+      "newHates": [],
+      "oldScore": "6",
+      "newTagScore": 6,
+      "extraIngredientSuggestion": "菜品已覆盖全部固定喜好标签，通常无需加料。",
+      "ingredientCount": 5
+    },
+    {
+      "row": 162,
+      "guest": "村纱水蜜",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "力量涌现",
+        "特产",
+        "肉",
+        "高级"
+      ],
+      "newHits": [
+        "力量涌现",
+        "特产",
+        "肉",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：饱腹、咸、鲜；可加：+芝士（补咸、鲜）；+黑盐（补咸）；+鳟鱼（补鲜）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 167,
+      "guest": "封兽鵺",
+      "phase": "后期",
+      "recipe": "幻想星莲船",
+      "oldHits": [
+        "不可思议",
+        "招牌",
+        "特产",
+        "生",
+        "适合拍照",
+        "鲜"
+      ],
+      "newHits": [
+        "不可思议",
+        "招牌",
+        "特产",
+        "生",
+        "适合拍照",
+        "鲜"
+      ],
+      "newHates": [],
+      "oldScore": "6",
+      "newTagScore": 6,
+      "extraIngredientSuggestion": "缺：肉、猎奇；可加：+猪肉（补肉）；+牛肉（补肉）；+鹿肉（补肉）（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 169,
+      "guest": "封兽鵺",
+      "phase": "后期",
+      "recipe": "大江户船祭",
+      "oldHits": [
+        "招牌",
+        "生",
+        "适合拍照",
+        "鲜"
+      ],
+      "newHits": [
+        "招牌",
+        "生",
+        "适合拍照",
+        "鲜"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：肉、猎奇、不可思议、特产；可加：+蝉蜕（补猎奇）；+猪肉（补肉）；+牛肉（补肉）（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 172,
+      "guest": "物部布都",
+      "phase": "后期",
+      "recipe": "竹取姬",
+      "oldHits": [
+        "传说",
+        "和风",
+        "高级"
+      ],
+      "newHits": [
+        "传说",
+        "和风",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：清淡、山珍、燃起来了；可加：+黄瓜（补清淡）；+豆腐（补清淡）；+露水（补清淡）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 173,
+      "guest": "物部布都",
+      "phase": "后期",
+      "recipe": "龙吟桃子",
+      "oldHits": [
+        "传说",
+        "清淡",
+        "高级"
+      ],
+      "newHits": [
+        "传说",
+        "清淡",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：山珍、和风、燃起来了；该菜没有不冲突的加料位，可换其他推荐菜或直接用高命中菜。",
+      "ingredientCount": 5
+    },
+    {
+      "row": 174,
+      "guest": "物部布都",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "传说",
+        "山珍",
+        "高级"
+      ],
+      "newHits": [
+        "传说",
+        "山珍",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：清淡、和风、燃起来了；可加：+黄瓜（补清淡）；+豆腐（补清淡）；+露水（补清淡）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 180,
+      "guest": "霍青娥",
+      "phase": "后期",
+      "recipe": "龙吟桃子",
+      "oldHits": [
+        "不可思议",
+        "传说",
+        "特产",
+        "甜"
+      ],
+      "newHits": [
+        "不可思议",
+        "传说",
+        "特产",
+        "甜"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：素、中华、小巧；可加：+海苔（补素）；+黄瓜（补素）；+豆腐（补素）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 186,
+      "guest": "苏我屠自古",
+      "phase": "后期",
+      "recipe": "幻想风靡",
+      "oldHits": [
+        "力量涌现",
+        "招牌",
+        "重油",
+        "饱腹"
+      ],
+      "newHits": [
+        "力量涌现",
+        "招牌",
+        "重油",
+        "饱腹"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：家常、和风、烧烤；可加：+土豆（补家常）；+板栗（补家常）；+西蓝花（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 191,
+      "guest": "射命丸文",
+      "phase": "后期",
+      "recipe": "大江户船祭",
+      "oldHits": [
+        "下酒",
+        "和风",
+        "招牌",
+        "适合拍照"
+      ],
+      "newHits": [
+        "下酒",
+        "和风",
+        "招牌",
+        "适合拍照"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：肉、家常；可加：+黄瓜（补家常）；+豆腐（补家常）；+土豆（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 197,
+      "guest": "梅蒂欣",
+      "phase": "后期",
+      "recipe": "疯帽子茶会",
+      "oldHits": [
+        "梦幻",
+        "甜",
+        "菌类",
+        "适合拍照"
+      ],
+      "newHits": [
+        "梦幻",
+        "甜",
+        "菌类",
+        "适合拍照"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：招牌、凉爽、小巧、毒；可加：+冰块（补凉爽）；+梅子（补小巧）；+八目鳗（补招牌）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 198,
+      "guest": "梅蒂欣",
+      "phase": "后期",
+      "recipe": "幽梦",
+      "oldHits": [
+        "凉爽",
+        "梦幻",
+        "甜",
+        "适合拍照"
+      ],
+      "newHits": [
+        "凉爽",
+        "梦幻",
+        "甜",
+        "适合拍照"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：招牌、菌类、小巧、毒；可加：+梅子（补小巧）；+银耳（补菌类）；+松子（补招牌）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 200,
+      "guest": "风见幽香",
+      "phase": "前期",
+      "recipe": "不死鸟",
+      "oldHits": [
+        "传说",
+        "西式",
+        "高级"
+      ],
+      "newHits": [
+        "传说",
+        "西式",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：清淡、不可思议、梦幻、特产；可加：+月光草（补清淡、不可思议、梦幻）；+并蒂莲（补清淡、梦幻）；+幻昙华（补不可思议、梦幻）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 202,
+      "guest": "风见幽香",
+      "phase": "后期",
+      "recipe": "龙吟桃子",
+      "oldHits": [
+        "不可思议",
+        "传说",
+        "清淡",
+        "特产",
+        "高级"
+      ],
+      "newHits": [
+        "不可思议",
+        "传说",
+        "清淡",
+        "特产",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "5",
+      "newTagScore": 5,
+      "extraIngredientSuggestion": "缺：西式、梦幻；可加：+奶油（补西式）；+薜荔（补梦幻）；+并蒂莲（补梦幻）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 204,
+      "guest": "风见幽香",
+      "phase": "后期",
+      "recipe": "疯帽子茶会",
+      "oldHits": [
+        "不可思议",
+        "梦幻",
+        "特产",
+        "西式"
+      ],
+      "newHits": [
+        "不可思议",
+        "梦幻",
+        "特产",
+        "西式"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：高级、传说、清淡；可加：+并蒂莲（补高级、传说、清淡）；+松子（补高级、清淡）；+海胆（补高级、传说）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 208,
+      "guest": "鬼人正邪",
+      "phase": "后期",
+      "recipe": "地狱激辛警告！",
+      "oldHits": [
+        "力量涌现",
+        "灼热",
+        "猎奇",
+        "重油"
+      ],
+      "newHits": [
+        "力量涌现",
+        "灼热",
+        "猎奇",
+        "重油"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：下酒、不可思议、燃起来了；可加：+可可豆（补不可思议）（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 209,
+      "guest": "鬼人正邪",
+      "phase": "后期",
+      "recipe": "逆转天地！",
+      "oldHits": [
+        "不可思议",
+        "燃起来了",
+        "猎奇"
+      ],
+      "newHits": [
+        "不可思议",
+        "燃起来了",
+        "猎奇"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：重油、下酒、灼热、力量涌现；可加：+黄油（补重油）；+萝卜（补下酒）（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 214,
+      "guest": "少名针妙丸",
+      "phase": "后期",
+      "recipe": "大江户船祭",
+      "oldHits": [
+        "传说",
+        "和风",
+        "文化底蕴",
+        "适合拍照"
+      ],
+      "newHits": [
+        "传说",
+        "和风",
+        "文化底蕴",
+        "适合拍照"
+      ],
+      "newHates": [
+        "大份"
+      ],
+      "oldScore": "4",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：甜、小巧、燃起来了；可加：+葡萄（补甜）；+桃子（补甜）；+梅子（补小巧）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 215,
+      "guest": "少名针妙丸",
+      "phase": "后期",
+      "recipe": "竹取姬",
+      "oldHits": [
+        "传说",
+        "和风",
+        "文化底蕴",
+        "适合拍照"
+      ],
+      "newHits": [
+        "传说",
+        "和风",
+        "文化底蕴",
+        "适合拍照"
+      ],
+      "newHates": [
+        "大份"
+      ],
+      "oldScore": "4",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：甜、小巧、燃起来了；可加：+葡萄（补甜）；+桃子（补甜）；+梅子（补小巧）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 221,
+      "guest": "今泉影狼",
+      "phase": "后期",
+      "recipe": "竹取姬",
+      "oldHits": [
+        "和风",
+        "肉",
+        "适合拍照"
+      ],
+      "newHits": [
+        "和风",
+        "肉",
+        "适合拍照"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：家常、山珍、凉爽；可加：+冰块（补凉爽）；+黄瓜（补家常）；+豆腐（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 222,
+      "guest": "今泉影狼",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "山珍",
+        "肉",
+        "适合拍照"
+      ],
+      "newHits": [
+        "山珍",
+        "肉",
+        "适合拍照"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：家常、和风、凉爽；可加：+冰块（补凉爽）；+黄瓜（补家常）；+豆腐（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 232,
+      "guest": "绵月丰姬",
+      "phase": "后期",
+      "recipe": "罗汉上素",
+      "oldHits": [
+        "凉爽",
+        "文化底蕴",
+        "素",
+        "高级"
+      ],
+      "newHits": [
+        "凉爽",
+        "文化底蕴",
+        "素",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：和风、甜、果味；可加：+葡萄（补甜、果味）；+桃子（补甜、果味）；+柠檬（补果味）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 234,
+      "guest": "绵月丰姬",
+      "phase": "后期",
+      "recipe": "龙吟桃子",
+      "oldHits": [
+        "凉爽",
+        "果味",
+        "甜",
+        "高级"
+      ],
+      "newHits": [
+        "凉爽",
+        "果味",
+        "甜",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：素、和风、文化底蕴；可加：+海苔（补素）；+黄瓜（补素）；+豆腐（补素）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 238,
+      "guest": "绵月依姬",
+      "phase": "后期",
+      "recipe": "汉宫藏娇",
+      "oldHits": [
+        "中华",
+        "传说",
+        "文化底蕴",
+        "高级"
+      ],
+      "newHits": [
+        "中华",
+        "传说",
+        "文化底蕴",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：清淡、灼热、力量涌现、小巧；可加：+黄瓜（补清淡）；+梅子（补小巧）；+松子（补清淡）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 244,
+      "guest": "爱莲",
+      "phase": "后期",
+      "recipe": "幽梦",
+      "oldHits": [
+        "凉爽",
+        "梦幻",
+        "甜",
+        "西式"
+      ],
+      "newHits": [
+        "凉爽",
+        "梦幻",
+        "甜",
+        "西式"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：家常、饱腹；可加：+黄瓜（补家常）；+豆腐（补家常）；+地瓜（补饱腹）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 246,
+      "guest": "爱莲",
+      "phase": "后期",
+      "recipe": "猫咪戏水",
+      "oldHits": [
+        "凉爽",
+        "梦幻",
+        "甜"
+      ],
+      "newHits": [
+        "凉爽",
+        "梦幻",
+        "甜"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：家常、饱腹、西式；可加：+黄瓜（补家常）；+豆腐（补家常）；+地瓜（补饱腹）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 251,
+      "guest": "魅魔",
+      "phase": "后期",
+      "recipe": "牛肉鸳鸯火锅",
+      "oldHits": [
+        "力量涌现",
+        "山珍",
+        "菌类"
+      ],
+      "newHits": [
+        "力量涌现",
+        "山珍",
+        "菌类"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：水产、鲜、生、猎奇；可加：+鳟鱼（补水产、鲜）；+章鱼（补水产、鲜）；+八目鳗（补水产、鲜）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 262,
+      "guest": "森近霖之助",
+      "phase": "后期",
+      "recipe": "至尊海鲜面",
+      "oldHits": [
+        "家常",
+        "饱腹",
+        "鲜"
+      ],
+      "newHits": [
+        "家常",
+        "饱腹",
+        "鲜"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "菜品已覆盖全部固定喜好标签，通常无需加料。",
+      "ingredientCount": 5
+    },
+    {
+      "row": 267,
+      "guest": "蕾米莉亚",
+      "phase": "后期",
+      "recipe": "惠灵顿牛排",
+      "oldHits": [
+        "传说",
+        "西式",
+        "高级"
+      ],
+      "newHits": [
+        "传说",
+        "西式",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：甜、生；该菜没有不冲突的加料位，可换其他推荐菜或直接用高命中菜。",
+      "ingredientCount": 5
+    },
+    {
+      "row": 268,
+      "guest": "蕾米莉亚",
+      "phase": "后期",
+      "recipe": "幽梦",
+      "oldHits": [
+        "甜",
+        "西式",
+        "高级"
+      ],
+      "newHits": [
+        "甜",
+        "西式",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：传说、生；可加：+鸡蛋（补生）；+并蒂莲（补传说）；+松露（补传说）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 269,
+      "guest": "蕾米莉亚",
+      "phase": "后期",
+      "recipe": "不死鸟",
+      "oldHits": [
+        "传说",
+        "西式",
+        "高级"
+      ],
+      "newHits": [
+        "传说",
+        "西式",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：甜、生；可加：+鸡蛋（补生）；+葡萄（补甜）；+奶油（补甜）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 273,
+      "guest": "魂魄妖梦",
+      "phase": "后期",
+      "recipe": "牛肉鸳鸯火锅",
+      "oldHits": [
+        "力量涌现",
+        "家常"
+      ],
+      "newHits": [
+        "力量涌现",
+        "家常"
+      ],
+      "newHates": [],
+      "oldScore": "2",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：清淡、鲜；可加：+海苔（补鲜）；+黄瓜（补清淡）；+豆腐（补清淡）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 274,
+      "guest": "魂魄妖梦",
+      "phase": "后期",
+      "recipe": "太极八卦鱼肚",
+      "oldHits": [
+        "清淡",
+        "鲜"
+      ],
+      "newHits": [
+        "清淡",
+        "鲜"
+      ],
+      "newHates": [],
+      "oldScore": "2",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：家常、力量涌现；可加：+黄瓜（补家常）；+豆腐（补家常）；+奶油（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 275,
+      "guest": "魂魄妖梦",
+      "phase": "后期",
+      "recipe": "至尊海鲜面",
+      "oldHits": [
+        "家常",
+        "鲜"
+      ],
+      "newHits": [
+        "家常",
+        "鲜"
+      ],
+      "newHates": [],
+      "oldScore": "2",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：清淡、力量涌现；可加：+黄瓜（补清淡）；+豆腐（补清淡）；+露水（补清淡）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 279,
+      "guest": "西行寺幽幽子",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "中华",
+        "传说",
+        "水产",
+        "肉",
+        "高级"
+      ],
+      "newHits": [
+        "中华",
+        "传说",
+        "大份",
+        "水产",
+        "肉",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "5",
+      "newTagScore": 6,
+      "extraIngredientSuggestion": "缺：大份、饱腹、和风；可加：+地瓜（补饱腹）；+面粉（补饱腹）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 281,
+      "guest": "西行寺幽幽子",
+      "phase": "后期",
+      "recipe": "大江户船祭",
+      "oldHits": [
+        "传说",
+        "和风",
+        "水产",
+        "高级"
+      ],
+      "newHits": [
+        "传说",
+        "和风",
+        "大份",
+        "水产",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 5,
+      "extraIngredientSuggestion": "缺：大份、肉、饱腹、中华；可加：+地瓜（补饱腹）；+猪肉（补肉）；+面粉（补饱腹）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 286,
+      "guest": "萌澄果",
+      "phase": "后期",
+      "recipe": "疯帽子茶会",
+      "oldHits": [
+        "梦幻",
+        "甜"
+      ],
+      "newHits": [
+        "梦幻",
+        "甜"
+      ],
+      "newHates": [],
+      "oldScore": "2",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：肉、水产；可加：+鳟鱼（补水产）；+螃蟹（补水产）；+猪肉（补肉）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 287,
+      "guest": "萌澄果",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "水产",
+        "肉"
+      ],
+      "newHits": [
+        "水产",
+        "肉"
+      ],
+      "newHates": [],
+      "oldScore": "2",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：甜、梦幻；可加：+葡萄（补甜）；+奶油（补甜）；+桃子（补甜）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 292,
+      "guest": "蹦蹦跳跳的三妖精",
+      "phase": "后期",
+      "recipe": "疯帽子茶会",
+      "oldHits": [
+        "梦幻",
+        "甜",
+        "菌类"
+      ],
+      "newHits": [
+        "梦幻",
+        "甜",
+        "菌类"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：家常、凉爽、小巧；可加：+冰块（补凉爽）；+黄瓜（补家常）；+豆腐（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 297,
+      "guest": "冴月麟",
+      "phase": "后期",
+      "recipe": "牛肉鸳鸯火锅",
+      "oldHits": [
+        "中华",
+        "家常",
+        "辣"
+      ],
+      "newHits": [
+        "中华",
+        "家常",
+        "辣"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：水产；可加：+鳟鱼（补水产）；+螃蟹（补水产）；+章鱼（补水产）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 303,
+      "guest": "立空汐",
+      "phase": "后期",
+      "recipe": "牛肉鸳鸯火锅",
+      "oldHits": [
+        "力量涌现",
+        "山珍",
+        "昂贵",
+        "肉"
+      ],
+      "newHits": [
+        "力量涌现",
+        "山珍",
+        "昂贵",
+        "肉"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：下酒、和风；该菜没有不冲突的加料位，可换其他推荐菜或直接用高命中菜。（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 304,
+      "guest": "立空汐",
+      "phase": "后期",
+      "recipe": "幻想佛跳墙",
+      "oldHits": [
+        "力量涌现",
+        "山珍",
+        "昂贵",
+        "肉"
+      ],
+      "newHits": [
+        "力量涌现",
+        "山珍",
+        "昂贵",
+        "肉"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：下酒、和风；该菜没有不冲突的加料位，可换其他推荐菜或直接用高命中菜。（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 308,
+      "guest": "时焉侑",
+      "phase": "后期",
+      "recipe": "竹取姬",
+      "oldHits": [
+        "传说",
+        "文化底蕴",
+        "特产"
+      ],
+      "newHits": [
+        "传说",
+        "文化底蕴",
+        "特产"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：下酒、西式、中华；可加：+奶油（补西式）；+萝卜（补下酒）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 309,
+      "guest": "时焉侑",
+      "phase": "后期",
+      "recipe": "龙吟桃子",
+      "oldHits": [
+        "传说",
+        "特产"
+      ],
+      "newHits": [
+        "传说",
+        "特产"
+      ],
+      "newHates": [],
+      "oldScore": "2",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：下酒、西式、中华、文化底蕴；可加：+奶油（补西式）；+萝卜（补下酒）；+莲子（补文化底蕴）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 310,
+      "guest": "时焉侑",
+      "phase": "后期",
+      "recipe": "疯帽子茶会",
+      "oldHits": [
+        "特产",
+        "西式"
+      ],
+      "newHits": [
+        "特产",
+        "西式"
+      ],
+      "newHates": [],
+      "oldScore": "2",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：传说、下酒、中华、文化底蕴；可加：+并蒂莲（补传说、文化底蕴）；+萝卜（补下酒）；+莲子（补文化底蕴）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 314,
+      "guest": "秦心",
+      "phase": "后期",
+      "recipe": "大江户船祭",
+      "oldHits": [
+        "传说",
+        "和风",
+        "招牌",
+        "适合拍照"
+      ],
+      "newHits": [
+        "传说",
+        "和风",
+        "招牌",
+        "适合拍照"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：凉爽、梦幻；可加：+薜荔（补凉爽、梦幻）；+并蒂莲（补梦幻）；+鲜花（补梦幻）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 315,
+      "guest": "秦心",
+      "phase": "后期",
+      "recipe": "幻想星莲船",
+      "oldHits": [
+        "凉爽",
+        "招牌",
+        "梦幻",
+        "适合拍照"
+      ],
+      "newHits": [
+        "凉爽",
+        "招牌",
+        "梦幻",
+        "适合拍照"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：传说、和风；可加：+海胆（补传说）；+极上金枪鱼（补传说）；+黑毛猪肉（补传说）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 326,
+      "guest": "古明地恋",
+      "phase": "后期",
+      "recipe": "疯帽子茶会",
+      "oldHits": [
+        "不可思议",
+        "梦幻",
+        "甜"
+      ],
+      "newHits": [
+        "不可思议",
+        "梦幻",
+        "甜"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：咸、生、猎奇；可加：+黑盐（补咸）；+鸡蛋（补生）；+蝉蜕（补猎奇）（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 327,
+      "guest": "古明地恋",
+      "phase": "后期",
+      "recipe": "幻想星莲船",
+      "oldHits": [
+        "不可思议",
+        "梦幻",
+        "生"
+      ],
+      "newHits": [
+        "不可思议",
+        "梦幻",
+        "生"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：咸、甜、猎奇；可加：+黑盐（补咸）；+葡萄（补甜）；+奶油（补甜）（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 328,
+      "guest": "古明地恋",
+      "phase": "后期",
+      "recipe": "逆转天地！",
+      "oldHits": [
+        "不可思议",
+        "梦幻",
+        "猎奇"
+      ],
+      "newHits": [
+        "不可思议",
+        "梦幻",
+        "猎奇"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：咸、甜、生；可加：+黑盐（补咸）；+鸡蛋（补生）；+葡萄（补甜）（流行厌恶（动态）为动态标签，不靠加料）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 332,
+      "guest": "二岩猯藏",
+      "phase": "后期",
+      "recipe": "大江户船祭",
+      "oldHits": [
+        "下酒",
+        "传说",
+        "和风",
+        "水产"
+      ],
+      "newHits": [
+        "下酒",
+        "传说",
+        "和风",
+        "水产"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：肉、家常、果味；可加：+葡萄（补果味）；+黄瓜（补家常）；+豆腐（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 338,
+      "guest": "八云紫",
+      "phase": "后期",
+      "recipe": "汉宫藏娇",
+      "oldHits": [
+        "传说",
+        "汤羹",
+        "猎奇",
+        "高级"
+      ],
+      "newHits": [
+        "传说",
+        "汤羹",
+        "猎奇",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "4",
+      "newTagScore": 4,
+      "extraIngredientSuggestion": "缺：家常、适合拍照、凉爽；可加：+冰块（补凉爽）；+黄瓜（补家常）；+白果（补适合拍照）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 339,
+      "guest": "八云紫",
+      "phase": "后期",
+      "recipe": "大江户船祭",
+      "oldHits": [
+        "传说",
+        "适合拍照",
+        "高级"
+      ],
+      "newHits": [
+        "传说",
+        "适合拍照",
+        "高级"
+      ],
+      "newHates": [],
+      "oldScore": "3",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：家常、凉爽、猎奇、汤羹；可加：+蝉蜕（补猎奇）；+黄瓜（补家常）；+豆腐（补家常）",
+      "ingredientCount": 5
+    }
+  ],
+  "conflicting": [
+    {
+      "row": 29,
+      "guest": "上白泽慧音",
+      "phase": "后期",
+      "recipe": "罗汉上素",
+      "oldHits": [
+        "文化底蕴",
+        "清淡",
+        "素"
+      ],
+      "newHits": [
+        "文化底蕴",
+        "清淡",
+        "素"
+      ],
+      "newHates": [
+        "大份"
+      ],
+      "oldScore": "3",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：家常、和风、中华；可加：+黄瓜（补家常）；+豆腐（补家常）；+奶油（补家常）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 81,
+      "guest": "蓬莱山辉夜",
+      "phase": "前期",
+      "recipe": "竹取姬",
+      "oldHits": [
+        "传说",
+        "和风",
+        "文化底蕴"
+      ],
+      "newHits": [
+        "传说",
+        "和风",
+        "文化底蕴"
+      ],
+      "newHates": [
+        "大份"
+      ],
+      "oldScore": "3",
+      "newTagScore": 2,
+      "extraIngredientSuggestion": "缺：不可思议；可加：+可可豆（补不可思议）；+幻昙华（补不可思议）；+月光草（补不可思议）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 214,
+      "guest": "少名针妙丸",
+      "phase": "后期",
+      "recipe": "大江户船祭",
+      "oldHits": [
+        "传说",
+        "和风",
+        "文化底蕴",
+        "适合拍照"
+      ],
+      "newHits": [
+        "传说",
+        "和风",
+        "文化底蕴",
+        "适合拍照"
+      ],
+      "newHates": [
+        "大份"
+      ],
+      "oldScore": "4",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：甜、小巧、燃起来了；可加：+葡萄（补甜）；+桃子（补甜）；+梅子（补小巧）",
+      "ingredientCount": 5
+    },
+    {
+      "row": 215,
+      "guest": "少名针妙丸",
+      "phase": "后期",
+      "recipe": "竹取姬",
+      "oldHits": [
+        "传说",
+        "和风",
+        "文化底蕴",
+        "适合拍照"
+      ],
+      "newHits": [
+        "传说",
+        "和风",
+        "文化底蕴",
+        "适合拍照"
+      ],
+      "newHates": [
+        "大份"
+      ],
+      "oldScore": "4",
+      "newTagScore": 3,
+      "extraIngredientSuggestion": "缺：甜、小巧、燃起来了；可加：+葡萄（补甜）；+桃子（补甜）；+梅子（补小巧）",
+      "ingredientCount": 5
+    }
+  ]
+}

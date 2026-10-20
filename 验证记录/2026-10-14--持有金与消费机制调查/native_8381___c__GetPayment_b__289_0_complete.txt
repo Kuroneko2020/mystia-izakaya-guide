@@ -1,0 +1,28 @@
+# <>c::<GetPayment>b__289_0
+# {"declaringType": "<>c", "typeIndex": 1422, "image": "Assembly-CSharp.dll", "name": "<GetPayment>b__289_0", "metadataMethodIndex": 8381, "token": "0x60020be", "methodPointerIndex": 8381, "va": "0x1804e2d10", "rva": "0x4e2d10", "endRva": "0x4e2d28", "returnTypeIndex": 20604, "parameters": [{"index": 6007, "name": "x", "typeIndex": 38196}]}
+# range end RVA 0x4e2d30; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804E2D10: 48 83 EC 28        sub         rsp,28h
+  00000001804E2D14: 48 85 D2           test        rdx,rdx
+  00000001804E2D17: 74 09              je          00000001804E2D22
+  00000001804E2D19: 0F B6 42 4D        movzx       eax,byte ptr [rdx+4Dh]
+  00000001804E2D1D: 48 83 C4 28        add         rsp,28h
+  00000001804E2D21: C3                 ret
+  00000001804E2D22: E8 F9 A3 E7 FF     call        000000018035D120
+  00000001804E2D27: CC                 int         3
+  00000001804E2D28: CC                 int         3
+  00000001804E2D29: CC                 int         3
+  00000001804E2D2A: CC                 int         3
+  00000001804E2D2B: CC                 int         3
+  00000001804E2D2C: CC                 int         3
+  00000001804E2D2D: CC                 int         3
+  00000001804E2D2E: CC                 int         3
+  00000001804E2D2F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

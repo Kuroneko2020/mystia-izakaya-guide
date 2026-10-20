@@ -1,0 +1,47 @@
+# <>c__DisplayClass41_2::<OnPanelOpen>b__15
+# {"declaringType": "<>c__DisplayClass41_2", "typeIndex": 1747, "image": "Assembly-CSharp.dll", "name": "<OnPanelOpen>b__15", "metadataMethodIndex": 10607, "token": "0x6002970", "methodPointerIndex": 10607, "va": "0x18054b0f0", "rva": "0x54b0f0", "endRva": "0x54b133", "returnTypeIndex": 33376, "parameters": [{"index": 8038, "name": "x", "typeIndex": 25811}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x54b0f0..0x54b140; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018054B0F0: 48 83 EC 28        sub         rsp,28h
+  000000018054B0F4: 48 8B C2           mov         rax,rdx
+  000000018054B0F7: 48 8B 51 28        mov         rdx,qword ptr [rcx+28h]
+  000000018054B0FB: 48 85 D2           test        rdx,rdx
+  000000018054B0FE: 74 27              je          000000018054B127
+  000000018054B100: 48 8B 52 28        mov         rdx,qword ptr [rdx+28h]
+  000000018054B104: 48 85 D2           test        rdx,rdx
+  000000018054B107: 74 1E              je          000000018054B127
+  000000018054B109: 83 7A 18 01        cmp         dword ptr [rdx+18h],1
+  000000018054B10D: 76 1E              jbe         000000018054B12D
+  000000018054B10F: 48 85 C0           test        rax,rax
+  000000018054B112: 74 13              je          000000018054B127
+  000000018054B114: 48 8B 52 28        mov         rdx,qword ptr [rdx+28h]
+  000000018054B118: 45 33 C0           xor         r8d,r8d
+  000000018054B11B: 48 8B C8           mov         rcx,rax
+  000000018054B11E: 48 83 C4 28        add         rsp,28h
+  000000018054B122: E9 D9 A2 7A 02     jmp         0000000182CF5400 ; UnityEngine.UI.Image::set_sprite [MI 93868, RVA 0x2cf5400]
+  000000018054B127: E8 F4 1F E1 FF     call        000000018035D120
+  000000018054B12C: CC                 int         3
+  000000018054B12D: E8 DE 1F E1 FF     call        000000018035D110
+  000000018054B132: CC                 int         3
+  000000018054B133: CC                 int         3
+  000000018054B134: CC                 int         3
+  000000018054B135: CC                 int         3
+  000000018054B136: CC                 int         3
+  000000018054B137: CC                 int         3
+  000000018054B138: CC                 int         3
+  000000018054B139: CC                 int         3
+  000000018054B13A: CC                 int         3
+  000000018054B13B: CC                 int         3
+  000000018054B13C: CC                 int         3
+  000000018054B13D: CC                 int         3
+  000000018054B13E: CC                 int         3
+  000000018054B13F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

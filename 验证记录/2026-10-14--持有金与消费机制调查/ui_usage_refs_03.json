@@ -1,0 +1,1253 @@
+{
+  "files": [
+    {
+      "file": "ui_native_10567_WorkSceneServePannel_OnPanelOpen_01.txt",
+      "references": [
+        {
+          "address": "0x1841b52f0",
+          "rva": "0x41b52f0",
+          "raw": "0x2000250d",
+          "kind": 1,
+          "index": 4742,
+          "type": null
+        },
+        {
+          "address": "0x1841b2850",
+          "rva": "0x41b2850",
+          "raw": "0x2000246d",
+          "kind": 1,
+          "index": 4662,
+          "type": null
+        },
+        {
+          "address": "0x1841b6128",
+          "rva": "0x41b6128",
+          "raw": "0x2000255b",
+          "kind": 1,
+          "index": 4781,
+          "type": null
+        },
+        {
+          "address": "0x184190200",
+          "rva": "0x4190200",
+          "raw": "0x200098eb",
+          "kind": 1,
+          "index": 19573,
+          "type": {
+            "index": 4404,
+            "type": "System.Action",
+            "image": "mscorlib.dll",
+            "byvalTypeIndex": 19573
+          }
+        },
+        {
+          "address": "0x18413f388",
+          "rva": "0x413f388",
+          "raw": "0xc00a52b3",
+          "kind": 6,
+          "index": 338265
+        },
+        {
+          "address": "0x18417cd58",
+          "rva": "0x417cd58",
+          "raw": "0x200171f3",
+          "kind": 1,
+          "index": 47353,
+          "type": null
+        },
+        {
+          "address": "0x1841819d8",
+          "rva": "0x41819d8",
+          "raw": "0xc00a61ab",
+          "kind": 6,
+          "index": 340181
+        },
+        {
+          "address": "0x18417a680",
+          "rva": "0x417a680",
+          "raw": "0x200090ed",
+          "kind": 1,
+          "index": 18550,
+          "type": null
+        },
+        {
+          "address": "0x1841d4f98",
+          "rva": "0x41d4f98",
+          "raw": "0xc00a36dd",
+          "kind": 6,
+          "index": 334702
+        },
+        {
+          "address": "0x1841d2b98",
+          "rva": "0x41d2b98",
+          "raw": "0xc00a3695",
+          "kind": 6,
+          "index": 334666
+        },
+        {
+          "address": "0x18419c950",
+          "rva": "0x419c950",
+          "raw": "0x20012a65",
+          "kind": 1,
+          "index": 38194,
+          "type": {
+            "index": 1448,
+            "type": "NormalOrder",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 38194
+          }
+        },
+        {
+          "address": "0x18417be98",
+          "rva": "0x417be98",
+          "raw": "0x2000de07",
+          "kind": 1,
+          "index": 28419,
+          "type": {
+            "index": 10684,
+            "type": "UnityEngine.Object",
+            "image": "UnityEngine.CoreModule.dll",
+            "byvalTypeIndex": 28419
+          }
+        },
+        {
+          "address": "0x18414ccd0",
+          "rva": "0x414ccd0",
+          "raw": "0x200070e3",
+          "kind": 1,
+          "index": 14449,
+          "type": null
+        },
+        {
+          "address": "0x184197ad0",
+          "rva": "0x4197ad0",
+          "raw": "0x2000ea3d",
+          "kind": 1,
+          "index": 29982,
+          "type": {
+            "index": 2124,
+            "type": "GameData.RunTime.Common.RunTimeAlbum",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 29982
+          }
+        },
+        {
+          "address": "0x1841a6e38",
+          "rva": "0x41a6e38",
+          "raw": "0xc00a3ec5",
+          "kind": 6,
+          "index": 335714
+        },
+        {
+          "address": "0x1841a87e0",
+          "rva": "0x41a87e0",
+          "raw": "0x2000f113",
+          "kind": 1,
+          "index": 30857,
+          "type": {
+            "index": 1514,
+            "type": "NightScene.GuestManagementUtility.SpecialGuestsController",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 30857
+          }
+        },
+        {
+          "address": "0x18419cb58",
+          "rva": "0x419cb58",
+          "raw": "0x20012a79",
+          "kind": 1,
+          "index": 38204,
+          "type": {
+            "index": 1449,
+            "type": "SpecialOrder",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 38204
+          }
+        },
+        {
+          "address": "0x1841680d0",
+          "rva": "0x41680d0",
+          "raw": "0x600052eb",
+          "kind": 3,
+          "index": 10613,
+          "method": {
+            "declaringType": "<>c",
+            "typeIndex": 1748,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__41_3",
+            "metadataMethodIndex": 10613,
+            "token": "0x6002976",
+            "methodPointerIndex": 10613,
+            "va": "0x180549b90",
+            "rva": "0x549b90",
+            "endRva": null,
+            "returnTypeIndex": 20604,
+            "parameters": [
+              {
+                "index": 8042,
+                "name": "x",
+                "typeIndex": 30383
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x1841681d0",
+          "rva": "0x41681d0",
+          "raw": "0x600052ed",
+          "kind": 3,
+          "index": 10614,
+          "method": {
+            "declaringType": "<>c",
+            "typeIndex": 1748,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__41_5",
+            "metadataMethodIndex": 10614,
+            "token": "0x6002977",
+            "methodPointerIndex": 10614,
+            "va": "0x180549ba0",
+            "rva": "0x549ba0",
+            "endRva": null,
+            "returnTypeIndex": 20604,
+            "parameters": [
+              {
+                "index": 8043,
+                "name": "x",
+                "typeIndex": 30383
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x1841688d0",
+          "rva": "0x41688d0",
+          "raw": "0x600052bf",
+          "kind": 3,
+          "index": 10591,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_0",
+            "typeIndex": 1745,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__4",
+            "metadataMethodIndex": 10591,
+            "token": "0x6002960",
+            "methodPointerIndex": 10591,
+            "va": "0x18054ab20",
+            "rva": "0x54ab20",
+            "endRva": "0x54abb8",
+            "returnTypeIndex": 20604,
+            "parameters": [
+              {
+                "index": 8029,
+                "name": "x",
+                "typeIndex": 26152
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x1841689c8",
+          "rva": "0x41689c8",
+          "raw": "0x600052c1",
+          "kind": 3,
+          "index": 10592,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_0",
+            "typeIndex": 1745,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__6",
+            "metadataMethodIndex": 10592,
+            "token": "0x6002961",
+            "methodPointerIndex": 10592,
+            "va": "0x18054abc0",
+            "rva": "0x54abc0",
+            "endRva": "0x54ac58",
+            "returnTypeIndex": 20604,
+            "parameters": [
+              {
+                "index": 8030,
+                "name": "x",
+                "typeIndex": 26152
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x184168ac8",
+          "rva": "0x4168ac8",
+          "raw": "0x600052b7",
+          "kind": 3,
+          "index": 10587,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_0",
+            "typeIndex": 1745,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>g__OnInvalidTrayElementSelected|1",
+            "metadataMethodIndex": 10587,
+            "token": "0x600295c",
+            "methodPointerIndex": 10587,
+            "va": "0x18054ac60",
+            "rva": "0x54ac60",
+            "endRva": "0x54ac8e",
+            "returnTypeIndex": 33376,
+            "parameters": []
+          }
+        },
+        {
+          "address": "0x184168bc8",
+          "rva": "0x4168bc8",
+          "raw": "0x600052b5",
+          "kind": 3,
+          "index": 10586,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_0",
+            "typeIndex": 1745,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>g__OnTrayElementSelected|0",
+            "metadataMethodIndex": 10586,
+            "token": "0x600295b",
+            "methodPointerIndex": 10586,
+            "va": "0x18054ac90",
+            "rva": "0x54ac90",
+            "endRva": "0x54adc3",
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8027,
+                "name": "sellable",
+                "typeIndex": 30383
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x184168cc0",
+          "rva": "0x4168cc0",
+          "raw": "0x600052b9",
+          "kind": 3,
+          "index": 10588,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_0",
+            "typeIndex": 1745,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>g__OnTrayElementSubmited|2",
+            "metadataMethodIndex": 10588,
+            "token": "0x600295d",
+            "methodPointerIndex": 10588,
+            "va": "0x18054add0",
+            "rva": "0x54add0",
+            "endRva": "0x54adef",
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8028,
+                "name": "sellable",
+                "typeIndex": 30383
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x184176080",
+          "rva": "0x4176080",
+          "raw": "0x200150ed",
+          "kind": 1,
+          "index": 43126,
+          "type": {
+            "index": 1745,
+            "type": "<>c__DisplayClass41_0",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 43126
+          }
+        },
+        {
+          "address": "0x184168eb0",
+          "rva": "0x4168eb0",
+          "raw": "0x600052d1",
+          "kind": 3,
+          "index": 10600,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_2",
+            "typeIndex": 1747,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__10",
+            "metadataMethodIndex": 10600,
+            "token": "0x6002969",
+            "methodPointerIndex": 10600,
+            "va": "0x18054ae30",
+            "rva": "0x54ae30",
+            "endRva": "0x54b01e",
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8033,
+                "name": "x",
+                "typeIndex": 25811
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x184168fb0",
+          "rva": "0x4168fb0",
+          "raw": "0x600052d7",
+          "kind": 3,
+          "index": 10603,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_2",
+            "typeIndex": 1747,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__11",
+            "metadataMethodIndex": 10603,
+            "token": "0x600296c",
+            "methodPointerIndex": 10603,
+            "va": "0x18054b020",
+            "rva": "0x54b020",
+            "endRva": "0x54b09b",
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8034,
+                "name": "x",
+                "typeIndex": 25811
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x1841690b0",
+          "rva": "0x41690b0",
+          "raw": "0x600052d9",
+          "kind": 3,
+          "index": 10604,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_2",
+            "typeIndex": 1747,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__12",
+            "metadataMethodIndex": 10604,
+            "token": "0x600296d",
+            "methodPointerIndex": 10604,
+            "va": "0x1804338e0",
+            "rva": "0x4338e0",
+            "endRva": "0x43390e",
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8035,
+                "name": "x",
+                "typeIndex": 31938
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x1841691b0",
+          "rva": "0x41691b0",
+          "raw": "0x600052db",
+          "kind": 3,
+          "index": 10605,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_2",
+            "typeIndex": 1747,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__13",
+            "metadataMethodIndex": 10605,
+            "token": "0x600296e",
+            "methodPointerIndex": 10605,
+            "va": "0x18046be70",
+            "rva": "0x46be70",
+            "endRva": "0x46be9e",
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8036,
+                "name": "x",
+                "typeIndex": 31938
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x1841692b0",
+          "rva": "0x41692b0",
+          "raw": "0x600052dd",
+          "kind": 3,
+          "index": 10606,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_2",
+            "typeIndex": 1747,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__14",
+            "metadataMethodIndex": 10606,
+            "token": "0x600296f",
+            "methodPointerIndex": 10606,
+            "va": "0x18054b0a0",
+            "rva": "0x54b0a0",
+            "endRva": "0x54b0e3",
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8037,
+                "name": "x",
+                "typeIndex": 25811
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x1841693b0",
+          "rva": "0x41693b0",
+          "raw": "0x600052df",
+          "kind": 3,
+          "index": 10607,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_2",
+            "typeIndex": 1747,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__15",
+            "metadataMethodIndex": 10607,
+            "token": "0x6002970",
+            "methodPointerIndex": 10607,
+            "va": "0x18054b0f0",
+            "rva": "0x54b0f0",
+            "endRva": "0x54b133",
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8038,
+                "name": "x",
+                "typeIndex": 25811
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x1841694b0",
+          "rva": "0x41694b0",
+          "raw": "0x600052e1",
+          "kind": 3,
+          "index": 10608,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_2",
+            "typeIndex": 1747,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__16",
+            "metadataMethodIndex": 10608,
+            "token": "0x6002971",
+            "methodPointerIndex": 10608,
+            "va": "0x18054b140",
+            "rva": "0x54b140",
+            "endRva": "0x54b178",
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8039,
+                "name": "x",
+                "typeIndex": 25811
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x1841695b0",
+          "rva": "0x41695b0",
+          "raw": "0x600052e3",
+          "kind": 3,
+          "index": 10609,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_2",
+            "typeIndex": 1747,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__17",
+            "metadataMethodIndex": 10609,
+            "token": "0x6002972",
+            "methodPointerIndex": 10609,
+            "va": "0x18054b180",
+            "rva": "0x54b180",
+            "endRva": null,
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8040,
+                "name": "x",
+                "typeIndex": 25811
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x1841696b0",
+          "rva": "0x41696b0",
+          "raw": "0x600052e5",
+          "kind": 3,
+          "index": 10610,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_2",
+            "typeIndex": 1747,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__18",
+            "metadataMethodIndex": 10610,
+            "token": "0x6002973",
+            "methodPointerIndex": 10610,
+            "va": "0x18054b190",
+            "rva": "0x54b190",
+            "endRva": null,
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8041,
+                "name": "x",
+                "typeIndex": 25811
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x184169bb0",
+          "rva": "0x4169bb0",
+          "raw": "0x600052c9",
+          "kind": 3,
+          "index": 10596,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_2",
+            "typeIndex": 1747,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__8",
+            "metadataMethodIndex": 10596,
+            "token": "0x6002965",
+            "methodPointerIndex": 10596,
+            "va": "0x18054b480",
+            "rva": "0x54b480",
+            "endRva": "0x54b66e",
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8031,
+                "name": "x",
+                "typeIndex": 25811
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x184169cb0",
+          "rva": "0x4169cb0",
+          "raw": "0x600052cf",
+          "kind": 3,
+          "index": 10599,
+          "method": {
+            "declaringType": "<>c__DisplayClass41_2",
+            "typeIndex": 1747,
+            "image": "Assembly-CSharp.dll",
+            "name": "<OnPanelOpen>b__9",
+            "metadataMethodIndex": 10599,
+            "token": "0x6002968",
+            "methodPointerIndex": 10599,
+            "va": "0x18054b670",
+            "rva": "0x54b670",
+            "endRva": "0x54b6eb",
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 8032,
+                "name": "x",
+                "typeIndex": 25811
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x184176290",
+          "rva": "0x4176290",
+          "raw": "0x200150f3",
+          "kind": 1,
+          "index": 43129,
+          "type": {
+            "index": 1747,
+            "type": "<>c__DisplayClass41_2",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 43129
+          }
+        },
+        {
+          "address": "0x184175f80",
+          "rva": "0x4175f80",
+          "raw": "0x200150e9",
+          "kind": 1,
+          "index": 43124,
+          "type": {
+            "index": 1748,
+            "type": "<>c",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 43124
+          }
+        },
+        {
+          "address": "0x184153b20",
+          "rva": "0x4153b20",
+          "raw": "0xc004e015",
+          "kind": 6,
+          "index": 159754
+        },
+        {
+          "address": "0x184153d20",
+          "rva": "0x4153d20",
+          "raw": "0xc004e019",
+          "kind": 6,
+          "index": 159756
+        },
+        {
+          "address": "0x184168210",
+          "rva": "0x4168210",
+          "raw": "0xc00a5047",
+          "kind": 6,
+          "index": 337955
+        }
+      ]
+    },
+    {
+      "file": "ui_native_21897_SpecialGuestDescriber_Describe_01.txt",
+      "references": [
+        {
+          "address": "0x1841be4d8",
+          "rva": "0x41be4d8",
+          "raw": "0x2001607b",
+          "kind": 1,
+          "index": 45117,
+          "type": null
+        },
+        {
+          "address": "0x18419fac8",
+          "rva": "0x419fac8",
+          "raw": "0xc00a08e5",
+          "kind": 6,
+          "index": 328818
+        },
+        {
+          "address": "0x18419fbc8",
+          "rva": "0x419fbc8",
+          "raw": "0xc00a08e7",
+          "kind": 6,
+          "index": 328819
+        },
+        {
+          "address": "0x1841c97f0",
+          "rva": "0x41c97f0",
+          "raw": "0x20016413",
+          "kind": 1,
+          "index": 45577,
+          "type": null
+        },
+        {
+          "address": "0x1841c3b18",
+          "rva": "0x41c3b18",
+          "raw": "0x2000b45f",
+          "kind": 1,
+          "index": 23087,
+          "type": {
+            "index": 3632,
+            "type": "Common.UI.DescriberHelper",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 23087
+          }
+        },
+        {
+          "address": "0x184160488",
+          "rva": "0x4160488",
+          "raw": "0xc009d491",
+          "kind": 6,
+          "index": 322120
+        },
+        {
+          "address": "0x1841a7ee8",
+          "rva": "0x41a7ee8",
+          "raw": "0xc009daef",
+          "kind": 6,
+          "index": 322935
+        },
+        {
+          "address": "0x184154208",
+          "rva": "0x4154208",
+          "raw": "0x2000cc51",
+          "kind": 1,
+          "index": 26152,
+          "type": {
+            "index": 4508,
+            "type": "System.Int32",
+            "image": "mscorlib.dll",
+            "byvalTypeIndex": 26152
+          }
+        },
+        {
+          "address": "0x18415edc8",
+          "rva": "0x415edc8",
+          "raw": "0xc003b6bb",
+          "kind": 6,
+          "index": 121693
+        },
+        {
+          "address": "0x18415efc8",
+          "rva": "0x415efc8",
+          "raw": "0xc003b6c7",
+          "kind": 6,
+          "index": 121699
+        },
+        {
+          "address": "0x184136040",
+          "rva": "0x4136040",
+          "raw": "0xc0041f65",
+          "kind": 6,
+          "index": 135090
+        },
+        {
+          "address": "0x184197078",
+          "rva": "0x4197078",
+          "raw": "0xc00a6501",
+          "kind": 6,
+          "index": 340608
+        },
+        {
+          "address": "0x18417d020",
+          "rva": "0x417d020",
+          "raw": "0x2000de6d",
+          "kind": 1,
+          "index": 28470,
+          "type": null
+        },
+        {
+          "address": "0x18417be98",
+          "rva": "0x417be98",
+          "raw": "0x2000de07",
+          "kind": 1,
+          "index": 28419,
+          "type": {
+            "index": 10684,
+            "type": "UnityEngine.Object",
+            "image": "UnityEngine.CoreModule.dll",
+            "byvalTypeIndex": 28419
+          }
+        },
+        {
+          "address": "0x184197ad0",
+          "rva": "0x4197ad0",
+          "raw": "0x2000ea3d",
+          "kind": 1,
+          "index": 29982,
+          "type": {
+            "index": 2124,
+            "type": "GameData.RunTime.Common.RunTimeAlbum",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 29982
+          }
+        },
+        {
+          "address": "0x184197cd8",
+          "rva": "0x4197cd8",
+          "raw": "0x2000ea41",
+          "kind": 1,
+          "index": 29984,
+          "type": {
+            "index": 2133,
+            "type": "GameData.RunTime.Common.RunTimePlayerData",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 29984
+          }
+        },
+        {
+          "address": "0x1841c5b28",
+          "rva": "0x41c5b28",
+          "raw": "0x6000ab25",
+          "kind": 3,
+          "index": 21906,
+          "method": {
+            "declaringType": "<>c",
+            "typeIndex": 3666,
+            "image": "Assembly-CSharp.dll",
+            "name": "<Describe>b__41_0",
+            "metadataMethodIndex": 21906,
+            "token": "0x6005593",
+            "methodPointerIndex": 21906,
+            "va": "0x180854a80",
+            "rva": "0x854a80",
+            "endRva": "0x854b39",
+            "returnTypeIndex": 33376,
+            "parameters": [
+              {
+                "index": 15681,
+                "name": "interactableBase",
+                "typeIndex": 32630
+              },
+              {
+                "index": 15682,
+                "name": "tagId",
+                "typeIndex": 26152
+              }
+            ]
+          }
+        },
+        {
+          "address": "0x184145200",
+          "rva": "0x4145200",
+          "raw": "0x200142bf",
+          "kind": 1,
+          "index": 41311,
+          "type": {
+            "index": 3666,
+            "type": "<>c",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 41311
+          }
+        },
+        {
+          "address": "0x1841cae98",
+          "rva": "0x41cae98",
+          "raw": "0x2001011f",
+          "kind": 1,
+          "index": 32911,
+          "type": {
+            "index": 3610,
+            "type": "Common.UI.UniversalGameManager",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 32911
+          }
+        },
+        {
+          "address": "0x184184068",
+          "rva": "0x4184068",
+          "raw": "0xa0000c6f",
+          "kind": 5,
+          "index": 1591,
+          "string": "<color=#e98436> - </color>"
+        },
+        {
+          "address": "0x1841b9210",
+          "rva": "0x41b9210",
+          "raw": "0xa0002847",
+          "kind": 5,
+          "index": 5155,
+          "string": "FILLTER_TAG_ALL"
+        },
+        {
+          "address": "0x18418edb0",
+          "rva": "0x418edb0",
+          "raw": "0xa0008dbf",
+          "kind": 5,
+          "index": 18143,
+          "string": "∞<color=#e98436> - </color>∞"
+        },
+        {
+          "address": "0x184183f60",
+          "rva": "0x4183f60",
+          "raw": "0xa0000c6d",
+          "kind": 5,
+          "index": 1590,
+          "string": "<color=#e98436>"
+        },
+        {
+          "address": "0x184179a70",
+          "rva": "0x4179a70",
+          "raw": "0xa0008b2d",
+          "kind": 5,
+          "index": 17814,
+          "string": "{0:c}"
+        },
+        {
+          "address": "0x1841916e0",
+          "rva": "0x41916e0",
+          "raw": "0xa0000e0f",
+          "kind": 5,
+          "index": 1799,
+          "string": "??"
+        }
+      ]
+    },
+    {
+      "file": "ui_native_19507___c__DisplayClass5_0__SetNum_b__0_02.txt",
+      "references": [
+        {
+          "address": "0x184197cd8",
+          "rva": "0x4197cd8",
+          "raw": "0x2000ea41",
+          "kind": 1,
+          "index": 29984,
+          "type": {
+            "index": 2133,
+            "type": "GameData.RunTime.Common.RunTimePlayerData",
+            "image": "Assembly-CSharp.dll",
+            "byvalTypeIndex": 29984
+          }
+        },
+        {
+          "address": "0x18418eca8",
+          "rva": "0x418eca8",
+          "raw": "0xa0008dbd",
+          "kind": 5,
+          "index": 18142,
+          "string": "∞"
+        },
+        {
+          "address": "0x1841917e8",
+          "rva": "0x41917e8",
+          "raw": "0xa0000e11",
+          "kind": 5,
+          "index": 1800,
+          "string": "???"
+        }
+      ]
+    }
+  ],
+  "vtables": [
+    {
+      "typeIndex": 2315,
+      "type": "GameData.Core.Collections.NightSceneUtility.SpecialGuest",
+      "start": 19206,
+      "count": 11,
+      "slots": [
+        {
+          "slot": 0,
+          "il2cppClassOffsetHex": "0x138",
+          "raw": "0x6000e3ff",
+          "kind": 3,
+          "index": 29183,
+          "method": {
+            "declaringType": "System.Object",
+            "typeIndex": 4697,
+            "image": "mscorlib.dll",
+            "name": "Equals",
+            "metadataMethodIndex": 29183,
+            "token": "0x6001054",
+            "methodPointerIndex": 4179,
+            "va": "0x1809c4bc0",
+            "rva": "0x9c4bc0",
+            "endRva": null,
+            "returnTypeIndex": 20604,
+            "parameters": [
+              {
+                "index": 24124,
+                "name": "obj",
+                "typeIndex": 28405
+              }
+            ]
+          }
+        },
+        {
+          "slot": 1,
+          "il2cppClassOffsetHex": "0x148",
+          "raw": "0x6000e405",
+          "kind": 3,
+          "index": 29186,
+          "method": {
+            "declaringType": "System.Object",
+            "typeIndex": 4697,
+            "image": "mscorlib.dll",
+            "name": "Finalize",
+            "metadataMethodIndex": 29186,
+            "token": "0x6001057",
+            "methodPointerIndex": 4182,
+            "va": "0x1803e88d0",
+            "rva": "0x3e88d0",
+            "endRva": null,
+            "returnTypeIndex": 33376,
+            "parameters": []
+          }
+        },
+        {
+          "slot": 2,
+          "il2cppClassOffsetHex": "0x158",
+          "raw": "0x6000e407",
+          "kind": 3,
+          "index": 29187,
+          "method": {
+            "declaringType": "System.Object",
+            "typeIndex": 4697,
+            "image": "mscorlib.dll",
+            "name": "GetHashCode",
+            "metadataMethodIndex": 29187,
+            "token": "0x6001058",
+            "methodPointerIndex": 4183,
+            "va": "0x182254d60",
+            "rva": "0x2254d60",
+            "endRva": null,
+            "returnTypeIndex": 26152,
+            "parameters": []
+          }
+        },
+        {
+          "slot": 3,
+          "il2cppClassOffsetHex": "0x168",
+          "raw": "0x60007337",
+          "kind": 3,
+          "index": 14747,
+          "method": {
+            "declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest",
+            "typeIndex": 2315,
+            "image": "Assembly-CSharp.dll",
+            "name": "ToString",
+            "metadataMethodIndex": 14747,
+            "token": "0x600399c",
+            "methodPointerIndex": 14747,
+            "va": "0x18068c330",
+            "rva": "0x68c330",
+            "endRva": "0x68c42e",
+            "returnTypeIndex": 31304,
+            "parameters": []
+          }
+        },
+        {
+          "slot": 4,
+          "il2cppClassOffsetHex": "0x178",
+          "raw": "0x600072fd",
+          "kind": 3,
+          "index": 14718,
+          "method": {
+            "declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest",
+            "typeIndex": 2315,
+            "image": "Assembly-CSharp.dll",
+            "name": "get_Text",
+            "metadataMethodIndex": 14718,
+            "token": "0x600397f",
+            "methodPointerIndex": 14718,
+            "va": "0x18068dac0",
+            "rva": "0x68dac0",
+            "endRva": null,
+            "returnTypeIndex": 26716,
+            "parameters": []
+          }
+        },
+        {
+          "slot": 5,
+          "il2cppClassOffsetHex": "0x188",
+          "raw": "0x600072cf",
+          "kind": 3,
+          "index": 14695,
+          "method": {
+            "declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest",
+            "typeIndex": 2315,
+            "image": "Assembly-CSharp.dll",
+            "name": "get_CharacterPortrayal",
+            "metadataMethodIndex": 14695,
+            "token": "0x6003968",
+            "methodPointerIndex": 14695,
+            "va": "0x18068cf00",
+            "rva": "0x68cf00",
+            "endRva": "0x68cf4e",
+            "returnTypeIndex": 21205,
+            "parameters": []
+          }
+        },
+        {
+          "slot": 6,
+          "il2cppClassOffsetHex": "0x198",
+          "raw": "0x600072d3",
+          "kind": 3,
+          "index": 14697,
+          "method": {
+            "declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest",
+            "typeIndex": 2315,
+            "image": "Assembly-CSharp.dll",
+            "name": "get_CharacterPixel",
+            "metadataMethodIndex": 14697,
+            "token": "0x600396a",
+            "methodPointerIndex": 14697,
+            "va": "0x18068ceb0",
+            "rva": "0x68ceb0",
+            "endRva": "0x68cefe",
+            "returnTypeIndex": 21214,
+            "parameters": []
+          }
+        },
+        {
+          "slot": 7,
+          "il2cppClassOffsetHex": "0x1a8",
+          "raw": "0x600072fd",
+          "kind": 3,
+          "index": 14718,
+          "method": {
+            "declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest",
+            "typeIndex": 2315,
+            "image": "Assembly-CSharp.dll",
+            "name": "get_Text",
+            "metadataMethodIndex": 14718,
+            "token": "0x600397f",
+            "methodPointerIndex": 14718,
+            "va": "0x18068dac0",
+            "rva": "0x68dac0",
+            "endRva": null,
+            "returnTypeIndex": 26716,
+            "parameters": []
+          }
+        },
+        {
+          "slot": 8,
+          "il2cppClassOffsetHex": "0x1b8",
+          "raw": "0x600072df",
+          "kind": 3,
+          "index": 14703,
+          "method": {
+            "declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest",
+            "typeIndex": 2315,
+            "image": "Assembly-CSharp.dll",
+            "name": "get_LikeFoodTag",
+            "metadataMethodIndex": 14703,
+            "token": "0x6003970",
+            "methodPointerIndex": 14703,
+            "va": "0x18068d8c0",
+            "rva": "0x68d8c0",
+            "endRva": "0x68da0e",
+            "returnTypeIndex": 18550,
+            "parameters": []
+          }
+        },
+        {
+          "slot": 9,
+          "il2cppClassOffsetHex": "0x1c8",
+          "raw": "0x6000730f",
+          "kind": 3,
+          "index": 14727,
+          "method": {
+            "declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest",
+            "typeIndex": 2315,
+            "image": "Assembly-CSharp.dll",
+            "name": "GetFundRange",
+            "metadataMethodIndex": 14727,
+            "token": "0x6003988",
+            "methodPointerIndex": 14727,
+            "va": "0x18068ac60",
+            "rva": "0x68ac60",
+            "endRva": "0x68ad07",
+            "returnTypeIndex": 33188,
+            "parameters": []
+          }
+        },
+        {
+          "slot": 10,
+          "il2cppClassOffsetHex": "0x1d8",
+          "raw": "0x6000731b",
+          "kind": 3,
+          "index": 14733,
+          "method": {
+            "declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest",
+            "typeIndex": 2315,
+            "image": "Assembly-CSharp.dll",
+            "name": "OnGetVisual",
+            "metadataMethodIndex": 14733,
+            "token": "0x600398e",
+            "methodPointerIndex": 14733,
+            "va": "0x18068bfd0",
+            "rva": "0x68bfd0",
+            "endRva": "0x68c017",
+            "returnTypeIndex": 24636,
+            "parameters": [
+              {
+                "index": 11327,
+                "name": "id",
+                "typeIndex": 26152
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

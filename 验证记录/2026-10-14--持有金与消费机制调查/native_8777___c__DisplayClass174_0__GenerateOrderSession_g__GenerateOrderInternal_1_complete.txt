@@ -1,0 +1,213 @@
+# <>c__DisplayClass174_0::<GenerateOrderSession>g__GenerateOrderInternal|1
+# {"declaringType": "<>c__DisplayClass174_0", "typeIndex": 1482, "image": "Assembly-CSharp.dll", "name": "<GenerateOrderSession>g__GenerateOrderInternal|1", "metadataMethodIndex": 8777, "token": "0x600224a", "methodPointerIndex": 8777, "va": "0x180520a50", "rva": "0x520a50", "endRva": "0x520d2f", "returnTypeIndex": 38200, "parameters": [{"index": 6349, "name": "toGenerate", "typeIndex": 24624}, {"index": 6350, "name": "orderData", "typeIndex": 17358}]}
+# range end RVA 0x520d30; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180520A50: 40 56              push        rsi
+  0000000180520A52: 41 56              push        r14
+  0000000180520A54: 41 57              push        r15
+  0000000180520A56: 48 83 EC 40        sub         rsp,40h
+  0000000180520A5A: 80 3D 62 B2 E4 03  cmp         byte ptr [000000018436BCC3h],0
+                    00
+  0000000180520A61: 4D 8B F8           mov         r15,r8
+  0000000180520A64: 4C 8B F2           mov         r14,rdx
+  0000000180520A67: 48 8B F1           mov         rsi,rcx
+  0000000180520A6A: 75 4F              jne         0000000180520ABB
+  0000000180520A6C: 48 8D 0D DD BD C7  lea         rcx,[000000018419C850h]
+                    03
+  0000000180520A73: E8 08 C5 E3 FF     call        000000018035CF80
+  0000000180520A78: 48 8D 0D 49 E6 C3  lea         rcx,[000000018415F0C8h]
+                    03
+  0000000180520A7F: E8 FC C4 E3 FF     call        000000018035CF80
+  0000000180520A84: 48 8D 0D 45 97 CA  lea         rcx,[00000001841CA1D0h]
+                    03
+  0000000180520A8B: E8 F0 C4 E3 FF     call        000000018035CF80
+  0000000180520A90: 48 8D 0D 49 64 C7  lea         rcx,[0000000184196EE0h]
+                    03
+  0000000180520A97: E8 E4 C4 E3 FF     call        000000018035CF80
+  0000000180520A9C: 48 8D 0D 7D 34 C7  lea         rcx,[0000000184193F20h]
+                    03
+  0000000180520AA3: E8 D8 C4 E3 FF     call        000000018035CF80
+  0000000180520AA8: 48 8D 0D 29 63 C7  lea         rcx,[0000000184196DD8h]
+                    03
+  0000000180520AAF: E8 CC C4 E3 FF     call        000000018035CF80
+  0000000180520AB4: C6 05 08 B2 E4 03  mov         byte ptr [000000018436BCC3h],1
+                    01
+  0000000180520ABB: 48 89 5C 24 68     mov         qword ptr [rsp+68h],rbx
+  0000000180520AC0: 33 D2              xor         edx,edx
+  0000000180520AC2: 48 89 6C 24 38     mov         qword ptr [rsp+38h],rbp
+  0000000180520AC7: 49 8B CF           mov         rcx,r15
+  0000000180520ACA: 48 89 7C 24 30     mov         qword ptr [rsp+30h],rdi
+  0000000180520ACF: 48 C7 44 24 70 00  mov         qword ptr [rsp+70h],0
+                    00 00 00
+  0000000180520AD8: 49 C7 07 00 00 00  mov         qword ptr [r15],0
+                    00
+  0000000180520ADF: E8 CC BF E3 FF     call        000000018035CAB0
+  0000000180520AE4: 48 8B 4E 20        mov         rcx,qword ptr [rsi+20h]
+  0000000180520AE8: 48 85 C9           test        rcx,rcx
+  0000000180520AEB: 0F 84 38 02 00 00  je          0000000180520D29
+  0000000180520AF1: 33 D2              xor         edx,edx
+  0000000180520AF3: 32 DB              xor         bl,bl
+  0000000180520AF5: E8 86 99 FA FF     call        00000001804CA480 ; NightScene.GuestManagementUtility.GuestGroupController::get_AllOrdersCount [MI 8196, RVA 0x4ca480]
+  0000000180520AFA: 85 C0              test        eax,eax
+  0000000180520AFC: 0F 8E B2 00 00 00  jle         0000000180520BB4
+  0000000180520B02: 48 8B 4E 20        mov         rcx,qword ptr [rsi+20h]
+  0000000180520B06: 48 85 C9           test        rcx,rcx
+  0000000180520B09: 0F 84 1A 02 00 00  je          0000000180520D29
+  0000000180520B0F: 33 D2              xor         edx,edx
+  0000000180520B11: E8 DA 7A FA FF     call        00000001804C85F0 ; NightScene.GuestManagementUtility.GuestGroupController::PeekOrders [MI 8292, RVA 0x4c85f0]
+  0000000180520B16: 48 8B D8           mov         rbx,rax
+  0000000180520B19: 48 85 C0           test        rax,rax
+  0000000180520B1C: 0F 84 07 02 00 00  je          0000000180520D29
+  0000000180520B22: 80 78 4D 00        cmp         byte ptr [rax+4Dh],0
+  0000000180520B26: 75 3F              jne         0000000180520B67
+  0000000180520B28: 4D 85 F6           test        r14,r14
+  0000000180520B2B: 0F 84 F8 01 00 00  je          0000000180520D29
+  0000000180520B31: 48 8B 48 30        mov         rcx,qword ptr [rax+30h]
+  0000000180520B35: 48 85 C9           test        rcx,rcx
+  0000000180520B38: 0F 84 EB 01 00 00  je          0000000180520D29
+  0000000180520B3E: 41 8B 7E 70        mov         edi,dword ptr [r14+70h]
+  0000000180520B42: 33 D2              xor         edx,edx
+  0000000180520B44: E8 67 18 15 00     call        00000001806723B0 ; GameData.Core.TradableObjectBase::get_TrueValue [MI 14127, RVA 0x6723b0]
+  0000000180520B49: 48 8B 4B 28        mov         rcx,qword ptr [rbx+28h]
+  0000000180520B4D: 8B E8              mov         ebp,eax
+  0000000180520B4F: 48 85 C9           test        rcx,rcx
+  0000000180520B52: 0F 84 D1 01 00 00  je          0000000180520D29
+  0000000180520B58: 33 D2              xor         edx,edx
+  0000000180520B5A: E8 51 18 15 00     call        00000001806723B0 ; GameData.Core.TradableObjectBase::get_TrueValue [MI 14127, RVA 0x6723b0]
+  0000000180520B5F: 2B FD              sub         edi,ebp
+  0000000180520B61: 2B F8              sub         edi,eax
+  0000000180520B63: 41 89 7E 70        mov         dword ptr [r14+70h],edi
+  0000000180520B67: 48 8B 4B 30        mov         rcx,qword ptr [rbx+30h]
+  0000000180520B6B: 48 85 C9           test        rcx,rcx
+  0000000180520B6E: 0F 84 B5 01 00 00  je          0000000180520D29
+  0000000180520B74: 33 D2              xor         edx,edx
+  0000000180520B76: E8 A5 90 16 00     call        0000000180689C20 ; GameData.Core.Collections.Sellable::get_AdditiveTags [MI 14606, RVA 0x689c20]
+  0000000180520B7B: 48 85 C0           test        rax,rax
+  0000000180520B7E: 0F 84 A5 01 00 00  je          0000000180520D29
+  0000000180520B84: 4C 8B 05 3D E5 C3  mov         r8,qword ptr [000000018415F0C8h]
+                    03
+  0000000180520B8B: BA A0 0F 00 00     mov         edx,0FA0h
+  0000000180520B90: 48 8B C8           mov         rcx,rax
+  0000000180520B93: E8 78 74 B1 00     call        0000000181038010
+  0000000180520B98: 84 C0              test        al,al
+  0000000180520B9A: 75 04              jne         0000000180520BA0
+  0000000180520B9C: 33 DB              xor         ebx,ebx
+  0000000180520B9E: EB 14              jmp         0000000180520BB4
+  0000000180520BA0: 48 8B 43 28        mov         rax,qword ptr [rbx+28h]
+  0000000180520BA4: 48 85 C0           test        rax,rax
+  0000000180520BA7: 0F 84 7C 01 00 00  je          0000000180520D29
+  0000000180520BAD: 83 78 10 18        cmp         dword ptr [rax+10h],18h
+  0000000180520BB1: 0F 95 C3           setne       bl
+  0000000180520BB4: 4D 85 F6           test        r14,r14
+  0000000180520BB7: 0F 84 6C 01 00 00  je          0000000180520D29
+  0000000180520BBD: 33 D2              xor         edx,edx
+  0000000180520BBF: 49 8B CE           mov         rcx,r14
+  0000000180520BC2: E8 F9 7B FA FF     call        00000001804C87C0 ; NightScene.GuestManagementUtility.GuestGroupController::RefreshCurrentFundAndOrder [MI 8314, RVA 0x4c87c0]
+  0000000180520BC7: 45 33 C0           xor         r8d,r8d
+  0000000180520BCA: 84 DB              test        bl,bl
+  0000000180520BCC: 0F 85 4B 01 00 00  jne         0000000180520D1D
+  0000000180520BD2: 48 8D 56 28        lea         rdx,[rsi+28h]
+  0000000180520BD6: 49 8B CE           mov         rcx,r14
+  0000000180520BD9: E8 42 1C FA FF     call        00000001804C2820 ; NightScene.GuestManagementUtility.GuestGroupController::CheckOrderCount [MI 8319, RVA 0x4c2820]
+  0000000180520BDE: 84 C0              test        al,al
+  0000000180520BE0: 0F 85 C3 00 00 00  jne         0000000180520CA9
+  0000000180520BE6: 38 46 28           cmp         byte ptr [rsi+28h],al
+  0000000180520BE9: 74 7D              je          0000000180520C68
+  0000000180520BEB: 33 D2              xor         edx,edx
+  0000000180520BED: 49 8B CE           mov         rcx,r14
+  0000000180520BF0: E8 BB 9A FA FF     call        00000001804CA6B0 ; NightScene.GuestManagementUtility.GuestGroupController::get_IsThisOrderFree [MI 8248, RVA 0x4ca6b0]
+  0000000180520BF5: 0F B6 D0           movzx       edx,al
+  0000000180520BF8: 48 C7 44 24 20 00  mov         qword ptr [rsp+20h],0
+                    00 00 00
+  0000000180520C01: 4D 8B CF           mov         r9,r15
+  0000000180520C04: 4C 8D 44 24 70     lea         r8,[rsp+70h]
+  0000000180520C09: 49 8B CE           mov         rcx,r14
+  0000000180520C0C: E8 FF 50 FA FF     call        00000001804C5D10 ; NightScene.GuestManagementUtility.GuestGroupController::GenerateOrder [MI 8305, RVA 0x4c5d10]
+  0000000180520C11: 84 C0              test        al,al
+  0000000180520C13: 74 30              je          0000000180520C45
+  0000000180520C15: 48 8B 0D B4 95 CA  mov         rcx,qword ptr [00000001841CA1D0h]
+                    03
+  0000000180520C1C: 48 8B 5E 18        mov         rbx,qword ptr [rsi+18h]
+  0000000180520C20: 48 8B 7C 24 70     mov         rdi,qword ptr [rsp+70h]
+  0000000180520C25: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  0000000180520C2C: 75 05              jne         0000000180520C33
+  0000000180520C2E: E8 7D C6 DD FF     call        00000001802FD2B0
+  0000000180520C33: 45 33 C0           xor         r8d,r8d
+  0000000180520C36: 48 8B D7           mov         rdx,rdi
+  0000000180520C39: 48 8B CB           mov         rcx,rbx
+  0000000180520C3C: E8 DF A4 ED FF     call        00000001803FB120
+  0000000180520C41: 33 C0              xor         eax,eax
+  0000000180520C43: EB 4B              jmp         0000000180520C90
+  0000000180520C45: 48 8B 4E 20        mov         rcx,qword ptr [rsi+20h]
+  0000000180520C49: 48 85 C9           test        rcx,rcx
+  0000000180520C4C: 0F 84 D7 00 00 00  je          0000000180520D29
+  0000000180520C52: 80 B9 38 01 00 00  cmp         byte ptr [rcx+0000000000000138h],0
+                    00
+  0000000180520C59: B8 04 00 00 00     mov         eax,4
+  0000000180520C5E: BA 02 00 00 00     mov         edx,2
+  0000000180520C63: 0F 45 C2           cmovne      eax,edx
+  0000000180520C66: EB 28              jmp         0000000180520C90
+  0000000180520C68: 48 8B 15 69 61 C7  mov         rdx,qword ptr [0000000184196DD8h]
+                    03
+  0000000180520C6F: 45 33 C0           xor         r8d,r8d
+  0000000180520C72: 48 8B 4E 10        mov         rcx,qword ptr [rsi+10h]
+  0000000180520C76: E8 25 D4 BE 01     call        000000018210E0A0 ; System.String::Concat [MI 25739, RVA 0x210e0a0]
+  0000000180520C7B: 48 8D 4E 10        lea         rcx,[rsi+10h]
+  0000000180520C7F: 48 89 46 10        mov         qword ptr [rsi+10h],rax
+  0000000180520C83: 48 8B D0           mov         rdx,rax
+  0000000180520C86: E8 25 BE E3 FF     call        000000018035CAB0
+  0000000180520C8B: B8 04 00 00 00     mov         eax,4
+  0000000180520C90: 48 8B 7C 24 30     mov         rdi,qword ptr [rsp+30h]
+  0000000180520C95: 48 8B 6C 24 38     mov         rbp,qword ptr [rsp+38h]
+  0000000180520C9A: 48 8B 5C 24 68     mov         rbx,qword ptr [rsp+68h]
+  0000000180520C9F: 48 83 C4 40        add         rsp,40h
+  0000000180520CA3: 41 5F              pop         r15
+  0000000180520CA5: 41 5E              pop         r14
+  0000000180520CA7: 5E                 pop         rsi
+  0000000180520CA8: C3                 ret
+  0000000180520CA9: 41 8B 86 98 00 00  mov         eax,dword ptr [r14+0000000000000098h]
+                    00
+  0000000180520CB0: 48 8D 54 24 60     lea         rdx,[rsp+60h]
+  0000000180520CB5: 48 8B 0D 94 BB C7  mov         rcx,qword ptr [000000018419C850h]
+                    03
+  0000000180520CBC: 48 8B 7E 10        mov         rdi,qword ptr [rsi+10h]
+  0000000180520CC0: 89 44 24 60        mov         dword ptr [rsp+60h],eax
+  0000000180520CC4: E8 47 CD DD FF     call        00000001802FDA10
+  0000000180520CC9: 4D 8B 06           mov         r8,qword ptr [r14]
+  0000000180520CCC: 49 8B CE           mov         rcx,r14
+  0000000180520CCF: 48 8B D8           mov         rbx,rax
+  0000000180520CD2: 49 8B 90 C0 01 00  mov         rdx,qword ptr [r8+00000000000001C0h]
+                    00
+  0000000180520CD9: 41 FF 90 B8 01 00  call        qword ptr [r8+00000000000001B8h]
+                    00
+  0000000180520CE0: 48 8B 0D 39 32 C7  mov         rcx,qword ptr [0000000184193F20h]
+                    03
+  0000000180520CE7: 45 33 C9           xor         r9d,r9d
+  0000000180520CEA: 4C 8B C0           mov         r8,rax
+  0000000180520CED: 48 8B D3           mov         rdx,rbx
+  0000000180520CF0: E8 DB 08 BF 01     call        00000001821115D0 ; System.String::Format [MI 25744, RVA 0x21115d0]
+  0000000180520CF5: 45 33 C0           xor         r8d,r8d
+  0000000180520CF8: 48 8B D0           mov         rdx,rax
+  0000000180520CFB: 48 8B CF           mov         rcx,rdi
+  0000000180520CFE: E8 9D D3 BE 01     call        000000018210E0A0 ; System.String::Concat [MI 25739, RVA 0x210e0a0]
+  0000000180520D03: 48 8D 4E 10        lea         rcx,[rsi+10h]
+  0000000180520D07: 48 89 46 10        mov         qword ptr [rsi+10h],rax
+  0000000180520D0B: 48 8B D0           mov         rdx,rax
+  0000000180520D0E: E8 9D BD E3 FF     call        000000018035CAB0
+  0000000180520D13: B8 01 00 00 00     mov         eax,1
+  0000000180520D18: E9 73 FF FF FF     jmp         0000000180520C90
+  0000000180520D1D: 48 8B 15 BC 61 C7  mov         rdx,qword ptr [0000000184196EE0h]
+                    03
+  0000000180520D24: E9 49 FF FF FF     jmp         0000000180520C72
+  0000000180520D29: E8 F2 C3 E3 FF     call        000000018035D120
+  0000000180520D2E: CC                 int         3
+  0000000180520D2F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

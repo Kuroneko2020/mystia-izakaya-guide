@@ -1,0 +1,176 @@
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001806887C0: 40 53              push        rbx
+  00000001806887C2: 55                 push        rbp
+  00000001806887C3: 56                 push        rsi
+  00000001806887C4: 57                 push        rdi
+  00000001806887C5: 41 56              push        r14
+  00000001806887C7: 41 57              push        r15
+  00000001806887C9: 48 83 EC 28        sub         rsp,28h
+  00000001806887CD: 80 3D 35 42 CE 03  cmp         byte ptr [000000018436CA09h],0
+                    00
+  00000001806887D4: 4D 8B F1           mov         r14,r9
+  00000001806887D7: 49 8B D8           mov         rbx,r8
+  00000001806887DA: 48 8B F2           mov         rsi,rdx
+  00000001806887DD: 48 8B F9           mov         rdi,rcx
+  00000001806887E0: 75 67              jne         0000000180688849
+  00000001806887E2: 48 8D 0D 8F DE AB  lea         rcx,[0000000184146678h]
+                    03
+  00000001806887E9: E8 92 47 CD FF     call        000000018035CF80
+  00000001806887EE: 48 8D 0D 43 96 AC  lea         rcx,[0000000184151E38h]
+                    03
+  00000001806887F5: E8 86 47 CD FF     call        000000018035CF80
+  00000001806887FA: 48 8D 0D 2F C2 AC  lea         rcx,[0000000184154A30h]
+                    03
+  0000000180688801: E8 7A 47 CD FF     call        000000018035CF80
+  0000000180688806: 48 8D 0D 7B 7C AD  lea         rcx,[0000000184160488h]
+                    03
+  000000018068880D: E8 6E 47 CD FF     call        000000018035CF80
+  0000000180688812: 48 8D 0D 3F CB B0  lea         rcx,[0000000184195358h]
+                    03
+  0000000180688819: E8 62 47 CD FF     call        000000018035CF80
+  000000018068881E: 48 8D 0D F3 66 AE  lea         rcx,[000000018416EF18h]
+                    03
+  0000000180688825: E8 56 47 CD FF     call        000000018035CF80
+  000000018068882A: 48 8D 0D 7F 33 B3  lea         rcx,[00000001841BBBB0h]
+                    03
+  0000000180688831: E8 4A 47 CD FF     call        000000018035CF80
+  0000000180688836: 48 8D 0D CB 8B AB  lea         rcx,[0000000184141408h]
+                    03
+  000000018068883D: E8 3E 47 CD FF     call        000000018035CF80
+  0000000180688842: C6 05 C0 41 CE 03  mov         byte ptr [000000018436CA09h],1
+                    01
+  0000000180688849: 48 8B 07           mov         rax,qword ptr [rdi]
+  000000018068884C: 48 8B CF           mov         rcx,rdi
+  000000018068884F: 48 8B 6F 20        mov         rbp,qword ptr [rdi+20h]
+  0000000180688853: 48 8B 90 D0 01 00  mov         rdx,qword ptr [rax+00000000000001D0h]
+                    00
+  000000018068885A: FF 90 C8 01 00 00  call        qword ptr [rax+00000000000001C8h]
+  0000000180688860: 4C 8B 05 21 7C AD  mov         r8,qword ptr [0000000184160488h]
+                    03
+  0000000180688867: 48 8B D5           mov         rdx,rbp
+  000000018068886A: 48 8B C8           mov         rcx,rax
+  000000018068886D: 4C 8B F8           mov         r15,rax
+  0000000180688870: E8 BB 2A 6E 00     call        0000000180D6B330
+  0000000180688875: 48 8B 15 BC 95 AC  mov         rdx,qword ptr [0000000184151E38h]
+                    03
+  000000018068887C: 48 8B C8           mov         rcx,rax
+  000000018068887F: E8 EC 42 6D 00     call        0000000180D5CB70
+  0000000180688884: 48 8B D0           mov         rdx,rax
+  0000000180688887: 48 89 06           mov         qword ptr [rsi],rax
+  000000018068888A: 48 8B CE           mov         rcx,rsi
+  000000018068888D: E8 1E 42 CD FF     call        000000018035CAB0
+  0000000180688892: 4C 8B 05 97 C1 AC  mov         r8,qword ptr [0000000184154A30h]
+                    03
+  0000000180688899: 48 8B D5           mov         rdx,rbp
+  000000018068889C: 49 8B CF           mov         rcx,r15
+  000000018068889F: E8 1C 98 6D 00     call        0000000180D620C0
+  00000001806888A4: 48 8B 15 8D 95 AC  mov         rdx,qword ptr [0000000184151E38h]
+                    03
+  00000001806888AB: 48 8B C8           mov         rcx,rax
+  00000001806888AE: E8 BD 42 6D 00     call        0000000180D5CB70
+  00000001806888B3: 48 8B D0           mov         rdx,rax
+  00000001806888B6: 48 89 03           mov         qword ptr [rbx],rax
+  00000001806888B9: 48 8B CB           mov         rcx,rbx
+  00000001806888BC: E8 EF 41 CD FF     call        000000018035CAB0
+  00000001806888C1: 80 3D 3A 41 CE 03  cmp         byte ptr [000000018436CA02h],0
+                    00
+  00000001806888C8: 75 13              jne         00000001806888DD
+  00000001806888CA: 48 8D 0D 5F 47 B5  lea         rcx,[00000001841DD030h]
+                    03
+  00000001806888D1: E8 AA 46 CD FF     call        000000018035CF80
+  00000001806888D6: C6 05 25 41 CE 03  mov         byte ptr [000000018436CA02h],1
+                    01
+  00000001806888DD: 48 8B 7F 48        mov         rdi,qword ptr [rdi+48h]
+  00000001806888E1: 48 85 FF           test        rdi,rdi
+  00000001806888E4: 75 0F              jne         00000001806888F5
+  00000001806888E6: 48 8B 0D 43 47 B5  mov         rcx,qword ptr [00000001841DD030h]
+                    03
+  00000001806888ED: E8 BE B1 97 FF     call        0000000180003AB0
+  00000001806888F2: 48 8B F8           mov         rdi,rax
+  00000001806888F5: 48 8B 05 0C 8B AB  mov         rax,qword ptr [0000000184141408h]
+                    03
+  00000001806888FC: 83 B8 E0 00 00 00  cmp         dword ptr [rax+00000000000000E0h],0
+                    00
+  0000000180688903: 75 0F              jne         0000000180688914
+  0000000180688905: 48 8B C8           mov         rcx,rax
+  0000000180688908: E8 A3 49 C7 FF     call        00000001802FD2B0
+  000000018068890D: 48 8B 05 F4 8A AB  mov         rax,qword ptr [0000000184141408h]
+                    03
+  0000000180688914: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  000000018068891B: 48 8B 59 18        mov         rbx,qword ptr [rcx+18h]
+  000000018068891F: 48 85 DB           test        rbx,rbx
+  0000000180688922: 75 7A              jne         000000018068899E
+  0000000180688924: 39 98 E0 00 00 00  cmp         dword ptr [rax+00000000000000E0h],ebx
+  000000018068892A: 75 0F              jne         000000018068893B
+  000000018068892C: 48 8B C8           mov         rcx,rax
+  000000018068892F: E8 7C 49 C7 FF     call        00000001802FD2B0
+  0000000180688934: 48 8B 05 CD 8A AB  mov         rax,qword ptr [0000000184141408h]
+                    03
+  000000018068893B: 48 8B 80 B8 00 00  mov         rax,qword ptr [rax+00000000000000B8h]
+                    00
+  0000000180688942: 48 8B 0D CF 65 AE  mov         rcx,qword ptr [000000018416EF18h]
+                    03
+  0000000180688949: 48 8B 30           mov         rsi,qword ptr [rax]
+  000000018068894C: E8 6F 47 CD FF     call        000000018035D0C0
+  0000000180688951: 48 8B D8           mov         rbx,rax
+  0000000180688954: 48 85 C0           test        rax,rax
+  0000000180688957: 0F 84 A0 00 00 00  je          00000001806889FD
+  000000018068895D: 4C 8B 05 4C 32 B3  mov         r8,qword ptr [00000001841BBBB0h]
+                    03
+  0000000180688964: 45 33 C9           xor         r9d,r9d
+  0000000180688967: 48 8B D6           mov         rdx,rsi
+  000000018068896A: 48 8B C8           mov         rcx,rax
+  000000018068896D: E8 7E C9 7D 00     call        0000000180E652F0
+  0000000180688972: 48 8B 05 8F 8A AB  mov         rax,qword ptr [0000000184141408h]
+                    03
+  0000000180688979: 48 8B D3           mov         rdx,rbx
+  000000018068897C: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  0000000180688983: 48 89 59 18        mov         qword ptr [rcx+18h],rbx
+  0000000180688987: 48 8B 05 7A 8A AB  mov         rax,qword ptr [0000000184141408h]
+                    03
+  000000018068898E: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  0000000180688995: 48 83 C1 18        add         rcx,18h
+  0000000180688999: E8 12 41 CD FF     call        000000018035CAB0
+  000000018068899E: 4C 8B 05 B3 C9 B0  mov         r8,qword ptr [0000000184195358h]
+                    03
+  00000001806889A5: 48 8B D3           mov         rdx,rbx
+  00000001806889A8: 48 8B CF           mov         rcx,rdi
+  00000001806889AB: E8 B0 91 6F 00     call        0000000180D81B60
+  00000001806889B0: 4C 8B 05 C1 DC AB  mov         r8,qword ptr [0000000184146678h]
+                    03
+  00000001806889B7: 48 8B D0           mov         rdx,rax
+  00000001806889BA: 48 8B CD           mov         rcx,rbp
+  00000001806889BD: E8 DE 78 6C 00     call        0000000180D502A0
+  00000001806889C2: 48 8B 15 6F 94 AC  mov         rdx,qword ptr [0000000184151E38h]
+                    03
+  00000001806889C9: 48 8B C8           mov         rcx,rax
+  00000001806889CC: E8 9F 41 6D 00     call        0000000180D5CB70
+  00000001806889D1: 4C 8B 05 58 C0 AC  mov         r8,qword ptr [0000000184154A30h]
+                    03
+  00000001806889D8: 49 8B D7           mov         rdx,r15
+  00000001806889DB: 48 8B C8           mov         rcx,rax
+  00000001806889DE: E8 DD 96 6D 00     call        0000000180D620C0
+  00000001806889E3: 48 8B D0           mov         rdx,rax
+  00000001806889E6: 49 89 06           mov         qword ptr [r14],rax
+  00000001806889E9: 49 8B CE           mov         rcx,r14
+  00000001806889EC: 48 83 C4 28        add         rsp,28h
+  00000001806889F0: 41 5F              pop         r15
+  00000001806889F2: 41 5E              pop         r14
+  00000001806889F4: 5F                 pop         rdi
+  00000001806889F5: 5E                 pop         rsi
+  00000001806889F6: 5D                 pop         rbp
+  00000001806889F7: 5B                 pop         rbx
+  00000001806889F8: E9 B3 40 CD FF     jmp         000000018035CAB0
+  00000001806889FD: E8 1E 47 CD FF     call        000000018035D120
+  0000000180688A02: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

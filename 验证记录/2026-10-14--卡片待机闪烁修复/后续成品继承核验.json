@@ -1,0 +1,12 @@
+{
+  "currentOutputFile": "东方夜雀食堂攻略查询_2610141204.html",
+  "checks": {
+    "contentVisibilityVisible": true,
+    "noTopPseudoElement": true,
+    "idleInset": true,
+    "hoverInset": true
+  },
+  "archivedIsolatedOutput": "成品/旧版/东方夜雀食堂攻略查询_2610141148.html",
+  "archivedOutputSha256": "b668dc1e62b4bc30dd07d3f18d3cf3d85a5c004bbf74f1e8e6a243b8a3216529",
+  "boundary": "Current additional meal features were built by another concurrent task, not accepted by this card-only task."
+}

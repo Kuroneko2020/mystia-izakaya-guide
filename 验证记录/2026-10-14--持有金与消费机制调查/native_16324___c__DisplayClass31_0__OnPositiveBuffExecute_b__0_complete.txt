@@ -1,0 +1,74 @@
+# <>c__DisplayClass31_0::<OnPositiveBuffExecute>b__0
+# {"declaringType": "<>c__DisplayClass31_0", "typeIndex": 2620, "image": "Assembly-CSharp.dll", "name": "<OnPositiveBuffExecute>b__0", "metadataMethodIndex": 16324, "token": "0x6003fc5", "methodPointerIndex": 16324, "va": "0x1806daa20", "rva": "0x6daa20", "endRva": "0x6daaee", "returnTypeIndex": 33376, "parameters": [{"index": 12140, "name": "x", "typeIndex": 24388}]}
+# range end RVA 0x6daaf0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001806DAA20: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001806DAA25: 57                 push        rdi
+  00000001806DAA26: 48 83 EC 20        sub         rsp,20h
+  00000001806DAA2A: 80 3D 4B 22 C9 03  cmp         byte ptr [000000018436CC7Ch],0
+                    00
+  00000001806DAA31: 48 8B DA           mov         rbx,rdx
+  00000001806DAA34: 48 8B F9           mov         rdi,rcx
+  00000001806DAA37: 75 2B              jne         00000001806DAA64
+  00000001806DAA39: 48 8D 0D 60 01 A9  lea         rcx,[000000018416ABA0h]
+                    03
+  00000001806DAA40: E8 3B 25 C8 FF     call        000000018035CF80
+  00000001806DAA45: 48 8D 0D 8C 61 A6  lea         rcx,[0000000184140BD8h]
+                    03
+  00000001806DAA4C: E8 2F 25 C8 FF     call        000000018035CF80
+  00000001806DAA51: 48 8D 0D 00 12 AC  lea         rcx,[000000018419BC58h]
+                    03
+  00000001806DAA58: E8 23 25 C8 FF     call        000000018035CF80
+  00000001806DAA5D: C6 05 18 22 C9 03  mov         byte ptr [000000018436CC7Ch],1
+                    01
+  00000001806DAA64: 48 85 DB           test        rbx,rbx
+  00000001806DAA67: 74 7F              je          00000001806DAAE8
+  00000001806DAA69: 33 D2              xor         edx,edx
+  00000001806DAA6B: 48 8B CB           mov         rcx,rbx
+  00000001806DAA6E: E8 9D 67 55 02     call        0000000182C31210 ; UnityEngine.GameObject::get_transform [MI 78343, RVA 0x2c31210]
+  00000001806DAA73: 48 85 C0           test        rax,rax
+  00000001806DAA76: 74 70              je          00000001806DAAE8
+  00000001806DAA78: 48 8B 15 D9 11 AC  mov         rdx,qword ptr [000000018419BC58h]
+                    03
+  00000001806DAA7F: 45 33 C0           xor         r8d,r8d
+  00000001806DAA82: 48 8B C8           mov         rcx,rax
+  00000001806DAA85: E8 D6 AC 56 02     call        0000000182C45760 ; UnityEngine.Transform::Find [MI 78866, RVA 0x2c45760] | UnityEngine.Transform::FindChild [MI 78872, RVA 0x2c45760]
+  00000001806DAA8A: 48 8D 4F 10        lea         rcx,[rdi+10h]
+  00000001806DAA8E: 48 89 47 10        mov         qword ptr [rdi+10h],rax
+  00000001806DAA92: 48 8B D0           mov         rdx,rax
+  00000001806DAA95: E8 16 20 C8 FF     call        000000018035CAB0
+  00000001806DAA9A: 48 8B 4F 10        mov         rcx,qword ptr [rdi+10h]
+  00000001806DAA9E: 48 85 C9           test        rcx,rcx
+  00000001806DAAA1: 74 45              je          00000001806DAAE8
+  00000001806DAAA3: 48 8B 15 F6 00 A9  mov         rdx,qword ptr [000000018416ABA0h]
+                    03
+  00000001806DAAAA: E8 C1 DC 65 00     call        0000000180D38770
+  00000001806DAAAF: 48 8B 4F 18        mov         rcx,qword ptr [rdi+18h]
+  00000001806DAAB3: 48 8B D8           mov         rbx,rax
+  00000001806DAAB6: 48 85 C9           test        rcx,rcx
+  00000001806DAAB9: 74 2D              je          00000001806DAAE8
+  00000001806DAABB: 48 8B 15 16 61 A6  mov         rdx,qword ptr [0000000184140BD8h]
+                    03
+  00000001806DAAC2: 48 8B 49 48        mov         rcx,qword ptr [rcx+48h]
+  00000001806DAAC6: E8 15 00 71 00     call        0000000180DEAAE0
+  00000001806DAACB: 48 85 DB           test        rbx,rbx
+  00000001806DAACE: 74 18              je          00000001806DAAE8
+  00000001806DAAD0: 45 33 C0           xor         r8d,r8d
+  00000001806DAAD3: 48 8B D0           mov         rdx,rax
+  00000001806DAAD6: 48 8B CB           mov         rcx,rbx
+  00000001806DAAD9: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  00000001806DAADE: 48 83 C4 20        add         rsp,20h
+  00000001806DAAE2: 5F                 pop         rdi
+  00000001806DAAE3: E9 88 5E 56 02     jmp         0000000182C40970 ; UnityEngine.SpriteRenderer::set_sprite [MI 78926, RVA 0x2c40970]
+  00000001806DAAE8: E8 33 26 C8 FF     call        000000018035D120
+  00000001806DAAED: CC                 int         3
+  00000001806DAAEE: CC                 int         3
+  00000001806DAAEF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

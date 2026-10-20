@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-10-18T08:51:24.599Z",
+  "liveOutput": "东方夜雀食堂攻略查询_2610181648.html",
+  "urlScheme": "file",
+  "browser": "Microsoft Edge (Playwright chromium channel=msedge, headless)",
+  "viewport": "1440x1000",
+  "assertions": {
+    "catalogChips": 41,
+    "ingredientChips": 32,
+    "beverageChips": 23,
+    "detailMealChips": 37,
+    "detailDrinkChips": 20,
+    "noticeElements": 0,
+    "consoleErrors": 0
+  },
+  "note": "核验只读成品 file:// 预览；不代表用户实机使用验收。"
+}

@@ -1,0 +1,18 @@
+# OrderBase::set_OnUpdateServeDataVisualCallback
+# {"declaringType": "OrderBase", "typeIndex": 1447, "image": "Assembly-CSharp.dll", "name": "set_OnUpdateServeDataVisualCallback", "metadataMethodIndex": 8578, "token": "0x6002183", "methodPointerIndex": 8578, "va": "0x180513250", "rva": "0x513250", "endRva": null, "returnTypeIndex": 33376, "parameters": [{"index": 6258, "name": "value", "typeIndex": 4893}]}
+# range end RVA 0x513260; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180513250: 48 89 51 40        mov         qword ptr [rcx+40h],rdx
+  0000000180513254: 48 83 C1 40        add         rcx,40h
+  0000000180513258: E9 53 98 E4 FF     jmp         000000018035CAB0
+  000000018051325D: CC                 int         3
+  000000018051325E: CC                 int         3
+  000000018051325F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

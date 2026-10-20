@@ -1,0 +1,54 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+  "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+  "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+  "path_id": -1011841502810141686,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 262067847810755891
+    },
+    "m_Name": "DLC1_CookerProfile",
+    "cookers": [
+      {
+        "id": 1000,
+        "type": 1,
+        "cookerSeries": 1000,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 156337840954255470
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -5519205629163407863
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -4586429068294827537
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -2828922586086831669
+        },
+        "illuminationIntensity": 0.25,
+        "startCookSFX": {
+          "m_FileID": 16,
+          "m_PathID": -406647798357583360
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      }
+    ],
+    "cookersPreview": {
+      "m_FileID": 9,
+      "m_PathID": -3098250828326369468
+    }
+  }
+}

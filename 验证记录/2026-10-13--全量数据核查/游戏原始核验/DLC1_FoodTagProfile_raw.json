@@ -1,0 +1,20 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+  "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+  "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+  "path_id": -3701117925513915930,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": -8611876554190415907
+    },
+    "m_Name": "DLC1_FoodTagProfile",
+    "indexes": [],
+    "previewName": "DLC1_FoodTagsLang"
+  }
+}

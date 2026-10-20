@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Whole IIFE module, machine source provenance and independent catalog",
+      "status": "PASS",
+      "assertions": 26
+    },
+    {
+      "name": "Recipe != food ID, duplicate base and extra slots, full capacity",
+      "status": "PASS",
+      "assertions": 17
+    },
+    {
+      "name": "Four ingredients + one derives large, removes small and adds Keine hate",
+      "status": "PASS",
+      "assertions": 9
+    },
+    {
+      "name": "Water product overrides vegetarian; raw bans checked before covers",
+      "status": "PASS",
+      "assertions": 8
+    },
+    {
+      "name": "Price tags strict at 20/60, override 0/61, independent ingredient cost",
+      "status": "PASS",
+      "assertions": 18
+    },
+    {
+      "name": "Request categories, nullable unknown and uncounted machine trend attitude",
+      "status": "PASS",
+      "assertions": 13
+    },
+    {
+      "name": "Sanitize external input, unknown versus zero and malformed drafts",
+      "status": "PASS",
+      "assertions": 27
+    },
+    {
+      "name": "Budget unknown/range/actual, strict bounds, optional expensive selection",
+      "status": "PASS",
+      "assertions": 24
+    },
+    {
+      "name": "Snapshot anchors receipts, no double deduction, save/free/undo/new session",
+      "status": "PASS",
+      "assertions": 25
+    },
+    {
+      "name": "Preparation material quantities include duplicate slots and extras",
+      "status": "PASS",
+      "assertions": 10
+    },
+    {
+      "name": "Python synthesis crosscheck: 209 defaults and every addon/repetition/price boundary",
+      "status": "PASS",
+      "assertions": 178692
+    }
+  ],
+  "assertions": 178869,
+  "oracleCounts": {
+    "defaults": 209,
+    "addons": 10106,
+    "repeatedAddons": 14012,
+    "prices": 1463
+  },
+  "source": {
+    "path": "D:\\Agent流水线\\东方夜雀食堂\\攻略表/脚本/ryotei_meal_domain.js",
+    "sha256": "eb66ef4950d00eb6e7146b996d447b5cd4f9dcc09266f74ddaffb16dc99b088a"
+  },
+  "data": {
+    "path": "D:\\Agent流水线\\东方夜雀食堂\\攻略表/中间数据/MEAL_DOMAIN_DATA.json",
+    "sha256": "a02a2388f19b9f152e2432f2d291f348bb1d9e3dac584cdcbc97683c2bb3032e",
+    "counts": {
+      "foods": 164,
+      "cookableFoods": 163,
+      "recipes": 163,
+      "ingredients": 62,
+      "beverages": 46,
+      "guests": 106,
+      "maps": 16
+    }
+  },
+  "oracle": {
+    "path": "D:/Agent流水线/东方夜雀食堂/攻略表/验证记录/2026-10-14--备菜与配餐产品改进/113200/meal_domain/run03/meal_domain_python_oracle.json",
+    "sha256": "d5f87106f5b22072d7a887b7e0228122048c74e4b2566069a99d51a2c42f4ab6"
+  },
+  "runtime": "v24.14.0",
+  "scope": "pure domain automatic tests only; no site build/browser/game validation",
+  "changedFiles": [
+    "脚本/export_meal_domain.py",
+    "脚本/ryotei_meal_domain.js",
+    "脚本/verify_meal_domain.cjs",
+    "中间数据/MEAL_DOMAIN_DATA.json"
+  ],
+  "authorization": "no changes to other production files; no installs, commits, game/save writes or site build",
+  "limitations": [
+    "No trend score or reaction enum simulation",
+    "No Endurance/mood or actual-income prediction",
+    "Base-budget range requires confirmed zero prior spend and complete ledger",
+    "Current catalog prices are not guaranteed runtime TrueValue"
+  ],
+  "git": {
+    "committed": false,
+    "existingChangesPreserved": "pre-existing input snapshot and patch supplied by coordinator"
+  }
+}

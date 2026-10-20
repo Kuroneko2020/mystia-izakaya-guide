@@ -1,0 +1,77 @@
+# GameData.Core.Collections.NightSceneUtility.SpecialGuest::GetFoodTagText
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest", "typeIndex": 2315, "image": "Assembly-CSharp.dll", "name": "GetFoodTagText", "metadataMethodIndex": 14735, "token": "0x6003990", "methodPointerIndex": 14735, "va": "0x18068aba0", "rva": "0x68aba0", "endRva": "0x68ac55", "returnTypeIndex": 31304, "parameters": [{"index": 11330, "name": "tagId", "typeIndex": 26152}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x68aba0..0x68ac60; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018068ABA0: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  000000018068ABA5: 48 89 74 24 10     mov         qword ptr [rsp+10h],rsi
+  000000018068ABAA: 57                 push        rdi
+  000000018068ABAB: 48 83 EC 20        sub         rsp,20h
+  000000018068ABAF: 80 3D 85 1E CE 03  cmp         byte ptr [000000018436CA3Bh],0
+                    00
+  000000018068ABB6: 8B DA              mov         ebx,edx
+  000000018068ABB8: 48 8B F9           mov         rdi,rcx
+  000000018068ABBB: 75 2B              jne         000000018068ABE8
+  000000018068ABBD: 48 8D 0D 7C 48 B5  lea         rcx,[00000001841DF440h]
+                    03
+  000000018068ABC4: E8 B7 23 CD FF     call        000000018035CF80
+  000000018068ABC9: 48 8D 0D E8 4F AE  lea         rcx,[000000018416FBB8h]
+                    03
+  000000018068ABD0: E8 AB 23 CD FF     call        000000018035CF80
+  000000018068ABD5: 48 8D 0D 64 53 AB  lea         rcx,[000000018413FF40h]
+                    03
+  000000018068ABDC: E8 9F 23 CD FF     call        000000018035CF80
+  000000018068ABE1: C6 05 53 1E CE 03  mov         byte ptr [000000018436CA3Bh],1
+                    01
+  000000018068ABE8: 8B 4F 10           mov         ecx,dword ptr [rdi+10h]
+  000000018068ABEB: 33 D2              xor         edx,edx
+  000000018068ABED: E8 CE 37 F7 FF     call        00000001805FE3C0 ; GameData.CoreLanguage.Collections.DataBaseLanguage::GetSpecialFoodTagLang [MI 12113, RVA 0x5fe3c0]
+  000000018068ABF2: 48 8B 0D BF 4F AE  mov         rcx,qword ptr [000000018416FBB8h]
+                    03
+  000000018068ABF9: 45 33 C0           xor         r8d,r8d
+  000000018068ABFC: 33 D2              xor         edx,edx
+  000000018068ABFE: 48 8B F0           mov         rsi,rax
+  000000018068AC01: E8 2A FF D5 FF     call        00000001803EAB30
+  000000018068AC06: 33 D2              xor         edx,edx
+  000000018068AC08: 8B CB              mov         ecx,ebx
+  000000018068AC0A: 48 8B F8           mov         rdi,rax
+  000000018068AC0D: E8 EE 26 F7 FF     call        00000001805FD300 ; GameData.CoreLanguage.Collections.DataBaseLanguage::GetFoodTag [MI 12097, RVA 0x5fd300]
+  000000018068AC12: 48 85 FF           test        rdi,rdi
+  000000018068AC15: 74 38              je          000000018068AC4F
+  000000018068AC17: 48 8B 15 22 53 AB  mov         rdx,qword ptr [000000018413FF40h]
+                    03
+  000000018068AC1E: 45 33 C9           xor         r9d,r9d
+  000000018068AC21: 4C 8B C0           mov         r8,rax
+  000000018068AC24: 48 8B CF           mov         rcx,rdi
+  000000018068AC27: E8 14 A6 A8 01     call        0000000182115240 ; System.String::Replace [MI 25765, RVA 0x2115240]
+  000000018068AC2C: 4C 8B 0D 0D 48 B5  mov         r9,qword ptr [00000001841DF440h]
+                    03
+  000000018068AC33: 4C 8B C0           mov         r8,rax
+  000000018068AC36: 8B D3              mov         edx,ebx
+  000000018068AC38: 48 8B CE           mov         rcx,rsi
+  000000018068AC3B: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  000000018068AC40: 48 8B 74 24 38     mov         rsi,qword ptr [rsp+38h]
+  000000018068AC45: 48 83 C4 20        add         rsp,20h
+  000000018068AC49: 5F                 pop         rdi
+  000000018068AC4A: E9 81 E0 75 00     jmp         0000000180DE8CD0
+  000000018068AC4F: E8 CC 24 CD FF     call        000000018035D120
+  000000018068AC54: CC                 int         3
+  000000018068AC55: CC                 int         3
+  000000018068AC56: CC                 int         3
+  000000018068AC57: CC                 int         3
+  000000018068AC58: CC                 int         3
+  000000018068AC59: CC                 int         3
+  000000018068AC5A: CC                 int         3
+  000000018068AC5B: CC                 int         3
+  000000018068AC5C: CC                 int         3
+  000000018068AC5D: CC                 int         3
+  000000018068AC5E: CC                 int         3
+  000000018068AC5F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

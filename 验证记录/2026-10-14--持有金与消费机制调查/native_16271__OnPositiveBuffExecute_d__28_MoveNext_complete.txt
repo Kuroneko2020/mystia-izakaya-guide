@@ -1,0 +1,176 @@
+# <OnPositiveBuffExecute>d__28::MoveNext
+# {"declaringType": "<OnPositiveBuffExecute>d__28", "typeIndex": 2612, "image": "Assembly-CSharp.dll", "name": "MoveNext", "metadataMethodIndex": 16271, "token": "0x6003f90", "methodPointerIndex": 16271, "va": "0x1806d2d90", "rva": "0x6d2d90", "endRva": "0x6d2e08", "returnTypeIndex": 20604, "parameters": []}
+# range end RVA 0x6d2ff0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001806D2D90: 40 53              push        rbx
+  00000001806D2D92: 48 83 EC 60        sub         rsp,60h
+  00000001806D2D96: 80 3D CD 9E C9 03  cmp         byte ptr [000000018436CC6Ah],0
+                    00
+  00000001806D2D9D: 48 8B D9           mov         rbx,rcx
+  00000001806D2DA0: 75 5B              jne         00000001806D2DFD
+  00000001806D2DA2: 48 8D 0D 57 D4 AB  lea         rcx,[0000000184190200h]
+                    03
+  00000001806D2DA9: E8 D2 A1 C8 FF     call        000000018035CF80
+  00000001806D2DAE: 48 8D 0D E3 E9 AF  lea         rcx,[00000001841D1798h]
+                    03
+  00000001806D2DB5: E8 C6 A1 C8 FF     call        000000018035CF80
+  00000001806D2DBA: 48 8D 0D DF C1 AB  lea         rcx,[000000018418EFA0h]
+                    03
+  00000001806D2DC1: E8 BA A1 C8 FF     call        000000018035CF80
+  00000001806D2DC6: 48 8D 0D CB 90 AA  lea         rcx,[000000018417BE98h]
+                    03
+  00000001806D2DCD: E8 AE A1 C8 FF     call        000000018035CF80
+  00000001806D2DD2: 48 8D 0D 7F 8F B0  lea         rcx,[00000001841DBD58h]
+                    03
+  00000001806D2DD9: E8 A2 A1 C8 FF     call        000000018035CF80
+  00000001806D2DDE: 48 8D 0D 73 90 B0  lea         rcx,[00000001841DBE58h]
+                    03
+  00000001806D2DE5: E8 96 A1 C8 FF     call        000000018035CF80
+  00000001806D2DEA: 48 8D 0D C7 F4 A7  lea         rcx,[00000001841522B8h]
+                    03
+  00000001806D2DF1: E8 8A A1 C8 FF     call        000000018035CF80
+  00000001806D2DF6: C6 05 6D 9E C9 03  mov         byte ptr [000000018436CC6Ah],1
+                    01
+  00000001806D2DFD: 8B 43 10           mov         eax,dword ptr [rbx+10h]
+  00000001806D2E00: 85 C0              test        eax,eax
+  00000001806D2E02: 0F 85 CA 01 00 00  jne         00000001806D2FD2
+  00000001806D2E08: 48 89 74 24 78     mov         qword ptr [rsp+78h],rsi
+  00000001806D2E0D: 48 8B 73 20        mov         rsi,qword ptr [rbx+20h]
+  00000001806D2E11: 48 89 BC 24 80 00  mov         qword ptr [rsp+0000000000000080h],rdi
+                    00 00
+  00000001806D2E19: 48 89 6C 24 70     mov         qword ptr [rsp+70h],rbp
+  00000001806D2E1E: 4C 89 A4 24 88 00  mov         qword ptr [rsp+0000000000000088h],r12
+                    00 00
+  00000001806D2E26: 4C 89 74 24 58     mov         qword ptr [rsp+58h],r14
+  00000001806D2E2B: 4C 89 7C 24 50     mov         qword ptr [rsp+50h],r15
+  00000001806D2E30: C7 43 10 FF FF FF  mov         dword ptr [rbx+10h],0FFFFFFFFh
+                    FF
+  00000001806D2E37: 48 8B 0D 7A F4 A7  mov         rcx,qword ptr [00000001841522B8h]
+                    03
+  00000001806D2E3E: E8 7D A2 C8 FF     call        000000018035D0C0
+  00000001806D2E43: 48 8B F8           mov         rdi,rax
+  00000001806D2E46: 48 85 C0           test        rax,rax
+  00000001806D2E49: 0F 84 97 01 00 00  je          00000001806D2FE6
+  00000001806D2E4F: 33 D2              xor         edx,edx
+  00000001806D2E51: 48 8B C8           mov         rcx,rax
+  00000001806D2E54: E8 77 5A D1 FF     call        00000001803E88D0 ; <<Confirm>g__Jump|3>d::System.IDisposable.Dispose [MI 150, RVA 0x3e88d0] | <<Confirm>g__OnRotation|11_1>d::System.IDisposable.Dispose [MI 156, RVA 0x3e88d0] | <CountDownLoop>d__7::System.IDisposable.Dispose [MI 354, RVA 0x3e88d0] | <<OnPanelOpen>g__OnLoadFinish|2>d::System.IDisposable.Dispose [MI 440, RVA 0x3e88d0] | <<OnPanelOpen>g__ShowCG|3>d::System.IDisposable.Dispose [MI 446, RVA 0x3e88d0] | <>c::<OnPanelInitialize>b__24_1 [MI 507, RVA 0x3e88d0] | <<TypeCoroutine>g__DoType|2>d::System.IDisposable.Dispose [MI 538, RVA 0x3e88d0] | <TypeCoroutine>d__34::System.IDisposable.Dispose [MI 544, RVA 0x3e88d0] | <OnUpdatePreview>d__24::System.IDisposable.Dispose [MI 560, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnPanelOpen [MI 590, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnExitExtern [MI 591, RVA 0x3e88d0] | <<OnPanelOpen>g__AfterPreviewMusicLoad|0>d::System.IDisposable.Dispose [MI 619, RVA 0x3e88d0]
+  00000001806D2E59: 48 8B 53 20        mov         rdx,qword ptr [rbx+20h]
+  00000001806D2E5D: 48 8D 4F 10        lea         rcx,[rdi+10h]
+  00000001806D2E61: 48 89 57 10        mov         qword ptr [rdi+10h],rdx
+  00000001806D2E65: E8 46 9C C8 FF     call        000000018035CAB0
+  00000001806D2E6A: 45 33 E4           xor         r12d,r12d
+  00000001806D2E6D: 48 8D 4F 18        lea         rcx,[rdi+18h]
+  00000001806D2E71: 33 D2              xor         edx,edx
+  00000001806D2E73: 4C 89 67 18        mov         qword ptr [rdi+18h],r12
+  00000001806D2E77: E8 34 9C C8 FF     call        000000018035CAB0
+  00000001806D2E7C: 48 85 F6           test        rsi,rsi
+  00000001806D2E7F: 0F 84 61 01 00 00  je          00000001806D2FE6
+  00000001806D2E85: 33 D2              xor         edx,edx
+  00000001806D2E87: 48 8B CE           mov         rcx,rsi
+  00000001806D2E8A: E8 F1 E5 FB FF     call        0000000180691480 ; GameData.Core.Collections.NightSceneUtility.SpellBase::get_Manager [MI 14825, RVA 0x691480]
+  00000001806D2E8F: 48 85 C0           test        rax,rax
+  00000001806D2E92: 0F 84 4E 01 00 00  je          00000001806D2FE6
+  00000001806D2E98: 45 33 C0           xor         r8d,r8d
+  00000001806D2E9B: BA 0E 00 00 00     mov         edx,0Eh
+  00000001806D2EA0: 48 8B C8           mov         rcx,rax
+  00000001806D2EA3: E8 B8 37 E3 FF     call        0000000180506660 ; NightScene.EventUtility.EventManager::TryGetCountedBuffValue [MI 9207, RVA 0x506660]
+  00000001806D2EA8: 85 C0              test        eax,eax
+  00000001806D2EAA: 75 38              jne         00000001806D2EE4
+  00000001806D2EAC: 48 8B 0D E5 8F AA  mov         rcx,qword ptr [000000018417BE98h]
+                    03
+  00000001806D2EB3: 48 8B 6E 30        mov         rbp,qword ptr [rsi+30h]
+  00000001806D2EB7: 44 39 A1 E0 00 00  cmp         dword ptr [rcx+00000000000000E0h],r12d
+                    00
+  00000001806D2EBE: 75 05              jne         00000001806D2EC5
+  00000001806D2EC0: E8 EB A3 C2 FF     call        00000001802FD2B0
+  00000001806D2EC5: 48 8B 15 D4 C0 AB  mov         rdx,qword ptr [000000018418EFA0h]
+                    03
+  00000001806D2ECC: 48 8B CD           mov         rcx,rbp
+  00000001806D2ECF: E8 5C BE 35 00     call        0000000180A2ED30
+  00000001806D2ED4: 48 8D 4F 18        lea         rcx,[rdi+18h]
+  00000001806D2ED8: 48 89 47 18        mov         qword ptr [rdi+18h],rax
+  00000001806D2EDC: 48 8B D0           mov         rdx,rax
+  00000001806D2EDF: E8 CC 9B C8 FF     call        000000018035CAB0
+  00000001806D2EE4: 48 8B 0D AD E8 AF  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  00000001806D2EEB: E8 60 90 A3 00     call        000000018110BF50
+  00000001806D2EF0: 48 8B 0D 09 D3 AB  mov         rcx,qword ptr [0000000184190200h]
+                    03
+  00000001806D2EF7: 4C 8B F0           mov         r14,rax
+  00000001806D2EFA: 44 8B 7E 18        mov         r15d,dword ptr [rsi+18h]
+  00000001806D2EFE: E8 BD A1 C8 FF     call        000000018035D0C0
+  00000001806D2F03: 48 8B F0           mov         rsi,rax
+  00000001806D2F06: 48 85 C0           test        rax,rax
+  00000001806D2F09: 0F 84 D7 00 00 00  je          00000001806D2FE6
+  00000001806D2F0F: 4C 8B 05 42 8E B0  mov         r8,qword ptr [00000001841DBD58h]
+                    03
+  00000001806D2F16: 45 33 C9           xor         r9d,r9d
+  00000001806D2F19: 48 8B D7           mov         rdx,rdi
+  00000001806D2F1C: 48 8B C8           mov         rcx,rax
+  00000001806D2F1F: E8 3C DB 2D 00     call        00000001809B0A60 ; System.Action::.ctor [MI 26047, RVA 0x9b0a60] | System.Threading.ThreadStart::.ctor [MI 29582, RVA 0x9b0a60] | System.Runtime.Remoting.Contexts.CrossContextDelegate::.ctor [MI 32755, RVA 0x9b0a60] | PanicFunction_::.ctor [MI 75573, RVA 0x9b0a60] | LowMemoryCallback::.ctor [MI 75743, RVA 0x9b0a60] | DisplaysUpdatedDelegate::.ctor [MI 76269, RVA 0x9b0a60] | UnityEngine.Events.UnityAction::.ctor [MI 79198, RVA 0x9b0a60] | UpdateFunction::.ctor [MI 79271, RVA 0x9b0a60]
+  00000001806D2F24: 48 8B 0D D5 D2 AB  mov         rcx,qword ptr [0000000184190200h]
+                    03
+  00000001806D2F2B: E8 90 A1 C8 FF     call        000000018035D0C0
+  00000001806D2F30: 48 8B E8           mov         rbp,rax
+  00000001806D2F33: 48 85 C0           test        rax,rax
+  00000001806D2F36: 0F 84 AA 00 00 00  je          00000001806D2FE6
+  00000001806D2F3C: 4C 8B 05 15 8F B0  mov         r8,qword ptr [00000001841DBE58h]
+                    03
+  00000001806D2F43: 45 33 C9           xor         r9d,r9d
+  00000001806D2F46: 48 8B D7           mov         rdx,rdi
+  00000001806D2F49: 48 8B C8           mov         rcx,rax
+  00000001806D2F4C: E8 0F DB 2D 00     call        00000001809B0A60 ; System.Action::.ctor [MI 26047, RVA 0x9b0a60] | System.Threading.ThreadStart::.ctor [MI 29582, RVA 0x9b0a60] | System.Runtime.Remoting.Contexts.CrossContextDelegate::.ctor [MI 32755, RVA 0x9b0a60] | PanicFunction_::.ctor [MI 75573, RVA 0x9b0a60] | LowMemoryCallback::.ctor [MI 75743, RVA 0x9b0a60] | DisplaysUpdatedDelegate::.ctor [MI 76269, RVA 0x9b0a60] | UnityEngine.Events.UnityAction::.ctor [MI 79198, RVA 0x9b0a60] | UpdateFunction::.ctor [MI 79271, RVA 0x9b0a60]
+  00000001806D2F51: 4D 85 F6           test        r14,r14
+  00000001806D2F54: 0F 84 8C 00 00 00  je          00000001806D2FE6
+  00000001806D2F5A: 4C 89 64 24 48     mov         qword ptr [rsp+48h],r12
+  00000001806D2F5F: 45 33 C9           xor         r9d,r9d
+  00000001806D2F62: 4C 89 64 24 40     mov         qword ptr [rsp+40h],r12
+  00000001806D2F67: BA 0E 00 00 00     mov         edx,0Eh
+  00000001806D2F6C: 44 88 64 24 38     mov         byte ptr [rsp+38h],r12b
+  00000001806D2F71: 49 8B CE           mov         rcx,r14
+  00000001806D2F74: 66 41 0F 6E D7     movd        xmm2,r15d
+  00000001806D2F79: 4C 89 64 24 30     mov         qword ptr [rsp+30h],r12
+  00000001806D2F7E: 0F 5B D2           cvtdq2ps    xmm2,xmm2
+  00000001806D2F81: 48 89 6C 24 28     mov         qword ptr [rsp+28h],rbp
+  00000001806D2F86: 48 89 74 24 20     mov         qword ptr [rsp+20h],rsi
+  00000001806D2F8B: E8 40 97 E2 FF     call        00000001804FC6D0 ; NightScene.EventUtility.EventManager::RegisterCountedBuff [MI 9336, RVA 0x4fc6d0]
+  00000001806D2F90: 48 8D 4B 18        lea         rcx,[rbx+18h]
+  00000001806D2F94: 4C 89 63 18        mov         qword ptr [rbx+18h],r12
+  00000001806D2F98: 33 D2              xor         edx,edx
+  00000001806D2F9A: E8 11 9B C8 FF     call        000000018035CAB0
+  00000001806D2F9F: 4C 8B 74 24 58     mov         r14,qword ptr [rsp+58h]
+  00000001806D2FA4: B0 01              mov         al,1
+  00000001806D2FA6: 4C 8B A4 24 88 00  mov         r12,qword ptr [rsp+0000000000000088h]
+                    00 00
+  00000001806D2FAE: 48 8B 6C 24 70     mov         rbp,qword ptr [rsp+70h]
+  00000001806D2FB3: 4C 8B 7C 24 50     mov         r15,qword ptr [rsp+50h]
+  00000001806D2FB8: 48 8B 74 24 78     mov         rsi,qword ptr [rsp+78h]
+  00000001806D2FBD: 48 8B BC 24 80 00  mov         rdi,qword ptr [rsp+0000000000000080h]
+                    00 00
+  00000001806D2FC5: C7 43 10 01 00 00  mov         dword ptr [rbx+10h],1
+                    00
+  00000001806D2FCC: 48 83 C4 60        add         rsp,60h
+  00000001806D2FD0: 5B                 pop         rbx
+  00000001806D2FD1: C3                 ret
+  00000001806D2FD2: 83 F8 01           cmp         eax,1
+  00000001806D2FD5: 75 07              jne         00000001806D2FDE
+  00000001806D2FD7: C7 43 10 FF FF FF  mov         dword ptr [rbx+10h],0FFFFFFFFh
+                    FF
+  00000001806D2FDE: 32 C0              xor         al,al
+  00000001806D2FE0: 48 83 C4 60        add         rsp,60h
+  00000001806D2FE4: 5B                 pop         rbx
+  00000001806D2FE5: C3                 ret
+  00000001806D2FE6: E8 35 A1 C8 FF     call        000000018035D120
+  00000001806D2FEB: CC                 int         3
+  00000001806D2FEC: CC                 int         3
+  00000001806D2FED: CC                 int         3
+  00000001806D2FEE: CC                 int         3
+  00000001806D2FEF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

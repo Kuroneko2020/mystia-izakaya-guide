@@ -1,0 +1,37 @@
+# GameData.Core.Collections.NightSceneUtility.GuestFoodEasterEggData::CheckEasterEgg
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.GuestFoodEasterEggData", "typeIndex": 2364, "image": "Assembly-CSharp.dll", "name": "CheckEasterEgg", "metadataMethodIndex": 15091, "token": "0x6003af4", "methodPointerIndex": 15091, "va": "0x180682790", "rva": "0x682790", "endRva": "0x6827df", "returnTypeIndex": 20604, "parameters": [{"index": 11601, "name": "lastOrder", "typeIndex": 38196}, {"index": 11602, "name": "toEval", "typeIndex": 24624}, {"index": 11603, "name": "oldResult", "typeIndex": 38119}, {"index": 11604, "name": "finalResult", "typeIndex": 17357}, {"index": 11605, "name": "specialDialog", "typeIndex": 17200}]}
+# range end RVA 0x6827e0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180682790: 40 53              push        rbx
+  0000000180682792: 48 83 EC 20        sub         rsp,20h
+  0000000180682796: 80 3D 21 A3 CE 03  cmp         byte ptr [000000018436CABEh],0
+                    00
+  000000018068279D: 41 8B D9           mov         ebx,r9d
+  00000001806827A0: 75 13              jne         00000001806827B5
+  00000001806827A2: 48 8D 0D 2F 9A B4  lea         rcx,[00000001841CC1D8h]
+                    03
+  00000001806827A9: E8 D2 A7 CD FF     call        000000018035CF80
+  00000001806827AE: C6 05 09 A3 CE 03  mov         byte ptr [000000018436CABEh],1
+                    01
+  00000001806827B5: 48 8B 4C 24 58     mov         rcx,qword ptr [rsp+58h]
+  00000001806827BA: 48 8B 05 17 9A B4  mov         rax,qword ptr [00000001841CC1D8h]
+                    03
+  00000001806827C1: 48 89 01           mov         qword ptr [rcx],rax
+  00000001806827C4: 48 8B 15 0D 9A B4  mov         rdx,qword ptr [00000001841CC1D8h]
+                    03
+  00000001806827CB: E8 E0 A2 CD FF     call        000000018035CAB0
+  00000001806827D0: 48 8B 44 24 50     mov         rax,qword ptr [rsp+50h]
+  00000001806827D5: 89 18              mov         dword ptr [rax],ebx
+  00000001806827D7: 32 C0              xor         al,al
+  00000001806827D9: 48 83 C4 20        add         rsp,20h
+  00000001806827DD: 5B                 pop         rbx
+  00000001806827DE: C3                 ret
+  00000001806827DF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

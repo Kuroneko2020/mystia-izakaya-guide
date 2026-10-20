@@ -1,0 +1,29 @@
+# GameData.Core.Collections.NightSceneUtility.SkillCollection.Spell_Reimu::OnGettingSpellOwnerIdentifier
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.SkillCollection.Spell_Reimu", "typeIndex": 2619, "image": "Assembly-CSharp.dll", "name": "OnGettingSpellOwnerIdentifier", "metadataMethodIndex": 16255, "token": "0x6003f80", "methodPointerIndex": 16255, "va": "0x1806c4f30", "rva": "0x6c4f30", "endRva": "0x6c4f5c", "returnTypeIndex": 31304, "parameters": []}
+# range end RVA 0x6c4f60; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001806C4F30: 48 83 EC 28        sub         rsp,28h
+  00000001806C4F34: 80 3D 29 7D CA 03  cmp         byte ptr [000000018436CC64h],0
+                    00
+  00000001806C4F3B: 75 13              jne         00000001806C4F50
+  00000001806C4F3D: 48 8D 0D 0C 69 A9  lea         rcx,[000000018415B850h]
+                    03
+  00000001806C4F44: E8 37 80 C9 FF     call        000000018035CF80
+  00000001806C4F49: C6 05 14 7D CA 03  mov         byte ptr [000000018436CC64h],1
+                    01
+  00000001806C4F50: 48 8B 05 F9 68 A9  mov         rax,qword ptr [000000018415B850h]
+                    03
+  00000001806C4F57: 48 83 C4 28        add         rsp,28h
+  00000001806C4F5B: C3                 ret
+  00000001806C4F5C: CC                 int         3
+  00000001806C4F5D: CC                 int         3
+  00000001806C4F5E: CC                 int         3
+  00000001806C4F5F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

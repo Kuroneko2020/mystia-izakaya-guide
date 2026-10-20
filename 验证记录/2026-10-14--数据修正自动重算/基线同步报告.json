@@ -1,0 +1,23 @@
+{
+  "workbook": "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-14.xlsx",
+  "workbookSha256": "1dca6f710965f28bffa8de11cf0ca4fdac67037968e1c385e1d7d619037f66fa",
+  "baseline": "中间数据/料亭版攻略数据基线.json",
+  "baselineSha256": "a9a3e244c2b14ada610b8dc39b4daa666ec7aeb31ee2fb02604d8d00b45430fd",
+  "replacedBaseline": {
+    "path": "验证记录/2026-10-14--数据修正自动重算/料亭版攻略数据基线_替换前_055846.json",
+    "sha256": "cd847712480d6b42928ba803d8c5283e607a03bdc066877e2f5ac74081f20037"
+  },
+  "sheetCounts": {
+    "guests": 59,
+    "details": 339,
+    "recipes": 163,
+    "ingredients": 62,
+    "beverages": 46,
+    "normal": 47,
+    "new440": 8,
+    "guide2024": 58,
+    "guide2021": 25,
+    "sources": 31
+  },
+  "note": "sync_site_baseline.py 首次运行在报告写出前因相对路径解析崩溃，基线本体已写入；本报告由同日补写，内容与脚本输出一致。"
+}

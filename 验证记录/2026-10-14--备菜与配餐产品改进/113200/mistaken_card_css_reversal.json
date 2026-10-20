@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Only four mistaken card CSS inverses; compact meal UI preserved; historical artifacts retained",
+  "patches": [
+    {
+      "oldRestored": true,
+      "mistakenNewAbsent": true
+    },
+    {
+      "oldRestored": true,
+      "mistakenNewAbsent": true
+    },
+    {
+      "oldRestored": true,
+      "mistakenNewAbsent": true
+    },
+    {
+      "oldRestored": true,
+      "mistakenNewAbsent": true
+    }
+  ],
+  "cssSha256": "20fd8533ae76d26b22b0224083dd515d65167880ca619c7d3af97460f1598561",
+  "mealUiPresent": true,
+  "domainDataPresent": true
+}

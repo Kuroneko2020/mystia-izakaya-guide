@@ -1,0 +1,470 @@
+# <>c::<GetPayment>b__289_3
+# {"declaringType": "<>c", "typeIndex": 1422, "image": "Assembly-CSharp.dll", "name": "<GetPayment>b__289_3", "metadataMethodIndex": 8384, "token": "0x60020c1", "methodPointerIndex": 8384, "va": "0x1803f4930", "rva": "0x3f4930", "endRva": null, "returnTypeIndex": 26152, "parameters": [{"index": 6010, "name": "a", "typeIndex": 26152}, {"index": 6011, "name": "b", "typeIndex": 26152}]}
+# range end RVA 0x3f4e20; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001803F4930: 42 8D 04 02        lea         eax,[rdx+r8]
+  00000001803F4934: C3                 ret
+  00000001803F4935: CC                 int         3
+  00000001803F4936: CC                 int         3
+  00000001803F4937: CC                 int         3
+  00000001803F4938: CC                 int         3
+  00000001803F4939: CC                 int         3
+  00000001803F493A: CC                 int         3
+  00000001803F493B: CC                 int         3
+  00000001803F493C: CC                 int         3
+  00000001803F493D: CC                 int         3
+  00000001803F493E: CC                 int         3
+  00000001803F493F: CC                 int         3
+  00000001803F4940: 40 53              push        rbx
+  00000001803F4942: 48 83 EC 20        sub         rsp,20h
+  00000001803F4946: 80 3D 68 69 F7 03  cmp         byte ptr [000000018436B2B5h],0
+                    00
+  00000001803F494D: 48 8B DA           mov         rbx,rdx
+  00000001803F4950: 75 13              jne         00000001803F4965
+  00000001803F4952: 48 8D 0D 4F C3 DA  lea         rcx,[00000001841A0CA8h]
+                    03
+  00000001803F4959: E8 22 86 F6 FF     call        000000018035CF80
+  00000001803F495E: C6 05 50 69 F7 03  mov         byte ptr [000000018436B2B5h],1
+                    01
+  00000001803F4965: 48 8B 0D 3C C3 DA  mov         rcx,qword ptr [00000001841A0CA8h]
+                    03
+  00000001803F496C: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001803F4973: 75 05              jne         00000001803F497A
+  00000001803F4975: E8 36 89 F0 FF     call        00000001802FD2B0
+  00000001803F497A: 33 D2              xor         edx,edx
+  00000001803F497C: 48 8B CB           mov         rcx,rbx
+  00000001803F497F: 48 83 C4 20        add         rsp,20h
+  00000001803F4983: 5B                 pop         rbx
+  00000001803F4984: E9 87 0C DD 01     jmp         00000001821C5610 ; System.Boolean::Parse [MI 26221, RVA 0x21c5610]
+  00000001803F4989: CC                 int         3
+  00000001803F498A: CC                 int         3
+  00000001803F498B: CC                 int         3
+  00000001803F498C: CC                 int         3
+  00000001803F498D: CC                 int         3
+  00000001803F498E: CC                 int         3
+  00000001803F498F: CC                 int         3
+  00000001803F4990: 40 53              push        rbx
+  00000001803F4992: 48 83 EC 20        sub         rsp,20h
+  00000001803F4996: 80 3D 1A 69 F7 03  cmp         byte ptr [000000018436B2B7h],0
+                    00
+  00000001803F499D: 48 8B DA           mov         rbx,rdx
+  00000001803F49A0: 75 13              jne         00000001803F49B5
+  00000001803F49A2: 48 8D 0D 1F 15 DC  lea         rcx,[00000001841B5EC8h]
+                    03
+  00000001803F49A9: E8 D2 85 F6 FF     call        000000018035CF80
+  00000001803F49AE: C6 05 02 69 F7 03  mov         byte ptr [000000018436B2B7h],1
+                    01
+  00000001803F49B5: 48 8B 0D 0C 15 DC  mov         rcx,qword ptr [00000001841B5EC8h]
+                    03
+  00000001803F49BC: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001803F49C3: 75 05              jne         00000001803F49CA
+  00000001803F49C5: E8 E6 88 F0 FF     call        00000001802FD2B0
+  00000001803F49CA: 33 C9              xor         ecx,ecx
+  00000001803F49CC: E8 5F 78 D7 01     call        000000018216C230 ; System.Globalization.CultureInfo::get_InvariantCulture [MI 36258, RVA 0x216c230]
+  00000001803F49D1: 45 33 C0           xor         r8d,r8d
+  00000001803F49D4: 48 8B D0           mov         rdx,rax
+  00000001803F49D7: 48 8B CB           mov         rcx,rbx
+  00000001803F49DA: 48 83 C4 20        add         rsp,20h
+  00000001803F49DE: 5B                 pop         rbx
+  00000001803F49DF: E9 CC B1 DE 01     jmp         00000001821DFBB0 ; System.Double::Parse [MI 26791, RVA 0x21dfbb0]
+  00000001803F49E4: CC                 int         3
+  00000001803F49E5: CC                 int         3
+  00000001803F49E6: CC                 int         3
+  00000001803F49E7: CC                 int         3
+  00000001803F49E8: CC                 int         3
+  00000001803F49E9: CC                 int         3
+  00000001803F49EA: CC                 int         3
+  00000001803F49EB: CC                 int         3
+  00000001803F49EC: CC                 int         3
+  00000001803F49ED: CC                 int         3
+  00000001803F49EE: CC                 int         3
+  00000001803F49EF: CC                 int         3
+  00000001803F49F0: 40 53              push        rbx
+  00000001803F49F2: 48 83 EC 20        sub         rsp,20h
+  00000001803F49F6: 80 3D B9 68 F7 03  cmp         byte ptr [000000018436B2B6h],0
+                    00
+  00000001803F49FD: 48 8B DA           mov         rbx,rdx
+  00000001803F4A00: 75 13              jne         00000001803F4A15
+  00000001803F4A02: 48 8D 0D BF 14 DC  lea         rcx,[00000001841B5EC8h]
+                    03
+  00000001803F4A09: E8 72 85 F6 FF     call        000000018035CF80
+  00000001803F4A0E: C6 05 A1 68 F7 03  mov         byte ptr [000000018436B2B6h],1
+                    01
+  00000001803F4A15: 48 8B 0D AC 14 DC  mov         rcx,qword ptr [00000001841B5EC8h]
+                    03
+  00000001803F4A1C: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001803F4A23: 75 05              jne         00000001803F4A2A
+  00000001803F4A25: E8 86 88 F0 FF     call        00000001802FD2B0
+  00000001803F4A2A: 33 C9              xor         ecx,ecx
+  00000001803F4A2C: E8 FF 77 D7 01     call        000000018216C230 ; System.Globalization.CultureInfo::get_InvariantCulture [MI 36258, RVA 0x216c230]
+  00000001803F4A31: 45 33 C0           xor         r8d,r8d
+  00000001803F4A34: 48 8B D0           mov         rdx,rax
+  00000001803F4A37: 48 8B CB           mov         rcx,rbx
+  00000001803F4A3A: 48 83 C4 20        add         rsp,20h
+  00000001803F4A3E: 5B                 pop         rbx
+  00000001803F4A3F: E9 BC 06 E2 01     jmp         0000000182215100 ; System.Single::Parse [MI 27630, RVA 0x2215100]
+  00000001803F4A44: CC                 int         3
+  00000001803F4A45: CC                 int         3
+  00000001803F4A46: CC                 int         3
+  00000001803F4A47: CC                 int         3
+  00000001803F4A48: CC                 int         3
+  00000001803F4A49: CC                 int         3
+  00000001803F4A4A: CC                 int         3
+  00000001803F4A4B: CC                 int         3
+  00000001803F4A4C: CC                 int         3
+  00000001803F4A4D: CC                 int         3
+  00000001803F4A4E: CC                 int         3
+  00000001803F4A4F: CC                 int         3
+  00000001803F4A50: 40 53              push        rbx
+  00000001803F4A52: 48 83 EC 20        sub         rsp,20h
+  00000001803F4A56: 80 3D 57 68 F7 03  cmp         byte ptr [000000018436B2B4h],0
+                    00
+  00000001803F4A5D: 48 8B DA           mov         rbx,rdx
+  00000001803F4A60: 75 13              jne         00000001803F4A75
+  00000001803F4A62: 48 8D 0D 5F 14 DC  lea         rcx,[00000001841B5EC8h]
+                    03
+  00000001803F4A69: E8 12 85 F6 FF     call        000000018035CF80
+  00000001803F4A6E: C6 05 3F 68 F7 03  mov         byte ptr [000000018436B2B4h],1
+                    01
+  00000001803F4A75: 48 8B 0D 4C 14 DC  mov         rcx,qword ptr [00000001841B5EC8h]
+                    03
+  00000001803F4A7C: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001803F4A83: 75 05              jne         00000001803F4A8A
+  00000001803F4A85: E8 26 88 F0 FF     call        00000001802FD2B0
+  00000001803F4A8A: 33 C9              xor         ecx,ecx
+  00000001803F4A8C: E8 9F 77 D7 01     call        000000018216C230 ; System.Globalization.CultureInfo::get_InvariantCulture [MI 36258, RVA 0x216c230]
+  00000001803F4A91: 45 33 C0           xor         r8d,r8d
+  00000001803F4A94: 48 8B D0           mov         rdx,rax
+  00000001803F4A97: 48 8B CB           mov         rcx,rbx
+  00000001803F4A9A: 48 83 C4 20        add         rsp,20h
+  00000001803F4A9E: 5B                 pop         rbx
+  00000001803F4A9F: E9 0C 19 E0 01     jmp         00000001821F63B0 ; System.Int32::Parse [MI 27157, RVA 0x21f63b0]
+  00000001803F4AA4: CC                 int         3
+  00000001803F4AA5: CC                 int         3
+  00000001803F4AA6: CC                 int         3
+  00000001803F4AA7: CC                 int         3
+  00000001803F4AA8: CC                 int         3
+  00000001803F4AA9: CC                 int         3
+  00000001803F4AAA: CC                 int         3
+  00000001803F4AAB: CC                 int         3
+  00000001803F4AAC: CC                 int         3
+  00000001803F4AAD: CC                 int         3
+  00000001803F4AAE: CC                 int         3
+  00000001803F4AAF: CC                 int         3
+  00000001803F4AB0: 40 53              push        rbx
+  00000001803F4AB2: 48 83 EC 20        sub         rsp,20h
+  00000001803F4AB6: 80 3D FB 67 F7 03  cmp         byte ptr [000000018436B2B8h],0
+                    00
+  00000001803F4ABD: 48 8B DA           mov         rbx,rdx
+  00000001803F4AC0: 75 13              jne         00000001803F4AD5
+  00000001803F4AC2: 48 8D 0D FF 0C DB  lea         rcx,[00000001841A57C8h]
+                    03
+  00000001803F4AC9: E8 B2 84 F6 FF     call        000000018035CF80
+  00000001803F4ACE: C6 05 E3 67 F7 03  mov         byte ptr [000000018436B2B8h],1
+                    01
+  00000001803F4AD5: 48 8B 0D EC 0C DB  mov         rcx,qword ptr [00000001841A57C8h]
+                    03
+  00000001803F4ADC: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001803F4AE3: 75 05              jne         00000001803F4AEA
+  00000001803F4AE5: E8 C6 87 F0 FF     call        00000001802FD2B0
+  00000001803F4AEA: 33 D2              xor         edx,edx
+  00000001803F4AEC: 48 8B CB           mov         rcx,rbx
+  00000001803F4AEF: 48 83 C4 20        add         rsp,20h
+  00000001803F4AF3: 5B                 pop         rbx
+  00000001803F4AF4: E9 E7 A9 FE FF     jmp         00000001803DF4E0
+  00000001803F4AF9: CC                 int         3
+  00000001803F4AFA: CC                 int         3
+  00000001803F4AFB: CC                 int         3
+  00000001803F4AFC: CC                 int         3
+  00000001803F4AFD: CC                 int         3
+  00000001803F4AFE: CC                 int         3
+  00000001803F4AFF: CC                 int         3
+  00000001803F4B00: 40 53              push        rbx
+  00000001803F4B02: 48 83 EC 20        sub         rsp,20h
+  00000001803F4B06: 80 3D AC 67 F7 03  cmp         byte ptr [000000018436B2B9h],0
+                    00
+  00000001803F4B0D: 48 8B DA           mov         rbx,rdx
+  00000001803F4B10: 75 13              jne         00000001803F4B25
+  00000001803F4B12: 48 8D 0D AF 0C DB  lea         rcx,[00000001841A57C8h]
+                    03
+  00000001803F4B19: E8 62 84 F6 FF     call        000000018035CF80
+  00000001803F4B1E: C6 05 94 67 F7 03  mov         byte ptr [000000018436B2B9h],1
+                    01
+  00000001803F4B25: 48 8B 0D 9C 0C DB  mov         rcx,qword ptr [00000001841A57C8h]
+                    03
+  00000001803F4B2C: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001803F4B33: 75 05              jne         00000001803F4B3A
+  00000001803F4B35: E8 76 87 F0 FF     call        00000001802FD2B0
+  00000001803F4B3A: 33 D2              xor         edx,edx
+  00000001803F4B3C: 48 8B CB           mov         rcx,rbx
+  00000001803F4B3F: 48 83 C4 20        add         rsp,20h
+  00000001803F4B43: 5B                 pop         rbx
+  00000001803F4B44: E9 57 A8 FE FF     jmp         00000001803DF3A0
+  00000001803F4B49: CC                 int         3
+  00000001803F4B4A: CC                 int         3
+  00000001803F4B4B: CC                 int         3
+  00000001803F4B4C: CC                 int         3
+  00000001803F4B4D: CC                 int         3
+  00000001803F4B4E: CC                 int         3
+  00000001803F4B4F: CC                 int         3
+  00000001803F4B50: 40 53              push        rbx
+  00000001803F4B52: 48 83 EC 20        sub         rsp,20h
+  00000001803F4B56: 80 3D 5D 67 F7 03  cmp         byte ptr [000000018436B2BAh],0
+                    00
+  00000001803F4B5D: 48 8B DA           mov         rbx,rdx
+  00000001803F4B60: 75 13              jne         00000001803F4B75
+  00000001803F4B62: 48 8D 0D 5F 0C DB  lea         rcx,[00000001841A57C8h]
+                    03
+  00000001803F4B69: E8 12 84 F6 FF     call        000000018035CF80
+  00000001803F4B6E: C6 05 45 67 F7 03  mov         byte ptr [000000018436B2BAh],1
+                    01
+  00000001803F4B75: 48 8B 0D 4C 0C DB  mov         rcx,qword ptr [00000001841A57C8h]
+                    03
+  00000001803F4B7C: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001803F4B83: 75 05              jne         00000001803F4B8A
+  00000001803F4B85: E8 26 87 F0 FF     call        00000001802FD2B0
+  00000001803F4B8A: 33 D2              xor         edx,edx
+  00000001803F4B8C: 48 8B CB           mov         rcx,rbx
+  00000001803F4B8F: 48 83 C4 20        add         rsp,20h
+  00000001803F4B93: 5B                 pop         rbx
+  00000001803F4B94: E9 07 A8 FE FF     jmp         00000001803DF3A0
+  00000001803F4B99: CC                 int         3
+  00000001803F4B9A: CC                 int         3
+  00000001803F4B9B: CC                 int         3
+  00000001803F4B9C: CC                 int         3
+  00000001803F4B9D: CC                 int         3
+  00000001803F4B9E: CC                 int         3
+  00000001803F4B9F: CC                 int         3
+  00000001803F4BA0: 40 53              push        rbx
+  00000001803F4BA2: 48 83 EC 20        sub         rsp,20h
+  00000001803F4BA6: 80 3D 05 67 F7 03  cmp         byte ptr [000000018436B2B2h],0
+                    00
+  00000001803F4BAD: 48 8B DA           mov         rbx,rdx
+  00000001803F4BB0: 75 13              jne         00000001803F4BC5
+  00000001803F4BB2: 48 8D 0D 0F 0C DB  lea         rcx,[00000001841A57C8h]
+                    03
+  00000001803F4BB9: E8 C2 83 F6 FF     call        000000018035CF80
+  00000001803F4BBE: C6 05 ED 66 F7 03  mov         byte ptr [000000018436B2B2h],1
+                    01
+  00000001803F4BC5: 48 8B 0D FC 0B DB  mov         rcx,qword ptr [00000001841A57C8h]
+                    03
+  00000001803F4BCC: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001803F4BD3: 75 05              jne         00000001803F4BDA
+  00000001803F4BD5: E8 D6 86 F0 FF     call        00000001802FD2B0
+  00000001803F4BDA: 33 D2              xor         edx,edx
+  00000001803F4BDC: 48 8B CB           mov         rcx,rbx
+  00000001803F4BDF: 48 83 C4 20        add         rsp,20h
+  00000001803F4BE3: 5B                 pop         rbx
+  00000001803F4BE4: E9 F7 A8 FE FF     jmp         00000001803DF4E0
+  00000001803F4BE9: CC                 int         3
+  00000001803F4BEA: CC                 int         3
+  00000001803F4BEB: CC                 int         3
+  00000001803F4BEC: CC                 int         3
+  00000001803F4BED: CC                 int         3
+  00000001803F4BEE: CC                 int         3
+  00000001803F4BEF: CC                 int         3
+  00000001803F4BF0: 40 53              push        rbx
+  00000001803F4BF2: 48 83 EC 20        sub         rsp,20h
+  00000001803F4BF6: 80 3D B4 66 F7 03  cmp         byte ptr [000000018436B2B1h],0
+                    00
+  00000001803F4BFD: 48 8B DA           mov         rbx,rdx
+  00000001803F4C00: 75 37              jne         00000001803F4C39
+  00000001803F4C02: 48 8D 0D BF B4 DD  lea         rcx,[00000001841D00C8h]
+                    03
+  00000001803F4C09: E8 72 83 F6 FF     call        000000018035CF80
+  00000001803F4C0E: 48 8D 0D 0B A5 D9  lea         rcx,[000000018418F120h]
+                    03
+  00000001803F4C15: E8 66 83 F6 FF     call        000000018035CF80
+  00000001803F4C1A: 48 8D 0D B7 75 DD  lea         rcx,[00000001841CC1D8h]
+                    03
+  00000001803F4C21: E8 5A 83 F6 FF     call        000000018035CF80
+  00000001803F4C26: 48 8D 0D 93 E5 DD  lea         rcx,[00000001841D31C0h]
+                    03
+  00000001803F4C2D: E8 4E 83 F6 FF     call        000000018035CF80
+  00000001803F4C32: C6 05 78 66 F7 03  mov         byte ptr [000000018436B2B1h],1
+                    01
+  00000001803F4C39: 48 85 DB           test        rbx,rbx
+  00000001803F4C3C: 74 3C              je          00000001803F4C7A
+  00000001803F4C3E: 4C 8B 05 93 75 DD  mov         r8,qword ptr [00000001841CC1D8h]
+                    03
+  00000001803F4C45: 45 33 C9           xor         r9d,r9d
+  00000001803F4C48: 48 8B 15 71 E5 DD  mov         rdx,qword ptr [00000001841D31C0h]
+                    03
+  00000001803F4C4F: 48 8B CB           mov         rcx,rbx
+  00000001803F4C52: E8 E9 05 D2 01     call        0000000182115240 ; System.String::Replace [MI 25765, RVA 0x2115240]
+  00000001803F4C57: 48 85 C0           test        rax,rax
+  00000001803F4C5A: 74 1E              je          00000001803F4C7A
+  00000001803F4C5C: 4C 8B 05 65 B4 DD  mov         r8,qword ptr [00000001841D00C8h]
+                    03
+  00000001803F4C63: 45 33 C9           xor         r9d,r9d
+  00000001803F4C66: 48 8B 15 B3 A4 D9  mov         rdx,qword ptr [000000018418F120h]
+                    03
+  00000001803F4C6D: 48 8B C8           mov         rcx,rax
+  00000001803F4C70: 48 83 C4 20        add         rsp,20h
+  00000001803F4C74: 5B                 pop         rbx
+  00000001803F4C75: E9 C6 05 D2 01     jmp         0000000182115240 ; System.String::Replace [MI 25765, RVA 0x2115240]
+  00000001803F4C7A: E8 A1 84 F6 FF     call        000000018035D120
+  00000001803F4C7F: CC                 int         3
+  00000001803F4C80: 40 53              push        rbx
+  00000001803F4C82: 48 83 EC 20        sub         rsp,20h
+  00000001803F4C86: 80 3D CC 65 F7 03  cmp         byte ptr [000000018436B259h],0
+                    00
+  00000001803F4C8D: 48 8B DA           mov         rbx,rdx
+  00000001803F4C90: 75 13              jne         00000001803F4CA5
+  00000001803F4C92: 48 8D 0D FF 71 D8  lea         rcx,[000000018417BE98h]
+                    03
+  00000001803F4C99: E8 E2 82 F6 FF     call        000000018035CF80
+  00000001803F4C9E: C6 05 B4 65 F7 03  mov         byte ptr [000000018436B259h],1
+                    01
+  00000001803F4CA5: 48 8B 0D EC 71 D8  mov         rcx,qword ptr [000000018417BE98h]
+                    03
+  00000001803F4CAC: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001803F4CB3: 75 05              jne         00000001803F4CBA
+  00000001803F4CB5: E8 F6 85 F0 FF     call        00000001802FD2B0
+  00000001803F4CBA: 45 33 C0           xor         r8d,r8d
+  00000001803F4CBD: 33 D2              xor         edx,edx
+  00000001803F4CBF: 48 8B CB           mov         rcx,rbx
+  00000001803F4CC2: 48 83 C4 20        add         rsp,20h
+  00000001803F4CC6: 5B                 pop         rbx
+  00000001803F4CC7: E9 F4 0D 84 02     jmp         0000000182C35AC0 ; UnityEngine.Object::op_Equality [MI 78520, RVA 0x2c35ac0]
+  00000001803F4CCC: CC                 int         3
+  00000001803F4CCD: CC                 int         3
+  00000001803F4CCE: CC                 int         3
+  00000001803F4CCF: CC                 int         3
+  00000001803F4CD0: 40 53              push        rbx
+  00000001803F4CD2: 48 83 EC 20        sub         rsp,20h
+  00000001803F4CD6: 80 3D F5 65 F7 03  cmp         byte ptr [000000018436B2D2h],0
+                    00
+  00000001803F4CDD: 48 8B DA           mov         rbx,rdx
+  00000001803F4CE0: 75 13              jne         00000001803F4CF5
+  00000001803F4CE2: 48 8D 0D AF 71 D8  lea         rcx,[000000018417BE98h]
+                    03
+  00000001803F4CE9: E8 92 82 F6 FF     call        000000018035CF80
+  00000001803F4CEE: C6 05 DD 65 F7 03  mov         byte ptr [000000018436B2D2h],1
+                    01
+  00000001803F4CF5: 33 D2              xor         edx,edx
+  00000001803F4CF7: 48 8B CB           mov         rcx,rbx
+  00000001803F4CFA: E8 31 15 8A 02     call        0000000182C96230
+  00000001803F4CFF: 48 8B 0D 92 71 D8  mov         rcx,qword ptr [000000018417BE98h]
+                    03
+  00000001803F4D06: 48 8B D8           mov         rbx,rax
+  00000001803F4D09: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001803F4D10: 75 05              jne         00000001803F4D17
+  00000001803F4D12: E8 99 85 F0 FF     call        00000001802FD2B0
+  00000001803F4D17: 45 33 C0           xor         r8d,r8d
+  00000001803F4D1A: 33 D2              xor         edx,edx
+  00000001803F4D1C: 48 8B CB           mov         rcx,rbx
+  00000001803F4D1F: E8 CC 0F 84 02     call        0000000182C35CF0 ; UnityEngine.Object::op_Inequality [MI 78521, RVA 0x2c35cf0]
+  00000001803F4D24: 48 83 C4 20        add         rsp,20h
+  00000001803F4D28: 5B                 pop         rbx
+  00000001803F4D29: C3                 ret
+  00000001803F4D2A: CC                 int         3
+  00000001803F4D2B: CC                 int         3
+  00000001803F4D2C: CC                 int         3
+  00000001803F4D2D: CC                 int         3
+  00000001803F4D2E: CC                 int         3
+  00000001803F4D2F: CC                 int         3
+  00000001803F4D30: 0F 57 C0           xorps       xmm0,xmm0
+  00000001803F4D33: 0F 2E C8           ucomiss     xmm1,xmm0
+  00000001803F4D36: 7A 05              jp          00000001803F4D3D
+  00000001803F4D38: 75 03              jne         00000001803F4D3D
+  00000001803F4D3A: 32 C0              xor         al,al
+  00000001803F4D3C: C3                 ret
+  00000001803F4D3D: B0 01              mov         al,1
+  00000001803F4D3F: C3                 ret
+  00000001803F4D40: 40 53              push        rbx
+  00000001803F4D42: 48 83 EC 20        sub         rsp,20h
+  00000001803F4D46: 80 3D 7C 64 F7 03  cmp         byte ptr [000000018436B1C9h],0
+                    00
+  00000001803F4D4D: 48 8B DA           mov         rbx,rdx
+  00000001803F4D50: 75 1F              jne         00000001803F4D71
+  00000001803F4D52: 48 8D 0D 3F 22 D5  lea         rcx,[0000000184146F98h]
+                    03
+  00000001803F4D59: E8 22 82 F6 FF     call        000000018035CF80
+  00000001803F4D5E: 48 8D 0D AB EB DA  lea         rcx,[00000001841A3910h]
+                    03
+  00000001803F4D65: E8 16 82 F6 FF     call        000000018035CF80
+  00000001803F4D6A: C6 05 58 64 F7 03  mov         byte ptr [000000018436B1C9h],1
+                    01
+  00000001803F4D71: 48 85 DB           test        rbx,rbx
+  00000001803F4D74: 74 18              je          00000001803F4D8E
+  00000001803F4D76: 48 8D 4B 20        lea         rcx,[rbx+20h]
+  00000001803F4D7A: 48 C7 43 20 00 00  mov         qword ptr [rbx+20h],0
+                    00 00
+  00000001803F4D82: 33 D2              xor         edx,edx
+  00000001803F4D84: 48 83 C4 20        add         rsp,20h
+  00000001803F4D88: 5B                 pop         rbx
+  00000001803F4D89: E9 22 7D F6 FF     jmp         000000018035CAB0
+  00000001803F4D8E: 48 8B 05 03 22 D5  mov         rax,qword ptr [0000000184146F98h]
+                    03
+  00000001803F4D95: 83 B8 E0 00 00 00  cmp         dword ptr [rax+00000000000000E0h],0
+                    00
+  00000001803F4D9C: 75 0F              jne         00000001803F4DAD
+  00000001803F4D9E: 48 8B C8           mov         rcx,rax
+  00000001803F4DA1: E8 0A 85 F0 FF     call        00000001802FD2B0
+  00000001803F4DA6: 48 8B 05 EB 21 D5  mov         rax,qword ptr [0000000184146F98h]
+                    03
+  00000001803F4DAD: 48 8B 80 B8 00 00  mov         rax,qword ptr [rax+00000000000000B8h]
+                    00
+  00000001803F4DB4: 48 8B 08           mov         rcx,qword ptr [rax]
+  00000001803F4DB7: 48 85 C9           test        rcx,rcx
+  00000001803F4DBA: 74 13              je          00000001803F4DCF
+  00000001803F4DBC: 4C 8B 05 4D EB DA  mov         r8,qword ptr [00000001841A3910h]
+                    03
+  00000001803F4DC3: 33 D2              xor         edx,edx
+  00000001803F4DC5: 48 83 C4 20        add         rsp,20h
+  00000001803F4DC9: 5B                 pop         rbx
+  00000001803F4DCA: E9 F1 97 C4 00     jmp         000000018103E5C0
+  00000001803F4DCF: E8 4C 83 F6 FF     call        000000018035D120
+  00000001803F4DD4: CC                 int         3
+  00000001803F4DD5: CC                 int         3
+  00000001803F4DD6: CC                 int         3
+  00000001803F4DD7: CC                 int         3
+  00000001803F4DD8: CC                 int         3
+  00000001803F4DD9: CC                 int         3
+  00000001803F4DDA: CC                 int         3
+  00000001803F4DDB: CC                 int         3
+  00000001803F4DDC: CC                 int         3
+  00000001803F4DDD: CC                 int         3
+  00000001803F4DDE: CC                 int         3
+  00000001803F4DDF: CC                 int         3
+  00000001803F4DE0: 40 53              push        rbx
+  00000001803F4DE2: 48 83 EC 20        sub         rsp,20h
+  00000001803F4DE6: 80 3D C6 64 F7 03  cmp         byte ptr [000000018436B2B3h],0
+                    00
+  00000001803F4DED: 48 8B DA           mov         rbx,rdx
+  00000001803F4DF0: 75 13              jne         00000001803F4E05
+  00000001803F4DF2: 48 8D 0D DF 73 DD  lea         rcx,[00000001841CC1D8h]
+                    03
+  00000001803F4DF9: E8 82 81 F6 FF     call        000000018035CF80
+  00000001803F4DFE: C6 05 AE 64 F7 03  mov         byte ptr [000000018436B2B3h],1
+                    01
+  00000001803F4E05: 48 8B 15 CC 73 DD  mov         rdx,qword ptr [00000001841CC1D8h]
+                    03
+  00000001803F4E0C: 45 33 C0           xor         r8d,r8d
+  00000001803F4E0F: 48 8B CB           mov         rcx,rbx
+  00000001803F4E12: 48 83 C4 20        add         rsp,20h
+  00000001803F4E16: 5B                 pop         rbx
+  00000001803F4E17: E9 04 37 D2 01     jmp         0000000182118520 ; System.String::op_Inequality [MI 25729, RVA 0x2118520]
+  00000001803F4E1C: CC                 int         3
+  00000001803F4E1D: CC                 int         3
+  00000001803F4E1E: CC                 int         3
+  00000001803F4E1F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

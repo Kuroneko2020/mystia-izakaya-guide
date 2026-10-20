@@ -1,0 +1,22 @@
+# <>c::<GetPayment>b__289_2
+# {"declaringType": "<>c", "typeIndex": 1422, "image": "Assembly-CSharp.dll", "name": "<GetPayment>b__289_2", "metadataMethodIndex": 8383, "token": "0x60020c0", "methodPointerIndex": 8383, "va": "0x1804e2d30", "rva": "0x4e2d30", "endRva": "0x4e2d50", "returnTypeIndex": 26152, "parameters": [{"index": 6009, "name": "x", "typeIndex": 38196}]}
+# range end RVA 0x4e2d50; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804E2D30: 48 83 EC 28        sub         rsp,28h
+  00000001804E2D34: 48 8B C2           mov         rax,rdx
+  00000001804E2D37: 48 85 D2           test        rdx,rdx
+  00000001804E2D3A: 74 0E              je          00000001804E2D4A
+  00000001804E2D3C: 33 D2              xor         edx,edx
+  00000001804E2D3E: 48 8B C8           mov         rcx,rax
+  00000001804E2D41: 48 83 C4 28        add         rsp,28h
+  00000001804E2D45: E9 66 04 03 00     jmp         00000001805131B0 ; OrderBase::get_Price [MI 8579, RVA 0x5131b0]
+  00000001804E2D4A: E8 D1 A3 E7 FF     call        000000018035D120
+  00000001804E2D4F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

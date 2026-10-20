@@ -1,0 +1,40 @@
+{
+  "artifact": "成品/东方夜雀食堂攻略查询_2610171641.html",
+  "preview": "loopback HTTP; bound to 127.0.0.1 only",
+  "backend": "official browser-use in-app browser",
+  "viewports": [
+    {"width": 1280, "height": 720},
+    {"width": 390, "height": 844}
+  ],
+  "oldArtifactReproduction": {
+    "artifact": "2610151241",
+    "guest": "射命丸文",
+    "query": "jiachang",
+    "enterDidNotSelectTag": true,
+    "homeTagPressed": false,
+    "trueSeafoodMisoSoupShownWithHomeOnlyHit": true
+  },
+  "newArtifactChecks": [
+    {"case": "料理详情全拼jiachang回车", "observation": "家常aria-pressed=true，搜索值清空", "method": "observed input fill + DOM KeyboardEvent", "status": "PASS"},
+    {"case": "料理详情jc/家常回车", "observation": "家常aria-pressed=true，重复不取消，搜索值清空", "method": "observed input fill + DOM KeyboardEvent", "status": "PASS"},
+    {"case": "空搜索框退格", "observation": "家常aria-pressed=false", "method": "DOM KeyboardEvent", "status": "PASS"},
+    {"case": "酒水kejiabing/gjj依次回车", "observation": "可加冰与高酒精均aria-pressed=true，搜索值清空", "method": "observed input fill + DOM KeyboardEvent", "status": "PASS"},
+    {"case": "古明地恋搜索无意识妖怪慕斯", "observation": "无推荐结果；详情头部显示原生最低评价特殊判定", "status": "PASS"},
+    {"case": "犬走椛搜索疯帽子茶会", "observation": "无推荐结果；详情头部显示可可豆主料/加料特殊判定", "status": "PASS"},
+    {"case": "绵月丰姬搜索蜜桃红烧肉", "observation": "无推荐结果；详情头部显示原生最低评价特殊判定", "status": "PASS"},
+    {"case": "普通客人月人备菜表搜索蜜桃红烧肉", "observation": "无推荐菜谱；按客人筛选月人已选中", "status": "PASS"},
+    {"case": "桌面详情视觉", "observation": "固定口味候选说明、回车提示、选中标签、固定工具栏与列表均可见，无新布局遮挡", "status": "PASS"},
+    {"case": "手机390x844详情视觉及jc回车", "observation": "特殊判定、回车提示、家常选中、清空按钮均可见，表格保留设计内水平滚动", "status": "PASS"}
+  ],
+  "limitations": [
+    "High-level press and direct CUA keyboard commands did not reliably produce a page key event; some high-level clicks timed out. These are NOT counted as physical-keyboard end-to-end passes.",
+    "DOM KeyboardEvent dispatch exercises the real rendered page handler and state; full-source VM covers keyboard wiring, IME guard, ambiguity and history. User physical-keyboard acceptance remains unverified.",
+    "One guest navigation retained the previously selected drinks tab. Re-observed snapshot and explicitly switched to meals before meal checks.",
+    "No game process was started. Aya's reported live low evaluation is not reproduced or conclusively explained."
+  ],
+  "screenshotFiles": [
+    "browser_桌面家常选中.png",
+    "browser_手机特殊判定与无结果.png",
+    "browser_手机缩写回车选中.png"
+  ]
+}

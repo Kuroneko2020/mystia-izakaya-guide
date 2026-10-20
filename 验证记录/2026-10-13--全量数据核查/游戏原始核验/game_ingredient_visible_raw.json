@@ -1,0 +1,2976 @@
+{
+  "schemaVersion": 1,
+  "tagSemantics": "entries.tags/rawTags are original serialized catalog tags; no dynamic cooked tags inferred",
+  "entries": [
+    {
+      "id": 1000,
+      "name": "黄瓜",
+      "type": "ingredient",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_IngredientProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -7556507206743873260,
+        "rawJson": "DLC1_IngredientProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 1000,
+        "level": 1,
+        "baseValue": 7,
+        "tags": [
+          3,
+          2,
+          7
+        ],
+        "prefix": 3
+      },
+      "nameTextAsset": "DLC1_IngredientsLang_2",
+      "price": 7,
+      "level": 1,
+      "tags": [
+        3,
+        2,
+        7
+      ],
+      "tagNames": [
+        "家常",
+        "素",
+        "清淡"
+      ],
+      "rawTags": [
+        3,
+        2,
+        7
+      ],
+      "rawTagNames": [
+        "家常",
+        "素",
+        "清淡"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 1001,
+      "name": "章鱼",
+      "type": "ingredient",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_IngredientProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -7556507206743873260,
+        "rawJson": "DLC1_IngredientProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 1001,
+        "level": 2,
+        "baseValue": 12,
+        "tags": [
+          1,
+          16,
+          11
+        ],
+        "prefix": 3
+      },
+      "nameTextAsset": "DLC1_IngredientsLang_2",
+      "price": 12,
+      "level": 2,
+      "tags": [
+        1,
+        16,
+        11
+      ],
+      "tagNames": [
+        "水产",
+        "鲜",
+        "海味"
+      ],
+      "rawTags": [
+        1,
+        16,
+        11
+      ],
+      "rawTagNames": [
+        "水产",
+        "鲜",
+        "海味"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 1002,
+      "name": "海胆",
+      "type": "ingredient",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_IngredientProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -7556507206743873260,
+        "rawJson": "DLC1_IngredientProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 1002,
+        "level": 3,
+        "baseValue": 18,
+        "tags": [
+          1,
+          4,
+          5,
+          16,
+          11
+        ],
+        "prefix": 3
+      },
+      "nameTextAsset": "DLC1_IngredientsLang_2",
+      "price": 18,
+      "level": 3,
+      "tags": [
+        1,
+        4,
+        5,
+        16,
+        11
+      ],
+      "tagNames": [
+        "水产",
+        "高级",
+        "传说",
+        "鲜",
+        "海味"
+      ],
+      "rawTags": [
+        1,
+        4,
+        5,
+        16,
+        11
+      ],
+      "rawTagNames": [
+        "水产",
+        "高级",
+        "传说",
+        "鲜",
+        "海味"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 1003,
+      "name": "黑盐",
+      "type": "ingredient",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_IngredientProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -7556507206743873260,
+        "rawJson": "DLC1_IngredientProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 1003,
+        "level": 1,
+        "baseValue": 3,
+        "tags": [
+          15
+        ],
+        "prefix": 3
+      },
+      "nameTextAsset": "DLC1_IngredientsLang_2",
+      "price": 3,
+      "level": 1,
+      "tags": [
+        15
+      ],
+      "tagNames": [
+        "咸"
+      ],
+      "rawTags": [
+        15
+      ],
+      "rawTagNames": [
+        "咸"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 1004,
+      "name": "奶油",
+      "type": "ingredient",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_IngredientProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -7556507206743873260,
+        "rawJson": "DLC1_IngredientProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 1004,
+        "level": 1,
+        "baseValue": 9,
+        "tags": [
+          3,
+          17,
+          13
+        ],
+        "prefix": 3
+      },
+      "nameTextAsset": "DLC1_IngredientsLang_2",
+      "price": 9,
+      "level": 1,
+      "tags": [
+        3,
+        17,
+        13
+      ],
+      "tagNames": [
+        "家常",
+        "甜",
+        "西式"
+      ],
+      "rawTags": [
+        3,
+        17,
+        13
+      ],
+      "rawTagNames": [
+        "家常",
+        "甜",
+        "西式"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 1005,
+      "name": "螃蟹",
+      "type": "ingredient",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_IngredientProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -7556507206743873260,
+        "rawJson": "DLC1_IngredientProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 1005,
+        "level": 3,
+        "baseValue": 10,
+        "tags": [
+          1,
+          4,
+          16
+        ],
+        "prefix": 3
+      },
+      "nameTextAsset": "DLC1_IngredientsLang_2",
+      "price": 10,
+      "level": 3,
+      "tags": [
+        1,
+        4,
+        16
+      ],
+      "tagNames": [
+        "水产",
+        "高级",
+        "鲜"
+      ],
+      "rawTags": [
+        1,
+        4,
+        16
+      ],
+      "rawTagNames": [
+        "水产",
+        "高级",
+        "鲜"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 2002,
+      "name": "芝士",
+      "type": "ingredient",
+      "group": "DLC2",
+      "source": {
+        "profile": "DLC2_IngredientProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": 7859384275951265164,
+        "rawJson": "DLC2_IngredientProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 2002,
+        "level": 2,
+        "baseValue": 18,
+        "tags": [
+          4,
+          15,
+          16
+        ],
+        "prefix": 3
+      },
+      "nameTextAsset": "DLC2_IngredientsLang_2",
+      "price": 18,
+      "level": 2,
+      "tags": [
+        4,
+        15,
+        16
+      ],
+      "tagNames": [
+        "高级",
+        "咸",
+        "鲜"
+      ],
+      "rawTags": [
+        4,
+        15,
+        16
+      ],
+      "rawTagNames": [
+        "高级",
+        "咸",
+        "鲜"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 2001,
+      "name": "柠檬",
+      "type": "ingredient",
+      "group": "DLC2",
+      "source": {
+        "profile": "DLC2_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+        "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+        "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+        "path_id": -626194383482507010,
+        "rawJson": "DLC2_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 2001,
+        "level": 1,
+        "baseValue": 8,
+        "tags": [
+          2000,
+          31
+        ],
+        "prefix": 3
+      },
+      "nameTextAsset": "DLC2_IngredientsLang",
+      "price": 8,
+      "level": 1,
+      "tags": [
+        2000,
+        31
+      ],
+      "tagNames": [
+        "酸",
+        "果味"
+      ],
+      "rawTags": [
+        2000,
+        31
+      ],
+      "rawTagNames": [
+        "酸",
+        "果味"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 3000,
+      "name": "莲子",
+      "type": "ingredient",
+      "group": "DLC3",
+      "source": {
+        "profile": "DLC3_IngredientProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -2371234021127519853,
+        "rawJson": "DLC3_IngredientProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 3000,
+        "level": 3,
+        "baseValue": 22,
+        "tags": [
+          19,
+          7,
+          25
+        ],
+        "prefix": 1
+      },
+      "nameTextAsset": "DLC3_IngredientsLang",
+      "price": 22,
+      "level": 3,
+      "tags": [
+        19,
+        7,
+        25
+      ],
+      "tagNames": [
+        "招牌",
+        "清淡",
+        "文化底蕴"
+      ],
+      "rawTags": [
+        19,
+        7,
+        25
+      ],
+      "rawTagNames": [
+        "招牌",
+        "清淡",
+        "文化底蕴"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 3001,
+      "name": "地瓜",
+      "type": "ingredient",
+      "group": "DLC3",
+      "source": {
+        "profile": "DLC3_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": 4554022029970204273,
+        "rawJson": "DLC3_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 3001,
+        "level": 1,
+        "baseValue": 8,
+        "tags": [
+          9
+        ],
+        "prefix": 1
+      },
+      "nameTextAsset": "DLC3_IngredientsLang",
+      "price": 8,
+      "level": 1,
+      "tags": [
+        9
+      ],
+      "tagNames": [
+        "饱腹"
+      ],
+      "rawTags": [
+        9
+      ],
+      "rawTagNames": [
+        "饱腹"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 3002,
+      "name": "松子",
+      "type": "ingredient",
+      "group": "DLC3",
+      "source": {
+        "profile": "DLC3_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": 4554022029970204273,
+        "rawJson": "DLC3_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 3002,
+        "level": 2,
+        "baseValue": 15,
+        "tags": [
+          19,
+          7,
+          4
+        ],
+        "prefix": 1
+      },
+      "nameTextAsset": "DLC3_IngredientsLang",
+      "price": 15,
+      "level": 2,
+      "tags": [
+        19,
+        7,
+        4
+      ],
+      "tagNames": [
+        "招牌",
+        "清淡",
+        "高级"
+      ],
+      "rawTags": [
+        19,
+        7,
+        4
+      ],
+      "rawTagNames": [
+        "招牌",
+        "清淡",
+        "高级"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 3003,
+      "name": "板栗",
+      "type": "ingredient",
+      "group": "DLC3",
+      "source": {
+        "profile": "DLC3_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": 4554022029970204273,
+        "rawJson": "DLC3_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 3003,
+        "level": 2,
+        "baseValue": 10,
+        "tags": [
+          3,
+          2
+        ],
+        "prefix": 1
+      },
+      "nameTextAsset": "DLC3_IngredientsLang",
+      "price": 10,
+      "level": 2,
+      "tags": [
+        3,
+        2
+      ],
+      "tagNames": [
+        "家常",
+        "素"
+      ],
+      "rawTags": [
+        3,
+        2
+      ],
+      "rawTagNames": [
+        "家常",
+        "素"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 4001,
+      "name": "红豆",
+      "type": "ingredient",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_IngredientProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -6224795972764235081,
+        "rawJson": "DLC4_IngredientProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 4001,
+        "level": 2,
+        "baseValue": 18,
+        "tags": [
+          3
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "DLC4_IngredientsLang",
+      "price": 18,
+      "level": 2,
+      "tags": [
+        3
+      ],
+      "tagNames": [
+        "家常"
+      ],
+      "rawTags": [
+        3
+      ],
+      "rawTagNames": [
+        "家常"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 4002,
+      "name": "鲜花",
+      "type": "ingredient",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_IngredientProfile_2",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+        "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+        "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+        "path_id": -6224795972764235081,
+        "rawJson": "DLC4_IngredientProfile_2_raw.json"
+      },
+      "raw": {
+        "id": 4002,
+        "level": 3,
+        "baseValue": 45,
+        "tags": [
+          29,
+          20
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "DLC4_IngredientsLang",
+      "price": 45,
+      "level": 3,
+      "tags": [
+        29,
+        20
+      ],
+      "tagNames": [
+        "梦幻",
+        "适合拍照"
+      ],
+      "rawTags": [
+        29,
+        20
+      ],
+      "rawTagNames": [
+        "梦幻",
+        "适合拍照"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 4000,
+      "name": "梅子",
+      "type": "ingredient",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": 1264011254432610188,
+        "rawJson": "DLC4_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 4000,
+        "level": 1,
+        "baseValue": 12,
+        "tags": [
+          15,
+          28
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "DLC4_IngredientsLang",
+      "price": 12,
+      "level": 1,
+      "tags": [
+        15,
+        28
+      ],
+      "tagNames": [
+        "咸",
+        "小巧"
+      ],
+      "rawTags": [
+        15,
+        28
+      ],
+      "rawTagNames": [
+        "咸",
+        "小巧"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 4003,
+      "name": "香椿",
+      "type": "ingredient",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": 1264011254432610188,
+        "rawJson": "DLC4_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 4003,
+        "level": 2,
+        "baseValue": 20,
+        "tags": [
+          4001,
+          2
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "DLC4_IngredientsLang",
+      "price": 20,
+      "level": 2,
+      "tags": [
+        4001,
+        2
+      ],
+      "tagNames": [
+        "毒",
+        "素"
+      ],
+      "rawTags": [
+        4001,
+        2
+      ],
+      "rawTagNames": [
+        "毒",
+        "素"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 4004,
+      "name": "西红柿",
+      "type": "ingredient",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": 1264011254432610188,
+        "rawJson": "DLC4_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 4004,
+        "level": 1,
+        "baseValue": 8,
+        "tags": [
+          2
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "DLC4_IngredientsLang",
+      "price": 8,
+      "level": 1,
+      "tags": [
+        2
+      ],
+      "tagNames": [
+        "素"
+      ],
+      "rawTags": [
+        2
+      ],
+      "rawTagNames": [
+        "素"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 5000,
+      "name": "可可豆",
+      "type": "ingredient",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -9067573325554850623,
+        "rawJson": "DLC5_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 5000,
+        "level": 3,
+        "baseValue": 22,
+        "tags": [
+          17,
+          27
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "DLC5_IngredientsLang",
+      "price": 22,
+      "level": 3,
+      "tags": [
+        17,
+        27
+      ],
+      "tagNames": [
+        "甜",
+        "不可思议"
+      ],
+      "rawTags": [
+        17,
+        27
+      ],
+      "rawTagNames": [
+        "甜",
+        "不可思议"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 5001,
+      "name": "西蓝花",
+      "type": "ingredient",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -9067573325554850623,
+        "rawJson": "DLC5_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 5001,
+        "level": 2,
+        "baseValue": 18,
+        "tags": [
+          2,
+          3
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "DLC5_IngredientsLang",
+      "price": 18,
+      "level": 2,
+      "tags": [
+        2,
+        3
+      ],
+      "tagNames": [
+        "素",
+        "家常"
+      ],
+      "rawTags": [
+        2,
+        3
+      ],
+      "rawTagNames": [
+        "素",
+        "家常"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 5003,
+      "name": "薜荔",
+      "type": "ingredient",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -9067573325554850623,
+        "rawJson": "DLC5_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 5003,
+        "level": 2,
+        "baseValue": 21,
+        "tags": [
+          21,
+          29
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "DLC5_IngredientsLang",
+      "price": 21,
+      "level": 2,
+      "tags": [
+        21,
+        29
+      ],
+      "tagNames": [
+        "凉爽",
+        "梦幻"
+      ],
+      "rawTags": [
+        21,
+        29
+      ],
+      "rawTagNames": [
+        "凉爽",
+        "梦幻"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 5004,
+      "name": "银耳",
+      "type": "ingredient",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -9067573325554850623,
+        "rawJson": "DLC5_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 5004,
+        "level": 3,
+        "baseValue": 14,
+        "tags": [
+          26,
+          7
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "DLC5_IngredientsLang",
+      "price": 14,
+      "level": 3,
+      "tags": [
+        26,
+        7
+      ],
+      "tagNames": [
+        "菌类",
+        "清淡"
+      ],
+      "rawTags": [
+        26,
+        7
+      ],
+      "rawTagNames": [
+        "菌类",
+        "清淡"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 5002,
+      "name": "噗噗呦果",
+      "type": "ingredient",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -9067573325554850623,
+        "rawJson": "DLC5_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 5002,
+        "level": 5,
+        "baseValue": 10,
+        "tags": [
+          5000
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "DLC5_IngredientsLang",
+      "price": 10,
+      "level": 5,
+      "tags": [
+        5000
+      ],
+      "tagNames": [
+        "天罚"
+      ],
+      "rawTags": [
+        5000
+      ],
+      "rawTagNames": [
+        "天罚"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 5005,
+      "name": "强效辣椒素",
+      "type": "ingredient",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -9067573325554850623,
+        "rawJson": "DLC5_IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 5005,
+        "level": 5,
+        "baseValue": 0,
+        "tags": [
+          5000
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "DLC5_IngredientsLang",
+      "price": 0,
+      "level": 5,
+      "tags": [
+        5000
+      ],
+      "tagNames": [
+        "天罚"
+      ],
+      "rawTags": [
+        5000
+      ],
+      "rawTagNames": [
+        "天罚"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 0,
+      "name": "鸡蛋",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 0,
+        "level": 1,
+        "baseValue": 4,
+        "tags": [
+          18
+        ],
+        "prefix": 3
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 4,
+      "level": 1,
+      "tags": [
+        18
+      ],
+      "tagNames": [
+        "生"
+      ],
+      "rawTags": [
+        18
+      ],
+      "rawTagNames": [
+        "生"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 1,
+      "name": "猪肉",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 1,
+        "level": 1,
+        "baseValue": 10,
+        "tags": [
+          0
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 10,
+      "level": 1,
+      "tags": [
+        0
+      ],
+      "tagNames": [
+        "肉"
+      ],
+      "rawTags": [
+        0
+      ],
+      "rawTagNames": [
+        "肉"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 2,
+      "name": "牛肉",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 2,
+        "level": 2,
+        "baseValue": 15,
+        "tags": [
+          0
+        ],
+        "prefix": 0
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 15,
+      "level": 2,
+      "tags": [
+        0
+      ],
+      "tagNames": [
+        "肉"
+      ],
+      "rawTags": [
+        0
+      ],
+      "rawTagNames": [
+        "肉"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 3,
+      "name": "鹿肉",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 3,
+        "level": 2,
+        "baseValue": 20,
+        "tags": [
+          0
+        ],
+        "prefix": 1
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 20,
+      "level": 2,
+      "tags": [
+        0
+      ],
+      "tagNames": [
+        "肉"
+      ],
+      "rawTags": [
+        0
+      ],
+      "rawTagNames": [
+        "肉"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 4,
+      "name": "野猪肉",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 4,
+        "level": 3,
+        "baseValue": 25,
+        "tags": [
+          0
+        ],
+        "prefix": 2
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 25,
+      "level": 3,
+      "tags": [
+        0
+      ],
+      "tagNames": [
+        "肉"
+      ],
+      "rawTags": [
+        0
+      ],
+      "rawTagNames": [
+        "肉"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 5,
+      "name": "豆腐",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 5,
+        "level": 1,
+        "baseValue": 8,
+        "tags": [
+          2,
+          3,
+          7
+        ],
+        "prefix": 3
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 8,
+      "level": 1,
+      "tags": [
+        2,
+        3,
+        7
+      ],
+      "tagNames": [
+        "素",
+        "家常",
+        "清淡"
+      ],
+      "rawTags": [
+        2,
+        3,
+        7
+      ],
+      "rawTagNames": [
+        "素",
+        "家常",
+        "清淡"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 6,
+      "name": "土豆",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 6,
+        "level": 2,
+        "baseValue": 10,
+        "tags": [
+          2,
+          3
+        ],
+        "prefix": 4
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 10,
+      "level": 2,
+      "tags": [
+        2,
+        3
+      ],
+      "tagNames": [
+        "素",
+        "家常"
+      ],
+      "rawTags": [
+        2,
+        3
+      ],
+      "rawTagNames": [
+        "素",
+        "家常"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 7,
+      "name": "洋葱",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 7,
+        "level": 2,
+        "baseValue": 12,
+        "tags": [
+          2,
+          16
+        ],
+        "prefix": 5
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 12,
+      "level": 2,
+      "tags": [
+        2,
+        16
+      ],
+      "tagNames": [
+        "素",
+        "鲜"
+      ],
+      "rawTags": [
+        2,
+        16
+      ],
+      "rawTagNames": [
+        "素",
+        "鲜"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 8,
+      "name": "南瓜",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 8,
+        "level": 2,
+        "baseValue": 14,
+        "tags": [
+          9,
+          2
+        ],
+        "prefix": 3
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 14,
+      "level": 2,
+      "tags": [
+        9,
+        2
+      ],
+      "tagNames": [
+        "饱腹",
+        "素"
+      ],
+      "rawTags": [
+        9,
+        2
+      ],
+      "rawTagNames": [
+        "饱腹",
+        "素"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 9,
+      "name": "萝卜",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 9,
+        "level": 2,
+        "baseValue": 16,
+        "tags": [
+          2,
+          8
+        ],
+        "prefix": 4
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 16,
+      "level": 2,
+      "tags": [
+        2,
+        8
+      ],
+      "tagNames": [
+        "素",
+        "下酒"
+      ],
+      "rawTags": [
+        2,
+        8
+      ],
+      "rawTagNames": [
+        "素",
+        "下酒"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 10,
+      "name": "海苔",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 10,
+        "level": 1,
+        "baseValue": 3,
+        "tags": [
+          16,
+          2
+        ],
+        "prefix": 6
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 3,
+      "level": 1,
+      "tags": [
+        16,
+        2
+      ],
+      "tagNames": [
+        "鲜",
+        "素"
+      ],
+      "rawTags": [
+        16,
+        2
+      ],
+      "rawTagNames": [
+        "鲜",
+        "素"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 11,
+      "name": "鳟鱼",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 11,
+        "level": 1,
+        "baseValue": 8,
+        "tags": [
+          16,
+          1
+        ],
+        "prefix": 6
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 8,
+      "level": 1,
+      "tags": [
+        16,
+        1
+      ],
+      "tagNames": [
+        "鲜",
+        "水产"
+      ],
+      "rawTags": [
+        16,
+        1
+      ],
+      "rawTagNames": [
+        "鲜",
+        "水产"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 12,
+      "name": "八目鳗",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 12,
+        "level": 2,
+        "baseValue": 14,
+        "tags": [
+          1,
+          19,
+          16
+        ],
+        "prefix": 7
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 14,
+      "level": 2,
+      "tags": [
+        1,
+        19,
+        16
+      ],
+      "tagNames": [
+        "水产",
+        "招牌",
+        "鲜"
+      ],
+      "rawTags": [
+        1,
+        19,
+        16
+      ],
+      "rawTagNames": [
+        "水产",
+        "招牌",
+        "鲜"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 13,
+      "name": "三文鱼",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 13,
+        "level": 3,
+        "baseValue": 24,
+        "tags": [
+          1,
+          4,
+          16
+        ],
+        "prefix": 8
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 24,
+      "level": 3,
+      "tags": [
+        1,
+        4,
+        16
+      ],
+      "tagNames": [
+        "水产",
+        "高级",
+        "鲜"
+      ],
+      "rawTags": [
+        1,
+        4,
+        16
+      ],
+      "rawTagNames": [
+        "水产",
+        "高级",
+        "鲜"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 14,
+      "name": "金枪鱼",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 14,
+        "level": 3,
+        "baseValue": 30,
+        "tags": [
+          1,
+          16,
+          4
+        ],
+        "prefix": 9
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 30,
+      "level": 3,
+      "tags": [
+        1,
+        16,
+        4
+      ],
+      "tagNames": [
+        "水产",
+        "鲜",
+        "高级"
+      ],
+      "rawTags": [
+        1,
+        16,
+        4
+      ],
+      "rawTagNames": [
+        "水产",
+        "鲜",
+        "高级"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 15,
+      "name": "黑毛猪肉",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 15,
+        "level": 4,
+        "baseValue": 35,
+        "tags": [
+          0,
+          5,
+          10
+        ],
+        "prefix": 10
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 35,
+      "level": 4,
+      "tags": [
+        0,
+        5,
+        10
+      ],
+      "tagNames": [
+        "肉",
+        "传说",
+        "山珍"
+      ],
+      "rawTags": [
+        0,
+        5,
+        10
+      ],
+      "rawTagNames": [
+        "肉",
+        "传说",
+        "山珍"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 16,
+      "name": "和牛",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 16,
+        "level": 5,
+        "baseValue": 40,
+        "tags": [
+          0,
+          5,
+          4
+        ],
+        "prefix": 11
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 40,
+      "level": 5,
+      "tags": [
+        0,
+        5,
+        4
+      ],
+      "tagNames": [
+        "肉",
+        "传说",
+        "高级"
+      ],
+      "rawTags": [
+        0,
+        5,
+        4
+      ],
+      "rawTagNames": [
+        "肉",
+        "传说",
+        "高级"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 17,
+      "name": "蘑菇",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 17,
+        "level": 3,
+        "baseValue": 18,
+        "tags": [
+          2,
+          16,
+          26
+        ],
+        "prefix": 12
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 18,
+      "level": 3,
+      "tags": [
+        2,
+        16,
+        26
+      ],
+      "tagNames": [
+        "素",
+        "鲜",
+        "菌类"
+      ],
+      "rawTags": [
+        2,
+        16,
+        26
+      ],
+      "rawTagNames": [
+        "素",
+        "鲜",
+        "菌类"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 18,
+      "name": "松露",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 18,
+        "level": 5,
+        "baseValue": 50,
+        "tags": [
+          2,
+          5,
+          10,
+          16,
+          26,
+          4
+        ],
+        "prefix": 13
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 50,
+      "level": 5,
+      "tags": [
+        2,
+        5,
+        10,
+        16,
+        26,
+        4
+      ],
+      "tagNames": [
+        "素",
+        "传说",
+        "山珍",
+        "鲜",
+        "菌类",
+        "高级"
+      ],
+      "rawTags": [
+        2,
+        5,
+        10,
+        16,
+        26,
+        4
+      ],
+      "rawTagNames": [
+        "素",
+        "传说",
+        "山珍",
+        "鲜",
+        "菌类",
+        "高级"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 19,
+      "name": "极上金枪鱼",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 19,
+        "level": 5,
+        "baseValue": 34,
+        "tags": [
+          1,
+          11,
+          5,
+          16,
+          4
+        ],
+        "prefix": 14
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 34,
+      "level": 5,
+      "tags": [
+        1,
+        11,
+        5,
+        16,
+        4
+      ],
+      "tagNames": [
+        "水产",
+        "海味",
+        "传说",
+        "鲜",
+        "高级"
+      ],
+      "rawTags": [
+        1,
+        11,
+        5,
+        16,
+        4
+      ],
+      "rawTagNames": [
+        "水产",
+        "海味",
+        "传说",
+        "鲜",
+        "高级"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 20,
+      "name": "河豚",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 20,
+        "level": 5,
+        "baseValue": 42,
+        "tags": [
+          1,
+          11,
+          16
+        ],
+        "prefix": 14
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 42,
+      "level": 5,
+      "tags": [
+        1,
+        11,
+        16
+      ],
+      "tagNames": [
+        "水产",
+        "海味",
+        "鲜"
+      ],
+      "rawTags": [
+        1,
+        11,
+        16
+      ],
+      "rawTagNames": [
+        "水产",
+        "海味",
+        "鲜"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 21,
+      "name": "桃子",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 21,
+        "level": 3,
+        "baseValue": 10,
+        "tags": [
+          31,
+          17
+        ],
+        "prefix": 15
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 10,
+      "level": 3,
+      "tags": [
+        31,
+        17
+      ],
+      "tagNames": [
+        "果味",
+        "甜"
+      ],
+      "rawTags": [
+        31,
+        17
+      ],
+      "rawTagNames": [
+        "果味",
+        "甜"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 22,
+      "name": "白果",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 22,
+        "level": 2,
+        "baseValue": 7,
+        "tags": [
+          20
+        ],
+        "prefix": 16
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 7,
+      "level": 2,
+      "tags": [
+        20
+      ],
+      "tagNames": [
+        "适合拍照"
+      ],
+      "rawTags": [
+        20
+      ],
+      "rawTagNames": [
+        "适合拍照"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 23,
+      "name": "虾",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 23,
+        "level": 2,
+        "baseValue": 30,
+        "tags": [
+          1,
+          16
+        ],
+        "prefix": 17
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 30,
+      "level": 2,
+      "tags": [
+        1,
+        16
+      ],
+      "tagNames": [
+        "水产",
+        "鲜"
+      ],
+      "rawTags": [
+        1,
+        16
+      ],
+      "rawTagNames": [
+        "水产",
+        "鲜"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 24,
+      "name": "蜂蜜",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 24,
+        "level": 2,
+        "baseValue": 15,
+        "tags": [
+          17
+        ],
+        "prefix": 18
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 15,
+      "level": 2,
+      "tags": [
+        17
+      ],
+      "tagNames": [
+        "甜"
+      ],
+      "rawTags": [
+        17
+      ],
+      "rawTagNames": [
+        "甜"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 25,
+      "name": "蝉蜕",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 25,
+        "level": 1,
+        "baseValue": 5,
+        "tags": [
+          24
+        ],
+        "prefix": 19
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 5,
+      "level": 1,
+      "tags": [
+        24
+      ],
+      "tagNames": [
+        "猎奇"
+      ],
+      "rawTags": [
+        24
+      ],
+      "rawTagNames": [
+        "猎奇"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 26,
+      "name": "幻昙华",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 26,
+        "level": 5,
+        "baseValue": 70,
+        "tags": [
+          5,
+          29,
+          27,
+          4
+        ],
+        "prefix": 20
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 70,
+      "level": 5,
+      "tags": [
+        5,
+        29,
+        27,
+        4
+      ],
+      "tagNames": [
+        "传说",
+        "梦幻",
+        "不可思议",
+        "高级"
+      ],
+      "rawTags": [
+        5,
+        29,
+        27,
+        4
+      ],
+      "rawTagNames": [
+        "传说",
+        "梦幻",
+        "不可思议",
+        "高级"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 27,
+      "name": "露水",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 27,
+        "level": 1,
+        "baseValue": 10,
+        "tags": [
+          7
+        ],
+        "prefix": 21
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 10,
+      "level": 1,
+      "tags": [
+        7
+      ],
+      "tagNames": [
+        "清淡"
+      ],
+      "rawTags": [
+        7
+      ],
+      "rawTagNames": [
+        "清淡"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 28,
+      "name": "竹笋",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 28,
+        "level": 3,
+        "baseValue": 40,
+        "tags": [
+          2,
+          7
+        ],
+        "prefix": 23
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 40,
+      "level": 3,
+      "tags": [
+        2,
+        7
+      ],
+      "tagNames": [
+        "素",
+        "清淡"
+      ],
+      "rawTags": [
+        2,
+        7
+      ],
+      "rawTagNames": [
+        "素",
+        "清淡"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 29,
+      "name": "黄油",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 29,
+        "level": 2,
+        "baseValue": 8,
+        "tags": [
+          6
+        ],
+        "prefix": 24
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 8,
+      "level": 2,
+      "tags": [
+        6
+      ],
+      "tagNames": [
+        "重油"
+      ],
+      "rawTags": [
+        6
+      ],
+      "rawTagNames": [
+        "重油"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 30,
+      "name": "面粉",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 30,
+        "level": 2,
+        "baseValue": 10,
+        "tags": [
+          9
+        ],
+        "prefix": 25
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 10,
+      "level": 2,
+      "tags": [
+        9
+      ],
+      "tagNames": [
+        "饱腹"
+      ],
+      "rawTags": [
+        9
+      ],
+      "rawTagNames": [
+        "饱腹"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 31,
+      "name": "竹子",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 31,
+        "level": 3,
+        "baseValue": 15,
+        "tags": [
+          20
+        ],
+        "prefix": 26
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 15,
+      "level": 3,
+      "tags": [
+        20
+      ],
+      "tagNames": [
+        "适合拍照"
+      ],
+      "rawTags": [
+        20
+      ],
+      "rawTagNames": [
+        "适合拍照"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 32,
+      "name": "糯米",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 32,
+        "level": 3,
+        "baseValue": 15,
+        "tags": [],
+        "prefix": 27
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 15,
+      "level": 3,
+      "tags": [],
+      "tagNames": [],
+      "rawTags": [],
+      "rawTagNames": [],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 33,
+      "name": "月光草",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 33,
+        "level": 5,
+        "baseValue": 70,
+        "tags": [
+          27,
+          7,
+          29,
+          25
+        ],
+        "prefix": 28
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 70,
+      "level": 5,
+      "tags": [
+        27,
+        7,
+        29,
+        25
+      ],
+      "tagNames": [
+        "不可思议",
+        "清淡",
+        "梦幻",
+        "文化底蕴"
+      ],
+      "rawTags": [
+        27,
+        7,
+        29,
+        25
+      ],
+      "rawTagNames": [
+        "不可思议",
+        "清淡",
+        "梦幻",
+        "文化底蕴"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 34,
+      "name": "冰块",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 34,
+        "level": 1,
+        "baseValue": 2,
+        "tags": [
+          21
+        ],
+        "prefix": 29
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 2,
+      "level": 1,
+      "tags": [
+        21
+      ],
+      "tagNames": [
+        "凉爽"
+      ],
+      "rawTags": [
+        21
+      ],
+      "rawTagNames": [
+        "凉爽"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 35,
+      "name": "辣椒",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 35,
+        "level": 1,
+        "baseValue": 2,
+        "tags": [
+          34
+        ],
+        "prefix": 30
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 2,
+      "level": 1,
+      "tags": [
+        34
+      ],
+      "tagNames": [
+        "辣"
+      ],
+      "rawTags": [
+        34
+      ],
+      "rawTagNames": [
+        "辣"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 36,
+      "name": "葡萄",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 36,
+        "level": 1,
+        "baseValue": 5,
+        "tags": [
+          31,
+          17
+        ],
+        "prefix": 8
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 5,
+      "level": 1,
+      "tags": [
+        31,
+        17
+      ],
+      "tagNames": [
+        "果味",
+        "甜"
+      ],
+      "rawTags": [
+        31,
+        17
+      ],
+      "rawTagNames": [
+        "果味",
+        "甜"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": -1,
+      "name": "铃仙",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": -1,
+        "level": 10,
+        "baseValue": 530000,
+        "tags": [
+          30,
+          27,
+          20,
+          19
+        ],
+        "prefix": 8
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 530000,
+      "level": 10,
+      "tags": [
+        30,
+        27,
+        20,
+        19
+      ],
+      "tagNames": [
+        "特产",
+        "不可思议",
+        "适合拍照",
+        "招牌"
+      ],
+      "rawTags": [
+        30,
+        27,
+        20,
+        19
+      ],
+      "rawTagNames": [
+        "特产",
+        "不可思议",
+        "适合拍照",
+        "招牌"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    },
+    {
+      "id": 2000,
+      "name": "并蒂莲",
+      "type": "ingredient",
+      "group": "Core",
+      "source": {
+        "profile": "IngredientProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -6889865475942682912,
+        "rawJson": "IngredientProfile_raw.json"
+      },
+      "raw": {
+        "id": 2000,
+        "level": 3,
+        "baseValue": 36,
+        "tags": [
+          25,
+          4,
+          5,
+          7,
+          29
+        ],
+        "prefix": 1
+      },
+      "nameTextAsset": "IngredientsLang",
+      "price": 36,
+      "level": 3,
+      "tags": [
+        25,
+        4,
+        5,
+        7,
+        29
+      ],
+      "tagNames": [
+        "文化底蕴",
+        "高级",
+        "传说",
+        "清淡",
+        "梦幻"
+      ],
+      "rawTags": [
+        25,
+        4,
+        5,
+        7,
+        29
+      ],
+      "rawTagNames": [
+        "文化底蕴",
+        "高级",
+        "传说",
+        "清淡",
+        "梦幻"
+      ],
+      "tagSemantics": "raw catalog tags; NOT cooked/effective tags",
+      "isCollab": null,
+      "banTags": null,
+      "banTagNames": []
+    }
+  ],
+  "count": 62
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "id": 43,
+    "name": "惠灵顿牛排",
+    "version": "本篇",
+    "ingredientCount": 5,
+    "ingredients": "和牛＋面粉＋鸡蛋＋黄油＋松露",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、肉、高级、传说、山珍、西式",
+    "expectedDefaultCookedTags": "昂贵、大份、肉、高级、传说、山珍、西式"
+  },
+  {
+    "id": 51,
+    "name": "竹取姬",
+    "version": "本篇",
+    "ingredientCount": 5,
+    "ingredients": "竹子＋竹笋＋松露＋白果＋黑毛猪肉",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、肉、高级、传说、和风、适合拍照、文化底蕴、特产",
+    "expectedDefaultCookedTags": "昂贵、大份、肉、高级、传说、和风、适合拍照、文化底蕴、特产"
+  },
+  {
+    "id": 52,
+    "name": "不死鸟",
+    "version": "本篇",
+    "ingredientCount": 5,
+    "ingredients": "面粉＋蜂蜜＋土豆＋洋葱＋萝卜",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、高级、传说、西式、适合拍照、烧烤、燃起来了",
+    "expectedDefaultCookedTags": "昂贵、大份、高级、传说、西式、适合拍照、烧烤、燃起来了"
+  },
+  {
+    "id": 61,
+    "name": "蓬莱玉枝",
+    "version": "本篇",
+    "ingredientCount": 5,
+    "ingredients": "竹子＋猪肉＋三文鱼＋和牛＋鹿肉",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、肉、高级、传说、文化底蕴、烧烤",
+    "expectedDefaultCookedTags": "昂贵、大份、肉、高级、传说、文化底蕴、烧烤"
+  },
+  {
+    "id": 1017,
+    "name": "幻想佛跳墙",
+    "version": "DLC1",
+    "ingredientCount": 5,
+    "ingredients": "和牛＋极上金枪鱼＋黑毛猪肉＋河豚＋松露",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、肉、水产、高级、传说、山珍、中华、适合拍照、力量涌现、文化底蕴、菌类、特产",
+    "expectedDefaultCookedTags": "昂贵、大份、肉、水产、高级、传说、山珍、中华、适合拍照、力量涌现、文化底蕴、菌类、特产"
+  },
+  {
+    "id": 2008,
+    "name": "大江户船祭",
+    "version": "DLC2",
+    "ingredientCount": 5,
+    "ingredients": "三文鱼＋金枪鱼＋极上金枪鱼＋鳟鱼＋冰块",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、水产、高级、传说、下酒、海味、和风、鲜、生、招牌、适合拍照、文化底蕴",
+    "expectedDefaultCookedTags": "昂贵、大份、水产、高级、传说、下酒、海味、和风、鲜、生、招牌、适合拍照、文化底蕴"
+  },
+  {
+    "id": 2017,
+    "name": "地狱激辛警告！",
+    "version": "DLC2",
+    "ingredientCount": 5,
+    "ingredients": "辣椒＋辣椒＋辣椒＋芝士＋牛肉",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、肉、重油、咸、适合拍照、灼热、力量涌现、猎奇、辣",
+    "expectedDefaultCookedTags": "昂贵、大份、肉、重油、咸、适合拍照、灼热、力量涌现、猎奇、辣"
+  },
+  {
+    "id": 3005,
+    "name": "罗汉上素",
+    "version": "DLC3",
+    "ingredientCount": 5,
+    "ingredients": "幻昙华＋竹笋＋松露＋松子＋莲子",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、素、高级、清淡、鲜、凉爽、文化底蕴、梦幻、特产",
+    "expectedDefaultCookedTags": "昂贵、大份、素、高级、清淡、鲜、凉爽、文化底蕴、梦幻、特产"
+  },
+  {
+    "id": 3008,
+    "name": "幻想星莲船",
+    "version": "DLC3",
+    "ingredientCount": 5,
+    "ingredients": "南瓜＋莲子＋金枪鱼＋并蒂莲＋月光草",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、高级、鲜、生、招牌、适合拍照、凉爽、不可思议、梦幻、特产",
+    "expectedDefaultCookedTags": "昂贵、大份、高级、鲜、生、招牌、适合拍照、凉爽、不可思议、梦幻、特产"
+  },
+  {
+    "id": 3011,
+    "name": "太极八卦鱼肚",
+    "version": "DLC3",
+    "ingredientCount": 5,
+    "ingredients": "极上金枪鱼＋蘑菇＋萝卜＋鸡蛋＋白果",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、水产、高级、清淡、鲜、凉爽、文化底蕴",
+    "expectedDefaultCookedTags": "昂贵、大份、水产、高级、清淡、鲜、凉爽、文化底蕴"
+  },
+  {
+    "id": 4002,
+    "name": "逆转天地！",
+    "version": "DLC4",
+    "ingredientCount": 5,
+    "ingredients": "竹子＋鲜花＋梅子＋黑毛猪肉＋松露",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、山珍、凉爽、猎奇、菌类、不可思议、梦幻、燃起来了",
+    "expectedDefaultCookedTags": "昂贵、大份、山珍、凉爽、猎奇、菌类、不可思议、梦幻、燃起来了"
+  },
+  {
+    "id": 4005,
+    "name": "汉宫藏娇",
+    "version": "DLC4",
+    "ingredientCount": 5,
+    "ingredients": "八目鳗＋豆腐＋螃蟹＋竹子＋露水",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、水产、高级、传说、中华、猎奇、文化底蕴、汤羹",
+    "expectedDefaultCookedTags": "昂贵、大份、水产、高级、传说、中华、猎奇、文化底蕴、汤羹"
+  },
+  {
+    "id": 4008,
+    "name": "翠竹迎春",
+    "version": "DLC4",
+    "ingredientCount": 5,
+    "ingredients": "黄瓜＋鸡蛋＋萝卜＋鹿肉＋月光草",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、高级、山珍、招牌、适合拍照、文化底蕴",
+    "expectedDefaultCookedTags": "昂贵、大份、高级、山珍、招牌、适合拍照、文化底蕴"
+  },
+  {
+    "id": 4011,
+    "name": "幻想风靡",
+    "version": "DLC4",
+    "ingredientCount": 5,
+    "ingredients": "洋葱＋野猪肉＋牛肉＋松露＋西红柿",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、肉、重油、饱腹、生、招牌、适合拍照、力量涌现",
+    "expectedDefaultCookedTags": "昂贵、大份、肉、重油、饱腹、生、招牌、适合拍照、力量涌现"
+  },
+  {
+    "id": 4014,
+    "name": "幽梦",
+    "version": "DLC4",
+    "ingredientCount": 5,
+    "ingredients": "鲜花＋幻昙华＋月光草＋露水＋奶油",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、高级、清淡、西式、甜、适合拍照、凉爽、梦幻",
+    "expectedDefaultCookedTags": "昂贵、大份、高级、清淡、西式、甜、适合拍照、凉爽、梦幻"
+  },
+  {
+    "id": 5002,
+    "name": "牛肉鸳鸯火锅",
+    "version": "DLC5",
+    "ingredientCount": 5,
+    "ingredients": "辣椒＋萝卜＋松露＋牛肉＋和牛",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、肉、家常、山珍、中华、灼热、力量涌现、菌类、辣",
+    "expectedDefaultCookedTags": "昂贵、大份、肉、家常、山珍、中华、灼热、力量涌现、菌类、辣"
+  },
+  {
+    "id": 5005,
+    "name": "猫咪戏水",
+    "version": "DLC5",
+    "ingredientCount": 5,
+    "ingredients": "桃子＋薜荔＋奶油＋可可豆＋面粉",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、素、甜、适合拍照、凉爽、不可思议、梦幻",
+    "expectedDefaultCookedTags": "昂贵、大份、素、甜、适合拍照、凉爽、不可思议、梦幻"
+  },
+  {
+    "id": 5008,
+    "name": "疯帽子茶会",
+    "version": "DLC5",
+    "ingredientCount": 5,
+    "ingredients": "可可豆＋奶油＋面粉＋蘑菇＋西蓝花",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、西式、甜、适合拍照、菌类、不可思议、梦幻、特产",
+    "expectedDefaultCookedTags": "昂贵、大份、西式、甜、适合拍照、菌类、不可思议、梦幻、特产"
+  },
+  {
+    "id": 5011,
+    "name": "龙吟桃子",
+    "version": "DLC5",
+    "ingredientCount": 5,
+    "ingredients": "可可豆＋桃子＋桃子＋桃子＋桃子",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、高级、传说、清淡、甜、凉爽、不可思议、特产、果味",
+    "expectedDefaultCookedTags": "昂贵、大份、高级、传说、清淡、甜、凉爽、不可思议、特产、果味"
+  },
+  {
+    "id": 5017,
+    "name": "至尊海鲜面",
+    "version": "DLC5",
+    "ingredientCount": 5,
+    "ingredients": "极上金枪鱼＋海苔＋章鱼＋螃蟹＋虾",
+    "addedTags": "大份",
+    "removedTags": "无",
+    "actualTags": "昂贵、水产、家常、高级、饱腹、海味、鲜",
+    "expectedDefaultCookedTags": "昂贵、大份、水产、家常、高级、饱腹、海味、鲜"
+  }
+]

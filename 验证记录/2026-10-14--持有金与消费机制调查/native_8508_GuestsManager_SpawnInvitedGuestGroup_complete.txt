@@ -1,0 +1,207 @@
+# NightScene.GuestManagementUtility.GuestsManager::SpawnInvitedGuestGroup
+# {"declaringType": "NightScene.GuestManagementUtility.GuestsManager", "typeIndex": 1495, "image": "Assembly-CSharp.dll", "name": "SpawnInvitedGuestGroup", "metadataMethodIndex": 8508, "token": "0x600213d", "methodPointerIndex": 8508, "va": "0x1804d6e00", "rva": "0x4d6e00", "endRva": "0x4d7096", "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x4d70a0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804D6E00: 40 56              push        rsi
+  00000001804D6E02: 48 83 EC 70        sub         rsp,70h
+  00000001804D6E06: 80 3D 29 4D E9 03  cmp         byte ptr [000000018436BB36h],0
+                    00
+  00000001804D6E0D: 48 8B F1           mov         rsi,rcx
+  00000001804D6E10: 75 4F              jne         00000001804D6E61
+  00000001804D6E12: 48 8D 0D 0F 10 CE  lea         rcx,[00000001841B7E28h]
+                    03
+  00000001804D6E19: E8 62 61 E8 FF     call        000000018035CF80
+  00000001804D6E1E: 48 8D 0D B3 95 C6  lea         rcx,[00000001841403D8h]
+                    03
+  00000001804D6E25: E8 56 61 E8 FF     call        000000018035CF80
+  00000001804D6E2A: 48 8D 0D 87 7D CD  lea         rcx,[00000001841AEBB8h]
+                    03
+  00000001804D6E31: E8 4A 61 E8 FF     call        000000018035CF80
+  00000001804D6E36: 48 8D 0D 5B A9 CF  lea         rcx,[00000001841D1798h]
+                    03
+  00000001804D6E3D: E8 3E 61 E8 FF     call        000000018035CF80
+  00000001804D6E42: 48 8D 0D 87 33 CF  lea         rcx,[00000001841CA1D0h]
+                    03
+  00000001804D6E49: E8 32 61 E8 FF     call        000000018035CF80
+  00000001804D6E4E: 48 8D 0D 83 9C CD  lea         rcx,[00000001841B0AD8h]
+                    03
+  00000001804D6E55: E8 26 61 E8 FF     call        000000018035CF80
+  00000001804D6E5A: C6 05 D5 4C E9 03  mov         byte ptr [000000018436BB36h],1
+                    01
+  00000001804D6E61: 48 8B 0D 30 A9 CF  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  00000001804D6E68: 48 89 9C 24 80 00  mov         qword ptr [rsp+0000000000000080h],rbx
+                    00 00
+  00000001804D6E70: 48 89 AC 24 88 00  mov         qword ptr [rsp+0000000000000088h],rbp
+                    00 00
+  00000001804D6E78: 48 89 BC 24 90 00  mov         qword ptr [rsp+0000000000000090h],rdi
+                    00 00
+  00000001804D6E80: E8 CB 50 C3 00     call        000000018110BF50
+  00000001804D6E85: 48 85 C0           test        rax,rax
+  00000001804D6E88: 0F 84 02 02 00 00  je          00000001804D7090
+  00000001804D6E8E: 48 8B 80 A8 03 00  mov         rax,qword ptr [rax+00000000000003A8h]
+                    00
+  00000001804D6E95: 48 85 C0           test        rax,rax
+  00000001804D6E98: 0F 84 F2 01 00 00  je          00000001804D7090
+  00000001804D6E9E: 48 8B 50 28        mov         rdx,qword ptr [rax+28h]
+  00000001804D6EA2: 48 8B 48 40        mov         rcx,qword ptr [rax+40h]
+  00000001804D6EA6: FF 50 18           call        qword ptr [rax+18h]
+  00000001804D6EA9: 48 8B D8           mov         rbx,rax
+  00000001804D6EAC: 48 85 C0           test        rax,rax
+  00000001804D6EAF: 0F 84 DB 01 00 00  je          00000001804D7090
+  00000001804D6EB5: 48 8B 15 FC 7C CD  mov         rdx,qword ptr [00000001841AEBB8h]
+                    03
+  00000001804D6EBC: 33 C9              xor         ecx,ecx
+  00000001804D6EBE: 4C 8B C0           mov         r8,rax
+  00000001804D6EC1: E8 8A BD B2 FF     call        0000000180002C50
+  00000001804D6EC6: 85 C0              test        eax,eax
+  00000001804D6EC8: 0F 8E 02 01 00 00  jle         00000001804D6FD0
+  00000001804D6ECE: 48 8B 15 03 95 C6  mov         rdx,qword ptr [00000001841403D8h]
+                    03
+  00000001804D6ED5: 48 8B CB           mov         rcx,rbx
+  00000001804D6ED8: E8 03 3C 91 00     call        0000000180DEAAE0
+  00000001804D6EDD: 48 8B 0D B4 A8 CF  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  00000001804D6EE4: 8B F8              mov         edi,eax
+  00000001804D6EE6: E8 65 50 C3 00     call        000000018110BF50
+  00000001804D6EEB: 48 85 C0           test        rax,rax
+  00000001804D6EEE: 0F 84 9C 01 00 00  je          00000001804D7090
+  00000001804D6EF4: 45 33 C0           xor         r8d,r8d
+  00000001804D6EF7: 8B D7              mov         edx,edi
+  00000001804D6EF9: 48 8B C8           mov         rcx,rax
+  00000001804D6EFC: E8 AF 35 01 00     call        00000001804EA4B0 ; NightScene.EventUtility.EventManager::CheckTargetGuestHasExiled [MI 9117, RVA 0x4ea4b0]
+  00000001804D6F01: 84 C0              test        al,al
+  00000001804D6F03: 0F 85 04 01 00 00  jne         00000001804D700D
+  00000001804D6F09: 33 ED              xor         ebp,ebp
+  00000001804D6F0B: 4C 8D 4C 24 60     lea         r9,[rsp+60h]
+  00000001804D6F10: 48 89 6C 24 58     mov         qword ptr [rsp+58h],rbp
+  00000001804D6F15: 0F 57 C0           xorps       xmm0,xmm0
+  00000001804D6F18: C6 44 24 50 01     mov         byte ptr [rsp+50h],1
+  00000001804D6F1D: 45 33 C0           xor         r8d,r8d
+  00000001804D6F20: 48 89 6C 24 48     mov         qword ptr [rsp+48h],rbp
+  00000001804D6F25: 8B D7              mov         edx,edi
+  00000001804D6F27: 40 88 6C 24 40     mov         byte ptr [rsp+40h],bpl
+  00000001804D6F2C: 48 8B CE           mov         rcx,rsi
+  00000001804D6F2F: C7 44 24 38 FF FF  mov         dword ptr [rsp+38h],0FFFFFFFFh
+                    FF FF
+  00000001804D6F37: C6 44 24 30 01     mov         byte ptr [rsp+30h],1
+  00000001804D6F3C: 89 6C 24 28        mov         dword ptr [rsp+28h],ebp
+  00000001804D6F40: 48 89 6C 24 20     mov         qword ptr [rsp+20h],rbp
+  00000001804D6F45: 66 0F 7F 44 24 60  movdqa      xmmword ptr [rsp+60h],xmm0
+  00000001804D6F4B: E8 30 07 00 00     call        00000001804D7680 ; NightScene.GuestManagementUtility.GuestsManager::SpawnSpecialGuestGroup [MI 8510, RVA 0x4d7680]
+  00000001804D6F50: 48 8B 0D 41 A8 CF  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  00000001804D6F57: E8 F4 4F C3 00     call        000000018110BF50
+  00000001804D6F5C: 48 85 C0           test        rax,rax
+  00000001804D6F5F: 0F 84 2B 01 00 00  je          00000001804D7090
+  00000001804D6F65: 48 8B 80 D8 03 00  mov         rax,qword ptr [rax+00000000000003D8h]
+                    00
+  00000001804D6F6C: 48 85 C0           test        rax,rax
+  00000001804D6F6F: 74 0D              je          00000001804D6F7E
+  00000001804D6F71: 4C 8B 40 28        mov         r8,qword ptr [rax+28h]
+  00000001804D6F75: 8B D7              mov         edx,edi
+  00000001804D6F77: 48 8B 48 40        mov         rcx,qword ptr [rax+40h]
+  00000001804D6F7B: FF 50 18           call        qword ptr [rax+18h]
+  00000001804D6F7E: 4C 8B 13           mov         r10,qword ptr [rbx]
+  00000001804D6F81: 4C 8B 0D 30 7C CD  mov         r9,qword ptr [00000001841AEBB8h]
+                    03
+  00000001804D6F88: 41 0F B7 92 2A 01  movzx       edx,word ptr [r10+000000000000012Ah]
+                    00 00
+  00000001804D6F90: 66 3B EA           cmp         bp,dx
+  00000001804D6F93: 73 1F              jae         00000001804D6FB4
+  00000001804D6F95: 4D 8B 82 B0 00 00  mov         r8,qword ptr [r10+00000000000000B0h]
+                    00
+  00000001804D6F9C: 8B CD              mov         ecx,ebp
+  00000001804D6F9E: 66 90              nop
+  00000001804D6FA0: 0F B7 C1           movzx       eax,cx
+  00000001804D6FA3: 48 03 C0           add         rax,rax
+  00000001804D6FA6: 4D 39 0C C0        cmp         qword ptr [r8+rax*8],r9
+  00000001804D6FAA: 74 42              je          00000001804D6FEE
+  00000001804D6FAC: 66 FF C1           inc         cx
+  00000001804D6FAF: 66 3B CA           cmp         cx,dx
+  00000001804D6FB2: 72 EC              jb          00000001804D6FA0
+  00000001804D6FB4: 41 B8 06 00 00 00  mov         r8d,6
+  00000001804D6FBA: 49 8B D1           mov         rdx,r9
+  00000001804D6FBD: 48 8B CB           mov         rcx,rbx
+  00000001804D6FC0: E8 0B AF E9 FF     call        0000000180371ED0
+  00000001804D6FC5: 4C 8B 40 08        mov         r8,qword ptr [rax+8]
+  00000001804D6FC9: 8B D7              mov         edx,edi
+  00000001804D6FCB: 48 8B CB           mov         rcx,rbx
+  00000001804D6FCE: FF 10              call        qword ptr [rax]
+  00000001804D6FD0: 48 8B BC 24 90 00  mov         rdi,qword ptr [rsp+0000000000000090h]
+                    00 00
+  00000001804D6FD8: 48 8B AC 24 88 00  mov         rbp,qword ptr [rsp+0000000000000088h]
+                    00 00
+  00000001804D6FE0: 48 8B 9C 24 80 00  mov         rbx,qword ptr [rsp+0000000000000080h]
+                    00 00
+  00000001804D6FE8: 48 83 C4 70        add         rsp,70h
+  00000001804D6FEC: 5E                 pop         rsi
+  00000001804D6FED: C3                 ret
+  00000001804D6FEE: 0F B7 C9           movzx       ecx,cx
+  00000001804D6FF1: 48 03 C9           add         rcx,rcx
+  00000001804D6FF4: 41 8B 44 C8 08     mov         eax,dword ptr [r8+rcx*8+8]
+  00000001804D6FF9: 83 C0 06           add         eax,6
+  00000001804D6FFC: 48 98              cdqe
+  00000001804D6FFE: 48 C1 E0 04        shl         rax,4
+  00000001804D7002: 48 05 38 01 00 00  add         rax,138h
+  00000001804D7008: 49 03 C2           add         rax,r10
+  00000001804D700B: EB B8              jmp         00000001804D6FC5
+  00000001804D700D: 48 8B 0D 14 0E CE  mov         rcx,qword ptr [00000001841B7E28h]
+                    03
+  00000001804D7014: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001804D701B: 75 05              jne         00000001804D7022
+  00000001804D701D: E8 8E 62 E2 FF     call        00000001802FD2B0
+  00000001804D7022: 33 D2              xor         edx,edx
+  00000001804D7024: 8B CF              mov         ecx,edi
+  00000001804D7026: E8 75 D5 25 00     call        00000001807345A0 ; GameData.Core.Collections.CharacterUtility.DataBaseCharacter::RefSGuest [MI 18092, RVA 0x7345a0]
+  00000001804D702B: 48 85 C0           test        rax,rax
+  00000001804D702E: 74 60              je          00000001804D7090
+  00000001804D7030: 4C 8B 00           mov         r8,qword ptr [rax]
+  00000001804D7033: 48 8B C8           mov         rcx,rax
+  00000001804D7036: 49 8B 90 B0 01 00  mov         rdx,qword ptr [r8+00000000000001B0h]
+                    00
+  00000001804D703D: 41 FF 90 A8 01 00  call        qword ptr [r8+00000000000001A8h]
+                    00
+  00000001804D7044: 48 85 C0           test        rax,rax
+  00000001804D7047: 74 47              je          00000001804D7090
+  00000001804D7049: 33 D2              xor         edx,edx
+  00000001804D704B: 48 8B C8           mov         rcx,rax
+  00000001804D704E: E8 CD 0D F1 FF     call        00000001803E7E20
+  00000001804D7053: 48 8B 15 7E 9A CD  mov         rdx,qword ptr [00000001841B0AD8h]
+                    03
+  00000001804D705A: 45 33 C0           xor         r8d,r8d
+  00000001804D705D: 48 8B C8           mov         rcx,rax
+  00000001804D7060: E8 3B 70 C3 01     call        000000018210E0A0 ; System.String::Concat [MI 25739, RVA 0x210e0a0]
+  00000001804D7065: 48 8B 0D 64 31 CF  mov         rcx,qword ptr [00000001841CA1D0h]
+                    03
+  00000001804D706C: 48 8B D8           mov         rbx,rax
+  00000001804D706F: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001804D7076: 75 05              jne         00000001804D707D
+  00000001804D7078: E8 33 62 E2 FF     call        00000001802FD2B0
+  00000001804D707D: 45 33 C0           xor         r8d,r8d
+  00000001804D7080: 48 8B D3           mov         rdx,rbx
+  00000001804D7083: 48 8B CE           mov         rcx,rsi
+  00000001804D7086: E8 95 40 F2 FF     call        00000001803FB120
+  00000001804D708B: E9 40 FF FF FF     jmp         00000001804D6FD0
+  00000001804D7090: E8 8B 60 E8 FF     call        000000018035D120
+  00000001804D7095: CC                 int         3
+  00000001804D7096: CC                 int         3
+  00000001804D7097: CC                 int         3
+  00000001804D7098: CC                 int         3
+  00000001804D7099: CC                 int         3
+  00000001804D709A: CC                 int         3
+  00000001804D709B: CC                 int         3
+  00000001804D709C: CC                 int         3
+  00000001804D709D: CC                 int         3
+  00000001804D709E: CC                 int         3
+  00000001804D709F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

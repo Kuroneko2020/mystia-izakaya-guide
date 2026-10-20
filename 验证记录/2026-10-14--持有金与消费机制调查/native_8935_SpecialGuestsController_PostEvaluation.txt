@@ -1,0 +1,207 @@
+# NightScene.GuestManagementUtility.SpecialGuestsController::PostEvaluation
+# {"declaringType": "NightScene.GuestManagementUtility.SpecialGuestsController", "typeIndex": 1514, "image": "Assembly-CSharp.dll", "name": "PostEvaluation", "metadataMethodIndex": 8935, "token": "0x60022e8", "methodPointerIndex": 8935, "va": "0x180514f20", "rva": "0x514f20", "endRva": "0x5151a5", "returnTypeIndex": 33376, "parameters": [{"index": 6455, "name": "evaluationType", "typeIndex": 38119}, {"index": 6456, "name": "onFinish", "typeIndex": 19573}, {"index": 6457, "name": "finishedByPartner", "typeIndex": 20604}, {"index": 6458, "name": "obtainedExGoodRatingWithModifiers", "typeIndex": 20604}]}
+# range end RVA 0x5151a5; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180514F20: 40 53              push        rbx
+  0000000180514F22: 55                 push        rbp
+  0000000180514F23: 56                 push        rsi
+  0000000180514F24: 57                 push        rdi
+  0000000180514F25: 41 56              push        r14
+  0000000180514F27: 48 83 EC 20        sub         rsp,20h
+  0000000180514F2B: 80 3D D0 6D E5 03  cmp         byte ptr [000000018436BD02h],0
+                    00
+  0000000180514F32: 41 0F B6 E9        movzx       ebp,r9b
+  0000000180514F36: 49 8B F0           mov         rsi,r8
+  0000000180514F39: 44 8B F2           mov         r14d,edx
+  0000000180514F3C: 48 8B D9           mov         rbx,rcx
+  0000000180514F3F: 75 37              jne         0000000180514F78
+  0000000180514F41: 48 8D 0D B8 B2 C7  lea         rcx,[0000000184190200h]
+                    03
+  0000000180514F48: E8 33 80 E4 FF     call        000000018035CF80
+  0000000180514F4D: 48 8D 0D 9C 19 CB  lea         rcx,[00000001841C68F0h]
+                    03
+  0000000180514F54: E8 27 80 E4 FF     call        000000018035CF80
+  0000000180514F59: 48 8D 0D 90 1A CB  lea         rcx,[00000001841C69F0h]
+                    03
+  0000000180514F60: E8 1B 80 E4 FF     call        000000018035CF80
+  0000000180514F65: 48 8D 0D 94 08 C3  lea         rcx,[0000000184145800h]
+                    03
+  0000000180514F6C: E8 0F 80 E4 FF     call        000000018035CF80
+  0000000180514F71: C6 05 8A 6D E5 03  mov         byte ptr [000000018436BD02h],1
+                    01
+  0000000180514F78: 48 8B 0D 81 08 C3  mov         rcx,qword ptr [0000000184145800h]
+                    03
+  0000000180514F7F: E8 3C 81 E4 FF     call        000000018035D0C0
+  0000000180514F84: 48 8B F8           mov         rdi,rax
+  0000000180514F87: 48 85 C0           test        rax,rax
+  0000000180514F8A: 0F 84 F7 01 00 00  je          0000000180515187
+  0000000180514F90: 33 D2              xor         edx,edx
+  0000000180514F92: 48 8B C8           mov         rcx,rax
+  0000000180514F95: E8 36 39 ED FF     call        00000001803E88D0 ; <<Confirm>g__Jump|3>d::System.IDisposable.Dispose [MI 150, RVA 0x3e88d0] | <<Confirm>g__OnRotation|11_1>d::System.IDisposable.Dispose [MI 156, RVA 0x3e88d0] | <CountDownLoop>d__7::System.IDisposable.Dispose [MI 354, RVA 0x3e88d0] | <<OnPanelOpen>g__OnLoadFinish|2>d::System.IDisposable.Dispose [MI 440, RVA 0x3e88d0] | <<OnPanelOpen>g__ShowCG|3>d::System.IDisposable.Dispose [MI 446, RVA 0x3e88d0] | <>c::<OnPanelInitialize>b__24_1 [MI 507, RVA 0x3e88d0] | <<TypeCoroutine>g__DoType|2>d::System.IDisposable.Dispose [MI 538, RVA 0x3e88d0] | <TypeCoroutine>d__34::System.IDisposable.Dispose [MI 544, RVA 0x3e88d0] | <OnUpdatePreview>d__24::System.IDisposable.Dispose [MI 560, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnPanelOpen [MI 590, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnExitExtern [MI 591, RVA 0x3e88d0] | <<OnPanelOpen>g__AfterPreviewMusicLoad|0>d::System.IDisposable.Dispose [MI 619, RVA 0x3e88d0]
+  0000000180514F9A: 48 8D 4F 10        lea         rcx,[rdi+10h]
+  0000000180514F9E: 48 89 5F 10        mov         qword ptr [rdi+10h],rbx
+  0000000180514FA2: 48 8B D3           mov         rdx,rbx
+  0000000180514FA5: E8 06 7B E4 FF     call        000000018035CAB0
+  0000000180514FAA: 48 8D 4F 20        lea         rcx,[rdi+20h]
+  0000000180514FAE: 44 89 77 18        mov         dword ptr [rdi+18h],r14d
+  0000000180514FB2: 48 8B D6           mov         rdx,rsi
+  0000000180514FB5: 40 88 6F 1C        mov         byte ptr [rdi+1Ch],bpl
+  0000000180514FB9: 48 89 77 20        mov         qword ptr [rdi+20h],rsi
+  0000000180514FBD: E8 EE 7A E4 FF     call        000000018035CAB0
+  0000000180514FC2: 48 8B 0D 37 B2 C7  mov         rcx,qword ptr [0000000184190200h]
+                    03
+  0000000180514FC9: 48 8B 6F 20        mov         rbp,qword ptr [rdi+20h]
+  0000000180514FCD: E8 EE 80 E4 FF     call        000000018035D0C0
+  0000000180514FD2: 48 8B F0           mov         rsi,rax
+  0000000180514FD5: 48 85 C0           test        rax,rax
+  0000000180514FD8: 0F 84 A9 01 00 00  je          0000000180515187
+  0000000180514FDE: 4C 8B 05 0B 19 CB  mov         r8,qword ptr [00000001841C68F0h]
+                    03
+  0000000180514FE5: 45 33 C9           xor         r9d,r9d
+  0000000180514FE8: 48 8B D7           mov         rdx,rdi
+  0000000180514FEB: 48 8B C8           mov         rcx,rax
+  0000000180514FEE: E8 6D BA 49 00     call        00000001809B0A60 ; System.Action::.ctor [MI 26047, RVA 0x9b0a60] | System.Threading.ThreadStart::.ctor [MI 29582, RVA 0x9b0a60] | System.Runtime.Remoting.Contexts.CrossContextDelegate::.ctor [MI 32755, RVA 0x9b0a60] | PanicFunction_::.ctor [MI 75573, RVA 0x9b0a60] | LowMemoryCallback::.ctor [MI 75743, RVA 0x9b0a60] | DisplaysUpdatedDelegate::.ctor [MI 76269, RVA 0x9b0a60] | UnityEngine.Events.UnityAction::.ctor [MI 79198, RVA 0x9b0a60] | UpdateFunction::.ctor [MI 79271, RVA 0x9b0a60]
+  0000000180514FF3: 45 33 C0           xor         r8d,r8d
+  0000000180514FF6: 48 8B D6           mov         rdx,rsi
+  0000000180514FF9: 48 8B CD           mov         rcx,rbp
+  0000000180514FFC: E8 7F 66 D3 01     call        000000018224B680 ; System.Delegate::Combine [MI 29095, RVA 0x224b680]
+  0000000180515001: 33 D2              xor         edx,edx
+  0000000180515003: 48 85 C0           test        rax,rax
+  0000000180515006: 75 06              jne         000000018051500E
+  0000000180515008: 48 89 57 20        mov         qword ptr [rdi+20h],rdx
+  000000018051500C: EB 35              jmp         0000000180515043
+  000000018051500E: 4C 8B 05 EB B1 C7  mov         r8,qword ptr [0000000184190200h]
+                    03
+  0000000180515015: 48 8B CA           mov         rcx,rdx
+  0000000180515018: 4C 39 00           cmp         qword ptr [rax],r8
+  000000018051501B: 48 0F 44 C8        cmove       rcx,rax
+  000000018051501F: 48 85 C9           test        rcx,rcx
+  0000000180515022: 0F 84 71 01 00 00  je          0000000180515199
+  0000000180515028: 48 89 4F 20        mov         qword ptr [rdi+20h],rcx
+  000000018051502C: 48 8B 0D CD B1 C7  mov         rcx,qword ptr [0000000184190200h]
+                    03
+  0000000180515033: 48 39 08           cmp         qword ptr [rax],rcx
+  0000000180515036: 48 0F 44 D0        cmove       rdx,rax
+  000000018051503A: 48 85 D2           test        rdx,rdx
+  000000018051503D: 0F 84 4A 01 00 00  je          000000018051518D
+  0000000180515043: 48 8D 4F 20        lea         rcx,[rdi+20h]
+  0000000180515047: E8 64 7A E4 FF     call        000000018035CAB0
+  000000018051504C: 0F B6 44 24 70     movzx       eax,byte ptr [rsp+70h]
+  0000000180515051: 88 83 90 01 00 00  mov         byte ptr [rbx+0000000000000190h],al
+  0000000180515057: 8B 4F 18           mov         ecx,dword ptr [rdi+18h]
+  000000018051505A: 85 C9              test        ecx,ecx
+  000000018051505C: 0F 84 F9 00 00 00  je          000000018051515B
+  0000000180515062: 83 E9 01           sub         ecx,1
+  0000000180515065: 0F 84 8A 00 00 00  je          00000001805150F5
+  000000018051506B: 83 E9 01           sub         ecx,1
+  000000018051506E: 74 7E              je          00000001805150EE
+  0000000180515070: 83 E9 01           sub         ecx,1
+  0000000180515073: 74 72              je          00000001805150E7
+  0000000180515075: 83 F9 01           cmp         ecx,1
+  0000000180515078: 0F 85 84 00 00 00  jne         0000000180515102
+  000000018051507E: 45 33 C0           xor         r8d,r8d
+  0000000180515081: BA 05 00 00 00     mov         edx,5
+  0000000180515086: 48 8B CB           mov         rcx,rbx
+  0000000180515089: E8 A2 0B 00 00     call        0000000180515C30 ; NightScene.GuestManagementUtility.SpecialGuestsController::TryAlterKizunaValue [MI 8936, RVA 0x515c30]
+  000000018051508E: 48 83 BB 08 01 00  cmp         qword ptr [rbx+0000000000000108h],0
+                    00 00
+  0000000180515096: 74 2F              je          00000001805150C7
+  0000000180515098: 48 8B 0D 61 B1 C7  mov         rcx,qword ptr [0000000184190200h]
+                    03
+  000000018051509F: E8 1C 80 E4 FF     call        000000018035D0C0
+  00000001805150A4: 48 8B F0           mov         rsi,rax
+  00000001805150A7: 48 85 C0           test        rax,rax
+  00000001805150AA: 0F 84 D7 00 00 00  je          0000000180515187
+  00000001805150B0: 4C 8B 05 39 19 CB  mov         r8,qword ptr [00000001841C69F0h]
+                    03
+  00000001805150B7: 45 33 C9           xor         r9d,r9d
+  00000001805150BA: 48 8B D7           mov         rdx,rdi
+  00000001805150BD: 48 8B C8           mov         rcx,rax
+  00000001805150C0: E8 9B B9 49 00     call        00000001809B0A60 ; System.Action::.ctor [MI 26047, RVA 0x9b0a60] | System.Threading.ThreadStart::.ctor [MI 29582, RVA 0x9b0a60] | System.Runtime.Remoting.Contexts.CrossContextDelegate::.ctor [MI 32755, RVA 0x9b0a60] | PanicFunction_::.ctor [MI 75573, RVA 0x9b0a60] | LowMemoryCallback::.ctor [MI 75743, RVA 0x9b0a60] | DisplaysUpdatedDelegate::.ctor [MI 76269, RVA 0x9b0a60] | UnityEngine.Events.UnityAction::.ctor [MI 79198, RVA 0x9b0a60] | UpdateFunction::.ctor [MI 79271, RVA 0x9b0a60]
+  00000001805150C5: EB 04              jmp         00000001805150CB
+  00000001805150C7: 48 8B 77 20        mov         rsi,qword ptr [rdi+20h]
+  00000001805150CB: 45 33 C9           xor         r9d,r9d
+  00000001805150CE: 41 B0 01           mov         r8b,1
+  00000001805150D1: 48 8B D6           mov         rdx,rsi
+  00000001805150D4: 48 8B CB           mov         rcx,rbx
+  00000001805150D7: E8 04 08 00 00     call        00000001805158E0 ; NightScene.GuestManagementUtility.SpecialGuestsController::TriggerPositiveBuff [MI 8928, RVA 0x5158e0]
+  00000001805150DC: 48 83 C4 20        add         rsp,20h
+  00000001805150E0: 41 5E              pop         r14
+  00000001805150E2: 5F                 pop         rdi
+  00000001805150E3: 5E                 pop         rsi
+  00000001805150E4: 5D                 pop         rbp
+  00000001805150E5: 5B                 pop         rbx
+  00000001805150E6: C3                 ret
+  00000001805150E7: BA 03 00 00 00     mov         edx,3
+  00000001805150EC: EB 09              jmp         00000001805150F7
+  00000001805150EE: BA 02 00 00 00     mov         edx,2
+  00000001805150F3: EB 02              jmp         00000001805150F7
+  00000001805150F5: 33 D2              xor         edx,edx
+  00000001805150F7: 45 33 C0           xor         r8d,r8d
+  00000001805150FA: 48 8B CB           mov         rcx,rbx
+  00000001805150FD: E8 2E 0B 00 00     call        0000000180515C30 ; NightScene.GuestManagementUtility.SpecialGuestsController::TryAlterKizunaValue [MI 8936, RVA 0x515c30]
+  0000000180515102: 48 83 BB 08 01 00  cmp         qword ptr [rbx+0000000000000108h],0
+                    00 00
+  000000018051510A: C6 83 90 01 00 00  mov         byte ptr [rbx+0000000000000190h],0
+                    00
+  0000000180515111: 75 1F              jne         0000000180515132
+  0000000180515113: 48 8B 47 20        mov         rax,qword ptr [rdi+20h]
+  0000000180515117: 48 85 C0           test        rax,rax
+  000000018051511A: 74 C0              je          00000001805150DC
+  000000018051511C: 48 8B 50 28        mov         rdx,qword ptr [rax+28h]
+  0000000180515120: 48 8B 48 40        mov         rcx,qword ptr [rax+40h]
+  0000000180515124: 48 83 C4 20        add         rsp,20h
+  0000000180515128: 41 5E              pop         r14
+  000000018051512A: 5F                 pop         rdi
+  000000018051512B: 5E                 pop         rsi
+  000000018051512C: 5D                 pop         rbp
+  000000018051512D: 5B                 pop         rbx
+  000000018051512E: 48 FF 60 18        jmp         qword ptr [rax+18h]
+  0000000180515132: 48 8B 83 08 01 00  mov         rax,qword ptr [rbx+0000000000000108h]
+                    00
+  0000000180515139: 48 85 C0           test        rax,rax
+  000000018051513C: 74 9E              je          00000001805150DC
+  000000018051513E: 4C 8B 48 28        mov         r9,qword ptr [rax+28h]
+  0000000180515142: 4C 8B C3           mov         r8,rbx
+  0000000180515145: 48 8B 57 20        mov         rdx,qword ptr [rdi+20h]
+  0000000180515149: 48 8B 48 40        mov         rcx,qword ptr [rax+40h]
+  000000018051514D: 48 83 C4 20        add         rsp,20h
+  0000000180515151: 41 5E              pop         r14
+  0000000180515153: 5F                 pop         rdi
+  0000000180515154: 5E                 pop         rsi
+  0000000180515155: 5D                 pop         rbp
+  0000000180515156: 5B                 pop         rbx
+  0000000180515157: 48 FF 60 18        jmp         qword ptr [rax+18h]
+  000000018051515B: 45 33 C0           xor         r8d,r8d
+  000000018051515E: BA FF FF FF FF     mov         edx,0FFFFFFFFh
+  0000000180515163: 48 8B CB           mov         rcx,rbx
+  0000000180515166: E8 C5 0A 00 00     call        0000000180515C30 ; NightScene.GuestManagementUtility.SpecialGuestsController::TryAlterKizunaValue [MI 8936, RVA 0x515c30]
+  000000018051516B: 48 8B 57 20        mov         rdx,qword ptr [rdi+20h]
+  000000018051516F: 45 33 C9           xor         r9d,r9d
+  0000000180515172: 41 B0 01           mov         r8b,1
+  0000000180515175: 48 8B CB           mov         rcx,rbx
+  0000000180515178: 48 83 C4 20        add         rsp,20h
+  000000018051517C: 41 5E              pop         r14
+  000000018051517E: 5F                 pop         rdi
+  000000018051517F: 5E                 pop         rsi
+  0000000180515180: 5D                 pop         rbp
+  0000000180515181: 5B                 pop         rbx
+  0000000180515182: E9 99 05 00 00     jmp         0000000180515720 ; NightScene.GuestManagementUtility.SpecialGuestsController::TriggerNegativeBuff [MI 8931, RVA 0x515720]
+  0000000180515187: E8 94 7F E4 FF     call        000000018035D120
+  000000018051518C: CC                 int         3
+  000000018051518D: 48 8B D1           mov         rdx,rcx
+  0000000180515190: 48 8B C8           mov         rcx,rax
+  0000000180515193: E8 48 79 E4 FF     call        000000018035CAE0
+  0000000180515198: CC                 int         3
+  0000000180515199: 49 8B D0           mov         rdx,r8
+  000000018051519C: 48 8B C8           mov         rcx,rax
+  000000018051519F: E8 3C 79 E4 FF     call        000000018035CAE0
+  00000001805151A4: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

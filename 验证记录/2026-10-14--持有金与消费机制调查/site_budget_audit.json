@@ -1,0 +1,820 @@
+{
+  "inspectedAt": "2026-10-14T01:50:14.773Z",
+  "status": "PASS: deployed and source recommendation functions match; figures are price comparisons, not assertions of game eligibility",
+  "liveProduct": {
+    "relativePath": "成品\\东方夜雀食堂攻略查询_2610140601.html",
+    "bytes": 2555166,
+    "sha256": "9e2cc491f8ca4ba649a5b8acb965a4f7669d2ab049fb1b8eeb918a341c449d7d",
+    "appDataSha256": "a9a3e244c2b14ada610b8dc39b4daa666ec7aeb31ee2fb02604d8d00b45430fd"
+  },
+  "matchingRule": "At least one static preference hit; exclude known static dislikes; no price/wallet/order-total filtering",
+  "defaultOrdering": "Price descending",
+  "caveat": "Budget-range classifications do not establish affordability after prior orders, modifiers, or current hidden wallet. Game eligibility must be established independently from native code.",
+  "food": {
+    "totalAllGuestPairs": 9206,
+    "specialGuestPairs": 4397,
+    "categories": {
+      "atOrBelowMinimum": 4389,
+      "aboveMinimumAtOrBelowMaximum": 8,
+      "aboveMaximum": 0
+    },
+    "aboveMaximum": []
+  },
+  "drink": {
+    "totalAllGuestPairs": 2812,
+    "specialGuestPairs": 1587,
+    "categories": {
+      "atOrBelowMinimum": 1504,
+      "aboveMinimumAtOrBelowMaximum": 57,
+      "aboveMaximum": 26
+    },
+    "aboveMaximum": [
+      {
+        "guest": "莉格露",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 200,
+          "max": 400
+        },
+        "hits": "可加冰"
+      },
+      {
+        "guest": "博丽灵梦",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 150,
+          "max": 300
+        },
+        "hits": "可加热"
+      },
+      {
+        "guest": "红美铃",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 200,
+          "max": 400
+        },
+        "hits": "可加热、古典"
+      },
+      {
+        "guest": "琪露诺",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 100,
+          "max": 200
+        },
+        "hits": "可加冰、甘"
+      },
+      {
+        "guest": "因幡帝",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 200,
+          "max": 400
+        },
+        "hits": "甘"
+      },
+      {
+        "guest": "犬走椛",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 300,
+          "max": 400
+        },
+        "hits": "中酒精"
+      },
+      {
+        "guest": "黑谷山女",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 250,
+          "max": 400
+        },
+        "hits": "中酒精、甘"
+      },
+      {
+        "guest": "水桥帕露西",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 300,
+          "max": 400
+        },
+        "hits": "可加热"
+      },
+      {
+        "guest": "多多良小伞",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 150,
+          "max": 300
+        },
+        "hits": "中酒精、可加冰、古典"
+      },
+      {
+        "guest": "梅蒂欣",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 200,
+          "max": 400
+        },
+        "hits": "甘"
+      },
+      {
+        "guest": "铃仙",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 200,
+          "max": 350
+        },
+        "hits": "可加热"
+      },
+      {
+        "guest": "魂魄妖梦",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 300,
+          "max": 400
+        },
+        "hits": "可加热"
+      },
+      {
+        "guest": "蹦蹦跳跳的三妖精",
+        "item": "十四夜",
+        "price": 440,
+        "budget": {
+          "min": 300,
+          "max": 400
+        },
+        "hits": "甘"
+      },
+      {
+        "guest": "博丽灵梦",
+        "item": "火鼠裘",
+        "price": 420,
+        "budget": {
+          "min": 150,
+          "max": 300
+        },
+        "hits": "可加热"
+      },
+      {
+        "guest": "红美铃",
+        "item": "火鼠裘",
+        "price": 420,
+        "budget": {
+          "min": 200,
+          "max": 400
+        },
+        "hits": "可加热"
+      },
+      {
+        "guest": "犬走椛",
+        "item": "火鼠裘",
+        "price": 420,
+        "budget": {
+          "min": 300,
+          "max": 400
+        },
+        "hits": "高酒精"
+      },
+      {
+        "guest": "水桥帕露西",
+        "item": "火鼠裘",
+        "price": 420,
+        "budget": {
+          "min": 300,
+          "max": 400
+        },
+        "hits": "可加热、辛"
+      },
+      {
+        "guest": "铃仙",
+        "item": "火鼠裘",
+        "price": 420,
+        "budget": {
+          "min": 200,
+          "max": 350
+        },
+        "hits": "高酒精、可加热、烧酒"
+      },
+      {
+        "guest": "森近霖之助",
+        "item": "火鼠裘",
+        "price": 420,
+        "budget": {
+          "min": 250,
+          "max": 400
+        },
+        "hits": "烧酒"
+      },
+      {
+        "guest": "魂魄妖梦",
+        "item": "火鼠裘",
+        "price": 420,
+        "budget": {
+          "min": 300,
+          "max": 400
+        },
+        "hits": "可加热"
+      },
+      {
+        "guest": "琪露诺",
+        "item": "晓",
+        "price": 400,
+        "budget": {
+          "min": 100,
+          "max": 200
+        },
+        "hits": "可加冰"
+      },
+      {
+        "guest": "多多良小伞",
+        "item": "晓",
+        "price": 400,
+        "budget": {
+          "min": 150,
+          "max": 300
+        },
+        "hits": "可加冰"
+      },
+      {
+        "guest": "铃仙",
+        "item": "晓",
+        "price": 400,
+        "budget": {
+          "min": 200,
+          "max": 350
+        },
+        "hits": "高酒精"
+      },
+      {
+        "guest": "琪露诺",
+        "item": "鬼杀",
+        "price": 320,
+        "budget": {
+          "min": 100,
+          "max": 200
+        },
+        "hits": "可加冰"
+      },
+      {
+        "guest": "多多良小伞",
+        "item": "鬼杀",
+        "price": 320,
+        "budget": {
+          "min": 150,
+          "max": 300
+        },
+        "hits": "可加冰、古典"
+      },
+      {
+        "guest": "琪露诺",
+        "item": "大吟酿",
+        "price": 210,
+        "budget": {
+          "min": 100,
+          "max": 200
+        },
+        "hits": "可加冰、水果、甘"
+      }
+    ]
+  },
+  "reimu": {
+    "budget": {
+      "min": 150,
+      "max": 300
+    },
+    "food": [
+      {
+        "item": "豚骨拉面",
+        "price": 60,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "诗礼银杏",
+        "price": 60,
+        "hits": "甜",
+        "hitCount": 1
+      },
+      {
+        "item": "黄油牛排",
+        "price": 60,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "猩红恶魔蛋糕",
+        "price": 60,
+        "hits": "甜",
+        "hitCount": 1
+      },
+      {
+        "item": "无意识妖怪慕斯",
+        "price": 60,
+        "hits": "高级、甜",
+        "hitCount": 2
+      },
+      {
+        "item": "巨人玉子烧",
+        "price": 60,
+        "hits": "高级、饱腹、甜",
+        "hitCount": 3
+      },
+      {
+        "item": "桃花琉璃卷",
+        "price": 60,
+        "hits": "高级、甜",
+        "hitCount": 2
+      },
+      {
+        "item": "普通小蛋糕",
+        "price": 56,
+        "hits": "高级、甜",
+        "hitCount": 2
+      },
+      {
+        "item": "桃花羹",
+        "price": 55,
+        "hits": "甜",
+        "hitCount": 1
+      },
+      {
+        "item": "白桃生八桥",
+        "price": 55,
+        "hits": "甜",
+        "hitCount": 1
+      },
+      {
+        "item": "南瓜虾盅",
+        "price": 55,
+        "hits": "饱腹、甜",
+        "hitCount": 2
+      },
+      {
+        "item": "能量串",
+        "price": 50,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "樱落雪",
+        "price": 50,
+        "hits": "高级",
+        "hitCount": 1
+      },
+      {
+        "item": "瘦马团子",
+        "price": 45,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "猫咪可露丽",
+        "price": 45,
+        "hits": "饱腹、甜",
+        "hitCount": 2
+      },
+      {
+        "item": "三文鱼天妇罗",
+        "price": 44,
+        "hits": "高级",
+        "hitCount": 1
+      },
+      {
+        "item": "脆旋风",
+        "price": 42,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "提神布丁",
+        "price": 42,
+        "hits": "甜",
+        "hitCount": 1
+      },
+      {
+        "item": "石锅竹笋炖肉",
+        "price": 42,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "流水素面",
+        "price": 40,
+        "hits": "不可思议",
+        "hitCount": 1
+      },
+      {
+        "item": "铜锣烧",
+        "price": 40,
+        "hits": "甜",
+        "hitCount": 1
+      },
+      {
+        "item": "章鱼烧",
+        "price": 36,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "长发公主",
+        "price": 36,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "班尼迪克蛋",
+        "price": 35,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "月饼",
+        "price": 35,
+        "hits": "饱腹、甜、不可思议",
+        "hitCount": 3
+      },
+      {
+        "item": "养心粥",
+        "price": 35,
+        "hits": "甜",
+        "hitCount": 1
+      },
+      {
+        "item": "樱花布丁",
+        "price": 32,
+        "hits": "甜",
+        "hitCount": 1
+      },
+      {
+        "item": "温暖饭团",
+        "price": 30,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "麻薯",
+        "price": 30,
+        "hits": "甜",
+        "hitCount": 1
+      },
+      {
+        "item": "蜜饯栗子",
+        "price": 30,
+        "hits": "甜",
+        "hitCount": 1
+      },
+      {
+        "item": "拔丝地瓜",
+        "price": 30,
+        "hits": "饱腹、甜",
+        "hitCount": 2
+      },
+      {
+        "item": "红豆大福",
+        "price": 28,
+        "hits": "甜",
+        "hitCount": 1
+      },
+      {
+        "item": "比斯开湾饼干",
+        "price": 26,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "炸番茄条",
+        "price": 26,
+        "hits": "不可思议",
+        "hitCount": 1
+      },
+      {
+        "item": "北极甜虾蜜桃色拉",
+        "price": 25,
+        "hits": "甜、不可思议",
+        "hitCount": 2
+      },
+      {
+        "item": "炸猪肉排",
+        "price": 25,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "烤地瓜",
+        "price": 25,
+        "hits": "实惠、饱腹、甜",
+        "hitCount": 3
+      },
+      {
+        "item": "热松饼",
+        "price": 22,
+        "hits": "饱腹、甜",
+        "hitCount": 2
+      },
+      {
+        "item": "猪肉盖浇饭",
+        "price": 20,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "牛肉盖浇饭",
+        "price": 20,
+        "hits": "饱腹",
+        "hitCount": 1
+      },
+      {
+        "item": "云山棉花糖",
+        "price": 20,
+        "hits": "甜、不可思议",
+        "hitCount": 2
+      },
+      {
+        "item": "豆腐锅",
+        "price": 19,
+        "hits": "实惠",
+        "hitCount": 1
+      },
+      {
+        "item": "香炸蝉蜕",
+        "price": 19,
+        "hits": "实惠",
+        "hitCount": 1
+      },
+      {
+        "item": "露水煮蛋",
+        "price": 18,
+        "hits": "实惠",
+        "hitCount": 1
+      },
+      {
+        "item": "烤蘑菇",
+        "price": 18,
+        "hits": "实惠",
+        "hitCount": 1
+      },
+      {
+        "item": "油豆腐",
+        "price": 16,
+        "hits": "实惠",
+        "hitCount": 1
+      },
+      {
+        "item": "炙猪肉饭团",
+        "price": 14,
+        "hits": "实惠、饱腹",
+        "hitCount": 2
+      },
+      {
+        "item": "海鲜味噌汤",
+        "price": 8,
+        "hits": "实惠",
+        "hitCount": 1
+      },
+      {
+        "item": "司康饼",
+        "price": 8,
+        "hits": "实惠、饱腹",
+        "hitCount": 2
+      },
+      {
+        "item": "饭团",
+        "price": 6,
+        "hits": "实惠、饱腹",
+        "hitCount": 2
+      }
+    ],
+    "drink": [
+      {
+        "item": "十四夜",
+        "price": 440,
+        "hits": "可加热",
+        "hitCount": 1
+      },
+      {
+        "item": "火鼠裘",
+        "price": 420,
+        "hits": "可加热",
+        "hitCount": 1
+      },
+      {
+        "item": "莫吉托爆浆球",
+        "price": 300,
+        "hits": "低酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "魔界咖啡",
+        "price": 210,
+        "hits": "可加热",
+        "hitCount": 1
+      },
+      {
+        "item": "水獭祭",
+        "price": 130,
+        "hits": "可加热",
+        "hitCount": 1
+      },
+      {
+        "item": "伶人醉",
+        "price": 100,
+        "hits": "低酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "卫星冰咖啡",
+        "price": 96,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "妖精雨露",
+        "price": 80,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "海的女儿",
+        "price": 80,
+        "hits": "低酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "红雾",
+        "price": 75,
+        "hits": "可加热",
+        "hitCount": 1
+      },
+      {
+        "item": "天狗踊",
+        "price": 70,
+        "hits": "可加热",
+        "hitCount": 1
+      },
+      {
+        "item": "咖啡",
+        "price": 62,
+        "hits": "无酒精、可加热",
+        "hitCount": 2
+      },
+      {
+        "item": "冬酿",
+        "price": 60,
+        "hits": "低酒精、可加热",
+        "hitCount": 2
+      },
+      {
+        "item": "雀酒",
+        "price": 50,
+        "hits": "可加热",
+        "hitCount": 1
+      },
+      {
+        "item": "玉露茶",
+        "price": 50,
+        "hits": "无酒精、可加热",
+        "hitCount": 2
+      },
+      {
+        "item": "杨枝甘露",
+        "price": 50,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "猩红恶魔",
+        "price": 45,
+        "hits": "低酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "神之麦",
+        "price": 45,
+        "hits": "可加热",
+        "hitCount": 1
+      },
+      {
+        "item": "月面火箭",
+        "price": 45,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "冰山毛玉冻柠",
+        "price": 45,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "气保健",
+        "price": 45,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "古法奶油冰沙",
+        "price": 42,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "阿芙加朵",
+        "price": 35,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "大冰棍儿!",
+        "price": 35,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "古明地冰激凌",
+        "price": 35,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "日月星",
+        "price": 34,
+        "hits": "可加热",
+        "hitCount": 1
+      },
+      {
+        "item": "梅酒",
+        "price": 32,
+        "hits": "可加热",
+        "hitCount": 1
+      },
+      {
+        "item": "波子汽水",
+        "price": 30,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "红魔馆红茶",
+        "price": 25,
+        "hits": "无酒精、可加热",
+        "hitCount": 2
+      },
+      {
+        "item": "红柚果汁",
+        "price": 24,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "淇",
+        "price": 18,
+        "hits": "低酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "超ZUN啤酒",
+        "price": 18,
+        "hits": "低酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "牛奶",
+        "price": 16,
+        "hits": "无酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "果味High Ball",
+        "price": 12,
+        "hits": "低酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "果味SOUR",
+        "price": 12,
+        "hits": "低酒精",
+        "hitCount": 1
+      },
+      {
+        "item": "绿茶",
+        "price": 1,
+        "hits": "无酒精",
+        "hitCount": 1
+      }
+    ]
+  }
+}

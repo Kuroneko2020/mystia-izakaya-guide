@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "中间数据/料亭版攻略数据基线.json": true,
+    "中间数据/GAME_TAG_RULES.json": true,
+    "中间数据/FOOD_LIST.json": true,
+    "中间数据/SPECIAL_GUEST_LIST.json": true,
+    "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx": true,
+    "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-14.xlsx": true,
+    "脚本/guest_avatar_3d.css": true,
+    "旧活成品完整归档": true
+  },
+  "status": "PASS"
+}

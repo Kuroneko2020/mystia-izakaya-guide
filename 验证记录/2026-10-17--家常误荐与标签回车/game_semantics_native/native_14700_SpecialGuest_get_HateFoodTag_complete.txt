@@ -1,0 +1,50 @@
+# GameData.Core.Collections.NightSceneUtility.SpecialGuest::get_HateFoodTag
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest", "typeIndex": 2315, "image": "Assembly-CSharp.dll", "name": "get_HateFoodTag", "metadataMethodIndex": 14700, "token": "0x600396d", "methodPointerIndex": 14700, "va": "0x18068d0f0", "rva": "0x68d0f0", "endRva": "0x68d16d", "returnTypeIndex": 10540, "parameters": []}
+# range end RVA 0x68d170; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018068D0F0: 40 53              push        rbx
+  000000018068D0F2: 48 83 EC 20        sub         rsp,20h
+  000000018068D0F6: 80 3D 2B F9 CD 03  cmp         byte ptr [000000018436CA28h],0
+                    00
+  000000018068D0FD: 48 8B D9           mov         rbx,rcx
+  000000018068D100: 75 1F              jne         000000018068D121
+  000000018068D102: 48 8D 0D 77 40 AB  lea         rcx,[0000000184141180h]
+                    03
+  000000018068D109: E8 72 FE CC FF     call        000000018035CF80
+  000000018068D10E: 48 8D 0D D3 AD B1  lea         rcx,[00000001841A7EE8h]
+                    03
+  000000018068D115: E8 66 FE CC FF     call        000000018035CF80
+  000000018068D11A: C6 05 07 F9 CD 03  mov         byte ptr [000000018436CA28h],1
+                    01
+  000000018068D121: 83 7B 48 00        cmp         dword ptr [rbx+48h],0
+  000000018068D125: 48 8B 43 30        mov         rax,qword ptr [rbx+30h]
+  000000018068D129: 75 14              jne         000000018068D13F
+  000000018068D12B: 4C 8B 05 4E 40 AB  mov         r8,qword ptr [0000000184141180h]
+                    03
+  000000018068D132: BA EC FF FF FF     mov         edx,0FFFFFFECh
+  000000018068D137: 48 8B C8           mov         rcx,rax
+  000000018068D13A: E8 21 10 6C 00     call        0000000180D4E160
+  000000018068D13F: 83 7B 4C 02        cmp         dword ptr [rbx+4Ch],2
+  000000018068D143: 75 14              jne         000000018068D159
+  000000018068D145: 4C 8B 05 34 40 AB  mov         r8,qword ptr [0000000184141180h]
+                    03
+  000000018068D14C: BA EB FF FF FF     mov         edx,0FFFFFFEBh
+  000000018068D151: 48 8B C8           mov         rcx,rax
+  000000018068D154: E8 07 10 6C 00     call        0000000180D4E160
+  000000018068D159: 48 8B 15 88 AD B1  mov         rdx,qword ptr [00000001841A7EE8h]
+                    03
+  000000018068D160: 48 8B C8           mov         rcx,rax
+  000000018068D163: 48 83 C4 20        add         rsp,20h
+  000000018068D167: 5B                 pop         rbx
+  000000018068D168: E9 53 49 72 00     jmp         0000000180DB1AC0
+  000000018068D16D: CC                 int         3
+  000000018068D16E: CC                 int         3
+  000000018068D16F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

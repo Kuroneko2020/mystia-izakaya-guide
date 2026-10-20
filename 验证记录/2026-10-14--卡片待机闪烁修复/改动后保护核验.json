@@ -1,0 +1,23 @@
+{
+  "liveOutput": "东方夜雀食堂攻略查询_2610141148.html",
+  "protected": {
+    "中间数据/料亭版攻略数据基线.json": {
+      "sha256": "a9a3e244c2b14ada610b8dc39b4daa666ec7aeb31ee2fb02604d8d00b45430fd",
+      "unchanged": true
+    },
+    "脚本/guest_avatar_3d.css": {
+      "sha256": "1a9574920518f421784602b6447e97130260e85f26c8d56bf8d25225e87ef3b5",
+      "unchanged": true
+    },
+    "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-04.xlsx": {
+      "sha256": "d6d397db47dc7420ead80e1412f437d05984ffcb2eca6895e225dfe9c5ce134e",
+      "unchanged": true
+    },
+    "成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-14.xlsx": {
+      "sha256": "1dca6f710965f28bffa8de11cf0ca4fdac67037968e1c385e1d7d619037f66fa",
+      "unchanged": true
+    }
+  },
+  "archivedInputUnchanged": true,
+  "gitStatus": " M AGENTS.md\n M README.md\n M 中间数据/料亭版攻略数据基线.json\n D 成品/东方夜雀食堂攻略查询_2610112307.html\n M 成品/料亭立体头像版_构建校验.json\n M 脚本/build_excel.py\n M 脚本/build_html_ryotei_avatar.py\n M 脚本/guide_template_ryotei.html\n M 脚本/ryotei.css\n M 脚本/ryotei_navigation.js\n M 脚本/ryotei_ui.js\n M 脚本/verify_full_recommendations.cjs\n M 脚本/verify_ryotei.cjs\n M 验证记录/2026-10-10--侧栏布局与全量推荐/全量口味匹配_逐客人检查.json\n M 验证记录/2026-10-10--营业图鉴合并/人物详情_全量推荐.png\n M 验证记录/2026-10-10--营业图鉴合并/侧栏_最后一行标签.png\n M 验证记录/2026-10-10--营业图鉴合并/图鉴_今晚开店与分类页签.png\n M 验证记录/2026-10-10--营业图鉴合并/图鉴_完整标签筛选.png\n M 验证记录/2026-10-10--营业图鉴合并/备菜_全部地点.png\n M 验证记录/2026-10-10--营业图鉴合并/备菜_地点与头像选客.png\n M 验证记录/2026-10-10--营业图鉴合并/性能_修复后.json\n M 验证记录/2026-10-10--营业图鉴合并/手机_图鉴标签.png\n M 验证记录/2026-10-10--营业图鉴合并/手机_结果.png\n M 验证记录/2026-10-10--营业图鉴合并/浏览器_15地区分类.json\n M 验证记录/2026-10-10--营业图鉴合并/浏览器_标签覆盖.json\n?? 中间数据/GAME_TAG_RULES.json\n?? 中间数据/MEAL_DOMAIN_DATA.json\n?? 成品/东方夜雀食堂_客人攻略查询表_v4.4.0_2026-10-14.xlsx\n?? 成品/东方夜雀食堂攻略查询_2610141148.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610112307.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610132100.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610140600.html\n?? 成品/旧版/东方夜雀食堂攻略查询_2610140601.html\n?? 脚本/build_card_idle_fix.py\n?? 脚本/export_meal_domain.py\n?? 脚本/extract_game_tag_rules.py\n?? 脚本/meal_tags.py\n?? 脚本/ryotei_meal_domain.js\n?? 脚本/ryotei_meal_ui.js\n?? 脚本/sync_site_baseline.py\n?? 脚本/verify_card_idle.cjs\n?? 脚本/verify_meal_domain.cjs\n?? 记录/2026-10-13--全量数据核查与加料排序.md\n?? 记录/2026-10-14--成餐标签自动重算与数据修正.md\n?? 记录/2026-10-14--持有金与料理酒水推荐只读调查.md\n?? 验证记录/2026-10-13--全量数据核查/\n?? 验证记录/2026-10-13--加料页列头排序/\n?? 验证记录/2026-10-14--卡片待机闪烁修复/\n?? 验证记录/2026-10-14--备菜与配餐产品改进/\n?? 验证记录/2026-10-14--持有金与消费机制调查/\n?? 验证记录/2026-10-14--数据修正自动重算/\n"
+}

@@ -1,0 +1,4511 @@
+{
+  "schemaVersion": 1,
+  "tagSemantics": "entries.tags/rawTags are original serialized catalog tags; no dynamic cooked tags inferred",
+  "entries": [
+    {
+      "id": 1000,
+      "name": "白狼天狗",
+      "type": "normalGuest",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+        "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+        "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+        "path_id": -2596365645462023515,
+        "rawJson": "DLC1_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 1000,
+        "convGroup": [
+          1000
+        ],
+        "fundMultiplier": 1.2999999523162842,
+        "likeFoodTag": [
+          0,
+          6,
+          9,
+          10,
+          16,
+          18,
+          15,
+          19,
+          30
+        ],
+        "likeBevTag": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "evaluation": 2,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC1_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 6,
+          "name": "重油"
+        },
+        {
+          "id": 9,
+          "name": "饱腹"
+        },
+        {
+          "id": 10,
+          "name": "山珍"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        },
+        {
+          "id": 18,
+          "name": "生"
+        },
+        {
+          "id": 15,
+          "name": "咸"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        },
+        {
+          "id": 30,
+          "name": "特产"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 1,
+          "name": "中酒精"
+        },
+        {
+          "id": 2,
+          "name": "高酒精"
+        },
+        {
+          "id": 5,
+          "name": "烧酒"
+        },
+        {
+          "id": 6,
+          "name": "清酒"
+        }
+      ],
+      "fundMultiplier": 1.2999999523162842,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 1001,
+      "name": "山姥",
+      "type": "normalGuest",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+        "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+        "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+        "path_id": -2596365645462023515,
+        "rawJson": "DLC1_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 1001,
+        "convGroup": [
+          1001
+        ],
+        "fundMultiplier": 1.399999976158142,
+        "likeFoodTag": [
+          0,
+          3,
+          4,
+          9,
+          16,
+          23,
+          24
+        ],
+        "likeBevTag": [
+          2,
+          11,
+          17,
+          5
+        ],
+        "evaluation": 0,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC1_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 9,
+          "name": "饱腹"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        },
+        {
+          "id": 23,
+          "name": "力量涌现"
+        },
+        {
+          "id": 24,
+          "name": "猎奇"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 2,
+          "name": "高酒精"
+        },
+        {
+          "id": 11,
+          "name": "直饮"
+        },
+        {
+          "id": 17,
+          "name": "古典"
+        },
+        {
+          "id": 5,
+          "name": "烧酒"
+        }
+      ],
+      "fundMultiplier": 1.399999976158142,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 1002,
+      "name": "山童",
+      "type": "normalGuest",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+        "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+        "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+        "path_id": -2596365645462023515,
+        "rawJson": "DLC1_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 1002,
+        "convGroup": [
+          1002
+        ],
+        "fundMultiplier": 1.2999999523162842,
+        "likeFoodTag": [
+          -1,
+          4,
+          28,
+          10,
+          22,
+          24,
+          19
+        ],
+        "likeBevTag": [
+          15,
+          1
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC1_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": -1,
+          "name": "大份"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 28,
+          "name": "小巧"
+        },
+        {
+          "id": 10,
+          "name": "山珍"
+        },
+        {
+          "id": 22,
+          "name": "灼热"
+        },
+        {
+          "id": 24,
+          "name": "猎奇"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 15,
+          "name": "苦"
+        },
+        {
+          "id": 1,
+          "name": "中酒精"
+        }
+      ],
+      "fundMultiplier": 1.2999999523162842,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 1003,
+      "name": "魔法使",
+      "type": "normalGuest",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+        "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+        "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+        "path_id": -2596365645462023515,
+        "rawJson": "DLC1_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 1003,
+        "convGroup": [
+          1003
+        ],
+        "fundMultiplier": 1.2000000476837158,
+        "likeFoodTag": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          16,
+          20,
+          21
+        ],
+        "likeBevTag": [
+          4,
+          8,
+          7,
+          19
+        ],
+        "evaluation": 3,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC1_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 2,
+          "name": "素"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 5,
+          "name": "传说"
+        },
+        {
+          "id": 7,
+          "name": "清淡"
+        },
+        {
+          "id": 13,
+          "name": "西式"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        },
+        {
+          "id": 20,
+          "name": "适合拍照"
+        },
+        {
+          "id": 21,
+          "name": "凉爽"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 4,
+          "name": "可加热"
+        },
+        {
+          "id": 8,
+          "name": "西洋酒"
+        },
+        {
+          "id": 7,
+          "name": "鸡尾酒"
+        },
+        {
+          "id": 19,
+          "name": "提神"
+        }
+      ],
+      "fundMultiplier": 1.2000000476837158,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 1004,
+      "name": "森之妖精",
+      "type": "normalGuest",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+        "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+        "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+        "path_id": -2596365645462023515,
+        "rawJson": "DLC1_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 1004,
+        "convGroup": [
+          1004
+        ],
+        "fundMultiplier": 1.0,
+        "likeFoodTag": [
+          21,
+          28,
+          17,
+          29,
+          19,
+          3,
+          12,
+          14,
+          16
+        ],
+        "likeBevTag": [
+          -1,
+          0,
+          6,
+          13,
+          12
+        ],
+        "evaluation": 2,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC1_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 21,
+          "name": "凉爽"
+        },
+        {
+          "id": 28,
+          "name": "小巧"
+        },
+        {
+          "id": 17,
+          "name": "甜"
+        },
+        {
+          "id": 29,
+          "name": "梦幻"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 12,
+          "name": "和风"
+        },
+        {
+          "id": 14,
+          "name": "中华"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": -1,
+          "name": "无酒精"
+        },
+        {
+          "id": 0,
+          "name": "低酒精"
+        },
+        {
+          "id": 6,
+          "name": "清酒"
+        },
+        {
+          "id": 13,
+          "name": "甘"
+        },
+        {
+          "id": 12,
+          "name": "水果"
+        }
+      ],
+      "fundMultiplier": 1.0,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 1005,
+      "name": "迷之人形",
+      "type": "normalGuest",
+      "group": "DLC1",
+      "source": {
+        "profile": "DLC1_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+        "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+        "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+        "path_id": -2596365645462023515,
+        "rawJson": "DLC1_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 1005,
+        "convGroup": [
+          1005
+        ],
+        "fundMultiplier": 1.0,
+        "likeFoodTag": [
+          3,
+          15,
+          18,
+          24,
+          20,
+          26,
+          28,
+          29
+        ],
+        "likeBevTag": [
+          16,
+          15,
+          19,
+          12
+        ],
+        "evaluation": 3,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC1_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 15,
+          "name": "咸"
+        },
+        {
+          "id": 18,
+          "name": "生"
+        },
+        {
+          "id": 24,
+          "name": "猎奇"
+        },
+        {
+          "id": 20,
+          "name": "适合拍照"
+        },
+        {
+          "id": 26,
+          "name": "菌类"
+        },
+        {
+          "id": 28,
+          "name": "小巧"
+        },
+        {
+          "id": 29,
+          "name": "梦幻"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 16,
+          "name": "气泡"
+        },
+        {
+          "id": 15,
+          "name": "苦"
+        },
+        {
+          "id": 19,
+          "name": "提神"
+        },
+        {
+          "id": 12,
+          "name": "水果"
+        }
+      ],
+      "fundMultiplier": 1.0,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 2000,
+      "name": "土蜘蛛",
+      "type": "normalGuest",
+      "group": "DLC2",
+      "source": {
+        "profile": "DLC2_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+        "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+        "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+        "path_id": 3360247130528440738,
+        "rawJson": "DLC2_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 2000,
+        "convGroup": [
+          2000
+        ],
+        "fundMultiplier": 1.2000000476837158,
+        "likeFoodTag": [
+          0,
+          6,
+          10,
+          9,
+          16,
+          17,
+          18,
+          -1,
+          24
+        ],
+        "likeBevTag": [
+          1,
+          3,
+          9,
+          11,
+          13,
+          15,
+          18
+        ],
+        "evaluation": 2,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC2_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 6,
+          "name": "重油"
+        },
+        {
+          "id": 10,
+          "name": "山珍"
+        },
+        {
+          "id": 9,
+          "name": "饱腹"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        },
+        {
+          "id": 17,
+          "name": "甜"
+        },
+        {
+          "id": 18,
+          "name": "生"
+        },
+        {
+          "id": -1,
+          "name": "大份"
+        },
+        {
+          "id": 24,
+          "name": "猎奇"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 1,
+          "name": "中酒精"
+        },
+        {
+          "id": 3,
+          "name": "可加冰"
+        },
+        {
+          "id": 9,
+          "name": "利口酒"
+        },
+        {
+          "id": 11,
+          "name": "直饮"
+        },
+        {
+          "id": 13,
+          "name": "甘"
+        },
+        {
+          "id": 15,
+          "name": "苦"
+        },
+        {
+          "id": 18,
+          "name": "现代"
+        }
+      ],
+      "fundMultiplier": 1.2000000476837158,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 2001,
+      "name": "鬼",
+      "type": "normalGuest",
+      "group": "DLC2",
+      "source": {
+        "profile": "DLC2_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+        "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+        "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+        "path_id": 3360247130528440738,
+        "rawJson": "DLC2_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 2001,
+        "convGroup": [
+          2001
+        ],
+        "fundMultiplier": 2.0,
+        "likeFoodTag": [
+          0,
+          4,
+          5,
+          8,
+          16,
+          23,
+          35,
+          30
+        ],
+        "likeBevTag": [
+          1,
+          2,
+          5,
+          11
+        ],
+        "evaluation": 3,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC2_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 5,
+          "name": "传说"
+        },
+        {
+          "id": 8,
+          "name": "下酒"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        },
+        {
+          "id": 23,
+          "name": "力量涌现"
+        },
+        {
+          "id": 35,
+          "name": "燃起来了"
+        },
+        {
+          "id": 30,
+          "name": "特产"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 1,
+          "name": "中酒精"
+        },
+        {
+          "id": 2,
+          "name": "高酒精"
+        },
+        {
+          "id": 5,
+          "name": "烧酒"
+        },
+        {
+          "id": 11,
+          "name": "直饮"
+        }
+      ],
+      "fundMultiplier": 2.0,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 2002,
+      "name": "骨女",
+      "type": "normalGuest",
+      "group": "DLC2",
+      "source": {
+        "profile": "DLC2_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+        "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+        "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+        "path_id": 3360247130528440738,
+        "rawJson": "DLC2_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 2002,
+        "convGroup": [
+          2002
+        ],
+        "fundMultiplier": 1.2999999523162842,
+        "likeFoodTag": [
+          2,
+          7,
+          18,
+          16,
+          21,
+          24,
+          26,
+          2000
+        ],
+        "likeBevTag": [
+          0,
+          4,
+          10,
+          12,
+          15
+        ],
+        "evaluation": 5,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC2_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 2,
+          "name": "素"
+        },
+        {
+          "id": 7,
+          "name": "清淡"
+        },
+        {
+          "id": 18,
+          "name": "生"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        },
+        {
+          "id": 21,
+          "name": "凉爽"
+        },
+        {
+          "id": 24,
+          "name": "猎奇"
+        },
+        {
+          "id": 26,
+          "name": "菌类"
+        },
+        {
+          "id": 2000,
+          "name": "酸"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 0,
+          "name": "低酒精"
+        },
+        {
+          "id": 4,
+          "name": "可加热"
+        },
+        {
+          "id": 10,
+          "name": "啤酒"
+        },
+        {
+          "id": 12,
+          "name": "水果"
+        },
+        {
+          "id": 15,
+          "name": "苦"
+        }
+      ],
+      "fundMultiplier": 1.2999999523162842,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 2003,
+      "name": "地狱鸦",
+      "type": "normalGuest",
+      "group": "DLC2",
+      "source": {
+        "profile": "DLC2_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+        "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+        "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+        "path_id": 3360247130528440738,
+        "rawJson": "DLC2_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 2003,
+        "convGroup": [
+          2003
+        ],
+        "fundMultiplier": 1.399999976158142,
+        "likeFoodTag": [
+          0,
+          3,
+          10,
+          11,
+          15,
+          2000,
+          28,
+          35
+        ],
+        "likeBevTag": [
+          1,
+          4,
+          10,
+          14,
+          15
+        ],
+        "evaluation": 6,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC2_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 10,
+          "name": "山珍"
+        },
+        {
+          "id": 11,
+          "name": "海味"
+        },
+        {
+          "id": 15,
+          "name": "咸"
+        },
+        {
+          "id": 2000,
+          "name": "酸"
+        },
+        {
+          "id": 28,
+          "name": "小巧"
+        },
+        {
+          "id": 35,
+          "name": "燃起来了"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 1,
+          "name": "中酒精"
+        },
+        {
+          "id": 4,
+          "name": "可加热"
+        },
+        {
+          "id": 10,
+          "name": "啤酒"
+        },
+        {
+          "id": 14,
+          "name": "辛"
+        },
+        {
+          "id": 15,
+          "name": "苦"
+        }
+      ],
+      "fundMultiplier": 1.399999976158142,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 2004,
+      "name": "姑获鸟",
+      "type": "normalGuest",
+      "group": "DLC2",
+      "source": {
+        "profile": "DLC2_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+        "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+        "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+        "path_id": 3360247130528440738,
+        "rawJson": "DLC2_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 2004,
+        "convGroup": [
+          2004
+        ],
+        "fundMultiplier": 1.2999999523162842,
+        "likeFoodTag": [
+          1,
+          3,
+          7,
+          16,
+          2000,
+          24,
+          25
+        ],
+        "likeBevTag": [
+          0,
+          5,
+          15,
+          4
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC2_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 1,
+          "name": "水产"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 7,
+          "name": "清淡"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        },
+        {
+          "id": 2000,
+          "name": "酸"
+        },
+        {
+          "id": 24,
+          "name": "猎奇"
+        },
+        {
+          "id": 25,
+          "name": "文化底蕴"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 0,
+          "name": "低酒精"
+        },
+        {
+          "id": 5,
+          "name": "烧酒"
+        },
+        {
+          "id": 15,
+          "name": "苦"
+        },
+        {
+          "id": 4,
+          "name": "可加热"
+        }
+      ],
+      "fundMultiplier": 1.2999999523162842,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 2005,
+      "name": "豹女",
+      "type": "normalGuest",
+      "group": "DLC2",
+      "source": {
+        "profile": "DLC2_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+        "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+        "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+        "path_id": 3360247130528440738,
+        "rawJson": "DLC2_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 2005,
+        "convGroup": [
+          2005
+        ],
+        "fundMultiplier": 1.5,
+        "likeFoodTag": [
+          0,
+          10,
+          11,
+          6,
+          4,
+          18,
+          22,
+          30
+        ],
+        "likeBevTag": [
+          1,
+          2,
+          11,
+          14
+        ],
+        "evaluation": 4,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC2_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 10,
+          "name": "山珍"
+        },
+        {
+          "id": 11,
+          "name": "海味"
+        },
+        {
+          "id": 6,
+          "name": "重油"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 18,
+          "name": "生"
+        },
+        {
+          "id": 22,
+          "name": "灼热"
+        },
+        {
+          "id": 30,
+          "name": "特产"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 1,
+          "name": "中酒精"
+        },
+        {
+          "id": 2,
+          "name": "高酒精"
+        },
+        {
+          "id": 11,
+          "name": "直饮"
+        },
+        {
+          "id": 14,
+          "name": "辛"
+        }
+      ],
+      "fundMultiplier": 1.5,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 3000,
+      "name": "僧侣",
+      "type": "normalGuest",
+      "group": "DLC3",
+      "source": {
+        "profile": "DLC3_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": -1988279881315374208,
+        "rawJson": "DLC3_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 3000,
+        "convGroup": [
+          3000
+        ],
+        "fundMultiplier": 1.399999976158142,
+        "likeFoodTag": [
+          0,
+          3,
+          8,
+          23,
+          10
+        ],
+        "likeBevTag": [
+          1,
+          2,
+          17,
+          4,
+          5
+        ],
+        "evaluation": 2,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC3_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 8,
+          "name": "下酒"
+        },
+        {
+          "id": 23,
+          "name": "力量涌现"
+        },
+        {
+          "id": 10,
+          "name": "山珍"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 1,
+          "name": "中酒精"
+        },
+        {
+          "id": 2,
+          "name": "高酒精"
+        },
+        {
+          "id": 17,
+          "name": "古典"
+        },
+        {
+          "id": 4,
+          "name": "可加热"
+        },
+        {
+          "id": 5,
+          "name": "烧酒"
+        }
+      ],
+      "fundMultiplier": 1.399999976158142,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 3001,
+      "name": "妖怪鼠",
+      "type": "normalGuest",
+      "group": "DLC3",
+      "source": {
+        "profile": "DLC3_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": -1988279881315374208,
+        "rawJson": "DLC3_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 3001,
+        "convGroup": [
+          3001
+        ],
+        "fundMultiplier": 1.2000000476837158,
+        "likeFoodTag": [
+          -1,
+          31,
+          3,
+          4,
+          29
+        ],
+        "likeBevTag": [
+          7,
+          12,
+          13,
+          18,
+          9
+        ],
+        "evaluation": 0,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC3_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": -1,
+          "name": "大份"
+        },
+        {
+          "id": 31,
+          "name": "果味"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 29,
+          "name": "梦幻"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 7,
+          "name": "鸡尾酒"
+        },
+        {
+          "id": 12,
+          "name": "水果"
+        },
+        {
+          "id": 13,
+          "name": "甘"
+        },
+        {
+          "id": 18,
+          "name": "现代"
+        },
+        {
+          "id": 9,
+          "name": "利口酒"
+        }
+      ],
+      "fundMultiplier": 1.2000000476837158,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 3002,
+      "name": "八尺大人",
+      "type": "normalGuest",
+      "group": "DLC3",
+      "source": {
+        "profile": "DLC3_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": -1988279881315374208,
+        "rawJson": "DLC3_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 3002,
+        "convGroup": [
+          3002
+        ],
+        "fundMultiplier": 1.5,
+        "likeFoodTag": [
+          21,
+          16,
+          13,
+          12,
+          20
+        ],
+        "likeBevTag": [
+          0,
+          3,
+          8,
+          9,
+          7
+        ],
+        "evaluation": 4,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC3_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 21,
+          "name": "凉爽"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        },
+        {
+          "id": 13,
+          "name": "西式"
+        },
+        {
+          "id": 12,
+          "name": "和风"
+        },
+        {
+          "id": 20,
+          "name": "适合拍照"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 0,
+          "name": "低酒精"
+        },
+        {
+          "id": 3,
+          "name": "可加冰"
+        },
+        {
+          "id": 8,
+          "name": "西洋酒"
+        },
+        {
+          "id": 9,
+          "name": "利口酒"
+        },
+        {
+          "id": 7,
+          "name": "鸡尾酒"
+        }
+      ],
+      "fundMultiplier": 1.5,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 3003,
+      "name": "道士",
+      "type": "normalGuest",
+      "group": "DLC3",
+      "source": {
+        "profile": "DLC3_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": -1988279881315374208,
+        "rawJson": "DLC3_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 3003,
+        "convGroup": [
+          3003
+        ],
+        "fundMultiplier": 1.2000000476837158,
+        "likeFoodTag": [
+          10,
+          3,
+          28,
+          7,
+          30,
+          19
+        ],
+        "likeBevTag": [
+          0,
+          18,
+          19,
+          15
+        ],
+        "evaluation": 6,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC3_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 10,
+          "name": "山珍"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 28,
+          "name": "小巧"
+        },
+        {
+          "id": 7,
+          "name": "清淡"
+        },
+        {
+          "id": 30,
+          "name": "特产"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 0,
+          "name": "低酒精"
+        },
+        {
+          "id": 18,
+          "name": "现代"
+        },
+        {
+          "id": 19,
+          "name": "提神"
+        },
+        {
+          "id": 15,
+          "name": "苦"
+        }
+      ],
+      "fundMultiplier": 1.2000000476837158,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 3004,
+      "name": "僵尸",
+      "type": "normalGuest",
+      "group": "DLC3",
+      "source": {
+        "profile": "DLC3_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": -1988279881315374208,
+        "rawJson": "DLC3_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 3004,
+        "convGroup": [
+          3004
+        ],
+        "fundMultiplier": 0.800000011920929,
+        "likeFoodTag": [],
+        "likeBevTag": [
+          -1
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 1,
+        "isLikeAllBevTag": 1,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC3_NormGuestLang",
+      "likeFoodTag": [],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": -1,
+          "name": "无酒精"
+        }
+      ],
+      "fundMultiplier": 0.800000011920929,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": true,
+      "isLikeAllBevTag": true
+    },
+    {
+      "id": 3005,
+      "name": "仙人",
+      "type": "normalGuest",
+      "group": "DLC3",
+      "source": {
+        "profile": "DLC3_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc3_9596ff2c349f29566c6e3ab62df27f53.bundle",
+        "sha256": "a57571e035fbb93349b6eacd3a050e45f3e446dfe7992d6d6ddf73407f86ffff",
+        "cab": "CAB-d42386126d31c29ec111c4fe16efd2fa",
+        "path_id": -1988279881315374208,
+        "rawJson": "DLC3_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 3005,
+        "convGroup": [
+          3005
+        ],
+        "fundMultiplier": 1.5,
+        "likeFoodTag": [
+          28,
+          31,
+          2,
+          7,
+          4,
+          29
+        ],
+        "likeBevTag": [
+          0,
+          16,
+          13,
+          12,
+          6,
+          17
+        ],
+        "evaluation": 5,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC3_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 28,
+          "name": "小巧"
+        },
+        {
+          "id": 31,
+          "name": "果味"
+        },
+        {
+          "id": 2,
+          "name": "素"
+        },
+        {
+          "id": 7,
+          "name": "清淡"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 29,
+          "name": "梦幻"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 0,
+          "name": "低酒精"
+        },
+        {
+          "id": 16,
+          "name": "气泡"
+        },
+        {
+          "id": 13,
+          "name": "甘"
+        },
+        {
+          "id": 12,
+          "name": "水果"
+        },
+        {
+          "id": 6,
+          "name": "清酒"
+        },
+        {
+          "id": 17,
+          "name": "古典"
+        }
+      ],
+      "fundMultiplier": 1.5,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 4000,
+      "name": "小人族",
+      "type": "normalGuest",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": -3339946957495470104,
+        "rawJson": "DLC4_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 4000,
+        "convGroup": [
+          4000
+        ],
+        "fundMultiplier": 1.600000023841858,
+        "likeFoodTag": [
+          12,
+          28,
+          23,
+          5,
+          35,
+          29
+        ],
+        "likeBevTag": [
+          17,
+          3,
+          4,
+          13,
+          10
+        ],
+        "evaluation": 3,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC4_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 12,
+          "name": "和风"
+        },
+        {
+          "id": 28,
+          "name": "小巧"
+        },
+        {
+          "id": 23,
+          "name": "力量涌现"
+        },
+        {
+          "id": 5,
+          "name": "传说"
+        },
+        {
+          "id": 35,
+          "name": "燃起来了"
+        },
+        {
+          "id": 29,
+          "name": "梦幻"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 17,
+          "name": "古典"
+        },
+        {
+          "id": 3,
+          "name": "可加冰"
+        },
+        {
+          "id": 4,
+          "name": "可加热"
+        },
+        {
+          "id": 13,
+          "name": "甘"
+        },
+        {
+          "id": 10,
+          "name": "啤酒"
+        }
+      ],
+      "fundMultiplier": 1.600000023841858,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 4001,
+      "name": "不良少年",
+      "type": "normalGuest",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": -3339946957495470104,
+        "rawJson": "DLC4_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 4001,
+        "convGroup": [
+          4001
+        ],
+        "fundMultiplier": 1.0,
+        "likeFoodTag": [
+          12,
+          8,
+          9,
+          3,
+          23
+        ],
+        "likeBevTag": [
+          5,
+          15,
+          19,
+          4,
+          2,
+          10
+        ],
+        "evaluation": 6,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC4_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 12,
+          "name": "和风"
+        },
+        {
+          "id": 8,
+          "name": "下酒"
+        },
+        {
+          "id": 9,
+          "name": "饱腹"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 23,
+          "name": "力量涌现"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 5,
+          "name": "烧酒"
+        },
+        {
+          "id": 15,
+          "name": "苦"
+        },
+        {
+          "id": 19,
+          "name": "提神"
+        },
+        {
+          "id": 4,
+          "name": "可加热"
+        },
+        {
+          "id": 2,
+          "name": "高酒精"
+        },
+        {
+          "id": 10,
+          "name": "啤酒"
+        }
+      ],
+      "fundMultiplier": 1.0,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 4002,
+      "name": "不良少女",
+      "type": "normalGuest",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": -3339946957495470104,
+        "rawJson": "DLC4_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 4002,
+        "convGroup": [
+          4002
+        ],
+        "fundMultiplier": 1.0,
+        "likeFoodTag": [
+          12,
+          3,
+          4,
+          22,
+          20
+        ],
+        "likeBevTag": [
+          12,
+          18,
+          16,
+          1,
+          10
+        ],
+        "evaluation": 3,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC4_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 12,
+          "name": "和风"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 22,
+          "name": "灼热"
+        },
+        {
+          "id": 20,
+          "name": "适合拍照"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 12,
+          "name": "水果"
+        },
+        {
+          "id": 18,
+          "name": "现代"
+        },
+        {
+          "id": 16,
+          "name": "气泡"
+        },
+        {
+          "id": 1,
+          "name": "中酒精"
+        },
+        {
+          "id": 10,
+          "name": "啤酒"
+        }
+      ],
+      "fundMultiplier": 1.0,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 4003,
+      "name": "玩具兵",
+      "type": "normalGuest",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": -3339946957495470104,
+        "rawJson": "DLC4_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 4003,
+        "convGroup": [
+          4003
+        ],
+        "fundMultiplier": 0.800000011920929,
+        "likeFoodTag": [
+          13,
+          27,
+          11,
+          21,
+          19
+        ],
+        "likeBevTag": [
+          18,
+          9,
+          11,
+          8
+        ],
+        "evaluation": 2,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC4_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 13,
+          "name": "西式"
+        },
+        {
+          "id": 27,
+          "name": "不可思议"
+        },
+        {
+          "id": 11,
+          "name": "海味"
+        },
+        {
+          "id": 21,
+          "name": "凉爽"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 18,
+          "name": "现代"
+        },
+        {
+          "id": 9,
+          "name": "利口酒"
+        },
+        {
+          "id": 11,
+          "name": "直饮"
+        },
+        {
+          "id": 8,
+          "name": "西洋酒"
+        }
+      ],
+      "fundMultiplier": 0.800000011920929,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 4004,
+      "name": "铃兰花精",
+      "type": "normalGuest",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": -3339946957495470104,
+        "rawJson": "DLC4_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 4004,
+        "convGroup": [
+          4004
+        ],
+        "fundMultiplier": 0.6000000238418579,
+        "likeFoodTag": [
+          4001,
+          18,
+          29,
+          8,
+          28
+        ],
+        "likeBevTag": [
+          14,
+          16,
+          1,
+          11
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC4_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 4001,
+          "name": "毒"
+        },
+        {
+          "id": 18,
+          "name": "生"
+        },
+        {
+          "id": 29,
+          "name": "梦幻"
+        },
+        {
+          "id": 8,
+          "name": "下酒"
+        },
+        {
+          "id": 28,
+          "name": "小巧"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 14,
+          "name": "辛"
+        },
+        {
+          "id": 16,
+          "name": "气泡"
+        },
+        {
+          "id": 1,
+          "name": "中酒精"
+        },
+        {
+          "id": 11,
+          "name": "直饮"
+        }
+      ],
+      "fundMultiplier": 0.6000000238418579,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 4005,
+      "name": "太阳花精",
+      "type": "normalGuest",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": -3339946957495470104,
+        "rawJson": "DLC4_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 4005,
+        "convGroup": [
+          4005
+        ],
+        "fundMultiplier": 0.6000000238418579,
+        "likeFoodTag": [
+          30,
+          27,
+          17,
+          23,
+          16
+        ],
+        "likeBevTag": [
+          13,
+          12,
+          16,
+          9
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC4_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 30,
+          "name": "特产"
+        },
+        {
+          "id": 27,
+          "name": "不可思议"
+        },
+        {
+          "id": 17,
+          "name": "甜"
+        },
+        {
+          "id": 23,
+          "name": "力量涌现"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 13,
+          "name": "甘"
+        },
+        {
+          "id": 12,
+          "name": "水果"
+        },
+        {
+          "id": 16,
+          "name": "气泡"
+        },
+        {
+          "id": 9,
+          "name": "利口酒"
+        }
+      ],
+      "fundMultiplier": 0.6000000238418579,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 4006,
+      "name": "玫瑰花精",
+      "type": "normalGuest",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": -3339946957495470104,
+        "rawJson": "DLC4_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 4006,
+        "convGroup": [
+          4006
+        ],
+        "fundMultiplier": 0.800000011920929,
+        "likeFoodTag": [
+          20,
+          28,
+          4,
+          19,
+          13
+        ],
+        "likeBevTag": [
+          18,
+          7,
+          0,
+          13
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC4_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 20,
+          "name": "适合拍照"
+        },
+        {
+          "id": 28,
+          "name": "小巧"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        },
+        {
+          "id": 13,
+          "name": "西式"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 18,
+          "name": "现代"
+        },
+        {
+          "id": 7,
+          "name": "鸡尾酒"
+        },
+        {
+          "id": 0,
+          "name": "低酒精"
+        },
+        {
+          "id": 13,
+          "name": "甘"
+        }
+      ],
+      "fundMultiplier": 0.800000011920929,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 4007,
+      "name": "影女",
+      "type": "normalGuest",
+      "group": "DLC4",
+      "source": {
+        "profile": "DLC4_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+        "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+        "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+        "path_id": -3339946957495470104,
+        "rawJson": "DLC4_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 4007,
+        "convGroup": [
+          4007
+        ],
+        "fundMultiplier": 1.5,
+        "likeFoodTag": [
+          24,
+          21,
+          12,
+          18,
+          27,
+          3
+        ],
+        "likeBevTag": [
+          15,
+          17,
+          2,
+          19,
+          3
+        ],
+        "evaluation": 3,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC4_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 24,
+          "name": "猎奇"
+        },
+        {
+          "id": 21,
+          "name": "凉爽"
+        },
+        {
+          "id": 12,
+          "name": "和风"
+        },
+        {
+          "id": 18,
+          "name": "生"
+        },
+        {
+          "id": 27,
+          "name": "不可思议"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 15,
+          "name": "苦"
+        },
+        {
+          "id": 17,
+          "name": "古典"
+        },
+        {
+          "id": 2,
+          "name": "高酒精"
+        },
+        {
+          "id": 19,
+          "name": "提神"
+        },
+        {
+          "id": 3,
+          "name": "可加冰"
+        }
+      ],
+      "fundMultiplier": 1.5,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 5000,
+      "name": "纸牌兵",
+      "type": "normalGuest",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -2067685896811852254,
+        "rawJson": "DLC5_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 5000,
+        "convGroup": [
+          5000
+        ],
+        "fundMultiplier": 0.800000011920929,
+        "likeFoodTag": [
+          9,
+          3,
+          6,
+          15,
+          19,
+          21
+        ],
+        "likeBevTag": [
+          19,
+          4,
+          15,
+          1
+        ],
+        "evaluation": 4,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC5_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 9,
+          "name": "饱腹"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 6,
+          "name": "重油"
+        },
+        {
+          "id": 15,
+          "name": "咸"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        },
+        {
+          "id": 21,
+          "name": "凉爽"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 19,
+          "name": "提神"
+        },
+        {
+          "id": 4,
+          "name": "可加热"
+        },
+        {
+          "id": 15,
+          "name": "苦"
+        },
+        {
+          "id": 1,
+          "name": "中酒精"
+        }
+      ],
+      "fundMultiplier": 0.800000011920929,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 5001,
+      "name": "小丑",
+      "type": "normalGuest",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -2067685896811852254,
+        "rawJson": "DLC5_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 5001,
+        "convGroup": [
+          5001
+        ],
+        "fundMultiplier": 1.0,
+        "likeFoodTag": [
+          4,
+          24,
+          26,
+          8,
+          18,
+          20
+        ],
+        "likeBevTag": [
+          9,
+          14,
+          3,
+          11
+        ],
+        "evaluation": 3,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC5_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 24,
+          "name": "猎奇"
+        },
+        {
+          "id": 26,
+          "name": "菌类"
+        },
+        {
+          "id": 8,
+          "name": "下酒"
+        },
+        {
+          "id": 18,
+          "name": "生"
+        },
+        {
+          "id": 20,
+          "name": "适合拍照"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 9,
+          "name": "利口酒"
+        },
+        {
+          "id": 14,
+          "name": "辛"
+        },
+        {
+          "id": 3,
+          "name": "可加冰"
+        },
+        {
+          "id": 11,
+          "name": "直饮"
+        }
+      ],
+      "fundMultiplier": 1.0,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 5002,
+      "name": "疯帽匠",
+      "type": "normalGuest",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -2067685896811852254,
+        "rawJson": "DLC5_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 5002,
+        "convGroup": [
+          5002
+        ],
+        "fundMultiplier": 1.399999976158142,
+        "likeFoodTag": [
+          20,
+          27,
+          29,
+          24,
+          26,
+          13
+        ],
+        "likeBevTag": [
+          8,
+          19,
+          2,
+          18
+        ],
+        "evaluation": 4,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC5_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 20,
+          "name": "适合拍照"
+        },
+        {
+          "id": 27,
+          "name": "不可思议"
+        },
+        {
+          "id": 29,
+          "name": "梦幻"
+        },
+        {
+          "id": 24,
+          "name": "猎奇"
+        },
+        {
+          "id": 26,
+          "name": "菌类"
+        },
+        {
+          "id": 13,
+          "name": "西式"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 8,
+          "name": "西洋酒"
+        },
+        {
+          "id": 19,
+          "name": "提神"
+        },
+        {
+          "id": 2,
+          "name": "高酒精"
+        },
+        {
+          "id": 18,
+          "name": "现代"
+        }
+      ],
+      "fundMultiplier": 1.399999976158142,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 5003,
+      "name": "月人",
+      "type": "normalGuest",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -2067685896811852254,
+        "rawJson": "DLC5_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 5003,
+        "convGroup": [
+          5003
+        ],
+        "fundMultiplier": 2.0,
+        "likeFoodTag": [
+          14,
+          7,
+          5,
+          29,
+          27,
+          11
+        ],
+        "likeBevTag": [
+          18,
+          7,
+          12,
+          16,
+          6
+        ],
+        "evaluation": 2,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 2058154835973799856
+        }
+      },
+      "nameTextAsset": "DLC5_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 14,
+          "name": "中华"
+        },
+        {
+          "id": 7,
+          "name": "清淡"
+        },
+        {
+          "id": 5,
+          "name": "传说"
+        },
+        {
+          "id": 29,
+          "name": "梦幻"
+        },
+        {
+          "id": 27,
+          "name": "不可思议"
+        },
+        {
+          "id": 11,
+          "name": "海味"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 18,
+          "name": "现代"
+        },
+        {
+          "id": 7,
+          "name": "鸡尾酒"
+        },
+        {
+          "id": 12,
+          "name": "水果"
+        },
+        {
+          "id": 16,
+          "name": "气泡"
+        },
+        {
+          "id": 6,
+          "name": "清酒"
+        }
+      ],
+      "fundMultiplier": 2.0,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 5004,
+      "name": "捣药兔",
+      "type": "normalGuest",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -2067685896811852254,
+        "rawJson": "DLC5_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 5004,
+        "convGroup": [
+          5004
+        ],
+        "fundMultiplier": 0.6000000238418579,
+        "likeFoodTag": [
+          9,
+          21,
+          10,
+          12,
+          14,
+          17
+        ],
+        "likeBevTag": [
+          19,
+          13,
+          10,
+          5,
+          1
+        ],
+        "evaluation": 3,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC5_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 9,
+          "name": "饱腹"
+        },
+        {
+          "id": 21,
+          "name": "凉爽"
+        },
+        {
+          "id": 10,
+          "name": "山珍"
+        },
+        {
+          "id": 12,
+          "name": "和风"
+        },
+        {
+          "id": 14,
+          "name": "中华"
+        },
+        {
+          "id": 17,
+          "name": "甜"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 19,
+          "name": "提神"
+        },
+        {
+          "id": 13,
+          "name": "甘"
+        },
+        {
+          "id": 10,
+          "name": "啤酒"
+        },
+        {
+          "id": 5,
+          "name": "烧酒"
+        },
+        {
+          "id": 1,
+          "name": "中酒精"
+        }
+      ],
+      "fundMultiplier": 0.6000000238418579,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 5005,
+      "name": "月之使者",
+      "type": "normalGuest",
+      "group": "DLC5",
+      "source": {
+        "profile": "DLC5_NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+        "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+        "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+        "path_id": -2067685896811852254,
+        "rawJson": "DLC5_NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 5005,
+        "convGroup": [
+          5005
+        ],
+        "fundMultiplier": 0.800000011920929,
+        "likeFoodTag": [
+          5,
+          9,
+          23,
+          30,
+          13,
+          19
+        ],
+        "likeBevTag": [
+          -1,
+          18,
+          15,
+          19,
+          4
+        ],
+        "evaluation": 2,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "DLC5_NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 5,
+          "name": "传说"
+        },
+        {
+          "id": 9,
+          "name": "饱腹"
+        },
+        {
+          "id": 23,
+          "name": "力量涌现"
+        },
+        {
+          "id": 30,
+          "name": "特产"
+        },
+        {
+          "id": 13,
+          "name": "西式"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": -1,
+          "name": "无酒精"
+        },
+        {
+          "id": 18,
+          "name": "现代"
+        },
+        {
+          "id": 15,
+          "name": "苦"
+        },
+        {
+          "id": 19,
+          "name": "提神"
+        },
+        {
+          "id": 4,
+          "name": "可加热"
+        }
+      ],
+      "fundMultiplier": 0.800000011920929,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 0,
+      "name": "妖怪兔",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 0,
+        "convGroup": [
+          0,
+          1
+        ],
+        "fundMultiplier": 0.699999988079071,
+        "likeFoodTag": [
+          19,
+          31,
+          21,
+          3,
+          15,
+          16,
+          17,
+          23
+        ],
+        "likeBevTag": [
+          -1
+        ],
+        "evaluation": 3,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 19,
+          "name": "招牌"
+        },
+        {
+          "id": 31,
+          "name": "果味"
+        },
+        {
+          "id": 21,
+          "name": "凉爽"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 15,
+          "name": "咸"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        },
+        {
+          "id": 17,
+          "name": "甜"
+        },
+        {
+          "id": 23,
+          "name": "力量涌现"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": -1,
+          "name": "无酒精"
+        }
+      ],
+      "fundMultiplier": 0.699999988079071,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 1,
+      "name": "妖怪猫",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 1,
+        "convGroup": [
+          0,
+          3
+        ],
+        "fundMultiplier": 0.8500000238418579,
+        "likeFoodTag": [
+          0,
+          21,
+          11,
+          14,
+          19
+        ],
+        "likeBevTag": [
+          3,
+          10,
+          15
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 21,
+          "name": "凉爽"
+        },
+        {
+          "id": 11,
+          "name": "海味"
+        },
+        {
+          "id": 14,
+          "name": "中华"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 3,
+          "name": "可加冰"
+        },
+        {
+          "id": 10,
+          "name": "啤酒"
+        },
+        {
+          "id": 15,
+          "name": "苦"
+        }
+      ],
+      "fundMultiplier": 0.8500000238418579,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 2,
+      "name": "妖怪狸",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 2,
+        "convGroup": [
+          0,
+          2
+        ],
+        "fundMultiplier": 0.8500000238418579,
+        "likeFoodTag": [
+          0,
+          6,
+          15,
+          9,
+          10,
+          19
+        ],
+        "likeBevTag": [
+          13,
+          14
+        ],
+        "evaluation": 6,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 6,
+          "name": "重油"
+        },
+        {
+          "id": 15,
+          "name": "咸"
+        },
+        {
+          "id": 9,
+          "name": "饱腹"
+        },
+        {
+          "id": 10,
+          "name": "山珍"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 13,
+          "name": "甘"
+        },
+        {
+          "id": 14,
+          "name": "辛"
+        }
+      ],
+      "fundMultiplier": 0.8500000238418579,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 3,
+      "name": "妖怪狐",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 3,
+        "convGroup": [
+          0,
+          4
+        ],
+        "fundMultiplier": 1.2000000476837158,
+        "likeFoodTag": [
+          0,
+          19,
+          12,
+          14,
+          28
+        ],
+        "likeBevTag": [
+          11
+        ],
+        "evaluation": 4,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        },
+        {
+          "id": 12,
+          "name": "和风"
+        },
+        {
+          "id": 14,
+          "name": "中华"
+        },
+        {
+          "id": 28,
+          "name": "小巧"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 11,
+          "name": "直饮"
+        }
+      ],
+      "fundMultiplier": 1.2000000476837158,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 4,
+      "name": "蟒蛇精",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 4,
+        "convGroup": [
+          0,
+          16
+        ],
+        "fundMultiplier": 2.0,
+        "likeFoodTag": [
+          0,
+          8,
+          10,
+          23
+        ],
+        "likeBevTag": [
+          5,
+          6
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 8,
+          "name": "下酒"
+        },
+        {
+          "id": 10,
+          "name": "山珍"
+        },
+        {
+          "id": 23,
+          "name": "力量涌现"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 5,
+          "name": "烧酒"
+        },
+        {
+          "id": 6,
+          "name": "清酒"
+        }
+      ],
+      "fundMultiplier": 2.0,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 5,
+      "name": "人类小孩",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 5,
+        "convGroup": [
+          10,
+          12
+        ],
+        "fundMultiplier": 0.699999988079071,
+        "likeFoodTag": [
+          0,
+          3,
+          9,
+          14,
+          15,
+          17,
+          21,
+          19
+        ],
+        "likeBevTag": [
+          -1
+        ],
+        "evaluation": 4,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 1,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 3,
+          "name": "家常"
+        },
+        {
+          "id": 9,
+          "name": "饱腹"
+        },
+        {
+          "id": 14,
+          "name": "中华"
+        },
+        {
+          "id": 15,
+          "name": "咸"
+        },
+        {
+          "id": 17,
+          "name": "甜"
+        },
+        {
+          "id": 21,
+          "name": "凉爽"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": -1,
+          "name": "无酒精"
+        }
+      ],
+      "fundMultiplier": 0.699999988079071,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": true,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 6,
+      "name": "人类男性",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 6,
+        "convGroup": [
+          10,
+          14
+        ],
+        "fundMultiplier": 1.0,
+        "likeFoodTag": [
+          0,
+          8,
+          12,
+          15,
+          16,
+          22,
+          25
+        ],
+        "likeBevTag": [
+          4,
+          5
+        ],
+        "evaluation": 2,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 0,
+          "name": "肉"
+        },
+        {
+          "id": 8,
+          "name": "下酒"
+        },
+        {
+          "id": 12,
+          "name": "和风"
+        },
+        {
+          "id": 15,
+          "name": "咸"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        },
+        {
+          "id": 22,
+          "name": "灼热"
+        },
+        {
+          "id": 25,
+          "name": "文化底蕴"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 4,
+          "name": "可加热"
+        },
+        {
+          "id": 5,
+          "name": "烧酒"
+        }
+      ],
+      "fundMultiplier": 1.0,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 7,
+      "name": "人类女性",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 7,
+        "convGroup": [
+          10,
+          13
+        ],
+        "fundMultiplier": 1.0,
+        "likeFoodTag": [
+          1,
+          4,
+          15,
+          16,
+          21,
+          19
+        ],
+        "likeBevTag": [
+          3
+        ],
+        "evaluation": 5,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 1,
+          "name": "水产"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 15,
+          "name": "咸"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        },
+        {
+          "id": 21,
+          "name": "凉爽"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 3,
+          "name": "可加冰"
+        }
+      ],
+      "fundMultiplier": 1.0,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 8,
+      "name": "人类长者",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 8,
+        "convGroup": [
+          10,
+          11
+        ],
+        "fundMultiplier": 1.5,
+        "likeFoodTag": [
+          4,
+          20,
+          22,
+          19
+        ],
+        "likeBevTag": [
+          0
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 20,
+          "name": "适合拍照"
+        },
+        {
+          "id": 22,
+          "name": "灼热"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 0,
+          "name": "低酒精"
+        }
+      ],
+      "fundMultiplier": 1.5,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 9,
+      "name": "左卫门",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 9,
+        "convGroup": [
+          10,
+          16
+        ],
+        "fundMultiplier": 1.7999999523162842,
+        "likeFoodTag": [
+          18,
+          24,
+          23,
+          4
+        ],
+        "likeBevTag": [
+          2
+        ],
+        "evaluation": 0,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 18,
+          "name": "生"
+        },
+        {
+          "id": 24,
+          "name": "猎奇"
+        },
+        {
+          "id": 23,
+          "name": "力量涌现"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 2,
+          "name": "高酒精"
+        }
+      ],
+      "fundMultiplier": 1.7999999523162842,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 10,
+      "name": "座敷童子",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 10,
+        "convGroup": [
+          6
+        ],
+        "fundMultiplier": 0.699999988079071,
+        "likeFoodTag": [
+          21,
+          12,
+          10,
+          18,
+          17,
+          19
+        ],
+        "likeBevTag": [
+          0,
+          -1
+        ],
+        "evaluation": 0,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 21,
+          "name": "凉爽"
+        },
+        {
+          "id": 12,
+          "name": "和风"
+        },
+        {
+          "id": 10,
+          "name": "山珍"
+        },
+        {
+          "id": 18,
+          "name": "生"
+        },
+        {
+          "id": 17,
+          "name": "甜"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 0,
+          "name": "低酒精"
+        },
+        {
+          "id": -1,
+          "name": "无酒精"
+        }
+      ],
+      "fundMultiplier": 0.699999988079071,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 11,
+      "name": "河童",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 11,
+        "convGroup": [
+          7,
+          5
+        ],
+        "fundMultiplier": 1.100000023841858,
+        "likeFoodTag": [
+          -1,
+          4,
+          28,
+          11,
+          22,
+          24,
+          19
+        ],
+        "likeBevTag": [
+          13
+        ],
+        "evaluation": 5,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": -1,
+          "name": "大份"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 28,
+          "name": "小巧"
+        },
+        {
+          "id": 11,
+          "name": "海味"
+        },
+        {
+          "id": 22,
+          "name": "灼热"
+        },
+        {
+          "id": 24,
+          "name": "猎奇"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 13,
+          "name": "甘"
+        }
+      ],
+      "fundMultiplier": 1.100000023841858,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 12,
+      "name": "地精",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 12,
+        "convGroup": [
+          9
+        ],
+        "fundMultiplier": 1.2000000476837158,
+        "likeFoodTag": [
+          21,
+          4,
+          6,
+          10,
+          22,
+          23
+        ],
+        "likeBevTag": [
+          6,
+          8
+        ],
+        "evaluation": 4,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 21,
+          "name": "凉爽"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 6,
+          "name": "重油"
+        },
+        {
+          "id": 10,
+          "name": "山珍"
+        },
+        {
+          "id": 22,
+          "name": "灼热"
+        },
+        {
+          "id": 23,
+          "name": "力量涌现"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 6,
+          "name": "清酒"
+        },
+        {
+          "id": 8,
+          "name": "西洋酒"
+        }
+      ],
+      "fundMultiplier": 1.2000000476837158,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 13,
+      "name": "鸦天狗",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 13,
+        "convGroup": [
+          5,
+          8
+        ],
+        "fundMultiplier": 1.5,
+        "likeFoodTag": [
+          20,
+          4,
+          26,
+          19
+        ],
+        "likeBevTag": [
+          5,
+          6
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 20,
+          "name": "适合拍照"
+        },
+        {
+          "id": 4,
+          "name": "高级"
+        },
+        {
+          "id": 26,
+          "name": "菌类"
+        },
+        {
+          "id": 19,
+          "name": "招牌"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 5,
+          "name": "烧酒"
+        },
+        {
+          "id": 6,
+          "name": "清酒"
+        }
+      ],
+      "fundMultiplier": 1.5,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    },
+    {
+      "id": 14,
+      "name": "妖精",
+      "type": "normalGuest",
+      "group": "Core",
+      "source": {
+        "profile": "NormalGuestProfile",
+        "file": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+        "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+        "cab": "CAB-fede423717f62585305245104e0fd5e2",
+        "path_id": -8300488578948498014,
+        "rawJson": "NormalGuestProfile_raw.json"
+      },
+      "raw": {
+        "id": 14,
+        "convGroup": [
+          15
+        ],
+        "fundMultiplier": 0.5,
+        "likeFoodTag": [
+          17,
+          29,
+          20,
+          31,
+          30,
+          26,
+          16
+        ],
+        "likeBevTag": [
+          16,
+          13,
+          11,
+          12
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "nameTextAsset": "NormGuestLang",
+      "likeFoodTag": [
+        {
+          "id": 17,
+          "name": "甜"
+        },
+        {
+          "id": 29,
+          "name": "梦幻"
+        },
+        {
+          "id": 20,
+          "name": "适合拍照"
+        },
+        {
+          "id": 31,
+          "name": "果味"
+        },
+        {
+          "id": 30,
+          "name": "特产"
+        },
+        {
+          "id": 26,
+          "name": "菌类"
+        },
+        {
+          "id": 16,
+          "name": "鲜"
+        }
+      ],
+      "hateFoodTag": null,
+      "likeBevTag": [
+        {
+          "id": 16,
+          "name": "气泡"
+        },
+        {
+          "id": 13,
+          "name": "甘"
+        },
+        {
+          "id": 11,
+          "name": "直饮"
+        },
+        {
+          "id": 12,
+          "name": "水果"
+        }
+      ],
+      "fundMultiplier": 0.5,
+      "money": null,
+      "moneySemantics": "fundMultiplier is actual profile value; no fixed wallet amount inferred",
+      "doNotShowInNotebook": false,
+      "isChild": false,
+      "isLikeAllFoodTag": false,
+      "isLikeAllBevTag": false
+    }
+  ],
+  "count": 47
+}

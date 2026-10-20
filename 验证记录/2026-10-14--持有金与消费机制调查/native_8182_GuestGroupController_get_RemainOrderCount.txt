@@ -1,0 +1,22 @@
+# NightScene.GuestManagementUtility.GuestGroupController::get_RemainOrderCount
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "get_RemainOrderCount", "metadataMethodIndex": 8182, "token": "0x6001ff7", "methodPointerIndex": 8182, "va": "0x1804caab0", "rva": "0x4caab0", "endRva": null, "returnTypeIndex": 26152, "parameters": []}
+# range end RVA 0x4caac0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804CAAB0: 8B 51 54           mov         edx,dword ptr [rcx+54h]
+  00000001804CAAB3: 33 C0              xor         eax,eax
+  00000001804CAAB5: 85 D2              test        edx,edx
+  00000001804CAAB7: 0F 49 C2           cmovns      eax,edx
+  00000001804CAABA: C3                 ret
+  00000001804CAABB: CC                 int         3
+  00000001804CAABC: CC                 int         3
+  00000001804CAABD: CC                 int         3
+  00000001804CAABE: CC                 int         3
+  00000001804CAABF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

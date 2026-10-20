@@ -1,0 +1,155 @@
+{
+  "metadataSHA256": "995d1a08cac7a784d397927cf73ae71a8ce47cc8637cc4dd7ea534a3368b31e7",
+  "assemblySHA256": "91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789",
+  "registration": {
+    "fieldCountPos": "0x3c254c0",
+    "registrationRVA": "0x3c25470",
+    "fieldOffsetsVA": "0x184016000",
+    "typeSizesVA": "0x1840351b0",
+    "satoriOffsets": [
+      0,
+      24,
+      32,
+      36
+    ]
+  },
+  "types": [
+    {
+      "typeIndex": 1745,
+      "type": "<>c__DisplayClass41_0",
+      "byvalTypeIndex": 43126,
+      "parentTypeIndex": 28405,
+      "offsetArrayVA": "0x182eb4c10",
+      "fields": [
+        {
+          "fieldIndex": 9704,
+          "name": "<>4__this",
+          "typeIndex": 33653,
+          "offset": 16,
+          "offsetHex": "0x10"
+        },
+        {
+          "fieldIndex": 9705,
+          "name": "requestFoodButton",
+          "typeIndex": 32619,
+          "offset": 24,
+          "offsetHex": "0x18"
+        },
+        {
+          "fieldIndex": 9706,
+          "name": "isNotOverridePic",
+          "typeIndex": 20609,
+          "offset": 32,
+          "offsetHex": "0x20"
+        },
+        {
+          "fieldIndex": 9707,
+          "name": "requestBevButton",
+          "typeIndex": 32619,
+          "offset": 40,
+          "offsetHex": "0x28"
+        },
+        {
+          "fieldIndex": 9708,
+          "name": "izakayaTrayInstance",
+          "typeIndex": 26449,
+          "offset": 48,
+          "offsetHex": "0x30"
+        },
+        {
+          "fieldIndex": 9709,
+          "name": "<>9__19",
+          "typeIndex": 19577,
+          "offset": 56,
+          "offsetHex": "0x38"
+        },
+        {
+          "fieldIndex": 9710,
+          "name": "<>9__22",
+          "typeIndex": 19577,
+          "offset": 64,
+          "offsetHex": "0x40"
+        }
+      ]
+    },
+    {
+      "typeIndex": 1747,
+      "type": "<>c__DisplayClass41_2",
+      "byvalTypeIndex": 43129,
+      "parentTypeIndex": 28405,
+      "offsetArrayVA": "0x182eb4c98",
+      "fields": [
+        {
+          "fieldIndex": 9713,
+          "name": "normalOrder",
+          "typeIndex": 38195,
+          "offset": 16,
+          "offsetHex": "0x10"
+        },
+        {
+          "fieldIndex": 9714,
+          "name": "requestFood",
+          "typeIndex": 31309,
+          "offset": 24,
+          "offsetHex": "0x18"
+        },
+        {
+          "fieldIndex": 9715,
+          "name": "requestBev",
+          "typeIndex": 31309,
+          "offset": 32,
+          "offsetHex": "0x20"
+        },
+        {
+          "fieldIndex": 9716,
+          "name": "pixel",
+          "typeIndex": 21217,
+          "offset": 40,
+          "offsetHex": "0x28"
+        },
+        {
+          "fieldIndex": 9717,
+          "name": "colorScheme",
+          "typeIndex": 21596,
+          "offset": 48,
+          "offsetHex": "0x30"
+        },
+        {
+          "fieldIndex": 9718,
+          "name": "CS$<>8__locals2",
+          "typeIndex": 43127,
+          "offset": 64,
+          "offsetHex": "0x40"
+        },
+        {
+          "fieldIndex": 9719,
+          "name": "<>9__21",
+          "typeIndex": 19577,
+          "offset": 72,
+          "offsetHex": "0x48"
+        },
+        {
+          "fieldIndex": 9720,
+          "name": "<>9__20",
+          "typeIndex": 19577,
+          "offset": 80,
+          "offsetHex": "0x50"
+        },
+        {
+          "fieldIndex": 9721,
+          "name": "<>9__24",
+          "typeIndex": 19577,
+          "offset": 88,
+          "offsetHex": "0x58"
+        },
+        {
+          "fieldIndex": 9722,
+          "name": "<>9__23",
+          "typeIndex": 19577,
+          "offset": 96,
+          "offsetHex": "0x60"
+        }
+      ]
+    }
+  ]
+}

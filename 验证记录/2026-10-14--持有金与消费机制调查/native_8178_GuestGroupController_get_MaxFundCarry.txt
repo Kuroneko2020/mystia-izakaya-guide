@@ -1,0 +1,26 @@
+# NightScene.GuestManagementUtility.GuestGroupController::get_MaxFundCarry
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "get_MaxFundCarry", "metadataMethodIndex": 8178, "token": "0x6001ff3", "methodPointerIndex": 8178, "va": "0x180439430", "rva": "0x439430", "endRva": null, "returnTypeIndex": 26152, "parameters": []}
+# range end RVA 0x439440; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180439430: 8B 41 74           mov         eax,dword ptr [rcx+74h]
+  0000000180439433: C3                 ret
+  0000000180439434: CC                 int         3
+  0000000180439435: CC                 int         3
+  0000000180439436: CC                 int         3
+  0000000180439437: CC                 int         3
+  0000000180439438: CC                 int         3
+  0000000180439439: CC                 int         3
+  000000018043943A: CC                 int         3
+  000000018043943B: CC                 int         3
+  000000018043943C: CC                 int         3
+  000000018043943D: CC                 int         3
+  000000018043943E: CC                 int         3
+  000000018043943F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

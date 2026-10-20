@@ -1,0 +1,20 @@
+# <>c::<OnPanelOpen>b__41_3
+# {"declaringType": "<>c", "typeIndex": 1748, "image": "Assembly-CSharp.dll", "name": "<OnPanelOpen>b__41_3", "metadataMethodIndex": 10613, "token": "0x6002976", "methodPointerIndex": 10613, "va": "0x180549b90", "rva": "0x549b90", "endRva": null, "returnTypeIndex": 20604, "parameters": [{"index": 8042, "name": "x", "typeIndex": 30383}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x549b90..0x549ba0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180549B90: 48 85 D2           test        rdx,rdx
+  0000000180549B93: 75 03              jne         0000000180549B98
+  0000000180549B95: 32 C0              xor         al,al
+  0000000180549B97: C3                 ret
+  0000000180549B98: 83 7A 38 00        cmp         dword ptr [rdx+38h],0
+  0000000180549B9C: 0F 94 C0           sete        al
+  0000000180549B9F: C3                 ret
+
+  Summary
+
+     2ACC000 il2cpp

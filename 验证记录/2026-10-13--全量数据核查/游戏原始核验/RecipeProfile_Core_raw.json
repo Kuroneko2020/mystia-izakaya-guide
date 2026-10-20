@@ -1,0 +1,773 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+  "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+  "cab": "CAB-fede423717f62585305245104e0fd5e2",
+  "path_id": -8131928360559884006,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 960848490085854692
+    },
+    "m_Name": "RecipeProfile",
+    "recipes": [
+      {
+        "id": 0,
+        "foodID": 0,
+        "ingredients": [
+          10
+        ],
+        "cookerType": 1,
+        "cookTime": 6.0
+      },
+      {
+        "id": 1,
+        "foodID": 1,
+        "ingredients": [
+          5
+        ],
+        "cookerType": 1,
+        "cookTime": 7.0
+      },
+      {
+        "id": 2,
+        "foodID": 2,
+        "ingredients": [
+          10,
+          4
+        ],
+        "cookerType": 1,
+        "cookTime": 12.0
+      },
+      {
+        "id": 3,
+        "foodID": 3,
+        "ingredients": [
+          11,
+          1
+        ],
+        "cookerType": 2,
+        "cookTime": 7.0
+      },
+      {
+        "id": 4,
+        "foodID": 4,
+        "ingredients": [
+          12
+        ],
+        "cookerType": 2,
+        "cookTime": 7.0
+      },
+      {
+        "id": 5,
+        "foodID": 5,
+        "ingredients": [
+          2,
+          7,
+          8
+        ],
+        "cookerType": 2,
+        "cookTime": 12.0
+      },
+      {
+        "id": 6,
+        "foodID": 6,
+        "ingredients": [
+          15,
+          4
+        ],
+        "cookerType": 2,
+        "cookTime": 18.0
+      },
+      {
+        "id": 7,
+        "foodID": 8,
+        "ingredients": [
+          1
+        ],
+        "cookerType": 5,
+        "cookTime": 6.0
+      },
+      {
+        "id": 8,
+        "foodID": 9,
+        "ingredients": [
+          7,
+          11
+        ],
+        "cookerType": 5,
+        "cookTime": 8.0
+      },
+      {
+        "id": 9,
+        "foodID": 10,
+        "ingredients": [
+          19
+        ],
+        "cookerType": 5,
+        "cookTime": 12.0
+      },
+      {
+        "id": 10,
+        "foodID": 11,
+        "ingredients": [
+          1
+        ],
+        "cookerType": 3,
+        "cookTime": 8.0
+      },
+      {
+        "id": 11,
+        "foodID": 12,
+        "ingredients": [
+          9,
+          5
+        ],
+        "cookerType": 5,
+        "cookTime": 5.0
+      },
+      {
+        "id": 12,
+        "foodID": 13,
+        "ingredients": [
+          7,
+          12
+        ],
+        "cookerType": 3,
+        "cookTime": 8.0
+      },
+      {
+        "id": 13,
+        "foodID": 14,
+        "ingredients": [
+          6
+        ],
+        "cookerType": 3,
+        "cookTime": 6.0
+      },
+      {
+        "id": 14,
+        "foodID": 15,
+        "ingredients": [
+          6,
+          8,
+          15
+        ],
+        "cookerType": 1,
+        "cookTime": 8.0
+      },
+      {
+        "id": 15,
+        "foodID": 16,
+        "ingredients": [
+          1
+        ],
+        "cookerType": 1,
+        "cookTime": 7.0
+      },
+      {
+        "id": 16,
+        "foodID": 17,
+        "ingredients": [
+          2
+        ],
+        "cookerType": 1,
+        "cookTime": 7.0
+      },
+      {
+        "id": 17,
+        "foodID": 18,
+        "ingredients": [
+          12
+        ],
+        "cookerType": 3,
+        "cookTime": 7.0
+      },
+      {
+        "id": 18,
+        "foodID": 19,
+        "ingredients": [
+          6,
+          7,
+          8
+        ],
+        "cookerType": 5,
+        "cookTime": 5.0
+      },
+      {
+        "id": 19,
+        "foodID": 20,
+        "ingredients": [
+          20,
+          12,
+          10
+        ],
+        "cookerType": 1,
+        "cookTime": 12.0
+      },
+      {
+        "id": 20,
+        "foodID": 21,
+        "ingredients": [
+          5
+        ],
+        "cookerType": 1,
+        "cookTime": 5.0
+      },
+      {
+        "id": 21,
+        "foodID": 22,
+        "ingredients": [
+          10,
+          5,
+          11
+        ],
+        "cookerType": 1,
+        "cookTime": 5.0
+      },
+      {
+        "id": 22,
+        "foodID": 23,
+        "ingredients": [
+          13,
+          14
+        ],
+        "cookerType": 5,
+        "cookTime": 5.0
+      },
+      {
+        "id": 23,
+        "foodID": 25,
+        "ingredients": [
+          1,
+          0,
+          10
+        ],
+        "cookerType": 1,
+        "cookTime": 8.0
+      },
+      {
+        "id": 24,
+        "foodID": 27,
+        "ingredients": [
+          25
+        ],
+        "cookerType": 3,
+        "cookTime": 8.0
+      },
+      {
+        "id": 25,
+        "foodID": 28,
+        "ingredients": [
+          27,
+          0
+        ],
+        "cookerType": 4,
+        "cookTime": 3.0
+      },
+      {
+        "id": 26,
+        "foodID": 30,
+        "ingredients": [
+          15,
+          28,
+          20
+        ],
+        "cookerType": 4,
+        "cookTime": 12.0
+      },
+      {
+        "id": 27,
+        "foodID": 31,
+        "ingredients": [
+          11
+        ],
+        "cookerType": 5,
+        "cookTime": 8.0
+      },
+      {
+        "id": 28,
+        "foodID": 32,
+        "ingredients": [
+          9
+        ],
+        "cookerType": 5,
+        "cookTime": 5.0
+      },
+      {
+        "id": 29,
+        "foodID": 35,
+        "ingredients": [
+          5
+        ],
+        "cookerType": 3,
+        "cookTime": 7.0
+      },
+      {
+        "id": 30,
+        "foodID": 36,
+        "ingredients": [
+          22,
+          24
+        ],
+        "cookerType": 4,
+        "cookTime": 8.0
+      },
+      {
+        "id": 31,
+        "foodID": 37,
+        "ingredients": [
+          13,
+          11
+        ],
+        "cookerType": 1,
+        "cookTime": 8.0
+      },
+      {
+        "id": 32,
+        "foodID": 38,
+        "ingredients": [
+          17
+        ],
+        "cookerType": 2,
+        "cookTime": 6.0
+      },
+      {
+        "id": 33,
+        "foodID": 39,
+        "ingredients": [
+          5
+        ],
+        "cookerType": 1,
+        "cookTime": 7.0
+      },
+      {
+        "id": 34,
+        "foodID": 40,
+        "ingredients": [
+          1
+        ],
+        "cookerType": 3,
+        "cookTime": 7.0
+      },
+      {
+        "id": 35,
+        "foodID": 7,
+        "ingredients": [
+          10
+        ],
+        "cookerType": 5,
+        "cookTime": 5.0
+      },
+      {
+        "id": 36,
+        "foodID": 24,
+        "ingredients": [
+          15,
+          16,
+          20
+        ],
+        "cookerType": 1,
+        "cookTime": 10.0
+      },
+      {
+        "id": 37,
+        "foodID": 26,
+        "ingredients": [
+          2,
+          16,
+          20,
+          18
+        ],
+        "cookerType": 1,
+        "cookTime": 8.0
+      },
+      {
+        "id": 38,
+        "foodID": 29,
+        "ingredients": [
+          26,
+          27
+        ],
+        "cookerType": 4,
+        "cookTime": 7.0
+      },
+      {
+        "id": 39,
+        "foodID": 33,
+        "ingredients": [
+          21,
+          34,
+          27
+        ],
+        "cookerType": 1,
+        "cookTime": 7.0
+      },
+      {
+        "id": 40,
+        "foodID": 34,
+        "ingredients": [
+          21,
+          34,
+          23
+        ],
+        "cookerType": 5,
+        "cookTime": 10.0
+      },
+      {
+        "id": 41,
+        "foodID": 62,
+        "ingredients": [
+          5,
+          35
+        ],
+        "cookerType": 3,
+        "cookTime": 5.0
+      },
+      {
+        "id": 42,
+        "foodID": 66,
+        "ingredients": [
+          33,
+          30
+        ],
+        "cookerType": 4,
+        "cookTime": 10.0
+      },
+      {
+        "id": 43,
+        "foodID": 51,
+        "ingredients": [
+          31,
+          28,
+          18,
+          22,
+          15
+        ],
+        "cookerType": 4,
+        "cookTime": 12.0
+      },
+      {
+        "id": 44,
+        "foodID": 52,
+        "ingredients": [
+          30,
+          24,
+          6,
+          7,
+          9
+        ],
+        "cookerType": 2,
+        "cookTime": 12.0
+      },
+      {
+        "id": 45,
+        "foodID": 58,
+        "ingredients": [
+          30,
+          31
+        ],
+        "cookerType": 5,
+        "cookTime": 7.0
+      },
+      {
+        "id": 46,
+        "foodID": 54,
+        "ingredients": [
+          32
+        ],
+        "cookerType": 5,
+        "cookTime": 7.0
+      },
+      {
+        "id": 47,
+        "foodID": 55,
+        "ingredients": [
+          32,
+          21
+        ],
+        "cookerType": 5,
+        "cookTime": 5.0
+      },
+      {
+        "id": 48,
+        "foodID": 53,
+        "ingredients": [
+          33,
+          32
+        ],
+        "cookerType": 5,
+        "cookTime": 8.0
+      },
+      {
+        "id": 49,
+        "foodID": 64,
+        "ingredients": [
+          5,
+          1,
+          35
+        ],
+        "cookerType": 3,
+        "cookTime": 6.0
+      },
+      {
+        "id": 50,
+        "foodID": 65,
+        "ingredients": [
+          11,
+          35
+        ],
+        "cookerType": 1,
+        "cookTime": 8.0
+      },
+      {
+        "id": 51,
+        "foodID": 60,
+        "ingredients": [
+          31,
+          0,
+          10,
+          17
+        ],
+        "cookerType": 4,
+        "cookTime": 6.0
+      },
+      {
+        "id": 52,
+        "foodID": 56,
+        "ingredients": [
+          29,
+          30,
+          0,
+          33
+        ],
+        "cookerType": 5,
+        "cookTime": 10.0
+      },
+      {
+        "id": 53,
+        "foodID": 61,
+        "ingredients": [
+          31,
+          1,
+          13,
+          16,
+          3
+        ],
+        "cookerType": 2,
+        "cookTime": 13.0
+      },
+      {
+        "id": 54,
+        "foodID": 50,
+        "ingredients": [
+          22,
+          9,
+          1
+        ],
+        "cookerType": 1,
+        "cookTime": 6.0
+      },
+      {
+        "id": 55,
+        "foodID": 63,
+        "ingredients": [
+          17,
+          15
+        ],
+        "cookerType": 3,
+        "cookTime": 8.0
+      },
+      {
+        "id": 56,
+        "foodID": 44,
+        "ingredients": [
+          0,
+          28,
+          29,
+          30
+        ],
+        "cookerType": 3,
+        "cookTime": 7.0
+      },
+      {
+        "id": 57,
+        "foodID": 42,
+        "ingredients": [
+          7,
+          17,
+          28,
+          29
+        ],
+        "cookerType": 4,
+        "cookTime": 6.0
+      },
+      {
+        "id": 58,
+        "foodID": 43,
+        "ingredients": [
+          16,
+          30,
+          0,
+          29,
+          18
+        ],
+        "cookerType": 3,
+        "cookTime": 14.0
+      },
+      {
+        "id": 59,
+        "foodID": 57,
+        "ingredients": [
+          4,
+          3,
+          33
+        ],
+        "cookerType": 4,
+        "cookTime": 8.0
+      },
+      {
+        "id": 60,
+        "foodID": 41,
+        "ingredients": [
+          16,
+          29
+        ],
+        "cookerType": 3,
+        "cookTime": 7.0
+      },
+      {
+        "id": 61,
+        "foodID": 49,
+        "ingredients": [
+          1,
+          24
+        ],
+        "cookerType": 2,
+        "cookTime": 7.0
+      },
+      {
+        "id": 62,
+        "foodID": 46,
+        "ingredients": [
+          29,
+          30
+        ],
+        "cookerType": 4,
+        "cookTime": 7.0
+      },
+      {
+        "id": 63,
+        "foodID": 47,
+        "ingredients": [
+          13,
+          28
+        ],
+        "cookerType": 3,
+        "cookTime": 10.0
+      },
+      {
+        "id": 64,
+        "foodID": 48,
+        "ingredients": [
+          17,
+          7,
+          29
+        ],
+        "cookerType": 4,
+        "cookTime": 9.0
+      },
+      {
+        "id": 65,
+        "foodID": 45,
+        "ingredients": [
+          24,
+          30,
+          0
+        ],
+        "cookerType": 3,
+        "cookTime": 9.0
+      },
+      {
+        "id": 66,
+        "foodID": 59,
+        "ingredients": [
+          28,
+          1
+        ],
+        "cookerType": 3,
+        "cookTime": 10.0
+      },
+      {
+        "id": 67,
+        "foodID": 67,
+        "ingredients": [
+          27,
+          5,
+          24,
+          0
+        ],
+        "cookerType": 5,
+        "cookTime": 8.0
+      },
+      {
+        "id": 68,
+        "foodID": 68,
+        "ingredients": [
+          5,
+          35,
+          2,
+          7
+        ],
+        "cookerType": 5,
+        "cookTime": 8.0
+      },
+      {
+        "id": 69,
+        "foodID": 69,
+        "ingredients": [
+          27,
+          8,
+          6,
+          24
+        ],
+        "cookerType": 5,
+        "cookTime": 8.0
+      },
+      {
+        "id": 70,
+        "foodID": 70,
+        "ingredients": [
+          5,
+          29,
+          24,
+          7
+        ],
+        "cookerType": 5,
+        "cookTime": 8.0
+      },
+      {
+        "id": 71,
+        "foodID": 71,
+        "ingredients": [
+          30
+        ],
+        "cookerType": 1,
+        "cookTime": 5.0
+      },
+      {
+        "id": 72,
+        "foodID": 72,
+        "ingredients": [
+          32
+        ],
+        "cookerType": 1,
+        "cookTime": 5.0
+      }
+    ]
+  }
+}

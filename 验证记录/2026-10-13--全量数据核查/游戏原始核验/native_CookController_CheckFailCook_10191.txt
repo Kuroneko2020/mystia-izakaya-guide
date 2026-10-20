@@ -1,0 +1,124 @@
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180524D80: 48 89 5C 24 10     mov         qword ptr [rsp+10h],rbx
+  0000000180524D85: 57                 push        rdi
+  0000000180524D86: 48 83 EC 30        sub         rsp,30h
+  0000000180524D8A: 80 3D 74 70 E4 03  cmp         byte ptr [000000018436BE05h],0
+                    00
+  0000000180524D91: 48 8B FA           mov         rdi,rdx
+  0000000180524D94: 0F 29 74 24 20     movaps      xmmword ptr [rsp+20h],xmm6
+  0000000180524D99: 0F 28 F2           movaps      xmm6,xmm2
+  0000000180524D9C: 75 43              jne         0000000180524DE1
+  0000000180524D9E: 48 8D 0D E3 96 C1  lea         rcx,[000000018413E488h]
+                    03
+  0000000180524DA5: E8 D6 81 E3 FF     call        000000018035CF80
+  0000000180524DAA: 48 8D 0D 67 AE C4  lea         rcx,[000000018416FC18h]
+                    03
+  0000000180524DB1: E8 CA 81 E3 FF     call        000000018035CF80
+  0000000180524DB6: 48 8D 0D DB C9 CA  lea         rcx,[00000001841D1798h]
+                    03
+  0000000180524DBD: E8 BE 81 E3 FF     call        000000018035CF80
+  0000000180524DC2: 48 8D 0D 07 1D C9  lea         rcx,[00000001841B6AD0h]
+                    03
+  0000000180524DC9: E8 B2 81 E3 FF     call        000000018035CF80
+  0000000180524DCE: 48 8D 0D 8B D3 C2  lea         rcx,[0000000184152160h]
+                    03
+  0000000180524DD5: E8 A6 81 E3 FF     call        000000018035CF80
+  0000000180524DDA: C6 05 24 70 E4 03  mov         byte ptr [000000018436BE05h],1
+                    01
+  0000000180524DE1: 48 8B 0D 78 D3 C2  mov         rcx,qword ptr [0000000184152160h]
+                    03
+  0000000180524DE8: 48 89 74 24 40     mov         qword ptr [rsp+40h],rsi
+  0000000180524DED: E8 CE 82 E3 FF     call        000000018035D0C0
+  0000000180524DF2: 48 8B D8           mov         rbx,rax
+  0000000180524DF5: 48 85 C0           test        rax,rax
+  0000000180524DF8: 0F 84 14 01 00 00  je          0000000180524F12
+  0000000180524DFE: 33 D2              xor         edx,edx
+  0000000180524E00: 48 8B C8           mov         rcx,rax
+  0000000180524E03: E8 C8 3A EC FF     call        00000001803E88D0
+  0000000180524E08: 48 8D 4B 10        lea         rcx,[rbx+10h]
+  0000000180524E0C: 48 89 7B 10        mov         qword ptr [rbx+10h],rdi
+  0000000180524E10: 48 8B D7           mov         rdx,rdi
+  0000000180524E13: E8 98 7C E3 FF     call        000000018035CAB0
+  0000000180524E18: 80 3D E8 64 E4 03  cmp         byte ptr [000000018436B307h],0
+                    00
+  0000000180524E1F: 75 13              jne         0000000180524E34
+  0000000180524E21: 48 8D 0D 18 2D C4  lea         rcx,[0000000184167B40h]
+                    03
+  0000000180524E28: E8 53 81 E3 FF     call        000000018035CF80
+  0000000180524E2D: C6 05 D3 64 E4 03  mov         byte ptr [000000018436B307h],1
+                    01
+  0000000180524E34: 66 0F 6F 05 B4 6E  movdqa      xmm0,xmmword ptr [0000000182EABCF0h]
+                    98 02
+  0000000180524E3C: 0F 57 D2           xorps       xmm2,xmm2
+  0000000180524E3F: 48 8B 05 FA 2C C4  mov         rax,qword ptr [0000000184167B40h]
+                    03
+  0000000180524E46: F3 0F 5C D6        subss       xmm2,xmm6
+  0000000180524E4A: 0F 54 F0           andps       xmm6,xmm0
+  0000000180524E4D: 0F 57 C9           xorps       xmm1,xmm1
+  0000000180524E50: 0F 54 C8           andps       xmm1,xmm0
+  0000000180524E53: F3 0F 5F F1        maxss       xmm6,xmm1
+  0000000180524E57: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  0000000180524E5E: 0F 54 D0           andps       xmm2,xmm0
+  0000000180524E61: F3 0F 10 01        movss       xmm0,dword ptr [rcx]
+  0000000180524E65: F3 0F 59 05 2F 6E  mulss       xmm0,dword ptr [0000000182EABC9Ch]
+                    98 02
+  0000000180524E6D: F3 0F 59 35 EB 6D  mulss       xmm6,dword ptr [0000000182EABC60h]
+                    98 02
+  0000000180524E75: F3 0F 5F F0        maxss       xmm6,xmm0
+  0000000180524E79: 0F 2F F2           comiss      xmm6,xmm2
+  0000000180524E7C: 0F 87 8C 00 00 00  ja          0000000180524F0E
+  0000000180524E82: 48 8B 0D 0F C9 CA  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  0000000180524E89: E8 C2 70 BE 00     call        000000018110BF50
+  0000000180524E8E: 48 85 C0           test        rax,rax
+  0000000180524E91: 74 7F              je          0000000180524F12
+  0000000180524E93: 45 33 C0           xor         r8d,r8d
+  0000000180524E96: BA 6E 00 00 00     mov         edx,6Eh
+  0000000180524E9B: 48 8B C8           mov         rcx,rax
+  0000000180524E9E: E8 FD 58 FC FF     call        00000001804EA7A0
+  0000000180524EA3: 84 C0              test        al,al
+  0000000180524EA5: 74 17              je          0000000180524EBE
+  0000000180524EA7: 32 C0              xor         al,al
+  0000000180524EA9: 48 8B 74 24 40     mov         rsi,qword ptr [rsp+40h]
+  0000000180524EAE: 48 8B 5C 24 48     mov         rbx,qword ptr [rsp+48h]
+  0000000180524EB3: 0F 28 74 24 20     movaps      xmm6,xmmword ptr [rsp+20h]
+  0000000180524EB8: 48 83 C4 30        add         rsp,30h
+  0000000180524EBC: 5F                 pop         rdi
+  0000000180524EBD: C3                 ret
+  0000000180524EBE: 48 8B 4B 10        mov         rcx,qword ptr [rbx+10h]
+  0000000180524EC2: 48 85 C9           test        rcx,rcx
+  0000000180524EC5: 74 4B              je          0000000180524F12
+  0000000180524EC7: 33 D2              xor         edx,edx
+  0000000180524EC9: E8 D2 4E 16 00     call        0000000180689DA0
+  0000000180524ECE: 48 8B 0D 43 AD C4  mov         rcx,qword ptr [000000018416FC18h]
+                    03
+  0000000180524ED5: 48 8B F0           mov         rsi,rax
+  0000000180524ED8: E8 E3 81 E3 FF     call        000000018035D0C0
+  0000000180524EDD: 48 8B F8           mov         rdi,rax
+  0000000180524EE0: 48 85 C0           test        rax,rax
+  0000000180524EE3: 74 2D              je          0000000180524F12
+  0000000180524EE5: 4C 8B 05 E4 1B C9  mov         r8,qword ptr [00000001841B6AD0h]
+                    03
+  0000000180524EEC: 45 33 C9           xor         r9d,r9d
+  0000000180524EEF: 48 8B D3           mov         rdx,rbx
+  0000000180524EF2: 48 8B C8           mov         rcx,rax
+  0000000180524EF5: E8 C6 A5 FE FF     call        000000018050F4C0
+  0000000180524EFA: 4C 8B 05 87 95 C1  mov         r8,qword ptr [000000018413E488h]
+                    03
+  0000000180524F01: 48 8B D7           mov         rdx,rdi
+  0000000180524F04: 48 8B CE           mov         rcx,rsi
+  0000000180524F07: E8 C4 0E 82 00     call        0000000180D45DD0
+  0000000180524F0C: EB 9B              jmp         0000000180524EA9
+  0000000180524F0E: B0 01              mov         al,1
+  0000000180524F10: EB 97              jmp         0000000180524EA9
+  0000000180524F12: E8 09 82 E3 FF     call        000000018035D120
+  0000000180524F17: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

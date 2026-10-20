@@ -1,0 +1,52 @@
+# OrderBase::get_Price
+# {"declaringType": "OrderBase", "typeIndex": 1447, "image": "Assembly-CSharp.dll", "name": "get_Price", "metadataMethodIndex": 8579, "token": "0x6002184", "methodPointerIndex": 8579, "va": "0x1805131b0", "rva": "0x5131b0", "endRva": "0x5131c7", "returnTypeIndex": 26152, "parameters": []}
+# range end RVA 0x513210; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001805131B0: 40 53              push        rbx
+  00000001805131B2: 48 83 EC 20        sub         rsp,20h
+  00000001805131B6: 48 83 79 30 00     cmp         qword ptr [rcx+30h],0
+  00000001805131BB: 48 8B D9           mov         rbx,rcx
+  00000001805131BE: 74 36              je          00000001805131F6
+  00000001805131C0: 48 83 79 28 00     cmp         qword ptr [rcx+28h],0
+  00000001805131C5: 76 2F              jbe         00000001805131F6
+  00000001805131C7: 48 89 7C 24 30     mov         qword ptr [rsp+30h],rdi
+  00000001805131CC: 48 8B 49 30        mov         rcx,qword ptr [rcx+30h]
+  00000001805131D0: 33 D2              xor         edx,edx
+  00000001805131D2: E8 D9 F1 15 00     call        00000001806723B0 ; GameData.Core.TradableObjectBase::get_TrueValue [MI 14127, RVA 0x6723b0]
+  00000001805131D7: 48 8B 4B 28        mov         rcx,qword ptr [rbx+28h]
+  00000001805131DB: 8B F8              mov         edi,eax
+  00000001805131DD: 48 85 C9           test        rcx,rcx
+  00000001805131E0: 74 1C              je          00000001805131FE
+  00000001805131E2: 33 D2              xor         edx,edx
+  00000001805131E4: E8 C7 F1 15 00     call        00000001806723B0 ; GameData.Core.TradableObjectBase::get_TrueValue [MI 14127, RVA 0x6723b0]
+  00000001805131E9: 03 C7              add         eax,edi
+  00000001805131EB: 48 8B 7C 24 30     mov         rdi,qword ptr [rsp+30h]
+  00000001805131F0: 48 83 C4 20        add         rsp,20h
+  00000001805131F4: 5B                 pop         rbx
+  00000001805131F5: C3                 ret
+  00000001805131F6: 33 C0              xor         eax,eax
+  00000001805131F8: 48 83 C4 20        add         rsp,20h
+  00000001805131FC: 5B                 pop         rbx
+  00000001805131FD: C3                 ret
+  00000001805131FE: E8 1D 9F E4 FF     call        000000018035D120
+  0000000180513203: CC                 int         3
+  0000000180513204: CC                 int         3
+  0000000180513205: CC                 int         3
+  0000000180513206: CC                 int         3
+  0000000180513207: CC                 int         3
+  0000000180513208: CC                 int         3
+  0000000180513209: CC                 int         3
+  000000018051320A: CC                 int         3
+  000000018051320B: CC                 int         3
+  000000018051320C: CC                 int         3
+  000000018051320D: CC                 int         3
+  000000018051320E: CC                 int         3
+  000000018051320F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

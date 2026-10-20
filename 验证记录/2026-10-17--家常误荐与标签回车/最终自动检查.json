@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "command": "node.exe verify_ryotei.cjs",
+      "exitCode": 0,
+      "output": "PASS: 负向菜品/加料特例同步到详情、备菜与覆盖榜，保留其他客人，显示特殊判定原因\nPASS: 详情标签中文/全拼/首字母回车、去重、退格、输入法保护、失败提示、歧义拒选、焦点节点保持及鼠标一致性\nPASS: 源码整模块VM — 详情三表document分页、同候选数换客重置、history页签/查询/chips/页码/scrollXY、快照不可变、精确定位、恢复帧竞态\nPASS: 攻略 JSON、离线资源、脚本语法、11 页导航、地区/共享客人、精确定位与幂等路由、阅读状态恢复、分页、客人加料列头排序、详情关闭与连续切换\n"
+    },
+    {
+      "command": "node.exe verify_full_recommendations.cjs",
+      "exitCode": 0,
+      "output": "PASS: 106 位客人的全部料理和酒水匹配集合、厌恶/原生彩蛋排除、食材特例、动态标签、无上限、缓存。\n"
+    },
+    {
+      "command": "git -C",
+      "exitCode": 0,
+      "output": ""
+    }
+  ]
+}

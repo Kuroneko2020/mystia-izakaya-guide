@@ -1,0 +1,23 @@
+# <>c__DisplayClass41_0::<OnPanelOpen>g__OnTrayElementSubmited|2
+# {"declaringType": "<>c__DisplayClass41_0", "typeIndex": 1745, "image": "Assembly-CSharp.dll", "name": "<OnPanelOpen>g__OnTrayElementSubmited|2", "metadataMethodIndex": 10588, "token": "0x600295d", "methodPointerIndex": 10588, "va": "0x18054add0", "rva": "0x54add0", "endRva": "0x54adef", "returnTypeIndex": 33376, "parameters": [{"index": 8028, "name": "sellable", "typeIndex": 30383}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x54add0..0x54adf0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018054ADD0: 48 83 EC 28        sub         rsp,28h
+  000000018054ADD4: 48 8B 49 10        mov         rcx,qword ptr [rcx+10h]
+  000000018054ADD8: 48 85 C9           test        rcx,rcx
+  000000018054ADDB: 74 0C              je          000000018054ADE9
+  000000018054ADDD: 45 33 C0           xor         r8d,r8d
+  000000018054ADE0: 48 83 C4 28        add         rsp,28h
+  000000018054ADE4: E9 67 4A 00 00     jmp         000000018054F850 ; NightScene.UI.GuestManagementUtility.WorkSceneServePannel::Send [MI 10575, RVA 0x54f850]
+  000000018054ADE9: E8 32 23 E1 FF     call        000000018035D120
+  000000018054ADEE: CC                 int         3
+  000000018054ADEF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

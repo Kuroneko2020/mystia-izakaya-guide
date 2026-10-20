@@ -1,0 +1,3371 @@
+{
+  "gameCoverRules": [
+    [
+      "重油",
+      "清淡"
+    ],
+    [
+      "饱腹",
+      "下酒"
+    ],
+    [
+      "肉",
+      "素"
+    ],
+    [
+      "水产",
+      "素"
+    ],
+    [
+      "昂贵",
+      "实惠"
+    ],
+    [
+      "大份",
+      "小巧"
+    ],
+    [
+      "灼热",
+      "凉爽"
+    ]
+  ],
+  "localCoverRules": [
+    [
+      "昂贵",
+      "实惠"
+    ],
+    [
+      "大份",
+      "小巧"
+    ],
+    [
+      "肉",
+      "素"
+    ],
+    [
+      "重油",
+      "清淡"
+    ],
+    [
+      "饱腹",
+      "下酒"
+    ],
+    [
+      "灼热",
+      "凉爽"
+    ]
+  ],
+  "missingCoverRulesInSite": [
+    [
+      "水产",
+      "素"
+    ]
+  ],
+  "extraCoverRulesInSite": [],
+  "coverRuleDifferenceCount": 3,
+  "coverRuleDifferences": [
+    {
+      "id": 9,
+      "name": "温暖饭团",
+      "gameRawTags": [
+        "水产",
+        "素",
+        "家常",
+        "饱腹",
+        "和风",
+        "灼热"
+      ],
+      "siteEffectiveIfFixedLarge": [
+        "水产",
+        "素",
+        "家常",
+        "饱腹",
+        "和风",
+        "灼热"
+      ],
+      "gameRuleEffective": [
+        "水产",
+        "家常",
+        "饱腹",
+        "和风",
+        "灼热"
+      ],
+      "lostByGameRule": [
+        "素"
+      ],
+      "siteRowTags": "水产、素、家常、饱腹、和风、灼热"
+    },
+    {
+      "id": 13,
+      "name": "红烧鳗鱼",
+      "gameRawTags": [
+        "水产",
+        "素",
+        "重油",
+        "鲜",
+        "招牌"
+      ],
+      "siteEffectiveIfFixedLarge": [
+        "水产",
+        "素",
+        "重油",
+        "鲜",
+        "招牌"
+      ],
+      "gameRuleEffective": [
+        "水产",
+        "重油",
+        "鲜",
+        "招牌"
+      ],
+      "lostByGameRule": [
+        "素"
+      ],
+      "siteRowTags": "水产、素、重油、鲜、招牌"
+    },
+    {
+      "id": 34,
+      "name": "北极甜虾蜜桃色拉",
+      "gameRawTags": [
+        "水产",
+        "素",
+        "清淡",
+        "甜",
+        "适合拍照",
+        "不可思议",
+        "果味"
+      ],
+      "siteEffectiveIfFixedLarge": [
+        "水产",
+        "素",
+        "清淡",
+        "甜",
+        "适合拍照",
+        "不可思议",
+        "果味"
+      ],
+      "gameRuleEffective": [
+        "水产",
+        "清淡",
+        "甜",
+        "适合拍照",
+        "不可思议",
+        "果味"
+      ],
+      "lostByGameRule": [
+        "素"
+      ],
+      "siteRowTags": "水产、素、清淡、甜、适合拍照、不可思议、果味"
+    }
+  ],
+  "recommendationImpactOfCoverRule": {
+    "removed": [
+      {
+        "guest": "绵月丰姬",
+        "id": 13,
+        "name": "红烧鳗鱼",
+        "oldHits": [
+          "素"
+        ]
+      },
+      {
+        "guest": "骨女",
+        "id": 9,
+        "name": "温暖饭团",
+        "oldHits": [
+          "素"
+        ]
+      },
+      {
+        "guest": "仙人",
+        "id": 13,
+        "name": "红烧鳗鱼",
+        "oldHits": [
+          "素"
+        ]
+      },
+      {
+        "guest": "仙人",
+        "id": 9,
+        "name": "温暖饭团",
+        "oldHits": [
+          "素"
+        ]
+      }
+    ],
+    "added": [
+      {
+        "guest": "西行寺幽幽子",
+        "id": 9,
+        "name": "温暖饭团",
+        "newHits": [
+          "和风",
+          "水产",
+          "饱腹"
+        ]
+      },
+      {
+        "guest": "犬走椛",
+        "id": 13,
+        "name": "红烧鳗鱼",
+        "newHits": [
+          "重油"
+        ]
+      },
+      {
+        "guest": "橙",
+        "id": 13,
+        "name": "红烧鳗鱼",
+        "newHits": [
+          "水产",
+          "重油"
+        ]
+      },
+      {
+        "guest": "河城荷取",
+        "id": 9,
+        "name": "温暖饭团",
+        "newHits": [
+          "水产"
+        ]
+      },
+      {
+        "guest": "星熊勇仪",
+        "id": 13,
+        "name": "红烧鳗鱼",
+        "newHits": [
+          "招牌"
+        ]
+      },
+      {
+        "guest": "村纱水蜜",
+        "id": 13,
+        "name": "红烧鳗鱼",
+        "newHits": [
+          "鲜"
+        ]
+      },
+      {
+        "guest": "西行寺幽幽子",
+        "id": 13,
+        "name": "红烧鳗鱼",
+        "newHits": [
+          "水产"
+        ]
+      },
+      {
+        "guest": "橙",
+        "id": 34,
+        "name": "北极甜虾蜜桃色拉",
+        "newHits": [
+          "水产",
+          "甜"
+        ]
+      },
+      {
+        "guest": "河城荷取",
+        "id": 13,
+        "name": "红烧鳗鱼",
+        "newHits": [
+          "招牌",
+          "水产"
+        ]
+      },
+      {
+        "guest": "河城荷取",
+        "id": 34,
+        "name": "北极甜虾蜜桃色拉",
+        "newHits": [
+          "水产"
+        ]
+      },
+      {
+        "guest": "村纱水蜜",
+        "id": 9,
+        "name": "温暖饭团",
+        "newHits": [
+          "饱腹"
+        ]
+      },
+      {
+        "guest": "立空汐",
+        "id": 9,
+        "name": "温暖饭团",
+        "newHits": [
+          "和风"
+        ]
+      },
+      {
+        "guest": "星熊勇仪",
+        "id": 9,
+        "name": "温暖饭团",
+        "newHits": [
+          "和风"
+        ]
+      }
+    ],
+    "changedMatchCount": [
+      {
+        "guest": "仙人",
+        "id": 34,
+        "name": "北极甜虾蜜桃色拉",
+        "oldMatchCount": 3,
+        "newMatchCount": 2
+      },
+      {
+        "guest": "魔法使",
+        "id": 34,
+        "name": "北极甜虾蜜桃色拉",
+        "oldMatchCount": 3,
+        "newMatchCount": 2
+      },
+      {
+        "guest": "骨女",
+        "id": 34,
+        "name": "北极甜虾蜜桃色拉",
+        "oldMatchCount": 2,
+        "newMatchCount": 1
+      },
+      {
+        "guest": "上白泽慧音",
+        "id": 34,
+        "name": "北极甜虾蜜桃色拉",
+        "oldMatchCount": 2,
+        "newMatchCount": 1
+      },
+      {
+        "guest": "僵尸",
+        "id": 9,
+        "name": "温暖饭团",
+        "oldMatchCount": 6,
+        "newMatchCount": 5
+      },
+      {
+        "guest": "僵尸",
+        "id": 13,
+        "name": "红烧鳗鱼",
+        "oldMatchCount": 5,
+        "newMatchCount": 4
+      },
+      {
+        "guest": "绵月丰姬",
+        "id": 9,
+        "name": "温暖饭团",
+        "oldMatchCount": 2,
+        "newMatchCount": 1
+      },
+      {
+        "guest": "魔法使",
+        "id": 9,
+        "name": "温暖饭团",
+        "oldMatchCount": 2,
+        "newMatchCount": 1
+      },
+      {
+        "guest": "魔法使",
+        "id": 13,
+        "name": "红烧鳗鱼",
+        "oldMatchCount": 2,
+        "newMatchCount": 1
+      },
+      {
+        "guest": "僵尸",
+        "id": 34,
+        "name": "北极甜虾蜜桃色拉",
+        "oldMatchCount": 7,
+        "newMatchCount": 6
+      },
+      {
+        "guest": "霍青娥",
+        "id": 34,
+        "name": "北极甜虾蜜桃色拉",
+        "oldMatchCount": 3,
+        "newMatchCount": 2
+      },
+      {
+        "guest": "绵月丰姬",
+        "id": 34,
+        "name": "北极甜虾蜜桃色拉",
+        "oldMatchCount": 3,
+        "newMatchCount": 2
+      },
+      {
+        "guest": "比那名居天子",
+        "id": 34,
+        "name": "北极甜虾蜜桃色拉",
+        "oldMatchCount": 5,
+        "newMatchCount": 4
+      },
+      {
+        "guest": "上白泽慧音",
+        "id": 9,
+        "name": "温暖饭团",
+        "oldMatchCount": 3,
+        "newMatchCount": 2
+      },
+      {
+        "guest": "骨女",
+        "id": 13,
+        "name": "红烧鳗鱼",
+        "oldMatchCount": 2,
+        "newMatchCount": 1
+      }
+    ]
+  },
+  "beveragePriceTagRule": {
+    "gameNative": "GameAssembly.dll Sellable.get_PriceTag: price < 20 adds -2, price > 60 adds -3 (strict; 20/60 do not trigger); Sellable is shared base of Food and Beverage",
+    "foodImplementedLocally": true,
+    "beverageImplementedLocally": false,
+    "beverageTagNameNote": "game beverage tag -2 is named 便宜, food tag -2 is named 实惠",
+    "expensiveBeverages": [
+      {
+        "id": 7,
+        "name": "天狗踊",
+        "price": 70
+      },
+      {
+        "id": 10,
+        "name": "水獭祭",
+        "price": 130
+      },
+      {
+        "id": 11,
+        "name": "晓",
+        "price": 400
+      },
+      {
+        "id": 15,
+        "name": "红雾",
+        "price": 75
+      },
+      {
+        "id": 16,
+        "name": "尼格罗尼",
+        "price": 100
+      },
+      {
+        "id": 17,
+        "name": "教父",
+        "price": 180
+      },
+      {
+        "id": 18,
+        "name": "风祝",
+        "price": 130
+      },
+      {
+        "id": 20,
+        "name": "十四夜",
+        "price": 440
+      },
+      {
+        "id": 21,
+        "name": "火鼠裘",
+        "price": 420
+      },
+      {
+        "id": 1002,
+        "name": "妖精雨露",
+        "price": 80
+      },
+      {
+        "id": 1000,
+        "name": "大吟酿",
+        "price": 210
+      },
+      {
+        "id": 1001,
+        "name": "咖啡",
+        "price": 62
+      },
+      {
+        "id": 2000,
+        "name": "鬼杀",
+        "price": 320
+      },
+      {
+        "id": 3001,
+        "name": "麒麟",
+        "price": 180
+      },
+      {
+        "id": 4000,
+        "name": "天地无用",
+        "price": 150
+      },
+      {
+        "id": 4001,
+        "name": "伶人醉",
+        "price": 100
+      },
+      {
+        "id": 5000,
+        "name": "海的女儿",
+        "price": 80
+      },
+      {
+        "id": 5001,
+        "name": "魔界咖啡",
+        "price": 210
+      },
+      {
+        "id": 5002,
+        "name": "莫吉托爆浆球",
+        "price": 300
+      },
+      {
+        "id": 5004,
+        "name": "卫星冰咖啡",
+        "price": 96
+      }
+    ],
+    "economicalBeverages": [
+      {
+        "id": 0,
+        "name": "绿茶",
+        "price": 1
+      },
+      {
+        "id": 1,
+        "name": "果味High Ball",
+        "price": 12
+      },
+      {
+        "id": 2,
+        "name": "果味SOUR",
+        "price": 12
+      },
+      {
+        "id": 3,
+        "name": "淇",
+        "price": 18
+      },
+      {
+        "id": 4,
+        "name": "超ZUN啤酒",
+        "price": 18
+      },
+      {
+        "id": 24,
+        "name": "牛奶",
+        "price": 16
+      }
+    ],
+    "guestPreferenceImpact": [],
+    "impact": "no guest references these tags in beverage preferences, so recommendation sets unchanged; beverage catalog display may lack these tags if the game derives them"
+  },
+  "fourIngredientOneExtraFlip": {
+    "rule": "total ingredient count (base + extra) >= 5 adds 大份 (-1), which covers 小巧 (28)",
+    "affectedDishCount": 26,
+    "dishes": [
+      {
+        "id": 26,
+        "name": "岩浆",
+        "before": [
+          "昂贵",
+          "肉",
+          "水产",
+          "高级",
+          "饱腹",
+          "灼热",
+          "力量涌现",
+          "菌类"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "肉",
+          "水产",
+          "高级",
+          "饱腹",
+          "灼热",
+          "力量涌现",
+          "菌类"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "牛肉＋和牛＋河豚＋松露",
+        "siteConflictTags": "凉爽"
+      },
+      {
+        "id": 42,
+        "name": "意式烩饭",
+        "before": [
+          "昂贵",
+          "饱腹",
+          "西式",
+          "鲜",
+          "菌类"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "饱腹",
+          "西式",
+          "鲜",
+          "菌类"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "洋葱＋蘑菇＋竹笋＋黄油",
+        "siteConflictTags": "甜"
+      },
+      {
+        "id": 44,
+        "name": "班尼迪克蛋",
+        "before": [
+          "饱腹",
+          "西式",
+          "生",
+          "小巧"
+        ],
+        "afterOneExtra": [
+          "大份",
+          "饱腹",
+          "西式",
+          "生"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": [
+            "小巧"
+          ]
+        },
+        "ingredients": "鸡蛋＋竹笋＋黄油＋面粉",
+        "siteConflictTags": "甜、果味"
+      },
+      {
+        "id": 56,
+        "name": "月之恋人",
+        "before": [
+          "昂贵",
+          "甜",
+          "适合拍照",
+          "小巧",
+          "特产"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "甜",
+          "适合拍照",
+          "特产"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": [
+            "小巧"
+          ]
+        },
+        "ingredients": "黄油＋面粉＋鸡蛋＋月光草",
+        "siteConflictTags": "肉、水产、素"
+      },
+      {
+        "id": 60,
+        "name": "竹筒蒸蛋",
+        "before": [
+          "家常",
+          "清淡",
+          "菌类"
+        ],
+        "afterOneExtra": [
+          "大份",
+          "家常",
+          "清淡",
+          "菌类"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "竹子＋鸡蛋＋海苔＋蘑菇",
+        "siteConflictTags": "无"
+      },
+      {
+        "id": 67,
+        "name": "毛玉三色冰激凌",
+        "before": [
+          "昂贵",
+          "西式",
+          "甜",
+          "适合拍照",
+          "凉爽",
+          "梦幻"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "西式",
+          "甜",
+          "适合拍照",
+          "凉爽",
+          "梦幻"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "露水＋豆腐＋蜂蜜＋鸡蛋",
+        "siteConflictTags": "无"
+      },
+      {
+        "id": 68,
+        "name": "毛玉熔岩豆腐",
+        "before": [
+          "昂贵",
+          "素",
+          "中华",
+          "鲜",
+          "适合拍照",
+          "不可思议"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "素",
+          "中华",
+          "鲜",
+          "适合拍照",
+          "不可思议"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "豆腐＋辣椒＋牛肉＋洋葱",
+        "siteConflictTags": "无"
+      },
+      {
+        "id": 69,
+        "name": "猩红恶魔蛋糕",
+        "before": [
+          "西式",
+          "甜",
+          "适合拍照",
+          "猎奇",
+          "梦幻"
+        ],
+        "afterOneExtra": [
+          "大份",
+          "西式",
+          "甜",
+          "适合拍照",
+          "猎奇",
+          "梦幻"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "露水＋南瓜＋土豆＋蜂蜜",
+        "siteConflictTags": "无"
+      },
+      {
+        "id": 70,
+        "name": "无意识妖怪慕斯",
+        "before": [
+          "高级",
+          "西式",
+          "甜",
+          "适合拍照",
+          "梦幻"
+        ],
+        "afterOneExtra": [
+          "大份",
+          "高级",
+          "西式",
+          "甜",
+          "适合拍照",
+          "梦幻"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "豆腐＋黄油＋蜂蜜＋洋葱",
+        "siteConflictTags": "无"
+      },
+      {
+        "id": 1011,
+        "name": "蘑女的舞踏烩",
+        "before": [
+          "昂贵",
+          "水产",
+          "重油",
+          "咸",
+          "鲜",
+          "适合拍照",
+          "灼热",
+          "菌类",
+          "辣"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "水产",
+          "重油",
+          "咸",
+          "鲜",
+          "适合拍照",
+          "灼热",
+          "菌类",
+          "辣"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "蘑菇＋虾＋章鱼＋辣椒",
+        "siteConflictTags": "无"
+      },
+      {
+        "id": 1014,
+        "name": "七色羊羹",
+        "before": [
+          "昂贵",
+          "高级",
+          "甜",
+          "适合拍照",
+          "文化底蕴",
+          "不可思议",
+          "梦幻",
+          "果味"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "高级",
+          "甜",
+          "适合拍照",
+          "文化底蕴",
+          "不可思议",
+          "梦幻",
+          "果味"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "海苔＋葡萄＋露水＋幻昙华",
+        "siteConflictTags": "无"
+      },
+      {
+        "id": 2005,
+        "name": "兜甲蒸糕",
+        "before": [
+          "昂贵",
+          "高级",
+          "饱腹",
+          "鲜",
+          "生",
+          "招牌",
+          "适合拍照",
+          "力量涌现",
+          "猎奇",
+          "特产"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "高级",
+          "饱腹",
+          "鲜",
+          "生",
+          "招牌",
+          "适合拍照",
+          "力量涌现",
+          "猎奇",
+          "特产"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "面粉＋黑毛猪肉＋蜂蜜＋蝉蜕",
+        "siteConflictTags": "无"
+      },
+      {
+        "id": 2007,
+        "name": "巨人玉子烧",
+        "before": [
+          "高级",
+          "饱腹",
+          "和风",
+          "甜",
+          "力量涌现"
+        ],
+        "afterOneExtra": [
+          "大份",
+          "高级",
+          "饱腹",
+          "和风",
+          "甜",
+          "力量涌现"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "面粉＋面粉＋鸡蛋＋鸡蛋",
+        "siteConflictTags": "下酒"
+      },
+      {
+        "id": 2011,
+        "name": "燃尽布丁",
+        "before": [
+          "昂贵",
+          "甜",
+          "招牌",
+          "凉爽",
+          "力量涌现",
+          "小巧",
+          "梦幻",
+          "果味",
+          "酸"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "甜",
+          "招牌",
+          "凉爽",
+          "力量涌现",
+          "梦幻",
+          "果味",
+          "酸"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": [
+            "小巧"
+          ]
+        },
+        "ingredients": "葡萄＋蜂蜜＋柠檬＋柠檬",
+        "siteConflictTags": "重油、咸"
+      },
+      {
+        "id": 2013,
+        "name": "三文鱼天妇罗",
+        "before": [
+          "水产",
+          "高级",
+          "重油",
+          "鲜",
+          "小巧"
+        ],
+        "afterOneExtra": [
+          "大份",
+          "水产",
+          "高级",
+          "重油",
+          "鲜"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": [
+            "小巧"
+          ]
+        },
+        "ingredients": "三文鱼＋黄油＋鸡蛋＋面粉",
+        "siteConflictTags": "无"
+      },
+      {
+        "id": 3002,
+        "name": "惊吓！大冒险",
+        "before": [
+          "昂贵",
+          "适合拍照",
+          "力量涌现",
+          "猎奇",
+          "不可思议",
+          "梦幻",
+          "特产"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "适合拍照",
+          "力量涌现",
+          "猎奇",
+          "不可思议",
+          "梦幻",
+          "特产"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "蘑菇＋幻昙华＋蜂蜜＋奶油",
+        "siteConflictTags": "家常"
+      },
+      {
+        "id": 3007,
+        "name": "圣白莲子糕",
+        "before": [
+          "素",
+          "清淡",
+          "适合拍照",
+          "小巧",
+          "特产"
+        ],
+        "afterOneExtra": [
+          "大份",
+          "素",
+          "清淡",
+          "适合拍照",
+          "特产"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": [
+            "小巧"
+          ]
+        },
+        "ingredients": "白果＋莲子＋面粉＋黄油",
+        "siteConflictTags": "辣"
+      },
+      {
+        "id": 3014,
+        "name": "荷花鱼米盏",
+        "before": [
+          "昂贵",
+          "水产",
+          "传说",
+          "清淡",
+          "中华",
+          "文化底蕴",
+          "不可思议",
+          "梦幻"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "水产",
+          "传说",
+          "清淡",
+          "中华",
+          "文化底蕴",
+          "不可思议",
+          "梦幻"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "极上金枪鱼＋并蒂莲＋莲子＋露水",
+        "siteConflictTags": "无"
+      },
+      {
+        "id": 3017,
+        "name": "什锦天妇罗",
+        "before": [
+          "昂贵",
+          "肉",
+          "家常",
+          "重油",
+          "下酒",
+          "和风",
+          "招牌",
+          "力量涌现",
+          "菌类"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "肉",
+          "家常",
+          "重油",
+          "下酒",
+          "和风",
+          "招牌",
+          "力量涌现",
+          "菌类"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "黑毛猪肉＋松露＋八目鳗＋月光草",
+        "siteConflictTags": "无"
+      },
+      {
+        "id": 4016,
+        "name": "毒瘴花园",
+        "before": [
+          "水产",
+          "招牌",
+          "猎奇",
+          "毒"
+        ],
+        "afterOneExtra": [
+          "大份",
+          "水产",
+          "招牌",
+          "猎奇",
+          "毒"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "河豚＋梅子＋八目鳗＋白果",
+        "siteConflictTags": "无"
+      },
+      {
+        "id": 4017,
+        "name": "小小的甜蜜「毒药」",
+        "before": [
+          "昂贵",
+          "高级",
+          "甜",
+          "适合拍照",
+          "小巧",
+          "梦幻"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "高级",
+          "甜",
+          "适合拍照",
+          "梦幻"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": [
+            "小巧"
+          ]
+        },
+        "ingredients": "幻昙华＋奶油＋葡萄＋白果",
+        "siteConflictTags": "肉"
+      },
+      {
+        "id": 5004,
+        "name": "猫咪披萨",
+        "before": [
+          "昂贵",
+          "饱腹",
+          "西式",
+          "适合拍照",
+          "菌类"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "饱腹",
+          "西式",
+          "适合拍照",
+          "菌类"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "蘑菇＋洋葱＋西蓝花＋野猪肉",
+        "siteConflictTags": "凉爽"
+      },
+      {
+        "id": 5007,
+        "name": "海胆信玄饼",
+        "before": [
+          "昂贵",
+          "水产",
+          "高级",
+          "凉爽",
+          "小巧",
+          "梦幻"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "水产",
+          "高级",
+          "凉爽",
+          "梦幻"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": [
+            "小巧"
+          ]
+        },
+        "ingredients": "海胆＋金枪鱼＋银耳＋露水",
+        "siteConflictTags": "饱腹"
+      },
+      {
+        "id": 5010,
+        "name": "荷塘月色",
+        "before": [
+          "昂贵",
+          "高级",
+          "清淡",
+          "中华",
+          "甜",
+          "适合拍照",
+          "凉爽",
+          "文化底蕴"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "高级",
+          "清淡",
+          "中华",
+          "甜",
+          "适合拍照",
+          "凉爽",
+          "文化底蕴"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "葡萄＋薜荔＋奶油＋银耳",
+        "siteConflictTags": "肉、下酒、灼热、猎奇"
+      },
+      {
+        "id": 5013,
+        "name": "生命之源",
+        "before": [
+          "昂贵",
+          "高级",
+          "传说",
+          "清淡",
+          "生",
+          "菌类",
+          "不可思议",
+          "汤羹"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "高级",
+          "传说",
+          "清淡",
+          "生",
+          "菌类",
+          "不可思议",
+          "汤羹"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "可可豆＋银耳＋南瓜＋露水",
+        "siteConflictTags": "山珍"
+      },
+      {
+        "id": 5014,
+        "name": "火星",
+        "before": [
+          "昂贵",
+          "水产",
+          "高级",
+          "传说",
+          "海味",
+          "适合拍照",
+          "文化底蕴",
+          "不可思议",
+          "果味"
+        ],
+        "afterOneExtra": [
+          "昂贵",
+          "大份",
+          "水产",
+          "高级",
+          "传说",
+          "海味",
+          "适合拍照",
+          "文化底蕴",
+          "不可思议",
+          "果味"
+        ],
+        "changed": {
+          "added": [
+            "大份"
+          ],
+          "removed": []
+        },
+        "ingredients": "薜荔＋葡萄＋螃蟹＋露水",
+        "siteConflictTags": "山珍"
+      }
+    ],
+    "guestImpact": [
+      {
+        "guest": "上白泽慧音",
+        "recipe": "岩浆",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "岩浆",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "岩浆",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "岩浆",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "意式烩饭",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "意式烩饭",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "意式烩饭",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "意式烩饭",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "伊吹萃香",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "因幡帝",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "霍青娥",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "梅蒂欣",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃仙",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "绵月依姬",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "露易兹",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蹦蹦跳跳的三妖精",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "妖怪狐",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "河童",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "山童",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "森之妖精",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "迷之人形",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "地狱鸦",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "道士",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "僵尸",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "仙人",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "小人族",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃兰花精",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "玫瑰花精",
+        "recipe": "班尼迪克蛋",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "伊吹萃香",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "因幡帝",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "霍青娥",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "梅蒂欣",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃仙",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "绵月依姬",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "露易兹",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蹦蹦跳跳的三妖精",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "妖怪狐",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "河童",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "山童",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "森之妖精",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "迷之人形",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "地狱鸦",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "道士",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "僵尸",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "仙人",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "小人族",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃兰花精",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "玫瑰花精",
+        "recipe": "月之恋人",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "竹筒蒸蛋",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "竹筒蒸蛋",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "竹筒蒸蛋",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "竹筒蒸蛋",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "毛玉三色冰激凌",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "毛玉三色冰激凌",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "毛玉三色冰激凌",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "毛玉三色冰激凌",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "毛玉熔岩豆腐",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "毛玉熔岩豆腐",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "毛玉熔岩豆腐",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "毛玉熔岩豆腐",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "猩红恶魔蛋糕",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "猩红恶魔蛋糕",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "猩红恶魔蛋糕",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "猩红恶魔蛋糕",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "无意识妖怪慕斯",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "无意识妖怪慕斯",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "无意识妖怪慕斯",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "无意识妖怪慕斯",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "蘑女的舞踏烩",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "蘑女的舞踏烩",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "蘑女的舞踏烩",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "蘑女的舞踏烩",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "七色羊羹",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "七色羊羹",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "七色羊羹",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "七色羊羹",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "兜甲蒸糕",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "兜甲蒸糕",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "兜甲蒸糕",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "兜甲蒸糕",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "巨人玉子烧",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "巨人玉子烧",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "巨人玉子烧",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "巨人玉子烧",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "伊吹萃香",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "因幡帝",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "霍青娥",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "梅蒂欣",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃仙",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "绵月依姬",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "露易兹",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蹦蹦跳跳的三妖精",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "妖怪狐",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "河童",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "山童",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "森之妖精",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "迷之人形",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "地狱鸦",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "道士",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "僵尸",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "仙人",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "小人族",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃兰花精",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "玫瑰花精",
+        "recipe": "燃尽布丁",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "伊吹萃香",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "因幡帝",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "霍青娥",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "梅蒂欣",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃仙",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "绵月依姬",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "露易兹",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蹦蹦跳跳的三妖精",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "妖怪狐",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "河童",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "山童",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "森之妖精",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "迷之人形",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "地狱鸦",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "道士",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "僵尸",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "仙人",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "小人族",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃兰花精",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "玫瑰花精",
+        "recipe": "三文鱼天妇罗",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "惊吓！大冒险",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "惊吓！大冒险",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "惊吓！大冒险",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "惊吓！大冒险",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "伊吹萃香",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "因幡帝",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "霍青娥",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "梅蒂欣",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃仙",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "绵月依姬",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "露易兹",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蹦蹦跳跳的三妖精",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "妖怪狐",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "河童",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "山童",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "森之妖精",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "迷之人形",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "地狱鸦",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "道士",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "僵尸",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "仙人",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "小人族",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃兰花精",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "玫瑰花精",
+        "recipe": "圣白莲子糕",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "荷花鱼米盏",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "荷花鱼米盏",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "荷花鱼米盏",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "荷花鱼米盏",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "什锦天妇罗",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "什锦天妇罗",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "什锦天妇罗",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "什锦天妇罗",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "毒瘴花园",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "毒瘴花园",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "毒瘴花园",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "毒瘴花园",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "伊吹萃香",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "因幡帝",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "霍青娥",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "梅蒂欣",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃仙",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "绵月依姬",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "露易兹",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蹦蹦跳跳的三妖精",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "妖怪狐",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "河童",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "山童",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "森之妖精",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "迷之人形",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "地狱鸦",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "道士",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "僵尸",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "仙人",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "小人族",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃兰花精",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "玫瑰花精",
+        "recipe": "小小的甜蜜「毒药」",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "猫咪披萨",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "猫咪披萨",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "猫咪披萨",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "猫咪披萨",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "伊吹萃香",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "因幡帝",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "霍青娥",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "梅蒂欣",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃仙",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "绵月依姬",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "露易兹",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "蹦蹦跳跳的三妖精",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "妖怪狐",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "河童",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "山童",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "森之妖精",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "迷之人形",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "地狱鸦",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "道士",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "僵尸",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "仙人",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "小人族",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "铃兰花精",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "玫瑰花精",
+        "recipe": "海胆信玄饼",
+        "newlyHatedTags": [],
+        "lostLikeTags": [
+          "小巧"
+        ]
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "荷塘月色",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "荷塘月色",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "荷塘月色",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "荷塘月色",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "生命之源",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "生命之源",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "生命之源",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "生命之源",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "上白泽慧音",
+        "recipe": "火星",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "蓬莱山辉夜",
+        "recipe": "火星",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "古明地觉",
+        "recipe": "火星",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      },
+      {
+        "guest": "少名针妙丸",
+        "recipe": "火星",
+        "newlyHatedTags": [
+          "大份"
+        ],
+        "lostLikeTags": []
+      }
+    ]
+  },
+  "contextOnlyTagsNotInStaticCatalog": {
+    "tags": [
+      [
+        -30,
+        "厨具「夜雀」"
+      ],
+      [
+        -9,
+        "煮锅"
+      ],
+      [
+        -8,
+        "烧烤架"
+      ],
+      [
+        -7,
+        "油锅"
+      ],
+      [
+        -6,
+        "蒸锅"
+      ],
+      [
+        -5,
+        "料理台"
+      ],
+      [
+        -4,
+        "黑暗物质"
+      ],
+      [
+        -20,
+        "流行·喜爱"
+      ],
+      [
+        -21,
+        "流行·厌恶"
+      ]
+    ],
+    "note": "cooker-derived / popular-trend / dark-matter tags depend on cooking context or daily state; no guest profile likes or hates the cooker tags -30..-5, so static omission has no recommendation impact"
+  }
+}

@@ -1,0 +1,236 @@
+# NightScene.GuestManagementUtility.GuestsManager::SpawnSpecialGuestGroup
+# {"declaringType": "NightScene.GuestManagementUtility.GuestsManager", "typeIndex": 1495, "image": "Assembly-CSharp.dll", "name": "SpawnSpecialGuestGroup", "metadataMethodIndex": 8510, "token": "0x600213f", "methodPointerIndex": 8510, "va": "0x1804d7680", "rva": "0x4d7680", "endRva": "0x4d7985", "returnTypeIndex": 30857, "parameters": [{"index": 6136, "name": "id", "typeIndex": 26152}, {"index": 6137, "name": "guestSpawnType", "typeIndex": 41327}, {"index": 6138, "name": "overrideSpawnPosition", "typeIndex": 14128}, {"index": 6139, "name": "onGuestLeave", "typeIndex": 4652}, {"index": 6140, "name": "leaveType", "typeIndex": 38125}, {"index": 6141, "name": "recordIzakaya", "typeIndex": 20624}, {"index": 6142, "name": "targetDeskCode", "typeIndex": 26174}, {"index": 6143, "name": "tryToJumpQueue", "typeIndex": 20624}, {"index": 6144, "name": "postProcessCharacterCallback", "typeIndex": 4555}, {"index": 6145, "name": "shouldFade", "typeIndex": 20624}]}
+# range end RVA 0x4d7990; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804D7680: 48 89 6C 24 20     mov         qword ptr [rsp+20h],rbp
+  00000001804D7685: 57                 push        rdi
+  00000001804D7686: 41 54              push        r12
+  00000001804D7688: 41 56              push        r14
+  00000001804D768A: 48 83 EC 60        sub         rsp,60h
+  00000001804D768E: 80 3D A3 44 E9 03  cmp         byte ptr [000000018436BB38h],0
+                    00
+  00000001804D7695: 4D 8B E1           mov         r12,r9
+  00000001804D7698: 45 8B F0           mov         r14d,r8d
+  00000001804D769B: 8B EA              mov         ebp,edx
+  00000001804D769D: 48 8B F9           mov         rdi,rcx
+  00000001804D76A0: 75 4F              jne         00000001804D76F1
+  00000001804D76A2: 48 8D 0D 7F 07 CE  lea         rcx,[00000001841B7E28h]
+                    03
+  00000001804D76A9: E8 D2 58 E8 FF     call        000000018035CF80
+  00000001804D76AE: 48 8D 0D E3 A0 CF  lea         rcx,[00000001841D1798h]
+                    03
+  00000001804D76B5: E8 C6 58 E8 FF     call        000000018035CF80
+  00000001804D76BA: 48 8D 0D 0F 04 CC  lea         rcx,[0000000184197AD0h]
+                    03
+  00000001804D76C1: E8 BA 58 E8 FF     call        000000018035CF80
+  00000001804D76C6: 48 8D 0D 0B 07 CC  lea         rcx,[0000000184197DD8h]
+                    03
+  00000001804D76CD: E8 AE 58 E8 FF     call        000000018035CF80
+  00000001804D76D2: 48 8D 0D 57 F5 CC  lea         rcx,[00000001841A6C30h]
+                    03
+  00000001804D76D9: E8 A2 58 E8 FF     call        000000018035CF80
+  00000001804D76DE: 48 8D 0D FB 10 CD  lea         rcx,[00000001841A87E0h]
+                    03
+  00000001804D76E5: E8 96 58 E8 FF     call        000000018035CF80
+  00000001804D76EA: C6 05 47 44 E9 03  mov         byte ptr [000000018436BB38h],1
+                    01
+  00000001804D76F1: 48 8B 0D A0 A0 CF  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  00000001804D76F8: 48 89 9C 24 80 00  mov         qword ptr [rsp+0000000000000080h],rbx
+                    00 00
+  00000001804D7700: 48 89 B4 24 88 00  mov         qword ptr [rsp+0000000000000088h],rsi
+                    00 00
+  00000001804D7708: 4C 89 BC 24 90 00  mov         qword ptr [rsp+0000000000000090h],r15
+                    00 00
+  00000001804D7710: C7 44 24 40 00 00  mov         dword ptr [rsp+40h],0
+                    00 00
+  00000001804D7718: E8 33 48 C3 00     call        000000018110BF50
+  00000001804D771D: 48 85 C0           test        rax,rax
+  00000001804D7720: 0F 84 59 02 00 00  je          00000001804D797F
+  00000001804D7726: 33 D2              xor         edx,edx
+  00000001804D7728: 48 8B C8           mov         rcx,rax
+  00000001804D772B: E8 90 6C 03 00     call        000000018050E3C0 ; NightScene.EventUtility.EventManager::get_ShouldSpecialGuestInstantiateBySpecialBuff [MI 9064, RVA 0x50e3c0]
+  00000001804D7730: 84 C0              test        al,al
+  00000001804D7732: 75 32              jne         00000001804D7766
+  00000001804D7734: 41 83 FE 05        cmp         r14d,5
+  00000001804D7738: 74 2C              je          00000001804D7766
+  00000001804D773A: 33 C0              xor         eax,eax
+  00000001804D773C: 4C 8B BC 24 90 00  mov         r15,qword ptr [rsp+0000000000000090h]
+                    00 00
+  00000001804D7744: 48 8B B4 24 88 00  mov         rsi,qword ptr [rsp+0000000000000088h]
+                    00 00
+  00000001804D774C: 48 8B 9C 24 80 00  mov         rbx,qword ptr [rsp+0000000000000080h]
+                    00 00
+  00000001804D7754: 48 8B AC 24 98 00  mov         rbp,qword ptr [rsp+0000000000000098h]
+                    00 00
+  00000001804D775C: 48 83 C4 60        add         rsp,60h
+  00000001804D7760: 41 5E              pop         r14
+  00000001804D7762: 41 5C              pop         r12
+  00000001804D7764: 5F                 pop         rdi
+  00000001804D7765: C3                 ret
+  00000001804D7766: 48 8B 0D BB 06 CE  mov         rcx,qword ptr [00000001841B7E28h]
+                    03
+  00000001804D776D: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001804D7774: 75 05              jne         00000001804D777B
+  00000001804D7776: E8 35 5B E2 FF     call        00000001802FD2B0
+  00000001804D777B: 33 D2              xor         edx,edx
+  00000001804D777D: 8B CD              mov         ecx,ebp
+  00000001804D777F: E8 1C CE 25 00     call        00000001807345A0 ; GameData.Core.Collections.CharacterUtility.DataBaseCharacter::RefSGuest [MI 18092, RVA 0x7345a0]
+  00000001804D7784: 48 8B B4 24 C8 00  mov         rsi,qword ptr [rsp+00000000000000C8h]
+                    00 00
+  00000001804D778C: 4C 8B F8           mov         r15,rax
+  00000001804D778F: 48 85 F6           test        rsi,rsi
+  00000001804D7792: 75 1C              jne         00000001804D77B0
+  00000001804D7794: 4C 8B 47 78        mov         r8,qword ptr [rdi+78h]
+  00000001804D7798: 4D 85 C0           test        r8,r8
+  00000001804D779B: 0F 84 DE 01 00 00  je          00000001804D797F
+  00000001804D77A1: 49 8B 50 28        mov         rdx,qword ptr [r8+28h]
+  00000001804D77A5: 49 8B 48 40        mov         rcx,qword ptr [r8+40h]
+  00000001804D77A9: 41 FF 50 18        call        qword ptr [r8+18h]
+  00000001804D77AD: 48 8B F0           mov         rsi,rax
+  00000001804D77B0: 48 8B 0D 29 10 CD  mov         rcx,qword ptr [00000001841A87E0h]
+                    03
+  00000001804D77B7: E8 04 59 E8 FF     call        000000018035D0C0
+  00000001804D77BC: 48 8B D8           mov         rbx,rax
+  00000001804D77BF: 48 85 C0           test        rax,rax
+  00000001804D77C2: 0F 84 B7 01 00 00  je          00000001804D797F
+  00000001804D77C8: 41 0F 10 04 24     movups      xmm0,xmmword ptr [r12]
+  00000001804D77CD: 8B 8C 24 A8 00 00  mov         ecx,dword ptr [rsp+00000000000000A8h]
+                    00
+  00000001804D77D4: 4C 8D 44 24 50     lea         r8,[rsp+50h]
+  00000001804D77D9: 48 C7 44 24 30 00  mov         qword ptr [rsp+30h],0
+                    00 00 00
+  00000001804D77E2: 4C 8B CE           mov         r9,rsi
+  00000001804D77E5: 44 89 74 24 28     mov         dword ptr [rsp+28h],r14d
+  00000001804D77EA: 49 8B D7           mov         rdx,r15
+  00000001804D77ED: 89 4C 24 20        mov         dword ptr [rsp+20h],ecx
+  00000001804D77F1: 48 8B C8           mov         rcx,rax
+  00000001804D77F4: 0F 29 44 24 50     movaps      xmmword ptr [rsp+50h],xmm0
+  00000001804D77F9: E8 E2 E5 03 00     call        0000000180515DE0 ; NightScene.GuestManagementUtility.SpecialGuestsController::.ctor [MI 8898, RVA 0x515de0]
+  00000001804D77FE: 48 8B 94 24 A0 00  mov         rdx,qword ptr [rsp+00000000000000A0h]
+                    00 00
+  00000001804D7806: 48 8D 8B D0 00 00  lea         rcx,[rbx+00000000000000D0h]
+                    00
+  00000001804D780D: 48 89 93 D0 00 00  mov         qword ptr [rbx+00000000000000D0h],rdx
+                    00
+  00000001804D7814: E8 97 52 E8 FF     call        000000018035CAB0
+  00000001804D7819: 48 8B 8F 90 00 00  mov         rcx,qword ptr [rdi+0000000000000090h]
+                    00
+  00000001804D7820: 48 85 C9           test        rcx,rcx
+  00000001804D7823: 0F 84 56 01 00 00  je          00000001804D797F
+  00000001804D7829: 45 33 C0           xor         r8d,r8d
+  00000001804D782C: 48 8B D3           mov         rdx,rbx
+  00000001804D782F: E8 BC 37 FF FF     call        00000001804CAFF0 ; NightScene.GuestManagementUtility.GuestIconManager::Add [MI 8416, RVA 0x4caff0]
+  00000001804D7834: 48 8B 0D 9D 05 CC  mov         rcx,qword ptr [0000000184197DD8h]
+                    03
+  00000001804D783B: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001804D7842: 75 05              jne         00000001804D7849
+  00000001804D7844: E8 67 5A E2 FF     call        00000001802FD2B0
+  00000001804D7849: 33 C9              xor         ecx,ecx
+  00000001804D784B: E8 E0 E0 16 00     call        0000000180645930 ; GameData.RunTime.Common.RunTimeScheduler::IsChallenge [MI 13311, RVA 0x645930]
+  00000001804D7850: 84 C0              test        al,al
+  00000001804D7852: 75 57              jne         00000001804D78AB
+  00000001804D7854: 33 D2              xor         edx,edx
+  00000001804D7856: 48 8B CB           mov         rcx,rbx
+  00000001804D7859: E8 A2 ED 03 00     call        0000000180516600 ; NightScene.GuestManagementUtility.SpecialGuestsController::get_IsHerself [MI 8908, RVA 0x516600]
+  00000001804D785E: 84 C0              test        al,al
+  00000001804D7860: 74 49              je          00000001804D78AB
+  00000001804D7862: 48 8B 0D 6F 05 CC  mov         rcx,qword ptr [0000000184197DD8h]
+                    03
+  00000001804D7869: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001804D7870: 75 05              jne         00000001804D7877
+  00000001804D7872: E8 39 5A E2 FF     call        00000001802FD2B0
+  00000001804D7877: 45 33 C0           xor         r8d,r8d
+  00000001804D787A: 48 8D 54 24 40     lea         rdx,[rsp+40h]
+  00000001804D787F: 8B CD              mov         ecx,ebp
+  00000001804D7881: E8 1A 43 16 00     call        000000018063BBA0 ; GameData.RunTime.Common.RunTimeScheduler::ContainsSpecialNPCServeInWorkMission [MI 13351, RVA 0x63bba0]
+  00000001804D7886: 84 C0              test        al,al
+  00000001804D7888: 74 21              je          00000001804D78AB
+  00000001804D788A: 48 8B 8F 90 00 00  mov         rcx,qword ptr [rdi+0000000000000090h]
+                    00
+  00000001804D7891: 48 85 C9           test        rcx,rcx
+  00000001804D7894: 0F 84 E5 00 00 00  je          00000001804D797F
+  00000001804D789A: 45 33 C9           xor         r9d,r9d
+  00000001804D789D: 41 B8 03 00 00 00  mov         r8d,3
+  00000001804D78A3: 48 8B D3           mov         rdx,rbx
+  00000001804D78A6: E8 45 46 FF FF     call        00000001804CBEF0 ; NightScene.GuestManagementUtility.GuestIconManager::SwitchState [MI 8418, RVA 0x4cbef0]
+  00000001804D78AB: 80 BC 24 B0 00 00  cmp         byte ptr [rsp+00000000000000B0h],0
+                    00 00
+  00000001804D78B3: 0F 84 8D 00 00 00  je          00000001804D7946
+  00000001804D78B9: 48 8B 0D 70 F3 CC  mov         rcx,qword ptr [00000001841A6C30h]
+                    03
+  00000001804D78C0: E8 5B D6 D6 00     call        0000000181244F20
+  00000001804D78C5: 48 85 C0           test        rax,rax
+  00000001804D78C8: 0F 84 B1 00 00 00  je          00000001804D797F
+  00000001804D78CE: 48 83 78 20 00     cmp         qword ptr [rax+20h],0
+  00000001804D78D3: 74 71              je          00000001804D7946
+  00000001804D78D5: 48 8B 0D BC 9E CF  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  00000001804D78DC: E8 6F 46 C3 00     call        000000018110BF50
+  00000001804D78E1: 48 8B 53 30        mov         rdx,qword ptr [rbx+30h]
+  00000001804D78E5: 48 85 D2           test        rdx,rdx
+  00000001804D78E8: 0F 84 91 00 00 00  je          00000001804D797F
+  00000001804D78EE: 48 85 C0           test        rax,rax
+  00000001804D78F1: 0F 84 88 00 00 00  je          00000001804D797F
+  00000001804D78F7: 8B 52 18           mov         edx,dword ptr [rdx+18h]
+  00000001804D78FA: 45 33 C9           xor         r9d,r9d
+  00000001804D78FD: 41 B0 01           mov         r8b,1
+  00000001804D7900: 48 8B C8           mov         rcx,rax
+  00000001804D7903: E8 68 24 01 00     call        00000001804E9D70 ; NightScene.EventUtility.EventManager::AddServedGuest [MI 9235, RVA 0x4e9d70]
+  00000001804D7908: 48 8B 0D 21 F3 CC  mov         rcx,qword ptr [00000001841A6C30h]
+                    03
+  00000001804D790F: E8 0C D6 D6 00     call        0000000181244F20
+  00000001804D7914: 48 85 C0           test        rax,rax
+  00000001804D7917: 74 66              je          00000001804D797F
+  00000001804D7919: 48 8B 40 20        mov         rax,qword ptr [rax+20h]
+  00000001804D791D: 48 85 C0           test        rax,rax
+  00000001804D7920: 74 5D              je          00000001804D797F
+  00000001804D7922: 48 8B 0D A7 01 CC  mov         rcx,qword ptr [0000000184197AD0h]
+                    03
+  00000001804D7929: 8B 70 10           mov         esi,dword ptr [rax+10h]
+  00000001804D792C: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001804D7933: 75 05              jne         00000001804D793A
+  00000001804D7935: E8 76 59 E2 FF     call        00000001802FD2B0
+  00000001804D793A: 45 33 C0           xor         r8d,r8d
+  00000001804D793D: 8B D6              mov         edx,esi
+  00000001804D793F: 8B CD              mov         ecx,ebp
+  00000001804D7941: E8 1A 07 15 00     call        0000000180628060 ; GameData.RunTime.Common.RunTimeAlbum::RecordSpecialGuestIzakaya [MI 12915, RVA 0x628060]
+  00000001804D7946: 0F B6 84 24 D0 00  movzx       eax,byte ptr [rsp+00000000000000D0h]
+                    00 00
+  00000001804D794E: 48 8B D3           mov         rdx,rbx
+  00000001804D7951: 44 0F B6 8C 24 C0  movzx       r9d,byte ptr [rsp+00000000000000C0h]
+                    00 00 00
+  00000001804D795A: 48 8B CF           mov         rcx,rdi
+  00000001804D795D: 44 8B 84 24 B8 00  mov         r8d,dword ptr [rsp+00000000000000B8h]
+                    00 00
+  00000001804D7965: 48 C7 44 24 28 00  mov         qword ptr [rsp+28h],0
+                    00 00 00
+  00000001804D796E: 88 44 24 20        mov         byte ptr [rsp+20h],al
+  00000001804D7972: E8 69 D1 FF FF     call        00000001804D4AE0 ; NightScene.GuestManagementUtility.GuestsManager::PostInitializeGuestGroup [MI 8512, RVA 0x4d4ae0]
+  00000001804D7977: 48 8B C3           mov         rax,rbx
+  00000001804D797A: E9 BD FD FF FF     jmp         00000001804D773C
+  00000001804D797F: E8 9C 57 E8 FF     call        000000018035D120
+  00000001804D7984: CC                 int         3
+  00000001804D7985: CC                 int         3
+  00000001804D7986: CC                 int         3
+  00000001804D7987: CC                 int         3
+  00000001804D7988: CC                 int         3
+  00000001804D7989: CC                 int         3
+  00000001804D798A: CC                 int         3
+  00000001804D798B: CC                 int         3
+  00000001804D798C: CC                 int         3
+  00000001804D798D: CC                 int         3
+  00000001804D798E: CC                 int         3
+  00000001804D798F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

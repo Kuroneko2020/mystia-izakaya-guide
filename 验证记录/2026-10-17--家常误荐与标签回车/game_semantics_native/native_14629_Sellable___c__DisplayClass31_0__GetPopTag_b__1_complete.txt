@@ -1,0 +1,42 @@
+# GameData.Core.Collections.Sellable+<>c__DisplayClass31_0::<GetPopTag>b__1
+# {"declaringType": "GameData.Core.Collections.Sellable+<>c__DisplayClass31_0", "typeIndex": 2297, "image": "Assembly-CSharp.dll", "name": "<GetPopTag>b__1", "metadataMethodIndex": 14629, "token": "0x6003926", "methodPointerIndex": 14629, "va": "0x180698230", "rva": "0x698230", "endRva": "0x698277", "returnTypeIndex": 20604, "parameters": [{"index": 11259, "name": "x", "typeIndex": 26152}]}
+# range end RVA 0x698280; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180698230: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  0000000180698235: 57                 push        rdi
+  0000000180698236: 48 83 EC 20        sub         rsp,20h
+  000000018069823A: 80 3D CD 47 CD 03  cmp         byte ptr [000000018436CA0Eh],0
+                    00
+  0000000180698241: 8B DA              mov         ebx,edx
+  0000000180698243: 48 8B F9           mov         rdi,rcx
+  0000000180698246: 75 13              jne         000000018069825B
+  0000000180698248: 48 8D 0D 09 0F AB  lea         rcx,[0000000184149158h]
+                    03
+  000000018069824F: E8 2C 4D CC FF     call        000000018035CF80
+  0000000180698254: C6 05 B3 47 CD 03  mov         byte ptr [000000018436CA0Eh],1
+                    01
+  000000018069825B: 4C 8B 05 F6 0E AB  mov         r8,qword ptr [0000000184149158h]
+                    03
+  0000000180698262: 8B D3              mov         edx,ebx
+  0000000180698264: 48 8B 4F 10        mov         rcx,qword ptr [rdi+10h]
+  0000000180698268: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  000000018069826D: 48 83 C4 20        add         rsp,20h
+  0000000180698271: 5F                 pop         rdi
+  0000000180698272: E9 F9 A0 6B 00     jmp         0000000180D52370
+  0000000180698277: CC                 int         3
+  0000000180698278: CC                 int         3
+  0000000180698279: CC                 int         3
+  000000018069827A: CC                 int         3
+  000000018069827B: CC                 int         3
+  000000018069827C: CC                 int         3
+  000000018069827D: CC                 int         3
+  000000018069827E: CC                 int         3
+  000000018069827F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

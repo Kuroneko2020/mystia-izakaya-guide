@@ -1,0 +1,105 @@
+# <>c__DisplayClass5_0::<SetNum>b__0
+# {"declaringType": "<>c__DisplayClass5_0", "typeIndex": 3278, "image": "Assembly-CSharp.dll", "name": "<SetNum>b__0", "metadataMethodIndex": 19507, "token": "0x6004c34", "methodPointerIndex": 19507, "va": "0x1807a6b00", "rva": "0x7a6b00", "endRva": "0x7a6c15", "returnTypeIndex": 33376, "parameters": [{"index": 13894, "name": "x", "typeIndex": 31938}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x7a6b00..0x7a6c20; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001807A6B00: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001807A6B05: 57                 push        rdi
+  00000001807A6B06: 48 83 EC 20        sub         rsp,20h
+  00000001807A6B0A: 80 3D 24 68 BC 03  cmp         byte ptr [000000018436D335h],0
+                    00
+  00000001807A6B11: 48 8B FA           mov         rdi,rdx
+  00000001807A6B14: 48 8B D9           mov         rbx,rcx
+  00000001807A6B17: 75 2B              jne         00000001807A6B44
+  00000001807A6B19: 48 8D 0D B8 11 9F  lea         rcx,[0000000184197CD8h]
+                    03
+  00000001807A6B20: E8 5B 64 BB FF     call        000000018035CF80
+  00000001807A6B25: 48 8D 0D 7C 81 9E  lea         rcx,[000000018418ECA8h]
+                    03
+  00000001807A6B2C: E8 4F 64 BB FF     call        000000018035CF80
+  00000001807A6B31: 48 8D 0D B0 AC 9E  lea         rcx,[00000001841917E8h]
+                    03
+  00000001807A6B38: E8 43 64 BB FF     call        000000018035CF80
+  00000001807A6B3D: C6 05 F1 67 BC 03  mov         byte ptr [000000018436D335h],1
+                    01
+  00000001807A6B44: 48 8B 43 10        mov         rax,qword ptr [rbx+10h]
+  00000001807A6B48: 48 85 C0           test        rax,rax
+  00000001807A6B4B: 0F 84 BE 00 00 00  je          00000001807A6C0F
+  00000001807A6B51: 80 B8 84 01 00 00  cmp         byte ptr [rax+0000000000000184h],0
+                    00
+  00000001807A6B58: 74 0C              je          00000001807A6B66
+  00000001807A6B5A: 48 8B 05 87 AC 9E  mov         rax,qword ptr [00000001841917E8h]
+                    03
+  00000001807A6B61: E9 83 00 00 00     jmp         00000001807A6BE9
+  00000001807A6B66: 48 8B 0D 6B 11 9F  mov         rcx,qword ptr [0000000184197CD8h]
+                    03
+  00000001807A6B6D: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001807A6B74: 75 05              jne         00000001807A6B7B
+  00000001807A6B76: E8 35 67 B5 FF     call        00000001802FD2B0
+  00000001807A6B7B: 80 3D 90 5B BC 03  cmp         byte ptr [000000018436C712h],0
+                    00
+  00000001807A6B82: 75 13              jne         00000001807A6B97
+  00000001807A6B84: 48 8D 0D 4D 11 9F  lea         rcx,[0000000184197CD8h]
+                    03
+  00000001807A6B8B: E8 F0 63 BB FF     call        000000018035CF80
+  00000001807A6B90: C6 05 7B 5B BC 03  mov         byte ptr [000000018436C712h],1
+                    01
+  00000001807A6B97: 48 8B 0D 3A 11 9F  mov         rcx,qword ptr [0000000184197CD8h]
+                    03
+  00000001807A6B9E: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001807A6BA5: 75 05              jne         00000001807A6BAC
+  00000001807A6BA7: E8 04 67 B5 FF     call        00000001802FD2B0
+  00000001807A6BAC: 48 8B 05 25 11 9F  mov         rax,qword ptr [0000000184197CD8h]
+                    03
+  00000001807A6BB3: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  00000001807A6BBA: 80 B9 00 01 00 00  cmp         byte ptr [rcx+0000000000000100h],0
+                    00
+  00000001807A6BC1: 74 1B              je          00000001807A6BDE
+  00000001807A6BC3: 48 8B 43 10        mov         rax,qword ptr [rbx+10h]
+  00000001807A6BC7: 48 85 C0           test        rax,rax
+  00000001807A6BCA: 74 43              je          00000001807A6C0F
+  00000001807A6BCC: 83 B8 98 00 00 00  cmp         dword ptr [rax+0000000000000098h],1
+                    01
+  00000001807A6BD3: 75 09              jne         00000001807A6BDE
+  00000001807A6BD5: 48 8B 05 CC 80 9E  mov         rax,qword ptr [000000018418ECA8h]
+                    03
+  00000001807A6BDC: EB 0B              jmp         00000001807A6BE9
+  00000001807A6BDE: 48 8D 4B 18        lea         rcx,[rbx+18h]
+  00000001807A6BE2: 33 D2              xor         edx,edx
+  00000001807A6BE4: E8 87 FE A4 01     call        00000001821F6A70 ; System.Int32::ToString [MI 27150, RVA 0x21f6a70]
+  00000001807A6BE9: 48 85 FF           test        rdi,rdi
+  00000001807A6BEC: 74 21              je          00000001807A6C0F
+  00000001807A6BEE: 4C 8B 0F           mov         r9,qword ptr [rdi]
+  00000001807A6BF1: 48 8B D0           mov         rdx,rax
+  00000001807A6BF4: 48 8B CF           mov         rcx,rdi
+  00000001807A6BF7: 4D 8B 81 60 05 00  mov         r8,qword ptr [r9+0000000000000560h]
+                    00
+  00000001807A6BFE: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  00000001807A6C03: 48 83 C4 20        add         rsp,20h
+  00000001807A6C07: 5F                 pop         rdi
+  00000001807A6C08: 49 FF A1 58 05 00  jmp         qword ptr [r9+0000000000000558h]
+                    00
+  00000001807A6C0F: E8 0C 65 BB FF     call        000000018035D120
+  00000001807A6C14: CC                 int         3
+  00000001807A6C15: CC                 int         3
+  00000001807A6C16: CC                 int         3
+  00000001807A6C17: CC                 int         3
+  00000001807A6C18: CC                 int         3
+  00000001807A6C19: CC                 int         3
+  00000001807A6C1A: CC                 int         3
+  00000001807A6C1B: CC                 int         3
+  00000001807A6C1C: CC                 int         3
+  00000001807A6C1D: CC                 int         3
+  00000001807A6C1E: CC                 int         3
+  00000001807A6C1F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

@@ -1,0 +1,16 @@
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001805267C0: 48 89 5C 24 10     mov         qword ptr [rsp+10h],rbx
+  00000001805267C5: 48 89 74 24 18     mov         qword ptr [rsp+18h],rsi
+  00000001805267CA: 57                 push        rdi
+  00000001805267CB: 48 83 EC 60        sub         rsp,60h
+  00000001805267CF: 80 3D 24 56 E4 03  cmp         byte ptr [000000018436BDFAh],0
+                    00
+  00000001805267D6: 49 8B F0           mov         rsi,r8
+
+  Summary
+
+     2ACC000 il2cpp

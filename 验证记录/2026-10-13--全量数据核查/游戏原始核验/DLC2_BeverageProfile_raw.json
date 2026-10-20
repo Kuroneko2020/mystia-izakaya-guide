@@ -1,0 +1,50 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+  "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+  "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+  "path_id": 942838652359905741,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 9175463749489793132
+    },
+    "m_Name": "DLC2_BeverageProfile",
+    "sellables": [
+      {
+        "id": 2001,
+        "level": 2,
+        "baseValue": 45,
+        "tags": [
+          -1,
+          13,
+          11,
+          19
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      },
+      {
+        "id": 2002,
+        "level": 2,
+        "baseValue": 35,
+        "tags": [
+          -1,
+          13,
+          12,
+          18
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 1
+      }
+    ],
+    "tagProfileName": "BeverageTagProfile",
+    "langFileName": "DLC2_BeveragesLang"
+  }
+}

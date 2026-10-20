@@ -1,0 +1,43 @@
+# NightScene.GuestManagementUtility.GuestGroupController::RefreshCurrentFundAndOrder
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "RefreshCurrentFundAndOrder", "metadataMethodIndex": 8314, "token": "0x600207b", "methodPointerIndex": 8314, "va": "0x1804c87c0", "rva": "0x4c87c0", "endRva": null, "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x4c8800; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804C87C0: 8B 41 70           mov         eax,dword ptr [rcx+70h]
+  00000001804C87C3: 33 D2              xor         edx,edx
+  00000001804C87C5: 85 C0              test        eax,eax
+  00000001804C87C7: 0F 48 C2           cmovs       eax,edx
+  00000001804C87CA: 89 41 70           mov         dword ptr [rcx+70h],eax
+  00000001804C87CD: 38 91 80 01 00 00  cmp         byte ptr [rcx+0000000000000180h],dl
+  00000001804C87D3: 74 1B              je          00000001804C87F0
+  00000001804C87D5: 48 8B 81 B0 00 00  mov         rax,qword ptr [rcx+00000000000000B0h]
+                    00
+  00000001804C87DC: 48 85 C0           test        rax,rax
+  00000001804C87DF: 74 0F              je          00000001804C87F0
+  00000001804C87E1: 4C 8B 40 28        mov         r8,qword ptr [rax+28h]
+  00000001804C87E5: 48 8B D1           mov         rdx,rcx
+  00000001804C87E8: 48 8B 48 40        mov         rcx,qword ptr [rax+40h]
+  00000001804C87EC: 48 FF 60 18        jmp         qword ptr [rax+18h]
+  00000001804C87F0: C3                 ret
+  00000001804C87F1: CC                 int         3
+  00000001804C87F2: CC                 int         3
+  00000001804C87F3: CC                 int         3
+  00000001804C87F4: CC                 int         3
+  00000001804C87F5: CC                 int         3
+  00000001804C87F6: CC                 int         3
+  00000001804C87F7: CC                 int         3
+  00000001804C87F8: CC                 int         3
+  00000001804C87F9: CC                 int         3
+  00000001804C87FA: CC                 int         3
+  00000001804C87FB: CC                 int         3
+  00000001804C87FC: CC                 int         3
+  00000001804C87FD: CC                 int         3
+  00000001804C87FE: CC                 int         3
+  00000001804C87FF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

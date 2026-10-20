@@ -1,0 +1,212 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+  "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+  "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+  "path_id": -2596365645462023515,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": -3889071908337991821
+    },
+    "m_Name": "DLC1_NormalGuestProfile",
+    "normalGuests": [
+      {
+        "id": 1000,
+        "convGroup": [
+          1000
+        ],
+        "fundMultiplier": 1.2999999523162842,
+        "likeFoodTag": [
+          0,
+          6,
+          9,
+          10,
+          16,
+          18,
+          15,
+          19,
+          30
+        ],
+        "likeBevTag": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "evaluation": 2,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 1001,
+        "convGroup": [
+          1001
+        ],
+        "fundMultiplier": 1.399999976158142,
+        "likeFoodTag": [
+          0,
+          3,
+          4,
+          9,
+          16,
+          23,
+          24
+        ],
+        "likeBevTag": [
+          2,
+          11,
+          17,
+          5
+        ],
+        "evaluation": 0,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 1002,
+        "convGroup": [
+          1002
+        ],
+        "fundMultiplier": 1.2999999523162842,
+        "likeFoodTag": [
+          -1,
+          4,
+          28,
+          10,
+          22,
+          24,
+          19
+        ],
+        "likeBevTag": [
+          15,
+          1
+        ],
+        "evaluation": 1,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 1003,
+        "convGroup": [
+          1003
+        ],
+        "fundMultiplier": 1.2000000476837158,
+        "likeFoodTag": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          16,
+          20,
+          21
+        ],
+        "likeBevTag": [
+          4,
+          8,
+          7,
+          19
+        ],
+        "evaluation": 3,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 1004,
+        "convGroup": [
+          1004
+        ],
+        "fundMultiplier": 1.0,
+        "likeFoodTag": [
+          21,
+          28,
+          17,
+          29,
+          19,
+          3,
+          12,
+          14,
+          16
+        ],
+        "likeBevTag": [
+          -1,
+          0,
+          6,
+          13,
+          12
+        ],
+        "evaluation": 2,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 1005,
+        "convGroup": [
+          1005
+        ],
+        "fundMultiplier": 1.0,
+        "likeFoodTag": [
+          3,
+          15,
+          18,
+          24,
+          20,
+          26,
+          28,
+          29
+        ],
+        "likeBevTag": [
+          16,
+          15,
+          19,
+          12
+        ],
+        "evaluation": 3,
+        "isLikeAllFoodTag": 0,
+        "isLikeAllBevTag": 0,
+        "isChild": 0,
+        "doNotShowInNotebook": 0,
+        "m_GuestFoodEasterEggData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      }
+    ]
+  }
+}

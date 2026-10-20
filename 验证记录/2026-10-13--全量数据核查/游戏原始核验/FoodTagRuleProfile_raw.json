@@ -1,0 +1,67 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+  "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+  "cab": "CAB-fede423717f62585305245104e0fd5e2",
+  "path_id": 5622255583605644192,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": -575691604080036259
+    },
+    "m_Name": "FoodTagRuleProfile",
+    "rules": [
+      {
+        "rule": [
+          6,
+          7
+        ]
+      },
+      {
+        "rule": [
+          9,
+          8
+        ]
+      },
+      {
+        "rule": [
+          0,
+          2
+        ]
+      },
+      {
+        "rule": [
+          1,
+          2
+        ]
+      },
+      {
+        "rule": [
+          -3,
+          -2
+        ]
+      },
+      {
+        "rule": [
+          -1,
+          28
+        ]
+      },
+      {
+        "rule": [
+          22,
+          21
+        ]
+      }
+    ],
+    "previews": {
+      "m_FileID": 0,
+      "m_PathID": -7468907455651379744
+    },
+    "tagType": 0
+  }
+}

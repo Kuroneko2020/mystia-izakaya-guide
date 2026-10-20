@@ -1,0 +1,1104 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+  "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+  "cab": "CAB-fede423717f62585305245104e0fd5e2",
+  "path_id": 3327373983016418515,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 262067847810755891
+    },
+    "m_Name": "CookerProfile",
+    "cookers": [
+      {
+        "id": -1,
+        "type": 0,
+        "cookerSeries": 0,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "illuminationIntensity": 0.0,
+        "startCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 0,
+        "type": 1,
+        "cookerSeries": 0,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -2604891640406938678
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -6108953810306751979
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 2245275283501266584
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -6335138152282707262
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": 8601835444685432434
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 1,
+        "type": 2,
+        "cookerSeries": 0,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -2604891640406938678
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -2246405307247702623
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -4219037370073996725
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 3275452523801293920
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": 8658494470876868225
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 2,
+        "type": 3,
+        "cookerSeries": 0,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -2604891640406938678
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": 3016844979785090175
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 1045899529182040976
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 7428641435447425240
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": 1705100314524719290
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 3,
+        "type": 4,
+        "cookerSeries": 0,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -2604891640406938678
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -7532134944876183026
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -2626910031144174065
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -6638630262473892971
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": 4397221422467604106
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 4,
+        "type": 5,
+        "cookerSeries": 0,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -2604891640406938678
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": 1234571918780670278
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 5757551827995888253
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -5672713282283147351
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -5319778101744317070
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 10,
+        "type": 1,
+        "cookerSeries": 2,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 4758372387774442446
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": 4964095403752499869
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 2712669384293832239
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -5445888257595207934
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": 4002159086541381395
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 11,
+        "type": 2,
+        "cookerSeries": 2,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 4758372387774442446
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": 1340297012415851570
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -4002247680718270944
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 3980730763692579652
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -8201344447059978978
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 12,
+        "type": 3,
+        "cookerSeries": 2,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 4758372387774442446
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -5803274949532566790
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -5846019227801909365
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -2372644571294647343
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -3293191637312078364
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 13,
+        "type": 4,
+        "cookerSeries": 2,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 4758372387774442446
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -2552834341464376332
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 121378229040918412
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -1232410693628067535
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -2721933966291150607
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 14,
+        "type": 5,
+        "cookerSeries": 2,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 4758372387774442446
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": 4826882239827878472
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 511938816646580655
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -6794033033177324550
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": 1488296445218485188
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 15,
+        "type": 1,
+        "cookerSeries": 3,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -2996238466560102145
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -4148996901451729161
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -1674184244011245777
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 1401151401434100126
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -406647798357583360
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 16,
+        "type": 2,
+        "cookerSeries": 3,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -2996238466560102145
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -2608567031792920764
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -2810524948933501422
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 6555016464318931951
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -7105328787570293655
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 17,
+        "type": 3,
+        "cookerSeries": 3,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -2996238466560102145
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": 1070123129059601945
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 1735340861673950825
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 2945630296366510394
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -6538537982062151122
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 18,
+        "type": 4,
+        "cookerSeries": 3,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -2996238466560102145
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -7451781577058209627
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 7302704677360855406
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -3056302003046156154
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": 4448738441312615155
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 19,
+        "type": 5,
+        "cookerSeries": 3,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -2996238466560102145
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -8177747129906803925
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 461142964409878827
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 8856065840335555946
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -6171983142883624427
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 5,
+        "type": 1,
+        "cookerSeries": 1,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -1697883906027033568
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -6012856591932261536
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 1901906999667728139
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 7037872321964377640
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -406647798357583360
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 6,
+        "type": 2,
+        "cookerSeries": 1,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -1697883906027033568
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -7950494628935603485
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -1129016106787984941
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 6661935917869249518
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -7105328787570293655
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 7,
+        "type": 3,
+        "cookerSeries": 1,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -1697883906027033568
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": 7967320401379851560
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -7764109469354903087
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -6446393799880583933
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -6538537982062151122
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 8,
+        "type": 4,
+        "cookerSeries": 1,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -1697883906027033568
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -5650444153168664017
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 5175264626305477554
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 6804314078956630082
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": 4448738441312615155
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 9,
+        "type": 5,
+        "cookerSeries": 1,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -1697883906027033568
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -4135251320732549428
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 3362150430352901517
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 4300243930413911952
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -6171983142883624427
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 20,
+        "type": 1,
+        "cookerSeries": 4,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 6906382805247819448
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -1811731199552342799
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 6356424926066732301
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -3312969260324209024
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -406647798357583360
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 21,
+        "type": 2,
+        "cookerSeries": 4,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 6906382805247819448
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -1106942569897845368
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -7350927627335260306
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -1720410720543692591
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -7105328787570293655
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 22,
+        "type": 3,
+        "cookerSeries": 4,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 6906382805247819448
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -4559814473883287123
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 4117530499832396874
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -267381115669819822
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -6538537982062151122
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 23,
+        "type": 4,
+        "cookerSeries": 4,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 6906382805247819448
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": 9101955110386173861
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -4805116311826690071
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -9145270823285109036
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": 4448738441312615155
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 24,
+        "type": 5,
+        "cookerSeries": 4,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 6906382805247819448
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": 4852430083629159988
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -7388027121300866469
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -8304946193457909357
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -6171983142883624427
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 25,
+        "type": 1,
+        "cookerSeries": 5,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 2160538074491937284
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -9090192396928402516
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -7715026376059243212
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 3988327406978881794
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -406647798357583360
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 26,
+        "type": 2,
+        "cookerSeries": 5,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 2160538074491937284
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -3528727678463115048
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -1855736987443443373
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 2722910428032519463
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -7105328787570293655
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 27,
+        "type": 3,
+        "cookerSeries": 5,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 2160538074491937284
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -7339764032228666492
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 1512733293399197645
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -5951572713587402445
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -6538537982062151122
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 28,
+        "type": 4,
+        "cookerSeries": 5,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 2160538074491937284
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -464526832197711975
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 6643794598124874938
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 4589470360719396671
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": 4448738441312615155
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 29,
+        "type": 5,
+        "cookerSeries": 5,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": 2160538074491937284
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -404597357612248376
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -1700805773009304043
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 5037527398712374451
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -6171983142883624427
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 30,
+        "type": 1,
+        "cookerSeries": 6,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -4848075157392003034
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": 894440925072082879
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -4145795538866203337
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 4966758402696296383
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -406647798357583360
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 31,
+        "type": 2,
+        "cookerSeries": 6,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -4848075157392003034
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -4578749834434445163
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 7413653587389236607
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -7718149119004167493
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -7105328787570293655
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 32,
+        "type": 3,
+        "cookerSeries": 6,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -4848075157392003034
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -504347167988413697
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 2874950337614511477
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 9202123739776840748
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -6538537982062151122
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 33,
+        "type": 4,
+        "cookerSeries": 6,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -4848075157392003034
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": -2495470287946801149
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": 7458888614154907602
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": 6624259752158709229
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": 4448738441312615155
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "id": 34,
+        "type": 5,
+        "cookerSeries": 6,
+        "cookerAsset": {
+          "m_FileID": 0,
+          "m_PathID": -4848075157392003034
+        },
+        "idle": {
+          "m_FileID": 0,
+          "m_PathID": 5789242897050963261
+        },
+        "loaded": {
+          "m_FileID": 0,
+          "m_PathID": -4918690140616243618
+        },
+        "cooking": {
+          "m_FileID": 0,
+          "m_PathID": -5794653837091155115
+        },
+        "illuminationIntensity": 0.10000000149011612,
+        "startCookSFX": {
+          "m_FileID": 25,
+          "m_PathID": -6171983142883624427
+        },
+        "openCookSFX": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      }
+    ],
+    "cookersPreview": {
+      "m_FileID": 23,
+      "m_PathID": 4646789928283781358
+    }
+  }
+}

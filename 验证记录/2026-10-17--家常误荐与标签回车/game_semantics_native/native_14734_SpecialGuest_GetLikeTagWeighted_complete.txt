@@ -1,0 +1,153 @@
+# GameData.Core.Collections.NightSceneUtility.SpecialGuest::GetLikeTagWeighted
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.SpecialGuest", "typeIndex": 2315, "image": "Assembly-CSharp.dll", "name": "GetLikeTagWeighted", "metadataMethodIndex": 14734, "token": "0x600398f", "methodPointerIndex": 14734, "va": "0x18068ad70", "rva": "0x68ad70", "endRva": "0x68af4c", "returnTypeIndex": 10718, "parameters": [{"index": 11328, "name": "rawTagSet", "typeIndex": 10718}, {"index": 11329, "name": "includesPop", "typeIndex": 20604}]}
+# range end RVA 0x68af50; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018068AD70: 40 53              push        rbx
+  000000018068AD72: 55                 push        rbp
+  000000018068AD73: 56                 push        rsi
+  000000018068AD74: 41 56              push        r14
+  000000018068AD76: 48 83 EC 28        sub         rsp,28h
+  000000018068AD7A: 80 3D B9 1C CE 03  cmp         byte ptr [000000018436CA3Ah],0
+                    00
+  000000018068AD81: 41 0F B6 E8        movzx       ebp,r8b
+  000000018068AD85: 4C 8B F2           mov         r14,rdx
+  000000018068AD88: 48 8B F1           mov         rsi,rcx
+  000000018068AD8B: 75 4F              jne         000000018068ADDC
+  000000018068AD8D: 48 8D 0D EC 6D AB  lea         rcx,[0000000184141B80h]
+                    03
+  000000018068AD94: E8 E7 21 CD FF     call        000000018035CF80
+  000000018068AD99: 48 8D 0D A8 E9 AD  lea         rcx,[0000000184169748h]
+                    03
+  000000018068ADA0: E8 DB 21 CD FF     call        000000018035CF80
+  000000018068ADA5: 48 8D 0D E4 A9 B0  lea         rcx,[0000000184195790h]
+                    03
+  000000018068ADAC: E8 CF 21 CD FF     call        000000018035CF80
+  000000018068ADB1: 48 8D 0D C0 99 B3  lea         rcx,[00000001841C4778h]
+                    03
+  000000018068ADB8: E8 C3 21 CD FF     call        000000018035CF80
+  000000018068ADBD: 48 8D 0D 3C A0 AB  lea         rcx,[0000000184144E00h]
+                    03
+  000000018068ADC4: E8 B7 21 CD FF     call        000000018035CF80
+  000000018068ADC9: 48 8D 0D 30 A2 AB  lea         rcx,[0000000184145000h]
+                    03
+  000000018068ADD0: E8 AB 21 CD FF     call        000000018035CF80
+  000000018068ADD5: C6 05 5E 1C CE 03  mov         byte ptr [000000018436CA3Ah],1
+                    01
+  000000018068ADDC: 48 8B 0D 1D A0 AB  mov         rcx,qword ptr [0000000184144E00h]
+                    03
+  000000018068ADE3: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  000000018068ADEA: 75 0C              jne         000000018068ADF8
+  000000018068ADEC: E8 BF 24 C7 FF     call        00000001802FD2B0
+  000000018068ADF1: 48 8B 0D 08 A0 AB  mov         rcx,qword ptr [0000000184144E00h]
+                    03
+  000000018068ADF8: 48 8B 81 B8 00 00  mov         rax,qword ptr [rcx+00000000000000B8h]
+                    00
+  000000018068ADFF: 48 89 7C 24 50     mov         qword ptr [rsp+50h],rdi
+  000000018068AE04: 48 8B 58 58        mov         rbx,qword ptr [rax+58h]
+  000000018068AE08: 48 85 DB           test        rbx,rbx
+  000000018068AE0B: 75 77              jne         000000018068AE84
+  000000018068AE0D: 39 99 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],ebx
+  000000018068AE13: 75 0C              jne         000000018068AE21
+  000000018068AE15: E8 96 24 C7 FF     call        00000001802FD2B0
+  000000018068AE1A: 48 8B 0D DF 9F AB  mov         rcx,qword ptr [0000000184144E00h]
+                    03
+  000000018068AE21: 48 8B 81 B8 00 00  mov         rax,qword ptr [rcx+00000000000000B8h]
+                    00
+  000000018068AE28: 48 8B 0D 61 A9 B0  mov         rcx,qword ptr [0000000184195790h]
+                    03
+  000000018068AE2F: 48 8B 38           mov         rdi,qword ptr [rax]
+  000000018068AE32: E8 89 22 CD FF     call        000000018035D0C0
+  000000018068AE37: 48 8B D8           mov         rbx,rax
+  000000018068AE3A: 48 85 C0           test        rax,rax
+  000000018068AE3D: 0F 84 03 01 00 00  je          000000018068AF46
+  000000018068AE43: 4C 8B 05 2E 99 B3  mov         r8,qword ptr [00000001841C4778h]
+                    03
+  000000018068AE4A: 45 33 C9           xor         r9d,r9d
+  000000018068AE4D: 48 8B D7           mov         rdx,rdi
+  000000018068AE50: 48 8B C8           mov         rcx,rax
+  000000018068AE53: E8 B8 C6 7D 00     call        0000000180E67510
+  000000018068AE58: 48 8B 05 A1 9F AB  mov         rax,qword ptr [0000000184144E00h]
+                    03
+  000000018068AE5F: 48 8B D3           mov         rdx,rbx
+  000000018068AE62: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  000000018068AE69: 48 89 59 58        mov         qword ptr [rcx+58h],rbx
+  000000018068AE6D: 48 8B 05 8C 9F AB  mov         rax,qword ptr [0000000184144E00h]
+                    03
+  000000018068AE74: 48 8B 88 B8 00 00  mov         rcx,qword ptr [rax+00000000000000B8h]
+                    00
+  000000018068AE7B: 48 83 C1 58        add         rcx,58h
+  000000018068AE7F: E8 2C 1C CD FF     call        000000018035CAB0
+  000000018068AE84: 4C 8B 05 BD E8 AD  mov         r8,qword ptr [0000000184169748h]
+                    03
+  000000018068AE8B: 48 8B D3           mov         rdx,rbx
+  000000018068AE8E: 49 8B CE           mov         rcx,r14
+  000000018068AE91: E8 1A 3A 6E 00     call        0000000180D6E8B0
+  000000018068AE96: 48 8B F8           mov         rdi,rax
+  000000018068AE99: 40 84 ED           test        bpl,bpl
+  000000018068AE9C: 0F 84 92 00 00 00  je          000000018068AF34
+  000000018068AEA2: 83 7E 4C 00        cmp         dword ptr [rsi+4Ch],0
+  000000018068AEA6: 75 45              jne         000000018068AEED
+  000000018068AEA8: 48 8B 0D 51 A1 AB  mov         rcx,qword ptr [0000000184145000h]
+                    03
+  000000018068AEAF: E8 0C 22 CD FF     call        000000018035D0C0
+  000000018068AEB4: 48 8B D8           mov         rbx,rax
+  000000018068AEB7: 48 85 C0           test        rax,rax
+  000000018068AEBA: 0F 84 86 00 00 00  je          000000018068AF46
+  000000018068AEC0: 33 D2              xor         edx,edx
+  000000018068AEC2: 48 8B C8           mov         rcx,rax
+  000000018068AEC5: E8 06 DA D5 FF     call        00000001803E88D0 ; DaySceneSleepAndSavePannel+<>c__DisplayClass11_0+<<Confirm>g__Jump|3>d::System.IDisposable.Dispose [MI 150, RVA 0x3e88d0] | DaySceneSleepAndSavePannel+<<Confirm>g__OnRotation|11_1>d::System.IDisposable.Dispose [MI 156, RVA 0x3e88d0] | MusicGame.UI.MusicGameCountDownPannel+<CountDownLoop>d__7::System.IDisposable.Dispose [MI 354, RVA 0x3e88d0] | MusicGame.UI.MusicGameMainPannel+<>c__DisplayClass58_0+<<OnPanelOpen>g__OnLoadFinish|2>d::System.IDisposable.Dispose [MI 440, RVA 0x3e88d0] | MusicGame.UI.MusicGameMainPannel+<>c__DisplayClass58_0+<<OnPanelOpen>g__ShowCG|3>d::System.IDisposable.Dispose [MI 446, RVA 0x3e88d0] | MusicGame.UI.MusicRankPannel+<>c::<OnPanelInitialize>b__24_1 [MI 507, RVA 0x3e88d0] | MusicGame.UI.MusicResultPannel+<>c__DisplayClass34_0+<<TypeCoroutine>g__DoType|2>d::System.IDisposable.Dispose [MI 538, RVA 0x3e88d0] | MusicGame.UI.MusicResultPannel+<TypeCoroutine>d__34::System.IDisposable.Dispose [MI 544, RVA 0x3e88d0] | MusicGame.UI.MusicGameConfigPannel+<OnUpdatePreview>d__24::System.IDisposable.Dispose [MI 560, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnPanelOpen [MI 590, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnExitExtern [MI 591, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorPannel+<>c__DisplayClass32_0+<<OnPanelOpen>g__AfterPreviewMusicLoad|0>d::System.IDisposable.Dispose [MI 619, RVA 0x3e88d0]
+  000000018068AECA: C7 43 10 EB FF FF  mov         dword ptr [rbx+10h],0FFFFFFEBh
+                    FF
+  000000018068AED1: 48 8B D3           mov         rdx,rbx
+  000000018068AED4: C7 43 14 01 00 00  mov         dword ptr [rbx+14h],1
+                    00
+  000000018068AEDB: 48 8B CF           mov         rcx,rdi
+  000000018068AEDE: 4C 8B 05 9B 6C AB  mov         r8,qword ptr [0000000184141B80h]
+                    03
+  000000018068AEE5: E8 56 34 6C 00     call        0000000180D4E340
+  000000018068AEEA: 48 8B F8           mov         rdi,rax
+  000000018068AEED: 83 7E 48 02        cmp         dword ptr [rsi+48h],2
+  000000018068AEF1: 75 41              jne         000000018068AF34
+  000000018068AEF3: 48 8B 0D 06 A1 AB  mov         rcx,qword ptr [0000000184145000h]
+                    03
+  000000018068AEFA: E8 C1 21 CD FF     call        000000018035D0C0
+  000000018068AEFF: 48 8B D8           mov         rbx,rax
+  000000018068AF02: 48 85 C0           test        rax,rax
+  000000018068AF05: 74 3F              je          000000018068AF46
+  000000018068AF07: 33 D2              xor         edx,edx
+  000000018068AF09: 48 8B C8           mov         rcx,rax
+  000000018068AF0C: E8 BF D9 D5 FF     call        00000001803E88D0 ; DaySceneSleepAndSavePannel+<>c__DisplayClass11_0+<<Confirm>g__Jump|3>d::System.IDisposable.Dispose [MI 150, RVA 0x3e88d0] | DaySceneSleepAndSavePannel+<<Confirm>g__OnRotation|11_1>d::System.IDisposable.Dispose [MI 156, RVA 0x3e88d0] | MusicGame.UI.MusicGameCountDownPannel+<CountDownLoop>d__7::System.IDisposable.Dispose [MI 354, RVA 0x3e88d0] | MusicGame.UI.MusicGameMainPannel+<>c__DisplayClass58_0+<<OnPanelOpen>g__OnLoadFinish|2>d::System.IDisposable.Dispose [MI 440, RVA 0x3e88d0] | MusicGame.UI.MusicGameMainPannel+<>c__DisplayClass58_0+<<OnPanelOpen>g__ShowCG|3>d::System.IDisposable.Dispose [MI 446, RVA 0x3e88d0] | MusicGame.UI.MusicRankPannel+<>c::<OnPanelInitialize>b__24_1 [MI 507, RVA 0x3e88d0] | MusicGame.UI.MusicResultPannel+<>c__DisplayClass34_0+<<TypeCoroutine>g__DoType|2>d::System.IDisposable.Dispose [MI 538, RVA 0x3e88d0] | MusicGame.UI.MusicResultPannel+<TypeCoroutine>d__34::System.IDisposable.Dispose [MI 544, RVA 0x3e88d0] | MusicGame.UI.MusicGameConfigPannel+<OnUpdatePreview>d__24::System.IDisposable.Dispose [MI 560, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnPanelOpen [MI 590, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorInfoPannel::OnExitExtern [MI 591, RVA 0x3e88d0] | MusicGame.UI.MusicSelectorPannel+<>c__DisplayClass32_0+<<OnPanelOpen>g__AfterPreviewMusicLoad|0>d::System.IDisposable.Dispose [MI 619, RVA 0x3e88d0]
+  000000018068AF11: C7 43 10 EC FF FF  mov         dword ptr [rbx+10h],0FFFFFFECh
+                    FF
+  000000018068AF18: 48 8B D3           mov         rdx,rbx
+  000000018068AF1B: C7 43 14 01 00 00  mov         dword ptr [rbx+14h],1
+                    00
+  000000018068AF22: 48 8B CF           mov         rcx,rdi
+  000000018068AF25: 4C 8B 05 54 6C AB  mov         r8,qword ptr [0000000184141B80h]
+                    03
+  000000018068AF2C: E8 0F 34 6C 00     call        0000000180D4E340
+  000000018068AF31: 48 8B F8           mov         rdi,rax
+  000000018068AF34: 48 8B C7           mov         rax,rdi
+  000000018068AF37: 48 8B 7C 24 50     mov         rdi,qword ptr [rsp+50h]
+  000000018068AF3C: 48 83 C4 28        add         rsp,28h
+  000000018068AF40: 41 5E              pop         r14
+  000000018068AF42: 5E                 pop         rsi
+  000000018068AF43: 5D                 pop         rbp
+  000000018068AF44: 5B                 pop         rbx
+  000000018068AF45: C3                 ret
+  000000018068AF46: E8 D5 21 CD FF     call        000000018035D120
+  000000018068AF4B: CC                 int         3
+  000000018068AF4C: CC                 int         3
+  000000018068AF4D: CC                 int         3
+  000000018068AF4E: CC                 int         3
+  000000018068AF4F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

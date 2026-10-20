@@ -1,0 +1,65 @@
+# <>c__DisplayClass4_2::<DecorationBuffEnterNight>g__OrderSet|7
+# {"declaringType": "<>c__DisplayClass4_2", "typeIndex": 3275, "image": "Assembly-CSharp.dll", "name": "<DecorationBuffEnterNight>g__OrderSet|7", "metadataMethodIndex": 19498, "token": "0x6004c2b", "methodPointerIndex": 19498, "va": "0x1807a6910", "rva": "0x7a6910", "endRva": "0x7a69ab", "returnTypeIndex": 33376, "parameters": [{"index": 13891, "name": "orderedGuest", "typeIndex": 24624}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x7a6910..0x7a69b0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001807A6910: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001807A6915: 48 89 74 24 10     mov         qword ptr [rsp+10h],rsi
+  00000001807A691A: 57                 push        rdi
+  00000001807A691B: 48 83 EC 20        sub         rsp,20h
+  00000001807A691F: 80 3D 0A 6A BC 03  cmp         byte ptr [000000018436D330h],0
+                    00
+  00000001807A6926: 48 8B F2           mov         rsi,rdx
+  00000001807A6929: 48 8B D9           mov         rbx,rcx
+  00000001807A692C: 75 13              jne         00000001807A6941
+  00000001807A692E: 48 8D 0D 63 55 9D  lea         rcx,[000000018417BE98h]
+                    03
+  00000001807A6935: E8 46 66 BB FF     call        000000018035CF80
+  00000001807A693A: C6 05 EF 69 BC 03  mov         byte ptr [000000018436D330h],1
+                    01
+  00000001807A6941: 48 8B 0D 50 55 9D  mov         rcx,qword ptr [000000018417BE98h]
+                    03
+  00000001807A6948: 48 8B 7B 10        mov         rdi,qword ptr [rbx+10h]
+  00000001807A694C: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001807A6953: 75 05              jne         00000001807A695A
+  00000001807A6955: E8 56 69 B5 FF     call        00000001802FD2B0
+  00000001807A695A: 45 33 C0           xor         r8d,r8d
+  00000001807A695D: 33 D2              xor         edx,edx
+  00000001807A695F: 48 8B CF           mov         rcx,rdi
+  00000001807A6962: E8 59 F1 48 02     call        0000000182C35AC0 ; UnityEngine.Object::op_Equality [MI 78520, RVA 0x2c35ac0]
+  00000001807A6967: 84 C0              test        al,al
+  00000001807A6969: 75 2A              jne         00000001807A6995
+  00000001807A696B: 48 8B 43 18        mov         rax,qword ptr [rbx+18h]
+  00000001807A696F: 48 85 C0           test        rax,rax
+  00000001807A6972: 74 31              je          00000001807A69A5
+  00000001807A6974: 48 8B 48 18        mov         rcx,qword ptr [rax+18h]
+  00000001807A6978: 48 85 C9           test        rcx,rcx
+  00000001807A697B: 74 28              je          00000001807A69A5
+  00000001807A697D: 48 8B 49 20        mov         rcx,qword ptr [rcx+20h]
+  00000001807A6981: 48 85 C9           test        rcx,rcx
+  00000001807A6984: 74 1F              je          00000001807A69A5
+  00000001807A6986: 4C 8B 43 10        mov         r8,qword ptr [rbx+10h]
+  00000001807A698A: 45 33 C9           xor         r9d,r9d
+  00000001807A698D: 48 8B D6           mov         rdx,rsi
+  00000001807A6990: E8 5B 6B FE FF     call        000000018078D4F0 ; GameData.Profile.DLC2_DecorationSatoriEye::SetNum [MI 19488, RVA 0x78d4f0]
+  00000001807A6995: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  00000001807A699A: 48 8B 74 24 38     mov         rsi,qword ptr [rsp+38h]
+  00000001807A699F: 48 83 C4 20        add         rsp,20h
+  00000001807A69A3: 5F                 pop         rdi
+  00000001807A69A4: C3                 ret
+  00000001807A69A5: E8 76 67 BB FF     call        000000018035D120
+  00000001807A69AA: CC                 int         3
+  00000001807A69AB: CC                 int         3
+  00000001807A69AC: CC                 int         3
+  00000001807A69AD: CC                 int         3
+  00000001807A69AE: CC                 int         3
+  00000001807A69AF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

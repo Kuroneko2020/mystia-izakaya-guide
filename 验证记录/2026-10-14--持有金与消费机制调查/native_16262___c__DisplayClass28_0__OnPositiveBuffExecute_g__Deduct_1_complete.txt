@@ -1,0 +1,47 @@
+# <>c__DisplayClass28_0::<OnPositiveBuffExecute>g__Deduct|1
+# {"declaringType": "<>c__DisplayClass28_0", "typeIndex": 2611, "image": "Assembly-CSharp.dll", "name": "<OnPositiveBuffExecute>g__Deduct|1", "metadataMethodIndex": 16262, "token": "0x6003f87", "methodPointerIndex": 16262, "va": "0x1806d8c10", "rva": "0x6d8c10", "endRva": "0x6d8c7d", "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x6d8c80; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001806D8C10: 40 53              push        rbx
+  00000001806D8C12: 48 83 EC 20        sub         rsp,20h
+  00000001806D8C16: 80 3D 4B 40 C9 03  cmp         byte ptr [000000018436CC68h],0
+                    00
+  00000001806D8C1D: 48 8B D9           mov         rbx,rcx
+  00000001806D8C20: 75 1F              jne         00000001806D8C41
+  00000001806D8C22: 48 8D 0D 77 63 AB  lea         rcx,[000000018418EFA0h]
+                    03
+  00000001806D8C29: E8 52 43 C8 FF     call        000000018035CF80
+  00000001806D8C2E: 48 8D 0D 63 32 AA  lea         rcx,[000000018417BE98h]
+                    03
+  00000001806D8C35: E8 46 43 C8 FF     call        000000018035CF80
+  00000001806D8C3A: C6 05 27 40 C9 03  mov         byte ptr [000000018436CC68h],1
+                    01
+  00000001806D8C41: 48 8B 43 10        mov         rax,qword ptr [rbx+10h]
+  00000001806D8C45: 48 85 C0           test        rax,rax
+  00000001806D8C48: 74 2D              je          00000001806D8C77
+  00000001806D8C4A: 48 8B 0D 47 32 AA  mov         rcx,qword ptr [000000018417BE98h]
+                    03
+  00000001806D8C51: 48 8B 58 48        mov         rbx,qword ptr [rax+48h]
+  00000001806D8C55: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001806D8C5C: 75 05              jne         00000001806D8C63
+  00000001806D8C5E: E8 4D 46 C2 FF     call        00000001802FD2B0
+  00000001806D8C63: 48 8B 15 36 63 AB  mov         rdx,qword ptr [000000018418EFA0h]
+                    03
+  00000001806D8C6A: 48 8B CB           mov         rcx,rbx
+  00000001806D8C6D: 48 83 C4 20        add         rsp,20h
+  00000001806D8C71: 5B                 pop         rbx
+  00000001806D8C72: E9 B9 60 35 00     jmp         0000000180A2ED30
+  00000001806D8C77: E8 A4 44 C8 FF     call        000000018035D120
+  00000001806D8C7C: CC                 int         3
+  00000001806D8C7D: CC                 int         3
+  00000001806D8C7E: CC                 int         3
+  00000001806D8C7F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

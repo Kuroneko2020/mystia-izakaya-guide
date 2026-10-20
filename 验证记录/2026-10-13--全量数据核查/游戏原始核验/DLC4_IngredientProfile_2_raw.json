@@ -1,0 +1,72 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlcshared_f9f51d7120dafa2b1c063adcfaa92264.bundle",
+  "sha256": "3da29cd7ea41005c319c6d34ba13594b2ac9c185ff6ee488a0e7bd791ca44c83",
+  "cab": "CAB-1b87d98b8641159af084f81d855df8b2",
+  "path_id": -6224795972764235081,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": -6045244362953254024
+    },
+    "m_Name": "DLC4_IngredientProfile_2",
+    "ingredients": [
+      {
+        "id": 4001,
+        "level": 2,
+        "baseValue": 18,
+        "tags": [
+          3
+        ],
+        "prefix": 0
+      },
+      {
+        "id": 4002,
+        "level": 3,
+        "baseValue": 45,
+        "tags": [
+          29,
+          20
+        ],
+        "prefix": 0
+      }
+    ],
+    "prefixes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      13,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+}

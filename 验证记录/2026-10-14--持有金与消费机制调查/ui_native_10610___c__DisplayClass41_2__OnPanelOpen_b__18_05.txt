@@ -1,0 +1,18 @@
+# <>c__DisplayClass41_2::<OnPanelOpen>b__18
+# {"declaringType": "<>c__DisplayClass41_2", "typeIndex": 1747, "image": "Assembly-CSharp.dll", "name": "<OnPanelOpen>b__18", "metadataMethodIndex": 10610, "token": "0x6002973", "methodPointerIndex": 10610, "va": "0x18054b190", "rva": "0x54b190", "endRva": null, "returnTypeIndex": 33376, "parameters": [{"index": 8041, "name": "x", "typeIndex": 25811}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x54b190..0x54b1a0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  000000018054B190: 48 8B 49 28        mov         rcx,qword ptr [rcx+28h]
+  000000018054B194: 45 33 C9           xor         r9d,r9d
+  000000018054B197: 45 33 C0           xor         r8d,r8d
+  000000018054B19A: E9 31 32 1E 00     jmp         000000018072E3D0 ; GameData.Core.Collections.CharacterUtility.CharacterSpriteSetHelper::AssignTrimFront [MI 17999, RVA 0x72e3d0]
+  000000018054B19F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

@@ -1,0 +1,91 @@
+{
+  "createdAt": "2026-10-14T04:11:35.872Z",
+  "node": "v24.14.0",
+  "inputs": {
+    "脚本/ryotei_ui.js": {
+      "sha256": "1cbc2d1c9c1ba292fabe6a089df84e5b834a1a9ce906624953dcdbd211841d7b"
+    },
+    "脚本/ryotei_navigation.js": {
+      "sha256": "48518fb977819943b5501e89ec76968e8560bdfd148d46c503523d960fccd854"
+    },
+    "脚本/verify_ryotei.cjs": {
+      "sha256": "809f6c621e83366465aad3b1498984446d2615b0d9f6c7dff00a52808a92e8f7"
+    },
+    "脚本/guide_template_ryotei.html": {
+      "sha256": "e1d4de0e066203c54914637ad2a2d799976c9c9aa8b2d091ae79b76358cde2bb"
+    }
+  },
+  "results": [
+    {
+      "name": "当前三份源码与模板控制组",
+      "expectedFailure": false,
+      "actual": "PASS",
+      "error": null,
+      "logs": [
+        "PASS: 源码整模块VM — 详情三表document分页、同候选数换客重置、history页签/查询/chips/页码/scrollXY、快照不可变、精确定位、恢复帧竞态、自定义render/pageKey",
+        "PASS: 攻略 JSON、离线资源、脚本语法、11 页导航、地区/共享客人、精确定位与幂等路由、阅读状态恢复、分页、客人加料列头排序、详情关闭与连续切换"
+      ]
+    },
+    {
+      "name": "详情分页误刷新背景网格",
+      "expectedFailure": true,
+      "actual": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "详情第二页真的重画为全量排序后的第51项"
+      },
+      "logs": []
+    },
+    {
+      "name": "同候选数换客继承页码",
+      "expectedFailure": true,
+      "actual": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "同候选数换客不可继承详情页码: detailMealSort\n\n100 !== 0\n"
+      },
+      "logs": []
+    },
+    {
+      "name": "后退同客人不渲染已恢复详情",
+      "expectedFailure": true,
+      "actual": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "同客人后退必须渲染已恢复的酒水页签DOM"
+      },
+      "logs": []
+    },
+    {
+      "name": "详情横向滚动不保存",
+      "expectedFailure": true,
+      "actual": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "详情scrollX保存于唯一detail-scroller\n\n0 !== 84\n"
+      },
+      "logs": []
+    },
+    {
+      "name": "reading漏掉唯一详情滚动容器",
+      "expectedFailure": true,
+      "actual": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "重建后的表内纵向滚动须恢复\n\n0 !== 310\n"
+      },
+      "logs": []
+    },
+    {
+      "name": "恢复页码与历史快照共用引用",
+      "expectedFailure": true,
+      "actual": "FAIL",
+      "error": {
+        "name": "AssertionError",
+        "message": "恢复页码必须克隆快照，后续分页不能修改历史记录\n\n1 !== 2\n"
+      },
+      "logs": []
+    }
+  ],
+  "scope": "纯Node VM；仅替换内存读入文本，不执行构建、不写生产文件或成品。控制组包含活成品静态检查和源码runtime回归；独立MealUI/消费session业务未加载。"
+}

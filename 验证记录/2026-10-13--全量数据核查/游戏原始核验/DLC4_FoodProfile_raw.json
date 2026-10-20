@@ -1,0 +1,304 @@
+{
+  "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+  "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+  "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+  "path_id": 6151466870951478234,
+  "tree": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 9175463749489793132
+    },
+    "m_Name": "DLC4_FoodProfile",
+    "sellables": [
+      {
+        "id": 4000,
+        "level": 1,
+        "baseValue": 26,
+        "tags": [
+          28,
+          27,
+          24
+        ],
+        "isCollab": 0,
+        "banTags": [
+          1
+        ],
+        "type": 0
+      },
+      {
+        "id": 4001,
+        "level": 2,
+        "baseValue": 42,
+        "tags": [
+          8,
+          31,
+          0,
+          27
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 0
+      },
+      {
+        "id": 4002,
+        "level": 4,
+        "baseValue": 124,
+        "tags": [
+          24,
+          27,
+          35,
+          21,
+          29,
+          10,
+          26
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 0
+      },
+      {
+        "id": 4003,
+        "level": 2,
+        "baseValue": 28,
+        "tags": [
+          12,
+          28,
+          17
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 0
+      },
+      {
+        "id": 4004,
+        "level": 2,
+        "baseValue": 40,
+        "tags": [
+          12,
+          17,
+          2,
+          30
+        ],
+        "isCollab": 0,
+        "banTags": [
+          0
+        ],
+        "type": 0
+      },
+      {
+        "id": 4005,
+        "level": 4,
+        "baseValue": 115,
+        "tags": [
+          14,
+          5,
+          25,
+          1,
+          24,
+          32,
+          4
+        ],
+        "isCollab": 0,
+        "banTags": [
+          6
+        ],
+        "type": 0
+      },
+      {
+        "id": 4006,
+        "level": 3,
+        "baseValue": 42,
+        "tags": [
+          0,
+          3,
+          9
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 0
+      },
+      {
+        "id": 4007,
+        "level": 3,
+        "baseValue": 72,
+        "tags": [
+          10,
+          3,
+          0
+        ],
+        "isCollab": 0,
+        "banTags": [
+          18
+        ],
+        "type": 0
+      },
+      {
+        "id": 4008,
+        "level": 4,
+        "baseValue": 99,
+        "tags": [
+          10,
+          20,
+          4,
+          25,
+          19
+        ],
+        "isCollab": 0,
+        "banTags": [
+          24,
+          26
+        ],
+        "type": 0
+      },
+      {
+        "id": 4009,
+        "level": 1,
+        "baseValue": 32,
+        "tags": [
+          12,
+          3
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 0
+      },
+      {
+        "id": 4010,
+        "level": 3,
+        "baseValue": 112,
+        "tags": [
+          11,
+          16,
+          20
+        ],
+        "isCollab": 0,
+        "banTags": [
+          10
+        ],
+        "type": 0
+      },
+      {
+        "id": 4011,
+        "level": 5,
+        "baseValue": 185,
+        "tags": [
+          0,
+          19,
+          6,
+          9,
+          18,
+          20,
+          23
+        ],
+        "isCollab": 0,
+        "banTags": [
+          21,
+          7
+        ],
+        "type": 0
+      },
+      {
+        "id": 4012,
+        "level": 1,
+        "baseValue": 24,
+        "tags": [
+          26,
+          7,
+          30,
+          25
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 0
+      },
+      {
+        "id": 4013,
+        "level": 3,
+        "baseValue": 78,
+        "tags": [
+          29,
+          4,
+          27,
+          30
+        ],
+        "isCollab": 0,
+        "banTags": [
+          22,
+          6
+        ],
+        "type": 0
+      },
+      {
+        "id": 4014,
+        "level": 4,
+        "baseValue": 133,
+        "tags": [
+          13,
+          29,
+          21,
+          20,
+          7,
+          4,
+          17
+        ],
+        "isCollab": 0,
+        "banTags": [
+          0,
+          8,
+          1
+        ],
+        "type": 0
+      },
+      {
+        "id": 4015,
+        "level": 1,
+        "baseValue": 30,
+        "tags": [
+          30,
+          19
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 0
+      },
+      {
+        "id": 4016,
+        "level": 3,
+        "baseValue": 58,
+        "tags": [
+          24,
+          1,
+          19,
+          4001
+        ],
+        "isCollab": 0,
+        "banTags": [],
+        "type": 0
+      },
+      {
+        "id": 4017,
+        "level": 3,
+        "baseValue": 87,
+        "tags": [
+          17,
+          29,
+          4,
+          28,
+          20
+        ],
+        "isCollab": 0,
+        "banTags": [
+          0
+        ],
+        "type": 0
+      }
+    ],
+    "tagProfileName": "FoodTagProfile",
+    "langFileName": "DLC4_FoodsLang"
+  }
+}

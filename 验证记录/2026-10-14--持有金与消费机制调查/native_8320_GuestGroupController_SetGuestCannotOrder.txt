@@ -1,0 +1,55 @@
+# NightScene.GuestManagementUtility.GuestGroupController::SetGuestCannotOrder
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "SetGuestCannotOrder", "metadataMethodIndex": 8320, "token": "0x6002081", "methodPointerIndex": 8320, "va": "0x1804c8920", "rva": "0x4c8920", "endRva": "0x4c89ab", "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x4c89ab; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804C8920: 40 53              push        rbx
+  00000001804C8922: 48 83 EC 20        sub         rsp,20h
+  00000001804C8926: 80 3D B5 31 EA 03  cmp         byte ptr [000000018436BAE2h],0
+                    00
+  00000001804C892D: 48 8B D9           mov         rbx,rcx
+  00000001804C8930: 75 1F              jne         00000001804C8951
+  00000001804C8932: 48 8D 0D EF 0E CB  lea         rcx,[0000000184179828h]
+                    03
+  00000001804C8939: E8 42 46 E9 FF     call        000000018035CF80
+  00000001804C893E: 48 8D 0D FB 11 CB  lea         rcx,[0000000184179B40h]
+                    03
+  00000001804C8945: E8 36 46 E9 FF     call        000000018035CF80
+  00000001804C894A: C6 05 91 31 EA 03  mov         byte ptr [000000018436BAE2h],1
+                    01
+  00000001804C8951: 48 8B 43 20        mov         rax,qword ptr [rbx+20h]
+  00000001804C8955: C7 43 54 00 00 00  mov         dword ptr [rbx+54h],0
+                    00
+  00000001804C895C: 48 85 C0           test        rax,rax
+  00000001804C895F: 74 44              je          00000001804C89A5
+  00000001804C8961: 83 78 20 00        cmp         dword ptr [rax+20h],0
+  00000001804C8965: 7E 0F              jle         00000001804C8976
+  00000001804C8967: 48 8B 15 BA 0E CB  mov         rdx,qword ptr [0000000184179828h]
+                    03
+  00000001804C896E: 48 8B C8           mov         rcx,rax
+  00000001804C8971: E8 9A EF CB 00     call        0000000181187910
+  00000001804C8976: 80 BB 80 01 00 00  cmp         byte ptr [rbx+0000000000000180h],0
+                    00
+  00000001804C897D: 74 20              je          00000001804C899F
+  00000001804C897F: 48 8B 83 B0 00 00  mov         rax,qword ptr [rbx+00000000000000B0h]
+                    00
+  00000001804C8986: 48 85 C0           test        rax,rax
+  00000001804C8989: 74 14              je          00000001804C899F
+  00000001804C898B: 4C 8B 40 28        mov         r8,qword ptr [rax+28h]
+  00000001804C898F: 48 8B D3           mov         rdx,rbx
+  00000001804C8992: 48 8B 48 40        mov         rcx,qword ptr [rax+40h]
+  00000001804C8996: 48 83 C4 20        add         rsp,20h
+  00000001804C899A: 5B                 pop         rbx
+  00000001804C899B: 48 FF 60 18        jmp         qword ptr [rax+18h]
+  00000001804C899F: 48 83 C4 20        add         rsp,20h
+  00000001804C89A3: 5B                 pop         rbx
+  00000001804C89A4: C3                 ret
+  00000001804C89A5: E8 76 47 E9 FF     call        000000018035D120
+  00000001804C89AA: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

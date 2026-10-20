@@ -1,0 +1,47 @@
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180689C20: 40 53              push        rbx
+  0000000180689C22: 48 83 EC 20        sub         rsp,20h
+  0000000180689C26: 80 3D D8 2D CE 03  cmp         byte ptr [000000018436CA05h],0
+                    00
+  0000000180689C2D: 48 8B D9           mov         rbx,rcx
+  0000000180689C30: 75 1F              jne         0000000180689C51
+  0000000180689C32: 48 8D 0D 8F 4D AD  lea         rcx,[000000018415E9C8h]
+                    03
+  0000000180689C39: E8 42 33 CD FF     call        000000018035CF80
+  0000000180689C3E: 48 8D 0D 23 67 B5  lea         rcx,[00000001841E0368h]
+                    03
+  0000000180689C45: E8 36 33 CD FF     call        000000018035CF80
+  0000000180689C4A: C6 05 B4 2D CE 03  mov         byte ptr [000000018436CA05h],1
+                    01
+  0000000180689C51: 48 83 7B 40 00     cmp         qword ptr [rbx+40h],0
+  0000000180689C56: 48 89 7C 24 30     mov         qword ptr [rsp+30h],rdi
+  0000000180689C5B: 75 33              jne         0000000180689C90
+  0000000180689C5D: 48 8B 0D 04 67 B5  mov         rcx,qword ptr [00000001841E0368h]
+                    03
+  0000000180689C64: E8 57 34 CD FF     call        000000018035D0C0
+  0000000180689C69: 48 8B F8           mov         rdi,rax
+  0000000180689C6C: 48 85 C0           test        rax,rax
+  0000000180689C6F: 74 2E              je          0000000180689C9F
+  0000000180689C71: 48 8B 15 50 4D AD  mov         rdx,qword ptr [000000018415E9C8h]
+                    03
+  0000000180689C78: 48 8B C8           mov         rcx,rax
+  0000000180689C7B: E8 30 A7 9A 00     call        00000001810343B0
+  0000000180689C80: 48 8D 4B 40        lea         rcx,[rbx+40h]
+  0000000180689C84: 48 89 7B 40        mov         qword ptr [rbx+40h],rdi
+  0000000180689C88: 48 8B D7           mov         rdx,rdi
+  0000000180689C8B: E8 20 2E CD FF     call        000000018035CAB0
+  0000000180689C90: 48 8B 43 40        mov         rax,qword ptr [rbx+40h]
+  0000000180689C94: 48 8B 7C 24 30     mov         rdi,qword ptr [rsp+30h]
+  0000000180689C99: 48 83 C4 20        add         rsp,20h
+  0000000180689C9D: 5B                 pop         rbx
+  0000000180689C9E: C3                 ret
+  0000000180689C9F: E8 7C 34 CD FF     call        000000018035D120
+  0000000180689CA4: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

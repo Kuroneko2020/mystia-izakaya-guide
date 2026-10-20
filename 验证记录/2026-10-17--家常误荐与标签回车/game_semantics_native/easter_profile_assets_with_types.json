@@ -1,0 +1,377 @@
+[
+  {
+    "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+    "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+    "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+    "pathId": -5731186221914116491,
+    "guests": [
+      {
+        "type": "specialGuest",
+        "id": 1000,
+        "name": "河城荷取"
+      }
+    ],
+    "script": {
+      "pathId": 8023932791964567801,
+      "class": "NitoriFoodEasterEggData",
+      "namespace": "GameData.Core.Collections.NightSceneUtility"
+    },
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8023932791964567801
+      },
+      "m_Name": "DLC1_FoodEasterEgg_Nitori",
+      "foodId": 0,
+      "cucumberId": 1000
+    }
+  },
+  {
+    "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+    "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+    "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+    "pathId": 1965670458195611836,
+    "guests": [
+      {
+        "type": "specialGuest",
+        "id": 1001,
+        "name": "犬走椛"
+      }
+    ],
+    "script": {
+      "pathId": 862637539905131032,
+      "class": "MomiziFoodEasterEggData",
+      "namespace": "GameData.Core.Collections.NightSceneUtility"
+    },
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 862637539905131032
+      },
+      "m_Name": "DLC1_FoodEasterEgg_Momizi",
+      "foodId": 0,
+      "chocolateId": 5000
+    }
+  },
+  {
+    "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc1_e30f3ad7b6edcf08462c4442e9e1ad11.bundle",
+    "sha256": "fb8dc6bdf5b233c1639a01dd891d9a228688626aff12ef2892277829caeeb67b",
+    "cab": "CAB-ab78213d0d1bf7a75e979a9ab5770619",
+    "pathId": -4531911869539770698,
+    "guests": [
+      {
+        "type": "specialGuest",
+        "id": 1003,
+        "name": "饕餮尤魔"
+      }
+    ],
+    "script": {
+      "pathId": 7490862530601537029,
+      "class": "YuumaFoodEasterEggData",
+      "namespace": "GameData.Core.Collections.NightSceneUtility"
+    },
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 7490862530601537029
+      },
+      "m_Name": "DLC1_FoodEasterEgg_Yuuma",
+      "foodId": 35
+    }
+  },
+  {
+    "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc2_2be5a2a0335df0c7fecc8db00534c030.bundle",
+    "sha256": "d0238f4b833777c8fa2c7abb065ffa58e5d0557f6bf2b67d23f4c73ff3a7a4dd",
+    "cab": "CAB-55bc477a24fa98b55a4bd82644e6c295",
+    "pathId": 653033389050471146,
+    "guests": [
+      {
+        "type": "specialGuest",
+        "id": 2006,
+        "name": "古明地恋"
+      }
+    ],
+    "script": {
+      "pathId": -3937071035592595652,
+      "class": "KoishiFoodEasterEggData",
+      "namespace": "GameData.Core.Collections.NightSceneUtility"
+    },
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -3937071035592595652
+      },
+      "m_Name": "DLC2_FoodEasterEgg_Koishi",
+      "foodId": 70
+    }
+  },
+  {
+    "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+    "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+    "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+    "pathId": -1664595637903790873,
+    "guests": [
+      {
+        "type": "specialGuest",
+        "id": 4001,
+        "name": "梅蒂欣"
+      }
+    ],
+    "script": {
+      "pathId": 121306252284478280,
+      "class": "MedicineFoodEasterEggData",
+      "namespace": "GameData.Core.Collections.NightSceneUtility"
+    },
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 121306252284478280
+      },
+      "m_Name": "DLC4_FoodEasterEgg_Medicine",
+      "foodId": -1
+    }
+  },
+  {
+    "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc4_4d8e20143b2bb89a92a4272f7adcef40.bundle",
+    "sha256": "d39366adb38a3d46101ad2869135d4c629345d07dcd05d530c22aa80c90a09c4",
+    "cab": "CAB-b5600421113ff36f1d83724d1add6260",
+    "pathId": -56130769070096717,
+    "guests": [
+      {
+        "type": "specialGuest",
+        "id": 4008,
+        "name": "蕾米莉亚"
+      }
+    ],
+    "script": {
+      "pathId": -3422253273676013830,
+      "class": "RemiliaFoodEasterEggData",
+      "namespace": "GameData.Core.Collections.NightSceneUtility"
+    },
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -3422253273676013830
+      },
+      "m_Name": "DLC4_FoodEasterEgg_Remilia",
+      "foodId": 69
+    }
+  },
+  {
+    "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+    "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+    "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+    "pathId": 2058154835973799856,
+    "guests": [
+      {
+        "type": "normalGuest",
+        "id": 5003,
+        "name": "月人"
+      },
+      {
+        "type": "specialGuest",
+        "id": 5001,
+        "name": "绵月丰姬"
+      },
+      {
+        "type": "specialGuest",
+        "id": 5002,
+        "name": "绵月依姬"
+      }
+    ],
+    "script": {
+      "pathId": -3388277209279005091,
+      "class": "LunarPersonFoodEasterEggData",
+      "namespace": "GameData.Core.Collections.NightSceneUtility"
+    },
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -3388277209279005091
+      },
+      "m_Name": "DLC5_FoodEasterEgg_LunarPerson",
+      "foodId": 4001
+    }
+  },
+  {
+    "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+    "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+    "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+    "pathId": -6235643310631633009,
+    "guests": [
+      {
+        "type": "specialGuest",
+        "id": 5000,
+        "name": "铃仙"
+      }
+    ],
+    "script": {
+      "pathId": 6470883679147660488,
+      "class": "Reisen2IdleDialogEasterEggData",
+      "namespace": "GameData.Core.Collections.NightSceneUtility"
+    },
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 6470883679147660488
+      },
+      "m_Name": "DLC5_IdleDialogEasterEgg_Reisen2",
+      "foodId": 0,
+      "m_PartnerId": 21,
+      "IdleDialogTitles": [
+        "DLC5_EasterEgg_IdleDialog_Reisen2_A",
+        "DLC5_EasterEgg_IdleDialog_Reisen2_B",
+        "DLC5_EasterEgg_IdleDialog_Reisen2_C",
+        "DLC5_EasterEgg_IdleDialog_Reisen2_D"
+      ]
+    }
+  },
+  {
+    "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\dlc5_7303ac7b33eb32013b47576e6dc4d962.bundle",
+    "sha256": "cbc7ea884bdc38d6acbe918b0bb70d4758a9c32dec6165f374b72d720a8b08a5",
+    "cab": "CAB-6831ee4dd6d6488db326911fef906a46",
+    "pathId": 757690946509595801,
+    "guests": [
+      {
+        "type": "specialGuest",
+        "id": 5005,
+        "name": "露易兹"
+      }
+    ],
+    "script": {
+      "pathId": 5007263583968337375,
+      "class": "LuizeIdleDialogEasterEggData",
+      "namespace": "GameData.Core.Collections.NightSceneUtility"
+    },
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 5007263583968337375
+      },
+      "m_Name": "DLC5_IdleDialogEasterEgg_Luize",
+      "foodId": 0,
+      "m_PartnerId": 1007,
+      "IdleDialogTitles": [
+        "DLC5_EasterEgg_IdleDialog_Luize_A",
+        "DLC5_EasterEgg_IdleDialog_Luize_B",
+        "DLC5_EasterEgg_IdleDialog_Luize_C",
+        "DLC5_EasterEgg_IdleDialog_Luize_D"
+      ]
+    }
+  },
+  {
+    "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+    "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+    "cab": "CAB-fede423717f62585305245104e0fd5e2",
+    "pathId": -9171259044457952517,
+    "guests": [
+      {
+        "type": "specialGuest",
+        "id": 10,
+        "name": "雾雨魔理沙"
+      }
+    ],
+    "script": {
+      "pathId": -4990875439879366604,
+      "class": "MarisaFoodEasterEggData",
+      "namespace": "GameData.Core.Collections.NightSceneUtility"
+    },
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -4990875439879366604
+      },
+      "m_Name": "FoodEasterEgg_Marisa",
+      "foodId": 5002
+    }
+  },
+  {
+    "source": "F:\\Games\\GamePlats\\Steam\\steamapps\\common\\Touhou Mystia Izakaya\\Touhou Mystia Izakaya_Data\\StreamingAssets\\aa\\StandaloneWindows64\\core_07e01badce0c3466a71d003dd46efa15.bundle",
+    "sha256": "9c1fbd2f2fbc7e0cc866d1d0f638c661503c6730bced279eeccc3926d0f455a3",
+    "cab": "CAB-fede423717f62585305245104e0fd5e2",
+    "pathId": 8038547664352954229,
+    "guests": [
+      {
+        "type": "specialGuest",
+        "id": 41,
+        "name": "秦心"
+      }
+    ],
+    "script": {
+      "pathId": -217049460405747543,
+      "class": "KokoroIdleDialogEasterEggData",
+      "namespace": "GameData.Core.Collections.NightSceneUtility"
+    },
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -217049460405747543
+      },
+      "m_Name": "FoodEasterEgg_Kokoro",
+      "foodId": 0,
+      "m_PartnerId": 5006,
+      "m_KoishiId": 2006,
+      "m_MamizouId": 3009,
+      "m_ShrineMapLabel": "HakureiShrine",
+      "m_PartnerIdleDialogTitle": "EasterEgg_IdleDialog_Kokoro_ToDoremy",
+      "m_KoishiIdleDialogTitle": "EasterEgg_IdleDialog_Kokoro_ToKoishi",
+      "m_MamizouIdleDialogTitle": "EasterEgg_IdleDialog_Kokoro_ToMamizou",
+      "m_ShrineMapIdleDialogTitle": "EasterEgg_IdleDialog_Kokoro_InHakureiShrine"
+    }
+  }
+]

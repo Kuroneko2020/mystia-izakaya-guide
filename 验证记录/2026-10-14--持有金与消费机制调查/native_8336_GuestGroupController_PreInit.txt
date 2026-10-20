@@ -1,0 +1,91 @@
+# NightScene.GuestManagementUtility.GuestGroupController::PreInit
+# {"declaringType": "NightScene.GuestManagementUtility.GuestGroupController", "typeIndex": 1435, "image": "Assembly-CSharp.dll", "name": "PreInit", "metadataMethodIndex": 8336, "token": "0x6002091", "methodPointerIndex": 8336, "va": "0x1804c8640", "rva": "0x4c8640", "endRva": "0x4c875d", "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x4c875d; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804C8640: 48 89 5C 24 10     mov         qword ptr [rsp+10h],rbx
+  00000001804C8645: 57                 push        rdi
+  00000001804C8646: 48 83 EC 20        sub         rsp,20h
+  00000001804C864A: 80 3D 9F 34 EA 03  cmp         byte ptr [000000018436BAF0h],0
+                    00
+  00000001804C8651: 48 8B D9           mov         rbx,rcx
+  00000001804C8654: 75 43              jne         00000001804C8699
+  00000001804C8656: 48 8D 0D E3 CF C6  lea         rcx,[0000000184135640h]
+                    03
+  00000001804C865D: E8 1E 49 E9 FF     call        000000018035CF80
+  00000001804C8662: 48 8D 0D D7 CE C6  lea         rcx,[0000000184135540h]
+                    03
+  00000001804C8669: E8 12 49 E9 FF     call        000000018035CF80
+  00000001804C866E: 48 8D 0D CB D1 C6  lea         rcx,[0000000184135840h]
+                    03
+  00000001804C8675: E8 06 49 E9 FF     call        000000018035CF80
+  00000001804C867A: 48 8D 0D AF 78 CF  lea         rcx,[00000001841BFF30h]
+                    03
+  00000001804C8681: E8 FA 48 E9 FF     call        000000018035CF80
+  00000001804C8686: 48 8D 0D 7B 6D C9  lea         rcx,[000000018415F408h]
+                    03
+  00000001804C868D: E8 EE 48 E9 FF     call        000000018035CF80
+  00000001804C8692: C6 05 57 34 EA 03  mov         byte ptr [000000018436BAF0h],1
+                    01
+  00000001804C8699: C7 83 28 01 00 00  mov         dword ptr [rbx+0000000000000128h],0FFFFFFFFh
+                    FF FF FF FF
+  00000001804C86A3: C6 43 50 00        mov         byte ptr [rbx+50h],0
+  00000001804C86A7: 48 8B 83 40 01 00  mov         rax,qword ptr [rbx+0000000000000140h]
+                    00
+  00000001804C86AE: C7 43 40 00 00 00  mov         dword ptr [rbx+40h],0
+                    00
+  00000001804C86B5: 48 85 C0           test        rax,rax
+  00000001804C86B8: 74 0E              je          00000001804C86C8
+  00000001804C86BA: 4C 8B 40 28        mov         r8,qword ptr [rax+28h]
+  00000001804C86BE: 0F 57 C9           xorps       xmm1,xmm1
+  00000001804C86C1: 48 8B 48 40        mov         rcx,qword ptr [rax+40h]
+  00000001804C86C5: FF 50 18           call        qword ptr [rax+18h]
+  00000001804C86C8: 48 8B 0D 39 6D C9  mov         rcx,qword ptr [000000018415F408h]
+                    03
+  00000001804C86CF: E8 EC 49 E9 FF     call        000000018035D0C0
+  00000001804C86D4: 48 8B F8           mov         rdi,rax
+  00000001804C86D7: 48 85 C0           test        rax,rax
+  00000001804C86DA: 74 7B              je          00000001804C8757
+  00000001804C86DC: 48 8B 15 4D 78 CF  mov         rdx,qword ptr [00000001841BFF30h]
+                    03
+  00000001804C86E3: 48 8B C8           mov         rcx,rax
+  00000001804C86E6: E8 C5 00 CC 00     call        00000001811887B0
+  00000001804C86EB: 48 8D 8B 90 00 00  lea         rcx,[rbx+0000000000000090h]
+                    00
+  00000001804C86F2: 48 89 BB 90 00 00  mov         qword ptr [rbx+0000000000000090h],rdi
+                    00
+  00000001804C86F9: 48 8B D7           mov         rdx,rdi
+  00000001804C86FC: E8 AF 43 E9 FF     call        000000018035CAB0
+  00000001804C8701: C6 83 38 01 00 00  mov         byte ptr [rbx+0000000000000138h],1
+                    01
+  00000001804C8708: 80 7B 58 00        cmp         byte ptr [rbx+58h],0
+  00000001804C870C: 75 3E              jne         00000001804C874C
+  00000001804C870E: F3 0F 10 0D 6A 35  movss       xmm1,dword ptr [0000000182EABC80h]
+                    9E 02
+  00000001804C8716: 45 33 C0           xor         r8d,r8d
+  00000001804C8719: 0F 57 C0           xorps       xmm0,xmm0
+  00000001804C871C: E8 CF 27 77 02     call        0000000182C3AEF0 ; UnityEngine.Random::Range [MI 78161, RVA 0x2c3aef0]
+  00000001804C8721: 0F 2F 05 54 35 9E  comiss      xmm0,dword ptr [0000000182EABC7Ch]
+                    02
+  00000001804C8728: 4C 8B 05 11 CE C6  mov         r8,qword ptr [0000000184135540h]
+                    03
+  00000001804C872F: 48 8D 4C 24 30     lea         rcx,[rsp+30h]
+  00000001804C8734: 0F 97 C2           seta        dl
+  00000001804C8737: 33 C0              xor         eax,eax
+  00000001804C8739: 66 89 44 24 30     mov         word ptr [rsp+30h],ax
+  00000001804C873E: E8 9D 7C C6 00     call        00000001811303E0
+  00000001804C8743: 0F B7 44 24 30     movzx       eax,word ptr [rsp+30h]
+  00000001804C8748: 66 89 43 58        mov         word ptr [rbx+58h],ax
+  00000001804C874C: 48 8B 5C 24 38     mov         rbx,qword ptr [rsp+38h]
+  00000001804C8751: 48 83 C4 20        add         rsp,20h
+  00000001804C8755: 5F                 pop         rdi
+  00000001804C8756: C3                 ret
+  00000001804C8757: E8 C4 49 E9 FF     call        000000018035D120
+  00000001804C875C: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

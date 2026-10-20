@@ -1,0 +1,107 @@
+# NightScene.GuestManagementUtility.SpecialGuestsController::GetOrderFoodText
+# {"declaringType": "NightScene.GuestManagementUtility.SpecialGuestsController", "typeIndex": 1514, "image": "Assembly-CSharp.dll", "name": "GetOrderFoodText", "metadataMethodIndex": 8926, "token": "0x60022df", "methodPointerIndex": 8926, "va": "0x180514780", "rva": "0x514780", "endRva": "0x514881", "returnTypeIndex": 31304, "parameters": [{"index": 6443, "name": "specialOrder", "typeIndex": 38204}]}
+# Source DLL SHA256 91ce5ae3dad5da07dfed63bab4c9e454f67b6e50f9a6e8ec498ef9b0b806a789
+# native range 0x514780..0x514890; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180514780: 48 89 5C 24 18     mov         qword ptr [rsp+18h],rbx
+  0000000180514785: 56                 push        rsi
+  0000000180514786: 48 83 EC 20        sub         rsp,20h
+  000000018051478A: 80 3D 6A 75 E5 03  cmp         byte ptr [000000018436BCFBh],0
+                    00
+  0000000180514791: 48 8B F2           mov         rsi,rdx
+  0000000180514794: 48 8B D9           mov         rbx,rcx
+  0000000180514797: 75 13              jne         00000001805147AC
+  0000000180514799: 48 8D 0D 60 12 C3  lea         rcx,[0000000184145A00h]
+                    03
+  00000001805147A0: E8 DB 87 E4 FF     call        000000018035CF80
+  00000001805147A5: C6 05 4F 75 E5 03  mov         byte ptr [000000018436BCFBh],1
+                    01
+  00000001805147AC: 48 89 6C 24 30     mov         qword ptr [rsp+30h],rbp
+  00000001805147B1: 48 89 7C 24 38     mov         qword ptr [rsp+38h],rdi
+  00000001805147B6: 48 85 F6           test        rsi,rsi
+  00000001805147B9: 0F 84 B0 00 00 00  je          000000018051486F
+  00000001805147BF: 48 8B 4E 68        mov         rcx,qword ptr [rsi+68h]
+  00000001805147C3: 48 85 C9           test        rcx,rcx
+  00000001805147C6: 0F 84 A3 00 00 00  je          000000018051486F
+  00000001805147CC: 8B 56 14           mov         edx,dword ptr [rsi+14h]
+  00000001805147CF: 45 33 C0           xor         r8d,r8d
+  00000001805147D2: E8 C9 63 17 00     call        000000018068ABA0 ; GameData.Core.Collections.NightSceneUtility.SpecialGuest::GetFoodTagText [MI 14735, RVA 0x68aba0]
+  00000001805147D7: 48 83 BB B8 01 00  cmp         qword ptr [rbx+00000000000001B8h],0
+                    00 00
+  00000001805147DF: 48 8B E8           mov         rbp,rax
+  00000001805147E2: 74 73              je          0000000180514857
+  00000001805147E4: 48 8B 8B B8 01 00  mov         rcx,qword ptr [rbx+00000000000001B8h]
+                    00
+  00000001805147EB: 4C 8B 01           mov         r8,qword ptr [rcx]
+  00000001805147EE: 49 8B 90 E0 01 00  mov         rdx,qword ptr [r8+00000000000001E0h]
+                    00
+  00000001805147F5: 41 FF 90 D8 01 00  call        qword ptr [r8+00000000000001D8h]
+                    00
+  00000001805147FC: 48 8B D8           mov         rbx,rax
+  00000001805147FF: 48 85 C0           test        rax,rax
+  0000000180514802: 74 6B              je          000000018051486F
+  0000000180514804: 33 FF              xor         edi,edi
+  0000000180514806: 33 C0              xor         eax,eax
+  0000000180514808: 3B 43 18           cmp         eax,dword ptr [rbx+18h]
+  000000018051480B: 7D 4A              jge         0000000180514857
+  000000018051480D: 3B 7B 18           cmp         edi,dword ptr [rbx+18h]
+  0000000180514810: 73 69              jae         000000018051487B
+  0000000180514812: 48 63 CF           movsxd      rcx,edi
+  0000000180514815: 48 8B 4C CB 20     mov         rcx,qword ptr [rbx+rcx*8+20h]
+  000000018051481A: 48 85 C9           test        rcx,rcx
+  000000018051481D: 74 50              je          000000018051486F
+  000000018051481F: 48 8B 15 DA 11 C3  mov         rdx,qword ptr [0000000184145A00h]
+                    03
+  0000000180514826: 33 C0              xor         eax,eax
+  0000000180514828: 48 39 11           cmp         qword ptr [rcx],rdx
+  000000018051482B: 48 0F 44 C1        cmove       rax,rcx
+  000000018051482F: 48 85 C0           test        rax,rax
+  0000000180514832: 74 41              je          0000000180514875
+  0000000180514834: 33 C0              xor         eax,eax
+  0000000180514836: 4C 8B C5           mov         r8,rbp
+  0000000180514839: 48 39 11           cmp         qword ptr [rcx],rdx
+  000000018051483C: 8B 56 14           mov         edx,dword ptr [rsi+14h]
+  000000018051483F: 48 0F 44 C1        cmove       rax,rcx
+  0000000180514843: 4C 8B 48 28        mov         r9,qword ptr [rax+28h]
+  0000000180514847: 48 8B 48 40        mov         rcx,qword ptr [rax+40h]
+  000000018051484B: FF 50 18           call        qword ptr [rax+18h]
+  000000018051484E: FF C7              inc         edi
+  0000000180514850: 48 8B E8           mov         rbp,rax
+  0000000180514853: 8B C7              mov         eax,edi
+  0000000180514855: EB B1              jmp         0000000180514808
+  0000000180514857: 48 8B 7C 24 38     mov         rdi,qword ptr [rsp+38h]
+  000000018051485C: 48 8B C5           mov         rax,rbp
+  000000018051485F: 48 8B 6C 24 30     mov         rbp,qword ptr [rsp+30h]
+  0000000180514864: 48 8B 5C 24 40     mov         rbx,qword ptr [rsp+40h]
+  0000000180514869: 48 83 C4 20        add         rsp,20h
+  000000018051486D: 5E                 pop         rsi
+  000000018051486E: C3                 ret
+  000000018051486F: E8 AC 88 E4 FF     call        000000018035D120
+  0000000180514874: CC                 int         3
+  0000000180514875: E8 66 82 E4 FF     call        000000018035CAE0
+  000000018051487A: CC                 int         3
+  000000018051487B: E8 90 88 E4 FF     call        000000018035D110
+  0000000180514880: CC                 int         3
+  0000000180514881: CC                 int         3
+  0000000180514882: CC                 int         3
+  0000000180514883: CC                 int         3
+  0000000180514884: CC                 int         3
+  0000000180514885: CC                 int         3
+  0000000180514886: CC                 int         3
+  0000000180514887: CC                 int         3
+  0000000180514888: CC                 int         3
+  0000000180514889: CC                 int         3
+  000000018051488A: CC                 int         3
+  000000018051488B: CC                 int         3
+  000000018051488C: CC                 int         3
+  000000018051488D: CC                 int         3
+  000000018051488E: CC                 int         3
+  000000018051488F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

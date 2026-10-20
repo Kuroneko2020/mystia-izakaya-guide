@@ -1,0 +1,61 @@
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001806882F0: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001806882F5: 57                 push        rdi
+  00000001806882F6: 48 83 EC 20        sub         rsp,20h
+  00000001806882FA: 80 3D 07 47 CE 03  cmp         byte ptr [000000018436CA08h],0
+                    00
+  0000000180688301: 8B DA              mov         ebx,edx
+  0000000180688303: 48 8B F9           mov         rdi,rcx
+  0000000180688306: 75 13              jne         000000018068831B
+  0000000180688308: 48 8D 0D B9 69 AD  lea         rcx,[000000018415ECC8h]
+                    03
+  000000018068830F: E8 6C 4C CD FF     call        000000018035CF80
+  0000000180688314: C6 05 ED 46 CE 03  mov         byte ptr [000000018436CA08h],1
+                    01
+  000000018068831B: 33 D2              xor         edx,edx
+  000000018068831D: 48 8B CF           mov         rcx,rdi
+  0000000180688320: E8 FB 18 00 00     call        0000000180689C20
+  0000000180688325: 4C 8B D0           mov         r10,rax
+  0000000180688328: 48 85 C0           test        rax,rax
+  000000018068832B: 74 5C              je          0000000180688389
+  000000018068832D: 4C 8B 05 94 69 AD  mov         r8,qword ptr [000000018415ECC8h]
+                    03
+  0000000180688334: FF 40 1C           inc         dword ptr [rax+1Ch]
+  0000000180688337: 48 8B 48 10        mov         rcx,qword ptr [rax+10h]
+  000000018068833B: 48 85 C9           test        rcx,rcx
+  000000018068833E: 74 49              je          0000000180688389
+  0000000180688340: 48 63 50 18        movsxd      rdx,dword ptr [rax+18h]
+  0000000180688344: 3B 51 18           cmp         edx,dword ptr [rcx+18h]
+  0000000180688347: 72 25              jb          000000018068836E
+  0000000180688349: 49 8B 40 20        mov         rax,qword ptr [r8+20h]
+  000000018068834D: 8B D3              mov         edx,ebx
+  000000018068834F: 48 8B 88 C0 00 00  mov         rcx,qword ptr [rax+00000000000000C0h]
+                    00
+  0000000180688356: 4C 8B 49 58        mov         r9,qword ptr [rcx+58h]
+  000000018068835A: 49 8B CA           mov         rcx,r10
+  000000018068835D: 4D 8B C1           mov         r8,r9
+  0000000180688360: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  0000000180688365: 48 83 C4 20        add         rsp,20h
+  0000000180688369: 5F                 pop         rdi
+  000000018068836A: 49 FF 61 08        jmp         qword ptr [r9+8]
+  000000018068836E: 8D 42 01           lea         eax,[rdx+1]
+  0000000180688371: 41 89 42 18        mov         dword ptr [r10+18h],eax
+  0000000180688375: 3B 51 18           cmp         edx,dword ptr [rcx+18h]
+  0000000180688378: 73 15              jae         000000018068838F
+  000000018068837A: 89 5C 91 20        mov         dword ptr [rcx+rdx*4+20h],ebx
+  000000018068837E: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  0000000180688383: 48 83 C4 20        add         rsp,20h
+  0000000180688387: 5F                 pop         rdi
+  0000000180688388: C3                 ret
+  0000000180688389: E8 92 4D CD FF     call        000000018035D120
+  000000018068838E: CC                 int         3
+  000000018068838F: E8 7C 4D CD FF     call        000000018035D110
+  0000000180688394: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

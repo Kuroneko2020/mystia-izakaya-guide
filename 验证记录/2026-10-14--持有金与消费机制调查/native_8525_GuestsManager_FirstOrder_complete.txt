@@ -1,0 +1,168 @@
+# NightScene.GuestManagementUtility.GuestsManager::FirstOrder
+# {"declaringType": "NightScene.GuestManagementUtility.GuestsManager", "typeIndex": 1495, "image": "Assembly-CSharp.dll", "name": "FirstOrder", "metadataMethodIndex": 8525, "token": "0x600214e", "methodPointerIndex": 8525, "va": "0x1804cfaf0", "rva": "0x4cfaf0", "endRva": "0x4cfd06", "returnTypeIndex": 33376, "parameters": [{"index": 6185, "name": "first", "typeIndex": 24624}]}
+# range end RVA 0x4cfd10; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001804CFAF0: 48 89 5C 24 20     mov         qword ptr [rsp+20h],rbx
+  00000001804CFAF5: 55                 push        rbp
+  00000001804CFAF6: 48 83 EC 40        sub         rsp,40h
+  00000001804CFAFA: 80 3D 44 C0 E9 03  cmp         byte ptr [000000018436BB45h],0
+                    00
+  00000001804CFB01: 48 8B DA           mov         rbx,rdx
+  00000001804CFB04: 48 8B E9           mov         rbp,rcx
+  00000001804CFB07: 75 4F              jne         00000001804CFB58
+  00000001804CFB09: 48 8D 0D F0 5A CE  lea         rcx,[00000001841B5600h]
+                    03
+  00000001804CFB10: E8 6B D4 E8 FF     call        000000018035CF80
+  00000001804CFB15: 48 8D 0D 6C C3 C7  lea         rcx,[000000018414BE88h]
+                    03
+  00000001804CFB1C: E8 5F D4 E8 FF     call        000000018035CF80
+  00000001804CFB21: 48 8D 0D 28 D4 CB  lea         rcx,[000000018418CF50h]
+                    03
+  00000001804CFB28: E8 53 D4 E8 FF     call        000000018035CF80
+  00000001804CFB2D: 48 8D 0D 64 4E D0  lea         rcx,[00000001841D4998h]
+                    03
+  00000001804CFB34: E8 47 D4 E8 FF     call        000000018035CF80
+  00000001804CFB39: 48 8D 0D 90 A6 CF  lea         rcx,[00000001841CA1D0h]
+                    03
+  00000001804CFB40: E8 3B D4 E8 FF     call        000000018035CF80
+  00000001804CFB45: 48 8D 0D 64 AE D0  lea         rcx,[00000001841DA9B0h]
+                    03
+  00000001804CFB4C: E8 2F D4 E8 FF     call        000000018035CF80
+  00000001804CFB51: C6 05 ED BF E9 03  mov         byte ptr [000000018436BB45h],1
+                    01
+  00000001804CFB58: 48 89 74 24 50     mov         qword ptr [rsp+50h],rsi
+  00000001804CFB5D: 48 89 7C 24 58     mov         qword ptr [rsp+58h],rdi
+  00000001804CFB62: 4C 89 74 24 60     mov         qword ptr [rsp+60h],r14
+  00000001804CFB67: 48 85 DB           test        rbx,rbx
+  00000001804CFB6A: 0F 84 84 01 00 00  je          00000001804CFCF4
+  00000001804CFB70: 48 8B 03           mov         rax,qword ptr [rbx]
+  00000001804CFB73: 48 8B CB           mov         rcx,rbx
+  00000001804CFB76: 48 8B 90 C0 01 00  mov         rdx,qword ptr [rax+00000000000001C0h]
+                    00
+  00000001804CFB7D: FF 90 B8 01 00 00  call        qword ptr [rax+00000000000001B8h]
+  00000001804CFB83: 48 8B 15 26 AE D0  mov         rdx,qword ptr [00000001841DA9B0h]
+                    03
+  00000001804CFB8A: 45 33 C0           xor         r8d,r8d
+  00000001804CFB8D: 48 8B C8           mov         rcx,rax
+  00000001804CFB90: E8 0B E5 C3 01     call        000000018210E0A0 ; System.String::Concat [MI 25739, RVA 0x210e0a0]
+  00000001804CFB95: 48 8B 0D 34 A6 CF  mov         rcx,qword ptr [00000001841CA1D0h]
+                    03
+  00000001804CFB9C: 48 8B F8           mov         rdi,rax
+  00000001804CFB9F: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  00000001804CFBA6: 75 05              jne         00000001804CFBAD
+  00000001804CFBA8: E8 03 D7 E2 FF     call        00000001802FD2B0
+  00000001804CFBAD: 45 33 C0           xor         r8d,r8d
+  00000001804CFBB0: 48 8B D7           mov         rdx,rdi
+  00000001804CFBB3: 48 8B CD           mov         rcx,rbp
+  00000001804CFBB6: E8 65 B5 F2 FF     call        00000001803FB120
+  00000001804CFBBB: 48 8B 0D D6 4D D0  mov         rcx,qword ptr [00000001841D4998h]
+                    03
+  00000001804CFBC2: E8 89 C3 C3 00     call        000000018110BF50
+  00000001804CFBC7: 48 85 C0           test        rax,rax
+  00000001804CFBCA: 0F 84 24 01 00 00  je          00000001804CFCF4
+  00000001804CFBD0: 48 8B 90 10 01 00  mov         rdx,qword ptr [rax+0000000000000110h]
+                    00
+  00000001804CFBD7: 48 85 D2           test        rdx,rdx
+  00000001804CFBDA: 0F 84 14 01 00 00  je          00000001804CFCF4
+  00000001804CFBE0: 4C 8B 0D A1 C2 C7  mov         r9,qword ptr [000000018414BE88h]
+                    03
+  00000001804CFBE7: 48 8D 4C 24 20     lea         rcx,[rsp+20h]
+  00000001804CFBEC: 44 8B 83 28 01 00  mov         r8d,dword ptr [rbx+0000000000000128h]
+                    00
+  00000001804CFBF3: E8 38 32 75 01     call        0000000181C22E30
+  00000001804CFBF8: 48 8B 7C 24 38     mov         rdi,qword ptr [rsp+38h]
+  00000001804CFBFD: 48 85 FF           test        rdi,rdi
+  00000001804CFC00: 0F 84 EE 00 00 00  je          00000001804CFCF4
+  00000001804CFC06: 33 D2              xor         edx,edx
+  00000001804CFC08: 48 8B CF           mov         rcx,rdi
+  00000001804CFC0B: E8 80 07 04 00     call        0000000180510390 ; NightScene.GuestManagementUtility.GuestTableDisplayer::ShowMood [MI 8832, RVA 0x510390]
+  00000001804CFC10: 48 8B 0D E9 59 CE  mov         rcx,qword ptr [00000001841B5600h]
+                    03
+  00000001804CFC17: 4C 8B B3 40 01 00  mov         r14,qword ptr [rbx+0000000000000140h]
+                    00
+  00000001804CFC1E: E8 9D D4 E8 FF     call        000000018035D0C0
+  00000001804CFC23: 48 8B F0           mov         rsi,rax
+  00000001804CFC26: 48 85 C0           test        rax,rax
+  00000001804CFC29: 0F 84 C5 00 00 00  je          00000001804CFCF4
+  00000001804CFC2F: 4C 8B 05 1A D3 CB  mov         r8,qword ptr [000000018418CF50h]
+                    03
+  00000001804CFC36: 45 33 C9           xor         r9d,r9d
+  00000001804CFC39: 48 8B D7           mov         rdx,rdi
+  00000001804CFC3C: 48 8B C8           mov         rcx,rax
+  00000001804CFC3F: E8 5C B6 E8 00     call        000000018135B2A0
+  00000001804CFC44: 45 33 C0           xor         r8d,r8d
+  00000001804CFC47: 48 8B D6           mov         rdx,rsi
+  00000001804CFC4A: 49 8B CE           mov         rcx,r14
+  00000001804CFC4D: E8 2E BA D7 01     call        000000018224B680 ; System.Delegate::Combine [MI 29095, RVA 0x224b680]
+  00000001804CFC52: 48 8B F0           mov         rsi,rax
+  00000001804CFC55: 48 85 C0           test        rax,rax
+  00000001804CFC58: 74 1B              je          00000001804CFC75
+  00000001804CFC5A: 48 8B 3D 9F 59 CE  mov         rdi,qword ptr [00000001841B5600h]
+                    03
+  00000001804CFC61: 48 8B CE           mov         rcx,rsi
+  00000001804CFC64: 48 8B D7           mov         rdx,rdi
+  00000001804CFC67: E8 54 CE E8 FF     call        000000018035CAC0
+  00000001804CFC6C: 48 85 C0           test        rax,rax
+  00000001804CFC6F: 0F 84 85 00 00 00  je          00000001804CFCFA
+  00000001804CFC75: 48 8D 8B 40 01 00  lea         rcx,[rbx+0000000000000140h]
+                    00
+  00000001804CFC7C: 48 89 83 40 01 00  mov         qword ptr [rbx+0000000000000140h],rax
+                    00
+  00000001804CFC83: 48 8B D0           mov         rdx,rax
+  00000001804CFC86: E8 25 CE E8 FF     call        000000018035CAB0
+  00000001804CFC8B: 8B 4B 40           mov         ecx,dword ptr [rbx+40h]
+  00000001804CFC8E: 83 F9 65           cmp         ecx,65h
+  00000001804CFC91: 7C 07              jl          00000001804CFC9A
+  00000001804CFC93: B9 64 00 00 00     mov         ecx,64h
+  00000001804CFC98: EB 07              jmp         00000001804CFCA1
+  00000001804CFC9A: 33 C0              xor         eax,eax
+  00000001804CFC9C: 85 C9              test        ecx,ecx
+  00000001804CFC9E: 0F 48 C8           cmovs       ecx,eax
+  00000001804CFCA1: 48 8B 83 40 01 00  mov         rax,qword ptr [rbx+0000000000000140h]
+                    00
+  00000001804CFCA8: 89 4B 40           mov         dword ptr [rbx+40h],ecx
+  00000001804CFCAB: 48 85 C0           test        rax,rax
+  00000001804CFCAE: 74 1A              je          00000001804CFCCA
+  00000001804CFCB0: 4C 8B 40 28        mov         r8,qword ptr [rax+28h]
+  00000001804CFCB4: 66 0F 6E C9        movd        xmm1,ecx
+  00000001804CFCB8: 48 8B 48 40        mov         rcx,qword ptr [rax+40h]
+  00000001804CFCBC: 0F 5B C9           cvtdq2ps    xmm1,xmm1
+  00000001804CFCBF: F3 0F 5E 0D DD BF  divss       xmm1,dword ptr [0000000182EABCA4h]
+                    9D 02
+  00000001804CFCC7: FF 50 18           call        qword ptr [rax+18h]
+  00000001804CFCCA: 45 33 C9           xor         r9d,r9d
+  00000001804CFCCD: 41 B0 01           mov         r8b,1
+  00000001804CFCD0: 48 8B D3           mov         rdx,rbx
+  00000001804CFCD3: 48 8B CD           mov         rcx,rbp
+  00000001804CFCD6: 4C 8B 74 24 60     mov         r14,qword ptr [rsp+60h]
+  00000001804CFCDB: 48 8B 7C 24 58     mov         rdi,qword ptr [rsp+58h]
+  00000001804CFCE0: 48 8B 74 24 50     mov         rsi,qword ptr [rsp+50h]
+  00000001804CFCE5: 48 8B 5C 24 68     mov         rbx,qword ptr [rsp+68h]
+  00000001804CFCEA: 48 83 C4 40        add         rsp,40h
+  00000001804CFCEE: 5D                 pop         rbp
+  00000001804CFCEF: E9 CC 02 00 00     jmp         00000001804CFFC0 ; NightScene.GuestManagementUtility.GuestsManager::GenerateOrderSession [MI 8524, RVA 0x4cffc0]
+  00000001804CFCF4: E8 27 D4 E8 FF     call        000000018035D120
+  00000001804CFCF9: CC                 int         3
+  00000001804CFCFA: 48 8B D7           mov         rdx,rdi
+  00000001804CFCFD: 48 8B CE           mov         rcx,rsi
+  00000001804CFD00: E8 DB CD E8 FF     call        000000018035CAE0
+  00000001804CFD05: CC                 int         3
+  00000001804CFD06: CC                 int         3
+  00000001804CFD07: CC                 int         3
+  00000001804CFD08: CC                 int         3
+  00000001804CFD09: CC                 int         3
+  00000001804CFD0A: CC                 int         3
+  00000001804CFD0B: CC                 int         3
+  00000001804CFD0C: CC                 int         3
+  00000001804CFD0D: CC                 int         3
+  00000001804CFD0E: CC                 int         3
+  00000001804CFD0F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

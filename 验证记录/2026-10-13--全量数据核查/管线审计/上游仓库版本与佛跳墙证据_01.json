@@ -1,0 +1,268 @@
+{
+  "auditDate": "2026-10-13",
+  "repos": [
+    {
+      "name": "mystia-hayami-data",
+      "path": "原始资料/repos/mystia-hayami-data",
+      "status": {
+        "returncode": 0,
+        "stdout": "## main...origin/main",
+        "stderr": ""
+      },
+      "head": {
+        "returncode": 0,
+        "stdout": "cf88f031c1665d70506fbd60135036109cb6a691\n2024-11-05T02:04:02+08:00\n2024-11-05T02:04:02+08:00\nFix goblin",
+        "stderr": ""
+      },
+      "gitLocalOnly": true
+    },
+    {
+      "name": "mystia-steward-companion",
+      "path": "原始资料/repos/mystia-steward-companion",
+      "status": {
+        "returncode": 0,
+        "stdout": "## main...origin/main",
+        "stderr": ""
+      },
+      "head": {
+        "returncode": 0,
+        "stdout": "098f414a4ddacc2471e3ca04119f13e2f0733ba8\n2026-08-19T12:21:19+08:00\n2026-08-19T12:21:19+08:00\ndocs: separate documentation responsibilities",
+        "stderr": ""
+      },
+      "gitLocalOnly": true
+    },
+    {
+      "name": "mystias_izakaya",
+      "path": "原始资料/repos/mystias_izakaya",
+      "status": {
+        "returncode": 0,
+        "stdout": "## main...origin/main",
+        "stderr": ""
+      },
+      "head": {
+        "returncode": 0,
+        "stdout": "622e0c024f9a09a572d0800b076f711d9a30d610\n2025-03-01T00:16:30+08:00\n2025-03-01T00:16:30+08:00\n完成时侧边栏显示完成",
+        "stderr": ""
+      },
+      "gitLocalOnly": true
+    },
+    {
+      "name": "MystiasIzakaya",
+      "path": "原始资料/repos/MystiasIzakaya",
+      "status": {
+        "returncode": 0,
+        "stdout": "## dev/1.21.1...origin/dev/1.21.1",
+        "stderr": ""
+      },
+      "head": {
+        "returncode": 0,
+        "stdout": "584722986685517f57d25136fbde6fb372eeb846\n2025-08-21T19:19:57+08:00\n2025-08-21T19:19:57+08:00\nUpdate README.md to reflect support status for versions 1.21.4 and 1.20.1",
+        "stderr": ""
+      },
+      "gitLocalOnly": true
+    },
+    {
+      "name": "MystiasIzakayaDataProjects",
+      "path": "原始资料/repos/MystiasIzakayaDataProjects",
+      "status": {
+        "returncode": 0,
+        "stdout": "## main...origin/main",
+        "stderr": ""
+      },
+      "head": {
+        "returncode": 0,
+        "stdout": "ac6a9c94b77815f1efae78aab6e25a384ef419cd\n2025-02-08T19:00:08-06:00\n2025-02-08T19:00:08-06:00\nUpdate SQLDevLog",
+        "stderr": ""
+      },
+      "gitLocalOnly": true
+    },
+    {
+      "name": "touhou-izakaya-helper",
+      "path": "原始资料/repos/touhou-izakaya-helper",
+      "status": {
+        "returncode": 0,
+        "stdout": "## main...origin/main",
+        "stderr": ""
+      },
+      "head": {
+        "returncode": 0,
+        "stdout": "c7a37a502e583add7af176f3e2a53d1df35c005d\n2026-04-23T16:45:01+08:00\n2026-04-23T16:45:01+08:00\n颜色变量全局适配",
+        "stderr": ""
+      },
+      "gitLocalOnly": true
+    },
+    {
+      "name": "touhou-mystia-izakaya-assistant",
+      "path": "原始资料/repos/touhou-mystia-izakaya-assistant",
+      "status": {
+        "returncode": 0,
+        "stdout": "## master...origin/master",
+        "stderr": ""
+      },
+      "head": {
+        "returncode": 0,
+        "stdout": "a4382c32e914bdc9597c72344ed077d6949aaec9\n2026-10-04T23:41:52+08:00\n2026-10-04T23:41:52+08:00\nchore(build): bump version to 2.10.11",
+        "stderr": ""
+      },
+      "gitLocalOnly": true
+    },
+    {
+      "name": "touhou-mystia-izakaya-data",
+      "path": "原始资料/repos/touhou-mystia-izakaya-data",
+      "status": {
+        "returncode": 0,
+        "stdout": "## main...origin/main",
+        "stderr": ""
+      },
+      "head": {
+        "returncode": 0,
+        "stdout": "e71ae175af121ca6ac2a8b83db5d5f69ebc6e238\n2024-07-11T11:57:48+08:00\n2024-07-11T11:57:48+08:00\nUpdate README.md",
+        "stderr": ""
+      },
+      "gitLocalOnly": true
+    }
+  ],
+  "focusRawSourceRecords": [
+    {
+      "repo": "touhou-izakaya-helper",
+      "source": "原始资料/repos/touhou-izakaya-helper/js/cook.js",
+      "sha256": "d0a8237b63f700faee3f38c37dd55a5a1a452e8db88f1e72991d9b95010219bb",
+      "recordCount": 162,
+      "buddhaRecord": {
+        "name": "hxftq",
+        "chinese": "幻想佛跳墙",
+        "cooker": "cook1",
+        "tag": "昂贵, 肉, 水产, 高级, 传说, 山珍, 中华, 适合拍照, 力量涌现, 文化底蕴, 菌类, 特产",
+        "withNo": "",
+        "material": "和牛, 极上金枪鱼, 黑毛猪肉, 河豚, 松露",
+        "time": "10.8",
+        "level": "4",
+        "money": "160",
+        "from": "矢田寺成美Lv3→Lv4"
+      },
+      "comparisonMeaning": "raw upstream reference, not an independent game truth claim"
+    },
+    {
+      "repo": "touhou-mystia-izakaya-data",
+      "source": "原始资料/repos/touhou-mystia-izakaya-data/data/recipes.json",
+      "sha256": "d615fa615ea7b1b70985e471f372d3b04596868f77fb7f9f777274e7bed8618e",
+      "recordCount": 164,
+      "buddhaRecord": {
+        "id": 0,
+        "name": "幻想佛跳墙",
+        "aliases": [
+          "hxftq",
+          "huanxiangfotiaoqiang"
+        ],
+        "info": [],
+        "dlc": "DLC1",
+        "level": 4,
+        "price": 160,
+        "station": "煮锅",
+        "from": "【DLC1】矢田寺成美Lv3→Lv4",
+        "time_lv1": 18.0,
+        "time_lv50": 10.8,
+        "ingredients": [
+          "极上金枪鱼",
+          "河豚",
+          "黑毛猪肉",
+          "和牛",
+          "松露"
+        ],
+        "positive_tags": [
+          "昂贵",
+          "肉",
+          "水产",
+          "高级",
+          "传说",
+          "山珍",
+          "中华",
+          "适合拍照",
+          "力量涌现",
+          "文化底蕴",
+          "菌类",
+          "特产",
+          "大份"
+        ],
+        "negative_tags": []
+      },
+      "comparisonMeaning": "raw upstream reference, not an independent game truth claim"
+    },
+    {
+      "repo": "mystia-hayami-data",
+      "source": "原始资料/repos/mystia-hayami-data/data/main/foods/dishes.json",
+      "sha256": "24991a06f17ab0c2dfd4eccc19cbc9716dcf76661f9bf547a9f9e3565f665908",
+      "recordCount": 90,
+      "buddhaRecord": {
+        "app_id": 90,
+        "app_label_id": "buddha_jumps_over_the_wall",
+        "game_id": null,
+        "game_alias": [],
+        "name": {
+          "zh-hans": "",
+          "zh-hant": "幻想佛跳牆",
+          "en": "Buddha Jumps Over The Wall",
+          "ja": "",
+          "ko": ""
+        },
+        "dlc": "DLC1",
+        "data": {
+          "price": 160,
+          "level": 4,
+          "time": 10.8,
+          "cooker": null,
+          "ingredients": [
+            16,
+            19,
+            15,
+            20,
+            18
+          ],
+          "tags": [
+            -3,
+            0,
+            1,
+            4,
+            5,
+            10,
+            14,
+            20,
+            23,
+            25,
+            26,
+            30
+          ],
+          "conflicts": []
+        },
+        "links": null
+      },
+      "comparisonMeaning": "raw upstream reference, not an independent game truth claim"
+    }
+  ],
+  "sqlNotebook": {
+    "source": "原始资料/repos/MystiasIzakayaDataProjects/AzureSQL/IzakayaFillMenu.ipynb",
+    "sha256": "8330aef07366fe1a52057a6467bb536c1f109a8097e271ceb235cff5d9b214d5",
+    "cellCount": 154,
+    "mealInsertCountIncludingTest": 151,
+    "drinkInsertCount": 0,
+    "mealTagInsertCount": 0,
+    "buddhaSQL": "INSERT INTO Meals (MealID, MealName, Cost, Station, CookTime, Lv)\r\nVALUES (90, 'Buddha Jumps Over The Wall', 160, 'Boiling Pot', 10.8, 4);"
+  },
+  "unresolvedCoverage": [
+    "Gitee cook/material/drinks and two Minecraft mods have static records; only focused findings are claimed here, not a complete independent cross-source reconciliation.",
+    "mystia-hayami-data lists main+DLC1 only; README says uncertain game_id. Labels differ in script/language.",
+    "mystia-steward-companion consumes game runtime catalog; repository does not supply a filled current game catalog. dynamic-food-tags.ts corroborates the >=5 mechanism but the project retains assistant source attribution.",
+    "Minecraft mod tags/prices are adaptation data, and can contain distinct IDs, errors or balance values. Do not use them as official truth.",
+    "touhou-mystia-izakaya-data README cites Bilibili cv33098171; therefore other community tables may share provenance.",
+    "No fetch/pull or remote version claim; all repository versions are local snapshots."
+  ],
+  "mechanismEvidence": [
+    "原始资料/repos/touhou-mystia-izakaya-assistant/app/domain/catalog/food/FoodCatalog.ts:145-160,383-402",
+    "原始资料/repos/MystiasIzakaya/src/main/java/org/hiedacamellia/mystiasizakaya/content/cooking/CookingUtils.java:135-155,180-188",
+    "原始资料/repos/MystiasIzakaya/src/main/java/org/hiedacamellia/mystiasizakaya/registries/MIItem.java:146",
+    "原始资料/repos/mystias_izakaya/src/main/java/com/crystal/mystia_izakaya/registry/ItemRegistry.java:100",
+    "原始资料/repos/mystias_izakaya/src/main/java/com/crystal/mystia_izakaya/utils/UtilMethod.java:55-100",
+    "原始资料/repos/mystia-steward-companion/apps/companion/src/recommendation-engine/dynamic-food-tags.ts:3-26",
+    "原始资料/repos/mystia-steward-companion/apps/companion/src/lib/recommendation-data.ts:41-52,69-102"
+  ]
+}

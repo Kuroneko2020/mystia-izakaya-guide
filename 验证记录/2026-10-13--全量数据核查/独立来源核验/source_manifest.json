@@ -1,0 +1,86 @@
+[
+  {
+    "input": "C:\\Users\\kongd\\.zcode\\cli\\artifacts\\sess_subagent_agent_0b78a7b6-fb7a-4c32-985b-f800f0e13369\\call_gJHMXHxcaRftQ3eKbiw6IV3j-tool-result-78acdb5a-6b77-4be4-9581-544d3ee5e0b4.json",
+    "output": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-13--全量数据核查\\独立来源核验\\thbwiki_料理_20261013.snapshot.txt",
+    "bytes": 309581,
+    "sha256": "f35b5816e5bc17b87762b6c29be92cd45585d5b8d1f1b323587de20cdd3d90af",
+    "capturedAt": "2026-10-13T10:59:09.666145+00:00"
+  },
+  {
+    "input": "C:\\Users\\kongd\\.zcode\\cli\\artifacts\\sess_subagent_agent_0b78a7b6-fb7a-4c32-985b-f800f0e13369\\call_IkIyF7FiTryUuyKTourS99vp-tool-result-9e20a935-d57e-45ee-989c-05e3b8c9479d.json",
+    "output": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-13--全量数据核查\\独立来源核验\\thbwiki_食材_20261013.snapshot.txt",
+    "bytes": 105667,
+    "sha256": "5e04acb60a5abb68081e26e22743f42f2884fcf313308041d3832307da50528e",
+    "capturedAt": "2026-10-13T10:59:09.666145+00:00"
+  },
+  {
+    "input": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\原始资料\\thbwiki_资料.txt",
+    "output": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-13--全量数据核查\\独立来源核验\\既有_thbwiki_资料.txt",
+    "bytes": 17177,
+    "sha256": "cfdb1ad3e13523de4529f2a2a7789a264f49778334511b6a30589bbb2a707caf",
+    "capturedAt": "2026-10-13T10:59:09.666145+00:00"
+  },
+  {
+    "input": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\原始资料\\thbwiki_资料.html",
+    "output": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-13--全量数据核查\\独立来源核验\\既有_thbwiki_资料.html",
+    "bytes": 109179,
+    "sha256": "8a2fe7c0879c2b6726b4cfc6221cf54f2e18414f2ddb55f455c4b76be73b4314",
+    "capturedAt": "2026-10-13T10:59:09.666145+00:00"
+  },
+  {
+    "input": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\原始资料\\thbwiki_客人.txt",
+    "output": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-13--全量数据核查\\独立来源核验\\既有_thbwiki_客人.txt",
+    "bytes": 23914,
+    "sha256": "f8b87884968cff682c0f2e9a0a00dc914f70b7645d83c779d535ba46451a71f5",
+    "capturedAt": "2026-10-13T10:59:09.666145+00:00"
+  },
+  {
+    "input": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\原始资料\\thbwiki_客人.html",
+    "output": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-13--全量数据核查\\独立来源核验\\既有_thbwiki_客人.html",
+    "bytes": 120144,
+    "sha256": "4c3ac2d388a0d838cceff5b8bce816ba2eb9e32ddac580b3dcc76477cad07986",
+    "capturedAt": "2026-10-13T10:59:09.666145+00:00"
+  },
+  {
+    "input": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\原始资料\\steamguide3184299736.txt",
+    "output": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-13--全量数据核查\\独立来源核验\\既有_steamguide3184299736.txt",
+    "bytes": 106281,
+    "sha256": "94051df297688b1d3c34fee48fcd24132e72aca8a4183fdc4d0b1ab3e059d669",
+    "capturedAt": "2026-10-13T10:59:09.666145+00:00"
+  },
+  {
+    "input": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\原始资料\\steamguide3184299736.html",
+    "output": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-13--全量数据核查\\独立来源核验\\既有_steamguide3184299736.html",
+    "bytes": 189235,
+    "sha256": "689fd32a825f399285bef668c03584dcc4c62b1831c75217ca505be0e55fbed7",
+    "capturedAt": "2026-10-13T10:59:09.666145+00:00"
+  },
+  {
+    "input": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\原始资料\\repos\\touhou-izakaya-helper\\js\\cook.js",
+    "output": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-13--全量数据核查\\独立来源核验\\gitee_cook.js",
+    "bytes": 41454,
+    "sha256": "d0a8237b63f700faee3f38c37dd55a5a1a452e8db88f1e72991d9b95010219bb",
+    "capturedAt": "2026-10-13T10:59:09.666145+00:00"
+  },
+  {
+    "input": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\原始资料\\repos\\touhou-izakaya-helper\\js\\drinks.js",
+    "output": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-13--全量数据核查\\独立来源核验\\gitee_drinks.js",
+    "bytes": 5893,
+    "sha256": "d29d058d65670b571d27e6dca8d69f4a977b806fcf84af9d6c0c6ad05530bafd",
+    "capturedAt": "2026-10-13T10:59:09.666145+00:00"
+  },
+  {
+    "input": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\原始资料\\repos\\touhou-izakaya-helper\\js\\material.js",
+    "output": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-13--全量数据核查\\独立来源核验\\gitee_material.js",
+    "bytes": 6002,
+    "sha256": "ee2461f5fc3777778f17b1112b1bd4e198a8b965be71f0b53f996d2f6a946268",
+    "capturedAt": "2026-10-13T10:59:09.666145+00:00"
+  },
+  {
+    "input": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\原始资料\\repos\\touhou-izakaya-helper\\js\\npc.js",
+    "output": "D:\\Agent流水线\\东方夜雀食堂\\攻略表\\验证记录\\2026-10-13--全量数据核查\\独立来源核验\\gitee_npc.js",
+    "bytes": 81818,
+    "sha256": "4e0e0a31099a477876dfda12c1e1f243c02d263b8159b16472f02837c6c70412",
+    "capturedAt": "2026-10-13T10:59:09.666145+00:00"
+  }
+]

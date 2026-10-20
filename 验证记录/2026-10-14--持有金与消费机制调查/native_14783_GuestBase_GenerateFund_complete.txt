@@ -1,0 +1,84 @@
+# GameData.Core.Collections.NightSceneUtility.GuestBase::GenerateFund
+# {"declaringType": "GameData.Core.Collections.NightSceneUtility.GuestBase", "typeIndex": 2316, "image": "Assembly-CSharp.dll", "name": "GenerateFund", "metadataMethodIndex": 14783, "token": "0x60039c0", "methodPointerIndex": 14783, "va": "0x1806825d0", "rva": "0x6825d0", "endRva": "0x6825e0", "returnTypeIndex": 26152, "parameters": [{"index": 11406, "name": "baseFund", "typeIndex": 17004}]}
+# range end RVA 0x6826c0; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001806825D0: 40 53              push        rbx
+  00000001806825D2: 48 83 EC 30        sub         rsp,30h
+  00000001806825D6: 80 3D 6B A4 CE 03  cmp         byte ptr [000000018436CA48h],0
+                    00
+  00000001806825DD: 48 8B D9           mov         rbx,rcx
+  00000001806825E0: 48 89 7C 24 40     mov         qword ptr [rsp+40h],rdi
+  00000001806825E5: 48 8B FA           mov         rdi,rdx
+  00000001806825E8: 75 13              jne         00000001806825FD
+  00000001806825EA: 48 8D 0D A7 F1 B4  lea         rcx,[00000001841D1798h]
+                    03
+  00000001806825F1: E8 8A A9 CD FF     call        000000018035CF80
+  00000001806825F6: C6 05 4B A4 CE 03  mov         byte ptr [000000018436CA48h],1
+                    01
+  00000001806825FD: 48 8B 13           mov         rdx,qword ptr [rbx]
+  0000000180682600: 48 8B CB           mov         rcx,rbx
+  0000000180682603: 48 8B 82 C8 01 00  mov         rax,qword ptr [rdx+00000000000001C8h]
+                    00
+  000000018068260A: 48 8B 92 D0 01 00  mov         rdx,qword ptr [rdx+00000000000001D0h]
+                    00
+  0000000180682611: FF D0              call        rax
+  0000000180682613: 48 8B D0           mov         rdx,rax
+  0000000180682616: 45 33 C0           xor         r8d,r8d
+  0000000180682619: 48 C1 EA 20        shr         rdx,20h
+  000000018068261D: 8B C8              mov         ecx,eax
+  000000018068261F: FF C2              inc         edx
+  0000000180682621: E8 8A 88 5B 02     call        0000000182C3AEB0 ; UnityEngine.Random::Range [MI 78162, RVA 0x2c3aeb0] | UnityEngine.Random::RandomRangeInt [MI 78163, RVA 0x2c3aeb0]
+  0000000180682626: 89 07              mov         dword ptr [rdi],eax
+  0000000180682628: 8B D8              mov         ebx,eax
+  000000018068262A: 48 8B 0D 67 F1 B4  mov         rcx,qword ptr [00000001841D1798h]
+                    03
+  0000000180682631: E8 1A 99 A8 00     call        000000018110BF50
+  0000000180682636: 48 8B 7C 24 40     mov         rdi,qword ptr [rsp+40h]
+  000000018068263B: 48 85 C0           test        rax,rax
+  000000018068263E: 74 78              je          00000001806826B8
+  0000000180682640: 0F 29 74 24 20     movaps      xmmword ptr [rsp+20h],xmm6
+  0000000180682645: 33 D2              xor         edx,edx
+  0000000180682647: 48 8B C8           mov         rcx,rax
+  000000018068264A: E8 81 9B E8 FF     call        000000018050C1D0 ; NightScene.EventUtility.EventManager::get_ExtraGenerateFundMultiplier [MI 8977, RVA 0x50c1d0] | NightScene.EventUtility.EventManager::get_ExtraGenerateFundRate [MI 9071, RVA 0x50c1d0]
+  000000018068264F: 80 3D B8 8C CE 03  cmp         byte ptr [000000018436B30Eh],0
+                    00
+  0000000180682656: 0F 28 F0           movaps      xmm6,xmm0
+  0000000180682659: F3 0F 58 35 1F 96  addss       xmm6,dword ptr [0000000182EABC80h]
+                    82 02
+  0000000180682661: 66 0F 6E D3        movd        xmm2,ebx
+  0000000180682665: 0F 57 C9           xorps       xmm1,xmm1
+  0000000180682668: 0F 5B D2           cvtdq2ps    xmm2,xmm2
+  000000018068266B: F3 0F 5F F1        maxss       xmm6,xmm1
+  000000018068266F: F3 0F 59 F2        mulss       xmm6,xmm2
+  0000000180682673: 75 13              jne         0000000180682688
+  0000000180682675: 48 8D 0D C4 50 AE  lea         rcx,[0000000184167740h]
+                    03
+  000000018068267C: E8 FF A8 CD FF     call        000000018035CF80
+  0000000180682681: C6 05 86 8C CE 03  mov         byte ptr [000000018436B30Eh],1
+                    01
+  0000000180682688: 48 8B 0D B1 50 AE  mov         rcx,qword ptr [0000000184167740h]
+                    03
+  000000018068268F: 83 B9 E0 00 00 00  cmp         dword ptr [rcx+00000000000000E0h],0
+                    00
+  0000000180682696: 75 05              jne         000000018068269D
+  0000000180682698: E8 13 AC C7 FF     call        00000001802FD2B0
+  000000018068269D: 0F 57 C0           xorps       xmm0,xmm0
+  00000001806826A0: F3 0F 5A C6        cvtss2sd    xmm0,xmm6
+  00000001806826A4: E8 47 A1 D2 FF     call        00000001803AC7F0
+  00000001806826A9: 0F 28 74 24 20     movaps      xmm6,xmmword ptr [rsp+20h]
+  00000001806826AE: F2 0F 2C C0        cvttsd2si   eax,xmm0
+  00000001806826B2: 48 83 C4 30        add         rsp,30h
+  00000001806826B6: 5B                 pop         rbx
+  00000001806826B7: C3                 ret
+  00000001806826B8: E8 63 AA CD FF     call        000000018035D120
+  00000001806826BD: CC                 int         3
+  00000001806826BE: CC                 int         3
+  00000001806826BF: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

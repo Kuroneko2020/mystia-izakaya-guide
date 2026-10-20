@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "intervalMs": 6000,
+  "comparison": "two viewport screenshots after hover settled",
+  "dimensions": [
+    1280,
+    720
+  ],
+  "pixelEquality": true,
+  "boundary": "not proof of reproducing original device-specific idle flicker"
+}

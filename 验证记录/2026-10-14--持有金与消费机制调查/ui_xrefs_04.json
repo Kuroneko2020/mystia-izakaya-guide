@@ -1,0 +1,78 @@
+{
+  "warning": "Raw E8/E9 candidates; verify with dumpbin before claiming an instruction xref. Inlined, indirect, generic and virtual calls are not covered.",
+  "refs": [
+    {
+      "instructionCandidateVA": "0x1804d6526",
+      "instructionCandidateRVA": "0x4d6526",
+      "opcode": "0xe8",
+      "targetMI": [
+        10393
+      ],
+      "target": "NightScene.UI.WorkSceneSustainedPannel::OpenServePanel [MI 10393, RVA 0x551c50]",
+      "ownerVA": "0x1804d6100",
+      "ownerRVA": "0x4d6100",
+      "owner": "NightScene.GuestManagementUtility.GuestsManager::ShowManualOrder [MI 8520, RVA 0x4d6100]",
+      "ownerMethodIndices": [
+        8520
+      ]
+    },
+    {
+      "instructionCandidateVA": "0x1804d6994",
+      "instructionCandidateRVA": "0x4d6994",
+      "opcode": "0xe8",
+      "targetMI": [
+        10393
+      ],
+      "target": "NightScene.UI.WorkSceneSustainedPannel::OpenServePanel [MI 10393, RVA 0x551c50]",
+      "ownerVA": "0x1804d6570",
+      "ownerRVA": "0x4d6570",
+      "owner": "NightScene.GuestManagementUtility.GuestsManager::ShowOrder [MI 8527, RVA 0x4d6570]",
+      "ownerMethodIndices": [
+        8527
+      ]
+    },
+    {
+      "instructionCandidateVA": "0x1807a6462",
+      "instructionCandidateRVA": "0x7a6462",
+      "opcode": "0xe8",
+      "targetMI": [
+        19488
+      ],
+      "target": "GameData.Profile.DLC2_DecorationSatoriEye::SetNum [MI 19488, RVA 0x78d4f0]",
+      "ownerVA": "0x1807a60e0",
+      "ownerRVA": "0x7a60e0",
+      "owner": "<>c__DisplayClass4_1::<DecorationBuffEnterNight>g__OnSit|4 [MI 19495, RVA 0x7a60e0]",
+      "ownerMethodIndices": [
+        19495
+      ]
+    },
+    {
+      "instructionCandidateVA": "0x1807a6990",
+      "instructionCandidateRVA": "0x7a6990",
+      "opcode": "0xe8",
+      "targetMI": [
+        19488
+      ],
+      "target": "GameData.Profile.DLC2_DecorationSatoriEye::SetNum [MI 19488, RVA 0x78d4f0]",
+      "ownerVA": "0x1807a6910",
+      "ownerRVA": "0x7a6910",
+      "owner": "<>c__DisplayClass4_2::<DecorationBuffEnterNight>g__OrderSet|7 [MI 19498, RVA 0x7a6910]",
+      "ownerMethodIndices": [
+        19498
+      ]
+    },
+    {
+      "instructionCandidateVA": "0x182605893",
+      "instructionCandidateRVA": "0x2605893",
+      "opcode": "0xe9",
+      "targetMI": [
+        8176
+      ],
+      "target": "MusicGame.UI.MusicGameCountDownPannel::get_MaxCountDown [MI 346, RVA 0x3e5d60] | DayScene.UI.RogueLike.DLC5_RogueLikeDataProfile::get_ClothesPrice [MI 5166, RVA 0x3e5d60] | DayScene.UI.RogueLike.DLC5_RogueLikeDataProfileUnchangeable::get_FirstRefreshCardPrice [MI 5322, RVA 0x3e5d60] | NightScene.GuestManagementUtility.GuestGroupController::get_GetFund [MI 8176, RVA 0x3e5d60] | RuntimePlayerDataCache::get_CachedLevel [MI 13947, RVA 0x3e5d60] | UnityEngine.UI.GridLayoutGroup::get_constraint [MI 94198, RVA 0x3e5d60]",
+      "ownerVA": "0x182605880",
+      "ownerRVA": "0x2605880",
+      "owner": "",
+      "ownerMethodIndices": []
+    }
+  ]
+}

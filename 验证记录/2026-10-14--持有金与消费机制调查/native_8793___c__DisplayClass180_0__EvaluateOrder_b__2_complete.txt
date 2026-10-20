@@ -1,0 +1,81 @@
+# <>c__DisplayClass180_0::<EvaluateOrder>b__2
+# {"declaringType": "<>c__DisplayClass180_0", "typeIndex": 1484, "image": "Assembly-CSharp.dll", "name": "<EvaluateOrder>b__2", "metadataMethodIndex": 8793, "token": "0x600225a", "methodPointerIndex": 8793, "va": "0x180522070", "rva": "0x522070", "endRva": "0x52214b", "returnTypeIndex": 33376, "parameters": []}
+# range end RVA 0x522150; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  0000000180522070: 40 53              push        rbx
+  0000000180522072: 55                 push        rbp
+  0000000180522073: 56                 push        rsi
+  0000000180522074: 57                 push        rdi
+  0000000180522075: 48 83 EC 68        sub         rsp,68h
+  0000000180522079: 80 3D 48 9C E4 03  cmp         byte ptr [000000018436BCC8h],0
+                    00
+  0000000180522080: 48 8B D9           mov         rbx,rcx
+  0000000180522083: 0F 29 74 24 50     movaps      xmmword ptr [rsp+50h],xmm6
+  0000000180522088: 75 1F              jne         00000001805220A9
+  000000018052208A: 48 8D 0D 9F FF C8  lea         rcx,[00000001841B2030h]
+                    03
+  0000000180522091: E8 EA AE E3 FF     call        000000018035CF80
+  0000000180522096: 48 8D 0D 73 44 C9  lea         rcx,[00000001841B6510h]
+                    03
+  000000018052209D: E8 DE AE E3 FF     call        000000018035CF80
+  00000001805220A2: C6 05 1F 9C E4 03  mov         byte ptr [000000018436BCC8h],1
+                    01
+  00000001805220A9: 48 8B 7B 58        mov         rdi,qword ptr [rbx+58h]
+  00000001805220AD: 48 8B 73 28        mov         rsi,qword ptr [rbx+28h]
+  00000001805220B1: F3 0F 10 73 30     movss       xmm6,dword ptr [rbx+30h]
+  00000001805220B6: 0F B6 6B 34        movzx       ebp,byte ptr [rbx+34h]
+  00000001805220BA: 48 85 FF           test        rdi,rdi
+  00000001805220BD: 75 39              jne         00000001805220F8
+  00000001805220BF: 48 8B 0D 6A FF C8  mov         rcx,qword ptr [00000001841B2030h]
+                    03
+  00000001805220C6: E8 F5 AF E3 FF     call        000000018035D0C0
+  00000001805220CB: 48 8B F8           mov         rdi,rax
+  00000001805220CE: 48 85 C0           test        rax,rax
+  00000001805220D1: 74 72              je          0000000180522145
+  00000001805220D3: 4C 8B 05 36 44 C9  mov         r8,qword ptr [00000001841B6510h]
+                    03
+  00000001805220DA: 45 33 C9           xor         r9d,r9d
+  00000001805220DD: 48 8B D3           mov         rdx,rbx
+  00000001805220E0: 48 8B C8           mov         rcx,rax
+  00000001805220E3: E8 38 C0 FC 00     call        00000001814EE120
+  00000001805220E8: 48 8D 4B 58        lea         rcx,[rbx+58h]
+  00000001805220EC: 48 89 7B 58        mov         qword ptr [rbx+58h],rdi
+  00000001805220F0: 48 8B D7           mov         rdx,rdi
+  00000001805220F3: E8 B8 A9 E3 FF     call        000000018035CAB0
+  00000001805220F8: 48 85 F6           test        rsi,rsi
+  00000001805220FB: 74 48              je          0000000180522145
+  00000001805220FD: 48 8B 43 20        mov         rax,qword ptr [rbx+20h]
+  0000000180522101: 0F 28 DE           movaps      xmm3,xmm6
+  0000000180522104: 48 C7 44 24 40 00  mov         qword ptr [rsp+40h],0
+                    00 00 00
+  000000018052210D: BA 0A 00 00 00     mov         edx,0Ah
+  0000000180522112: 48 89 44 24 38     mov         qword ptr [rsp+38h],rax
+  0000000180522117: 41 B8 F6 FF FF FF  mov         r8d,0FFFFFFF6h
+  000000018052211D: 48 89 7C 24 30     mov         qword ptr [rsp+30h],rdi
+  0000000180522122: 48 8B CE           mov         rcx,rsi
+  0000000180522125: 40 88 6C 24 28     mov         byte ptr [rsp+28h],bpl
+  000000018052212A: C7 44 24 20 02 00  mov         dword ptr [rsp+20h],2
+                    00 00
+  0000000180522132: E8 D9 BB FA FF     call        00000001804CDD10 ; NightScene.GuestManagementUtility.GuestsManager::Eval [MI 8534, RVA 0x4cdd10]
+  0000000180522137: 0F 28 74 24 50     movaps      xmm6,xmmword ptr [rsp+50h]
+  000000018052213C: 48 83 C4 68        add         rsp,68h
+  0000000180522140: 5F                 pop         rdi
+  0000000180522141: 5E                 pop         rsi
+  0000000180522142: 5D                 pop         rbp
+  0000000180522143: 5B                 pop         rbx
+  0000000180522144: C3                 ret
+  0000000180522145: E8 D6 AF E3 FF     call        000000018035D120
+  000000018052214A: CC                 int         3
+  000000018052214B: CC                 int         3
+  000000018052214C: CC                 int         3
+  000000018052214D: CC                 int         3
+  000000018052214E: CC                 int         3
+  000000018052214F: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp

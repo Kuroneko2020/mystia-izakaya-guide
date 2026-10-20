@@ -1,0 +1,68 @@
+# NightScene.GuestManagementUtility.SpecialGuestsController::GetSpellExecutionContext
+# {"declaringType": "NightScene.GuestManagementUtility.SpecialGuestsController", "typeIndex": 1514, "image": "Assembly-CSharp.dll", "name": "GetSpellExecutionContext", "metadataMethodIndex": 8929, "token": "0x60022e2", "methodPointerIndex": 8929, "va": "0x1805148b0", "rva": "0x5148b0", "endRva": "0x514971", "returnTypeIndex": 30873, "parameters": [{"index": 6447, "name": "onFinish", "typeIndex": 19573}, {"index": 6448, "name": "shouldRecordSpellNum", "typeIndex": 20604}]}
+# range end RVA 0x514971; dumpbin exit 0
+
+Dump of file F:\Games\GamePlats\Steam\steamapps\common\Touhou Mystia Izakaya\GameAssembly.dll
+
+File Type: DLL
+
+  00000001805148B0: 40 53              push        rbx
+  00000001805148B2: 55                 push        rbp
+  00000001805148B3: 56                 push        rsi
+  00000001805148B4: 48 83 EC 40        sub         rsp,40h
+  00000001805148B8: 80 3D 3F 74 E5 03  cmp         byte ptr [000000018436BCFEh],0
+                    00
+  00000001805148BF: 41 0F B6 F0        movzx       esi,r8b
+  00000001805148C3: 48 8B EA           mov         rbp,rdx
+  00000001805148C6: 48 8B D9           mov         rbx,rcx
+  00000001805148C9: 75 13              jne         00000001805148DE
+  00000001805148CB: 48 8D 0D 16 40 C9  lea         rcx,[00000001841A88E8h]
+                    03
+  00000001805148D2: E8 A9 86 E4 FF     call        000000018035CF80
+  00000001805148D7: C6 05 20 74 E5 03  mov         byte ptr [000000018436BCFEh],1
+                    01
+  00000001805148DE: 48 8B 8B A8 01 00  mov         rcx,qword ptr [rbx+00000000000001A8h]
+                    00
+  00000001805148E5: 48 89 7C 24 60     mov         qword ptr [rsp+60h],rdi
+  00000001805148EA: 4C 89 64 24 68     mov         qword ptr [rsp+68h],r12
+  00000001805148EF: 4C 89 74 24 70     mov         qword ptr [rsp+70h],r14
+  00000001805148F4: 4C 89 7C 24 78     mov         qword ptr [rsp+78h],r15
+  00000001805148F9: 48 85 C9           test        rcx,rcx
+  00000001805148FC: 74 6D              je          000000018051496B
+  00000001805148FE: 4C 8B 7B 30        mov         r15,qword ptr [rbx+30h]
+  0000000180514902: 33 D2              xor         edx,edx
+  0000000180514904: 4C 8B F1           mov         r14,rcx
+  0000000180514907: E8 04 6D 17 00     call        000000018068B610 ; GameData.Core.Collections.NightSceneUtility.SpecialGuest::GetSpellLanguage [MI 14739, RVA 0x68b610]
+  000000018051490C: 48 8B 0D D5 3F C9  mov         rcx,qword ptr [00000001841A88E8h]
+                    03
+  0000000180514913: 4C 8B E0           mov         r12,rax
+  0000000180514916: E8 A5 87 E4 FF     call        000000018035D0C0
+  000000018051491B: 48 8B F8           mov         rdi,rax
+  000000018051491E: 48 85 C0           test        rax,rax
+  0000000180514921: 74 48              je          000000018051496B
+  0000000180514923: 48 C7 44 24 38 00  mov         qword ptr [rsp+38h],0
+                    00 00 00
+  000000018051492C: 4D 8B CF           mov         r9,r15
+  000000018051492F: 40 88 74 24 30     mov         byte ptr [rsp+30h],sil
+  0000000180514934: 4D 8B C6           mov         r8,r14
+  0000000180514937: 48 89 6C 24 28     mov         qword ptr [rsp+28h],rbp
+  000000018051493C: 48 8B D3           mov         rdx,rbx
+  000000018051493F: 48 8B C8           mov         rcx,rax
+  0000000180514942: 4C 89 64 24 20     mov         qword ptr [rsp+20h],r12
+  0000000180514947: E8 A4 CB 17 00     call        00000001806914F0 ; GameData.Core.Collections.NightSceneUtility.SpellExecutionContext::.ctor [MI 14810, RVA 0x6914f0]
+  000000018051494C: 4C 8B 7C 24 78     mov         r15,qword ptr [rsp+78h]
+  0000000180514951: 48 8B C7           mov         rax,rdi
+  0000000180514954: 48 8B 7C 24 60     mov         rdi,qword ptr [rsp+60h]
+  0000000180514959: 4C 8B 74 24 70     mov         r14,qword ptr [rsp+70h]
+  000000018051495E: 4C 8B 64 24 68     mov         r12,qword ptr [rsp+68h]
+  0000000180514963: 48 83 C4 40        add         rsp,40h
+  0000000180514967: 5E                 pop         rsi
+  0000000180514968: 5D                 pop         rbp
+  0000000180514969: 5B                 pop         rbx
+  000000018051496A: C3                 ret
+  000000018051496B: E8 B0 87 E4 FF     call        000000018035D120
+  0000000180514970: CC                 int         3
+
+  Summary
+
+     2ACC000 il2cpp
