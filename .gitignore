@@ -3,3 +3,15 @@
 __pycache__/
 *.py[cod]
 node_modules/
+
+# 单文件 >5MB 的原始调查转储，不入库；清单见 验证记录/未入库原始转储清单.md
+/验证记录/2026-10-14--持有金与消费机制调查/game_native_methods_v3.json
+/验证记录/2026-10-14--持有金与消费机制调查/game_native_methods_v2.json
+/验证记录/2026-10-14--持有金与消费机制调查/game_native_methods.json
+/验证记录/2026-10-14--备菜与配餐产品改进/113200/existing_changes.patch
+/验证记录/2026-10-14--备菜与配餐产品改进/113200/meal_domain/meal_domain_python_oracle.json
+/验证记录/2026-10-14--备菜与配餐产品改进/113200/meal_domain/run02/meal_domain_python_oracle.json
+/验证记录/2026-10-14--备菜与配餐产品改进/113200/meal_domain/run03/meal_domain_python_oracle.json
+/验证记录/2026-10-14--持有金与消费机制调查/game_native_fields_v3.json
+/验证记录/2026-10-14--持有金与消费机制调查/game_native_fields.json
+/验证记录/2026-10-17--家常误荐与标签回车/game_semantics_audit_01.json
