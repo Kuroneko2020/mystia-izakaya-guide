@@ -134,6 +134,13 @@ perspective 错落朝向、悬停回正上浮微光，触屏/减动效回退）�
 | [B 站 cv47914353](https://www.bilibili.com/read/cv47914353) | 2026-04-18 | 秦心早期信息（出没/预算），与最新数据存在差异 |
 | [SteamDB 补丁记录](https://steamdb.info/patchnotes/22833821/) | 2026-04-17 | 版本状态核对；另记录 2026-05-09 更新 |
 
+### 授权与署名
+
+- 许可证：除游戏素材与第三方内容外，本仓库代码与 `中间数据/` 下的结构化数据按 **AGPL-3.0** 提供，全文见 [LICENSE](LICENSE)。
+- 上游衍生：`中间数据/*_LIST.json` 为 [AnYiEE/touhou-mystia-izakaya-assistant](https://github.com/AnYiEE/touhou-mystia-izakaya-assistant)（AGPL-3.0）`app/domain/data/**/records.ts` 对应数据的 JSON 导出；逐文件比对、差异与上游声明遵守方式见 [NOTICE.md](NOTICE.md) 与 [中间数据/README.md](中间数据/README.md)。
+- 素材例外：游戏名称、角色与形象、图像、音乐、文本等权利归各自权利人，本仓库仅作非商业识别与展示，不随代码许可授权，详见 NOTICE 第三节。
+- 处理过程与证据见 `记录/2026-10-20--数据来源与授权合规.md`，对应上游 [issue #1](https://github.com/Kuroneko2020/mystia-izakaya-guide/issues/1)。
+
 ## 统计口径
 
 - 菜品标签按夜雀助手 `FoodCatalog` 口径：单价 >60 补“昂贵”，单价 <20 补“实惠”；
