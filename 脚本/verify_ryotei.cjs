@@ -733,11 +733,28 @@ assert.ok(String(tastesEl.innerHTML).includes('data-detail-taste="清淡" data-d
 const mealTasteAgain=tagTest.element('test-taste-meal-again');mealTasteAgain.dataset.detailTaste='清淡';mealTasteAgain.dataset.detailTasteKind='meal';
 tastesEl.appendChild(mealTasteAgain);tagTest.click(mealTasteAgain);tagTest.flush();
 assert.equal(tagApp.state.detailMealChips.length,0,'再点一次取消该标签');
+tagApp.state.detailMealChips=['清淡'];tagApp.state.detailDrinkChips=[];tagTest.click(tagTest.tabs[0]);tagTest.flush();
 const drinkTaste=tagTest.element('test-taste-drink');drinkTaste.dataset.detailTaste='低酒精';drinkTaste.dataset.detailTasteKind='drink';
 tastesEl.appendChild(drinkTaste);tagTest.click(drinkTaste);tagTest.flush();
 assert.equal(tagApp.state.detailTab,'drinks','点头部喜好酒水自动切到推荐酒水页签');
+assert.ok(tagTest.tabs[1].classList.contains('active') && !tagTest.tabs[0].classList.contains('active'),'页签高亮随跳转切换');
+assert.equal(tagApp.state.detailMealChips.length,0,'料理页点酒水标签时取消料理页已选标签');
 assert.deepEqual(Array.from(tagApp.state.detailDrinkChips),['低酒精'],'酒水标签写入detailDrinkChips');
-tagApp.state.detailDrinkChips=[];tagTest.click(tagTest.tabs[0]);tagTest.flush();
+// 反向：酒水页点喜好料理标签，取消酒水页标签并跳到推荐料理。
+tagApp.state.detailMealChips=[];tagApp.state.detailDrinkChips=['低酒精'];
+const mealTasteCross=tagTest.element('test-taste-meal-cross');mealTasteCross.dataset.detailTaste='清淡';mealTasteCross.dataset.detailTasteKind='meal';
+tastesEl.appendChild(mealTasteCross);tagTest.click(mealTasteCross);tagTest.flush();
+assert.equal(tagApp.state.detailTab,'meals','酒水页点喜好料理跳到推荐料理页签');
+assert.equal(tagApp.state.detailDrinkChips.length,0,'酒水页点料理标签时取消酒水页已选标签');
+assert.deepEqual(Array.from(tagApp.state.detailMealChips),['清淡'],'料理标签写入detailMealChips');
+// 只有跨页签才取消对侧；同页签内点击只切换自己这一项。
+tagApp.state.detailMealChips=[];tagApp.state.detailDrinkChips=['低酒精'];
+const mealTasteSame=tagTest.element('test-taste-meal-same');mealTasteSame.dataset.detailTaste='清淡';mealTasteSame.dataset.detailTasteKind='meal';
+tastesEl.appendChild(mealTasteSame);tagTest.click(mealTasteSame);tagTest.flush();
+assert.equal(tagApp.state.detailTab,'meals','同页签内点击不跳页签');
+assert.deepEqual(Array.from(tagApp.state.detailMealChips),['清淡']);
+assert.deepEqual(Array.from(tagApp.state.detailDrinkChips),['低酒精'],'同页签内点击不清空另一侧标签');
+tagApp.state.detailMealChips=[];tagApp.state.detailDrinkChips=[];
 const syncChip=tagTest.element('test-sync-chip');syncChip.dataset.detailChip='清淡';tagTest.body.appendChild(syncChip);tagTest.click(syncChip);tagTest.flush();
 assert.ok(String(tastesEl.innerHTML).includes('data-detail-taste="清淡" data-detail-taste-kind="meal" aria-pressed="true"'),'红框chip点击后头部同步高亮');
 tagApp.state.detailMealChips=[];tagApp.state.detailDrinkChips=[];tagTest.click(tagTest.tabs[0]);tagTest.flush();

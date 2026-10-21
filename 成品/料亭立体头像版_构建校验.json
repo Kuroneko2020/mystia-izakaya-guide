@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-20",
-  "builtAtFull": "2026-10-20 18:11 +0800",
+  "builtAt": "2026-10-21",
+  "builtAtFull": "2026-10-21 21:55 +0800",
   "variant": "料亭立体头像版",
   "method": "独立构建入口 build_html_ryotei_avatar.py：模板+CSS+UI+导航+数据基线整体重建，客人图鉴立体头像效果块由 脚本/guest_avatar_3d.css 原样注入 </head> 前；不调用 build_html_ryotei.main()，不重写 成品/旧版 中的料亭优化版与 3D 试验版",
   "namingPolicy": "成品不覆盖：新件 东方夜雀食堂攻略查询_yymmddHHMM.html，上一份活成品移入 成品/旧版/ 保留原名",
-  "outputFile": "东方夜雀食堂攻略查询_2610201811.html",
-  "archivedPrevious": "东方夜雀食堂攻略查询_2610181648.html",
+  "outputFile": "东方夜雀食堂攻略查询_2610212155.html",
+  "archivedPrevious": "东方夜雀食堂攻略查询_2610212154.html",
   "dataSource": "中间数据/料亭版攻略数据基线.json",
   "appDataSha256": "a9a3e244c2b14ada610b8dc39b4daa666ec7aeb31ee2fb02604d8d00b45430fd",
   "guestFoodRulesSource": "中间数据/GAME_GUEST_FOOD_RULES.json",
@@ -16,8 +16,8 @@
   },
   "avatarBlockSha256": "1a9574920518f421784602b6447e97130260e85f26c8d56bf8d25225e87ef3b5",
   "avatarBlockBytes": 3180,
-  "outputSha256": "0fbeb91257da67b9e69ef4b042dcf33f12528996ec182daa4aade6d6a8de9a25",
-  "outputBytes": 2597403,
+  "outputSha256": "0fb9a0e317e5e8776cd65e9cf9fc1f1c415d7775d2c08ef648436ebef50075c1",
+  "outputBytes": 2597637,
   "assetCounts": {
     "avatars": 59,
     "icons": 271,
@@ -57,6 +57,7 @@
     "客人料理推荐补原生负向彩蛋和食材特例排除，详情、备菜、覆盖榜与加料共用规则；不改原始攻略基线",
     "详情料理/酒水支持中文、全拼、首字母回车加入标签，拒绝歧义缩写，保护输入法确认，保留输入焦点与完整候选",
     "料理/酒水标签统一按游戏图鉴 Tag 列表顺序显示（筛选建议、客人卡片、详情头部、表格标签与命中喜好），派生价格/大份标签按游戏 Tag 序号插位、动态流行标签殿后",
-    "按用户要求移除各界面“固定口味候选，不保证本次点单评价”说明；特殊判定仍保留在客人详情和普通客人卡片提示"
+    "按用户要求移除各界面“固定口味候选，不保证本次点单评价”说明；特殊判定仍保留在客人详情和普通客人卡片提示",
+    "详情头部喜好料理/喜好酒水标签＝页签内筛选 chip 的快捷入口；点对侧标签先取消对侧已选标签再跳到对应页签（料理↔酒水双向），厌恶与动态标签保持不可点"
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-10-21T13:58:03.600Z",
+  "liveOutput": "东方夜雀食堂攻略查询_2610212155.html",
+  "guest": "比那名居天子",
+  "browser": "Microsoft Edge (Playwright chromium channel=msedge, headless)",
+  "viewport": "1440x1000",
+  "assertions": {
+    "mealTagApplied": "昂贵",
+    "drinkTagApplied": "高酒精",
+    "mealToDrinkCancelledMealChips": true,
+    "drinkToMealCancelledDrinkChips": true,
+    "samePaneKeepsOtherSide": true,
+    "consoleErrors": 0
+  },
+  "note": "核验只读成品 file:// 预览；不代表用户实机使用验收。"
+}

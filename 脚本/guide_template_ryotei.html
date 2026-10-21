@@ -2099,21 +2099,24 @@ function bindEvents(){
     if (guest) renderDetailPane(guest);
   });
   // 头部口味标签是页签内筛选 chip 的快捷入口：写入同一份 state，并回写两边高亮。
+  // 料理/酒水标签分属两个页签的词表：点击对侧标签时先取消对侧已选标签再跳过去，
+  // 两个页签的标签筛选不同时留着，避免“回到料理页还挂着上一轮的料理标签”。
   $('#detail-tastes').addEventListener('click', (e) => {
     const tagBtn = e.target.closest('[data-detail-taste]');
     if (!tagBtn) return;
     const kind = tagBtn.dataset.detailTasteKind === 'drink' ? 'drink' : 'meal';
+    const targetTab = kind === 'drink' ? 'drinks' : 'meals';
+    if (state.detailTab !== targetTab) {
+      state[kind === 'drink' ? 'detailMealChips' : 'detailDrinkChips'] = [];
+      state.detailTab = targetTab;
+      state.paneGuest = '';
+      $$('#detail-tabs [data-detail-tab]').forEach((b) => b.classList.toggle('active', b.dataset.detailTab === targetTab));
+    }
     const key = kind === 'drink' ? 'detailDrinkChips' : 'detailMealChips';
     const arr = state[key] || (state[key] = []);
     const tag = tagBtn.dataset.detailTaste;
     const index = arr.indexOf(tag);
     if (index >= 0) arr.splice(index, 1); else arr.push(tag);
-    // 酒水标签属于推荐酒水页签的词表，停在其他页签时先切过去，避免点了看不到结果。
-    if (kind === 'drink' && state.detailTab !== 'drinks') {
-      state.detailTab = 'drinks';
-      state.paneGuest = '';
-      $$('#detail-tabs [data-detail-tab]').forEach((b) => b.classList.toggle('active', b.dataset.detailTab === 'drinks'));
-    }
     const guest = ryoteiGuestRecord(state.openGuest);
     if (guest) renderDetailPane(guest);
     ryoteiRefreshTastes();

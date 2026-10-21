@@ -1,0 +1,10 @@
+# 2026-10-21 回归结果
+2026-10-21 21:57:51 +0800
+EXIT=0 node 脚本/verify_ryotei.cjs
+PASS: 攻略 JSON、离线资源、脚本语法、11 页导航、地区/共享客人、精确定位与幂等�
+EXIT=0 node 脚本/verify_full_recommendations.cjs
+PASS: 106 位客人的全部料理和酒水匹配集合、厌恶/原生彩蛋排除、食材特例、动态标
+EXIT=0 NODE_PATH=pw_bridge node 脚本/调试/verify_tag_order_2026-10-18.cjs
+PASS: 标签显示顺序（料理/酒水）与各界面固定口味候选提示移除，浏览器核验完成�
+EXIT=0 NODE_PATH=pw_bridge node 脚本/调试/verify_detail_taste_2026-10-21.cjs
+PASS: 详情料理↔酒水跨页签点头部标签＝取消对侧已选标签并跳页签（双向），同�
